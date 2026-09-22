@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { BookOpen, GraduationCap, CheckCircle2, ArrowRight, ExternalLink, Sparkles, Award } from 'lucide-react';
 import { COURSES_DATA } from '../data/readingsData';
-import { ReadingHistorySection } from '../components/ReadingHistorySection';
 
 export const CoursesPage: React.FC = () => {
   const [activeTab, setActiveTab] = useState<'all' | 'tarot' | 'reiki'>('all');
@@ -137,11 +136,6 @@ export const CoursesPage: React.FC = () => {
           <p className="text-xs sm:text-sm text-[#6A5741] leading-relaxed">
             All certifications carry direct Usui Shiki Ryoho lineage attunements and recognized accreditation under The Tarot Company. Small batch sizes ensure direct mentor attention.
           </p>
-        </div>
-
-        {/* Sacred Lineage & Ritual Video Section */}
-        <div className="mt-16 -mx-4 sm:-mx-6 lg:-mx-8">
-          <ReadingHistorySection />
         </div>
       </div>
     </div>

@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { Sparkles, Compass, HeartHandshake, ShieldCheck, ArrowRight, ExternalLink, CheckCircle2 } from 'lucide-react';
 import { SERVICES_CATEGORIES } from '../data/readingsData';
 import { Link } from 'react-router-dom';
-import { ReadingHistorySection } from '../components/ReadingHistorySection';
 
 interface ServicesPageProps {
   etsyBaseUrl: string;
@@ -172,11 +171,6 @@ export const ServicesPage: React.FC<ServicesPageProps> = ({ etsyBaseUrl }) => {
           >
             Inquire About Program
           </a>
-        </div>
-
-        {/* The Mechanics, Importance & Ritual Video Sanctuary */}
-        <div className="mt-20 -mx-4 sm:-mx-6 lg:-mx-8">
-          <ReadingHistorySection />
         </div>
       </div>
     </div>

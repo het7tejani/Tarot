@@ -2,7 +2,6 @@ import React from 'react';
 import { Feather, ShoppingBag, Mail, CheckCircle2, ShieldCheck, Clock, ExternalLink } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { HOW_IT_WORKS_STEPS } from '../data/readingsData';
-import { ReadingHistorySection } from '../components/ReadingHistorySection';
 
 interface HowItWorksPageProps {
   etsyBaseUrl: string;
@@ -116,11 +115,6 @@ export const HowItWorksPage: React.FC<HowItWorksPageProps> = ({ etsyBaseUrl }) =
               </div>
             </div>
           </div>
-        </div>
-
-        {/* Deep Dive Section: Reading History, Mechanisms & Importance with Video and Imagery */}
-        <div className="mt-20 -mx-4 sm:-mx-6 lg:-mx-8">
-          <ReadingHistorySection etsyBaseUrl={etsyBaseUrl} />
         </div>
 
         {/* Direct Action banner */}

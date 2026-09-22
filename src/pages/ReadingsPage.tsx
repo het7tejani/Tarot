@@ -3,7 +3,6 @@ import { useSearchParams } from 'react-router-dom';
 import { Sparkles, ShieldCheck, CheckCircle2, ArrowRight, ExternalLink, X } from 'lucide-react';
 import { READINGS_DATA } from '../data/readingsData';
 import { ReadingTopic } from '../types';
-import { ReadingHistorySection } from '../components/ReadingHistorySection';
 import {
   HeartHandshake,
   Compass,
@@ -250,11 +249,6 @@ export const ReadingsPage: React.FC<ReadingsPageProps> = ({
           <span>No registration required on this website</span>
           <span className="hidden sm:inline text-[#1f2322]/30">•</span>
           <span>Guaranteed delivery within 24–48 hours</span>
-        </div>
-
-        {/* Sacred History, Mechanics & Video Sanctuary */}
-        <div className="mt-20 -mx-4 sm:-mx-6 lg:-mx-8">
-          <ReadingHistorySection />
         </div>
       </div>
     </div>

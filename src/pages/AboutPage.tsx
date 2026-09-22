@@ -2,7 +2,6 @@ import React from 'react';
 import { Sparkles, Heart, Lock, Feather, Award, BookOpen, Star, CheckCircle2, ShieldCheck } from 'lucide-react';
 import { CORE_VALUES } from '../data/readingsData';
 import { Link } from 'react-router-dom';
-import { ReadingHistorySection } from '../components/ReadingHistorySection';
 
 export const AboutPage: React.FC = () => {
   return (
@@ -167,11 +166,6 @@ export const AboutPage: React.FC = () => {
             <span>•</span>
             <span>Author of Hindi Tarot Literature</span>
           </div>
-        </div>
-
-        {/* The Sacred Lineage, Mechanics & Altar Ritual Video */}
-        <div className="mt-16 -mx-4 sm:-mx-6 lg:-mx-8">
-          <ReadingHistorySection />
         </div>
       </div>
     </div>

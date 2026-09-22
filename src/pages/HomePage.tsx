@@ -25,7 +25,6 @@ import {
   TESTIMONIALS
 } from '../data/readingsData';
 import { ReadingTopic } from '../types';
-import { ReadingHistorySection } from '../components/ReadingHistorySection';
 
 interface HomePageProps {
   onSelectReading: (reading: ReadingTopic) => void;
@@ -444,12 +443,6 @@ export const HomePage: React.FC<HomePageProps> = ({ onSelectReading, getEtsyUrl 
           </div>
         </div>
       </section>
-
-      {/* Reading History, Mechanics & Importance Section with Video & Top-Notch Images */}
-      <ReadingHistorySection
-        onBookClick={() => {}}
-        etsyBaseUrl="https://www.etsy.com/shop/PsychicEra"
-      />
 
       {/* 6. Popular Courses Preview (Clean, open layout) */}
       <section className="py-20 border-t border-[#1f2322]/10">

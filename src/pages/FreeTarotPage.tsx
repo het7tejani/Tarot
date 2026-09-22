@@ -4,7 +4,6 @@ import { FREE_TAROT_CARDS } from '../data/readingsData';
 import { TarotCard } from '../types';
 import { Link } from 'react-router-dom';
 import { SEOHead } from '../components/SEOHead';
-import { ReadingHistorySection } from '../components/ReadingHistorySection';
 
 export const FreeTarotPage: React.FC = () => {
   const [spreadMode, setSpreadMode] = useState<'single' | 'three'>('single');
@@ -495,11 +494,6 @@ export const FreeTarotPage: React.FC = () => {
               </div>
             </div>
           )}
-        </div>
-
-        {/* Video Sanctuary & History of Tarot Lineage */}
-        <div className="mt-20 -mx-4 sm:-mx-6 lg:-mx-8">
-          <ReadingHistorySection />
         </div>
 
         {/* Full-Resolution Card Inspector Modal (Clean, unboxed modal dialog) */}

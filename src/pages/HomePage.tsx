@@ -84,7 +84,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onSelectReading, getEtsyUrl 
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 sm:gap-4 max-w-4xl mx-auto mb-14">
             <div className="relative aspect-4/3 rounded-xl overflow-hidden shadow-xs border border-[#1f2322]/10 bg-[#e9e0d1] group">
               <img
-                src="https://images.unsplash.com/photo-1514537092892-23c2a9d821fc?auto=format&fit=crop&w=600&q=80"
+                src="https://images.unsplash.com/photo-1638803040283-7a5ffd48dad5?auto=format&fit=crop&w=600&q=80"
                 alt="Consecrated Tarot Altar and Cards"
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                 loading="lazy"
@@ -243,6 +243,9 @@ export const HomePage: React.FC<HomePageProps> = ({ onSelectReading, getEtsyUrl 
                         className="w-full h-full object-cover group-hover:scale-103 transition-transform duration-300"
                         loading="lazy"
                         referrerPolicy="no-referrer"
+                        onError={(e) => {
+                          e.currentTarget.src = 'https://images.unsplash.com/photo-1638803040283-7a5ffd48dad5?auto=format&fit=crop&w=800&q=80';
+                        }}
                       />
                       {reading.badge && (
                         <span className="absolute top-2.5 left-2.5 px-2.5 py-1 rounded-full text-[10px] font-semibold tracking-wider bg-[#1f2322]/90 text-[#FAF8F5] backdrop-blur-xs shadow-xs">
@@ -399,7 +402,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onSelectReading, getEtsyUrl 
                 <div className="relative w-16 h-16 sm:w-20 sm:h-20 rounded-full overflow-hidden border-2 border-[#73a89a]/30 shrink-0 shadow-sm">
                   <img
                     src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=400&q=80"
-                    alt="Poonam Sharma - Founder & Master Intuitive"
+                    alt="Daisy Hayes - Shop Owner & Master Intuitive"
                     className="w-full h-full object-cover"
                     loading="lazy"
                     referrerPolicy="no-referrer"
@@ -407,10 +410,10 @@ export const HomePage: React.FC<HomePageProps> = ({ onSelectReading, getEtsyUrl 
                 </div>
                 <div>
                   <h3 className="font-semibold text-xl text-[#1f2322]">
-                    Poonam Sharma
+                    Daisy Hayes
                   </h3>
-                  <p className="text-xs text-[#73a89a] font-semibold">Founder &amp; Master Intuitive</p>
-                  <p className="text-xs text-[#1f2322]/60 mt-0.5">Author of pioneering Hindi Tarot literature</p>
+                  <p className="text-xs text-[#73a89a] font-semibold">Shop Owner &amp; Master Intuitive</p>
+                  <p className="text-xs text-[#1f2322]/60 mt-0.5">Founder of The Tarot Company &amp; PsychicEra</p>
                 </div>
               </div>
 

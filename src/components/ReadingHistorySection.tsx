@@ -42,7 +42,7 @@ export const ReadingHistorySection: React.FC<ReadingHistorySectionProps> = ({
       subtitle: 'Hands of the intuitive drawing linen cards',
       tag: 'Tarot Spread',
       src: 'https://assets.mixkit.co/videos/preview/mixkit-hands-of-a-woman-holding-tarot-cards-42635-large.mp4',
-      poster: 'https://images.unsplash.com/photo-1514537092892-23c2a9d821fc?q=80&w=1600&auto=format&fit=crop'
+      poster: 'https://images.unsplash.com/photo-1638803040283-7a5ffd48dad5?q=80&w=1600&auto=format&fit=crop'
     },
     {
       id: 'candles',
@@ -202,7 +202,7 @@ export const ReadingHistorySection: React.FC<ReadingHistorySectionProps> = ({
             <video
               id="tarot-reading-video"
               className="w-full h-full object-cover opacity-90 transition-opacity duration-500"
-              poster="https://images.unsplash.com/photo-1514537092892-23c2a9d821fc?q=80&w=1600&auto=format&fit=crop"
+              poster="https://images.unsplash.com/photo-1638803040283-7a5ffd48dad5?q=80&w=1600&auto=format&fit=crop"
               playsInline
               loop
               muted={isMuted}

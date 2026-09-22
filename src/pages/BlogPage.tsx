@@ -147,7 +147,7 @@ export const BlogPage: React.FC<BlogPageProps> = ({ onSelectReading }) => {
             Esoteric Wisdom &amp; Guidance
           </h1>
           <p className="text-base sm:text-lg text-[#1f2322]/75 font-serif italic leading-relaxed max-w-2xl mx-auto">
-            Deep-dive explorations into Tarot symbolism, energetic boundary clearing, astrological cycles, and clairvoyant discernment by Master Healer Mystic Poonam.
+            Deep-dive explorations into Tarot symbolism, energetic boundary clearing, astrological cycles, and clairvoyant discernment by Master Healer &amp; Shop Owner Daisy Hayes.
           </p>
 
           {/* In-Blog Search Bar */}

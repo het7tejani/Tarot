@@ -25,25 +25,11 @@ export default function App() {
   const [selectedReading, setSelectedReading] = useState<ReadingTopic | null>(null);
   const [isEtsySettingsOpen, setIsEtsySettingsOpen] = useState(false);
 
-  // Theme State: 'light' or 'dark' (Celestial Night)
-  const [theme, setTheme] = useState<'light' | 'dark'>(() => {
-    const saved = localStorage.getItem('app_theme');
-    if (saved === 'dark' || saved === 'light') return saved;
-    return window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
-  });
-
+  // Pure Light Theme enforcement
   useEffect(() => {
-    if (theme === 'dark') {
-      document.documentElement.classList.add('dark');
-    } else {
-      document.documentElement.classList.remove('dark');
-    }
-    localStorage.setItem('app_theme', theme);
-  }, [theme]);
-
-  const handleToggleTheme = () => {
-    setTheme(prev => (prev === 'light' ? 'dark' : 'light'));
-  };
+    document.documentElement.classList.remove('dark');
+    localStorage.removeItem('app_theme');
+  }, []);
 
   // Etsy URL State persisted in localStorage
   const [baseShopUrl, setBaseShopUrl] = useState<string>(() => {
@@ -96,8 +82,6 @@ export default function App() {
         <Header
           onOpenSettings={() => setIsEtsySettingsOpen(true)}
           etsyBaseUrl={baseShopUrl}
-          isDark={theme === 'dark'}
-          onToggleTheme={handleToggleTheme}
           onSelectReading={(reading) => setSelectedReading(reading)}
         />
 
@@ -191,7 +175,7 @@ export default function App() {
         {/* Floating Quick Action Buttons (WhatsApp Booking + Free Tarot) */}
         <div className="fixed bottom-5 right-5 z-30 flex flex-col gap-2 items-end">
           <a
-            href="https://wa.me/919872771591?text=Hi%20Mystic%20Poonam%2C%20I%20would%20like%20to%20inquire%20about%20a%20session."
+            href="https://wa.me/919872771591?text=Hi%20Daisy%2C%20I%20would%20like%20to%20inquire%20about%20a%20session."
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 px-4 py-2.5 rounded-full text-xs font-semibold shadow-lg transition-all border border-[#25D366]/40 bg-[#25D366] text-[#FFFFFF] hover:bg-[#20ba5a] active:scale-95"

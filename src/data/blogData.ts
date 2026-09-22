@@ -9,13 +9,13 @@ export const INITIAL_BLOG_POSTS: BlogPost[] = [
     date: 'Sep 18, 2026',
     readTime: '6 min read',
     excerpt: 'Pages, Knights, Queens, and Kings often confound readers. Learn how elemental personalities and rank psychology transform confusing court spreads into crystal-clear character portraits.',
-    coverImage: 'https://images.unsplash.com/photo-1514537092892-23c2a9d821fc?auto=format&fit=crop&w=1200&q=80',
+    coverImage: 'https://images.unsplash.com/photo-1638803040283-7a5ffd48dad5?auto=format&fit=crop&w=1200&q=80',
     featured: true,
     published: true,
     views: 1420,
     author: {
-      name: 'Mystic Poonam',
-      role: 'Founder & Grandmaster Tarot Reader',
+      name: 'Daisy Hayes',
+      role: 'Shop Owner & Master Intuitive',
       avatar: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=200&q=80'
     },
     tags: ['Tarot Wisdom', 'Court Cards', 'Minor Arcana', 'Beginner Guide'],
@@ -54,8 +54,8 @@ When you see multiple court cards in a spread, ask yourself: *Is this a boardroo
     published: true,
     views: 2190,
     author: {
-      name: 'Mystic Poonam',
-      role: 'Grandmaster Healer & Reiki Master',
+      name: 'Daisy Hayes',
+      role: 'Shop Owner & Master Intuitive',
       avatar: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=200&q=80'
     },
     tags: ['Energy Healing', 'Cord Cutting', 'Aura Protection', 'Reiki'],
@@ -135,8 +135,8 @@ Booking your annual reading within two weeks of your birthday aligns your subcon
     published: true,
     views: 3120,
     author: {
-      name: 'Mystic Poonam',
-      role: 'Founder & Grandmaster Tarot Reader',
+      name: 'Daisy Hayes',
+      role: 'Shop Owner & Master Intuitive',
       avatar: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=200&q=80'
     },
     tags: ['Love Readings', 'Twin Flames', 'Soulmates', 'Karmic Cycles'],
@@ -215,8 +215,8 @@ Work with traditional symbols (Circle, Cross, Waves, Square, Star). Training wit
     published: true,
     views: 2670,
     author: {
-      name: 'Mystic Poonam',
-      role: 'Founder & Grandmaster Tarot Reader',
+      name: 'Daisy Hayes',
+      role: 'Shop Owner & Master Intuitive',
       avatar: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=200&q=80'
     },
     tags: ['Major Arcana', 'Fools Journey', 'Jungian Tarot', 'Psychology'],
@@ -262,8 +262,8 @@ Now comes the trial of illusions:
     published: true,
     views: 1150,
     author: {
-      name: 'Mystic Poonam',
-      role: 'Usui Shiki Ryoho Grandmaster Healer',
+      name: 'Daisy Hayes',
+      role: 'Shop Owner & Master Intuitive',
       avatar: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=200&q=80'
     },
     tags: ['Reiki', 'Chakras', 'Biofield', 'Spiritual Hygiene'],
@@ -293,13 +293,13 @@ Experiencing a distance or in-person Reiki clearing feels like slipping into a w
     date: 'Jul 28, 2026',
     readTime: '7 min read',
     excerpt: 'Authentic divination should never disempower you or make you dependent on a reader. Here are our non-negotiable ethical commitments to seekers and practitioners alike.',
-    coverImage: 'https://images.unsplash.com/photo-1514537092892-23c2a9d821fc?auto=format&fit=crop&w=1200&q=80',
+    coverImage: 'https://images.unsplash.com/photo-1638803040283-7a5ffd48dad5?auto=format&fit=crop&w=1200&q=80',
     featured: false,
     published: true,
     views: 1530,
     author: {
-      name: 'Mystic Poonam',
-      role: 'Founder & Grandmaster Tarot Reader',
+      name: 'Daisy Hayes',
+      role: 'Shop Owner & Master Intuitive',
       avatar: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=200&q=80'
     },
     tags: ['Ethics', 'Free Will', 'Spiritual Practice', 'Consultation'],

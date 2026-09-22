@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { Menu, X, ExternalLink, Sparkles, SlidersHorizontal, Sun, Moon, Search, Lock } from 'lucide-react';
+import React, { useState, useEffect } from 'react';
+import { Menu, X, ExternalLink, Sparkles, SlidersHorizontal, Search, Lock } from 'lucide-react';
 import { NavLink, Link } from 'react-router-dom';
 import { HeaderSearch } from './HeaderSearch';
 import { ReadingTopic } from '../types';
@@ -7,25 +7,60 @@ import { ReadingTopic } from '../types';
 interface HeaderProps {
   onOpenSettings?: () => void;
   etsyBaseUrl: string;
-  isDark?: boolean;
-  onToggleTheme?: () => void;
   onSelectReading?: (reading: ReadingTopic) => void;
 }
 
 export const Header: React.FC<HeaderProps> = ({
   onOpenSettings,
   etsyBaseUrl,
-  isDark = false,
-  onToggleTheme,
   onSelectReading
 }) => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isMobileSearchExpanded, setIsMobileSearchExpanded] = useState(false);
+  const [isVisible, setIsVisible] = useState(true);
+
+  // Auto-hide navbar on scroll down, reappear smoothly on scroll up or at page top
+  useEffect(() => {
+    let lastScrollY = window.scrollY;
+
+    const handleScroll = () => {
+      const currentScrollY = window.scrollY;
+
+      // Always show at top of page
+      if (currentScrollY <= 20) {
+        setIsVisible(true);
+        lastScrollY = currentScrollY;
+        return;
+      }
+
+      // Keep navbar visible if mobile drawer or search dropdown is open
+      if (isMobileMenuOpen || isMobileSearchExpanded) {
+        setIsVisible(true);
+        return;
+      }
+
+      const deltaY = currentScrollY - lastScrollY;
+      // Scroll down threshold -> hide
+      if (deltaY > 6 && currentScrollY > 70) {
+        setIsVisible(false);
+      } else if (deltaY < -6) {
+        // Scroll up -> show
+        setIsVisible(true);
+      }
+
+      lastScrollY = currentScrollY;
+    };
+
+    window.addEventListener('scroll', handleScroll, { passive: true });
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, [isMobileMenuOpen, isMobileSearchExpanded]);
 
   return (
     <header
       id="header"
-      className="fixed top-0 left-0 right-0 z-40 bg-[#f4efec]/95 dark:bg-[#121514]/95 backdrop-blur-md border-b border-[#1f2322]/10 dark:border-white/10 transition-colors duration-200 shadow-xs"
+      className={`fixed top-0 left-0 right-0 z-40 bg-[#f4efec]/95 backdrop-blur-md border-b border-[#1f2322]/10 transition-transform duration-300 ease-in-out shadow-xs ${
+        isVisible ? 'translate-y-0' : '-translate-y-full shadow-none pointer-events-none'
+      }`}
     >
       {/* ─── UPPER DECK: Brand, Central Search Bar, Utility Actions & Etsy Store ─── */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 sm:h-17 flex items-center justify-between gap-3 sm:gap-6">
@@ -76,7 +111,7 @@ export const Header: React.FC<HeaderProps> = ({
           {/* Admin CMS Access Link */}
           <Link
             to="/admin"
-            className="hidden lg:inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-medium text-[#1f2322]/70 dark:text-[#f4efec]/70 hover:text-[#1f2322] dark:hover:text-white hover:bg-[#1f2322]/5 dark:hover:bg-white/5 transition-colors border border-[#1f2322]/10 dark:border-white/10"
+            className="hidden lg:inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-medium text-[#1f2322]/70 hover:text-[#1f2322] hover:bg-[#1f2322]/5 transition-colors border border-[#1f2322]/10"
             title="Admin CMS & Blog Manager"
             id="header-admin-cms-link"
           >
@@ -84,31 +119,12 @@ export const Header: React.FC<HeaderProps> = ({
             <span>Admin CMS</span>
           </Link>
 
-          {/* Theme Toggle */}
-          {onToggleTheme && (
-            <button
-              onClick={onToggleTheme}
-              className="p-2 rounded-full text-[#1f2322]/70 dark:text-[#f4efec]/70 hover:text-[#1f2322] dark:hover:text-white hover:bg-[#1f2322]/5 dark:hover:bg-white/5 transition-all duration-300 focus:outline-none"
-              title={isDark ? "Switch to Light Mode" : "Switch to Celestial Night Mode"}
-              aria-label={isDark ? "Switch to Light Mode" : "Switch to Celestial Night Mode"}
-              id="theme-toggle-btn-desktop"
-            >
-              <div className="relative w-4.5 h-4.5 flex items-center justify-center">
-                {isDark ? (
-                  <Sun className="w-4.5 h-4.5 text-[#e5a93c] transition-transform duration-300 rotate-0 hover:rotate-45" />
-                ) : (
-                  <Moon className="w-4.5 h-4.5 text-[#1f2322] transition-transform duration-300 rotate-0 hover:-rotate-12" />
-                )}
-              </div>
-            </button>
-          )}
-
           {/* Etsy Shop Primary Button */}
           <a
             href={etsyBaseUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="hidden sm:inline-flex items-center gap-1.5 px-3.5 sm:px-4 py-2 rounded-full text-xs font-semibold bg-[#1f2322] dark:bg-[#FAF8F5] text-[#fdfcfb] dark:text-[#1f2322] hover:bg-[#73a89a] dark:hover:bg-[#85c2b2] dark:hover:text-white transition-colors shadow-xs whitespace-nowrap"
+            className="hidden sm:inline-flex items-center gap-1.5 px-3.5 sm:px-4 py-2 rounded-full text-xs font-semibold bg-[#1f2322] text-[#fdfcfb] hover:bg-[#73a89a] transition-colors shadow-xs whitespace-nowrap"
             id="header-etsy-shop-btn"
           >
             <span>Etsy Shop</span>
@@ -381,22 +397,6 @@ export const Header: React.FC<HeaderProps> = ({
               </span>
               <span className="text-[10px] px-2 py-0.5 rounded-full bg-[#73a89a]/10 text-[#73a89a]">Manage</span>
             </Link>
-
-            {onToggleTheme && (
-              <button
-                onClick={onToggleTheme}
-                className="w-full flex items-center justify-between py-2.5 px-3 rounded-lg bg-[#1f2322]/5 text-[#1f2322] font-medium text-sm transition-colors hover:bg-[#1f2322]/10"
-                id="theme-toggle-btn-mobile"
-              >
-                <span className="flex items-center gap-2">
-                  {isDark ? <Sun className="w-4 h-4 text-[#e5a93c]" /> : <Moon className="w-4 h-4 text-[#1f2322]" />}
-                  <span>{isDark ? 'Light Theme' : 'Celestial Night Theme'}</span>
-                </span>
-                <span className="text-[11px] text-[#1f2322]/60 uppercase tracking-wider font-semibold">
-                  {isDark ? 'Dark On' : 'Light On'}
-                </span>
-              </button>
-            )}
 
             <div className="pt-4 flex flex-col gap-2.5">
               <a

@@ -28,7 +28,7 @@ export const AboutPage: React.FC = () => {
               Healing the Root, Empowering the Sovereign Soul
             </h2>
             <p className="text-sm sm:text-base text-[#4C3E56] leading-relaxed">
-              Founded by master intuitive and teacher Poonam Sharma, The Tarot Company offers a sacred space where ancient card wisdom meets practical emotional clarity.
+              Founded by master intuitive and shop owner Daisy Hayes, The Tarot Company offers a sacred space where ancient card wisdom meets practical emotional clarity.
             </p>
             <p className="text-sm sm:text-base text-[#4C3E56] leading-relaxed">
               Believing that divination and energy healing must never foster dependency or fatalistic fear, we author pioneering literature and craft grounded consultations that return clarity and agency to every seeker.
@@ -55,7 +55,7 @@ export const AboutPage: React.FC = () => {
               <div className="w-28 h-28 rounded-full overflow-hidden border-3 border-[#C9A84C] mx-auto mb-4 shadow-md bg-[#2A1B3D]">
                 <img
                   src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=500&q=80"
-                  alt="Poonam Sharma - Master Intuitive"
+                  alt="Daisy Hayes - Shop Owner & Master Intuitive"
                   className="w-full h-full object-cover"
                   loading="lazy"
                   referrerPolicy="no-referrer"
@@ -64,7 +64,7 @@ export const AboutPage: React.FC = () => {
               <h3 className="font-serif font-bold text-2xl text-[#2A1B3D]">
                 The Tarot Company
               </h3>
-              <p className="text-xs text-[#7C5F1E] font-medium">Poonam Sharma • Master Intuitive</p>
+              <p className="text-xs text-[#7C5F1E] font-medium">Daisy Hayes • Shop Owner &amp; Master Intuitive</p>
               <p className="text-xs text-[#705D7F] mt-1">Serving clients worldwide &amp; in-person</p>
             </div>
 

@@ -20,11 +20,11 @@ export const SEO_CONFIG: Record<string, PageSEO> = {
       name: 'The Tarot Company',
       url: 'https://thetarotcompany.com',
       image: '/tarot/the_star.jpg',
-      description: 'Holistic healing, intuitive tarot readings, and spiritual empowerment by Poonam Sharma.',
+      description: 'Holistic healing, intuitive tarot readings, and spiritual empowerment by Daisy Hayes.',
       founder: {
         '@type': 'Person',
-        name: 'Poonam Sharma',
-        jobTitle: 'Master Intuitive & Reiki Grandmaster',
+        name: 'Daisy Hayes',
+        jobTitle: 'Shop Owner, Master Intuitive & Reiki Grandmaster',
       },
       foundingDate: '2004',
       priceRange: '$$',
@@ -131,7 +131,7 @@ export const SEO_CONFIG: Record<string, PageSEO> = {
         {
           '@type': 'HowToStep',
           name: 'Sacred Ritual & Card Draw',
-          text: 'Poonam Sharma meditates upon your question and draws cards upon consecrated linen in a sacred space.',
+          text: 'Daisy Hayes meditates upon your question and draws cards upon consecrated linen in a sacred space.',
         },
         {
           '@type': 'HowToStep',
@@ -142,16 +142,16 @@ export const SEO_CONFIG: Record<string, PageSEO> = {
     },
   },
   '/about': {
-    title: 'About Poonam Sharma — Master Intuitive & Reiki Grandmaster',
-    description: 'Discover the 20-year journey of Poonam Sharma, Tarot Acharya, author, and Usui Reiki Grandmaster guiding seekers worldwide since 2004.',
+    title: 'About Daisy Hayes — Shop Owner & Master Intuitive',
+    description: 'Discover the journey of Daisy Hayes, shop owner, Tarot Acharya, author, and Usui Reiki Grandmaster guiding seekers worldwide since 2004.',
     canonicalPath: '/about',
     ogType: 'profile',
     ogImage: '/tarot/the_empress.jpg',
     schema: {
       '@context': 'https://schema.org',
       '@type': 'Person',
-      name: 'Poonam Sharma',
-      jobTitle: 'Founder, Master Intuitive & Reiki Grandmaster',
+      name: 'Daisy Hayes',
+      jobTitle: 'Shop Owner, Master Intuitive & Reiki Grandmaster',
       worksFor: {
         '@type': 'Organization',
         name: 'The Tarot Company',
@@ -174,7 +174,7 @@ export const SEO_CONFIG: Record<string, PageSEO> = {
           name: 'How do distance tarot readings work?',
           acceptedAnswer: {
             '@type': 'Answer',
-            text: 'Energy is non-local. Poonam Sharma conducts an in-depth meditation and ritual, drawing physical cards on consecrated linen specifically attuned to your question.',
+            text: 'Energy is non-local. Daisy Hayes conducts an in-depth meditation and ritual, drawing physical cards on consecrated linen specifically attuned to your question.',
           },
         },
         {
@@ -190,7 +190,7 @@ export const SEO_CONFIG: Record<string, PageSEO> = {
   },
   '/contact': {
     title: 'Contact Us & Book Private Session — The Tarot Company',
-    description: 'Connect with Poonam Sharma for in-person consultations in Mohali & Chandigarh or online remote healing sessions across 18+ countries.',
+    description: 'Connect with Daisy Hayes for in-person consultations or online remote healing sessions across 18+ countries.',
     canonicalPath: '/contact',
     ogType: 'website',
     ogImage: '/tarot/the_sun.jpg',

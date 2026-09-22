@@ -153,7 +153,7 @@ export const COURSES_DATA: CourseItem[] = [
     tagline: 'Master the 78 cards of the Rider-Waite deck from intuition—without relying on booklets.',
     level: 'Beginner to Intermediate',
     duration: '4 Weeks • Live + Self-Paced',
-    imageUrl: 'https://images.unsplash.com/photo-1514537092892-23c2a9d821fc?auto=format&fit=crop&w=800&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1638803040283-7a5ffd48dad5?auto=format&fit=crop&w=800&q=80',
     features: [
       'Comprehensive breakdown of Major Arcana archetypes',
       'The 4 Elements, Suits & Court Card psychology',

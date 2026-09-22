@@ -195,6 +195,12 @@ export const FreeTarotPage: React.FC = () => {
                         alt={`${card.name} Tarot Card`}
                         className="w-56 sm:w-64 aspect-[2/3] object-cover rounded-lg shadow-lg group-hover:scale-[1.02] transition-transform duration-200"
                         referrerPolicy="no-referrer"
+                        onError={(e) => {
+                          const target = e.currentTarget;
+                          if (!target.src.endsWith('/tarot/card_back.jpg')) {
+                            target.src = '/tarot/card_back.jpg';
+                          }
+                        }}
                       />
                       <div className="absolute inset-0 rounded-lg ring-1 ring-black/10 pointer-events-none" />
                       <div className="absolute bottom-3 left-1/2 -translate-x-1/2 px-3 py-1 rounded-full bg-[#1f2322]/80 text-[#FAF8F5] text-[10px] font-medium tracking-wider flex items-center gap-1.5 opacity-0 group-hover:opacity-100 transition-opacity">
@@ -292,6 +298,12 @@ export const FreeTarotPage: React.FC = () => {
                           alt={`${card.name} Tarot Card`}
                           className="w-48 aspect-[2/3] object-cover rounded-lg shadow-md group-hover:scale-[1.02] transition-transform duration-200"
                           referrerPolicy="no-referrer"
+                          onError={(e) => {
+                            const target = e.currentTarget;
+                            if (!target.src.endsWith('/tarot/card_back.jpg')) {
+                              target.src = '/tarot/card_back.jpg';
+                            }
+                          }}
                         />
                         <div className="absolute inset-0 rounded-lg ring-1 ring-black/10 pointer-events-none" />
                         <div className="absolute bottom-2 left-1/2 -translate-x-1/2 px-2.5 py-0.5 rounded-full bg-[#1f2322]/80 text-[#FAF8F5] text-[9px] font-medium opacity-0 group-hover:opacity-100 transition-opacity">
@@ -466,6 +478,12 @@ export const FreeTarotPage: React.FC = () => {
                         className="w-full h-full object-cover"
                         referrerPolicy="no-referrer"
                         loading="lazy"
+                        onError={(e) => {
+                          const target = e.currentTarget;
+                          if (!target.src.endsWith('/tarot/card_back.jpg')) {
+                            target.src = '/tarot/card_back.jpg';
+                          }
+                        }}
                       />
                     </div>
                     <span className="text-[10px] font-mono text-[#1f2322]/50">{card.number}</span>
@@ -502,6 +520,12 @@ export const FreeTarotPage: React.FC = () => {
                   alt={zoomedCard.name}
                   className="w-48 sm:w-56 shrink-0 aspect-[2/3] object-cover rounded-lg shadow-md"
                   referrerPolicy="no-referrer"
+                  onError={(e) => {
+                    const target = e.currentTarget;
+                    if (!target.src.endsWith('/tarot/card_back.jpg')) {
+                      target.src = '/tarot/card_back.jpg';
+                    }
+                  }}
                 />
 
                 <div className="space-y-3 text-left">

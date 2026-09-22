@@ -131,10 +131,10 @@ export const AdminPage: React.FC = () => {
     readTime: '6 min read',
     excerpt: '',
     content: '',
-    coverImage: 'https://images.unsplash.com/photo-1514537092892-23c2a9d821fc?auto=format&fit=crop&w=1200&q=80',
+    coverImage: 'https://images.unsplash.com/photo-1638803040283-7a5ffd48dad5?auto=format&fit=crop&w=1200&q=80',
     author: {
-      name: 'Mystic Poonam',
-      role: 'Founder & Grandmaster Tarot Reader',
+      name: 'Daisy Hayes',
+      role: 'Shop Owner & Master Intuitive',
       avatar: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=200&q=80'
     },
     tags: ['Tarot Wisdom', 'Spiritual Practice'],
@@ -208,7 +208,7 @@ export const AdminPage: React.FC = () => {
 
   // Preset Image URLs for quick selection
   const imagePresets = [
-    { label: 'Tarot Deck', url: 'https://images.unsplash.com/photo-1514537092892-23c2a9d821fc?auto=format&fit=crop&w=1200&q=80' },
+    { label: 'Tarot Deck', url: 'https://images.unsplash.com/photo-1638803040283-7a5ffd48dad5?auto=format&fit=crop&w=1200&q=80' },
     { label: 'Meditation & Biofield', url: 'https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&fit=crop&w=1200&q=80' },
     { label: 'Celestial / Sun', url: 'https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&w=1200&q=80' },
     { label: 'Sacred Flame', url: 'https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1200&q=80' },

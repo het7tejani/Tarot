@@ -165,7 +165,7 @@ export const ServicesPage: React.FC<ServicesPageProps> = ({ etsyBaseUrl }) => {
             </p>
           </div>
           <a
-            href={`https://wa.me/919872771591?text=${encodeURIComponent('Hi Mystic Poonam, I would like to learn more about the Heal to Empower program.')}`}
+            href={`https://wa.me/919872771591?text=${encodeURIComponent('Hi Daisy, I would like to learn more about the Heal to Empower program.')}`}
             target="_blank"
             rel="noopener noreferrer"
             className="px-7 py-3.5 rounded-full bg-[#C9A84C] hover:bg-[#B3933C] text-[#2A1B3D] font-semibold text-xs tracking-wide shrink-0 transition-transform active:scale-95 shadow-md"

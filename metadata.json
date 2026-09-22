@@ -1,0 +1,6 @@
+{
+  "name": "The Tarot Company",
+  "description": "The Tarot Company — Insightful, compassionate Tarot readings, intuitive guidance, and certified spiritual offerings.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,221 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'Melange';
+  src: url('/fonts/melange-reg.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Melange';
+  src: url('/fonts/melange-semibold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --color-sand: #f4efec;
+  --color-ivory: #fdfcfb;
+  --color-onyx: #1f2322;
+  --color-accent-teal: #73a89a;
+  --font-sans: 'Melange', -apple-system, BlinkMacSystemFont, ui-sans-serif, system-ui, sans-serif;
+  color-scheme: light;
+}
+
+html.dark {
+  --color-sand: #121514;
+  --color-ivory: #1a1e1d;
+  --color-onyx: #f4efec;
+  --color-accent-teal: #85c2b2;
+  color-scheme: dark;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: 'Melange', -apple-system, BlinkMacSystemFont, ui-sans-serif, system-ui, sans-serif;
+    color: #1f2322;
+    background-color: #f4efec;
+    letter-spacing: -0.012em;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+
+  body {
+    background-color: #f4efec;
+    color: #1f2322;
+    font-family: 'Melange', -apple-system, BlinkMacSystemFont, ui-sans-serif, system-ui, sans-serif;
+    letter-spacing: -0.012em;
+    line-height: 1.45;
+  }
+
+  /* Global smooth transitions for theme changes and interactive states */
+  html,
+  body,
+  header,
+  footer,
+  main,
+  nav,
+  section,
+  article,
+  aside,
+  dialog {
+    transition-property: background-color, border-color, color, fill, stroke, box-shadow;
+    transition-duration: 350ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  /* Enhanced smooth hover transitions on all interactive elements */
+  button,
+  a,
+  input,
+  select,
+  textarea,
+  [role="button"] {
+    transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter;
+    transition-duration: 220ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  button:active:not(:disabled),
+  a:active:not([aria-disabled="true"]),
+  [role="button"]:active {
+    transform: scale(0.98);
+  }
+
+  h1, h2, h3, h4, h5, h6, .font-serif, .font-display, .font-cinzel {
+    font-family: 'Melange', -apple-system, BlinkMacSystemFont, ui-sans-serif, system-ui, sans-serif;
+    letter-spacing: -0.018em;
+    color: #1f2322;
+    font-weight: 600;
+  }
+
+  .font-sans {
+    font-family: 'Melange', -apple-system, BlinkMacSystemFont, ui-sans-serif, system-ui, sans-serif;
+  }
+}
+
+/* Dark Theme Overrides with Smooth Integration */
+html.dark body {
+  background-color: #121514;
+  color: #f4efec;
+}
+
+html.dark h1,
+html.dark h2,
+html.dark h3,
+html.dark h4,
+html.dark h5,
+html.dark h6 {
+  color: #f4efec;
+}
+
+html.dark .bg-\[\#f4efec\],
+html.dark .bg-\[\#FAF8F5\],
+html.dark .bg-\[\#FAF6EE\] {
+  background-color: #121514 !important;
+}
+
+html.dark .bg-\[\#fdfcfb\],
+html.dark .bg-white {
+  background-color: #1a1e1d !important;
+}
+
+html.dark .bg-\[\#e9e0d1\] {
+  background-color: #242a28 !important;
+}
+
+html.dark .text-\[\#1f2322\],
+html.dark .text-\[\#2D2D2D\],
+html.dark .text-\[\#322115\] {
+  color: #f4efec !important;
+}
+
+html.dark .text-\[\#1f2322\]\/70,
+html.dark .text-\[\#1f2322\]\/80,
+html.dark .text-\[\#866C57\] {
+  color: #b3aea9 !important;
+}
+
+html.dark .text-\[\#1f2322\]\/60 {
+  color: #9c9792 !important;
+}
+
+html.dark .border-\[\#1f2322\]\/10,
+html.dark .border-\[\#1f2322\]\/5,
+html.dark .border-\[\#E9DDCB\],
+html.dark .border-\[\#D8C7B2\] {
+  border-color: rgba(244, 239, 236, 0.12) !important;
+}
+
+html.dark header {
+  background-color: rgba(18, 21, 20, 0.92) !important;
+  border-color: rgba(244, 239, 236, 0.1) !important;
+}
+
+html.dark footer {
+  background-color: #0b0e0d !important;
+  border-color: rgba(244, 239, 236, 0.08) !important;
+}
+
+html.dark .bg-\[\#1f2322\] {
+  background-color: #73a89a !important;
+  color: #121514 !important;
+}
+
+html.dark .bg-\[\#1f2322\]\/5 {
+  background-color: rgba(244, 239, 236, 0.08) !important;
+  color: #f4efec !important;
+}
+
+html.dark .bg-\[\#1f2322\]\/10 {
+  background-color: rgba(244, 239, 236, 0.14) !important;
+}
+
+html.dark input,
+html.dark textarea,
+html.dark select {
+  background-color: #1a1e1d !important;
+  color: #f4efec !important;
+  border-color: rgba(244, 239, 236, 0.18) !important;
+}
+
+/* Smooth Image Scale on Hover */
+.group img {
+  transition: transform 0.45s cubic-bezier(0.25, 1, 0.5, 1), filter 0.3s ease;
+}
+
+.group:hover img {
+  transform: scale(1.04);
+}
+
+/* Respect Reduced Motion Preferences */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Minimalist subtle scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f4efec;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(31, 35, 34, 0.2);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #73a89a;
+}

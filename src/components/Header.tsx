@@ -21,13 +21,13 @@ export const Header: React.FC<HeaderProps> = ({
 
   // Auto-hide navbar on scroll down, reappear smoothly on scroll up or at page top
   useEffect(() => {
-    let lastScrollY = window.scrollY;
+    let lastScrollY = Math.max(0, window.scrollY);
 
     const handleScroll = () => {
-      const currentScrollY = window.scrollY;
+      const currentScrollY = Math.max(0, window.scrollY);
 
       // Always show at top of page
-      if (currentScrollY <= 20) {
+      if (currentScrollY <= 25) {
         setIsVisible(true);
         lastScrollY = currentScrollY;
         return;
@@ -40,10 +40,10 @@ export const Header: React.FC<HeaderProps> = ({
       }
 
       const deltaY = currentScrollY - lastScrollY;
-      // Scroll down threshold -> hide
-      if (deltaY > 6 && currentScrollY > 70) {
+      // Scroll down threshold -> hide smoothly
+      if (deltaY > 10 && currentScrollY > 100) {
         setIsVisible(false);
-      } else if (deltaY < -6) {
+      } else if (deltaY < -10) {
         // Scroll up -> show
         setIsVisible(true);
       }
@@ -63,7 +63,7 @@ export const Header: React.FC<HeaderProps> = ({
       }`}
     >
       {/* ─── UPPER DECK: Brand, Central Search Bar, Utility Actions & Etsy Store ─── */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 sm:h-17 flex items-center justify-between gap-3 sm:gap-6">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 sm:h-20 flex items-center justify-between gap-3 sm:gap-6">
         {/* Brand / Logo */}
         <Link
           to="/"
@@ -77,10 +77,10 @@ export const Header: React.FC<HeaderProps> = ({
         >
           <div className="w-2.5 h-2.5 rounded-full bg-[#73a89a] group-hover:scale-125 transition-transform" />
           <div className="flex flex-col">
-            <span className="font-semibold text-lg sm:text-xl text-[#1f2322] dark:text-[#f4efec] tracking-tight group-hover:text-[#73a89a] transition-colors whitespace-nowrap">
+            <span className="font-semibold text-lg sm:text-xl text-[#1f2322] tracking-tight group-hover:text-[#73a89a] transition-colors whitespace-nowrap">
               The Tarot Company
             </span>
-            <span className="hidden sm:inline-block text-[10px] tracking-wider uppercase text-[#1f2322]/50 dark:text-[#f4efec]/50 font-medium">
+            <span className="hidden sm:inline-block text-[10px] tracking-wider uppercase text-[#1f2322]/50 font-medium">
               Spiritual Sanctuary &bull; Est. 2004
             </span>
           </div>
@@ -100,7 +100,7 @@ export const Header: React.FC<HeaderProps> = ({
               setIsMobileSearchExpanded(!isMobileSearchExpanded);
               if (isMobileMenuOpen) setIsMobileMenuOpen(false);
             }}
-            className="md:hidden p-2 rounded-full text-[#1f2322]/80 dark:text-[#f4efec]/80 hover:text-[#1f2322] dark:hover:text-white hover:bg-[#1f2322]/5 dark:hover:bg-white/5 transition-colors"
+            className="md:hidden p-2 rounded-full text-[#1f2322]/80 hover:text-[#1f2322] hover:bg-[#1f2322]/5 transition-colors"
             aria-label="Search Tarot readings and blog topics"
             title="Search Tarot readings and blog topics"
             id="mobile-search-toggle-btn"
@@ -135,7 +135,7 @@ export const Header: React.FC<HeaderProps> = ({
           {onOpenSettings && (
             <button
               onClick={onOpenSettings}
-              className="hidden sm:block p-2 rounded-full text-[#1f2322]/60 dark:text-[#f4efec]/60 hover:text-[#1f2322] dark:hover:text-white hover:bg-[#1f2322]/5 dark:hover:bg-white/5 transition-colors"
+              className="hidden sm:block p-2 rounded-full text-[#1f2322]/60 hover:text-[#1f2322] hover:bg-[#1f2322]/5 transition-colors"
               title="Configure Etsy URLs"
               aria-label="Configure Etsy URLs"
               id="header-settings-btn"
@@ -151,7 +151,7 @@ export const Header: React.FC<HeaderProps> = ({
               setIsMobileMenuOpen(!isMobileMenuOpen);
               if (isMobileSearchExpanded) setIsMobileSearchExpanded(false);
             }}
-            className="lg:hidden p-2 rounded-lg text-[#1f2322] dark:text-[#f4efec] hover:bg-[#1f2322]/5 dark:hover:bg-white/5 transition-colors focus:outline-none ml-0.5"
+            className="lg:hidden p-2 rounded-lg text-[#1f2322] hover:bg-[#1f2322]/5 transition-colors focus:outline-none ml-0.5"
             aria-label="Toggle navigation menu"
             id="mobile-menu-hamburger-btn"
           >
@@ -161,7 +161,7 @@ export const Header: React.FC<HeaderProps> = ({
       </div>
 
       {/* ─── LOWER DECK: Options Below (Clean, Spacious Primary Navigation) ─── */}
-      <div className="border-t border-[#1f2322]/10 dark:border-white/10 bg-[#FAF8F5]/80 dark:bg-[#161a19]/80 backdrop-blur-xs">
+      <div className="border-t border-[#1f2322]/10 bg-[#FAF8F5]/90 backdrop-blur-xs">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-11 sm:h-12 flex items-center justify-between gap-3 overflow-x-auto scrollbar-none">
           {/* Navigation Links Row */}
           <nav className="flex items-center gap-1 sm:gap-1.5 md:gap-2 shrink-0" aria-label="Main Navigation">
@@ -170,8 +170,8 @@ export const Header: React.FC<HeaderProps> = ({
               className={({ isActive }) =>
                 `text-[13px] sm:text-[14px] font-medium transition-colors py-1.5 px-2.5 sm:px-3 rounded-full whitespace-nowrap ${
                   isActive
-                    ? 'text-[#1f2322] dark:text-[#f4efec] font-semibold bg-[#1f2322]/8 dark:bg-white/10'
-                    : 'text-[#1f2322]/70 dark:text-[#f4efec]/70 hover:text-[#1f2322] dark:hover:text-white hover:bg-[#1f2322]/5 dark:hover:bg-white/5'
+                    ? 'text-[#1f2322] font-semibold bg-[#1f2322]/8'
+                    : 'text-[#1f2322]/70 hover:text-[#1f2322] hover:bg-[#1f2322]/5'
                 }`
               }
             >
@@ -183,8 +183,8 @@ export const Header: React.FC<HeaderProps> = ({
               className={({ isActive }) =>
                 `text-[13px] sm:text-[14px] font-medium transition-colors py-1.5 px-2.5 sm:px-3 rounded-full whitespace-nowrap ${
                   isActive
-                    ? 'text-[#1f2322] dark:text-[#f4efec] font-semibold bg-[#1f2322]/8 dark:bg-white/10'
-                    : 'text-[#1f2322]/70 dark:text-[#f4efec]/70 hover:text-[#1f2322] dark:hover:text-white hover:bg-[#1f2322]/5 dark:hover:bg-white/5'
+                    ? 'text-[#1f2322] font-semibold bg-[#1f2322]/8'
+                    : 'text-[#1f2322]/70 hover:text-[#1f2322] hover:bg-[#1f2322]/5'
                 }`
               }
             >
@@ -196,8 +196,8 @@ export const Header: React.FC<HeaderProps> = ({
               className={({ isActive }) =>
                 `text-[13px] sm:text-[14px] font-medium transition-colors py-1.5 px-2.5 sm:px-3 rounded-full whitespace-nowrap ${
                   isActive
-                    ? 'text-[#1f2322] dark:text-[#f4efec] font-semibold bg-[#1f2322]/8 dark:bg-white/10'
-                    : 'text-[#1f2322]/70 dark:text-[#f4efec]/70 hover:text-[#1f2322] dark:hover:text-white hover:bg-[#1f2322]/5 dark:hover:bg-white/5'
+                    ? 'text-[#1f2322] font-semibold bg-[#1f2322]/8'
+                    : 'text-[#1f2322]/70 hover:text-[#1f2322] hover:bg-[#1f2322]/5'
                 }`
               }
             >
@@ -209,13 +209,13 @@ export const Header: React.FC<HeaderProps> = ({
               className={({ isActive }) =>
                 `text-[13px] sm:text-[14px] font-medium transition-colors py-1.5 px-2.5 sm:px-3 rounded-full whitespace-nowrap inline-flex items-center gap-1.5 ${
                   isActive
-                    ? 'text-[#1f2322] dark:text-[#f4efec] font-semibold bg-[#1f2322]/8 dark:bg-white/10'
-                    : 'text-[#1f2322]/70 dark:text-[#f4efec]/70 hover:text-[#1f2322] dark:hover:text-white hover:bg-[#1f2322]/5 dark:hover:bg-white/5'
+                    ? 'text-[#1f2322] font-semibold bg-[#1f2322]/8'
+                    : 'text-[#1f2322]/70 hover:text-[#1f2322] hover:bg-[#1f2322]/5'
                 }`
               }
             >
               <span>Free Draw</span>
-              <span className="text-[10px] px-1.5 py-0.2 rounded-full bg-[#73a89a]/15 text-[#73a89a] dark:text-[#85c2b2] font-semibold">
+              <span className="text-[10px] px-1.5 py-0.5 rounded-full bg-[#73a89a]/15 text-[#73a89a] font-semibold">
                 Instant
               </span>
             </NavLink>
@@ -225,13 +225,13 @@ export const Header: React.FC<HeaderProps> = ({
               className={({ isActive }) =>
                 `text-[13px] sm:text-[14px] font-medium transition-colors py-1.5 px-2.5 sm:px-3 rounded-full whitespace-nowrap inline-flex items-center gap-1.5 ${
                   isActive
-                    ? 'text-[#1f2322] dark:text-[#f4efec] font-semibold bg-[#1f2322]/8 dark:bg-white/10'
-                    : 'text-[#1f2322]/70 dark:text-[#f4efec]/70 hover:text-[#1f2322] dark:hover:text-white hover:bg-[#1f2322]/5 dark:hover:bg-white/5'
+                    ? 'text-[#1f2322] font-semibold bg-[#1f2322]/8'
+                    : 'text-[#1f2322]/70 hover:text-[#1f2322] hover:bg-[#1f2322]/5'
                 }`
               }
             >
               <span>Blog</span>
-              <span className="text-[10px] px-1.5 py-0.2 rounded-full bg-[#E8D5A0]/50 text-[#7C5F1E] dark:text-[#e5c57b] font-medium">
+              <span className="text-[10px] px-1.5 py-0.5 rounded-full bg-[#E8D5A0]/50 text-[#7C5F1E] font-medium">
                 New
               </span>
             </NavLink>
@@ -241,8 +241,8 @@ export const Header: React.FC<HeaderProps> = ({
               className={({ isActive }) =>
                 `text-[13px] sm:text-[14px] font-medium transition-colors py-1.5 px-2.5 sm:px-3 rounded-full whitespace-nowrap ${
                   isActive
-                    ? 'text-[#1f2322] dark:text-[#f4efec] font-semibold bg-[#1f2322]/8 dark:bg-white/10'
-                    : 'text-[#1f2322]/70 dark:text-[#f4efec]/70 hover:text-[#1f2322] dark:hover:text-white hover:bg-[#1f2322]/5 dark:hover:bg-white/5'
+                    ? 'text-[#1f2322] font-semibold bg-[#1f2322]/8'
+                    : 'text-[#1f2322]/70 hover:text-[#1f2322] hover:bg-[#1f2322]/5'
                 }`
               }
             >
@@ -254,8 +254,8 @@ export const Header: React.FC<HeaderProps> = ({
               className={({ isActive }) =>
                 `text-[13px] sm:text-[14px] font-medium transition-colors py-1.5 px-2.5 sm:px-3 rounded-full whitespace-nowrap ${
                   isActive
-                    ? 'text-[#1f2322] dark:text-[#f4efec] font-semibold bg-[#1f2322]/8 dark:bg-white/10'
-                    : 'text-[#1f2322]/70 dark:text-[#f4efec]/70 hover:text-[#1f2322] dark:hover:text-white hover:bg-[#1f2322]/5 dark:hover:bg-white/5'
+                    ? 'text-[#1f2322] font-semibold bg-[#1f2322]/8'
+                    : 'text-[#1f2322]/70 hover:text-[#1f2322] hover:bg-[#1f2322]/5'
                 }`
               }
             >
@@ -267,8 +267,8 @@ export const Header: React.FC<HeaderProps> = ({
               className={({ isActive }) =>
                 `text-[13px] sm:text-[14px] font-medium transition-colors py-1.5 px-2.5 sm:px-3 rounded-full whitespace-nowrap ${
                   isActive
-                    ? 'text-[#1f2322] dark:text-[#f4efec] font-semibold bg-[#1f2322]/8 dark:bg-white/10'
-                    : 'text-[#1f2322]/70 dark:text-[#f4efec]/70 hover:text-[#1f2322] dark:hover:text-white hover:bg-[#1f2322]/5 dark:hover:bg-white/5'
+                    ? 'text-[#1f2322] font-semibold bg-[#1f2322]/8'
+                    : 'text-[#1f2322]/70 hover:text-[#1f2322] hover:bg-[#1f2322]/5'
                 }`
               }
             >
@@ -280,8 +280,8 @@ export const Header: React.FC<HeaderProps> = ({
               className={({ isActive }) =>
                 `text-[13px] sm:text-[14px] font-medium transition-colors py-1.5 px-2.5 sm:px-3 rounded-full whitespace-nowrap ${
                   isActive
-                    ? 'text-[#1f2322] dark:text-[#f4efec] font-semibold bg-[#1f2322]/8 dark:bg-white/10'
-                    : 'text-[#1f2322]/70 dark:text-[#f4efec]/70 hover:text-[#1f2322] dark:hover:text-white hover:bg-[#1f2322]/5 dark:hover:bg-white/5'
+                    ? 'text-[#1f2322] font-semibold bg-[#1f2322]/8'
+                    : 'text-[#1f2322]/70 hover:text-[#1f2322] hover:bg-[#1f2322]/5'
                 }`
               }
             >
@@ -290,7 +290,7 @@ export const Header: React.FC<HeaderProps> = ({
           </nav>
 
           {/* Lower Deck Right Perk (Etsy Fast Turnaround Badge) */}
-          <div className="hidden xl:flex items-center gap-2 text-xs text-[#1f2322]/70 dark:text-[#f4efec]/70 shrink-0">
+          <div className="hidden xl:flex items-center gap-2 text-xs text-[#1f2322]/70 shrink-0">
             <Sparkles className="w-3.5 h-3.5 text-[#73a89a]" />
             <span>24h-48h Delivery on Etsy &bull; 7,000+ Reviews</span>
           </div>

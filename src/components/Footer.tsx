@@ -19,11 +19,11 @@ export const Footer: React.FC<FooterProps> = ({ onOpenSettings, etsyBaseUrl }) =
             <Link to="/" className="flex items-center gap-2">
               <div className="w-2.5 h-2.5 rounded-full bg-[#73a89a]" />
               <span className="font-semibold text-lg text-[#1f2322] tracking-tight">
-                The Tarot Company
+                The Psychic Studio
               </span>
             </Link>
             <p className="text-sm text-[#1f2322]/70 leading-relaxed max-w-sm">
-              Intuitive spiritual guidance, compassionate tarot readings, and energetic clarity delivered directly through our verified Etsy shop.
+              Intuitive spiritual guidance, compassionate tarot readings, and energetic clarity delivered directly through our Etsy shop.
             </p>
             <div className="pt-2 flex items-center gap-3">
               <a
@@ -103,13 +103,11 @@ export const Footer: React.FC<FooterProps> = ({ onOpenSettings, etsyBaseUrl }) =
               Connect &amp; Inquiries
             </h4>
             <div className="space-y-2 text-sm text-[#1f2322]/75">
-              <p>Email: <a href="mailto:contact.onclickinfotech@gmail.com" className="hover:text-[#73a89a] underline underline-offset-4">contact.onclickinfotech@gmail.com</a></p>
-              <p>WhatsApp: <a href="https://wa.me/919872771591" target="_blank" rel="noopener noreferrer" className="hover:text-[#73a89a] underline underline-offset-4">+91 9872771591</a></p>
-              <p>Studio: Buddha Marg, Sector 125, Greater Mohali, India</p>
+              <p>Reading and order questions: <Link to="/contact" className="hover:text-[#73a89a] underline underline-offset-4">contact the shop through Etsy</Link></p>
             </div>
             <div className="pt-2">
               <p className="text-xs text-[#1f2322]/60">
-                All custom spreads and clairvoyant reports delivered safely within 24–48 hours directly on Etsy.
+                Review delivery estimates and shop policies on the current Etsy listing.
               </p>
             </div>
           </div>
@@ -118,7 +116,7 @@ export const Footer: React.FC<FooterProps> = ({ onOpenSettings, etsyBaseUrl }) =
         {/* Minimal Legal Links like Instinct */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-[#1f2322]/60">
           <p>
-            Copyright &copy; {currentYear} The Tarot Company. All rights reserved.
+            Copyright &copy; {currentYear} The Psychic Studio. All rights reserved.
           </p>
           <div className="flex items-center gap-6">
             <Link to="/faq" className="hover:text-[#73a89a] transition-colors">

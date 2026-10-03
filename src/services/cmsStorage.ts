@@ -28,7 +28,7 @@ export function getBlogPosts(): BlogPost[] {
       localStorage.setItem(STORAGE_KEYS.BLOG_POSTS, JSON.stringify(INITIAL_BLOG_POSTS));
       return INITIAL_BLOG_POSTS;
     }
-    return JSON.parse(raw);
+    return JSON.parse(raw.replaceAll('The Tarot Company', 'The Psychic Studio'));
   } catch (err) {
     console.error('Failed reading blog posts from storage', err);
     return INITIAL_BLOG_POSTS;
@@ -92,7 +92,7 @@ export function getReadings(): ReadingTopic[] {
       localStorage.setItem(STORAGE_KEYS.READINGS, JSON.stringify(READINGS_DATA));
       return READINGS_DATA;
     }
-    return JSON.parse(raw);
+    return JSON.parse(raw.replaceAll('The Tarot Company', 'The Psychic Studio'));
   } catch (err) {
     console.error('Failed reading readings from storage', err);
     return READINGS_DATA;
@@ -145,7 +145,7 @@ const DEFAULT_SETTINGS: CMSSettings = {
   etsyBaseUrl: 'https://www.etsy.com/shop/PsychicEra',
   whatsappNumber: '+1 (555) 728-3722',
   siteAnnouncement: '✨ Autumn Equinox Flash Offer: 70% OFF all 360 Future Dossiers & Spicy Tarot Readings.',
-  contactEmail: 'sanctuary@thetarotcompany.com',
+  contactEmail: '',
   showAnnouncement: true
 };
 

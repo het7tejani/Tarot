@@ -100,7 +100,7 @@ export const AdminPage: React.FC = () => {
     if (loginAdmin(passwordInput)) {
       setIsAuthenticated(true);
       setAuthError('');
-      showToast('Welcome to The Tarot Company Admin CMS');
+      showToast('Welcome to The Psychic Studio Admin CMS');
     } else {
       setAuthError('Incorrect passcode. Default passcode is: tarotadmin');
     }
@@ -228,7 +228,7 @@ export const AdminPage: React.FC = () => {
               <Lock className="w-7 h-7 text-[#73a89a]" />
             </div>
             <h1 className="text-2xl sm:text-3xl font-serif font-bold text-[#1f2322]">
-              The Tarot Company CMS
+              The Psychic Studio CMS
             </h1>
             <p className="text-xs sm:text-sm text-[#1f2322]/60 mt-1.5">
               Secure Administration &amp; Editorial Management Portal
@@ -295,7 +295,7 @@ export const AdminPage: React.FC = () => {
               to="/"
               className="text-xs text-[#1f2322]/60 hover:text-[#73a89a] inline-flex items-center gap-1"
             >
-              <span>&larr; Return to The Tarot Company Storefront</span>
+              <span>&larr; Return to The Psychic Studio Storefront</span>
             </Link>
           </div>
         </div>
@@ -345,7 +345,7 @@ export const AdminPage: React.FC = () => {
               </span>
             </div>
             <h1 className="text-2xl sm:text-3xl font-serif font-bold text-[#1f2322]">
-              The Tarot Company &bull; Content Studio
+              The Psychic Studio &bull; Content Studio
             </h1>
             <p className="text-xs sm:text-sm text-[#1f2322]/65 mt-0.5">
               Manage esoteric blog articles, adjust Tarot reading pricing &amp; configure storefront integrations.

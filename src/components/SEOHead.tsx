@@ -55,7 +55,7 @@ export const SEOHead: React.FC<SEOHeadProps> = ({
     setMetaTag('property', 'og:description', description);
     setMetaTag('property', 'og:url', resolvedCanonical);
     setMetaTag('property', 'og:type', ogType);
-    setMetaTag('property', 'og:site_name', 'The Tarot Company');
+    setMetaTag('property', 'og:site_name', 'The Psychic Studio');
 
     const defaultImage = `${origin}/tarot/the_star.jpg`;
     const resolvedImage = ogImage || defaultImage;

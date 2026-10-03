@@ -114,7 +114,7 @@ export const CoursesPage: React.FC = () => {
 
               <div className="pt-2">
                 <a
-                  href={`https://wa.me/919872771591?text=${encodeURIComponent(`Hi The Tarot Company, I would like to inquire regarding enrollment in the ${course.title}.`)}`}
+                  href="/contact"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-full sm:w-auto inline-flex py-3 px-7 rounded-full bg-[#2A1B3D] hover:bg-[#3D2756] text-[#FFFFFF] text-xs font-semibold tracking-wide items-center justify-center gap-2 transition-colors"
@@ -134,7 +134,7 @@ export const CoursesPage: React.FC = () => {
             Authentic Lineage &amp; Authorised Teaching
           </h3>
           <p className="text-xs sm:text-sm text-[#6A5741] leading-relaxed">
-            All certifications carry direct Usui Shiki Ryoho lineage attunements and recognized accreditation under The Tarot Company. Small batch sizes ensure direct mentor attention.
+            All certifications carry direct Usui Shiki Ryoho lineage attunements and recognized accreditation under The Psychic Studio. Small batch sizes ensure direct mentor attention.
           </p>
         </div>
       </div>

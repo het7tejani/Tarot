@@ -68,7 +68,7 @@ export const Header: React.FC<HeaderProps> = ({
         <Link
           to="/"
           className="flex items-center gap-2.5 group focus:outline-none shrink-0"
-          aria-label="The Tarot Company"
+          aria-label="The Psychic Studio"
           id="brand-logo-link"
           onClick={() => {
             setIsMobileMenuOpen(false);
@@ -78,10 +78,10 @@ export const Header: React.FC<HeaderProps> = ({
           <div className="w-2.5 h-2.5 rounded-full bg-[#73a89a] group-hover:scale-125 transition-transform" />
           <div className="flex flex-col">
             <span className="font-semibold text-lg sm:text-xl text-[#1f2322] tracking-tight group-hover:text-[#73a89a] transition-colors whitespace-nowrap">
-              The Tarot Company
+              The Psychic Studio
             </span>
             <span className="hidden sm:inline-block text-[10px] tracking-wider uppercase text-[#1f2322]/50 font-medium">
-              Spiritual Sanctuary &bull; Est. 2004
+              Tarot &amp; personal reflection
             </span>
           </div>
         </Link>
@@ -292,7 +292,7 @@ export const Header: React.FC<HeaderProps> = ({
           {/* Lower Deck Right Perk (Etsy Fast Turnaround Badge) */}
           <div className="hidden xl:flex items-center gap-2 text-xs text-[#1f2322]/70 shrink-0">
             <Sparkles className="w-3.5 h-3.5 text-[#73a89a]" />
-            <span>24h-48h Delivery on Etsy &bull; 7,000+ Reviews</span>
+            <span>Personal readings on Etsy &bull; Free tarot draw</span>
           </div>
         </div>
       </div>

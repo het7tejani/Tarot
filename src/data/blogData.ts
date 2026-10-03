@@ -310,7 +310,7 @@ Experiencing a distance or in-person Reiki clearing feels like slipping into a w
     ],
     content: `In an era where online algorithms are flooded with predatory "curse removal" scams and sensationalist fear-based readings, spiritual practitioners must hold themselves to the highest ethical and moral standard.
 
-### The Sovereign Creed of The Tarot Company
+### The Sovereign Creed of The Psychic Studio
 
 1. **Free Will is Supreme:** Cards reveal energetic momentum based on current choices, subconscious thoughts, and environmental currents. They do not dictate an immutable destiny. You are always the sovereign co-creator of your reality.
 2. **Absolute Rejection of Fear Scams:** We never claim a client has been "hexed" or "cursed by an ex" requiring hundreds of dollars for secret candles. The Divine does not charge extortion fees for love or grace.

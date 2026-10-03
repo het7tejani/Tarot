@@ -107,12 +107,12 @@ export const ServicesPage: React.FC<ServicesPageProps> = ({ etsyBaseUrl }) => {
                     </Link>
                   ) : (
                     <a
-                      href={`https://wa.me/919872771591?text=${encodeURIComponent(`Hi The Tarot Company, I would like to inquire about ${category.name} sessions.`)}`}
+                      href="/contact"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="px-5 py-2.5 rounded-full bg-[#C9A84C] hover:bg-[#B3933C] text-[#2A1B3D] text-xs font-semibold flex items-center gap-1.5 transition-colors"
                     >
-                      <span>Book Session via WhatsApp</span>
+                      <span>Ask about availability</span>
                       <ExternalLink className="w-3.5 h-3.5" />
                     </a>
                   )}
@@ -164,7 +164,7 @@ export const ServicesPage: React.FC<ServicesPageProps> = ({ etsyBaseUrl }) => {
             </p>
           </div>
           <a
-            href={`https://wa.me/919872771591?text=${encodeURIComponent('Hi Daisy, I would like to learn more about the Heal to Empower program.')}`}
+            href="/contact"
             target="_blank"
             rel="noopener noreferrer"
             className="px-7 py-3.5 rounded-full bg-[#C9A84C] hover:bg-[#B3933C] text-[#2A1B3D] font-semibold text-xs tracking-wide shrink-0 transition-transform active:scale-95 shadow-md"

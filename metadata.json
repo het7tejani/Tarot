@@ -1,6 +1,8 @@
 {
-  "name": "The Tarot Company",
-  "description": "The Tarot Company — Insightful, compassionate Tarot readings, intuitive guidance, and certified spiritual offerings.",
+  "name": "The Psychic Studio",
+  "description": "Personal psychic and tarot readings, Etsy ordering, and a free online tarot draw.",
   "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
 }

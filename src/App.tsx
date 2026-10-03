@@ -38,7 +38,7 @@ export default function App() {
 
   const [customListingUrls, setCustomListingUrls] = useState<Record<string, string>>(() => {
     const saved = localStorage.getItem('etsy_custom_listing_urls');
-    return saved ? JSON.parse(saved) : {};
+    try { return saved ? JSON.parse(saved) : {}; } catch { return {}; }
   });
 
   const handleUpdateBaseShopUrl = (url: string) => {
@@ -175,15 +175,15 @@ export default function App() {
         {/* Floating Quick Action Buttons (WhatsApp Booking + Free Tarot) */}
         <div className="fixed bottom-5 right-5 z-30 flex flex-col gap-2 items-end">
           <a
-            href="https://wa.me/919872771591?text=Hi%20Daisy%2C%20I%20would%20like%20to%20inquire%20about%20a%20session."
+            href="/contact"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 px-4 py-2.5 rounded-full text-xs font-semibold shadow-lg transition-all border border-[#25D366]/40 bg-[#25D366] text-[#FFFFFF] hover:bg-[#20ba5a] active:scale-95"
-            title="Chat on WhatsApp"
+            title="Contact the shop"
             id="floating-whatsapp-btn"
           >
             <MessageCircle className="w-4 h-4 fill-white" />
-            <span className="hidden sm:inline">WhatsApp Us</span>
+            <span className="hidden sm:inline">Contact us</span>
           </a>
         </div>
       </div>

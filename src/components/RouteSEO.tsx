@@ -7,8 +7,8 @@ export const RouteSEO: React.FC = () => {
   const location = useLocation();
 
   const currentSEO = SEO_CONFIG[location.pathname] || {
-    title: 'The Tarot Company — Insightful Spiritual Guidance & Tarot Readings',
-    description: 'Empowering lives through authentic Tarot readings, Usui Reiki Grandmastery, chakra balance, and holistic spiritual guidance since 2004.',
+    title: 'Online Psychic & Tarot Readings | The Psychic Studio',
+    description: 'Explore personal psychic and tarot readings, or try the free online tarot draw.',
     canonicalPath: location.pathname,
     ogType: 'website' as const,
     ogImage: '/tarot/the_star.jpg',

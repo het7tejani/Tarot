@@ -70,7 +70,7 @@ export const FreeTarotPage: React.FC = () => {
     ? `${zoomedCard.name} Tarot Meaning — Free Tarot Oracle`
     : isRevealed && selectedCards.length === 1
     ? `${FREE_TAROT_CARDS[selectedCards[0]].name} Daily Card — Free Tarot Reading`
-    : 'Free Online Tarot Card Reading — The Tarot Company';
+    : 'Free Online Tarot Card Reading — The Psychic Studio';
 
   const dynamicDesc = zoomedCard
     ? `Explore ${zoomedCard.name} spiritual interpretation: ${zoomedCard.keywords}. Upright wisdom: ${zoomedCard.upright.slice(0, 100)}...`
@@ -568,5 +568,4 @@ export const FreeTarotPage: React.FC = () => {
     </div>
   );
 };
-
 

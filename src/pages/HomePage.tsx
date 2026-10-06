@@ -44,7 +44,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onSelectReading, getEtsyUrl 
     <section className="py-12 border-t border-[#1f2322]/10">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="text-2xl sm:text-3xl font-semibold mb-6">Explore by sign</h2>
-        <div className="flex flex-wrap gap-2">{['aries','taurus','gemini','cancer','leo','virgo','libra','scorpio','sagittarius','capricorn','aquarius','pisces'].map((n, i) => <Link key={n} to={`/horoscope/${n}`} className="px-4 py-2 rounded-full border border-[#1f2322]/15 text-sm font-semibold hover:bg-[#1f2322]/5 capitalize">{'\u2648\u2649\u264A\u264B\u264C\u264D\u264E\u264F\u2650\u2651\u2652\u2653'[i]} {n}</Link>)}</div>
+        <div className="flex flex-wrap gap-2">{['aries','taurus','gemini','cancer','leo','virgo','libra','scorpio','sagittarius','capricorn','aquarius','pisces'].map((n, i) => <Link key={n} to={`/horoscope/${n}`} className="px-4 py-2 rounded-full border border-[#1f2322]/15 text-sm font-semibold hover:bg-[#1f2322]/5 capitalize">{'\u2648\u2649\u264A\u264B\u264C\u264D\u264E\u264F\u2650\u2651\u2652\u2653'[i] + '\uFE0E'} {n}</Link>)}</div>
         <div className="flex flex-wrap gap-4 mt-6 text-sm font-semibold"><Link to="/tarot-card-meanings" className="text-[#73a89a]">Tarot card meanings</Link><Link to="/angel-numbers" className="text-[#73a89a]">Angel numbers</Link><Link to="/zodiac-compatibility" className="text-[#73a89a]">Zodiac compatibility</Link><Link to="/love-horoscope" className="text-[#73a89a]">Love horoscope</Link></div>
       </div>
     </section>

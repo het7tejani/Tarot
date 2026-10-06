@@ -146,7 +146,7 @@ export const Footer: React.FC<FooterProps> = ({ onOpenSettings, etsyBaseUrl }) =
         {/* Minimal Legal Links like Instinct */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-[#1f2322]/60">
           <p>
-            Copyright &copy; {currentYear} The Psychic Studio. All rights reserved.
+            Copyright &copy; {currentYear} The Psychic Studio by Daisy Hayes. All rights reserved.
           </p>
           <div className="flex items-center gap-6">
             <Link to="/faq" className="hover:text-[#73a89a] transition-colors">

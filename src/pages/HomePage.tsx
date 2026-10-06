@@ -3,6 +3,7 @@ import { ArrowRight, ExternalLink, Heart, Compass, Sparkles, CheckCircle2 } from
 import { Link } from 'react-router-dom';
 import { READINGS_DATA } from '../data/readingsData';
 import { ReadingTopic } from '../types';
+import { AstroWheel } from '../components/AstroWheel';
 
 interface HomePageProps {
   onSelectReading: (reading: ReadingTopic) => void;
@@ -23,22 +24,28 @@ const faqs = [
 
 export const HomePage: React.FC<HomePageProps> = ({ onSelectReading, getEtsyUrl }) => (
   <div className="pt-28 md:pt-32 bg-[#FAF8F5] text-[#1f2322]">
-    <section className="relative pt-12 pb-16 md:pt-20 md:pb-20">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 grid lg:grid-cols-2 gap-12 items-center">
-        <div>
-          <p className="text-xs uppercase tracking-widest text-[#73a89a] font-semibold mb-5">The Psychic Studio</p>
-          <h1 className="text-4xl sm:text-5xl md:text-6xl font-semibold tracking-tight leading-[1.12] mb-6">Online psychic &amp; tarot readings for your next chapter.</h1>
-          <p className="text-base sm:text-lg text-[#1f2322]/70 leading-relaxed mb-8 max-w-xl">Questions about love, life, or where to go next? Explore readings focused on what is on your mind, or start with a free tarot draw at your own pace.</p>
+    <section className="relative pt-10 pb-16 md:pt-16 md:pb-24 overflow-hidden">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 grid lg:grid-cols-2 gap-10 items-center">
+        <div className="order-2 lg:order-1">
+          <p className="text-xs uppercase tracking-[0.3em] text-[#73a89a] font-semibold mb-5">The Psychic Studio</p>
+          <h1 className="text-4xl sm:text-5xl md:text-6xl font-semibold tracking-tight leading-[1.1] mb-6 glow-text">Online psychic &amp; tarot readings for your next chapter.</h1>
+          <p className="text-base sm:text-lg text-[#1f2322]/70 leading-relaxed mb-8 max-w-xl">Questions about love, life, or where to go next? Read your daily horoscope, draw a free tarot card, or order a personal reading from Daisy Hayes, at your own pace.</p>
           <div className="flex flex-col sm:flex-row gap-3">
             <Link to="/readings" className="px-7 py-3.5 rounded-full bg-[#1f2322] text-[#FAF8F5] hover:bg-[#73a89a] font-semibold text-sm flex items-center justify-center gap-2">Find your reading <ArrowRight className="w-4 h-4" /></Link>
             <Link to="/free-tarot" className="px-7 py-3.5 rounded-full border border-[#1f2322]/20 hover:bg-[#1f2322]/5 font-semibold text-sm text-center">Try free tarot</Link>
+            <Link to="/horoscope" className="px-7 py-3.5 rounded-full border border-[#1f2322]/20 hover:bg-[#1f2322]/5 font-semibold text-sm text-center">Daily horoscope</Link>
           </div>
           <p className="text-xs text-[#1f2322]/55 mt-5">No sign-up for free tarot. Personal readings ordered through Etsy.</p>
         </div>
-        <div className="relative rounded-3xl bg-[#f0ebe4] border border-[#1f2322]/10 p-8 sm:p-12 flex items-center justify-center min-h-80" aria-label="Rider-Waite tarot card artwork">
-          <img src="/tarot/the_star.jpg" alt="The Star tarot card" className="w-28 sm:w-36 rounded-lg shadow-lg -rotate-12 translate-x-3" />
-          <img src="/tarot/the_sun.jpg" alt="The Sun tarot card" className="w-28 sm:w-36 rounded-lg shadow-xl rotate-6 -translate-x-3" />
-        </div>
+        <div className="order-1 lg:order-2"><AstroWheel /></div>
+      </div>
+    </section>
+
+    <section className="py-12 border-t border-[#1f2322]/10">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 className="text-2xl sm:text-3xl font-semibold mb-6">Explore by sign</h2>
+        <div className="flex flex-wrap gap-2">{['aries','taurus','gemini','cancer','leo','virgo','libra','scorpio','sagittarius','capricorn','aquarius','pisces'].map((n, i) => <Link key={n} to={`/horoscope/${n}`} className="px-4 py-2 rounded-full border border-[#1f2322]/15 text-sm font-semibold hover:bg-[#1f2322]/5 capitalize">{'\u2648\u2649\u264A\u264B\u264C\u264D\u264E\u264F\u2650\u2651\u2652\u2653'[i]} {n}</Link>)}</div>
+        <div className="flex flex-wrap gap-4 mt-6 text-sm font-semibold"><Link to="/tarot-card-meanings" className="text-[#73a89a]">Tarot card meanings</Link><Link to="/angel-numbers" className="text-[#73a89a]">Angel numbers</Link><Link to="/zodiac-compatibility" className="text-[#73a89a]">Zodiac compatibility</Link><Link to="/love-horoscope" className="text-[#73a89a]">Love horoscope</Link></div>
       </div>
     </section>
 

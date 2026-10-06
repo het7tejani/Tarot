@@ -1,6 +1,13 @@
 import { BlogPost, ReadingTopic, CMSSettings } from '../types';
 import { INITIAL_BLOG_POSTS } from '../data/blogData';
 import { READINGS_DATA } from '../data/readingsData';
+import { REPO_BLOG_POSTS } from '../data/repoPosts';
+
+// Posts from the /cms/ editor (content/blog/*.md) come first and win over a stored post with the same slug.
+function withRepoPosts(local: BlogPost[]): BlogPost[] {
+  const repoSlugs = new Set(REPO_BLOG_POSTS.map((p) => p.slug));
+  return [...REPO_BLOG_POSTS, ...local.filter((p) => !repoSlugs.has(p.slug))];
+}
 
 const STORAGE_KEYS = {
   BLOG_POSTS: 'tarot_company_blog_posts_v1',
@@ -21,17 +28,17 @@ function triggerUpdate() {
 // BLOG POSTS STORAGE
 // ==========================================
 export function getBlogPosts(): BlogPost[] {
-  if (typeof window === 'undefined') return INITIAL_BLOG_POSTS;
+  if (typeof window === 'undefined') return withRepoPosts(INITIAL_BLOG_POSTS);
   try {
     const raw = localStorage.getItem(STORAGE_KEYS.BLOG_POSTS);
     if (!raw) {
       localStorage.setItem(STORAGE_KEYS.BLOG_POSTS, JSON.stringify(INITIAL_BLOG_POSTS));
-      return INITIAL_BLOG_POSTS;
+      return withRepoPosts(INITIAL_BLOG_POSTS);
     }
-    return JSON.parse(raw.replaceAll('The Tarot Company', 'The Psychic Studio'));
+    return withRepoPosts(JSON.parse(raw.replaceAll('The Tarot Company', 'The Psychic Studio')));
   } catch (err) {
     console.error('Failed reading blog posts from storage', err);
-    return INITIAL_BLOG_POSTS;
+    return withRepoPosts(INITIAL_BLOG_POSTS);
   }
 }
 

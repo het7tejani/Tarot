@@ -17,6 +17,8 @@ import { AboutPage } from './pages/AboutPage';
 import { FAQPage } from './pages/FAQPage';
 import { ContactPage } from './pages/ContactPage';
 import { AdminPage } from './pages/AdminPage';
+import { SeoPage } from './pages/SeoPage';
+import { ALL_SEO_PAGES } from './data/seoPages';
 import { READINGS_DATA } from './data/readingsData';
 import { ReadingTopic } from './types';
 import { MessageCircle, Sparkles } from 'lucide-react';
@@ -134,6 +136,9 @@ export default function App() {
               path="/contact"
               element={<ContactPage etsyBaseUrl={baseShopUrl} />}
             />
+            {ALL_SEO_PAGES.map((p) => (
+              <Route key={p.path} path={p.path} element={<SeoPage etsyBaseUrl={baseShopUrl} />} />
+            ))}
             {/* Fallback to Home */}
             <Route
               path="*"

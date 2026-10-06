@@ -4,6 +4,7 @@ import { Layout, ETSY } from './Layout';
 import { Wheel } from './Wheel';
 import { SIGN_INFO } from '../data/seoPages';
 import { ETSY_LISTINGS } from '../data/etsyListings';
+import { FAQS, HOW_IT_WORKS_STEPS } from '../data/readingsData';
 const GLYPH: Record<string, string> = { aries: '♈', taurus: '♉', gemini: '♊', cancer: '♋', leo: '♌', virgo: '♍', libra: '♎', scorpio: '♏', sagittarius: '♐', capricorn: '♑', aquarius: '♒', pisces: '♓' };
 const CARDS = ['the_fool', 'the_magician', 'the_high_priestess', 'the_lovers', 'the_star', 'the_moon'];
 export const Home: React.FC = () => (
@@ -32,6 +33,21 @@ export const Home: React.FC = () => (
       <div className="st-grid c3">{ETSY_LISTINGS.slice(0, 3).map((r) => (
         <a key={r.id} className="st-card" href={r.url} target="_blank" rel="noopener noreferrer"><h3>{r.title.split(' | ')[0]}</h3><p>{r.title.split(' | ').slice(1, 3).join(' · ')}</p></a>))}</div>
       <p style={{ marginTop: 26 }}><Link className="btn" to="/shop">View all readings</Link></p>
+    </div></section>
+    <section className="st-sec alt"><div className="wrap">
+      <span className="eyebrow">How it works</span><h2>Three simple steps</h2>
+      <div className="st-grid c3">{HOW_IT_WORKS_STEPS.map((x) => (
+        <div key={x.stepNumber} className="st-card"><span className="st-num">{x.stepNumber}</span><h3>{x.title}</h3><p>{x.description}</p></div>))}</div>
+    </div></section>
+    <section className="st-sec"><div className="wrap">
+      <span className="eyebrow">Reviews</span><h2>Read what buyers say</h2>
+      <p className="sub">Every review is on my Etsy shop, written by real buyers after their reading.</p>
+      <p style={{ marginTop: 24 }}><a className="btn ghost" href={ETSY + '#reviews'} target="_blank" rel="noopener noreferrer">See reviews on Etsy ↗</a></p>
+    </div></section>
+    <section className="st-sec alt"><div className="wrap">
+      <span className="eyebrow">Questions</span><h2>Good to know</h2>
+      <div className="st-faq">{FAQS.slice(0, 5).map((f) => (<details key={f.question}><summary>{f.question}</summary><p>{f.answer}</p></details>))}</div>
+      <p style={{ marginTop: 24 }}><Link className="btn ghost" to="/faq">All questions</Link></p>
     </div></section>
   </Layout>
 );

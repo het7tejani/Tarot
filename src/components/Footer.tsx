@@ -94,6 +94,36 @@ export const Footer: React.FC<FooterProps> = ({ onOpenSettings, etsyBaseUrl }) =
                   Contact
                 </Link>
               </li>
+              <li>
+                <Link to="/horoscope" className="hover:text-[#73a89a] transition-colors">
+                  Daily Horoscope
+                </Link>
+              </li>
+              <li>
+                <Link to="/love-horoscope" className="hover:text-[#73a89a] transition-colors">
+                  Love Horoscope
+                </Link>
+              </li>
+              <li>
+                <Link to="/zodiac" className="hover:text-[#73a89a] transition-colors">
+                  Zodiac Signs
+                </Link>
+              </li>
+              <li>
+                <Link to="/zodiac-compatibility" className="hover:text-[#73a89a] transition-colors">
+                  Zodiac Compatibility
+                </Link>
+              </li>
+              <li>
+                <Link to="/tarot-card-meanings" className="hover:text-[#73a89a] transition-colors">
+                  Tarot Card Meanings
+                </Link>
+              </li>
+              <li>
+                <Link to="/angel-numbers" className="hover:text-[#73a89a] transition-colors">
+                  Angel Numbers
+                </Link>
+              </li>
             </ul>
           </div>
 

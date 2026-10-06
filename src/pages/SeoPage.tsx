@@ -36,13 +36,14 @@ const DailyCard: React.FC<{ signIndex: number; label: string }> = ({ signIndex, 
 const H2: React.FC<{ children: React.ReactNode }> = ({ children }) => <h2 className="text-2xl font-semibold mt-10 mb-3">{children}</h2>;
 const P: React.FC<{ children: React.ReactNode }> = ({ children }) => <p className="text-base leading-relaxed text-[#1f2322]/75 mb-4">{children}</p>;
 
+const EXTRA_LABELS: Record<string, string> = { '/free-tarot': 'Free tarot reading online', '/readings': 'Personal readings (shop)', '/shop': 'Personal readings (shop)' };
 const LinkGrid: React.FC<{ paths: string[] }> = ({ paths }) => (
   <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3 my-4">
     {paths.map((p) => {
       const t = byPath[p];
       return (
-        <Link key={p} to={p} className="rounded-xl border border-[#1f2322]/10 bg-white/40 px-4 py-3 text-sm font-semibold hover:border-[#73a89a]">
-          {t ? t.h1 : p}
+        <Link key={p} to={p === '/readings' ? '/shop' : p} className="rounded-xl border border-[#1f2322]/10 bg-white/40 px-4 py-3 text-sm font-semibold hover:border-[#73a89a]">
+          {t ? t.h1 : (EXTRA_LABELS[p] || p)}
         </Link>
       );
     })}
@@ -212,7 +213,6 @@ export const SeoPage: React.FC<{ etsyBaseUrl: string }> = ({ etsyBaseUrl }) => {
             <LinkGrid paths={related.slice(0, 24)} />
           </>
         )}
-        {page.kind === 'card' && (<><H2>Keep exploring</H2><LinkGrid paths={['/tarot-card-meanings', '/free-tarot', '/readings']} /></>)}
 
         <ReadingCTA etsyBaseUrl={etsyBaseUrl} />
       </div>

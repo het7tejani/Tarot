@@ -22,15 +22,15 @@
   --color-onyx: #1f2322;
   --color-accent-teal: #73a89a;
   --font-sans: 'Melange', -apple-system, BlinkMacSystemFont, ui-sans-serif, system-ui, sans-serif;
-  color-scheme: light;
+  color-scheme: dark;
 }
 
 @layer base {
   html {
     scroll-behavior: smooth;
     font-family: 'Melange', -apple-system, BlinkMacSystemFont, ui-sans-serif, system-ui, sans-serif;
-    color: #1f2322;
-    background-color: #f4efec;
+    color: #efe9ff;
+    background-color: #0b0a1a;
     letter-spacing: -0.012em;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -38,8 +38,8 @@
   }
 
   body {
-    background-color: #f4efec;
-    color: #1f2322;
+    background-color: #0b0a1a;
+    color: #efe9ff;
     font-family: 'Melange', -apple-system, BlinkMacSystemFont, ui-sans-serif, system-ui, sans-serif;
     letter-spacing: -0.012em;
     line-height: 1.45;
@@ -82,7 +82,7 @@
   h1, h2, h3, h4, h5, h6, .font-serif, .font-display, .font-cinzel {
     font-family: 'Melange', -apple-system, BlinkMacSystemFont, ui-sans-serif, system-ui, sans-serif;
     letter-spacing: -0.018em;
-    color: #1f2322;
+    color: #f6efd8;
     font-weight: 600;
   }
 
@@ -117,12 +117,470 @@
   width: 6px;
 }
 ::-webkit-scrollbar-track {
-  background: #f4efec;
+  background: #0b0a1a;
 }
 ::-webkit-scrollbar-thumb {
-  background: rgba(31, 35, 34, 0.2);
+  background: rgba(230, 195, 106, 0.35);
   border-radius: 9999px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #73a89a;
+  background: #e6c36a;
 }
+
+
+/* ===== THE PSYCHIC STUDIO: midnight theme ===== */
+:root{--gold:#e6c36a;--gold2:#f6e3a1;--ink:#0b0a1a;--ink2:#14122e;--violet:#6d4bd6;--mist:#efe9ff}
+body{background:radial-gradient(1200px 700px at 78% -8%,rgba(109,75,214,.28),transparent 60%),radial-gradient(900px 600px at 5% 30%,rgba(230,195,106,.08),transparent 60%),#0b0a1a;background-attachment:fixed}
+body::before,body::after{content:"";position:fixed;inset:0;pointer-events:none;z-index:0}
+body::before{background-image:radial-gradient(1.2px 1.2px at 12% 18%,#fff,transparent),radial-gradient(1px 1px at 27% 62%,#f6e3a1,transparent),radial-gradient(1.4px 1.4px at 41% 9%,#fff,transparent),radial-gradient(1px 1px at 58% 44%,#fff,transparent),radial-gradient(1.3px 1.3px at 71% 78%,#f6e3a1,transparent),radial-gradient(1px 1px at 86% 26%,#fff,transparent),radial-gradient(1.2px 1.2px at 93% 66%,#fff,transparent),radial-gradient(1px 1px at 6% 84%,#fff,transparent),radial-gradient(1.1px 1.1px at 34% 91%,#f6e3a1,transparent),radial-gradient(1px 1px at 64% 14%,#fff,transparent);background-size:520px 520px;opacity:.7;animation:twinkle 6s ease-in-out infinite alternate}
+body::after{background-image:radial-gradient(1px 1px at 20% 30%,#fff,transparent),radial-gradient(1.2px 1.2px at 52% 70%,#fff,transparent),radial-gradient(1px 1px at 80% 52%,#f6e3a1,transparent),radial-gradient(1px 1px at 38% 48%,#fff,transparent);background-size:340px 340px;opacity:.5;animation:twinkle 9s ease-in-out 1.5s infinite alternate}
+@keyframes twinkle{from{opacity:.25}to{opacity:.85}}
+#root{position:relative;z-index:1}
+html,body{color:#efe9ff}
+/* surfaces */
+header,footer{backdrop-filter:blur(14px)}
+header{background:rgba(11,10,26,.82)!important;border-color:rgba(230,195,106,.16)!important}
+footer{background:rgba(8,7,20,.92)!important;border-color:rgba(230,195,106,.16)!important}
+[class~="bg-[#FAF8F5]"],
+[class~="bg-[#FAF8F5]/5"],
+[class~="bg-[#FAF8F5]/10"],
+[class~="bg-[#FAF8F5]/15"],
+[class~="bg-[#FAF8F5]/20"],
+[class~="bg-[#FAF8F5]/25"],
+[class~="bg-[#FAF8F5]/30"],
+[class~="bg-[#FAF8F5]/35"],
+[class~="bg-[#FAF8F5]/40"],
+[class~="bg-[#FAF8F5]/45"],
+[class~="bg-[#FAF8F5]/50"],
+[class~="bg-[#FAF8F5]/55"],
+[class~="bg-[#FAF8F5]/60"],
+[class~="bg-[#FAF8F5]/65"],
+[class~="bg-[#FAF8F5]/70"],
+[class~="bg-[#FAF8F5]/75"],
+[class~="bg-[#FAF8F5]/80"],
+[class~="bg-[#FAF8F5]/85"],
+[class~="bg-[#FAF8F5]/90"],
+[class~="bg-[#FAF8F5]/95"],
+[class~="bg-[#f4efec]"],
+[class~="bg-[#f4efec]/5"],
+[class~="bg-[#f4efec]/10"],
+[class~="bg-[#f4efec]/15"],
+[class~="bg-[#f4efec]/20"],
+[class~="bg-[#f4efec]/25"],
+[class~="bg-[#f4efec]/30"],
+[class~="bg-[#f4efec]/35"],
+[class~="bg-[#f4efec]/40"],
+[class~="bg-[#f4efec]/45"],
+[class~="bg-[#f4efec]/50"],
+[class~="bg-[#f4efec]/55"],
+[class~="bg-[#f4efec]/60"],
+[class~="bg-[#f4efec]/65"],
+[class~="bg-[#f4efec]/70"],
+[class~="bg-[#f4efec]/75"],
+[class~="bg-[#f4efec]/80"],
+[class~="bg-[#f4efec]/85"],
+[class~="bg-[#f4efec]/90"],
+[class~="bg-[#f4efec]/95"],
+[class~="bg-[#fdfcfb]"],
+[class~="bg-[#fdfcfb]/5"],
+[class~="bg-[#fdfcfb]/10"],
+[class~="bg-[#fdfcfb]/15"],
+[class~="bg-[#fdfcfb]/20"],
+[class~="bg-[#fdfcfb]/25"],
+[class~="bg-[#fdfcfb]/30"],
+[class~="bg-[#fdfcfb]/35"],
+[class~="bg-[#fdfcfb]/40"],
+[class~="bg-[#fdfcfb]/45"],
+[class~="bg-[#fdfcfb]/50"],
+[class~="bg-[#fdfcfb]/55"],
+[class~="bg-[#fdfcfb]/60"],
+[class~="bg-[#fdfcfb]/65"],
+[class~="bg-[#fdfcfb]/70"],
+[class~="bg-[#fdfcfb]/75"],
+[class~="bg-[#fdfcfb]/80"],
+[class~="bg-[#fdfcfb]/85"],
+[class~="bg-[#fdfcfb]/90"],
+[class~="bg-[#fdfcfb]/95"],
+[class~="bg-[#f0ebe4]"],
+[class~="bg-[#f0ebe4]/5"],
+[class~="bg-[#f0ebe4]/10"],
+[class~="bg-[#f0ebe4]/15"],
+[class~="bg-[#f0ebe4]/20"],
+[class~="bg-[#f0ebe4]/25"],
+[class~="bg-[#f0ebe4]/30"],
+[class~="bg-[#f0ebe4]/35"],
+[class~="bg-[#f0ebe4]/40"],
+[class~="bg-[#f0ebe4]/45"],
+[class~="bg-[#f0ebe4]/50"],
+[class~="bg-[#f0ebe4]/55"],
+[class~="bg-[#f0ebe4]/60"],
+[class~="bg-[#f0ebe4]/65"],
+[class~="bg-[#f0ebe4]/70"],
+[class~="bg-[#f0ebe4]/75"],
+[class~="bg-[#f0ebe4]/80"],
+[class~="bg-[#f0ebe4]/85"],
+[class~="bg-[#f0ebe4]/90"],
+[class~="bg-[#f0ebe4]/95"],
+[class~="bg-[#FFFDF9]"],
+[class~="bg-[#FFFDF9]/5"],
+[class~="bg-[#FFFDF9]/10"],
+[class~="bg-[#FFFDF9]/15"],
+[class~="bg-[#FFFDF9]/20"],
+[class~="bg-[#FFFDF9]/25"],
+[class~="bg-[#FFFDF9]/30"],
+[class~="bg-[#FFFDF9]/35"],
+[class~="bg-[#FFFDF9]/40"],
+[class~="bg-[#FFFDF9]/45"],
+[class~="bg-[#FFFDF9]/50"],
+[class~="bg-[#FFFDF9]/55"],
+[class~="bg-[#FFFDF9]/60"],
+[class~="bg-[#FFFDF9]/65"],
+[class~="bg-[#FFFDF9]/70"],
+[class~="bg-[#FFFDF9]/75"],
+[class~="bg-[#FFFDF9]/80"],
+[class~="bg-[#FFFDF9]/85"],
+[class~="bg-[#FFFDF9]/90"],
+[class~="bg-[#FFFDF9]/95"],
+[class~="bg-[#FAF6EE]"],
+[class~="bg-[#FAF6EE]/5"],
+[class~="bg-[#FAF6EE]/10"],
+[class~="bg-[#FAF6EE]/15"],
+[class~="bg-[#FAF6EE]/20"],
+[class~="bg-[#FAF6EE]/25"],
+[class~="bg-[#FAF6EE]/30"],
+[class~="bg-[#FAF6EE]/35"],
+[class~="bg-[#FAF6EE]/40"],
+[class~="bg-[#FAF6EE]/45"],
+[class~="bg-[#FAF6EE]/50"],
+[class~="bg-[#FAF6EE]/55"],
+[class~="bg-[#FAF6EE]/60"],
+[class~="bg-[#FAF6EE]/65"],
+[class~="bg-[#FAF6EE]/70"],
+[class~="bg-[#FAF6EE]/75"],
+[class~="bg-[#FAF6EE]/80"],
+[class~="bg-[#FAF6EE]/85"],
+[class~="bg-[#FAF6EE]/90"],
+[class~="bg-[#FAF6EE]/95"]{background-color:#100e26!important}
+[class*="min-h-screen"][class*="bg-["]{background-color:transparent!important}
+[class~="bg-[#FFFFFF]"],
+[class~="bg-[#FFFFFF]/5"],
+[class~="bg-[#FFFFFF]/10"],
+[class~="bg-[#FFFFFF]/15"],
+[class~="bg-[#FFFFFF]/20"],
+[class~="bg-[#FFFFFF]/25"],
+[class~="bg-[#FFFFFF]/30"],
+[class~="bg-[#FFFFFF]/35"],
+[class~="bg-[#FFFFFF]/40"],
+[class~="bg-[#FFFFFF]/45"],
+[class~="bg-[#FFFFFF]/50"],
+[class~="bg-[#FFFFFF]/55"],
+[class~="bg-[#FFFFFF]/60"],
+[class~="bg-[#FFFFFF]/65"],
+[class~="bg-[#FFFFFF]/70"],
+[class~="bg-[#FFFFFF]/75"],
+[class~="bg-[#FFFFFF]/80"],
+[class~="bg-[#FFFFFF]/85"],
+[class~="bg-[#FFFFFF]/90"],
+[class~="bg-[#FFFFFF]/95"],
+[class~="bg-[white]"],
+[class~="bg-[white]/5"],
+[class~="bg-[white]/10"],
+[class~="bg-[white]/15"],
+[class~="bg-[white]/20"],
+[class~="bg-[white]/25"],
+[class~="bg-[white]/30"],
+[class~="bg-[white]/35"],
+[class~="bg-[white]/40"],
+[class~="bg-[white]/45"],
+[class~="bg-[white]/50"],
+[class~="bg-[white]/55"],
+[class~="bg-[white]/60"],
+[class~="bg-[white]/65"],
+[class~="bg-[white]/70"],
+[class~="bg-[white]/75"],
+[class~="bg-[white]/80"],
+[class~="bg-[white]/85"],
+[class~="bg-[white]/90"],
+[class~="bg-[white]/95"],[class~="bg-white"]{background-color:rgba(255,255,255,.05)!important;backdrop-filter:blur(6px)}
+[class~="bg-[#1f2322]"],
+[class~="bg-[#1f2322]/5"],
+[class~="bg-[#1f2322]/10"],
+[class~="bg-[#1f2322]/15"],
+[class~="bg-[#1f2322]/20"],
+[class~="bg-[#1f2322]/25"],
+[class~="bg-[#1f2322]/30"],
+[class~="bg-[#1f2322]/35"],
+[class~="bg-[#1f2322]/40"],
+[class~="bg-[#1f2322]/45"],
+[class~="bg-[#1f2322]/50"],
+[class~="bg-[#1f2322]/55"],
+[class~="bg-[#1f2322]/60"],
+[class~="bg-[#1f2322]/65"],
+[class~="bg-[#1f2322]/70"],
+[class~="bg-[#1f2322]/75"],
+[class~="bg-[#1f2322]/80"],
+[class~="bg-[#1f2322]/85"],
+[class~="bg-[#1f2322]/90"],
+[class~="bg-[#1f2322]/95"]{background:linear-gradient(135deg,#f6e3a1,#e6c36a 55%,#c9a24a)!important;color:#1a1030!important;box-shadow:0 0 22px rgba(230,195,106,.25)}
+[class~="bg-[#1f2322]"],
+[class~="bg-[#1f2322]/5"],
+[class~="bg-[#1f2322]/10"],
+[class~="bg-[#1f2322]/15"],
+[class~="bg-[#1f2322]/20"],
+[class~="bg-[#1f2322]/25"],
+[class~="bg-[#1f2322]/30"],
+[class~="bg-[#1f2322]/35"],
+[class~="bg-[#1f2322]/40"],
+[class~="bg-[#1f2322]/45"],
+[class~="bg-[#1f2322]/50"],
+[class~="bg-[#1f2322]/55"],
+[class~="bg-[#1f2322]/60"],
+[class~="bg-[#1f2322]/65"],
+[class~="bg-[#1f2322]/70"],
+[class~="bg-[#1f2322]/75"],
+[class~="bg-[#1f2322]/80"],
+[class~="bg-[#1f2322]/85"],
+[class~="bg-[#1f2322]/90"],
+[class~="bg-[#1f2322]/95"] *{color:#1a1030!important}
+[class~="bg-[#73a89a]"],
+[class~="bg-[#73a89a]/5"],
+[class~="bg-[#73a89a]/10"],
+[class~="bg-[#73a89a]/15"],
+[class~="bg-[#73a89a]/20"],
+[class~="bg-[#73a89a]/25"],
+[class~="bg-[#73a89a]/30"],
+[class~="bg-[#73a89a]/35"],
+[class~="bg-[#73a89a]/40"],
+[class~="bg-[#73a89a]/45"],
+[class~="bg-[#73a89a]/50"],
+[class~="bg-[#73a89a]/55"],
+[class~="bg-[#73a89a]/60"],
+[class~="bg-[#73a89a]/65"],
+[class~="bg-[#73a89a]/70"],
+[class~="bg-[#73a89a]/75"],
+[class~="bg-[#73a89a]/80"],
+[class~="bg-[#73a89a]/85"],
+[class~="bg-[#73a89a]/90"],
+[class~="bg-[#73a89a]/95"]{background-color:#e6c36a!important;color:#1a1030!important}
+[class~="hover:bg-[#73a89a]"],
+[class~="hover:bg-[#73a89a]/5"],
+[class~="hover:bg-[#73a89a]/10"],
+[class~="hover:bg-[#73a89a]/15"],
+[class~="hover:bg-[#73a89a]/20"],
+[class~="hover:bg-[#73a89a]/25"],
+[class~="hover:bg-[#73a89a]/30"],
+[class~="hover:bg-[#73a89a]/35"],
+[class~="hover:bg-[#73a89a]/40"],
+[class~="hover:bg-[#73a89a]/45"],
+[class~="hover:bg-[#73a89a]/50"],
+[class~="hover:bg-[#73a89a]/55"],
+[class~="hover:bg-[#73a89a]/60"],
+[class~="hover:bg-[#73a89a]/65"],
+[class~="hover:bg-[#73a89a]/70"],
+[class~="hover:bg-[#73a89a]/75"],
+[class~="hover:bg-[#73a89a]/80"],
+[class~="hover:bg-[#73a89a]/85"],
+[class~="hover:bg-[#73a89a]/90"],
+[class~="hover:bg-[#73a89a]/95"]{}
+[class~="hover:bg-[#73a89a]"]:hover{background:#f6e3a1!important;color:#1a1030!important}
+[class~="text-[#1f2322]"],
+[class~="text-[#1f2322]/5"],
+[class~="text-[#1f2322]/10"],
+[class~="text-[#1f2322]/15"],
+[class~="text-[#1f2322]/20"],
+[class~="text-[#1f2322]/25"],
+[class~="text-[#1f2322]/30"],
+[class~="text-[#1f2322]/35"],
+[class~="text-[#1f2322]/40"],
+[class~="text-[#1f2322]/45"],
+[class~="text-[#1f2322]/50"],
+[class~="text-[#1f2322]/55"],
+[class~="text-[#1f2322]/60"],
+[class~="text-[#1f2322]/65"],
+[class~="text-[#1f2322]/70"],
+[class~="text-[#1f2322]/75"],
+[class~="text-[#1f2322]/80"],
+[class~="text-[#1f2322]/85"],
+[class~="text-[#1f2322]/90"],
+[class~="text-[#1f2322]/95"]{color:#efe9ff!important}
+[class~="text-[#1f2322]/5"],
+[class~="text-[#1f2322]/10"],
+[class~="text-[#1f2322]/15"],
+[class~="text-[#1f2322]/20"],
+[class~="text-[#1f2322]/25"],
+[class~="text-[#1f2322]/30"],
+[class~="text-[#1f2322]/35"],
+[class~="text-[#1f2322]/40"],
+[class~="text-[#1f2322]/45"],
+[class~="text-[#1f2322]/50"],
+[class~="text-[#1f2322]/55"],
+[class~="text-[#1f2322]/60"],
+[class~="text-[#1f2322]/65"],
+[class~="text-[#1f2322]/70"],
+[class~="text-[#1f2322]/75"],
+[class~="text-[#1f2322]/80"],
+[class~="text-[#1f2322]/85"],
+[class~="text-[#1f2322]/90"],
+[class~="text-[#1f2322]/95"]{color:rgba(239,233,255,.72)!important}
+[class~="text-[#73a89a]"],
+[class~="text-[#73a89a]/5"],
+[class~="text-[#73a89a]/10"],
+[class~="text-[#73a89a]/15"],
+[class~="text-[#73a89a]/20"],
+[class~="text-[#73a89a]/25"],
+[class~="text-[#73a89a]/30"],
+[class~="text-[#73a89a]/35"],
+[class~="text-[#73a89a]/40"],
+[class~="text-[#73a89a]/45"],
+[class~="text-[#73a89a]/50"],
+[class~="text-[#73a89a]/55"],
+[class~="text-[#73a89a]/60"],
+[class~="text-[#73a89a]/65"],
+[class~="text-[#73a89a]/70"],
+[class~="text-[#73a89a]/75"],
+[class~="text-[#73a89a]/80"],
+[class~="text-[#73a89a]/85"],
+[class~="text-[#73a89a]/90"],
+[class~="text-[#73a89a]/95"]{color:#e6c36a!important}
+[class~="text-white"],
+[class~="text-white/5"],
+[class~="text-white/10"],
+[class~="text-white/15"],
+[class~="text-white/20"],
+[class~="text-white/25"],
+[class~="text-white/30"],
+[class~="text-white/35"],
+[class~="text-white/40"],
+[class~="text-white/45"],
+[class~="text-white/50"],
+[class~="text-white/55"],
+[class~="text-white/60"],
+[class~="text-white/65"],
+[class~="text-white/70"],
+[class~="text-white/75"],
+[class~="text-white/80"],
+[class~="text-white/85"],
+[class~="text-white/90"],
+[class~="text-white/95"],
+[class~="text-[#fdfcfb]"],
+[class~="text-[#fdfcfb]/5"],
+[class~="text-[#fdfcfb]/10"],
+[class~="text-[#fdfcfb]/15"],
+[class~="text-[#fdfcfb]/20"],
+[class~="text-[#fdfcfb]/25"],
+[class~="text-[#fdfcfb]/30"],
+[class~="text-[#fdfcfb]/35"],
+[class~="text-[#fdfcfb]/40"],
+[class~="text-[#fdfcfb]/45"],
+[class~="text-[#fdfcfb]/50"],
+[class~="text-[#fdfcfb]/55"],
+[class~="text-[#fdfcfb]/60"],
+[class~="text-[#fdfcfb]/65"],
+[class~="text-[#fdfcfb]/70"],
+[class~="text-[#fdfcfb]/75"],
+[class~="text-[#fdfcfb]/80"],
+[class~="text-[#fdfcfb]/85"],
+[class~="text-[#fdfcfb]/90"],
+[class~="text-[#fdfcfb]/95"],
+[class~="text-[#FAF8F5]"],
+[class~="text-[#FAF8F5]/5"],
+[class~="text-[#FAF8F5]/10"],
+[class~="text-[#FAF8F5]/15"],
+[class~="text-[#FAF8F5]/20"],
+[class~="text-[#FAF8F5]/25"],
+[class~="text-[#FAF8F5]/30"],
+[class~="text-[#FAF8F5]/35"],
+[class~="text-[#FAF8F5]/40"],
+[class~="text-[#FAF8F5]/45"],
+[class~="text-[#FAF8F5]/50"],
+[class~="text-[#FAF8F5]/55"],
+[class~="text-[#FAF8F5]/60"],
+[class~="text-[#FAF8F5]/65"],
+[class~="text-[#FAF8F5]/70"],
+[class~="text-[#FAF8F5]/75"],
+[class~="text-[#FAF8F5]/80"],
+[class~="text-[#FAF8F5]/85"],
+[class~="text-[#FAF8F5]/90"],
+[class~="text-[#FAF8F5]/95"],
+[class~="text-[#FFFFFF]"],
+[class~="text-[#FFFFFF]/5"],
+[class~="text-[#FFFFFF]/10"],
+[class~="text-[#FFFFFF]/15"],
+[class~="text-[#FFFFFF]/20"],
+[class~="text-[#FFFFFF]/25"],
+[class~="text-[#FFFFFF]/30"],
+[class~="text-[#FFFFFF]/35"],
+[class~="text-[#FFFFFF]/40"],
+[class~="text-[#FFFFFF]/45"],
+[class~="text-[#FFFFFF]/50"],
+[class~="text-[#FFFFFF]/55"],
+[class~="text-[#FFFFFF]/60"],
+[class~="text-[#FFFFFF]/65"],
+[class~="text-[#FFFFFF]/70"],
+[class~="text-[#FFFFFF]/75"],
+[class~="text-[#FFFFFF]/80"],
+[class~="text-[#FFFFFF]/85"],
+[class~="text-[#FFFFFF]/90"],
+[class~="text-[#FFFFFF]/95"]{color:#1a1030}
+[class~="border-[#1f2322]"],
+[class~="border-[#1f2322]/5"],
+[class~="border-[#1f2322]/10"],
+[class~="border-[#1f2322]/15"],
+[class~="border-[#1f2322]/20"],
+[class~="border-[#1f2322]/25"],
+[class~="border-[#1f2322]/30"],
+[class~="border-[#1f2322]/35"],
+[class~="border-[#1f2322]/40"],
+[class~="border-[#1f2322]/45"],
+[class~="border-[#1f2322]/50"],
+[class~="border-[#1f2322]/55"],
+[class~="border-[#1f2322]/60"],
+[class~="border-[#1f2322]/65"],
+[class~="border-[#1f2322]/70"],
+[class~="border-[#1f2322]/75"],
+[class~="border-[#1f2322]/80"],
+[class~="border-[#1f2322]/85"],
+[class~="border-[#1f2322]/90"],
+[class~="border-[#1f2322]/95"]{border-color:rgba(230,195,106,.2)!important}
+[class~="border-[#73a89a]"],
+[class~="border-[#73a89a]/5"],
+[class~="border-[#73a89a]/10"],
+[class~="border-[#73a89a]/15"],
+[class~="border-[#73a89a]/20"],
+[class~="border-[#73a89a]/25"],
+[class~="border-[#73a89a]/30"],
+[class~="border-[#73a89a]/35"],
+[class~="border-[#73a89a]/40"],
+[class~="border-[#73a89a]/45"],
+[class~="border-[#73a89a]/50"],
+[class~="border-[#73a89a]/55"],
+[class~="border-[#73a89a]/60"],
+[class~="border-[#73a89a]/65"],
+[class~="border-[#73a89a]/70"],
+[class~="border-[#73a89a]/75"],
+[class~="border-[#73a89a]/80"],
+[class~="border-[#73a89a]/85"],
+[class~="border-[#73a89a]/90"],
+[class~="border-[#73a89a]/95"]{border-color:#e6c36a!important}
+[class*="hover:border-[#73a89a]"]:hover{border-color:#e6c36a!important;box-shadow:0 0 28px rgba(230,195,106,.18)}
+[class*="hover:text-[#73a89a]"]:hover{color:#f6e3a1!important}
+[class*="hover:bg-[#1f2322]/5"]:hover{background-color:rgba(230,195,106,.1)!important}
+
+a[class*="rounded-2xl"],article[class*="rounded-2xl"],section[class*="rounded-2xl"],div[class*="rounded-2xl"][class*="border"]{transition:transform .35s,box-shadow .35s,border-color .35s}
+a[class*="rounded-2xl"]:hover,article[class*="rounded-2xl"]:hover{transform:translateY(-3px);box-shadow:0 12px 40px rgba(109,75,214,.25),0 0 0 1px rgba(230,195,106,.3)}
+h1{background:linear-gradient(180deg,#fff8dc,#e6c36a);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+input,textarea,select{background-color:rgba(255,255,255,.06)!important;color:#efe9ff!important;border-color:rgba(230,195,106,.25)!important}
+::placeholder{color:rgba(239,233,255,.45)!important}
+img[src*="/tarot/"]{box-shadow:0 10px 40px rgba(0,0,0,.5),0 0 30px rgba(230,195,106,.15)}
+::selection{background:#e6c36a;color:#1a1030}
+/* hero wheel */
+.wheel-wrap{position:relative;aspect-ratio:1/1;width:min(92vw,620px);margin-inline:auto}
+.wheel-wrap::before{content:"";position:absolute;inset:-8%;border-radius:50%;background:radial-gradient(circle,rgba(230,195,106,.22),rgba(109,75,214,.18) 45%,transparent 68%);filter:blur(10px)}
+.wheel-wrap svg{position:relative;width:100%;height:100%;overflow:visible}
+.spin-slow{transform-origin:300px 300px;animation:spin 120s linear infinite}
+.spin-rev{transform-origin:300px 300px;animation:spin 80s linear infinite reverse}
+.spin-mid{transform-origin:300px 300px;animation:spin 200s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+.float{animation:float 7s ease-in-out infinite}
+@keyframes float{50%{transform:translateY(-10px)}}
+.glow-text{text-shadow:0 0 24px rgba(230,195,106,.45)}

@@ -21,7 +21,7 @@ export const Home: React.FC = () => (
     <div className="st-strip"><span>Free tarot</span>✦<span>Daily horoscope</span>✦<span>Love guidance</span>✦<span>Card meanings</span>✦<span>Angel numbers</span>✦<span>Personal readings</span></div>
     <section className="st-sec"><div className="wrap">
       <span className="eyebrow">Your sign</span><h2>Read today's horoscope</h2>
-      <div className="st-grid c4">{SIGN_INFO.map((s) => <Link key={s.n} className="st-sign" to={`/horoscope/${s.n}`}><b>{GLYPH[s.n]}</b>{s.n[0].toUpperCase() + s.n.slice(1)}</Link>)}</div>
+      <div className="st-grid c4">{SIGN_INFO.map((s) => <Link key={s.n} className="st-sign" to={`/horoscope/${s.n}`}><b>{GLYPH[s.n]}{'\uFE0E'}</b>{s.n[0].toUpperCase() + s.n.slice(1)}</Link>)}</div>
     </div></section>
     <section className="st-sec alt"><div className="wrap">
       <span className="eyebrow">Tarot library</span><h2>78 cards, explained plainly</h2><p className="sub">Upright and reversed meanings for love, career and life, one page for every card.</p>

@@ -17,7 +17,7 @@ export const SEO_CONFIG: Record<string, PageSEO> = {
   '/services': page('/services', 'Spiritual Services', 'Explore the spiritual service topics listed by The Psychic Studio. Check availability and service details before making a booking.'),
   '/courses': page('/courses', 'Tarot & Spiritual Learning', 'Explore tarot and spiritual learning topics. Contact the shop to confirm course availability, format, and details.'),
   '/how-it-works': page('/how-it-works', 'How to Order a Reading', 'Choose a reading, review its Etsy listing, and follow the order instructions. Check current prices, format, delivery estimates, and shop policies.'),
-  '/about': page('/about', 'About The Psychic Studio', 'Learn about The Psychic Studio and its approach to tarot and spiritual reflection. Explore personal readings and the free online tarot tool.'),
+  '/about': page('/about', 'About The Psychic Studio', 'Meet Daisy Hayes, owner of The Psychic Studio, and learn about her approach to tarot and spiritual reflection. Explore personal readings and the free online tarot tool.'),
   '/faq': page('/faq', 'Psychic & Tarot Reading FAQs', 'Answers about choosing a reading, Etsy checkout, free tarot, delivery details, and preparing your questions.'),
   '/contact': page('/contact', 'Contact & Reading Questions', 'Have a question about a reading or an Etsy order? Contact the shop through Etsy and check the listing for delivery and service details.'),
   '/blog': page('/blog', 'Tarot Guides & Spiritual Reflection', 'Explore tarot guides, card meanings, and spiritual reflection articles. Find ideas for preparing questions and understanding your reading.'),

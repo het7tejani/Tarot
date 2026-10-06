@@ -1,4 +1,4 @@
-:root{--paper:#fbf8f0;--paper2:#f4eddd;--cream:#fffdf8;--leaf:#5d6b2f;--leaf-d:#38441b;--leaf-l:#a9b57a;--ink:#25281a;--ink2:#5a5d46;--saffron:#c8892b;--rose:#b4573d;--line:rgba(56,68,27,.18)}
+:root{--paper:#fcfaf3;--paper2:#f6f1e1;--cream:#fffefa;--leaf:#7d9448;--leaf-d:#4a5f27;--leaf-l:#c9d6a3;--sage:#e7eed2;--ink:#2b2e1d;--ink2:#61644c;--saffron:#d29a3a;--rose:#b9604a;--line:rgba(74,95,39,.16)}
 .st{font-family:'Melange',Georgia,'Times New Roman',serif;color:var(--ink);background:var(--paper);min-height:100vh;line-height:1.65;-webkit-font-smoothing:antialiased}
 .st *{box-sizing:border-box}
 .st a{color:inherit;text-decoration:none}
@@ -97,3 +97,48 @@ html,body{background-color:#fbf8f0!important}
 .st [class*="bg-[#FAF8F5]"],.st [class*="bg-[#f0ebe4]"]{background-color:#fbf8f0!important}
 .st [class*="bg-[#f0ebe4]"]{background-color:#f4eddd!important}
 .st-head{background:rgba(251,248,240,.94)!important}
+
+/* ===== v3: simple, open, creative ===== */
+.st .btn{background:var(--leaf);border-color:var(--leaf);color:#fff}
+.st .btn:hover{background:var(--leaf-d);border-color:var(--leaf-d)}
+.st .btn.ghost{color:var(--leaf-d);border-color:var(--leaf)}
+.st-head{background:rgba(252,250,243,.9)!important;border-bottom:0!important}
+.st-strip{background:var(--sage);color:var(--leaf-d)}
+.st-sec{padding:96px 0}
+.st-sec.alt{background:transparent;position:relative}
+.st-sec.alt:before{content:"";position:absolute;left:50%;top:0;width:min(1100px,92%);transform:translateX(-50%);height:1px;background:var(--line)}
+.st-sec .eyebrow,.st-hero .eyebrow{display:block}
+.st-sec h2{font-style:italic;font-weight:500}
+.st-sec h2:after{content:"\2726";display:block;color:var(--saffron);font-size:16px;margin-top:14px;font-style:normal}
+.st-hero{background:radial-gradient(700px 480px at 78% 42%,rgba(201,214,163,.55),transparent 70%),radial-gradient(420px 300px at 8% 90%,rgba(210,154,58,.12),transparent 70%),var(--paper)}
+.st-hero h1{font-style:italic;font-weight:500}
+.st-card{background:transparent;border:0;border-top:1px solid var(--line);border-radius:0;padding:22px 0 8px}
+.st-card:hover{box-shadow:none;transform:none;border-color:var(--leaf)}
+.st-card h3{font-style:italic;font-weight:500}
+.st-sign{background:transparent;border:0;border-radius:0;padding:8px 0;gap:10px;font-size:18px;font-weight:500;border-bottom:1px dotted var(--line)}
+.st-sign:hover{background:transparent;color:var(--saffron)}
+.st-sign:hover b{color:var(--leaf)}
+.st-tarot a{border:0;border-radius:999px 999px 14px 14px;box-shadow:none}
+.st-tarot a:hover{transform:translateY(-8px)}
+.st-prod{background:transparent;border:0;border-radius:0}
+.st-prod:hover{box-shadow:none;transform:none}
+.st-prod .ph{border-radius:999px 999px 18px 18px;aspect-ratio:3/4}
+.st-prod .bd{padding:14px 4px 0}
+.st-prod .btn{background:transparent;color:var(--leaf-d);border:0;padding:4px 0;border-bottom:2px solid var(--saffron);border-radius:0;align-self:flex-start}
+.st-post img{border-radius:999px}
+.st-foot{background:var(--sage)!important;color:var(--ink)}
+footer.st-foot{background:var(--sage)!important}
+.st-foot a{color:var(--leaf-d)}
+.st-foot a:hover{color:var(--saffron)}
+.st-foot h4{color:var(--saffron)}
+.st-foot small{border-top:1px solid var(--line);color:var(--ink2)}
+.st-logo{color:var(--leaf-d)}
+/* legacy page templates: remove boxes */
+.st [class*="rounded-2xl"],.st [class*="rounded-xl"]{border-color:transparent!important;background:transparent!important;box-shadow:none!important}
+.st a[class*="rounded-xl"]{border:0!important;border-bottom:1px dotted rgba(74,95,39,.35)!important;border-radius:0!important;padding:6px 0!important}
+.st a[class*="rounded-xl"]:hover{color:var(--saffron)}
+.st section[class*="rounded-2xl"]{background:var(--sage)!important;border-radius:28px!important}
+.st [class*="rounded-full"][class*="bg-[#1f2322]"],.st a[class*="bg-[#1f2322]"]{background:var(--leaf)!important;color:#fff!important}
+html,body{background-color:#fcfaf3!important}
+.st [class*="bg-[#FAF8F5]"]{background-color:#fcfaf3!important}
+.st-prod .ph{border-radius:26px;aspect-ratio:1/1}

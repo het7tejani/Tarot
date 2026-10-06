@@ -1,7 +1,7 @@
 import React from 'react';
-const SIGNS = ['♈', '♉', '♊', '♋', '♌', '♍', '♎', '♏', '♐', '♑', '♒', '♓'];
+const SIGNS = ['♈', '♉', '♊', '♋', '♌', '♍', '♎', '♏', '♐', '♑', '♒', '♓'].map((g) => g + '\uFE0E');
 const NAMES = ['Aries', 'Taurus', 'Gemini', 'Cancer', 'Leo', 'Virgo', 'Libra', 'Scorpio', 'Sagittarius', 'Capricorn', 'Aquarius', 'Pisces'];
-const PLANETS = ['☉', '☽', '☿', '♀', '♂', '♃', '♄', '♅', '♆', '♇', '⚷', '☊'];
+const PLANETS = ['☉', '☽', '☿', '♀', '♂', '♃', '♄', '♅', '♆', '♇', '⚷', '☊'].map((g) => g + '\uFE0E');
 const ROMAN = ['I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX', 'X', 'XI', 'XII'];
 const C = 300;
 const rad = (d: number) => ((d - 90) * Math.PI) / 180;

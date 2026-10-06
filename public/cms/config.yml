@@ -1,0 +1,35 @@
+backend:
+  name: github
+  repo: het7tejani/Tarot
+  branch: main
+  base_url: https://thepsychicstudio.com
+  auth_endpoint: api/auth
+
+site_url: https://thepsychicstudio.com
+display_url: https://thepsychicstudio.com
+media_folder: public/uploads
+public_folder: /uploads
+publish_mode: simple
+
+collections:
+  - name: blog
+    label: Blog posts
+    label_singular: Blog post
+    folder: content/blog
+    create: true
+    extension: md
+    format: frontmatter
+    slug: "{{slug}}"
+    summary: "{{title}} ({{date}})"
+    sortable_fields: ["date", "title"]
+    fields:
+      - { label: Title, name: title, widget: string }
+      - { label: Publish date, name: date, widget: datetime, date_format: "YYYY-MM-DD", time_format: false, format: "YYYY-MM-DD" }
+      - { label: Category, name: category, widget: string, default: "Tarot Wisdom" }
+      - { label: Short summary (shown on the blog list and in search results), name: excerpt, widget: text }
+      - { label: Cover image, name: coverImage, widget: image, required: false }
+      - { label: Tags, name: tags, widget: list, required: false }
+      - { label: Key takeaways, name: keyTakeaways, widget: list, required: false }
+      - { label: Featured post, name: featured, widget: boolean, default: false }
+      - { label: Published (turn off to hide), name: published, widget: boolean, default: true }
+      - { label: Post text, name: body, widget: markdown }

@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { Layout, ETSY } from './Layout';
+import { FAQS } from '../data/readingsData';
 import { getBlogPosts } from '../services/cmsStorage';
 const inline = (t: string): React.ReactNode[] => {
   const out: React.ReactNode[] = []; const re = /\[([^\]]+)\]\(([^)]+)\)/g; let last = 0; let m: RegExpExecArray | null; let k = 0;
@@ -56,3 +57,10 @@ export const BlogPostPage: React.FC = () => {
     </div></div></Layout>
   );
 };
+export const Faq: React.FC = () => (
+  <Layout><div className="st-page"><div className="wrap">
+    <span className="eyebrow">FAQ</span><h1>Questions about readings and ordering</h1>
+    <div className="st-faq" style={{ maxWidth: 780, marginTop: 24 }}>{FAQS.map((f) => (<details key={f.question}><summary>{f.question}</summary><p>{f.answer}</p></details>))}</div>
+    <p style={{ marginTop: 30 }}><Link className="btn" to="/contact">Still have a question?</Link></p>
+  </div></div></Layout>
+);

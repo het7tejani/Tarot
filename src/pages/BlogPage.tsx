@@ -1,3 +1,4 @@
+import { TarotArtwork } from '../components/TarotArtwork';
 import React, { useState, useEffect, useMemo } from 'react';
 import { useSearchParams, Link, useLocation } from 'react-router-dom';
 import {
@@ -188,7 +189,7 @@ export const BlogPage: React.FC<BlogPageProps> = ({ onSelectReading }) => {
           <div className="mb-14 bg-[#FFFFFF] rounded-3xl border border-[#1f2322]/10 overflow-hidden shadow-sm hover:shadow-md transition-all">
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-0">
               <div className="lg:col-span-7 h-64 sm:h-80 lg:h-auto relative overflow-hidden bg-[#1f2322]/5">
-                <img
+                <TarotArtwork
                   src={featuredArticle.coverImage}
                   alt={featuredArticle.title}
                   className="w-full h-full object-cover transform hover:scale-105 transition-transform duration-500"
@@ -229,7 +230,7 @@ export const BlogPage: React.FC<BlogPageProps> = ({ onSelectReading }) => {
 
                 <div className="pt-4 border-t border-[#1f2322]/10 flex items-center justify-between">
                   <div className="flex items-center gap-2.5">
-                    <img
+                    <TarotArtwork
                       src={featuredArticle.author.avatar || 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=200&q=80'}
                       alt={featuredArticle.author.name}
                       className="w-8 h-8 rounded-full object-cover"
@@ -338,7 +339,7 @@ export const BlogPage: React.FC<BlogPageProps> = ({ onSelectReading }) => {
                   onClick={() => handleOpenArticle(post)}
                   className="aspect-video relative overflow-hidden bg-[#1f2322]/5 cursor-pointer"
                 >
-                  <img
+                  <TarotArtwork
                     src={post.coverImage}
                     alt={post.title}
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
@@ -390,7 +391,7 @@ export const BlogPage: React.FC<BlogPageProps> = ({ onSelectReading }) => {
               {/* Card Footer */}
               <div className="px-6 pb-6 pt-3 border-t border-[#1f2322]/5 flex items-center justify-between">
                 <div className="flex items-center gap-2">
-                  <img
+                  <TarotArtwork
                     src={post.author.avatar || 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=200&q=80'}
                     alt={post.author.name}
                     className="w-6 h-6 rounded-full object-cover"

@@ -250,3 +250,5 @@ html,body{background-color:#fcfaf3!important}
 
 .st-figure-wheel{display:block;width:100%;height:100%;max-width:none;mix-blend-mode:multiply;animation:stspin 240s linear infinite;will-change:transform}
 @media(prefers-reduced-motion:reduce){.st-figure-wheel{animation:none}}
+
+.st-hand-slice{mask-image:linear-gradient(to bottom,transparent,#000 8%,#000 92%,transparent),linear-gradient(to right,transparent,#000 25%,#000 78%,transparent);mask-composite:intersect;-webkit-mask-composite:source-in}

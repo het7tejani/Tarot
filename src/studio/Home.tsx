@@ -31,7 +31,7 @@ export const Home: React.FC = () => (
     <section className="st-sec"><div className="wrap">
       <span className="eyebrow">Personal readings</span><h2>Ask Daisy</h2><p className="sub">Every reading is listed on Etsy. Pick one here, and you'll check out safely on Etsy.</p>
       <div className="st-grid c3">{ETSY_LISTINGS.slice(0, 3).map((r) => (
-        <a key={r.id} className="st-card" href={r.url} target="_blank" rel="noopener noreferrer"><h3>{r.title.split(' | ')[0]}</h3><p>{r.title.split(' | ').slice(1, 3).join(' · ')}</p></a>))}</div>
+        <a key={r.id} className="st-card st-reading-feature" href={r.url} target="_blank" rel="noopener noreferrer"><img src={r.img} alt="" loading="lazy" /><h3>{r.title.split(' | ')[0]}</h3><p>{r.title.split(' | ').slice(1, 3).join(' · ')}</p></a>))}</div>
       <p style={{ marginTop: 26 }}><Link className="btn" to="/shop">View all readings</Link></p>
     </div></section>
     <section className="st-sec alt"><div className="wrap">

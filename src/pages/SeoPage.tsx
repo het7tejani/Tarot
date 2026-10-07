@@ -3,8 +3,10 @@ import { Link, useLocation } from 'react-router-dom';
 import { ExternalLink } from 'lucide-react';
 import { SEOHead } from '../components/SEOHead';
 import { ALL_SEO_PAGES, CARD_PAGES, SIGN_INFO, SeoPageDef } from '../data/seoPages';
+import { Wheel } from '../studio/Wheel';
 import { FREE_TAROT_CARDS } from '../data/readingsData';
 
+const GLYPHS = ['♈','♉','♊','♋','♌','♍','♎','♏','♐','♑','♒','♓'];
 const cap = (s: string) => s.charAt(0).toUpperCase() + s.slice(1);
 const norm = (s: string) => s.toLowerCase().replace(/^the\s+/, '').replace(/[^a-z]/g, '');
 const byPath: Record<string, SeoPageDef> = Object.fromEntries(ALL_SEO_PAGES.map((p) => [p.path, p]));
@@ -20,7 +22,7 @@ const DailyCard: React.FC<{ signIndex: number; label: string }> = ({ signIndex, 
     return FREE_TAROT_CARDS[seed];
   }, [signIndex]);
   return (
-    <section className="rounded-2xl border border-[#1f2322]/10 bg-white/50 p-6 grid sm:grid-cols-[120px_1fr] gap-6 items-start">
+    <section className="st-daily-card rounded-2xl border border-[#1f2322]/10 bg-white/50 p-6 grid sm:grid-cols-[120px_1fr] gap-6 items-start">
       <img src={card.image} alt={`${card.name} tarot card`} className="w-28 rounded-lg shadow-md" loading="lazy" />
       <div>
         <h2 className="text-xl font-semibold mb-1">{label}: {card.name}</h2>
@@ -78,17 +80,29 @@ export const SeoPage: React.FC<{ etsyBaseUrl: string }> = ({ etsyBaseUrl }) => {
   const related = (page.kind === 'hub-tarot' ? CARD_PAGES.map((c) => c.path) : page.links) || [];
   const N = sign ? cap(sign.n) : '';
 
+  const isHoroscope = page.path === '/horoscope' || page.kind === 'horoscope';
   const card = page.card;
   const major = card?.arcana === 'Major Arcana' ? FREE_TAROT_CARDS.find((c) => norm(c.name) === norm(card.name)) : undefined;
 
   return (
-    <div className="pt-32 pb-24 bg-[#FAF8F5] min-h-screen text-[#1f2322]">
+    <div className={`pt-32 pb-24 bg-[#FAF8F5] min-h-screen text-[#1f2322] ${isHoroscope ? "st-astro-page" : "st-editorial"}`}>
       <SEOHead title={`${page.title} | The Psychic Studio`} description={page.meta} canonicalUrl={`${typeof window !== 'undefined' ? window.location.origin : ''}${page.path}`} />
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className={`mx-auto px-4 sm:px-6 lg:px-8 ${isHoroscope ? "st-astro-wrap" : "max-w-4xl"}`}>
         <nav className="text-xs text-[#1f2322]/50 mb-5" aria-label="Breadcrumb"><Link to="/" className="hover:text-[#73a89a]">Home</Link> / <span>{page.h1}</span></nav>
-        <p className="text-xs uppercase tracking-widest font-semibold text-[#73a89a] mb-3">The Psychic Studio</p>
-        <h1 className="text-4xl sm:text-5xl font-semibold tracking-tight mb-5">{page.h1}</h1>
-        {page.intro && <p className="text-lg leading-relaxed text-[#1f2322]/70 mb-8">{page.intro}</p>}
+        <div className={isHoroscope ? "st-astro-hero" : "st-editorial-heading"}>
+          <div>
+            <p className="eyebrow">{isHoroscope ? 'A little perspective from the stars' : 'The Psychic Studio'}</p>
+            <h1 className="text-4xl sm:text-5xl font-semibold tracking-tight mb-5">{page.h1}</h1>
+            {page.intro && <p className="text-lg leading-relaxed text-[#1f2322]/70 mb-8">{page.intro}</p>}
+            {sign && <div className="st-sign-meta"><span>{sign.dates}</span><span>{sign.el}</span><span>{sign.ruler}</span></div>}
+            {page.path === '/horoscope' && <a className="btn ghost" href="#your-sign">Find your sign ↓</a>}
+          </div>
+          {isHoroscope && (sign ? <div className="st-sign-orbit" aria-hidden="true"><span className="st-orbit-star">✦</span><b>{GLYPHS[signIndex]}{'\uFE0E'}</b><span className="st-orbit-label">{N} · {sign.el}</span></div> : <Wheel />)}
+        </div>
+        {page.path === '/horoscope' && <section id="your-sign" className="st-sign-selection">
+          <span className="eyebrow">Twelve signs. Your own perspective.</span><h2>Choose your sign</h2>
+          <div className="st-zodiac-gallery">{SIGN_INFO.map((s, i) => <Link key={s.n} to={`/horoscope/${s.n}`} className="st-zodiac-tile"><span className="st-zodiac-glyph" aria-hidden="true">{GLYPHS[i]}{'\uFE0E'}</span><span className="st-zodiac-name">{cap(s.n)}</span><span className="st-zodiac-dates">{s.dates}</span><span className="st-zodiac-element">{s.el} <span aria-hidden="true">↗</span></span></Link>)}</div>
+        </section>}
 
         {page.kind === 'horoscope' && sign && (
           <>
@@ -207,7 +221,7 @@ export const SeoPage: React.FC<{ etsyBaseUrl: string }> = ({ etsyBaseUrl }) => {
           </>
         )}
 
-        {related.length > 0 && page.kind !== 'hub-tarot' && (
+        {related.length > 0 && page.kind !== 'hub-tarot' && page.path !== '/horoscope' && (
           <>
             <H2>Keep exploring</H2>
             <LinkGrid paths={related.slice(0, 24)} />

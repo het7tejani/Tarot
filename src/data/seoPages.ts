@@ -11,7 +11,7 @@ const EXTRA: Record<string, string[]> = { temperance: ["temperance", "temperance
 const slugify = (n: string) => n.toLowerCase().replace(/[^a-z]+/g, "-").replace(/^-|-$/g, "");
 export const CARD_PAGES: SeoPageDef[] = [
   ...MAJ.map((name) => ({ name, arcana: "Major Arcana", img: "/tarot/" + name.toLowerCase().replace(/[^a-z]+/g, "_").replace(/^_|_$/g, "") + ".jpg" })),
-  ...Object.keys(SUITS).flatMap((suit) => NUMS.map((num) => ({ name: num + " of " + suit, arcana: "Minor Arcana", img: "/tarot/card_back.jpg", suit, num, el: SUITS[suit][0], dom: SUITS[suit][1], up: NM[num][0], rev: NM[num][1] }))),
+  ...Object.keys(SUITS).flatMap((suit) => NUMS.map((num) => ({ name: num + " of " + suit, arcana: "Minor Arcana", img: "/tarot/" + (num + " of " + suit).toLowerCase().replace(/ /g, "_") + ".jpg", suit, num, el: SUITS[suit][0], dom: SUITS[suit][1], up: NM[num][0], rev: NM[num][1] }))),
 ].map((c) => {
   const slug = slugify(c.name);
   const lc = c.name.toLowerCase();

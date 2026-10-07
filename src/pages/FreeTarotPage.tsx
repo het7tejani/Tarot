@@ -1,3 +1,4 @@
+import { TarotArtwork } from '../components/TarotArtwork';
 import React, { useState } from 'react';
 import { Shuffle, RefreshCw, ZoomIn, X, ChevronRight, Layers, ArrowUpCircle, ArrowDownCircle } from 'lucide-react';
 import { FREE_TAROT_CARDS } from '../data/readingsData';
@@ -189,7 +190,7 @@ export const FreeTarotPage: React.FC = () => {
                       onClick={() => setZoomedCard(card)}
                       title="Click to view card in full detail"
                     >
-                      <img
+                      <TarotArtwork
                         src={card.image}
                         alt={`${card.name} Tarot Card`}
                         className="w-56 sm:w-64 aspect-[2/3] object-cover rounded-lg shadow-lg group-hover:scale-[1.02] transition-transform duration-200"
@@ -292,7 +293,7 @@ export const FreeTarotPage: React.FC = () => {
                         onClick={() => setZoomedCard(card)}
                         title="Click to zoom card artwork"
                       >
-                        <img
+                        <TarotArtwork
                           src={card.image}
                           alt={`${card.name} Tarot Card`}
                           className="w-48 aspect-[2/3] object-cover rounded-lg shadow-md group-hover:scale-[1.02] transition-transform duration-200"
@@ -399,7 +400,7 @@ export const FreeTarotPage: React.FC = () => {
             >
               {/* Stacked background cards */}
               <div className="absolute inset-0 rounded-lg transform -rotate-6 -translate-x-3 translate-y-1 bg-[#1f2322] shadow-md overflow-hidden">
-                <img
+                <TarotArtwork
                   src="/tarot/card_back.jpg"
                   alt="Tarot Card Back"
                   className="w-full h-full object-cover opacity-80"
@@ -407,7 +408,7 @@ export const FreeTarotPage: React.FC = () => {
                 />
               </div>
               <div className="absolute inset-0 rounded-lg transform rotate-6 translate-x-3 translate-y-1 bg-[#1f2322] shadow-md overflow-hidden">
-                <img
+                <TarotArtwork
                   src="/tarot/card_back.jpg"
                   alt="Tarot Card Back"
                   className="w-full h-full object-cover opacity-80"
@@ -416,7 +417,7 @@ export const FreeTarotPage: React.FC = () => {
               </div>
               {/* Front card */}
               <div className="relative w-full h-full rounded-lg bg-[#1f2322] shadow-xl overflow-hidden group-hover:scale-105 transition-transform duration-300">
-                <img
+                <TarotArtwork
                   src="/tarot/card_back.jpg"
                   alt="Tarot Deck Ready"
                   className="w-full h-full object-cover"
@@ -471,7 +472,7 @@ export const FreeTarotPage: React.FC = () => {
                     className="group cursor-pointer flex flex-col items-center text-center"
                   >
                     <div className="w-full aspect-[2/3] rounded-md overflow-hidden shadow-sm group-hover:shadow-md group-hover:scale-105 transition-all duration-200 bg-[#e9e0d1] mb-2">
-                      <img
+                      <TarotArtwork
                         src={card.image}
                         alt={card.name}
                         className="w-full h-full object-cover"
@@ -509,7 +510,7 @@ export const FreeTarotPage: React.FC = () => {
               </button>
 
               <div className="flex flex-col sm:flex-row gap-6 items-center sm:items-start pt-2">
-                <img
+                <TarotArtwork
                   src={zoomedCard.image}
                   alt={zoomedCard.name}
                   className="w-48 sm:w-56 shrink-0 aspect-[2/3] object-cover rounded-lg shadow-md"
@@ -568,4 +569,3 @@ export const FreeTarotPage: React.FC = () => {
     </div>
   );
 };
-

@@ -4,8 +4,8 @@ import { ETSY_LISTINGS } from '../data/etsyListings';
 export const Shop: React.FC = () => (
   <Layout>
     <div className="st-page"><div className="wrap">
-      <span className="eyebrow">Shop</span><h1>Personal readings by Daisy</h1>
-      <p className="st-prose">These are my current readings on Etsy. Click any card to see the full listing, price and reviews there. Checkout happens on Etsy.</p>
+      <span className="eyebrow">Shop</span><h1>Personal psychic and tarot readings</h1>
+      <p className="st-prose">Browse personal psychic and tarot readings by Daisy Hayes for love, relationships and life questions. Click a card for the full Etsy listing, current price, format, reviews and delivery terms. This website does not take payment.</p>
       <div className="st-grid c3">{ETSY_LISTINGS.map((r) => (
         <a key={r.id} className="st-prod" href={r.url} target="_blank" rel="noopener noreferrer">
           <div className="ph"><img src={r.img} alt={r.title} loading="lazy" /></div>

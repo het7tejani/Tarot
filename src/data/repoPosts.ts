@@ -51,6 +51,7 @@ export const REPO_BLOG_POSTS: BlogPost[] = Object.entries(files)
       id: `repo-${slug}`,
       slug,
       title: str('title') || slug,
+      metaTitle: str('metaTitle'),
       category: str('category') || 'Blog',
       date: fmtDate(str('date')),
       readTime: `${Math.max(1, Math.round(words / 200))} min read`,

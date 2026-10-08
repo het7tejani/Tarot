@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { Layout, ETSY } from './Layout';
+import { SEOHead } from '../components/SEOHead';
 import { FAQS } from '../data/readingsData';
 import { getBlogPosts } from '../services/cmsStorage';
 const inline = (t: string): React.ReactNode[] => {
@@ -38,7 +39,7 @@ export const Blog: React.FC = () => {
       <span className="eyebrow">Blog</span><h1>Tarot guides and reflections</h1>
       <div className="st-grid c2">{posts.map((p) => (
         <Link key={p.id} className="st-card st-post" to={`/blog/${p.slug || p.id}`}>
-          {p.coverImage && <img src={p.coverImage} alt="" loading="lazy" />}
+          {p.coverImage && <img src={p.coverImage} alt={p.title} loading="lazy" />}
           <div><span className="eyebrow">{p.category}</span><h3>{p.title}</h3><p>{p.excerpt}</p></div>
         </Link>))}</div>
     </div></div></Layout>
@@ -47,10 +48,10 @@ export const Blog: React.FC = () => {
 export const BlogPostPage: React.FC = () => {
   const { slug } = useParams();
   const p = getBlogPosts().find((x) => x.slug === slug || x.id === slug);
-  React.useEffect(() => { if (p) document.title = `${p.title} | The Psychic Studio`; }, [p]);
+
   return (
     <Layout seo={false}><div className="st-page"><div className="wrap">
-      {p ? (<><span className="eyebrow">{p.category}</span><h1>{p.title}</h1>
+      {p ? (<><SEOHead title={`${p.title} | The Psychic Studio`} description={p.excerpt.slice(0, 155)} ogType="article" ogImage={p.coverImage} /><span className="eyebrow">{p.category}</span><h1>{p.title}</h1>
         <div className="st-prose" style={{ marginTop: 20 }}><Md text={p.content} /></div></>)
         : <h1>Post not found</h1>}
       <p style={{ marginTop: 30 }}><Link className="btn ghost" to="/blog">← All posts</Link></p>
@@ -59,7 +60,7 @@ export const BlogPostPage: React.FC = () => {
 };
 export const Faq: React.FC = () => (
   <Layout><div className="st-page"><div className="wrap">
-    <span className="eyebrow">FAQ</span><h1>Questions about readings and ordering</h1>
+    <span className="eyebrow">FAQ</span><h1>Questions to Ask a Psychic and Reading FAQs</h1>
     <div className="st-faq" style={{ maxWidth: 780, marginTop: 24 }}>{FAQS.map((f) => (<details key={f.question}><summary>{f.question}</summary><p>{f.answer}</p></details>))}</div>
     <p style={{ marginTop: 30 }}><Link className="btn" to="/contact">Still have a question?</Link></p>
   </div></div></Layout>

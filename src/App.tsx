@@ -20,7 +20,7 @@ export default function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/blog/:slug" element={<BlogPostPage />} />
-        <Route path="/free-tarot" element={<Layout><FreeTarotPage /></Layout>} />
+        <Route path="/free-tarot" element={<Layout seo={false}><FreeTarotPage /></Layout>} />
         {ALL_SEO_PAGES.map((p) => (
           <Route key={p.path} path={p.path} element={<Layout seo={false}><SeoPage etsyBaseUrl={ETSY} /></Layout>} />
         ))}

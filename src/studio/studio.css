@@ -278,3 +278,5 @@ html,body{background-color:#fcfaf3!important}
 /* Override legacy button theme at equal specificity. */
 .st-card .st-shop-card-title{font-size:20px;line-height:1.25;margin:18px 0 9px;color:var(--ink);font-weight:600}
 header .nav a.on,header a[aria-current=page]{color:#846019!important}
+
+.st-head .st-brand-mark{height:44px;width:auto;display:block;flex-shrink:0}

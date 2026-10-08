@@ -12,7 +12,7 @@ export const Layout: React.FC<{ children: React.ReactNode; seo?: boolean }> = ({
     <div className="st">
       {seo && <RouteSEO />}
       <header className="st-head"><div className="wrap in">
-        <Link to="/" className="st-logo"><i />The Psychic Studio</Link>
+        <Link to="/" className="st-logo"><img className="st-brand-mark" src="/navbar-480.png" width="40" height="44.667" alt="" />The Psychic Studio</Link>
         <button className="st-burger" aria-label="Menu" onClick={() => setOpen(!open)}>{open ? '×' : '☰'}</button>
         <nav className={'st-nav' + (open ? ' open' : '')}>
           {NAV.map(([to, l]) => <NavLink key={to} to={to} end={to === '/'} className={({ isActive }) => (isActive ? 'on' : '')}>{l}</NavLink>)}

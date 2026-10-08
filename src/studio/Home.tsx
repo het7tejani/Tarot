@@ -3,7 +3,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Layout, ETSY } from './Layout';
 import { Wheel } from './Wheel';
-import { SIGN_INFO } from '../data/seoPages';
+const SIGN_INFO = ['aries','taurus','gemini','cancer','leo','virgo','libra','scorpio','sagittarius','capricorn','aquarius','pisces'].map(n=>({n}));
 import { ETSY_LISTINGS } from '../data/etsyListings';
 import { FAQS, HOW_IT_WORKS_STEPS } from '../data/readingsData';
 const GLYPH: Record<string, string> = { aries: '♈', taurus: '♉', gemini: '♊', cancer: '♋', leo: '♌', virgo: '♍', libra: '♎', scorpio: '♏', sagittarius: '♐', capricorn: '♑', aquarius: '♒', pisces: '♓' };

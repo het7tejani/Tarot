@@ -21,5 +21,5 @@ export const TarotArtwork: React.FC<React.ImgHTMLAttributes<HTMLImageElement> & 
     const observer=new IntersectionObserver(entries=>{if(entries.some(e=>e.isIntersecting)){load();observer.disconnect();}},{rootMargin:'250px'});
     if(ref.current) observer.observe(ref.current);return()=>{live=false;observer.disconnect();};
   },[slug,blogSlug,key,pack,props.loading]);
-  return <img {...props} ref={ref} src={pack ? resolved || blank : slug?.includes("_of_") ? "/tarot/card_back.jpg" : src} onError={pack ? undefined : onError} />;
+  return <img {...props} style={blogSlug === "5712829" ? {...props.style, objectPosition:"center 70%"} : props.style} ref={ref} src={pack ? resolved || blank : slug?.includes("_of_") ? "/tarot/card_back.jpg" : src} onError={pack ? undefined : onError} />;
 };

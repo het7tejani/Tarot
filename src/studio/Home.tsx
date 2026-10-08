@@ -13,7 +13,7 @@ export const Home: React.FC = () => (
     <section className="st-hero"><div className="wrap in">
       <div>
         <span className="eyebrow">Tarot · Horoscopes · Readings</span>
-        <h1>Find your answers in the stars and the cards.</h1>
+        <h1>Psychic and tarot readings for a clearer perspective.</h1>
         <p className="lead">Hi, I'm Daisy Hayes. Draw a free card, read today's horoscope, or order a personal reading from my Etsy shop.</p>
         <div className="cta"><Link className="btn" to="/free-tarot">Draw a free card</Link><Link className="btn ghost" to="/shop">See my readings</Link></div>
       </div>
@@ -25,14 +25,14 @@ export const Home: React.FC = () => (
       <div className="st-grid c4">{SIGN_INFO.map((s) => <Link key={s.n} className="st-sign" to={`/horoscope/${s.n}`}><b>{GLYPH[s.n]}{'\uFE0E'}</b>{s.n[0].toUpperCase() + s.n.slice(1)}</Link>)}</div>
     </div></section>
     <section className="st-sec alt"><div className="wrap">
-      <span className="eyebrow">Tarot library</span><h2>78 cards, explained plainly</h2><p className="sub">Upright and reversed meanings for love, career and life, one page for every card.</p>
+      <span className="eyebrow">Tarot library</span><h2>Tarot card meanings: all 78 cards</h2><p className="sub">Upright and reversed meanings for love, career and life, one page for every card.</p>
       <div className="st-tarot">{CARDS.map((c) => <Link key={c} to={`/tarot-card-meanings/${c.replace(/_/g, '-')}`}><TarotArtwork src={`/tarot/${c}.jpg`} alt={c.replace(/_/g, ' ')} loading="lazy" /></Link>)}</div>
       <p style={{ marginTop: 26 }}><Link className="btn ghost" to="/tarot-card-meanings">Browse all card meanings</Link></p>
     </div></section>
     <section className="st-sec"><div className="wrap">
-      <span className="eyebrow">Personal readings</span><h2>Ask Daisy</h2><p className="sub">Every reading is listed on Etsy. Pick one here, and you'll check out safely on Etsy.</p>
+      <span className="eyebrow">Personal readings</span><h2>Personal psychic readings on Etsy</h2><p className="sub">Every reading is listed on Etsy. Pick one here, and you'll check out safely on Etsy.</p>
       <div className="st-grid c3">{ETSY_LISTINGS.slice(0, 3).map((r) => (
-        <a key={r.id} className="st-card st-reading-feature" href={r.url} target="_blank" rel="noopener noreferrer"><TarotArtwork src={r.img} alt="" loading="lazy" /><h3>{r.title.split(' | ')[0]}</h3><p>{r.title.split(' | ').slice(1, 3).join(' · ')}</p></a>))}</div>
+        <a key={r.id} className="st-card st-reading-feature" href={r.url} target="_blank" rel="noopener noreferrer"><TarotArtwork src={r.img} alt={r.title.split(" | ")[0]} loading="lazy" /><h3>{r.title.split(' | ')[0]}</h3><p>{r.title.split(' | ').slice(1, 3).join(' · ')}</p></a>))}</div>
       <p style={{ marginTop: 26 }}><Link className="btn" to="/shop">View all readings</Link></p>
     </div></section>
     <section className="st-sec alt"><div className="wrap">

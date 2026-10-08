@@ -979,46 +979,49 @@ export const CORE_VALUES = [
 
 export const FAQS: FAQItem[] = [
   {
-    question: 'What services are offered and how do online sessions work?',
-    answer:
-      'We offer four categories of holistic guidance: Fortune & Guidance (Tarot Reading, Numerology, Yearly Birthday Reading); Energy Healing (Reiki, Chakra Balancing, Crystal Healing); Deep Healing (Inner Child Healing, Past Life Regression, Emotional Cord Cutting); and Empowerment Coaching. All sessions are available remotely with full effectiveness, delivered via Etsy digital dispatch, secure PDF guide, or private video call.',
-    category: 'reading'
+    "question": "What is a psychic reading on this website?",
+    "answer": "The Psychic Studio displays personal psychic and tarot readings listed in Daisy's Etsy shop. Open the individual listing to see exactly what it includes. This website does not host paid live sessions or take orders.",
+    "category": "reading"
   },
   {
-    question: 'How do I submit my questions after ordering?',
-    answer:
-      'When checking out on Etsy, you will see a "Personalization" text field right above the Buy button. Simply type your first name, your questions, or brief context about your situation. If you forget, you can also message us directly on Etsy immediately after placing your order.',
-    category: 'ordering'
+    "question": "What questions should I ask a psychic?",
+    "answer": "Try open questions about your own choices: What can I communicate more clearly? Which pattern do I want to change? What should I consider before taking my next step? A reading cannot guarantee another person's feelings, an exact date or a future outcome.",
+    "category": "reading"
   },
   {
-    question: 'How and when will my reading be delivered?',
-    answer:
-      'All readings are delivered within 24 to 48 hours of order placement. You will receive a direct Etsy message containing your high-resolution card spread photo and a formatted PDF reading report, as well as an email notification.',
-    category: 'delivery'
+    "question": "How do I choose a love tarot reading?",
+    "answer": "Decide what you want to reflect on, then compare the Etsy listings for question limits and the reading format. Keep attention on communication, boundaries and your own decisions. Readings are for entertainment and reflection, not a substitute for professional advice.",
+    "category": "reading"
   },
   {
-    question: 'Do I need to be present live or on video for a tarot reading?',
-    answer:
-      'No live session or video call is necessary for our core tarot spreads. This format allows you to digest your reading in peace without social anxiety, and keeps a permanent written record you can reread whenever you need reassurance.',
-    category: 'reading'
+    "question": "How do I submit my questions after ordering?",
+    "answer": "Follow the instructions on the Etsy listing you choose. If it asks for personalization, provide the requested question and context. For an existing order, contact the shop through Etsy messages.",
+    "category": "ordering"
   },
   {
-    question: 'Can I learn Tarot or become a certified healer through your courses?',
-    answer:
-      'Yes! We offer structured certified training from Tarot Foundations (learning all 78 cards without booklets) to professional Tarot Arcana Mastership and our comprehensive Reiki Grandmaster lineage courses. Visit the Courses page for full syllabi.',
-    category: 'reading'
+    "question": "How and when will my reading be delivered?",
+    "answer": "The format and delivery estimate are shown on the individual Etsy listing. Check them before ordering; this website does not promise one delivery time or file format for every reading. Ask through Etsy if anything is unclear.",
+    "category": "delivery"
   },
   {
-    question: 'Can I ask follow-up questions if something is unclear?',
-    answer:
-      'Yes! We want you to feel fully heard and supported. Each reading includes one free follow-up clarification message through Etsy chat to ensure you have total clarity.',
-    category: 'reading'
+    "question": "Do I need to be present live or on video?",
+    "answer": "Check the format of the specific Etsy listing before you buy. Do not assume that a live call, video session or written report is included unless the listing says so.",
+    "category": "reading"
   },
   {
-    question: 'Why do you process orders through Etsy?',
-    answer:
-      'Etsy provides safe, encrypted transactions, full buyer protection, flexible payment methods (Credit Card, Apple Pay, PayPal, Klarna), and an organized inbox where your reading is permanently saved.',
-    category: 'ordering'
+    "question": "Can I ask follow-up questions?",
+    "answer": "Review the follow-up terms on your chosen Etsy listing. You can contact the shop through Etsy about an unclear detail, but extra questions or additional readings are not automatically included.",
+    "category": "reading"
+  },
+  {
+    "question": "Is the free tarot reading really free?",
+    "answer": "The one-card and three-card draw on this website needs no account or payment details. It uses the 22 Major Arcana and shows upright and reversed meanings for self-guided reflection. Personal Etsy readings are separate paid listings.",
+    "category": "reading"
+  },
+  {
+    "question": "Why are orders placed through Etsy?",
+    "answer": "Each card in the shop links to its Etsy listing so you can review the current price, service details and shop policies before checkout. Payments and order messages are handled on Etsy, not on this website.",
+    "category": "ordering"
   }
 ];
 

@@ -279,3 +279,5 @@ a.rounded-full,button.rounded-full{background-color:#4a5f27!important;color:#fff
 /* Override legacy button theme at equal specificity. */
 main a.rounded-full,main button.rounded-full,main button[class*="bg-[#"]{background-color:#4a5f27!important;color:#fff!important}
 .st-card .st-shop-card-title{font-size:20px;line-height:1.25;margin:18px 0 9px;color:var(--ink);font-weight:600}
+header .nav a.on,header a[aria-current=page]{color:#846019!important}
+main a[class~="rounded-full"],main button[class~="rounded-full"]{background:#4a5f27!important;color:#fff!important}

@@ -360,10 +360,10 @@ export const FreeTarotPage: React.FC = () => {
             {/* Seamless Etsy Recommendation (Normal typography, not a giant boxed card) */}
             <div className="pt-12 border-t border-[#1f2322]/10 text-center max-w-xl mx-auto space-y-3">
               <h4 className="text-xl font-semibold text-[#1f2322]">
-                Looking for a Personal Altar Reading?
+                Looking for a Personal Tarot Reading?
               </h4>
               <p className="text-xs sm:text-sm text-[#1f2322]/70 leading-relaxed">
-                For in-depth inquiries regarding relationships, career transitions, or destiny spreads, book a hand-cast reading delivered with real altar photographs.
+                For personal guidance on relationships, work or life questions, browse the Etsy listings. Check each listing for its format, price, delivery estimate and what is included.
               </p>
               <div className="pt-2 flex flex-wrap items-center justify-center gap-4">
                 <Link
@@ -434,7 +434,7 @@ export const FreeTarotPage: React.FC = () => {
                 Major Arcana Deck Archive
               </h3>
               <p className="text-xs text-[#1f2322]/60 mt-0.5">
-                Authentic 1909 Rider-Waite-Smith cards by Pamela Colman Smith.
+                Explore the 22 Major Arcana in our custom tarot deck.
               </p>
             </div>
             <button

@@ -46,6 +46,7 @@ export interface TarotCard {
 }
 
 export interface BlogPost {
+  metaTitle?: string;
   id: string;
   slug: string;
   title: string;

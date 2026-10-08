@@ -307,9 +307,9 @@ export const FreeTarotPage: React.FC = () => {
 
                       {/* Card Title */}
                       <div>
-                        <h3 className="text-xl font-semibold text-[#1f2322]">
+                        <h2 className="text-xl font-semibold text-[#1f2322]">
                           {card.name}
-                        </h3>
+                        </h2>
                         <span className="text-xs text-[#1f2322]/50 font-mono">
                           Arcana {card.number}
                         </span>
@@ -430,9 +430,9 @@ export const FreeTarotPage: React.FC = () => {
         <div className="mt-20 pt-10 border-t border-[#1f2322]/15">
           <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-6">
             <div>
-              <h3 className="text-xl font-semibold text-[#1f2322]">
+              <h2 className="text-xl font-semibold text-[#1f2322]">
                 Major Arcana Deck Archive
-              </h3>
+              </h2>
               <p className="text-xs text-[#1f2322]/60 mt-0.5">
                 Explore the 22 Major Arcana in our custom tarot deck.
               </p>
@@ -521,9 +521,9 @@ export const FreeTarotPage: React.FC = () => {
                   <span className="text-[11px] uppercase tracking-wider font-semibold text-[#73a89a]">
                     1909 Rider-Waite-Smith
                   </span>
-                  <h3 className="text-2xl font-semibold text-[#1f2322] leading-tight">
+                  <h2 className="text-2xl font-semibold text-[#1f2322] leading-tight">
                     {zoomedCard.name}
-                  </h3>
+                  </h2>
                   <p className="text-xs font-mono text-[#1f2322]/50">
                     Card {zoomedCard.number} • {zoomedCard.arcana}
                   </p>

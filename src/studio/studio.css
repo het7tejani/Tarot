@@ -273,3 +273,9 @@ html,body{background-color:#fcfaf3!important}
 .st-journal-thumb,.st-journal-hero{position:relative}.st-journal-number-label{position:absolute;z-index:1;bottom:22px;left:24px;color:#fff;text-shadow:0 2px 12px rgba(0,0,0,.8);font-size:66px;font-weight:600;line-height:1}.st-journal-number-label small{display:block;font-size:10px;letter-spacing:3px;margin-top:8px}.st-journal-hero .st-journal-number-label{font-size:92px;left:35px;bottom:30px}.st-journal-hero .st-journal-number-label small{font-size:12px}
 .st-journal-hero:has(.st-journal-number-label) img{object-position:center 25%}.st-journal-thumb:has(.st-journal-number-label) img{object-position:center 25%}
 .st-journal-thumb img[src$='/5712829.webp'],.st-journal-hero img[src$='/5712829.webp']{object-position:center 70%}
+/* Accessible versions of the existing brand tones; no spacing or layout changes. */
+.st-head .nav a.on,.eyebrow,.st-num,.st-foot .st-footer-heading{color:#846019!important}
+a.rounded-full,button.rounded-full{background-color:#4a5f27!important;color:#fff!important}
+/* Override legacy button theme at equal specificity. */
+main a.rounded-full,main button.rounded-full,main button[class*="bg-[#"]{background-color:#4a5f27!important;color:#fff!important}
+.st-card .st-shop-card-title{font-size:20px;line-height:1.25;margin:18px 0 9px;color:var(--ink);font-weight:600}

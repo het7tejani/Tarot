@@ -138,7 +138,7 @@ footer.st-foot{background:var(--sage)!important}
 .st a[class*="rounded-xl"]{border:0!important;border-bottom:1px dotted rgba(74,95,39,.35)!important;border-radius:0!important;padding:6px 0!important}
 .st a[class*="rounded-xl"]:hover{color:var(--saffron)}
 .st section[class*="rounded-2xl"]{background:var(--sage)!important;border-radius:28px!important}
-.st [class*="rounded-full"][class*="bg-[#1f2322]"],.st a[class*="bg-[#1f2322]"]{background:var(--leaf)!important;color:#fff!important}
+.st [class*="rounded-full"][class*="bg-[#1f2322]"],.st a[class*="bg-[#1f2322]"]{background:var(--leaf-d)!important;color:#fff!important}
 html,body{background-color:#fcfaf3!important}
 .st [class*="bg-[#FAF8F5]"]{background-color:#fcfaf3!important}
 .st-prod .ph{border-radius:26px;aspect-ratio:1/1}
@@ -275,9 +275,6 @@ html,body{background-color:#fcfaf3!important}
 .st-journal-thumb img[src$='/5712829.webp'],.st-journal-hero img[src$='/5712829.webp']{object-position:center 70%}
 /* Accessible versions of the existing brand tones; no spacing or layout changes. */
 .st-head .nav a.on,.eyebrow,.st-num,.st-foot .st-footer-heading{color:#846019!important}
-a.rounded-full,button.rounded-full{background-color:#4a5f27!important;color:#fff!important}
 /* Override legacy button theme at equal specificity. */
-main a.rounded-full,main button.rounded-full,main button[class*="bg-[#"]{background-color:#4a5f27!important;color:#fff!important}
 .st-card .st-shop-card-title{font-size:20px;line-height:1.25;margin:18px 0 9px;color:var(--ink);font-weight:600}
 header .nav a.on,header a[aria-current=page]{color:#846019!important}
-main a[class~="rounded-full"],main button[class~="rounded-full"]{background:#4a5f27!important;color:#fff!important}

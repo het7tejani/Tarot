@@ -10,7 +10,7 @@ function withRepoPosts(local: BlogPost[]): BlogPost[] {
 }
 
 const STORAGE_KEYS = {
-  BLOG_POSTS: 'tarot_company_blog_posts_v1',
+  BLOG_POSTS: 'tarot_company_blog_posts_v2',
   READINGS: 'tarot_company_readings_v1',
   AUTH: 'tarot_company_admin_auth_v1',
   SETTINGS: 'tarot_company_cms_settings_v1'

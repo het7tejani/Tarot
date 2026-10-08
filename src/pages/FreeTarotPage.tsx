@@ -67,21 +67,15 @@ export const FreeTarotPage: React.FC = () => {
     c.keywords.toLowerCase().includes(filterQuery.toLowerCase())
   );
 
-  const dynamicTitle = zoomedCard
-    ? `${zoomedCard.name} Tarot Meaning — Free Tarot Oracle`
-    : isRevealed && selectedCards.length === 1
-    ? `${FREE_TAROT_CARDS[selectedCards[0]].name} Daily Card — Free Tarot Reading`
-    : 'Free Online Tarot Card Reading — The Psychic Studio';
-
-  const dynamicDesc = zoomedCard
-    ? `Explore ${zoomedCard.name} spiritual interpretation: ${zoomedCard.keywords}. Upright wisdom: ${zoomedCard.upright.slice(0, 100)}...`
-    : 'Draw authentic 1909 Rider-Waite Tarot cards online with instant intuitive upright and reversed interpretations for daily clarity.';
+  const dynamicTitle = 'Free Tarot Reading Online: 1 or 3 Cards | The Psychic Studio';
+  const dynamicDesc = 'Try a free tarot reading online with one or three Major Arcana cards. Explore upright and reversed meanings without an account or payment details.';
 
   return (
     <div className="pt-32 pb-24 bg-[#FAF8F5] min-h-screen text-[#1f2322]">
       <SEOHead
         title={dynamicTitle}
         description={dynamicDesc}
+        canonicalUrl="https://thepsychicstudio.com/free-tarot"
         ogImage={zoomedCard?.image || (isRevealed && selectedCards.length > 0 ? FREE_TAROT_CARDS[selectedCards[0]].image : '/tarot/the_fool.jpg')}
       />
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -92,7 +86,7 @@ export const FreeTarotPage: React.FC = () => {
             Free Tarot Reading
           </h1>
           <p className="text-base text-[#1f2322]/70 leading-relaxed font-normal">
-            Draw from the authentic 1909 Rider-Waite-Smith Major Arcana. Center your thoughts, hold an intention in mind, and draw your cards.
+            Draw one or three cards from the 22 Major Arcana for a free tarot reading online. Use the custom card artwork and upright or reversed meanings for reflection, not a guaranteed prediction.
           </p>
         </div>
 

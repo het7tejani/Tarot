@@ -439,3 +439,8 @@ input,textarea,select{background-color:rgba(255,253,246,.8)!important;color:#2b2
 .float{animation:float 7s ease-in-out infinite}
 @keyframes float{50%{transform:translateY(-10px)}}
 .glow-text{text-shadow:none}
+
+/* Performance/accessibility: preserve layout, darken only low-contrast button backgrounds. */
+a.btn:not(.ghost),button.btn,[class~="bg-[#1f2322]"],[class~="bg-[#7d9448]"]{background-color:#4a5f27!important;color:#fff!important}
+.st-foot .st-footer-heading{font-size:13px;font-weight:600;text-transform:uppercase;letter-spacing:.18em;margin:0 0 12px;color:var(--saffron)}
+@media(prefers-reduced-motion:reduce){.st-r,.st-tilt,body::before{animation:none!important;transition:none!important}}

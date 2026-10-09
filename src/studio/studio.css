@@ -138,7 +138,7 @@ footer.st-foot{background:var(--sage)!important}
 .st a[class*="rounded-xl"]{border:0!important;border-bottom:1px dotted rgba(74,95,39,.35)!important;border-radius:0!important;padding:6px 0!important}
 .st a[class*="rounded-xl"]:hover{color:var(--saffron)}
 .st section[class*="rounded-2xl"]{background:var(--sage)!important;border-radius:28px!important}
-.st [class*="rounded-full"][class*="bg-[#1f2322]"],.st a[class*="bg-[#1f2322]"]{background:var(--leaf)!important;color:#fff!important}
+.st [class*="rounded-full"][class*="bg-[#1f2322]"],.st a[class*="bg-[#1f2322]"]{background:var(--leaf-d)!important;color:#fff!important}
 html,body{background-color:#fcfaf3!important}
 .st [class*="bg-[#FAF8F5]"]{background-color:#fcfaf3!important}
 .st-prod .ph{border-radius:26px;aspect-ratio:1/1}
@@ -273,3 +273,10 @@ html,body{background-color:#fcfaf3!important}
 .st-journal-thumb,.st-journal-hero{position:relative}.st-journal-number-label{position:absolute;z-index:1;bottom:22px;left:24px;color:#fff;text-shadow:0 2px 12px rgba(0,0,0,.8);font-size:66px;font-weight:600;line-height:1}.st-journal-number-label small{display:block;font-size:10px;letter-spacing:3px;margin-top:8px}.st-journal-hero .st-journal-number-label{font-size:92px;left:35px;bottom:30px}.st-journal-hero .st-journal-number-label small{font-size:12px}
 .st-journal-hero:has(.st-journal-number-label) img{object-position:center 25%}.st-journal-thumb:has(.st-journal-number-label) img{object-position:center 25%}
 .st-journal-thumb img[src$='/5712829.webp'],.st-journal-hero img[src$='/5712829.webp']{object-position:center 70%}
+/* Accessible versions of the existing brand tones; no spacing or layout changes. */
+.st-head .nav a.on,.eyebrow,.st-num,.st-foot .st-footer-heading{color:#846019!important}
+/* Override legacy button theme at equal specificity. */
+.st-card .st-shop-card-title{font-size:20px;line-height:1.25;margin:18px 0 9px;color:var(--ink);font-weight:600}
+header .nav a.on,header a[aria-current=page]{color:#846019!important}
+
+.st-head .st-brand-mark{height:44px;width:auto;display:block;flex-shrink:0}

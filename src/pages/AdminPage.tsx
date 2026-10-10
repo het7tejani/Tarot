@@ -133,8 +133,8 @@ export const AdminPage: React.FC = () => {
     content: '',
     coverImage: 'https://images.unsplash.com/photo-1638803040283-7a5ffd48dad5?auto=format&fit=crop&w=1200&q=80',
     author: {
-      name: 'Daisy Hayes',
-      role: 'Shop Owner & Master Intuitive',
+      name: 'The Psychic Studio',
+      role: 'The studio',
       avatar: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=200&q=80'
     },
     tags: ['Tarot Wisdom', 'Spiritual Practice'],

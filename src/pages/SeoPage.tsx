@@ -57,13 +57,12 @@ const LinkGrid: React.FC<{ paths: string[] }> = ({ paths }) => (
   </div>
 );
 
-const ReadingCTA: React.FC<{ etsyBaseUrl: string }> = ({ etsyBaseUrl }) => (
+const ReadingCTA: React.FC = () => (
   <section className="mt-12 rounded-2xl border border-[#1f2322]/10 bg-[#f0ebe4] p-7">
     <h2 className="text-xl font-semibold mb-2">Want a personal reading?</h2>
-    <p className="text-sm text-[#1f2322]/70 mb-5">Browse our readings. Each one opens its Etsy listing, where you check the price, delivery and what is included before you order.</p>
+    <p className="text-sm text-[#1f2322]/70 mb-5">Explore our personal reading topics. Contact the studio to ask about format, price, delivery and what is included.</p>
     <div className="flex flex-wrap gap-3">
       <Link to="/readings" className="px-6 py-3 rounded-full bg-[#1f2322] text-white text-sm font-semibold hover:bg-[#73a89a]">See readings</Link>
-      <a href={etsyBaseUrl} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 px-6 py-3 rounded-full border border-[#1f2322]/20 text-sm font-semibold hover:bg-[#1f2322]/5">Open Etsy shop <ExternalLink className="w-4 h-4" /></a>
       <Link to="/free-tarot" className="px-6 py-3 rounded-full border border-[#1f2322]/20 text-sm font-semibold hover:bg-[#1f2322]/5">Free tarot draw</Link>
     </div>
     <p className="text-xs text-[#1f2322]/50 mt-4">For entertainment and personal reflection. Readings cannot guarantee outcomes or replace medical, legal, financial or mental health advice.</p>
@@ -76,7 +75,7 @@ const compatBlurb = (a: string, b: string) => {
   return { A, B };
 };
 
-export const SeoPage: React.FC<{ etsyBaseUrl: string }> = ({ etsyBaseUrl }) => {
+export const SeoPage: React.FC = () => {
   const { pathname } = useLocation();
   const page = byPath[pathname.replace(/\/$/, '') || '/'];
   if (!page) return null;
@@ -246,7 +245,7 @@ export const SeoPage: React.FC<{ etsyBaseUrl: string }> = ({ etsyBaseUrl }) => {
           </>
         )}
 
-        <ReadingCTA etsyBaseUrl={etsyBaseUrl} />
+        <ReadingCTA />
       </div>
     </div>
   );

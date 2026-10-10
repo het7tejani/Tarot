@@ -32,7 +32,7 @@ export const Footer: React.FC<FooterProps> = ({ onOpenSettings, etsyBaseUrl }) =
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-1.5 px-4 py-2 rounded-full text-xs font-semibold bg-[#1f2322] text-[#fdfcfb] hover:bg-[#73a89a] transition-colors"
               >
-                <span>PsychicEra on Etsy</span>
+                <span>The Psychic Studio on Etsy</span>
                 <ExternalLink className="w-3 h-3 opacity-70" />
               </a>
 
@@ -146,7 +146,7 @@ export const Footer: React.FC<FooterProps> = ({ onOpenSettings, etsyBaseUrl }) =
         {/* Minimal Legal Links like Instinct */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-[#1f2322]/60">
           <p>
-            Copyright &copy; {currentYear} The Psychic Studio by Daisy Hayes. All rights reserved.
+            Copyright &copy; {currentYear} The Psychic Studio. All rights reserved.
           </p>
           <div className="flex items-center gap-6">
             <Link to="/faq" className="hover:text-[#73a89a] transition-colors">

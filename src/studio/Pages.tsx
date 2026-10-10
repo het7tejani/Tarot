@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
-import { Layout, ETSY } from './Layout';
+import { Layout } from './Layout';
 import { TarotArtwork } from '../components/TarotArtwork';
 import { SEOHead } from '../components/SEOHead';
 import { FAQS } from '../data/readingsData';
@@ -18,10 +18,10 @@ const Md: React.FC<{ text: string }> = ({ text }) => (<>{text.split(/\n{2,}/).ma
   return <p key={i}>{inline(b)}</p>; })}</>);
 export const About: React.FC = () => (
   <Layout><div className="st-page"><div className="wrap">
-    <span className="eyebrow">About</span><h1>Meet Daisy Hayes</h1>
+    <span className="eyebrow">About</span><h1>About The Psychic Studio</h1>
     <div className="st-prose">
-      <p>I'm Daisy Hayes, the reader behind The Psychic Studio. I use tarot as a way to slow down, ask better questions and see your situation from a new angle.</p>
-      <p>This site is where I share free tarot draws, horoscopes, card meanings and guides. If you want something personal, my readings are in my Etsy shop.</p>
+      <p>I use tarot as a way to slow down, ask better questions and see your situation from a new angle.</p>
+      <p>This site is where I share free tarot draws, horoscopes, card meanings and guides. If you want something personal, explore the personal reading topics here.</p>
       <p>Readings are for entertainment and personal reflection. They don't replace medical, legal, financial or mental health advice.</p>
       <p><Link className="btn" to="/shop">See my readings</Link></p>
     </div>
@@ -30,9 +30,9 @@ export const About: React.FC = () => (
 export const Contact: React.FC = () => (
   <Layout><div className="st-page"><div className="wrap">
     <span className="eyebrow">Contact</span><h1>Questions about a reading?</h1>
-    <div className="st-prose"><p>The easiest way to reach me is through my Etsy shop. Send a message there with your question and I'll reply as soon as I can.</p>
-      <p><a className="btn" href={ETSY} target="_blank" rel="noopener noreferrer">Message me on Etsy ↗</a></p>
-      <p style={{ fontSize: 14 }}>This site doesn't take payments or contact forms. All orders go through Etsy.</p></div>
+    <div className="st-prose"><p>Email the studio with your question or the reading topic you are interested in.</p>
+      <p><a className="btn" href="mailto:contact.thepsychicstudio@gmail.com">contact.thepsychicstudio@gmail.com</a></p>
+      <p style={{ fontSize: 14 }}>This website does not take payments. Contact the studio to ask about reading details.</p></div>
   </div></div></Layout>
 );
 export const Blog: React.FC = () => {

@@ -363,7 +363,7 @@ export const FreeTarotPage: React.FC = () => {
                 Looking for a Personal Tarot Reading?
               </h4>
               <p className="text-xs sm:text-sm text-[#1f2322]/70 leading-relaxed">
-                For personal guidance on relationships, work or life questions, browse the Etsy listings. Check each listing for its format, price, delivery estimate and what is included.
+                For personal reflection on relationships, work or life questions, explore the reading topics. Contact the studio to ask about the details.
               </p>
               <div className="pt-2 flex flex-wrap items-center justify-center gap-4">
                 <Link
@@ -373,14 +373,6 @@ export const FreeTarotPage: React.FC = () => {
                   <span>Explore Readings</span>
                   <ChevronRight className="w-3.5 h-3.5" />
                 </Link>
-                <a
-                  href="https://www.etsy.com/shop/PsychicEra"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-xs font-medium text-[#1f2322]/80 hover:text-[#1f2322] underline underline-offset-4"
-                >
-                  Visit PsychicEra on Etsy
-                </a>
               </div>
             </div>
           </div>

@@ -61,7 +61,7 @@ export const REPO_BLOG_POSTS: BlogPost[] = Object.entries(files)
       featured: str('featured') === 'true',
       published: str('published') !== 'false',
       views: 0,
-      author: { name: 'Daisy Hayes', role: 'Shop Owner & Master Intuitive' },
+      author: { name: 'The Psychic Studio', role: 'The studio' },
       tags: arr('tags'),
       keyTakeaways: arr('keyTakeaways'),
       _ts: new Date(str('date')).getTime() || 0,

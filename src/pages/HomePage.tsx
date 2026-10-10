@@ -29,7 +29,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onSelectReading, getEtsyUrl 
         <div className="order-2 lg:order-1">
           <p className="text-xs uppercase tracking-[0.3em] text-[#73a89a] font-semibold mb-5">The Psychic Studio</p>
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-semibold tracking-tight leading-[1.1] mb-6 glow-text">Online psychic &amp; tarot readings for your next chapter.</h1>
-          <p className="text-base sm:text-lg text-[#1f2322]/70 leading-relaxed mb-8 max-w-xl">Questions about love, life, or where to go next? Read your daily horoscope, draw a free tarot card, or order a personal reading from Daisy Hayes, at your own pace.</p>
+          <p className="text-base sm:text-lg text-[#1f2322]/70 leading-relaxed mb-8 max-w-xl">Questions about love, life, or where to go next? Read your daily horoscope, draw a free tarot card, or order a personal reading from the studio, at your own pace.</p>
           <div className="flex flex-col sm:flex-row gap-3">
             <Link to="/readings" className="px-7 py-3.5 rounded-full bg-[#1f2322] text-[#FAF8F5] hover:bg-[#73a89a] font-semibold text-sm flex items-center justify-center gap-2">Find your reading <ArrowRight className="w-4 h-4" /></Link>
             <Link to="/free-tarot" className="px-7 py-3.5 rounded-full border border-[#1f2322]/20 hover:bg-[#1f2322]/5 font-semibold text-sm text-center">Try free tarot</Link>

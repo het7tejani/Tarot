@@ -81,7 +81,7 @@ export const EtsyLinkManager: React.FC<EtsyLinkManagerProps> = ({
               type="text"
               value={shopInput}
               onChange={(e) => setShopInput(e.target.value)}
-              placeholder="https://www.etsy.com/shop/YourShopName"
+              placeholder="/shop"
               className="flex-1 px-3.5 py-2.5 rounded-lg bg-[#FFFDF9] border border-[#D8C7B0] text-xs sm:text-sm text-[#382618] focus:outline-none focus:border-[#A47921]"
             />
             <button
@@ -153,7 +153,7 @@ export const EtsyLinkManager: React.FC<EtsyLinkManagerProps> = ({
                     value={currentVal}
                     onChange={(e) => onUpdateListingUrl(reading.id, e.target.value)}
                     className="w-full px-3 py-2 rounded-md bg-[#FFFDF9] border border-[#D8C7B2] text-xs font-mono text-[#4A3628] focus:outline-none focus:border-[#A47921]"
-                    placeholder="https://www.etsy.com/listing/..."
+                    placeholder="/shop"
                   />
                 </div>
               );

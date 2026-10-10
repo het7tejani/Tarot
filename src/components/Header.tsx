@@ -405,7 +405,7 @@ export const Header: React.FC<HeaderProps> = ({
                 rel="noopener noreferrer"
                 className="w-full text-center py-3 rounded-full text-xs font-semibold bg-[#1f2322] text-[#fdfcfb] hover:bg-[#73a89a] transition-colors"
               >
-                Visit Etsy Shop (PsychicEra)
+                Visit Etsy Shop (The Psychic Studio)
               </a>
               {onOpenSettings && (
                 <button

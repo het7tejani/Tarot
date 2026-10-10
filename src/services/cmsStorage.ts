@@ -149,7 +149,7 @@ export function resetReadings(): void {
 // CMS SETTINGS STORAGE
 // ==========================================
 const DEFAULT_SETTINGS: CMSSettings = {
-  etsyBaseUrl: 'https://www.etsy.com/shop/PsychicEra',
+  etsyBaseUrl: '/shop',
   whatsappNumber: '+1 (555) 728-3722',
   siteAnnouncement: '✨ Autumn Equinox Flash Offer: 70% OFF all 360 Future Dossiers & Spicy Tarot Readings.',
   contactEmail: '',

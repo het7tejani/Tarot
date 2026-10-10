@@ -1,17 +1,10 @@
 import React from 'react';
-import { Layout, ETSY } from './Layout';
+import { Link } from 'react-router-dom';
+import { Layout } from './Layout';
 import { ETSY_LISTINGS } from '../data/etsyListings';
-export const Shop: React.FC = () => (
-  <Layout>
-    <div className="st-page"><div className="wrap">
-      <span className="eyebrow">Shop</span><h1>Personal psychic and tarot readings</h1>
-      <p className="st-prose">Browse personal psychic and tarot readings by Daisy Hayes for love, relationships and life questions. Click a card for the full Etsy listing, current price, format, reviews and delivery terms. This website does not take payment.</p>
-      <div className="st-grid c3">{ETSY_LISTINGS.map((r) => (
-        <a key={r.id} className="st-prod" href={r.url} target="_blank" rel="noopener noreferrer">
-          <div className="ph"><img src={r.img} alt={r.title} loading="lazy" /></div>
-          <div className="bd"><h2 className="st-shop-card-title">{r.title.split(' | ')[0]}</h2><p>{r.title.split(' | ').slice(1, 3).join(' · ')}</p><span className="btn">View on Etsy ↗</span></div>
-        </a>))}</div>
-      <p style={{ marginTop: 34 }}><a className="btn ghost" href={ETSY} target="_blank" rel="noopener noreferrer">Open the full Etsy shop ↗</a></p>
-    </div></div>
-  </Layout>
-);
+export const Shop: React.FC = () => <Layout><div className="st-page"><div className="wrap">
+<span className="eyebrow">Personal readings</span><h1>A reading for the question you're carrying.</h1>
+<p className="st-prose">Explore tarot and psychic reading topics for love, personal growth and life's next steps. Have a question about a topic? Contact the studio for details. This website does not take payments.</p>
+<div className="st-grid c3">{ETSY_LISTINGS.map(r=><article key={r.id} className="st-prod"><div className="ph"><img src={r.img} alt="Tarot cards and candlelight" loading="lazy" width="600" height="420" /></div><div className="bd"><h2 className="st-shop-card-title">{r.title}</h2><p>{r.description}</p><p><del style={{opacity:.5}}>$79</del> <strong>$29 USD</strong></p><Link className="btn" to={`/readings/${r.slug}`}>View reading details</Link></div></article>)}</div>
+<p style={{marginTop:34,fontSize:14}}>For entertainment and personal reflection only. No reading can promise a future outcome or replace medical, legal, financial or mental health advice.</p>
+</div></div></Layout>;

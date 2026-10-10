@@ -1,7 +1,7 @@
 import { TarotArtwork } from '../components/TarotArtwork';
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Layout, ETSY } from './Layout';
+import { Layout } from './Layout';
 import { Wheel } from './Wheel';
 const SIGN_INFO = ['aries','taurus','gemini','cancer','leo','virgo','libra','scorpio','sagittarius','capricorn','aquarius','pisces'].map(n=>({n}));
 import { ETSY_LISTINGS } from '../data/etsyListings';
@@ -14,7 +14,7 @@ export const Home: React.FC = () => (
       <div>
         <span className="eyebrow">Tarot · Horoscopes · Readings</span>
         <h1>Psychic and tarot readings for a clearer perspective.</h1>
-        <p className="lead">Hi, I'm Daisy Hayes. Draw a free card, read today's horoscope, or order a personal reading from my Etsy shop.</p>
+        <p className="lead">Draw a free card, read today's horoscope, or explore personal reading topics.</p>
         <div className="cta"><Link className="btn" to="/free-tarot">Draw a free card</Link><Link className="btn ghost" to="/shop">See my readings</Link></div>
       </div>
       <Wheel />
@@ -30,20 +30,15 @@ export const Home: React.FC = () => (
       <p style={{ marginTop: 26 }}><Link className="btn ghost" to="/tarot-card-meanings">Browse all card meanings</Link></p>
     </div></section>
     <section className="st-sec"><div className="wrap">
-      <span className="eyebrow">Personal readings</span><h2>Personal psychic readings on Etsy</h2><p className="sub">Every reading is listed on Etsy. Pick one here, and you'll check out safely on Etsy.</p>
+      <span className="eyebrow">Personal readings</span><h2>Personal reading topics</h2><p className="sub">Love, personal growth and life questions. Explore a topic and contact the studio to learn more.</p>
       <div className="st-grid c3">{ETSY_LISTINGS.slice(0, 3).map((r) => (
-        <a key={r.id} className="st-card st-reading-feature" href={r.url} target="_blank" rel="noopener noreferrer"><TarotArtwork src={r.img} alt={r.title.split(" | ")[0]} loading="lazy" /><h3>{r.title.split(' | ')[0]}</h3><p>{r.title.split(' | ').slice(1, 3).join(' · ')}</p></a>))}</div>
+        <Link key={r.id} className="st-card st-reading-feature" to={`/readings/${r.slug}`}><TarotArtwork src={r.img} alt={r.title.split(" | ")[0]} loading="lazy" /><h3>{r.title.split(' | ')[0]}</h3><p>{r.description}</p><p><del style={{opacity:.5}}>$79</del> <strong>$29 USD</strong></p></Link>))}</div>
       <p style={{ marginTop: 26 }}><Link className="btn" to="/shop">View all readings</Link></p>
     </div></section>
     <section className="st-sec alt"><div className="wrap">
       <span className="eyebrow">How it works</span><h2>Three simple steps</h2>
       <div className="st-grid c3">{HOW_IT_WORKS_STEPS.map((x) => (
         <div key={x.stepNumber} className="st-card"><span className="st-num">{x.stepNumber}</span><h3>{x.title}</h3><p>{x.description}</p></div>))}</div>
-    </div></section>
-    <section className="st-sec"><div className="wrap">
-      <span className="eyebrow">Reviews</span><h2>Read what buyers say</h2>
-      <p className="sub">Every review is on my Etsy shop, written by real buyers after their reading.</p>
-      <p style={{ marginTop: 24 }}><a className="btn ghost" href={ETSY + '#reviews'} target="_blank" rel="noopener noreferrer">See reviews on Etsy ↗</a></p>
     </div></section>
     <section className="st-sec alt"><div className="wrap">
       <span className="eyebrow">Questions</span><h2>Good to know</h2>

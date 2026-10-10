@@ -8,6 +8,8 @@ export default defineConfig(()=>({
  plugins:[react(),tailwindcss(),{
   name:'responsive-static-artwork',
   async generateBundle(){
+   const stock:Record<string,string>=JSON.parse(fs.readFileSync(path.resolve(__dirname,'public/reading-stock.json'),'utf8'));
+   for(const [id,encoded] of Object.entries(stock))this.emitFile({type:'asset',fileName:`reading-images/${id}.webp`,source:Buffer.from(encoded,'base64')});
    const logos:Record<string,string>=JSON.parse(fs.readFileSync(path.resolve(__dirname,'public/logo-assets.json'),'utf8'));
    for(const [file,encoded] of Object.entries(logos)){
     if(!/^(favicon-(16|32|48)\.png|favicon\.ico|apple-touch-icon-180\.png|navbar-480\.png|hamsa\.svg)$/.test(file))throw Error('Invalid logo asset');

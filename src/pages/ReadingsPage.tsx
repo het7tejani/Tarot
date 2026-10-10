@@ -82,13 +82,13 @@ export const ReadingsPage: React.FC<ReadingsPageProps> = ({
         {/* Page Header */}
         <div className="text-center max-w-3xl mx-auto mb-16">
           <p className="text-xs uppercase tracking-widest text-[#73a89a] font-semibold mb-3">
-            Official PsychicEra Etsy Shop Collection
+            Official The Psychic Studio Etsy Shop Collection
           </p>
           <h1 className="text-4xl sm:text-5xl font-semibold text-[#1f2322] tracking-tight mb-4">
             Psychic Readings, Spells &amp; Divination
           </h1>
           <p className="text-base sm:text-lg text-[#1f2322]/70 leading-relaxed">
-            Directly from the PsychicEra shop on Etsy. Every reading and sacred ritual is consecrated on physical altar linen with authentic tools, delivered securely with detailed reports and altar photos.
+            Directly from the The Psychic Studio shop on Etsy. Every reading and sacred ritual is consecrated on physical altar linen with authentic tools, delivered securely with detailed reports and altar photos.
           </p>
 
           {/* Category Filter Pills */}

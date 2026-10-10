@@ -74,7 +74,7 @@ export const FAQSection: React.FC = () => {
             </p>
           </div>
           <a
-            href="mailto:guidance@celestialarcana.com?subject=Tarot%20Reading%20Inquiry"
+            href="mailto:contact.thepsychicstudio@gmail.com?subject=Tarot%20Reading%20Inquiry"
             className="px-6 py-3 rounded-full bg-[#3B291C] hover:bg-[#25170E] text-[#F8F5EE] text-xs font-semibold tracking-wide flex items-center gap-2 shrink-0 transition-colors shadow-xs"
           >
             <Mail className="w-4 h-4 text-[#D8B45E]" />

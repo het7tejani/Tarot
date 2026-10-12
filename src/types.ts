@@ -47,6 +47,7 @@ export interface TarotCard {
 
 export interface BlogPost {
   metaTitle?: string;
+  publishedDate?: string;
   id: string;
   slug: string;
   title: string;

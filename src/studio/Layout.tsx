@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Link, NavLink, useLocation } from 'react-router-dom';
 import './studio.css';
 import { RouteSEO } from '../components/RouteSEO';
+import { TrustpilotReviewCollector } from './TrustpilotReviewCollector';
 const NAV: [string, string][] = [['/', 'Home'], ['/shop', 'Shop'], ['/free-tarot', 'Free Tarot'], ['/horoscope', 'Horoscope'], ['/tarot-card-meanings', 'Card Meanings'], ['/blog', 'Blog'], ['/about', 'About'], ['/contact', 'Contact']];
 export const Layout: React.FC<{ children: React.ReactNode; seo?: boolean }> = ({ children, seo = true }) => {
   const [open, setOpen] = useState(false);
@@ -34,6 +35,7 @@ export const Layout: React.FC<{ children: React.ReactNode; seo?: boolean }> = ({
           <a href="https://www.quora.com/profile/The-Psychic-Studio" target="_blank" rel="noopener noreferrer" style={{ display: "inline-flex", alignItems: "center", gap: 8, minHeight: 44, fontSize: 13 }}><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M7.3799.9483A11.9628 11.9628 0 0 1 21.248 19.5397l2.4096 2.4225c.7322.7362.21 1.9905-.8272 1.9905l-10.7105.01a12.52 12.52 0 0 1-.304 0h-.02A11.9628 11.9628 0 0 1 7.3818.9503Zm7.3217 4.428a7.1717 7.1717 0 1 0-5.4873 13.2512 7.1717 7.1717 0 0 0 5.4883-13.2511Z" /></svg>Quora</a>
           <a href="https://www.trustpilot.com/review/thepsychicstudio.com" target="_blank" rel="noopener noreferrer" style={{ display: "inline-flex", alignItems: "center", gap: 8, minHeight: 44, fontSize: 13 }}><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 1.5l3.09 7.2 7.41.6-5.6 5.1 1.7 7.6L12 17.9l-6.6 4.1 1.7-7.6-5.6-5.1 7.41-.6z" /></svg>Trustpilot</a>
         </nav>
+        <TrustpilotReviewCollector />
         <small>© The Psychic Studio. For entertainment and personal reflection only; not medical, legal or financial advice.</small>
       </div></footer>
     </div>

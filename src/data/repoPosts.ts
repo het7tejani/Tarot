@@ -41,6 +41,7 @@ const fmtDate = (s: string): string => {
 };
 
 export const REPO_BLOG_POSTS: BlogPost[] = Object.entries(files)
+  .filter(([, raw]) => { const {data} = parse(raw); return data.published !== 'false'; })
   .map(([path, raw]) => {
     const { data, body } = parse(raw);
     const slug = path.split('/').pop()!.replace(/\.md$/, '');
@@ -54,6 +55,7 @@ export const REPO_BLOG_POSTS: BlogPost[] = Object.entries(files)
       metaTitle: str('metaTitle'),
       category: str('category') || 'Blog',
       date: fmtDate(str('date')),
+      publishedDate: str('date'),
       readTime: `${Math.max(1, Math.round(words / 200))} min read`,
       excerpt: str('excerpt'),
       content: body,

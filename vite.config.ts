@@ -2,12 +2,23 @@ import tailwindcss from '@tailwindcss/vite';
 import react from '@vitejs/plugin-react';
 import path from 'node:path';
 import fs from 'node:fs';
+import {generateSitemap} from './scripts/sitemap.mjs';
 import sharp from 'sharp';
 import {defineConfig} from 'vite';
 export default defineConfig(()=>({
  plugins:[react(),tailwindcss(),{
+  name:'exclude-private-blog-drafts', enforce:'pre',
+  load(id){
+   if(id.includes('/content/blog/') && id.includes('?raw')){
+    const raw=fs.readFileSync(id.split('?')[0],'utf8');
+    const front=raw.replace(/\r\n/g,'\n').match(/^---\n([\s\S]*?)\n---/);
+    if(front && /^published:\s*["']?false["']?\s*$/m.test(front[1])) return 'export default '+JSON.stringify('---\npublished: false\n---\n');
+   }
+  }
+ },{
   name:'responsive-static-artwork',
   async generateBundle(){
+   this.emitFile({type:'asset',fileName:'sitemap.xml',source:generateSitemap(__dirname)});
    const stock:Record<string,string>=JSON.parse(fs.readFileSync(path.resolve(__dirname,'public/reading-stock.json'),'utf8'));
    for(const [id,encoded] of Object.entries(stock))this.emitFile({type:'asset',fileName:`reading-images/${id}.webp`,source:Buffer.from(encoded,'base64')});
    const logos:Record<string,string>=JSON.parse(fs.readFileSync(path.resolve(__dirname,'public/logo-assets.json'),'utf8'));

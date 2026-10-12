@@ -3,6 +3,7 @@ import { useLocation } from 'react-router-dom';
 
 export interface SEOHeadProps {
   title: string;
+  noindex?: boolean;
   description: string;
   canonicalUrl?: string;
   ogType?: 'website' | 'article' | 'profile';
@@ -17,6 +18,7 @@ export const SEOHead: React.FC<SEOHeadProps> = ({
   ogType = 'website',
   ogImage,
   schema,
+  noindex = false,
 }) => {
   const location = useLocation();
 
@@ -37,6 +39,7 @@ export const SEOHead: React.FC<SEOHeadProps> = ({
 
     // 2. Meta Description
     setMetaTag('name', 'description', description);
+    setMetaTag('name', 'robots', noindex ? 'noindex, nofollow' : 'index, follow');
 
     // 3. Dynamic Canonical URL Resolution
     const origin = typeof window !== 'undefined' ? window.location.origin : '';
@@ -82,7 +85,7 @@ export const SEOHead: React.FC<SEOHeadProps> = ({
     } else if (scriptTag) {
       scriptTag.remove();
     }
-  }, [title, description, canonicalUrl, ogType, ogImage, schema, location.pathname]);
+  }, [title, description, canonicalUrl, ogType, ogImage, schema, noindex, location.pathname]);
 
   return null;
 };

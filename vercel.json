@@ -1,6 +1,23 @@
 {
   "rewrites": [
-    { "source": "/cms", "destination": "/cms/index.html" },
-    { "source": "/((?!api/|cms/|uploads/|content/).*)", "destination": "/index.html" }
+    {
+      "source": "/cms",
+      "destination": "/cms/index.html"
+    },
+    {
+      "source": "/((?!api/|cms/|uploads/|content/).*)",
+      "destination": "/index.html"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/admin",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, nofollow"
+        }
+      ]
+    }
   ]
 }

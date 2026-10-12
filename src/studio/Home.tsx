@@ -68,7 +68,7 @@ export const Home: React.FC = () => (
     <section className="st-sec"><div className="wrap">
       <span className="eyebrow">Personal readings</span><h2>Personal reading topics</h2><p className="sub">Love, personal growth and life questions. Explore a topic and contact the studio to learn more.</p>
       <div className="st-grid c3">{ETSY_LISTINGS.slice(0, 3).map((r) => (
-        <Link key={r.id} className="st-card st-reading-feature" to={`/readings/${r.slug}`}><TarotArtwork src={r.img} alt={r.title.split(" | ")[0]} loading="lazy" /><h3>{r.title.split(' | ')[0]}</h3><p>{r.description}</p><p><del style={{opacity:.5}}>$79</del> <strong>$29 USD</strong></p></Link>))}</div>
+        <Link key={r.id} className="st-card st-reading-feature" to={`/readings/${r.slug}`}><TarotArtwork src={r.img} alt={r.title.split(" | ")[0]} loading="lazy" /><h3>{r.title.split(' | ')[0]}</h3><p>{r.description}</p><p><del style={{opacity:.5}}>$79</del> <strong>$19 USD</strong></p></Link>))}</div>
       <p style={{ marginTop: 26 }}><Link className="btn" to="/shop">View all readings</Link></p>
     </div></section>
     <section className="st-sec alt"><div className="wrap">

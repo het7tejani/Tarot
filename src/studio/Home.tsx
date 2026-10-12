@@ -61,8 +61,8 @@ export const Home: React.FC = () => (
             <path d="M338 274c-15-10-4-17 0-28 5 11 15 18 0 28Z" fill="#c99b50" />
             <path d="M309 330h59" stroke="#7e7759" strokeWidth="3" strokeLinecap="round" />
           </svg>
-          <img className="sale-card moon" src="/tarot/the_moon.jpg" alt="" loading="lazy" width="134" height="224" />
-          <img className="sale-card star" src="/tarot/the_star.jpg" alt="" loading="lazy" width="134" height="224" />
+          <TarotArtwork className="sale-card moon" src="/tarot/the_moon.jpg" alt="" loading="lazy" width="134" height="224" />
+          <TarotArtwork className="sale-card star" src="/tarot/the_star.jpg" alt="" loading="lazy" width="134" height="224" />
         </div>
       </div>
     </section>

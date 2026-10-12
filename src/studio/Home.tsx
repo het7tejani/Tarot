@@ -22,12 +22,12 @@ export const Home: React.FC = () => (
     <div className="st-strip"><span>Free tarot</span>✦<span>Daily horoscope</span>✦<span>Love guidance</span>✦<span>Card meanings</span>✦<span>Angel numbers</span>✦<span>Personal readings</span></div>
     <section className="st-halloween" aria-labelledby="halloween-title">
       <style>{`
-        .st-halloween{position:relative;isolation:isolate;background:radial-gradient(ellipse at 18% 44%,#da6827 0%,#9d351c 40%,#3b1412 78%,#190f10 100%);padding:46px 0;overflow:hidden;color:#fff6df;border-top:3px solid #dd852d;border-bottom:3px solid #dd852d}
+        .st-halloween{position:relative;isolation:isolate;background:radial-gradient(ellipse at 18% 44%,#da6827 0%,#9d351c 40%,#3b1412 78%,#190f10 100%);padding:46px 0;min-height:620px;overflow:hidden;color:#fff6df;border-top:3px solid #dd852d;border-bottom:3px solid #dd852d}
         .st-halloween:before{content:"";position:absolute;inset:0;pointer-events:none;background:linear-gradient(0deg,#170b1055,transparent 25%,transparent 85%,#190d1233);z-index:-1}
-        .st-halloween .sale-in{display:grid;grid-template-columns:1.12fr 1fr;align-items:center;gap:32px}
-        .st-halloween .sale-art{position:relative;min-width:0}
-        .st-halloween .sale-art img{display:block;width:100%;height:auto;aspect-ratio:3/2;object-fit:cover;border-radius:48% 48% 20px 20px;box-shadow:0 0 70px #f8832740,0 20px 50px #190a1070;border:1px solid #ed9b4744}
-        .st-halloween .sale-copy{text-align:center;position:relative;padding:16px 0}
+        .st-halloween .sale-in{display:grid;grid-template-columns:1.3fr 1fr;align-items:center;gap:32px;min-height:526px}
+        .st-halloween .sale-art{position:absolute;inset:0;z-index:-1;pointer-events:none}
+        .st-halloween .sale-art img{display:block;width:100%;height:100%;object-fit:cover;object-position:left 64%;mask-image:linear-gradient(90deg,#000 0%,#000 35%,#000c 48%,#0004 64%,transparent 84%);-webkit-mask-image:linear-gradient(90deg,#000 0%,#000 35%,#000c 48%,#0004 64%,transparent 84%)}
+        .st-halloween .sale-copy{grid-column:2;text-align:center;position:relative;padding:16px 0;text-shadow:0 2px 10px #190b10}
         .st-halloween .sale-season{display:block;font-size:12px;letter-spacing:.25em;text-transform:uppercase;color:#ffd189;margin-bottom:10px;font-weight:600}
         .st-halloween h2{margin:0;color:#ffcd70;font-size:clamp(42px,5vw,66px);line-height:1.04;font-style:italic;font-weight:500;text-shadow:2px 4px 0 #5a1b10}
         .st-halloween .sale-word{position:relative;display:block;font-family:Georgia,serif;font-size:clamp(76px,9vw,116px);line-height:1.12;letter-spacing:.08em;font-style:normal;font-weight:900;color:#fff4dc;text-shadow:2px 5px 0 #7e2717,0 8px 22px #21090e66}
@@ -41,7 +41,7 @@ export const Home: React.FC = () => (
         .st-halloween .sale-cta{display:inline-flex;align-items:center;justify-content:center;min-height:52px;padding:12px 37px;background:#ffb641;color:#3a110c;border:1px solid #ffdc8c;border-radius:6px;font-size:15px;letter-spacing:.1em;font-weight:800;box-shadow:0 5px 0 #752913,0 0 28px #ff971533;text-decoration:none}
         .st-halloween .sale-cta:hover{background:#ffd078;color:#3a110c}
         .st-halloween .sale-cta:focus-visible{outline:3px solid white;outline-offset:5px}
-        @media(max-width:760px){.st-halloween{padding:28px 0 38px}.st-halloween .sale-in{grid-template-columns:1fr;gap:8px}.st-halloween .sale-art{max-width:480px;margin:0 auto;width:100%}.st-halloween .sale-copy{padding:18px 0 0}.st-halloween h2{font-size:48px}.st-halloween .sale-word{font-size:87px}.st-halloween .sale-badge{font-size:23px;margin-top:22px}.st-halloween .sale-price strong{font-size:56px}.st-halloween .sale-season{font-size:10px}.st-halloween .sale-sub{max-width:300px}}
+        @media(max-width:760px){.st-halloween{padding:0 0 38px;min-height:0;background:#351411}.st-halloween .sale-in{grid-template-columns:1fr;gap:0;min-height:0}.st-halloween .sale-art{height:450px}.st-halloween .sale-art img{object-position:40% center;mask-image:linear-gradient(180deg,#000 0%,#000 42%,#000b 65%,transparent 100%);-webkit-mask-image:linear-gradient(180deg,#000 0%,#000 42%,#000b 65%,transparent 100%)}.st-halloween .sale-copy{grid-column:1;padding:330px 0 0}.st-halloween h2{font-size:48px}.st-halloween .sale-word{font-size:87px}.st-halloween .sale-badge{font-size:23px;margin-top:22px}.st-halloween .sale-price strong{font-size:56px}.st-halloween .sale-season{font-size:10px}.st-halloween .sale-sub{max-width:300px}}
         @media(max-width:350px){.st-halloween h2{font-size:41px}.st-halloween .sale-word{font-size:76px}.st-halloween .sale-badge{font-size:20px;padding:10px 16px}}
       `}</style>
       <div className="wrap sale-in">

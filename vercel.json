@@ -1,23 +1,21 @@
 {
-  "rewrites": [
+  "trailingSlash": false,
+  "redirects": [
     {
-      "source": "/cms",
-      "destination": "/cms/index.html"
+      "source": "/:path(.*)",
+      "has": [{ "type": "host", "value": "www.thepsychicstudio.com" }],
+      "destination": "https://thepsychicstudio.com/:path",
+      "permanent": true
     },
-    {
-      "source": "/((?!api/|cms/|uploads/|content/).*)",
-      "destination": "/index.html"
-    }
+    { "source": "/readings", "destination": "/shop", "permanent": true }
+  ],
+  "rewrites": [
+    { "source": "/cms", "destination": "/cms/index.html" }
   ],
   "headers": [
     {
       "source": "/admin",
-      "headers": [
-        {
-          "key": "X-Robots-Tag",
-          "value": "noindex, nofollow"
-        }
-      ]
+      "headers": [{ "key": "X-Robots-Tag", "value": "noindex, nofollow" }]
     }
   ]
 }

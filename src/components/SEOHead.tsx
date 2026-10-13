@@ -1,6 +1,36 @@
 import React, { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 
+export const SITE_ORIGIN = 'https://thepsychicstudio.com';
+const ORG_ID = `${SITE_ORIGIN}/#organization`;
+const SEGMENT_LABELS: Record<string, string> = {
+  'tarot-card-meanings': 'Tarot Card Meanings', horoscope: 'Horoscope', zodiac: 'Zodiac Signs', 'zodiac-compatibility': 'Zodiac Compatibility',
+  'angel-numbers': 'Angel Numbers', blog: 'Blog', readings: 'Readings', shop: 'Shop', about: 'About', faq: 'FAQ', contact: 'Contact', 'free-tarot': 'Free Tarot',
+};
+const titleCase = (s: string) => s.replace(/-/g, ' ').replace(/\b\w/g, (c) => c.toUpperCase());
+export const siteSchemas = (pathname: string, pageName: string): Record<string, unknown>[] => {
+  const out: Record<string, unknown>[] = [];
+  if (pathname === '/') {
+    out.push({
+      '@context': 'https://schema.org', '@type': 'Organization', '@id': ORG_ID, name: 'The Psychic Studio', url: SITE_ORIGIN,
+      logo: `${SITE_ORIGIN}/navbar-480.png`, email: 'contact.thepsychicstudio@gmail.com',
+      sameAs: ['https://about.me/thepsychicstudio', 'https://medium.com/@thepsychicstudio', 'https://thepsychicstudio.tumblr.com', 'https://www.pinterest.com/contactthepsychicstudio/', 'https://www.quora.com/profile/The-Psychic-Studio', 'https://www.trustpilot.com/review/thepsychicstudio.com'],
+    });
+    out.push({ '@context': 'https://schema.org', '@type': 'WebSite', '@id': `${SITE_ORIGIN}/#website`, name: 'The Psychic Studio', url: SITE_ORIGIN, publisher: { '@id': ORG_ID } });
+  } else {
+    const parts = pathname.split('/').filter(Boolean);
+    const items = [{ '@type': 'ListItem', position: 1, name: 'Home', item: `${SITE_ORIGIN}/` }];
+    parts.forEach((seg, i) => {
+      const path = '/' + parts.slice(0, i + 1).join('/');
+      const last = i === parts.length - 1;
+      const name = last && i > 0 ? pageName : SEGMENT_LABELS[seg] || titleCase(seg);
+      items.push({ '@type': 'ListItem', position: i + 2, name, item: `${SITE_ORIGIN}${path}` });
+    });
+    out.push({ '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: items });
+  }
+  return out;
+};
+
 export interface SEOHeadProps {
   title: string;
   noindex?: boolean;
@@ -21,6 +51,15 @@ export const SEOHead: React.FC<SEOHeadProps> = ({
   noindex = false,
 }) => {
   const location = useLocation();
+  const origin = SITE_ORIGIN;
+  const rawCanonical = canonicalUrl ? (canonicalUrl.startsWith('/') ? `${origin}${canonicalUrl}` : canonicalUrl) : `${origin}${location.pathname}`;
+  const resolvedCanonical = rawCanonical.replace(/\/+$/, '') + (rawCanonical.replace(/\/+$/, '') === origin ? '/' : '');
+  const resolvedImage = ogImage || `${origin}/tarot/the_star.jpg`;
+  const pageName = title.replace(/\s*\|\s*The Psychic Studio$/, '');
+  const base = schema ? (Array.isArray(schema) ? schema : [schema]) : [];
+  const allSchema = noindex ? base : [...base, ...siteSchemas(location.pathname, pageName)];
+  const head = { title, description, canonical: resolvedCanonical, ogType, image: resolvedImage, noindex, schema: allSchema };
+  if (typeof document === 'undefined') (globalThis as any).__SEO_HEAD__ = head;
 
   useEffect(() => {
     // 1. Update Document Title
@@ -42,8 +81,6 @@ export const SEOHead: React.FC<SEOHeadProps> = ({
     setMetaTag('name', 'robots', noindex ? 'noindex, nofollow' : 'index, follow');
 
     // 3. Dynamic Canonical URL Resolution
-    const origin = typeof window !== 'undefined' ? window.location.origin : '';
-    const resolvedCanonical = canonicalUrl || `${origin}${location.pathname}`;
 
     let canonicalLink = document.querySelector('link[rel="canonical"]') as HTMLLinkElement | null;
     if (!canonicalLink) {
@@ -60,8 +97,6 @@ export const SEOHead: React.FC<SEOHeadProps> = ({
     setMetaTag('property', 'og:type', ogType);
     setMetaTag('property', 'og:site_name', 'The Psychic Studio');
 
-    const defaultImage = `${origin}/tarot/the_star.jpg`;
-    const resolvedImage = ogImage || defaultImage;
     setMetaTag('property', 'og:image', resolvedImage);
 
     // 5. Twitter / X Card Meta Tags
@@ -74,18 +109,18 @@ export const SEOHead: React.FC<SEOHeadProps> = ({
     const scriptId = 'seo-dynamic-json-ld';
     let scriptTag = document.getElementById(scriptId) as HTMLScriptElement | null;
 
-    if (schema) {
+    if (allSchema.length) {
       if (!scriptTag) {
         scriptTag = document.createElement('script');
         scriptTag.id = scriptId;
         scriptTag.type = 'application/ld+json';
         document.head.appendChild(scriptTag);
       }
-      scriptTag.textContent = JSON.stringify(schema);
+      scriptTag.textContent = JSON.stringify(allSchema);
     } else if (scriptTag) {
       scriptTag.remove();
     }
-  }, [title, description, canonicalUrl, ogType, ogImage, schema, noindex, location.pathname]);
+  }, [title, description, resolvedCanonical, ogType, resolvedImage, noindex, location.pathname]);
 
   return null;
 };

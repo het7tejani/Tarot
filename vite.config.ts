@@ -5,7 +5,7 @@ import fs from 'node:fs';
 import {generateSitemap} from './scripts/sitemap.mjs';
 import sharp from 'sharp';
 import {defineConfig} from 'vite';
-export default defineConfig(()=>({
+export default defineConfig(({isSsrBuild})=>({
  plugins:[react(),tailwindcss(),{
   name:'exclude-private-blog-drafts', enforce:'pre',
   load(id){
@@ -18,6 +18,7 @@ export default defineConfig(()=>({
  },{
   name:'responsive-static-artwork',
   async generateBundle(){
+   if(isSsrBuild)return;
    this.emitFile({type:'asset',fileName:'sitemap.xml',source:generateSitemap(__dirname)});
    const stock:Record<string,string>=JSON.parse(fs.readFileSync(path.resolve(__dirname,'public/reading-stock.json'),'utf8'));
    for(const [id,encoded] of Object.entries(stock))this.emitFile({type:'asset',fileName:`reading-images/${id}.webp`,source:Buffer.from(encoded,'base64')});

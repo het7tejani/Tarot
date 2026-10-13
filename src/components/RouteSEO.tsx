@@ -1,6 +1,6 @@
 import React from 'react';
 import { useLocation } from 'react-router-dom';
-import { SEOHead } from './SEOHead';
+import { SEOHead, SITE_ORIGIN } from './SEOHead';
 import { SEO_CONFIG } from '../data/seoConfig';
 
 export const RouteSEO: React.FC = () => {
@@ -14,7 +14,7 @@ export const RouteSEO: React.FC = () => {
     ogImage: '/tarot/the_star.jpg',
   };
 
-  const origin = typeof window !== 'undefined' ? window.location.origin : '';
+  const origin = SITE_ORIGIN;
   const fullCanonicalUrl = `${origin}${currentSEO.canonicalPath}`;
   const fullImageUrl = currentSEO.ogImage?.startsWith('http')
     ? currentSEO.ogImage

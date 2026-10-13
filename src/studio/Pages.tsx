@@ -67,3 +67,11 @@ export const Faq: React.FC = () => (
     <p style={{ marginTop: 30 }}><Link className="btn" to="/contact">Still have a question?</Link></p>
   </div></div></Layout>
 );
+export const NotFound: React.FC = () => (
+  <Layout seo={false}><SEOHead title="Page not found | The Psychic Studio" description="This page could not be found. Explore free tarot, card meanings, horoscopes and the studio journal instead." noindex />
+    <div className="st-page"><div className="wrap">
+      <span className="eyebrow">404</span><h1>We could not find that page</h1>
+      <div className="st-prose"><p>The link may be old or mistyped. These pages are a good place to start:</p>
+        <p><Link className="btn" to="/">Home</Link> <Link className="btn" to="/free-tarot">Free tarot draw</Link> <Link className="btn" to="/tarot-card-meanings">Card meanings</Link> <Link className="btn" to="/blog">Blog</Link></p></div>
+    </div></div></Layout>
+);

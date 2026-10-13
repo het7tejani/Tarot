@@ -25,17 +25,70 @@ const HalloweenBats: React.FC = () => {
     </svg>)}
   </div>;
 };
+const HeroSlider: React.FC = () => {
+  const [idx, setIdx] = React.useState(0);
+  const ref = React.useRef<HTMLElement>(null);
+  const [hold, setHold] = React.useState(0); // >0 while hovered/touched or just after a manual click
+  const [tick, setTick] = React.useState(0);
+  const rollTimer = React.useRef<number | undefined>(undefined);
+  const idleTimer = React.useRef<number | undefined>(undefined);
+  const pause = () => { window.clearTimeout(idleTimer.current); setHold(1); };
+  const resumeSoon = (ms: number) => { window.clearTimeout(idleTimer.current); idleTimer.current = window.setTimeout(() => setHold(0), ms); };
+  React.useEffect(() => () => window.clearTimeout(idleTimer.current), []);
+  const go = (n: number) => {
+    const w = ref.current?.querySelector('.hs-wheel') as HTMLElement | null;
+    if (w && ref.current) {
+      // true rolling: rotation = distance / radius, distance = enough to clear the left screen edge
+      const r = w.getBoundingClientRect();
+      const d = (idx === 0 ? r.right : r.right - (parseFloat(ref.current.style.getPropertyValue('--roll-x')) || 0)) + 24;
+      ref.current.style.setProperty('--roll-x', `${-Math.max(d, r.width)}px`);
+      ref.current.style.setProperty('--roll-r', `${-(Math.max(d, r.width) / (r.width / 2)) * (180 / Math.PI)}deg`);
+    }
+    if (ref.current) {
+      ref.current.dataset.rolling = '1';
+      window.clearTimeout(rollTimer.current);
+      rollTimer.current = window.setTimeout(() => { delete ref.current!.dataset.rolling; }, 1350);
+    }
+    setIdx(n);
+  };
+  const manual = (n: number) => { pause(); go(n); resumeSoon(12000); };
+  React.useEffect(() => {
+    if (hold || window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+    const t = window.setTimeout(() => { if (!document.hidden) go(idx === 0 ? 1 : 0); else setTick((x) => x + 1); }, 7000);
+    return () => window.clearTimeout(t);
+  }, [idx, hold, tick]);
+  return (
+    <section ref={ref} className="st-hero st-hero-slider" data-slide={idx} aria-roledescription="carousel" aria-label="Featured" onMouseEnter={pause} onMouseLeave={() => resumeSoon(2000)} onTouchStart={pause} onTouchEnd={() => resumeSoon(8000)} onFocus={pause} onBlur={() => resumeSoon(2000)}>
+      <div className="hs-stage">
+        <div className="wrap in hs-slide hs-a" aria-hidden={idx !== 0} {...(idx !== 0 ? { inert: '' as any } : {})}>
+          <div className="hs-copy">
+            <span className="eyebrow">Tarot · Horoscopes · Readings</span>
+            <h1>Psychic and tarot readings for a clearer perspective.</h1>
+            <p className="lead">Draw a free card, read today's horoscope, or explore personal reading topics.</p>
+            <div className="cta"><Link className="btn" to="/free-tarot">Draw a free card</Link><Link className="btn ghost" to="/shop">See my readings</Link></div>
+          </div>
+          <div className="hs-wheel"><Wheel /></div>
+        </div>
+        <div className="wrap in hs-slide hs-b" aria-hidden={idx !== 1} {...(idx !== 1 ? { inert: '' as any } : {})}>
+          <div className="hs-copy">
+            <span className="eyebrow">Personal readings</span>
+            <h2 className="hs-h">Personal readings for the question on your mind.</h2>
+            <p className="lead">Explore reading topics from love to career, each with its own page and details.</p>
+            <div className="cta"><Link className="btn" to="/shop">Explore readings</Link><Link className="btn ghost" to="/faq">Read the FAQ</Link></div>
+          </div>
+          <div className="hs-cards" aria-hidden="true">
+            {['the_star', 'the_lovers', 'the_moon'].map((c) => <TarotArtwork key={c} src={`/tarot/${c}.jpg`} alt="" loading="lazy" width={200} height={300} />)}
+          </div>
+        </div>
+      </div>
+      <button type="button" className="hs-arrow hs-prev" aria-label="Previous slide" onClick={() => manual(0)} disabled={idx === 0}>‹</button>
+      <button type="button" className="hs-arrow hs-next" aria-label="Next slide" onClick={() => manual(1)} disabled={idx === 1}>›</button>
+    </section>
+  );
+};
 export const Home: React.FC = () => (
   <Layout>
-    <section className="st-hero"><div className="wrap in">
-      <div>
-        <span className="eyebrow">Tarot · Horoscopes · Readings</span>
-        <h1>Psychic and tarot readings for a clearer perspective.</h1>
-        <p className="lead">Draw a free card, read today's horoscope, or explore personal reading topics.</p>
-        <div className="cta"><Link className="btn" to="/free-tarot">Draw a free card</Link><Link className="btn ghost" to="/shop">See my readings</Link></div>
-      </div>
-      <Wheel />
-    </div></section>
+    <HeroSlider />
     <div className="st-strip"><span>Free tarot</span>✦<span>Daily horoscope</span>✦<span>Love guidance</span>✦<span>Card meanings</span>✦<span>Angel numbers</span>✦<span>Personal readings</span></div>
     <section className="st-halloween" aria-labelledby="halloween-title">
       <style>{`

@@ -8,6 +8,8 @@ const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const dist = path.join(root, 'dist');
 const template = fs.readFileSync(path.join(dist, 'index.html'), 'utf8');
 if (!template.includes('<!--seo-head-->')) throw new Error('index.html is missing the <!--seo-head--> marker');
+// Page styles live in lazy CSS chunks (Layout etc). Link them in every prerendered page so the first paint is styled before JS loads.
+const cssLinks = fs.readdirSync(path.join(dist, 'assets')).filter((f) => f.endsWith('.css') && !/^Admin/.test(f) && !template.includes(f)).map((f) => `<link rel="stylesheet" crossorigin href="/assets/${f}">`).join('\n    ');
 const {render} = await import(pathToFileURL(path.join(root, 'dist-ssr/entry-server.js')).href);
 
 const esc = (v) => String(v).replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
@@ -53,7 +55,7 @@ for (const route of [...paths].sort()) {
   if (/Page not found/.test(head.title)) { problems.push(`${route}: rendered the 404 page`); continue; }
   if (h1s !== 1) problems.push(`${route}: ${h1s} H1 elements`);
   if (head.title.length > 70 || head.description.length > 175) problems.push(`${route}: long title/description (${head.title.length}/${head.description.length})`);
-  const page = template.replace('<!--seo-head-->', headTags(head)).replace('<div id="root"></div>', `<div id="root">${html}</div>`);
+  const page = template.replace('<!--seo-head-->', headTags(head)).replace(/(<link rel="stylesheet"[^>]*index-[^>]*>)/, '$1\n    ' + cssLinks).replace('<div id="root"></div>', `<div id="root">${html}</div>`);
   write(route, page);
   count++;
 }

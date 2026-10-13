@@ -60,7 +60,7 @@ const HeroSlider: React.FC = () => {
   return (
     <section ref={ref} className="st-hero st-hero-slider" data-slide={idx} aria-roledescription="carousel" aria-label="Featured" onMouseEnter={pause} onMouseLeave={() => resumeSoon(2000)} onTouchStart={pause} onTouchEnd={() => resumeSoon(8000)} onFocus={pause} onBlur={() => resumeSoon(2000)}>
       <div className="hs-stage">
-        <div className="wrap in hs-slide hs-a" aria-hidden={idx !== 0} {...(idx !== 0 ? { inert: '' as any } : {})}>
+        <div className="wrap in hs-slide hs-a" aria-hidden={idx !== 0} inert={idx !== 0 ? (true as any) : undefined}>
           <div className="hs-copy">
             <span className="eyebrow">Tarot · Horoscopes · Readings</span>
             <h1>Psychic and tarot readings for a clearer perspective.</h1>
@@ -69,7 +69,7 @@ const HeroSlider: React.FC = () => {
           </div>
           <div className="hs-wheel"><Wheel /></div>
         </div>
-        <div className="wrap in hs-slide hs-b" aria-hidden={idx !== 1} {...(idx !== 1 ? { inert: '' as any } : {})}>
+        <div className="wrap in hs-slide hs-b" aria-hidden={idx !== 1} inert={idx !== 1 ? (true as any) : undefined}>
           <div className="hs-copy">
             <span className="eyebrow">Personal readings</span>
             <h2 className="hs-h">Personal readings for the question on your mind.</h2>

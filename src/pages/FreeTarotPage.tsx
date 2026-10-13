@@ -1,10 +1,22 @@
 import { TarotArtwork } from '../components/TarotArtwork';
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Shuffle, RefreshCw, ZoomIn, X, ChevronRight, Layers, ArrowUpCircle, ArrowDownCircle } from 'lucide-react';
 import { FREE_TAROT_CARDS } from '../data/readingsData';
 import { TarotCard } from '../types';
 import { Link } from 'react-router-dom';
 import { SEOHead } from '../components/SEOHead';
+
+const CARD_SIZES='(max-width: 700px) 220px, 280px';
+const preloadCard=(src:string):Promise<void>=>new Promise(resolve=>{
+  const slug=src.match(/\/tarot\/([^/.]+)/)?.[1];
+  const img=new Image();
+  img.sizes=CARD_SIZES;
+  if(slug){const b='/tarot-optimized/'+slug;img.srcset=`${b}-400.webp 400w, ${b}-560.webp 560w, ${b}-800.webp 800w, ${b}.webp 1600w`;img.src=b+'.webp';}
+  else img.src=src;
+  const done=()=>resolve();
+  (img.decode?img.decode():Promise.reject()).then(done,()=>{img.onload=done;img.onerror=done;if(img.complete)done();});
+  setTimeout(done,4000);
+});
 
 export const FreeTarotPage: React.FC = () => {
   const [spreadMode, setSpreadMode] = useState<'single' | 'three'>('single');
@@ -16,6 +28,26 @@ export const FreeTarotPage: React.FC = () => {
   const [zoomedCard, setZoomedCard] = useState<TarotCard | null>(null);
   const [filterQuery, setFilterQuery] = useState('');
   const [showDeckGallery, setShowDeckGallery] = useState(false);
+
+  useEffect(() => {
+    // Warm the whole deck once the page is idle so a draw never waits on the network.
+    const w = window as any;
+    let cancelled = false;
+    const conn = (navigator as any).connection;
+    if (conn && (conn.saveData || /(^|-)2g$|3g/.test(conn.effectiveType || ''))) return;
+    const run = async () => {
+      for (const c of FREE_TAROT_CARDS) {
+        if (cancelled) return;
+        await preloadCard(c.image);
+      }
+    };
+    let id: any;
+    const schedule = () => { id = w.requestIdleCallback ? w.requestIdleCallback(run, { timeout: 3000 }) : setTimeout(run, 1500); };
+    // Only start after the deck image on screen has finished, so the warm-up never competes with first paint.
+    const deck = document.querySelector('img[alt="Tarot Deck Ready"]') as HTMLImageElement | null;
+    if (!deck || deck.complete) schedule(); else deck.addEventListener('load', schedule, { once: true });
+    return () => { cancelled = true; deck?.removeEventListener('load', schedule); if (w.cancelIdleCallback && w.requestIdleCallback) w.cancelIdleCallback(id); else clearTimeout(id); };
+  }, []);
 
   const handleDraw = () => {
     setIsShuffling(true);
@@ -30,7 +62,8 @@ export const FreeTarotPage: React.FC = () => {
       }
     }
 
-    setTimeout(() => {
+    const minDelay = new Promise<void>((r) => setTimeout(r, 450));
+    Promise.all([minDelay, ...chosen.map((i) => preloadCard(FREE_TAROT_CARDS[i].image))]).then(() => {
       setSelectedCards(chosen);
       setIsRevealed(true);
       setIsShuffling(false);
@@ -39,7 +72,7 @@ export const FreeTarotPage: React.FC = () => {
         initialTabs[i] = 'upright';
       });
       setActiveTabByCard(initialTabs);
-    }, 450);
+    });
   };
 
   const handleReset = () => {
@@ -389,6 +422,7 @@ export const FreeTarotPage: React.FC = () => {
                 <TarotArtwork
                   src="/tarot/card_back.jpg"
                   alt="Tarot Card Back"
+                  sizes="176px"
                   className="w-full h-full object-cover opacity-80"
                   referrerPolicy="no-referrer"
                 />
@@ -397,6 +431,7 @@ export const FreeTarotPage: React.FC = () => {
                 <TarotArtwork
                   src="/tarot/card_back.jpg"
                   alt="Tarot Card Back"
+                  sizes="176px"
                   className="w-full h-full object-cover opacity-80"
                   referrerPolicy="no-referrer"
                 />
@@ -406,6 +441,10 @@ export const FreeTarotPage: React.FC = () => {
                 <TarotArtwork
                   src="/tarot/card_back.jpg"
                   alt="Tarot Deck Ready"
+                  sizes="176px"
+                  fetchPriority="high"
+                  width={600}
+                  height={900}
                   className="w-full h-full object-cover"
                   referrerPolicy="no-referrer"
                 />

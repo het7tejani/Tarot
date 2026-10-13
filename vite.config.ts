@@ -28,7 +28,7 @@ export default defineConfig(({isSsrBuild})=>({
     this.emitFile({type:'asset',fileName:file,source:Buffer.from(encoded,'base64')});
    }
    const emit=async(base:string,bytes:Buffer)=>{
-    for(const [suffix,width]of [['',1600],['-800',800],['-400',400]]as const){
+    for(const [suffix,width]of [['',1600],['-800',800],['-560',560],['-400',400]]as const){
      const image=await sharp(bytes).resize({width,withoutEnlargement:true}).webp({quality:83}).toBuffer();
      this.emitFile({type:'asset',fileName:base+suffix+'.webp',source:image});
     }

@@ -13,7 +13,7 @@ export const SEO_CONFIG: Record<string, PageSEO> = {
     ...page('/free-tarot', 'Free Tarot Reading Online: 1 or 3 Cards', 'Draw one or three cards from the 22 Major Arcana for a free online tarot reflection. Upright and reversed meanings, no account or payment details needed.'),
     schema: { '@context': 'https://schema.org', '@type': 'WebApplication', name: 'The Psychic Studio Free Tarot', applicationCategory: 'LifestyleApplication', operatingSystem: 'Web browser', offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' } },
   },
-  '/shop': page('/shop', 'Psychic & Tarot Readings', 'Browse personal psychic and tarot readings for love and life questions. Contact the studio for reading details.'),
+  '/shop': page('/shop', 'Personal Psychic & Tarot Readings', 'Browse personal psychic and tarot readings for love and life questions. Contact the studio for reading details.'),
   '/readings': page('/readings', 'Personal Psychic & Tarot Readings', 'Browse readings by question and explore love, life direction, and spiritual guidance. Review current prices, delivery details, and policies.'),
   '/services': page('/services', 'Spiritual Services', 'Explore the spiritual service topics listed by The Psychic Studio. Check availability and service details before making a booking.'),
   '/courses': page('/courses', 'Tarot & Spiritual Learning', 'Explore tarot and spiritual learning topics. Contact the shop to confirm course availability, format, and details.'),

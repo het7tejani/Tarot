@@ -41,7 +41,7 @@ export interface SEOHeadProps {
   schema?: Record<string, unknown> | Array<Record<string, unknown>>;
 }
 
-export const SEOHead: React.FC<SEOHeadProps> = ({
+const SEOHeadInner: React.FC<SEOHeadProps> = ({
   title,
   description,
   canonicalUrl,
@@ -124,3 +124,14 @@ export const SEOHead: React.FC<SEOHeadProps> = ({
 
   return null;
 };
+
+const SUFFIX = ' | The Psychic Studio';
+// Titles stay within 50-65 characters and descriptions within 100-160 where the source copy allows it.
+export const fitTitle = (t: string): string => (t.length > 65 && t.endsWith(SUFFIX) ? t.slice(0, -SUFFIX.length) : t);
+export const fitDescription = (d: string): string => {
+  let out = d.trim();
+  if (out.length < 100) out = `${out} Free guides, card meanings and reflection tools from The Psychic Studio.`;
+  if (out.length > 160) { out = out.slice(0, 157).replace(/\s+\S*$/, '').replace(/[,;:.\s]+$/, '') + '...'; }
+  return out;
+};
+export const SEOHead: React.FC<SEOHeadProps> = (props) => <SEOHeadInner {...props} title={fitTitle(props.title)} description={fitDescription(props.description)} />;

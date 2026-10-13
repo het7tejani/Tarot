@@ -23,6 +23,22 @@ export const About: React.FC = () => (
       <p>I use tarot as a way to slow down, ask better questions and see your situation from a new angle.</p>
       <p>This site is where I share free tarot draws, horoscopes, card meanings and guides. If you want something personal, explore the personal reading topics here.</p>
       <p>Readings are for entertainment and personal reflection. They don't replace medical, legal, financial or mental health advice.</p>
+      <h2>What you will find here</h2>
+      <ul>
+        <li><Link to="/free-tarot">Free tarot draw</Link>: pull one or three cards from the 22 Major Arcana, with upright and reversed meanings. No account or payment details needed.</li>
+        <li><Link to="/tarot-card-meanings">Tarot card meanings</Link>: a page for each of the 78 cards covering upright and reversed meanings, love, career, symbolism and a reflection question.</li>
+        <li><Link to="/horoscope">Horoscopes</Link>, <Link to="/zodiac">zodiac sign guides</Link> and <Link to="/zodiac-compatibility">compatibility pages</Link> for the twelve signs.</li>
+        <li><Link to="/angel-numbers">Angel numbers</Link>, <Link to="/numerology">numerology</Link> and other symbolism guides.</li>
+        <li><Link to="/blog">The journal</Link>: tarot guides and ways to reflect on a question.</li>
+        <li><Link to="/shop">Personal reading topics</Link> you can ask the studio about by email.</li>
+      </ul>
+      <h2>How the guides are written</h2>
+      <p>Card meanings follow the common Rider-Waite-Smith tradition of imagery and symbolism. The artwork on this site is the studio's own set of 78 illustrations, an interpretation of the cards rather than a reproduction of a historic deck.</p>
+      <p>Every guide is written as a prompt for reflection. A card can help you frame a question; it cannot predict events, confirm what another person feels or replace professional advice.</p>
+      <h2>How personal readings work</h2>
+      <p>Choose the topic closest to your question, then email the studio with the context you want to share. The studio confirms what the reading includes, how it is delivered and the payment arrangements before anything is arranged. This website itself does not take payments.</p>
+      <h2>Get in touch</h2>
+      <p>Questions about a reading or a guide? Write to <a href="mailto:contact.thepsychicstudio@gmail.com">contact.thepsychicstudio@gmail.com</a> or visit the <Link to="/contact">contact page</Link>. Common questions are answered in the <Link to="/faq">reading FAQ</Link>.</p>
       <p><Link className="btn" to="/shop">See my readings</Link></p>
     </div>
   </div></div></Layout>

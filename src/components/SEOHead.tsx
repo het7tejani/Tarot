@@ -127,7 +127,14 @@ const SEOHeadInner: React.FC<SEOHeadProps> = ({
 
 const SUFFIX = ' | The Psychic Studio';
 // Titles stay within 50-65 characters and descriptions within 100-160 where the source copy allows it.
-export const fitTitle = (t: string): string => (t.length > 65 && t.endsWith(SUFFIX) ? t.slice(0, -SUFFIX.length) : t);
+export const fitTitle = (t: string): string => {
+  if (!(t.length > 65 && t.endsWith(SUFFIX))) return t;
+  let base = t.slice(0, -SUFFIX.length);
+  if (base.length > 65) base = base.replace(': Personal Tarot Reading', ': Tarot Reading');
+  const short = ' | Psychic Studio';
+  if (base.length < 50 && base.length + short.length <= 66) return base + short;
+  return base;
+};
 export const fitDescription = (d: string): string => {
   let out = d.trim();
   if (out.length < 100) out = `${out} Free guides, card meanings and reflection tools from The Psychic Studio.`;

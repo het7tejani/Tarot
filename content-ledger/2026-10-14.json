@@ -1,0 +1,78 @@
+{
+  "date": "2026-10-14",
+  "photos": [
+    {
+      "id": "34888694",
+      "source": "https://www.pexels.com/photo/diverse-tarot-card-spread-with-wheel-of-fortune-34888694/",
+      "download": "https://images.pexels.com/photos/34888694/pexels-photo-34888694/free-photo-of-diverse-tarot-card-spread-with-wheel-of-fortune.jpeg?w=1260&h=750&dpr=1",
+      "license": "https://www.pexels.com/license/"
+    },
+    {
+      "id": "13468270",
+      "source": "https://www.pexels.com/photo/tarot-cards-on-the-table-13468270/",
+      "download": "https://images.pexels.com/photos/13468270/pexels-photo-13468270.jpeg?auto=compress&w=1260&h=750&dpr=1",
+      "license": "https://www.pexels.com/license/"
+    },
+    {
+      "id": "14299091",
+      "source": "https://www.pexels.com/photo/tarot-cards-on-table-14299091/",
+      "download": "https://images.pexels.com/photos/14299091/pexels-photo-14299091.jpeg?cs=tinysrgb&dpr=1&w=500",
+      "license": "https://www.pexels.com/license/"
+    },
+    {
+      "id": "10810660",
+      "source": "https://www.pexels.com/photo/shadowscapes-tarot-deck-10810660/",
+      "download": "https://images.pexels.com/photos/10810660/pexels-photo-10810660.jpeg?auto=compress&w=1260&h=750&dpr=1",
+      "license": "https://www.pexels.com/license/"
+    },
+    {
+      "id": "36116185",
+      "source": "https://www.pexels.com/photo/colorful-tarot-card-reading-setup-with-candles-36116185/",
+      "download": "https://images.pexels.com/photos/36116185/pexels-photo-36116185/free-photo-of-colorful-tarot-card-reading-setup-with-candles.jpeg?auto=compress&w=1260&h=750&dpr=1",
+      "license": "https://www.pexels.com/license/"
+    },
+    {
+      "id": "6944688",
+      "source": "https://www.pexels.com/photo/a-woman-spreading-the-tarot-card-on-the-table-6944688/",
+      "download": "https://images.pexels.com/photos/6944688/pexels-photo-6944688.jpeg?auto=compress&w=1260&h=750&dpr=1",
+      "license": "https://www.pexels.com/license/"
+    },
+    {
+      "id": "7179792",
+      "source": "https://www.pexels.com/photo/tarot-cards-and-a-crystal-ball-on-the-table-7179792/",
+      "download": "https://images.pexels.com/photos/7179792/pexels-photo-7179792.jpeg?auto=compress&w=1260&h=750&dpr=1",
+      "license": "https://www.pexels.com/license/"
+    },
+    {
+      "id": "8219802",
+      "source": "https://www.pexels.com/photo/tarot-cards-on-a-wooden-surface-8219802/",
+      "download": "https://images.pexels.com/photos/8219802/pexels-photo-8219802.png?auto=compress&w=1260&h=750&dpr=1",
+      "license": "https://www.pexels.com/license/"
+    },
+    {
+      "id": "19495045",
+      "source": "https://www.pexels.com/photo/tarot-deck-atop-piles-of-books-19495045/",
+      "download": "https://images.pexels.com/photos/19495045/pexels-photo-19495045/free-photo-of-tarot-deck-atop-piles-of-books.jpeg?auto=compress&w=1260&h=750&dpr=1",
+      "license": "https://www.pexels.com/license/"
+    }
+  ],
+  "topics": [
+    {
+      "slug": "the-fool-reversed-pause",
+      "keyword": "the fool reversed",
+      "keywordSource": "src/data/seoResearch.ts on origin/main 89f4aa4"
+    },
+    {
+      "slug": "the-magician-reversed-focus",
+      "keyword": "the magician reversed",
+      "keywordSource": "src/data/seoResearch.ts on origin/main 89f4aa4"
+    },
+    {
+      "slug": "the-hermit-reversed-connection",
+      "keyword": "the hermit reversed",
+      "keywordSource": "src/data/seoResearch.ts on origin/main 89f4aa4"
+    }
+  ],
+  "published": false,
+  "cmsAttempt": "Hero select/wait/reselect failed: coverImage empty; no save"
+}

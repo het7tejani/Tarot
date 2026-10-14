@@ -20,7 +20,7 @@ export const Wheel: React.FC = () => {
   return (
     <div className="st-wheel3d" onMouseMove={onMove} aria-hidden="true">
       <div className="st-tilt">
-        <svg viewBox="0 0 600 600" fill="none">
+        <svg viewBox="0 0 600 600" fill="none" fontFamily="Arial, sans-serif">
           <defs>
             <radialGradient id="wg1" cx="50%" cy="40%" r="70%"><stop offset="0" stopColor="#fffefa" /><stop offset="1" stopColor="#dfe8c2" /></radialGradient>
             <linearGradient id="wg2" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stopColor="#f5e3b0" /><stop offset=".5" stopColor="#d29a3a" /><stop offset="1" stopColor="#a8741f" /></linearGradient>

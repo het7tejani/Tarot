@@ -55,7 +55,8 @@ for (const route of [...paths].sort()) {
   if (/Page not found/.test(head.title)) { problems.push(`${route}: rendered the 404 page`); continue; }
   if (h1s !== 1) problems.push(`${route}: ${h1s} H1 elements`);
   if (head.title.length > 70 || head.description.length > 175) problems.push(`${route}: long title/description (${head.title.length}/${head.description.length})`);
-  const page = template.replace('<!--seo-head-->', headTags(head)).replace(/(<link rel="stylesheet"[^>]*index-[^>]*>)/, '$1\n    ' + cssLinks).replace('<div id="root"></div>', `<div id="root">${html}</div>`);
+  const preloads = route === '/' ? fs.readdirSync(path.join(dist,'assets')).filter(f=>/^(Home-|Layout-|readingsData-|etsyListings-|SEOHead-).*\.js$/.test(f)).map(f=>`<link rel="modulepreload" href="/assets/${f}" crossorigin>`).join('\n') : '';
+  const page = template.replace('<!--seo-head-->', headTags(head)+'\n'+preloads).replace(/(<link rel="stylesheet"[^>]*index-[^>]*>)/, '$1\n    ' + cssLinks).replace('<div id="root"></div>', `<div id="root">${html}</div>`);
   write(route, page);
   count++;
 }

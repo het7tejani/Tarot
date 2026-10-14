@@ -24,7 +24,7 @@ export const siteSchemas = (pathname: string, pageName: string): Record<string, 
       const path = '/' + parts.slice(0, i + 1).join('/');
       const last = i === parts.length - 1;
       const name = last && i > 0 ? pageName : SEGMENT_LABELS[seg] || titleCase(seg);
-      items.push({ '@type': 'ListItem', position: i + 2, name, item: `${SITE_ORIGIN}${path}` });
+      items.push({ '@type': 'ListItem', position: i + 2, name, item: `${SITE_ORIGIN}${path === '/readings' ? '/shop' : path}` });
     });
     out.push({ '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: items });
   }
@@ -130,9 +130,10 @@ const SUFFIX = ' | The Psychic Studio';
 export const fitTitle = (t: string): string => {
   if (!(t.length > 65 && t.endsWith(SUFFIX))) return t;
   let base = t.slice(0, -SUFFIX.length);
+  if (base.includes('Free ') && base.length + ' | Psychic Studio'.length > 65) base = base.replace('Free ', '');
   if (base.length > 65) base = base.replace(': Personal Tarot Reading', ': Tarot Reading');
   const short = ' | Psychic Studio';
-  if (base.length < 50 && base.length + short.length <= 66) return base + short;
+  if (base.length < 50 && base.length + short.length <= 65) return base + short;
   return base;
 };
 export const fitDescription = (d: string): string => {

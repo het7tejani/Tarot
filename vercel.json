@@ -3,14 +3,36 @@
   "redirects": [
     {
       "source": "/:path(.*)",
-      "has": [{ "type": "host", "value": "www.thepsychicstudio.com" }],
+      "has": [
+        {
+          "type": "host",
+          "value": "www.thepsychicstudio.com"
+        }
+      ],
       "destination": "https://thepsychicstudio.com/:path",
       "permanent": true
     },
-    { "source": "/readings", "destination": "/shop", "permanent": true }
+    {
+      "source": "/readings",
+      "destination": "/shop",
+      "permanent": true
+    },
+    {
+      "source": "/zodiac-signs",
+      "destination": "/zodiac",
+      "permanent": true
+    },
+    {
+      "source": "/compatibility",
+      "destination": "/zodiac-compatibility",
+      "permanent": true
+    }
   ],
   "rewrites": [
-    { "source": "/cms", "destination": "/cms/index.html" }
+    {
+      "source": "/cms",
+      "destination": "/cms/index.html"
+    }
   ],
   "headers": [
     {

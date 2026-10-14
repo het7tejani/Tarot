@@ -1,3 +1,5 @@
+import { MAJOR_PRACTICE } from '../data/cardPractice';
+import { getBlogPosts } from '../services/cmsStorage';
 import { CARD_LORE } from "../data/cardLore";
 import { minorExtra } from "../data/minorExtra";
 import { RESEARCH_SECTIONS, PRIORITY_CARD_DETAILS, CARD_REFLECTIONS } from "../data/seoResearch";
@@ -45,7 +47,7 @@ const DailyCard: React.FC<{ signIndex: number; label: string }> = ({ signIndex, 
 const H2: React.FC<{ children: React.ReactNode }> = ({ children }) => <h2 className="text-2xl font-semibold mt-10 mb-3">{children}</h2>;
 const P: React.FC<{ children: React.ReactNode }> = ({ children }) => <p className="text-base leading-relaxed text-[#1f2322]/75 mb-4">{children}</p>;
 
-const EXTRA_LABELS: Record<string, string> = { '/free-tarot': 'Free tarot reading online', '/readings': 'Personal readings (shop)', '/shop': 'Personal readings (shop)' };
+const EXTRA_LABELS: Record<string, string> = { '/free-tarot': 'Free tarot reading online', '/readings': 'Personal readings (shop)', '/shop': 'Personal readings (shop)', '/faq': 'Reading questions and answers' };
 const LinkGrid: React.FC<{ paths: string[] }> = ({ paths }) => (
   <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3 my-4">
     {paths.map((p) => {
@@ -92,6 +94,7 @@ export const SeoPage: React.FC = () => {
   const details = card ? PRIORITY_CARD_DETAILS[card.slug] : undefined;
   const lore = card && !details ? CARD_LORE[card.slug] : undefined;
   const researchSections = RESEARCH_SECTIONS[page.path];
+  const companionPosts = card ? getBlogPosts().filter(p => p.published !== false && (p.slug?.startsWith(card.slug + '-') || (card.slug === 'the-lovers' && p.slug === 'aquarius-leo-compatibility'))).slice(0, 3) : [];
   const major = card?.arcana === 'Major Arcana' ? FREE_TAROT_CARDS.find((c) => norm(c.name) === norm(card.name)) : undefined;
 
   return (
@@ -239,6 +242,8 @@ export const SeoPage: React.FC = () => {
             {lore && <><H2>Symbolism and imagery</H2><P>{lore[0]}</P></>}
             {lore && card && card.arcana !== 'Major Arcana' && (() => { const x = minorExtra(card.slug, card.name); return x ? <><H2>Meaning in practice</H2><P>{x[0]}</P><P>{x[1]}</P><P>{x[2]}</P></> : null; })()}
             {!details && <><H2>Reading this card in a spread</H2><P>Compare {card.name} with the question you asked and the position it occupies. A card describing a challenge may invite a different reflection from the same card in an advice position. Notice the surrounding cards before settling on an interpretation.</P></>}
+            {card.arcana === 'Major Arcana' && MAJOR_PRACTICE[card.slug] && <><H2>A practical example for {card.name}</H2><P>{MAJOR_PRACTICE[card.slug][0]}</P><H2>A useful card comparison</H2><P>{MAJOR_PRACTICE[card.slug][1]}</P><LinkGrid paths={CARD_PAGES.filter(c => c.card && c.card.slug !== card.slug && MAJOR_PRACTICE[card.slug][1].toLowerCase().includes(c.card.name.toLowerCase())).map(c => c.path)} /></>}
+            {companionPosts.length > 0 && <section><H2>Related reflections from the journal</H2><ul className="space-y-3">{companionPosts.map(p => <li key={p.slug}><Link to={`/blog/${p.slug}`} className="underline underline-offset-4">{p.title}</Link></li>)}</ul></section>}
             {major && (<><h3 className="text-lg font-semibold mt-6 mb-2">A question to reflect on</h3><P>{major.advice}</P></>)}
           </>
         )}

@@ -26,9 +26,10 @@ export default defineConfig(({isSsrBuild})=>({
    for(const [file,encoded] of Object.entries(logos)){
     if(!/^(favicon-(16|32|48)\.png|favicon\.ico|apple-touch-icon-180\.png|navbar-480\.png|hamsa\.svg)$/.test(file))throw Error('Invalid logo asset');
     this.emitFile({type:'asset',fileName:file,source:Buffer.from(encoded,'base64')});
+    if(file==='navbar-480.png'){for(const width of [96,192])this.emitFile({type:'asset',fileName:`navbar-${width}.webp`,source:await sharp(Buffer.from(encoded,'base64')).resize({width}).webp({quality:85}).toBuffer()});}
    }
    const emit=async(base:string,bytes:Buffer)=>{
-    for(const [suffix,width]of [['',1600],['-800',800],['-560',560],['-400',400]]as const){
+    for(const [suffix,width]of [['',1600],['-800',800],['-560',560],['-400',400],['-240',240]]as const){
      const image=await sharp(bytes).resize({width,withoutEnlargement:true}).webp({quality:83}).toBuffer();
      this.emitFile({type:'asset',fileName:base+suffix+'.webp',source:image});
     }

@@ -37,7 +37,7 @@ export const Layout: React.FC<{ children: React.ReactNode; seo?: boolean }> = ({
     <div className="st">
       {seo && <RouteSEO />}
       <header className="st-head"><div className="wrap in">
-        <Link to="/" className="st-logo"><img className="st-brand-mark" src="/navbar-480.png" width="40" height="44.667" alt="" />The Psychic Studio</Link>
+        <Link to="/" className="st-logo"><img className="st-brand-mark" src="/navbar-96.webp" srcSet="/navbar-96.webp 96w, /navbar-192.webp 192w" sizes="40px" width="40" height="44.667" alt="" />The Psychic Studio</Link>
         <button className="st-burger" aria-label="Menu" onClick={() => setOpen(!open)}>{open ? '×' : '☰'}</button>
         <nav className={'st-nav' + (open ? ' open' : '')}>
           {NAV.map(([to, l]) => <NavLink key={to} to={to} end={to === '/'} className={({ isActive }) => (isActive ? 'on' : '')}>{l}</NavLink>)}
@@ -46,9 +46,9 @@ export const Layout: React.FC<{ children: React.ReactNode; seo?: boolean }> = ({
       <main>{children}</main>
       <footer className="st-foot"><div className="wrap">
         <div className="cols">
-          <div><div className="st-logo" style={{ color: "var(--leaf-d)" }}><img className="st-brand-mark" src="/navbar-480.png" width="40" height="44.667" alt="" />The Psychic Studio</div><p style={{ fontSize: 14, opacity: .75, maxWidth: 280 }}>Tarot, horoscopes and personal readings.</p></div>
+          <div><div className="st-logo" style={{ color: "var(--leaf-d)" }}><img className="st-brand-mark" src="/navbar-96.webp" srcSet="/navbar-96.webp 96w, /navbar-192.webp 192w" sizes="40px" width="40" height="44.667" alt="" />The Psychic Studio</div><p style={{ fontSize: 14, opacity: .75, maxWidth: 280 }}>Tarot, horoscopes and personal readings.</p></div>
           <div><h2 className="st-footer-heading">Explore</h2><ul><li><Link to="/shop">Shop</Link></li><li><Link to="/free-tarot">Free tarot draw</Link></li><li><Link to="/blog">Blog</Link></li><li><Link to="/about">About the studio</Link></li><li><Link to="/contact">Contact</Link></li></ul></div>
-          <div><h2 className="st-footer-heading">Horoscopes</h2><ul><li><Link to="/horoscope">Daily horoscope</Link></li><li><Link to="/love-horoscope">Love horoscope</Link></li><li><Link to="/zodiac-signs">Zodiac signs</Link></li><li><Link to="/compatibility">Compatibility</Link></li></ul></div>
+          <div><h2 className="st-footer-heading">Horoscopes</h2><ul><li><Link to="/horoscope">Daily horoscope</Link></li><li><Link to="/love-horoscope">Love horoscope</Link></li><li><Link to="/zodiac">Zodiac signs</Link></li><li><Link to="/zodiac-compatibility">Compatibility</Link></li></ul></div>
           <div><h2 className="st-footer-heading">Tarot</h2><ul><li><Link to="/tarot-card-meanings">Card meanings</Link></li><li><Link to="/angel-numbers">Angel numbers</Link></li><li><Link to="/contact">Contact the studio</Link></li></ul></div>
         </div>
         <nav aria-label="Follow The Psychic Studio" className="st-social" style={{ marginTop: 28 }}>

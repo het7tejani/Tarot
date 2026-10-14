@@ -74,6 +74,10 @@ Do not cancel solely because of a card. Review the plan's actual terms, risks an
 
 Tarot here is for entertainment and personal reflection, not medical, legal or financial advice.
 
+## Read our shorter reflection on Medium
+
+For a brief companion to this guide, read [The Fool Reversed: A Thoughtful Pause Before a New Start on Medium](https://medium.com/@thepsychicstudio/the-fool-reversed-a-thoughtful-pause-before-a-new-start-147512f496ba).
+
 ## Sources and photo credits
 
 Symbolic background: [Labyrinthos on The Fool](https://labyrinthos.co/blogs/tarot-card-meanings-list/the-fool-meaning-major-arcana-tarot-card-meanings). The practical exercises above are reflection prompts, not predictions.

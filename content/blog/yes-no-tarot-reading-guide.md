@@ -87,6 +87,10 @@ There is no required schedule. Give yourself time to act on the first reflection
 
 Tarot here is for entertainment and personal reflection, not medical, legal or financial advice.
 
+## More tarot basics from The Psychic Studio
+
+Our Quora answers explain [Major and Minor Arcana](https://www.quora.com/What-is-the-difference-between-a-major-arcana-card-and-a-minor-arcana-card-in-a-tarot-deck/answer/The-Psychic-Studio), [the standard tarot deck card count](https://www.quora.com/How-many-cards-are-in-a-Tarot-deck-Is-there-a-standard-number-of-cards/answer/The-Psychic-Studio) and [a manageable way to learn tarot cards](https://www.quora.com/What-is-the-easiest-way-to-learn-tarot-cards/answer/The-Psychic-Studio). These cover deck structure and practice, rather than predicting outcomes.
+
 ## Sources and photo credits
 
 Background reading: [Biddy Tarot's guide to yes-or-no methods](https://biddytarot.com/blog/how-to-do-a-yes-no-tarot-card-reading/) and [its discussion of asking yes-or-no questions](https://support.biddytarot.com/hc/en-us/articles/360001911835-Can-I-Ask-the-Tarot-a-Yes-No-Question). These are interpretive practices, not evidence of predicted events.

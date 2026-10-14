@@ -17,7 +17,7 @@
     signal(true);
     var script = document.createElement('script');
     script.async = true;
-    script.src = 'https://www.clarity.ms/tag/ywia4vi28ff';
+    script.src = 'https://www.clarity.ms/tag/ywia4vi28f';
     document.head.appendChild(script);
   }
   function decide(value) {

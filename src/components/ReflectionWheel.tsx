@@ -74,7 +74,6 @@ export const ReflectionWheel: React.FC = () => {
   const [rotation, setRotation] = useState(0);
   const [cardIndex, setCardIndex] = useState<number | null>(null);
   const [spinning, setSpinning] = useState(false);
-  const [expanded, setExpanded] = useState(false);
   const rings = [signs, themes, situations[choices[1]] || situations.Career, energy, intentions];
   const radii = [44, 37, 29, 22, 16];
   const pick = (ring: number, index: number) => {
@@ -101,7 +100,7 @@ export const ReflectionWheel: React.FC = () => {
     {card && reading ? <div className="st-wheel-result" aria-live="polite">
       <TarotArtwork src={card.image} alt={`${card.name} tarot card`} sizes="220px" />
       <div><span className="eyebrow">Your reflection · {choices[0]}</span><h3>{card.name}</h3><p className="st-wheel-chosen-question">{choices[1]} · {choices[2]}</p><p>{reading.interpretation}</p><p>{reading.guidance}</p><p>{situationActions[choices[2]]}</p><h4>Your next step</h4><p>{energyActions[choices[3]]} {intentActions[choices[4]]}</p><p className="st-wheel-note">Your sign sets a symbolic starting point. Your situation, chosen element and intention shape this reflection. The card is drawn at random; this is not a personal prediction.</p><button type="button" className="btn" onClick={reset}>Begin a new reflection</button></div>
-    </div> : <div className={`st-wheel-experience st-wheel-contained ${expanded?'expanded':''}`}>
+    </div> : <div className="st-wheel-experience st-wheel-contained">
       <div className={`st-wheel-stage st-wheel-depth-${step} ${spinning?'is-spinning':''} ${choices.length===5?'is-complete':''}`}>
         <div className="st-wheel-aura" aria-hidden="true"/>
         <div className="st-wheel-pointer" aria-hidden="true">✦</div>
@@ -121,14 +120,13 @@ export const ReflectionWheel: React.FC = () => {
           {rings.map((options,ring)=><div key={ring} className={`st-concentric-ring choice-layer-${ring} ${ring===step?'active':''} ${ring>step?'waiting':''}`} role="group" aria-label={stages[ring]}>{options.map((option,index)=>{
             const angle=index*360/options.length+(ring===2?30:ring===3||ring===4?45:0);
             const short = ring===3 ? option.split(' · ')[0] : ring===4 ? ['Step','View','Limit','Habit'][index] : option;
-            return <button type="button" key={option} className={'st-concentric-choice'+(choices[ring]===option?' selected':'')} aria-label={option} title={option} aria-pressed={choices[ring]===option} style={{left:`${50+radii[ring]*Math.sin(angle*Math.PI/180)}%`,top:`${50-radii[ring]*Math.cos(angle*Math.PI/180)}%`,transform:`translate(-50%,-50%) rotate(${-rotation}deg)`}} onClick={()=>pick(ring,index)} disabled={ring>step||spinning}>{ring===1&&<WheelEmblem kind={index} className="st-theme-emblem"/>}{ring===0&&<span className="st-orbit-glyph" aria-hidden="true">{glyphs[index]}</span>}<span>{short}</span></button>;
+            return <button type="button" key={option} className={'st-concentric-choice'+(choices[ring]===option?' selected':'')} aria-label={option} title={option} aria-pressed={choices[ring]===option} style={{left:`${50+radii[ring]*Math.sin(angle*Math.PI/180)}%`,top:`${50-radii[ring]*Math.cos(angle*Math.PI/180)}%`,transform:`translate(-50%,-50%) rotate(${-rotation}deg)`}} onClick={()=>pick(ring,index)} disabled={ring>step||spinning}>{ring===1&&<WheelEmblem kind={index} className="st-theme-emblem"/>}{ring===0&&<span className="st-orbit-glyph" aria-hidden="true">{glyphs[index]+'\uFE0E'}</span>}<span>{short}</span></button>;
           })}</div>)}
         </div><div className="st-wheel-core st-concentric-core st-wheel-centre-controls">
           <WheelEmblem kind={3} className="st-centre-emblem"/>
           <span className="st-centre-stage">{choices.length===5 ? 'Circle complete' : `${step+1} · ${stages[step]}`}</span>
           <p>{choices.length===5 ? 'Your card awaits' : 'Tap the lit ring'}</p><div className="st-centre-progress" aria-hidden="true">{stages.map((_,i)=><i key={i} className={choices[i]?'chosen':i===step?'current':''}/>)}</div>
           <button type="button" disabled={spinning} onClick={choices.length===5?advance:()=>pick(step,Math.floor(Math.random()*rings[step].length))}>{spinning?'Drawing...':choices.length===5?'Reveal card':'Spin & choose'}</button>
-          <button type="button" className="st-wheel-zoom" onClick={()=>{setExpanded(!expanded);window.setTimeout(()=>{const el=document.querySelector('.st-wheel-contained');if(el)el.scrollLeft=expanded?0:(el.scrollWidth-el.clientWidth)/2;},50);}}>{expanded?'Fit circle':'Enlarge circle'}</button>
         </div></div>
         <div className="st-wheel-floor" aria-hidden="true" />
       </div>

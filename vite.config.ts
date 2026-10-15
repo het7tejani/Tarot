@@ -7,6 +7,21 @@ import sharp from 'sharp';
 import {defineConfig} from 'vite';
 export default defineConfig(({isSsrBuild})=>({
  plugins:[react(),tailwindcss(),{
+  name:'published-journal-link-index',
+  resolveId(id){if(id==='virtual:journal-links')return '\0virtual:journal-links'},
+  load(id){
+   if(id!=='\0virtual:journal-links')return;
+   const dir=path.resolve(__dirname,'content/blog');
+   const posts=fs.readdirSync(dir).filter(f=>f.endsWith('.md')).flatMap(file=>{
+    const raw=fs.readFileSync(path.join(dir,file),'utf8').replace(/\r\n/g,'\n');
+    const front=raw.match(/^---\n([\s\S]*?)\n---/)?.[1]||'';
+    if(/^published:\s*["']?false["']?\s*$/m.test(front))return [];
+    const title=(front.match(/^title:\s*(.*)$/m)?.[1]||'').trim().replace(/^(["'])(.*)\1$/,'$2').replace(/\\"/g,'"');
+    return title?[{slug:file.replace(/\.md$/,''),title}]:[];
+   });
+   return 'export default '+JSON.stringify(posts);
+  }
+ },{
   name:'exclude-private-blog-drafts', enforce:'pre',
   load(id){
    if(id.includes('/content/blog/') && id.includes('?raw')){

@@ -1,6 +1,9 @@
+import { SEARCH_SNIPPETS } from '../data/searchSnippetUpdates';
+import { SearchGuidance } from '../components/SearchGuidance';
+import { TarotStudyGuide } from '../components/TarotStudyGuide';
 import { TarotCardLibrary } from '../components/TarotCardLibrary';
 import { MAJOR_PRACTICE } from '../data/cardPractice';
-import { getBlogPosts } from '../services/cmsStorage';
+import journalLinks from 'virtual:journal-links';
 import { CARD_LORE } from "../data/cardLore";
 import { minorExtra } from "../data/minorExtra";
 import { RESEARCH_SECTIONS, PRIORITY_CARD_DETAILS, CARD_REFLECTIONS } from "../data/seoResearch";
@@ -67,7 +70,7 @@ const ReadingCTA: React.FC = () => (
     <h2 className="text-xl font-semibold mb-2">Want a personal reading?</h2>
     <p className="text-sm text-[#1f2322]/70 mb-5">Explore our personal reading topics. Contact the studio to ask about format, price, delivery and what is included.</p>
     <div className="flex flex-wrap gap-3">
-      <Link to="/readings" className="px-6 py-3 rounded-full bg-[#1f2322] text-white text-sm font-semibold hover:bg-[#73a89a]">See readings</Link>
+      <Link to="/shop" className="px-6 py-3 rounded-full bg-[#1f2322] text-white text-sm font-semibold hover:bg-[#73a89a]">See readings</Link>
       <Link to="/free-tarot" className="px-6 py-3 rounded-full border border-[#1f2322]/20 text-sm font-semibold hover:bg-[#1f2322]/5">Free tarot draw</Link>
     </div>
     <p className="text-xs text-[#1f2322]/50 mt-4">For entertainment and personal reflection. Readings cannot guarantee outcomes or replace medical, legal, financial or mental health advice.</p>
@@ -95,12 +98,12 @@ export const SeoPage: React.FC = () => {
   const details = card ? PRIORITY_CARD_DETAILS[card.slug] : undefined;
   const lore = card && !details ? CARD_LORE[card.slug] : undefined;
   const researchSections = RESEARCH_SECTIONS[page.path];
-  const companionPosts = card ? getBlogPosts().filter(p => p.published !== false && (p.slug?.startsWith(card.slug + '-') || (card.slug === 'the-lovers' && p.slug === 'aquarius-leo-compatibility'))).slice(0, 3) : [];
+  const companionPosts = card ? journalLinks.filter(p => (p.slug?.startsWith(card.slug + '-') || (card.slug === 'the-lovers' && p.slug === 'aquarius-leo-compatibility'))).slice(0, 3) : [];
   const major = card?.arcana === 'Major Arcana' ? FREE_TAROT_CARDS.find((c) => norm(c.name) === norm(card.name)) : undefined;
 
   return (
     <div className={`pt-32 pb-24 bg-[#FAF8F5] min-h-screen text-[#1f2322] ${isHoroscope ? "st-astro-page" : "st-editorial"}`}>
-      <SEOHead title={page.title.includes("| The Psychic Studio") ? page.title : `${page.title} | The Psychic Studio`} description={page.meta} schema={reflection && card ? {'@context':'https://schema.org','@type':'FAQPage',mainEntity:[{'@type':'Question',name:`What does ${card.name} mean in a reading?`,acceptedAnswer:{'@type':'Answer',text:`${reflection.theme}. Read that theme with your question, the card's position and the surrounding cards. There is no single interpretation that fits every situation.`}},{'@type':'Question',name:`Is ${card.name} reversed a bad sign?`,acceptedAnswer:{'@type':'Answer',text:`No. Its reversed reflection is ${reflection.challenge.toLowerCase()}. Use that as a question about your situation, not a judgment or a guaranteed prediction.`}},{'@type':'Question',name:`Can ${card.name} tell me how someone feels?`,acceptedAnswer:{'@type':'Answer',text:"It can help you reflect on relationship themes, but it cannot verify another person's thoughts or intentions. Ask directly and pay attention to their words and actions."}}]} : undefined} canonicalUrl={page.path} />
+      <SEOHead title={page.title.includes("| The Psychic Studio") ? page.title : `${page.title} | The Psychic Studio`} description={SEARCH_SNIPPETS[page.path]?.meta || page.meta} schema={reflection && card ? {'@context':'https://schema.org','@type':'FAQPage',mainEntity:[{'@type':'Question',name:`What does ${card.name} mean in a reading?`,acceptedAnswer:{'@type':'Answer',text:`${reflection.theme}. Read that theme with your question, the card's position and the surrounding cards. There is no single interpretation that fits every situation.`}},{'@type':'Question',name:`Is ${card.name} reversed a bad sign?`,acceptedAnswer:{'@type':'Answer',text:`No. Its reversed reflection is ${reflection.challenge.toLowerCase()}. Use that as a question about your situation, not a judgment or a guaranteed prediction.`}},{'@type':'Question',name:`Can ${card.name} tell me how someone feels?`,acceptedAnswer:{'@type':'Answer',text:"It can help you reflect on relationship themes, but it cannot verify another person's thoughts or intentions. Ask directly and pay attention to their words and actions."}}]} : undefined} canonicalUrl={page.path} />
       <div className={`mx-auto px-4 sm:px-6 lg:px-8 ${isHoroscope ? "st-astro-wrap" : page.kind === 'hub-tarot' ? "max-w-6xl" : "max-w-4xl"}`}>
         <nav className="text-xs text-[#1f2322]/50 mb-5" aria-label="Breadcrumb"><Link to="/" className="hover:text-[#73a89a]">Home</Link> / <span>{page.h1}</span></nav>
         <div className={isHoroscope ? "st-astro-hero" : "st-editorial-heading"}>
@@ -203,7 +206,7 @@ export const SeoPage: React.FC = () => {
 
         {researchSections && <section aria-label="Reading guide">{researchSections.map(([heading, text]) => <React.Fragment key={heading}><H2>{heading}</H2><P>{text}</P></React.Fragment>)}</section>}
 
-        {page.kind === 'hub-tarot' && <TarotCardLibrary />}
+        {page.kind === 'hub-tarot' && <><TarotCardLibrary /><TarotStudyGuide /></>}
 
         {page.kind === 'card' && card && (
           <>
@@ -237,6 +240,8 @@ export const SeoPage: React.FC = () => {
             {major && (<><h3 className="text-lg font-semibold mt-6 mb-2">A question to reflect on</h3><P>{major.advice}</P></>)}
           </>
         )}
+
+        <SearchGuidance path={page.path} />
 
         {related.length > 0 && page.kind !== 'hub-tarot' && page.path !== '/horoscope' && (
           <>

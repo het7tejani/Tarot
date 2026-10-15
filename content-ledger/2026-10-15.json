@@ -1,0 +1,90 @@
+{
+  "date": "2026-10-15",
+  "baseline": "43e9d7c",
+  "photos": [
+    {
+      "id": "6014322",
+      "source": "https://www.pexels.com/photo/a-woman-reading-the-tarot-cards-on-the-table-6014322/",
+      "download": "https://images.pexels.com/photos/6014322/pexels-photo-6014322.jpeg?auto=compress&w=1260&h=750&dpr=1",
+      "license": "https://www.pexels.com/license/"
+    },
+    {
+      "id": "7179795",
+      "source": "https://www.pexels.com/photo/woman-sitting-at-the-table-with-tarot-cards-7179795/",
+      "download": "https://images.pexels.com/photos/7179795/pexels-photo-7179795.jpeg?auto=compress&w=1260&h=750&dpr=1",
+      "license": "https://www.pexels.com/license/"
+    },
+    {
+      "id": "6014339",
+      "source": "https://www.pexels.com/photo/hands-touching-the-tarot-cards-on-the-table-6014339/",
+      "download": "https://images.pexels.com/photos/6014339/pexels-photo-6014339.jpeg?auto=compress&w=1260&h=750&dpr=1",
+      "license": "https://www.pexels.com/license/"
+    },
+    {
+      "id": "4790542",
+      "source": "https://www.pexels.com/photo/anonymous-soothsayer-reading-tarot-cards-during-divination-process-in-house-4790542/",
+      "download": "https://images.pexels.com/photos/4790542/pexels-photo-4790542.jpeg?auto=compress&w=1260&h=750&dpr=1",
+      "license": "https://www.pexels.com/license/"
+    },
+    {
+      "id": "6944181",
+      "source": "https://www.pexels.com/photo/a-woman-playing-with-tarot-cards-6944181/",
+      "download": "https://images.pexels.com/photos/6944181/pexels-photo-6944181.jpeg?auto=compress&w=1260&h=750&dpr=1",
+      "license": "https://www.pexels.com/license/"
+    },
+    {
+      "id": "11760478",
+      "source": "https://www.pexels.com/photo/a-person-using-tarot-cards-11760478/",
+      "download": "https://images.pexels.com/photos/11760478/pexels-photo-11760478.jpeg?auto=compress&w=1260&h=750&dpr=1",
+      "license": "https://www.pexels.com/license/"
+    },
+    {
+      "id": "8391596",
+      "source": "https://www.pexels.com/photo/hands-holding-a-deck-of-tarot-cards-8391596/",
+      "download": "https://images.pexels.com/photos/8391596/pexels-photo-8391596.jpeg?auto=compress&w=1260&h=750&dpr=1",
+      "license": "https://www.pexels.com/license/"
+    },
+    {
+      "id": "14180740",
+      "source": "https://www.pexels.com/photo/taro-tarot-cards-tarot-card-14180740/",
+      "download": "https://images.pexels.com/photos/14180740/pexels-photo-14180740.jpeg?auto=compress&w=1260&h=750&dpr=1",
+      "license": "https://www.pexels.com/license/"
+    },
+    {
+      "id": "7689420",
+      "source": "https://www.pexels.com/photo/tarot-cards-on-wooden-table-7689420/",
+      "download": "https://images.pexels.com/photos/7689420/pexels-photo-7689420.jpeg?auto=compress&w=1260&h=750&dpr=1",
+      "license": "https://www.pexels.com/license/"
+    }
+  ],
+  "published": false,
+  "topics": [
+    {
+      "slug": "the-high-priestess-reversed-listening",
+      "keyword": "the high priestess reversed",
+      "keywordSource": "src/data/seoResearch.ts on origin/main 43e9d7c",
+      "sources": [
+        "https://labyrinthos.co/blogs/tarot-card-meanings-list/the-high-priestess-meaning-major-arcana-tarot-card-meanings",
+        "https://labyrinthos.co/blogs/learn-tarot-with-labyrinthos-academy/how-to-interpret-reversed-tarot-cards"
+      ]
+    },
+    {
+      "slug": "the-emperor-reversed-flexible-structure",
+      "keyword": "the emperor reversed",
+      "keywordSource": "src/data/seoResearch.ts on origin/main 43e9d7c",
+      "sources": [
+        "https://labyrinthos.co/blogs/tarot-card-meanings-list/the-emperor-meaning-major-arcana-tarot-card-meanings",
+        "https://labyrinthos.co/blogs/learn-tarot-with-labyrinthos-academy/how-to-interpret-reversed-tarot-cards"
+      ]
+    },
+    {
+      "slug": "the-hierophant-reversed-your-values",
+      "keyword": "the hierophant reversed",
+      "keywordSource": "src/data/seoResearch.ts on origin/main 43e9d7c",
+      "sources": [
+        "https://labyrinthos.co/blogs/tarot-card-meanings-list/the-hierophant-meaning-major-arcana-tarot-card-meanings",
+        "https://labyrinthos.co/blogs/learn-tarot-with-labyrinthos-academy/how-to-interpret-reversed-tarot-cards"
+      ]
+    }
+  ]
+}

@@ -1,3 +1,4 @@
+import { ReflectionWheel } from '../components/ReflectionWheel';
 import { TarotArtwork } from '../components/TarotArtwork';
 import React, { useState, useEffect } from 'react';
 import { Shuffle, RefreshCw, ZoomIn, X, ChevronRight, Layers, ArrowUpCircle, ArrowDownCircle } from 'lucide-react';
@@ -456,6 +457,8 @@ export const FreeTarotPage: React.FC = () => {
             </p>
           </div>
         )}
+
+        <ReflectionWheel />
 
         {/* MAJOR ARCANA ARCHIVE (Normal Gallery Grid, unboxed) */}
         <div className="mt-20 pt-10 border-t border-[#1f2322]/15">

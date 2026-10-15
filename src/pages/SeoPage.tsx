@@ -1,3 +1,4 @@
+import { TarotCardLibrary } from '../components/TarotCardLibrary';
 import { MAJOR_PRACTICE } from '../data/cardPractice';
 import { getBlogPosts } from '../services/cmsStorage';
 import { CARD_LORE } from "../data/cardLore";
@@ -100,7 +101,7 @@ export const SeoPage: React.FC = () => {
   return (
     <div className={`pt-32 pb-24 bg-[#FAF8F5] min-h-screen text-[#1f2322] ${isHoroscope ? "st-astro-page" : "st-editorial"}`}>
       <SEOHead title={page.title.includes("| The Psychic Studio") ? page.title : `${page.title} | The Psychic Studio`} description={page.meta} schema={reflection && card ? {'@context':'https://schema.org','@type':'FAQPage',mainEntity:[{'@type':'Question',name:`What does ${card.name} mean in a reading?`,acceptedAnswer:{'@type':'Answer',text:`${reflection.theme}. Read that theme with your question, the card's position and the surrounding cards. There is no single interpretation that fits every situation.`}},{'@type':'Question',name:`Is ${card.name} reversed a bad sign?`,acceptedAnswer:{'@type':'Answer',text:`No. Its reversed reflection is ${reflection.challenge.toLowerCase()}. Use that as a question about your situation, not a judgment or a guaranteed prediction.`}},{'@type':'Question',name:`Can ${card.name} tell me how someone feels?`,acceptedAnswer:{'@type':'Answer',text:"It can help you reflect on relationship themes, but it cannot verify another person's thoughts or intentions. Ask directly and pay attention to their words and actions."}}]} : undefined} canonicalUrl={page.path} />
-      <div className={`mx-auto px-4 sm:px-6 lg:px-8 ${isHoroscope ? "st-astro-wrap" : "max-w-4xl"}`}>
+      <div className={`mx-auto px-4 sm:px-6 lg:px-8 ${isHoroscope ? "st-astro-wrap" : page.kind === 'hub-tarot' ? "max-w-6xl" : "max-w-4xl"}`}>
         <nav className="text-xs text-[#1f2322]/50 mb-5" aria-label="Breadcrumb"><Link to="/" className="hover:text-[#73a89a]">Home</Link> / <span>{page.h1}</span></nav>
         <div className={isHoroscope ? "st-astro-hero" : "st-editorial-heading"}>
           <div>
@@ -202,18 +203,7 @@ export const SeoPage: React.FC = () => {
 
         {researchSections && <section aria-label="Reading guide">{researchSections.map(([heading, text]) => <React.Fragment key={heading}><H2>{heading}</H2><P>{text}</P></React.Fragment>)}</section>}
 
-        {page.kind === 'hub-tarot' && (
-          <>
-            <H2>Major Arcana (22 cards)</H2>
-            <LinkGrid paths={CARD_PAGES.filter((c) => c.card?.arcana === 'Major Arcana').map((c) => c.path)} />
-            {['Wands', 'Cups', 'Swords', 'Pentacles'].map((s) => (
-              <div key={s}>
-                <H2>Suit of {s} (14 cards)</H2>
-                <LinkGrid paths={CARD_PAGES.filter((c) => c.card?.suit === s).map((c) => c.path)} />
-              </div>
-            ))}
-          </>
-        )}
+        {page.kind === 'hub-tarot' && <TarotCardLibrary />}
 
         {page.kind === 'card' && card && (
           <>

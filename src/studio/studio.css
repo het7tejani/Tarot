@@ -386,3 +386,27 @@ header .nav a.on,header a[aria-current=page]{color:#846019!important}
 @keyframes st-celestial-sweep{to{transform:rotate(360deg)}}@keyframes st-aura-breathe{50%{opacity:.45;transform:scale(.94)}}@keyframes st-card-reveal{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:translateY(0)}}
 @media(max-width:700px){.st-wheel-contained{padding:18px 8px 30px;border-radius:28px}.st-wheel-contained .st-wheel-stage{width:100%}.st-wheel-centre-controls .st-centre-emblem{width:15px;height:15px}.st-wheel-centre-controls{gap:1px}.st-centre-progress{gap:3px;margin:2px 0}.st-centre-progress i{width:3px;height:3px}.st-wheel-rim{box-shadow:0 2px 0 #715736,0 4px 0 #c3a268,0 6px 0 #715736,0 15px 19px #51422a25}}
 @media(prefers-reduced-motion:reduce){.st-wheel-aura,.st-wheel-light-sweep,.st-ring-light,.st-wheel-result{animation:none}.st-choice-orbit{transition:none}}
+
+/* Tarot library: larger artwork, one group at a time; every link stays in the HTML. */
+.st-card-library{margin-top:36px}
+.st-card-tabs{display:flex;flex-wrap:wrap;gap:8px;border-bottom:1px solid var(--line);padding-bottom:18px}
+.st-card-tabs button{padding:10px 14px;border:1px solid var(--line);border-radius:999px;background:transparent;color:var(--leaf-d);font:inherit;font-size:14px;cursor:pointer}
+.st-card-tabs button[aria-selected="true"]{background:var(--leaf-d);border-color:var(--leaf-d);color:var(--cream)}
+.st-card-tabs button:hover{border-color:var(--leaf-d)}
+.st-card-tabs button:focus-visible,.st-card-meaning-link:focus-visible{outline:2px solid var(--leaf-d);outline-offset:4px}
+.st-card-library [hidden]{display:none}
+.st-card-group-heading{font-size:22px;margin:26px 0 24px!important}
+.st-card-group-heading span{font-size:14px;font-weight:400;color:var(--ink2)}
+.st-card-gallery{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:26px 24px}
+.st-card-meaning-link{display:flex;align-items:center;flex-direction:column;text-align:center;gap:3px;font-size:12px;line-height:1.25;color:var(--ink)}
+.st-card-meaning-link img{display:block;width:100%;max-width:160px;border-radius:6px;box-shadow:0 1px 4px rgba(56,68,27,.12);margin-bottom:5px;transition:transform .2s}
+@media(hover:hover){.st-card-meaning-link:hover img{transform:translateY(-4px)}}
+@media(max-width:767px){.st-card-gallery{grid-template-columns:repeat(4,minmax(0,1fr))}}
+@media(max-width:639px){.st-card-gallery{grid-template-columns:repeat(2,minmax(0,1fr));gap:26px 24px}.st-card-tabs button{font-size:13px;padding:9px 12px}}
+@media(prefers-reduced-motion:reduce){.st-card-meaning-link img{transition:none}}
+
+.st-card-number{font-family:monospace;font-size:10px;color:var(--ink2)}
+.st-card-name-filter{display:block;max-width:320px;margin-bottom:26px}
+.st-card-name-filter input{width:100%;border:0;border-bottom:1px solid var(--line);padding:6px 0;background:transparent;font:inherit;font-size:12px;outline:none}
+.st-card-name-filter input:focus{border-color:var(--leaf-d)}
+.st-card-empty{font-size:14px;color:var(--ink2)}

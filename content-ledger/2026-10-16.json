@@ -1,0 +1,90 @@
+{
+  "date": "2026-10-16",
+  "baseline": "dbeffb04df8b1f80cb1c663e549c951dc517ed92",
+  "published": true,
+  "photos": [
+    {
+      "id": "7182580",
+      "source": "https://www.pexels.com/photo/a-person-sitting-at-a-table-with-tarot-cards-7182580/",
+      "download": "https://images.pexels.com/photos/7182580/pexels-photo-7182580.jpeg?cs=tinysrgb&dpr=1&w=500",
+      "license": "https://www.pexels.com/license/"
+    },
+    {
+      "id": "7179792",
+      "source": "https://www.pexels.com/photo/tarot-cards-and-a-crystal-ball-on-the-table-7179792/",
+      "download": "https://images.pexels.com/photos/7179792/pexels-photo-7179792.jpeg?auto=compress&w=1260&h=750&dpr=1",
+      "license": "https://www.pexels.com/license/"
+    },
+    {
+      "id": "6944688",
+      "source": "https://www.pexels.com/photo/a-woman-spreading-the-tarot-card-on-the-table-6944688/",
+      "download": "https://images.pexels.com/photos/6944688/pexels-photo-6944688.jpeg?auto=compress&w=1260&h=750&dpr=1",
+      "license": "https://www.pexels.com/license/"
+    },
+    {
+      "id": "7182582",
+      "source": "https://www.pexels.com/photo/woman-reading-tarot-cards-7182582/",
+      "download": "https://images.pexels.com/photos/7182582/pexels-photo-7182582.jpeg?auto=compress&w=1260&h=750&dpr=1",
+      "license": "https://www.pexels.com/license/"
+    },
+    {
+      "id": "4790550",
+      "source": "https://www.pexels.com/photo/faceless-soothsayer-reading-tarot-cards-near-glowing-candles-4790550/",
+      "download": "https://images.pexels.com/photos/4790550/pexels-photo-4790550.jpeg?auto=compress&w=1260&h=750&dpr=1",
+      "license": "https://www.pexels.com/license/"
+    },
+    {
+      "id": "7179807",
+      "source": "https://www.pexels.com/photo/woman-holding-tarot-cards-7179807/",
+      "download": "https://images.pexels.com/photos/7179807/pexels-photo-7179807.jpeg?w=1260&h=750&dpr=1",
+      "license": "https://www.pexels.com/license/"
+    },
+    {
+      "id": "14299091",
+      "source": "https://www.pexels.com/photo/tarot-cards-on-table-14299091/",
+      "download": "https://images.pexels.com/photos/14299091/pexels-photo-14299091.jpeg?auto=compress&w=1260&h=750&dpr=1",
+      "license": "https://www.pexels.com/license/"
+    },
+    {
+      "id": "4790559",
+      "source": "https://www.pexels.com/photo/crop-soothsayer-reading-tarot-cards-near-luminous-candles-4790559/",
+      "download": "https://images.pexels.com/photos/4790559/pexels-photo-4790559.jpeg?auto=compress&w=1260&h=750&dpr=1",
+      "license": "https://www.pexels.com/license/"
+    },
+    {
+      "id": "7179425",
+      "source": "https://www.pexels.com/photo/a-fortune-teller-booth-with-a-table-full-of-fortune-telling-tools-7179425/",
+      "download": "https://images.pexels.com/photos/7179425/pexels-photo-7179425.jpeg?auto=compress&w=1260&h=750&dpr=1",
+      "license": "https://www.pexels.com/license/"
+    }
+  ],
+  "topics": [
+    {
+      "slug": "strength-reversed-gentler-confidence",
+      "keyword": "strength reversed",
+      "sources": [
+        "https://labyrinthos.co/blogs/tarot-card-meanings-list/strength-meaning-major-arcana-tarot-card-meanings",
+        "https://biddytarot.com/tarot-card-meanings/major-arcana/strength/"
+      ],
+      "keywordSource": "src/data/seoResearch.ts on origin/main dbeffb0"
+    },
+    {
+      "slug": "the-chariot-reversed-reset-direction",
+      "keyword": "the chariot reversed",
+      "sources": [
+        "https://labyrinthos.co/blogs/tarot-card-meanings-list/the-chariot-meaning-major-arcana-tarot-card-meanings",
+        "https://biddytarot.com/tarot-card-meanings/major-arcana/chariot/"
+      ],
+      "keywordSource": "src/data/seoResearch.ts on origin/main dbeffb0"
+    },
+    {
+      "slug": "the-lovers-reversed-clearer-choices",
+      "keyword": "the lovers reversed",
+      "sources": [
+        "https://labyrinthos.co/blogs/tarot-card-meanings-list/the-lovers-meaning-major-arcana-tarot-card-meanings",
+        "https://biddytarot.com/tarot-card-meanings/major-arcana/lovers/"
+      ],
+      "keywordSource": "src/data/seoResearch.ts on origin/main dbeffb0"
+    }
+  ]
+}

@@ -49,14 +49,14 @@ for (const extra of ['/', '/shop', '/about', '/faq', '/contact', '/blog', '/free
 const problems = [];
 let count = 0;
 for (const route of [...paths].sort()) {
-  const {html, head} = await render(route);
+  const {html, head, dailyCardDayKey} = await render(route);
   const h1s = (html.match(/<h1[\s>]/g) || []).length;
   if (!head) { problems.push(`${route}: no SEO head collected`); continue; }
   if (/Page not found/.test(head.title)) { problems.push(`${route}: rendered the 404 page`); continue; }
   if (h1s !== 1) problems.push(`${route}: ${h1s} H1 elements`);
   if (head.title.length > 70 || head.description.length > 175) problems.push(`${route}: long title/description (${head.title.length}/${head.description.length})`);
   const preloads = route === '/' ? fs.readdirSync(path.join(dist,'assets')).filter(f=>/^(Home-|Layout-|readingsData-|etsyListings-|SEOHead-).*\.js$/.test(f)).map(f=>`<link rel="modulepreload" href="/assets/${f}" crossorigin>`).join('\n') : '';
-  const page = template.replace('<!--seo-head-->', headTags(head)+'\n'+preloads).replace(/(<link rel="stylesheet"[^>]*index-[^>]*>)/, '$1\n    ' + cssLinks).replace('<div id="root"></div>', `<div id="root">${html}</div>`);
+  const page = template.replace('<!--seo-head-->', headTags(head)+'\n'+preloads).replace(/(<link rel="stylesheet"[^>]*index-[^>]*>)/, '$1\n    ' + cssLinks).replace('<div id="root"></div>', `<div id="root" data-daily-card-day="${dailyCardDayKey}">${html}</div>`);
   write(route, page);
   count++;
 }

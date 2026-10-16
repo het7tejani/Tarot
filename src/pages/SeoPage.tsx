@@ -1,3 +1,4 @@
+import { SEO_PASS_SECTIONS, SEO_CONTEXT_LINKS } from '../data/seoPass17';
 import { SEARCH_SNIPPETS } from '../data/searchSnippetUpdates';
 import { SearchGuidance } from '../components/SearchGuidance';
 import { TarotStudyGuide } from '../components/TarotStudyGuide';
@@ -9,6 +10,7 @@ import { minorExtra } from "../data/minorExtra";
 import { RESEARCH_SECTIONS, PRIORITY_CARD_DETAILS, CARD_REFLECTIONS } from "../data/seoResearch";
 import { TarotArtwork } from '../components/TarotArtwork';
 import React, { useMemo } from 'react';
+import {useDailyCardDay} from '../contexts/DailyCardDate';
 import { Link, useLocation } from 'react-router-dom';
 import { ExternalLink } from 'lucide-react';
 import { SEOHead } from '../components/SEOHead';
@@ -24,16 +26,12 @@ const cap = (s: string) => s.charAt(0).toUpperCase() + s.slice(1);
 const norm = (s: string) => s.toLowerCase().replace(/^the\s+/, '').replace(/[^a-z]/g, '');
 const byPath: Record<string, SeoPageDef> = Object.fromEntries(ALL_SEO_PAGES.map((p) => [p.path, p]));
 
-const dayKey = () => {
-  const d = new Date();
-  return d.getFullYear() * 10000 + (d.getMonth() + 1) * 100 + d.getDate();
-};
-
 const DailyCard: React.FC<{ signIndex: number; label: string }> = ({ signIndex, label }) => {
+  const dayKey = useDailyCardDay();
   const card = useMemo(() => {
-    const seed = (dayKey() * 31 + (signIndex + 1) * 97) % FREE_TAROT_CARDS.length;
+    const seed = (dayKey * 31 + (signIndex + 1) * 97) % FREE_TAROT_CARDS.length;
     return FREE_TAROT_CARDS[seed];
-  }, [signIndex]);
+  }, [signIndex, dayKey]);
   return (
     <section className="st-daily-card rounded-2xl border border-[#1f2322]/10 bg-white/50 p-6 grid sm:grid-cols-[120px_1fr] gap-6 items-start">
       <TarotArtwork src={card.image} alt={`${card.name} tarot card illustration for upright and reversed meanings`} className="w-28 rounded-lg shadow-md" loading="lazy" />
@@ -205,6 +203,9 @@ export const SeoPage: React.FC = () => {
         )}
 
         {researchSections && <section aria-label="Reading guide">{researchSections.map(([heading, text]) => <React.Fragment key={heading}><H2>{heading}</H2><P>{text}</P></React.Fragment>)}</section>}
+
+        {SEO_PASS_SECTIONS[page.path] && <section aria-label="Practical questions and examples">{SEO_PASS_SECTIONS[page.path].map(([heading, text]) => <React.Fragment key={heading}><H2>{heading}</H2><P>{text}</P></React.Fragment>)}</section>}
+        {SEO_CONTEXT_LINKS[page.path] && <section aria-label="Related learning"><H2>Related guides</H2><ul className="space-y-3 mb-6">{SEO_CONTEXT_LINKS[page.path].map(([url, label]) => <li key={url}><Link to={url} className="text-[#507d71] underline underline-offset-4">{label}</Link></li>)}</ul></section>}
 
         {page.kind === 'hub-tarot' && <><TarotCardLibrary /><TarotStudyGuide /></>}
 

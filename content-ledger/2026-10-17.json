@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-17",
+  "baseline": "9a81e7b",
+  "published": false,
+  "keywordSource": "psychic-cross-site-seo-synthesis.xlsx (156249 bytes, sha256 0ba5f84e232d4004c1506914536830ae3ca35819ebcce1111afa0ff297ccf836), captured Oct 7 2026, US/Desktop Oct 6 database; 1679 evidence rows from psychicsource/californiapsychics/kasamba/purplegarden",
+  "photos": [
+    {"id": "7623657", "source": "https://www.pexels.com/photo/woman-writing-journal-7623657/", "download": "https://images.pexels.com/photos/7623657/pexels-photo-7623657.jpeg?auto=compress&w=1260&h=750&dpr=1", "license": "https://www.pexels.com/license/"},
+    {"id": "34640246", "source": "https://www.pexels.com/photo/elegant-handwritten-notes-in-journal-with-pen-34640246/", "download": "https://images.pexels.com/photos/34640246/pexels-photo-34640246.jpeg?auto=compress&w=1260&h=750&dpr=1", "license": "https://www.pexels.com/license/"},
+    {"id": "11025209", "source": "https://www.pexels.com/photo/a-person-writing-on-a-notebook-11025209/", "download": "https://images.pexels.com/photos/11025209/pexels-photo-11025209.jpeg?auto=compress&w=1260&h=750&dpr=1", "license": "https://www.pexels.com/license/"},
+    {"id": "10956169", "source": "https://www.pexels.com/photo/tornado-in-countryside-10956169/", "download": "https://images.pexels.com/photos/10956169/pexels-photo-10956169.jpeg?auto=compress&w=1260&h=750&dpr=1", "license": "https://www.pexels.com/license/"},
+    {"id": "13840223", "source": "https://www.pexels.com/photo/dramatic-sky-with-clouds-and-a-thunderstorm-at-night-13840223/", "download": "https://images.pexels.com/photos/13840223/pexels-photo-13840223.jpeg?auto=compress&w=1260&h=750&dpr=1", "license": "https://www.pexels.com/license/"},
+    {"id": "31130769", "source": "https://www.pexels.com/photo/dramatic-lightning-storm-at-night-31130769/", "download": "https://images.pexels.com/photos/31130769/pexels-photo-31130769.jpeg?auto=compress&w=1260&h=750&dpr=1", "license": "https://www.pexels.com/license/"},
+    {"id": "35168054", "source": "https://www.pexels.com/photo/view-from-airplane-window-at-sunrise-35168054/", "download": "https://images.pexels.com/photos/35168054/pexels-photo-35168054.jpeg?auto=compress&w=1260&h=750&dpr=1", "license": "https://www.pexels.com/license/"},
+    {"id": "33335733", "source": "https://www.pexels.com/photo/serene-sky-view-from-airplane-window-at-sunrise-33335733/", "download": "https://images.pexels.com/photos/33335733/pexels-photo-33335733.jpeg?auto=compress&w=1260&h=750&dpr=1", "license": "https://www.pexels.com/license/"},
+    {"id": "4657595", "source": "https://www.pexels.com/photo/airplane-window-with-view-of-clouds-4657595/", "download": "https://images.pexels.com/photos/4657595/pexels-photo-4657595.jpeg?auto=compress&w=1260&h=750&dpr=1", "license": "https://www.pexels.com/license/"}
+  ],
+  "topics": [
+    {
+      "slug": "questions-to-ask-a-psychic",
+      "keyword": "questions to ask a psychic",
+      "evidence": "Keyword shortlist row 14 / Page plan row 11: purplegarden position 7, volume 720, KD 28 (Domain positions row 70)",
+      "sources": ["https://www.purplegarden.co/blog/preparing-for-a-psychic-reading", "https://www.thequestionvault.com/questions-to-ask-a-psychic-medium"],
+      "overlapCheck": "No existing dedicated page; love-tarot-reading mentions questions to ask a psychic as a secondary keyword only"
+    },
+    {
+      "slug": "twister-dream-meaning",
+      "keyword": "dreaming of twisters",
+      "evidence": "All keyword evidence: californiapsychics, Domain positions row 101, position 3, volume 2.9K, KD 19",
+      "sources": ["https://www.californiapsychics.com/blog/dreams/twister-dream-meaning.html", "https://www.verywellmind.com/what-do-dreams-about-tornadoes-mean-8648271"],
+      "overlapCheck": "No existing dream-interpretation page or post"
+    },
+    {
+      "slug": "747-angel-number-meaning",
+      "keyword": "747 angel number twin flame",
+      "evidence": "All keyword evidence: purplegarden, Domain positions row 71, position 4, volume 480, KD 31",
+      "sources": ["https://www.purplegarden.co/blog/exploring-twin-flame-connections-the-magic-of-the-747-angel-number"],
+      "overlapCheck": "Angel-number hub covers 111/222/333/555/611/999/1010 only; no 747 page or post"
+    }
+  ]
+}

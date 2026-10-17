@@ -136,6 +136,9 @@ export const Home: React.FC = () => (
     <section className="st-sec"><div className="wrap">
       <span className="eyebrow">Your sign</span><h2>Read today's horoscope</h2>
       <div className="st-grid c4">{SIGN_INFO.map((s) => <Link key={s.n} className="st-sign" to={`/horoscope/${s.n}`}><b>{GLYPH[s.n]}{'\uFE0E'}</b>{s.n[0].toUpperCase() + s.n.slice(1)}</Link>)}</div>
+      <p style={{ marginTop: 26, display: 'flex', flexWrap: 'wrap', gap: '10px 20px', fontWeight: 600, fontSize: 14 }}>
+        <Link to="/zodiac">Zodiac signs</Link><Link to="/zodiac-compatibility">Zodiac compatibility</Link><Link to="/angel-numbers">Angel numbers</Link><Link to="/numerology">Numerology</Link><Link to="/birth-chart">Birth chart</Link><Link to="/rising-sign">Rising sign</Link><Link to="/spirit-animal">Spirit animal</Link><Link to="/love-tarot-reading">Love tarot reading</Link><Link to="/love-horoscope">Love horoscope</Link><Link to="/mercury-retrograde">Mercury retrograde</Link>
+      </p>
     </div></section>
     <section className="st-sec alt"><div className="wrap">
       <span className="eyebrow">Tarot library</span><h2>Tarot card meanings: all 78 cards</h2><p className="sub">Upright and reversed meanings for love, career and life, one page for every card.</p>

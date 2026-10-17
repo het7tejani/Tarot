@@ -41,11 +41,101 @@ export const SEO_PASS_SECTIONS: Record<string, [string, string][]> = {
   ['Is this a quiz that assigns a spirit animal?', 'No. This page offers questions for reflecting on animal imagery; it does not identify a sacred guide or deliver a quiz result. If a particular spiritual tradition matters to you, learn from people authorised within that tradition rather than treating a general internet meaning as interchangeable with it.'],
   ['Try an animal-symbol journal', 'Choose an animal image you noticed and describe what you actually saw before adding a meaning. Name the quality you associate with it, then ask where that quality would be useful in your life. You might connect a patient observation with slowing down before a choice. That is your interpretation, not proof the encounter was a message.'],
  ],
+ '/zodiac/cancer': [
+  ['Which dates are Cancer?', 'This guide uses June 21 to July 22 for Cancer. If you were born within a day or two of either boundary, a generic date list cannot settle the question on its own: check your full birth details with a chart calculation rather than rounding yourself into the nearest sign.'],
+  ['Care that also includes you', 'The traditional Cancer theme is care and protection. A useful reflection is whether that care runs both ways. Think of one person you look after and one thing you do to recover. If the second list is empty, choose a small, regular act of care aimed at yourself. Sensitivity is information about what matters to you, not a flaw to hide.'],
+  ['Love: say what safety means', 'Emotional safety means different things to different people: steady contact, privacy, gentleness during conflict or reliability with plans. Name yours and ask for your partner\'s version. A sign description cannot tell you whether a specific relationship is safe; consistent behaviour over time is the evidence that counts.'],
+  ['At work: trust before output', 'Cancer themes often show up as doing your best work where trust is established. If you are choosing between options, weigh the environment as well as the task. This is a reflection prompt inspired by sign themes, not a prediction about your career or a reason to reject a job on astrology alone.'],
+ ],
+ '/zodiac/gemini': [
+  ['Which dates are Gemini?', 'This guide uses May 21 to June 20 for Gemini. Birthdays near the edges of that range are best checked with full birth details and a chart calculation, since different date conventions assign the boundary days differently.'],
+  ['Curiosity with a finish line', 'Gemini is traditionally described as quick, curious and restless. The practical question is not whether you have many interests but which one deserves a finished attempt this month. Pick one open project, define what done looks like, and give it a review date. Range is a strength when some of it lands.'],
+  ['Love: conversation is the relationship', 'For talk-oriented signs, the quality of conversation often tracks the health of the relationship. Notice whether you can raise a difficult topic and stay curious about the answer. A zodiac label cannot tell you whether a partner is faithful or interested; what they say and do consistently is the evidence.'],
+  ['At work: use variety deliberately', 'If you learn fast and bore fast, design for it: rotate tasks, explain what you learn to someone else, and keep one longer commitment that outlasts your attention span. This is a reflection exercise based on traditional sign themes, not career advice settled by your birthday.'],
+ ],
+ '/zodiac/leo': [
+  ['Which dates are Leo?', 'This guide uses July 23 to August 22 for Leo. If your birthday sits within a day of either boundary, confirm your sign with full birth details and a chart calculation rather than a generic calendar alone.'],
+  ['Recognition without performance', 'Leo is traditionally linked with warmth, pride and a need for appreciation. Ask where you are creating something because it matters to you and where you are mainly performing for applause. Both are human; only one is sustainable. Choose one piece of work you would finish even if nobody clapped.'],
+  ['Love: appreciation in both directions', 'Leo themes often ask for noticed effort. Try naming one specific thing you appreciated about your partner this week, and ask whether they feel seen too. Grand gestures matter less than being reliably noticed. A sign cannot verify that someone loves you; attention shown through ordinary days is the better measure.'],
+  ['At work: lead by credit', 'A practical Leo reflection is to share visibility deliberately. Name a colleague\'s contribution in front of others this week. Confidence that makes room for other people tends to be the kind that lasts. This is a prompt for reflection, not a prediction about promotion or success.'],
+ ],
+ '/zodiac/libra': [
+  ['Which dates are Libra?', 'This guide uses September 23 to October 22 for Libra. Birthdays close to either boundary are worth confirming with full birth details and a chart calculation, since sign-boundary conventions vary.'],
+  ['Harmony that includes your own vote', 'Libra is traditionally described as fair-minded and harmony-seeking. The useful check is whether peace-keeping has quietly become self-erasure. Recall a recent decision where you had a preference. Did you say it? Practise stating a small preference clearly, without apology, and notice that the relationship survives it.'],
+  ['Love: decisions are also affection', 'Weighing every side can feel like care, but a partner usually prefers an honest leaning to endless maybe. If you are deciding something together, share your actual inclination and the reason. A sign description cannot tell you whether a match is compatible; how the two of you handle one real disagreement says far more.'],
+  ['At work: finish the comparison', 'If you are stuck between options, set a deadline, list what each option protects, and choose. Revisit only if new facts arrive. Balance is a method, not a permanent state of deliberation. This is a reflection prompt, not a rule for career decisions based on astrology.'],
+ ],
+ '/zodiac/pisces': [
+  ['Which dates are Pisces?', 'This guide uses February 19 to March 20 for Pisces. If you were born near either edge of the range, check full birth details with a chart calculation rather than relying on a generic date list alone.'],
+  ['Imagination with edges', 'Pisces is traditionally linked with empathy, imagination and porous boundaries. The practical question is where other people\'s moods end and yours begin. Before absorbing a room\'s anxiety, ask: is this mine? One clear sentence about what you can and cannot take on protects the kindness without killing it.'],
+  ['Love: stay in your own story', 'It is easy to merge with a partner\'s feelings and lose track of your own. Keep a small private record of what you actually want, separate from what would please someone else. A sign cannot tell you whether a relationship is right; patterns of respect and honesty over time are the evidence.'],
+  ['At work: meaning needs a container', 'Purpose-driven work still needs hours, rates and rest. If a role asks for boundless giving, that is a structure problem, not a spiritual calling. This is a reflection prompt inspired by sign themes, not a prediction or a reason to quit a job on astrology alone.'],
+ ],
+ '/zodiac/scorpio': [
+  ['Which dates are Scorpio?', 'This guide uses October 23 to November 21 for Scorpio. Birthdays within a day of the boundary are best confirmed with full birth details and a chart calculation, since sign-date conventions differ.'],
+  ['Intensity with an exit door', 'Scorpio is traditionally described as intense, private and persistent. The useful reflection is whether privacy is protecting something valuable or preventing help from reaching you. Choose one trusted person and share one degree more than usual. Depth does not require doing everything alone.'],
+  ['Love: trust is built out loud', 'Testing a partner silently tends to produce the distance it fears. If loyalty is the question, ask directly and watch the pattern of answers over time. A zodiac sign cannot confirm fidelity or hidden feelings; consistent, verifiable behaviour is the only real evidence.'],
+  ['At work: focus as a renewable resource', 'Sustained focus is a strength when it has an off switch. Define the end of the workday and the end of a project, or intensity becomes depletion. This is a prompt for reflection based on traditional themes, not a prediction about your career.'],
+ ],
+ '/zodiac-compatibility': [
+  ['How to use a sign pairing', 'Treat any pairing description as a conversation prompt, not a verdict. Pick one sentence that sounds like your relationship and discuss it together: does it fit, and what would you change? A pairing page cannot predict whether a relationship will last, and two people of supposedly difficult signs succeed every day.'],
+  ['What a sun-sign match cannot tell you', 'Compatibility pages compare only the sun sign, one placement among many. They cannot measure kindness, honesty, timing or effort, which is what relationships actually run on. Use the full birth chart for astrological depth, and direct conversation for everything that matters.'],
+ ],
+ '/zodiac-compatibility/leo-and-libra': [
+  ['Where this pairing tends to flow', 'Both signs are traditionally described as social and appreciative of beauty and attention. Leo brings warmth and boldness; Libra brings polish and fairness. A practical strength is hosting, building friendships and presenting a shared front. Notice whether both people are getting their preferred kind of recognition.'],
+  ['What to watch and talk about', 'Decision style can chafe: Libra weighs, Leo declares. Agree on a method before it matters, such as who decides what, and how long deliberation gets. No pairing page can judge your actual relationship; one honest conversation about appreciation and pace will tell you more than any chart summary.'],
+ ],
+ '/zodiac-compatibility/leo-and-pisces': [
+  ['Where this pairing tends to flow', 'Warmth meets tenderness: Leo offers protection and celebration, Pisces offers empathy and imagination. Both are traditionally described as romantic in different dialects. The practical strength is a relationship that values gestures, creativity and emotional meaning.'],
+  ['What to watch and talk about', 'Attention needs differ. Leo may want visible enthusiasm while Pisces recharges in quiet. Name the difference before it becomes a story about not caring. A sign pairing cannot measure your specific bond; consistent check-ins about what each of you needs are the reliable method.'],
+ ],
+ '/zodiac-compatibility/libra-and-scorpio': [
+  ['Where this pairing tends to flow', 'Libra brings diplomacy, Scorpio brings depth. Together they can move a relationship from pleasant to honest, if both are willing. The practical strength is balancing social ease with private loyalty: a couple that works well in company and in crisis.'],
+  ['What to watch and talk about', 'Libra may smooth things over while Scorpio wants the unvarnished truth. Agree that hard topics get a direct conversation, not a test or a cover-up. A pairing page cannot establish trust in your actual relationship; that comes from keeping small promises over time.'],
+ ],
+ '/zodiac-compatibility/taurus-and-gemini': [
+  ['Where this pairing tends to flow', 'Steady meets quick: Taurus offers reliability and calm, Gemini offers ideas and momentum. The practical strength is complementary pacing, where one person grounds the plan and the other keeps it from going stale.'],
+  ['What to watch and talk about', 'Rhythm is the usual friction: one wants routine, the other variety. Try structuring both, such as a stable weekly anchor plus one unplanned outing. A sign pairing cannot decide whether your relationship works; negotiating one real difference respectfully is better evidence than any compatibility summary.'],
+ ],
+ '/numerology': [
+  ['What numerology is', 'Numerology is a belief system that links numbers with character themes and life patterns, from single-digit meanings to repeating sequences like 111 or 555. People use it as a mirror for reflection. It is a tradition of interpretation, not a measurement: no study shows that a birthday digit determines personality or events.'],
+  ['A grounded way to try it', 'Pick one number that keeps drawing your attention. Read its traditional meaning, then write down one situation it makes you think about and one action within your control. The value is in the thinking it prompts. Avoid paying for promises that a number will bring money, love or a guaranteed outcome.'],
+  ['Where numbers show up here', 'Repeating numbers are covered individually in the angel numbers guide, and your birth details appear again in chart-based astrology. Each tradition has its own method; treat them as separate lenses rather than one combined proof.'],
+ ],
+ '/angel-numbers': [
+  ['How to use this guide', 'Find the number you keep noticing, read its page, then try the reflection prompts with a specific situation in mind. Write down what you were thinking when you saw it. The pattern is the prompt; your answer is the content.'],
+  ['A note on belief and evidence', 'Angel numbers are a spiritual tradition, not a verified signalling system. Nothing here confirms that an event will happen, that a person will return or that a decision is guaranteed to work. Use the meanings to reflect, and use facts, conversation and professional advice to decide.'],
+ ],
+ '/angel-numbers/111': [
+  ['What to do when 111 keeps appearing', 'The new-beginning reading is symbolic. Turn it into a practical question: what would I start if I trusted my own judgement? Choose the smallest real step, such as sending the enquiry or drafting the first page. Seeing 111 does not confirm that timing is perfect or that a result is guaranteed.'],
+  ['111 in love questions', 'If the number shows up while you think about someone, ask what you actually want to begin: a conversation, a boundary or a fresh chapter. A repeating number cannot verify another person\'s feelings or promise a new relationship. Start the honest conversation and let the answer be the evidence.'],
+  ['A journal example', 'You notice 1:11 while procrastinating on an application. Record it, then write the real blocker and a ten-minute action. Check a week later what changed because of what you did, rather than counting further sightings as progress.'],
+ ],
+ '/angel-numbers/222': [
+  ['What to do when 222 keeps appearing', 'The balance theme is an invitation to audit give and take. List where you are over-invested and where you have withdrawn, then pick one adjustment. Seeing 222 is not confirmation that everything will work out by itself; it works as a reminder, and you supply the action.'],
+  ['222 in love questions', 'Partnership themes make this a prompt for reciprocity: are both people\'s needs being named? Patience is useful, but waiting silently is not the same as balance. A number cannot tell you whether someone is committed or whether a relationship will last; consistent behaviour over time is the measure.'],
+  ['222 and work decisions', 'If 222 appears during a stressful project, check the load distribution: tasks, credit and recovery time. Raise one imbalance directly. The number does not guarantee harmony or success; it is a cue to review, not a promise.'],
+ ],
+ '/angel-numbers/333': [
+  ['What to do when 333 keeps appearing', 'The expression theme asks what you have left unsaid or unmade. Choose one draft, message or idea and move it one step forward today. Seeing 333 does not guarantee creative success or support arriving; it is a nudge to participate, and participation is yours to give.'],
+  ['333 in love questions', 'Read it as a prompt to say the honest, kind thing you have been editing down. If you are hoping a number confirms someone\'s feelings, it cannot; only their words and actions can. For money questions, treat any windfall interpretation as symbolism, and base spending decisions on your actual budget.'],
+  ['A journal example', 'You see 333 after avoiding a difficult email. Write the three sentences you are afraid to send, then send the fair version. Notice that the outcome came from the message, not the number.'],
+ ],
+ '/angel-numbers/555': [
+  ['What to do when 555 keeps appearing', 'The change theme is a prompt to check your relationship with change itself: are you resisting one that is already happening, or chasing one to escape a feeling? Name the change, then design a reversible experiment rather than a dramatic leap. Seeing 555 does not promise that a change will go well.'],
+  ['555 in love questions', 'If you are hoping it signals a relationship shift, ask instead what shift you would choose and what it costs. A number cannot predict a breakup, a proposal or a reunion. Talk about what is actually changing between you and decide from the facts.'],
+  ['555 and work decisions', 'Use it as a review trigger: list what would genuinely improve your work and what is just restlessness. Test one change cheaply before committing. The number supplies the question; research and advice supply the answer.'],
+ ],
+ '/angel-numbers/999': [
+  ['What to do when 999 keeps appearing', 'The completion theme asks what is actually finished versus what you are dragging. Choose one open loop, a task, a commitment or a resentment, and either close it or consciously re-open it with terms. Seeing 999 does not mean an ending is forced on you; you keep the choice.'],
+  ['999 in love questions', 'Completion in relationships can mean closure or renewal. Ask whether you are holding something out of habit or hope, and what each path would require. A number cannot decide whether to stay or go, and it cannot confirm what a partner intends. That conversation belongs to the two of you.'],
+  ['A journal example', 'You notice 999 while a project stalls. Write down what done would look like, what is left, and whether the work still matters. Finish it, hand it back or let it go deliberately.'],
+ ],
 };
 
 export const SEO_CONTEXT_LINKS: Record<string, [string,string][]> = {
- '/angel-numbers': [['/angel-numbers/1010','1010: fresh-start reflection'],['/angel-numbers/611','611: care, home and boundaries']],
- '/numerology': [['/angel-numbers','Repeating numbers and their interpretations']],
+ '/angel-numbers': [['/angel-numbers/1010','1010: fresh-start reflection'],['/angel-numbers/611','611: care, home and boundaries'],['/angel-numbers/111','111: notice your thoughts'],['/angel-numbers/222','222: balance and patience'],['/angel-numbers/333','333: expression'],['/angel-numbers/555','555: change'],['/angel-numbers/999','999: completion'],['/blog/747-angel-number-meaning','747: trust and foundations'],['/blog/757-angel-number-meaning','757: change and inner trust']],
+ '/numerology': [['/angel-numbers','Repeating numbers and their interpretations'],['/birth-chart','Where numbers meet your chart'],['/angel-numbers/111','Start with 111']],
  '/birth-chart': [['/rising-sign','Rising sign and birth-time uncertainty'],['/zodiac','Sun-sign dates and themes']],
  '/zodiac': [['/birth-chart','Understand a birth chart'],['/rising-sign','What a rising sign means'],['/mercury-retrograde','Mercury retrograde explained']],
  '/rising-sign': [['/birth-chart','Birth chart basics'],['/zodiac','Compare the twelve sun signs']],
@@ -54,4 +144,19 @@ export const SEO_CONTEXT_LINKS: Record<string, [string,string][]> = {
  '/angel-numbers/1010': [['/angel-numbers/611','Compare 611 and the care theme']],
  '/angel-numbers/611': [['/angel-numbers/1010','Compare 1010 and fresh starts']],
  '/love-tarot-reading': [['/tarot-card-meanings/the-lovers','The Lovers: choices and values'],['/tarot-card-meanings/two-of-cups','Two of Cups: mutual connection'],['/tarot-card-meanings','Look up the cards in your spread']],
+ '/zodiac/cancer': [['/horoscope/cancer','Daily tarot reflection for Cancer'],['/birth-chart','Go beyond your sun sign'],['/zodiac-compatibility','How signs pair up']],
+ '/zodiac/gemini': [['/horoscope/gemini','Daily tarot reflection for Gemini'],['/birth-chart','Go beyond your sun sign'],['/zodiac-compatibility','How signs pair up']],
+ '/zodiac/leo': [['/horoscope/leo','Daily tarot reflection for Leo'],['/birth-chart','Go beyond your sun sign'],['/zodiac-compatibility','How signs pair up']],
+ '/zodiac/libra': [['/horoscope/libra','Daily tarot reflection for Libra'],['/birth-chart','Go beyond your sun sign'],['/zodiac-compatibility','How signs pair up']],
+ '/zodiac/pisces': [['/horoscope/pisces','Daily tarot reflection for Pisces'],['/birth-chart','Go beyond your sun sign'],['/zodiac-compatibility','How signs pair up']],
+ '/zodiac/scorpio': [['/horoscope/scorpio','Daily tarot reflection for Scorpio'],['/birth-chart','Go beyond your sun sign'],['/zodiac-compatibility','How signs pair up']],
+ '/zodiac-compatibility/leo-and-libra': [['/zodiac/leo','Leo sign profile'],['/zodiac/libra','Libra sign profile'],['/love-horoscope','Love themes by sign']],
+ '/zodiac-compatibility/leo-and-pisces': [['/zodiac/leo','Leo sign profile'],['/zodiac/pisces','Pisces sign profile'],['/love-horoscope','Love themes by sign']],
+ '/zodiac-compatibility/libra-and-scorpio': [['/zodiac/libra','Libra sign profile'],['/zodiac/scorpio','Scorpio sign profile'],['/love-horoscope','Love themes by sign']],
+ '/zodiac-compatibility/taurus-and-gemini': [['/zodiac/taurus','Taurus sign profile'],['/zodiac/gemini','Gemini sign profile'],['/love-horoscope','Love themes by sign']],
+ '/angel-numbers/111': [['/angel-numbers/222','Compare 222 and balance'],['/numerology','The wider number tradition']],
+ '/angel-numbers/222': [['/angel-numbers/111','Compare 111 and beginnings'],['/numerology','The wider number tradition']],
+ '/angel-numbers/333': [['/blog/333-angel-number-money','333 and money questions'],['/numerology','The wider number tradition']],
+ '/angel-numbers/555': [['/angel-numbers/999','Compare 999 and completion'],['/numerology','The wider number tradition']],
+ '/angel-numbers/999': [['/angel-numbers/555','Compare 555 and change'],['/numerology','The wider number tradition']],
 };

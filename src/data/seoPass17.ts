@@ -126,6 +126,11 @@ export const SEO_PASS_SECTIONS: Record<string, [string, string][]> = {
   ['555 in love questions', 'If you are hoping it signals a relationship shift, ask instead what shift you would choose and what it costs. A number cannot predict a breakup, a proposal or a reunion. Talk about what is actually changing between you and decide from the facts.'],
   ['555 and work decisions', 'Use it as a review trigger: list what would genuinely improve your work and what is just restlessness. Test one change cheaply before committing. The number supplies the question; research and advice supply the answer.'],
  ],
+ '/soulmate-reading': [
+   ['Example: reading for a connection that feels unfinished', 'Suppose you draw Two of Cups reversed while thinking about someone from the past. A grounded reading is about your own closure and boundaries: what did you learn, what would you do differently, and what are you still hoping for. The card is a prompt for reflection, not a signal that they will return.'],
+   ['If you are waiting for a sign about someone', 'Write down what you actually know about the connection and what you are assuming. A reading can help you separate hope from evidence and decide on one concrete next step, such as an honest conversation, instead of waiting for another sign.'],
+   ['Choosing a personal soulmate reading', 'Before ordering, read the actual listing: the soulmate and future relationship reading explains its format, the number of questions, delivery time and price. A reading that promises to reveal a specific person\u2019s heart or guarantee reunion is making claims no honest reader can keep.'],
+  ],
  '/angel-numbers/999': [
   ['What to do when 999 keeps appearing', 'The completion theme asks what is actually finished versus what you are dragging. Choose one open loop, a task, a commitment or a resentment, and either close it or consciously re-open it with terms. Seeing 999 does not mean an ending is forced on you; you keep the choice.'],
   ['999 in love questions', 'Completion in relationships can mean closure or renewal. Ask whether you are holding something out of habit or hope, and what each path would require. A number cannot decide whether to stay or go, and it cannot confirm what a partner intends. That conversation belongs to the two of you.'],
@@ -143,7 +148,8 @@ export const SEO_CONTEXT_LINKS: Record<string, [string,string][]> = {
  '/spirit-animal': [['/blog/mourning-dove-spiritual-meaning','Mourning dove symbolism'],['/blog/yellow-butterfly-spiritual-meaning','Yellow butterfly symbolism']],
  '/angel-numbers/1010': [['/angel-numbers/611','Compare 611 and the care theme']],
  '/angel-numbers/611': [['/angel-numbers/1010','Compare 1010 and fresh starts']],
- '/love-tarot-reading': [['/tarot-card-meanings/the-lovers','The Lovers: choices and values'],['/tarot-card-meanings/two-of-cups','Two of Cups: mutual connection'],['/tarot-card-meanings','Look up the cards in your spread']],
+ '/soulmate-reading': [['/love-tarot-reading','Love tarot: questions and guidance'],['/readings/soulmate-and-future-relationship','The soulmate and future relationship reading'],['/free-tarot','Try a free tarot draw'],['/tarot-card-meanings/the-lovers','The Lovers: choices and values']],
+ '/love-tarot-reading': [['/tarot-card-meanings/the-lovers','The Lovers: choices and values'],['/tarot-card-meanings/two-of-cups','Two of Cups: mutual connection'],['/tarot-card-meanings','Look up the cards in your spread'],['/soulmate-reading','Soulmate questions: hopes and patterns']],
  '/zodiac/cancer': [['/horoscope/cancer','Daily tarot reflection for Cancer'],['/birth-chart','Go beyond your sun sign'],['/zodiac-compatibility','How signs pair up']],
  '/zodiac/gemini': [['/horoscope/gemini','Daily tarot reflection for Gemini'],['/birth-chart','Go beyond your sun sign'],['/zodiac-compatibility','How signs pair up']],
  '/zodiac/leo': [['/horoscope/leo','Daily tarot reflection for Leo'],['/birth-chart','Go beyond your sun sign'],['/zodiac-compatibility','How signs pair up']],

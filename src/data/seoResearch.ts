@@ -1026,9 +1026,22 @@ export const RESEARCH_SECTIONS: Record<string, [string,string][]> = {
       "Respecting cultural context",
       "Avoid claiming rituals or titles from traditions you do not belong to. You can reflect on an animal image without presenting it as a verified spiritual connection or a prediction."
     ]
+  ],
+  "/soulmate-reading": [
+    [
+      "What a soulmate reading can explore",
+      "A soulmate reading uses card symbolism and intuitive reflection to look at your relationship patterns: what you are drawn to, what you repeat and what you actually want from a partner. Cards that often appear in these conversations include The Lovers, Two of Cups and The Empress. The reading is about you and your choices. It cannot confirm what another person feels or whether a specific person is destined for you."
+    ],
+    [
+      "About free psychic soulmate readings",
+      "Many sites advertise a free psychic soulmate reading and deliver a short scripted answer. Here the honest free option is a free tarot draw you can try yourself, with upright and reversed meanings explained. A personal soulmate reading with the studio is a paid service, and the listing states its format, price and delivery before you order."
+    ],
+    [
+      "Questions that work better than is this person my soulmate",
+      "Open questions give a reading something to work with. Try: what pattern should I notice in my relationships, what would readiness for a healthy connection look like for me, or what is one choice I can make with more intention. These keep the focus on your own growth instead of a verdict about someone else."
+    ]
   ]
 };
-
 export const PRIORITY_CARD_DETAILS: Record<string, {symbolism:string;love:string;career:string;question:string}> = {
   "the-high-priestess": {
     "symbolism": "In traditional tarot imagery, the High Priestess sits between two pillars with a veil behind her. The scene is often read as a boundary between what is visible and what is not yet understood. Our custom artwork is an interpretation of the card, not a claim to reproduce the historic deck.",

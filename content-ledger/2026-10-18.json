@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-18",
+  "baseline": "ef6814c",
+  "published": false,
+  "keywordSource": "psychic-cross-site-seo-synthesis.xlsx (156249 bytes, sha256 0ba5f84e232d4004c1506914536830ae3ca35819ebcce1111afa0ff297ccf836), captured Oct 7 2026, US/Desktop Oct 6 database; 1679 evidence rows from psychicsource/californiapsychics/kasamba/purplegarden",
+  "photos": [
+    {"id": "32103954", "source": "https://www.pexels.com/photo/serene-sunrise-over-misty-mountain-ranges-32103954/", "download": "https://images.pexels.com/photos/32103954/pexels-photo-32103954.jpeg?auto=compress&w=1260&h=750&dpr=1", "license": "https://www.pexels.com/license/"},
+    {"id": "9291023", "source": "https://www.pexels.com/photo/mountains-at-sunrise-9291023/", "download": "https://images.pexels.com/photos/9291023/pexels-photo-9291023.jpeg?auto=compress&w=1260&h=750&dpr=1", "license": "https://www.pexels.com/license/"},
+    {"id": "4448846", "source": "https://www.pexels.com/photo/mountains-and-trees-during-sunrise-4448846/", "download": "https://images.pexels.com/photos/4448846/pexels-photo-4448846.jpeg?auto=compress&w=1260&h=750&dpr=1", "license": "https://www.pexels.com/license/"},
+    {"id": "18683300", "source": "https://www.pexels.com/photo/an-owl-perched-on-a-branch-in-the-dark-18683300/", "download": "https://images.pexels.com/photos/18683300/pexels-photo-18683300.jpeg?auto=compress&w=1260&h=750&dpr=1", "license": "https://www.pexels.com/license/"},
+    {"id": "30994787", "source": "https://www.pexels.com/photo/barn-owl-perched-on-tree-branch-at-night-30994787/", "download": "https://images.pexels.com/photos/30994787/pexels-photo-30994787.jpeg?auto=compress&w=1260&h=750&dpr=1", "license": "https://www.pexels.com/license/"},
+    {"id": "920534", "source": "https://www.pexels.com/photo/night-view-of-sky-920534/", "download": "https://images.pexels.com/photos/920534/pexels-photo-920534.jpeg?auto=compress&w=1260&h=750&dpr=1", "license": "https://www.pexels.com/license/"},
+    {"id": "6303563", "source": "https://www.pexels.com/photo/thoughtful-androgynous-black-woman-standing-near-window-at-rainy-day-6303563/", "download": "https://images.pexels.com/photos/6303563/pexels-photo-6303563.jpeg?auto=compress&w=1260&h=750&dpr=1", "license": "https://www.pexels.com/license/"},
+    {"id": "5028920", "source": "https://www.pexels.com/photo/anonymous-man-behind-window-in-raindrops-5028920/", "download": "https://images.pexels.com/photos/5028920/pexels-photo-5028920.jpeg?auto=compress&w=1260&h=750&dpr=1", "license": "https://www.pexels.com/license/"},
+    {"id": "31662652", "source": "https://www.pexels.com/photo/pensive-woman-looking-through-rainy-window-31662652/", "download": "https://images.pexels.com/photos/31662652/pexels-photo-31662652.jpeg?auto=compress&w=1260&h=750&dpr=1", "license": "https://www.pexels.com/license/"}
+  ],
+  "topics": [
+    {
+      "slug": "128-angel-number-meaning",
+      "keyword": "128 angel number",
+      "evidence": "All keyword evidence: kasamba, volume 880, KD 19, competitor position 6; variant 'angel number 128' volume 720, KD 18",
+      "sources": ["https://www.astrology.com/numerology/angel-numbers/128-meaning"],
+      "overlapCheck": "Angel-number hub covers 111/222/333/555/611/999/1010 only; existing posts cover 333-money/747/757/888; no 128 page or post"
+    },
+    {
+      "slug": "birds-chirping-at-night-spiritual-meaning",
+      "keyword": "why do birds chirp at night spiritual meaning",
+      "evidence": "All keyword evidence: purplegarden, volume 590, KD 26, competitor position 4",
+      "sources": ["https://www.britannica.com/science/Why-Do-Birds-Chirp-at-Night", "https://whatspiritual.com/"],
+      "overlapCheck": "mourning-dove-spiritual-meaning covers one daytime bird; no night-birdsong page or post"
+    },
+    {
+      "slug": "thinking-about-ex-spiritual-meaning",
+      "keyword": "why do i keep thinking about my ex spiritual meaning",
+      "evidence": "All keyword evidence: purplegarden, volume 320, KD 29, competitor position 2",
+      "sources": ["https://psychcentral.com/relationships/dreaming-about-an-ex", "https://www.purplegarden.co/blog/7-spiritual-signs-your-ex-is-still-thinking-about-you"],
+      "overlapCheck": "No existing breakup/ex page or post; questions-to-ask-a-psychic linked as next step only"
+    }
+  ]
+}

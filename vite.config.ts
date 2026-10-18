@@ -61,9 +61,11 @@ export default defineConfig(({isSsrBuild})=>({
    }
    const zodiac:Record<string,string>=JSON.parse(fs.readFileSync(path.resolve(__dirname,'public/perf-assets/zodiac.json'),'utf8'));
    await emit('perf-assets/zodiac',Buffer.from(zodiac.zodiac.split(',')[1],'base64'));
+   await emit('perf-assets/halloween-reading',fs.readFileSync(path.resolve(__dirname,'public/halloween-reading.webp')));
    await emit('tarot-optimized/card_back',fs.readFileSync(path.resolve(__dirname,'public/tarot/card_back.jpg')));
   },
  }],
+ build:isSsrBuild?{}:{rollupOptions:{output:{manualChunks(id:string){if(id.includes('node_modules')){if(/[\\/](react|react-dom|react-router|react-router-dom|scheduler)[\\/]/.test(id))return 'vendor-react';if(/[\\/](motion|framer-motion|lucide-react|@google\/genai)[\\/]/.test(id))return 'vendor-ui';}}}}},
  resolve:{alias:{'@':path.resolve(__dirname,'.')}},
  server:{hmr:process.env.DISABLE_HMR!=='true',watch:process.env.DISABLE_HMR==='true'?null:{}},
 }));

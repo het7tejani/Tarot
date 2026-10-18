@@ -122,7 +122,7 @@ export const Home: React.FC = () => (
       `}</style>
       <HalloweenBats />
       <div className="wrap sale-in">
-        <div className="sale-art" aria-hidden="true"><img src="/halloween-reading.webp" loading="lazy" decoding="async" alt="" width="1100" height="733" /></div>
+        <div className="sale-art" aria-hidden="true"><img src="/perf-assets/halloween-reading.webp" srcSet="/perf-assets/halloween-reading-400.webp 400w, /perf-assets/halloween-reading-560.webp 560w, /perf-assets/halloween-reading-800.webp 800w, /perf-assets/halloween-reading.webp 1100w" sizes="(max-width: 760px) 100vw, 45vw" loading="lazy" decoding="async" alt="" width="1100" height="733" /></div>
         <div className="sale-copy">
           <span className="sale-season">The Psychic Studio presents</span>
           <h2 id="halloween-title">Halloween<span className="sale-word">SALE</span></h2>

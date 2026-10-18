@@ -134,7 +134,7 @@ export const SEO_PASS_SECTIONS: Record<string, [string, string][]> = {
 };
 
 export const SEO_CONTEXT_LINKS: Record<string, [string,string][]> = {
- '/angel-numbers': [['/angel-numbers/1010','1010: fresh-start reflection'],['/angel-numbers/611','611: care, home and boundaries'],['/angel-numbers/111','111: notice your thoughts'],['/angel-numbers/222','222: balance and patience'],['/angel-numbers/333','333: expression'],['/angel-numbers/555','555: change'],['/angel-numbers/999','999: completion'],['/blog/747-angel-number-meaning','747: trust and foundations'],['/blog/757-angel-number-meaning','757: change and inner trust']],
+ '/angel-numbers': [['/angel-numbers/1010','1010: fresh-start reflection'],['/angel-numbers/611','611: care, home and boundaries'],['/angel-numbers/111','111: notice your thoughts'],['/angel-numbers/222','222: balance and patience'],['/angel-numbers/333','333: expression'],['/angel-numbers/555','555: change'],['/angel-numbers/999','999: completion'],['/blog/747-angel-number-meaning','747: trust and foundations'],['/blog/757-angel-number-meaning','757: change and inner trust'],['/blog/888-angel-number-meaning','888: abundance and alignment'],['/blog/128-angel-number-meaning','128: progress and support']],
  '/numerology': [['/angel-numbers','Repeating numbers and their interpretations'],['/birth-chart','Where numbers meet your chart'],['/angel-numbers/111','Start with 111']],
  '/birth-chart': [['/rising-sign','Rising sign and birth-time uncertainty'],['/zodiac','Sun-sign dates and themes']],
  '/zodiac': [['/birth-chart','Understand a birth chart'],['/rising-sign','What a rising sign means'],['/mercury-retrograde','Mercury retrograde explained']],

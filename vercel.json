@@ -6,6 +6,17 @@
       "has": [
         {
           "type": "host",
+          "value": "thetarotcompany.vercel.app"
+        }
+      ],
+      "destination": "https://thepsychicstudio.com/:path",
+      "permanent": true
+    },
+    {
+      "source": "/:path(.*)",
+      "has": [
+        {
+          "type": "host",
           "value": "www.thepsychicstudio.com"
         }
       ],

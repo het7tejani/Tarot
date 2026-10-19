@@ -112,7 +112,7 @@ export const SeoPage: React.FC = () => {
             {sign && <div className="st-sign-meta"><span>{sign.dates}</span><span>{sign.el}</span><span>{sign.ruler}</span></div>}
             {page.path === '/horoscope' && <a className="btn ghost" href="#your-sign">Find your sign ↓</a>}
           </div>
-          {isHoroscope && (sign ? <div className="st-sign-orbit" aria-hidden="true"><span className="st-orbit-star">✦</span><b>{GLYPHS[signIndex]}{'\uFE0E'}</b><span className="st-orbit-label">{N} · {sign.el}</span></div> : <div className="st-wheel-slice st-hand-slice"><ZodiacArc /></div>)}
+          {isHoroscope && (sign ? <div className="st-sign-orbit" aria-hidden="true"><span className="st-orbit-star">✦</span><img className="st-sign-drawing" src={`/perf-assets/signs/${sign.n}.webp`} alt="" width={260} height={260} loading="lazy" /><span className="st-orbit-label">{N} · {sign.el}</span></div> : <div className="st-wheel-slice st-hand-slice"><ZodiacArc /></div>)}
         </div>
         {page.path === '/horoscope' && <section id="your-sign" className="st-sign-selection">
           <span className="eyebrow">Twelve signs. Your own perspective.</span><h2>Choose your sign</h2>

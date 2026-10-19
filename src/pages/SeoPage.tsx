@@ -247,7 +247,7 @@ export const SeoPage: React.FC = () => {
         {related.length > 0 && page.kind !== 'hub-tarot' && page.path !== '/horoscope' && (
           <>
             <H2>Keep exploring</H2>
-            <LinkGrid paths={related.slice(0, 24)} />
+            <LinkGrid paths={page.kind === 'hub-compat' ? related : related.slice(0, 24)} />
           </>
         )}
 

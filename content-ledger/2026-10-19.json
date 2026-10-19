@@ -1,0 +1,88 @@
+{
+ "date": "2026-10-19",
+ "baseline": "d69cd64",
+ "published": true,
+ "keywordSource": "psychic-cross-site-seo-synthesis.xlsx (156249 bytes), captured Oct 7 2026, US/Desktop Oct 6 database; 1679 evidence rows from psychicsource/californiapsychics/kasamba/purplegarden",
+ "photos": [
+  {
+   "id": "35484518",
+   "source": "https://www.pexels.com/photo/stunning-sunrise-over-calm-ocean-horizon-35484518/",
+   "download": "https://images.pexels.com/photos/35484518/pexels-photo-35484518.jpeg?auto=compress&w=1260&h=750&dpr=1",
+   "license": "https://www.pexels.com/license/"
+  },
+  {
+   "id": "30875038",
+   "source": "https://www.pexels.com/photo/captivating-milky-way-galaxy-night-sky-30875038/",
+   "download": "https://images.pexels.com/photos/30875038/pexels-photo-30875038.jpeg?auto=compress&w=1260&h=750&dpr=1",
+   "license": "https://www.pexels.com/license/"
+  },
+  {
+   "id": "35145247",
+   "source": "https://www.pexels.com/photo/serene-sunrise-over-calm-ocean-with-pink-sky-35145247/",
+   "download": "https://images.pexels.com/photos/35145247/pexels-photo-35145247.jpeg?auto=compress&w=1260&h=750&dpr=1",
+   "license": "https://www.pexels.com/license/"
+  },
+  {
+   "id": "39127751",
+   "source": "https://www.pexels.com/photo/sunlit-forest-path-with-tall-trees-39127751/",
+   "download": "https://images.pexels.com/photos/39127751/pexels-photo-39127751.jpeg?auto=compress&w=1260&h=750&dpr=1",
+   "license": "https://www.pexels.com/license/"
+  },
+  {
+   "id": "33188519",
+   "source": "https://www.pexels.com/photo/serene-forest-pathway-with-sunlight-filtering-through-trees-33188519/",
+   "download": "https://images.pexels.com/photos/33188519/pexels-photo-33188519.jpeg?auto=compress&w=1260&h=750&dpr=1",
+   "license": "https://www.pexels.com/license/"
+  },
+  {
+   "id": "29048211",
+   "source": "https://www.pexels.com/photo/serene-forest-path-with-sunlight-filtering-through-trees-29048211/",
+   "download": "https://images.pexels.com/photos/29048211/pexels-photo-29048211.jpeg?auto=compress&w=1260&h=750&dpr=1",
+   "license": "https://www.pexels.com/license/"
+  },
+  {
+   "id": "10957638",
+   "source": "https://www.pexels.com/photo/an-empty-road-at-night-10957638/",
+   "download": "https://images.pexels.com/photos/10957638/pexels-photo-10957638.jpeg?auto=compress&w=1260&h=750&dpr=1",
+   "license": "https://www.pexels.com/license/"
+  },
+  {
+   "id": "34250449",
+   "source": "https://www.pexels.com/photo/raindrops-on-car-window-with-blurred-lights-34250449/",
+   "download": "https://images.pexels.com/photos/34250449/pexels-photo-34250449.jpeg?auto=compress&w=1260&h=750&dpr=1",
+   "license": "https://www.pexels.com/license/"
+  },
+  {
+   "id": "12384859",
+   "source": "https://www.pexels.com/photo/water-droplets-on-wet-road-during-night-time-12384859/",
+   "download": "https://images.pexels.com/photos/12384859/pexels-photo-12384859.jpeg?auto=compress&w=1260&h=750&dpr=1",
+   "license": "https://www.pexels.com/license/"
+  }
+ ],
+ "topics": [
+  {
+   "slug": "707-angel-number-meaning",
+   "keyword": "707 angel number",
+   "evidence": "All keyword evidence: purplegarden, volume 12.1K, KD 34, competitor position 9",
+   "sources": [
+    "https://www.astrology.com/numerology/angel-numbers/707-meaning"
+   ]
+  },
+  {
+   "slug": "444-angel-number-meaning",
+   "keyword": "what does the number 444 mean",
+   "evidence": "All keyword evidence: purplegarden, volume 4.4K, KD 26, competitor position 6",
+   "sources": [
+    "https://www.astrology.com/numerology/angel-numbers/444-meaning"
+   ]
+  },
+  {
+   "slug": "car-accident-dream-meaning",
+   "keyword": "dreams with car accidents",
+   "evidence": "All keyword evidence: purplegarden, volume 1000, KD 25, competitor position 4",
+   "sources": [
+    "https://www.psychologytoday.com/us/blog/dream-factory/202006/out-control-car-dreams-are-surprisingly-common"
+   ]
+  }
+ ]
+}

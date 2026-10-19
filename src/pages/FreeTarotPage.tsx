@@ -2,6 +2,7 @@ import { ReflectionWheel } from '../components/ReflectionWheel';
 import { TarotArtwork } from '../components/TarotArtwork';
 import React, { useState, useEffect } from 'react';
 import { Shuffle, RefreshCw, ZoomIn, X, ChevronRight, Layers, ArrowUpCircle, ArrowDownCircle } from 'lucide-react';
+import { ShareCardImage } from '../components/ShareCardImage';
 import { FREE_TAROT_CARDS } from '../data/readingsData';
 import { TarotCard } from '../types';
 import { Link } from 'react-router-dom';
@@ -294,6 +295,9 @@ export const FreeTarotPage: React.FC = () => {
                           Actionable Guidance:
                         </span>
                         <p className="text-sm text-[#1f2322]/80 leading-relaxed">{card.advice}</p>
+                      </div>
+                      <div className="pt-3">
+                        <ShareCardImage name={card.name} keywords={card.keywords} image={card.image} label={getPositionLabel(0)} />
                       </div>
                     </div>
                   </div>

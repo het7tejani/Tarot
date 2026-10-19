@@ -37,12 +37,12 @@ export default async function handler(req: Request): Promise<Response> {
     `What they wrote: "${question}"`,
   ].join(' ');
 
-  const gm = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-lite:generateContent?key=${key}`, {
+  const gm = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent?key=${key}`, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({
       contents: [{ parts: [{ text: prompt }] }],
-      generationConfig: { maxOutputTokens: 180, temperature: 0.7 },
+      generationConfig: { maxOutputTokens: 400, temperature: 0.7, thinkingConfig: { thinkingBudget: 0 } },
       safetySettings: [
         { category: 'HARM_CATEGORY_HARASSMENT', threshold: 'BLOCK_MEDIUM_AND_ABOVE' },
         { category: 'HARM_CATEGORY_HATE_SPEECH', threshold: 'BLOCK_MEDIUM_AND_ABOVE' },
@@ -52,7 +52,8 @@ export default async function handler(req: Request): Promise<Response> {
   });
   if (!gm.ok) return new Response(JSON.stringify({ error: 'upstream' }), { status: 502, headers: { 'Content-Type': 'application/json' } });
   const data = await gm.json();
-  const text: string = data?.candidates?.[0]?.content?.parts?.[0]?.text?.trim() || '';
+  const parts: { text?: string; thought?: boolean }[] = data?.candidates?.[0]?.content?.parts || [];
+  const text: string = parts.filter((pt) => !pt.thought && typeof pt.text === 'string').map((pt) => pt.text).join(' ').trim();
   if (!text) return new Response(JSON.stringify({ error: 'empty' }), { status: 502, headers: { 'Content-Type': 'application/json' } });
   return new Response(JSON.stringify({ reflection: text }), { status: 200, headers: { 'Content-Type': 'application/json', 'Cache-Control': 'no-store' } });
 }

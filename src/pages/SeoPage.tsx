@@ -9,6 +9,8 @@ import { CARD_LORE } from "../data/cardLore";
 import { minorExtra } from "../data/minorExtra";
 import { RESEARCH_SECTIONS, PRIORITY_CARD_DETAILS, CARD_REFLECTIONS } from "../data/seoResearch";
 import { TarotArtwork } from '../components/TarotArtwork';
+import { NumerologyCalculator } from '../components/NumerologyCalculator';
+import { DailyCardSignup } from '../components/DailyCardSignup';
 import React, { useMemo } from 'react';
 import {useDailyCardDay} from '../contexts/DailyCardDate';
 import { Link, useLocation } from 'react-router-dom';
@@ -114,6 +116,8 @@ export const SeoPage: React.FC = () => {
           </div>
           {isHoroscope && (sign ? <div className="st-sign-orbit" aria-hidden="true"><img className="st-sign-drawing" src={`/perf-assets/signs/${sign.n}.svg`} alt="" width={340} height={340} loading="lazy" /><span className="st-orbit-label">{N}</span></div> : <div className="st-wheel-slice st-hand-slice"><ZodiacArc /></div>)}
         </div>
+        {page.path === '/numerology' && <NumerologyCalculator />}
+        {(page.path === '/horoscope' || page.kind === 'horoscope') && <DailyCardSignup sign={page.kind === 'horoscope' && sign ? sign.n.charAt(0).toUpperCase() + sign.n.slice(1) : undefined} />}
         {page.path === '/horoscope' && <section id="your-sign" className="st-sign-selection">
           <span className="eyebrow">Twelve signs. Your own perspective.</span><h2>Choose your sign</h2>
           <div className="st-zodiac-gallery">{SIGN_INFO.map((s, i) => <Link key={s.n} to={`/horoscope/${s.n}`} className="st-zodiac-tile"><span className="st-zodiac-glyph" aria-hidden="true">{GLYPHS[i]}{'\uFE0E'}</span><span className="st-zodiac-name">{cap(s.n)}</span><span className="st-zodiac-dates">{s.dates}</span><span className="st-zodiac-element">{s.el} <span aria-hidden="true">↗</span></span></Link>)}</div>
@@ -247,7 +251,7 @@ export const SeoPage: React.FC = () => {
         {related.length > 0 && page.kind !== 'hub-tarot' && page.path !== '/horoscope' && (
           <>
             <H2>Keep exploring</H2>
-            <LinkGrid paths={related.slice(0, 24)} />
+            <LinkGrid paths={page.kind === 'hub-compat' ? related : related.slice(0, 24)} />
           </>
         )}
 

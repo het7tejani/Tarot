@@ -2,6 +2,7 @@ import { ReflectionWheel } from '../components/ReflectionWheel';
 import { TarotArtwork } from '../components/TarotArtwork';
 import React, { useState, useEffect } from 'react';
 import { Shuffle, RefreshCw, ZoomIn, X, ChevronRight, Layers, ArrowUpCircle, ArrowDownCircle } from 'lucide-react';
+import { ShareCardImage } from '../components/ShareCardImage';
 import { FREE_TAROT_CARDS } from '../data/readingsData';
 import { TarotCard } from '../types';
 import { Link } from 'react-router-dom';
@@ -29,6 +30,8 @@ export const FreeTarotPage: React.FC = () => {
   const [zoomedCard, setZoomedCard] = useState<TarotCard | null>(null);
   const [filterQuery, setFilterQuery] = useState('');
   const [showDeckGallery, setShowDeckGallery] = useState(false);
+  const [reflection, setReflection] = useState<string | null>(null);
+  const [reflectionLoading, setReflectionLoading] = useState(false);
 
   useEffect(() => {
     // Warm the whole deck once the page is idle so a draw never waits on the network.
@@ -73,6 +76,25 @@ export const FreeTarotPage: React.FC = () => {
         initialTabs[i] = 'upright';
       });
       setActiveTabByCard(initialTabs);
+
+      const q = question.trim();
+      if (q) {
+        setReflection(null);
+        setReflectionLoading(true);
+        const first = FREE_TAROT_CARDS[chosen[0]];
+        const names = chosen.map((i) => FREE_TAROT_CARDS[i].name).join(', ');
+        fetch('/api/reflect', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ question: q, card: names, keywords: first.keywords, orientation: 'upright' }),
+        })
+          .then((r) => (r.ok ? r.json() : Promise.reject(new Error('fail'))))
+          .then((d) => setReflection(typeof d.reflection === 'string' ? d.reflection : null))
+          .catch(() => setReflection(null))
+          .finally(() => setReflectionLoading(false));
+      } else {
+        setReflection(null);
+      }
     });
   };
 
@@ -80,6 +102,8 @@ export const FreeTarotPage: React.FC = () => {
     setSelectedCards([]);
     setIsRevealed(false);
     setActiveTabByCard({});
+    setReflection(null);
+    setReflectionLoading(false);
   };
 
   const getPositionLabel = (idx: number) => {
@@ -204,6 +228,17 @@ export const FreeTarotPage: React.FC = () => {
               </p>
             )}
 
+            {(reflectionLoading || reflection) && (
+              <div className="max-w-2xl mx-auto rounded-3xl border border-[#1f2322]/10 bg-[#f2f5e6] p-6 sm:p-8 text-center">
+                <span className="text-xs uppercase tracking-[.2em] text-[#4a5f27] block mb-3">A reflection for you</span>
+                {reflectionLoading ? (
+                  <p className="text-sm text-[#1f2322]/60">Reading your card alongside what you wrote...</p>
+                ) : (
+                  <p className="text-[#1f2322]/85 leading-relaxed">{reflection}</p>
+                )}
+              </div>
+            )}
+
             {/* 1-Card View: Natural Side-by-Side Reading Layout */}
             {spreadMode === 'single' && selectedCards.length > 0 && (() => {
               const card = FREE_TAROT_CARDS[selectedCards[0]];
@@ -294,6 +329,9 @@ export const FreeTarotPage: React.FC = () => {
                           Actionable Guidance:
                         </span>
                         <p className="text-sm text-[#1f2322]/80 leading-relaxed">{card.advice}</p>
+                      </div>
+                      <div className="pt-3">
+                        <ShareCardImage name={card.name} keywords={card.keywords} image={card.image} label={getPositionLabel(0)} />
                       </div>
                     </div>
                   </div>

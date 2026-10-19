@@ -120,11 +120,27 @@ html,body{background-color:#fbf8f0!important}
 .st-sign:hover b{color:var(--leaf)}
 .st-tarot a{border:0;border-radius:999px 999px 14px 14px;box-shadow:none}
 .st-tarot a:hover{transform:translateY(-8px)}
-.st-prod{background:transparent;border:0;border-radius:0}
-.st-prod:hover{box-shadow:none;transform:none}
-.st-prod .ph{border-radius:999px 999px 18px 18px;aspect-ratio:3/4}
-.st-prod .bd{padding:14px 4px 0}
-.st-prod .btn{background:transparent;color:var(--leaf-d);border:0;padding:4px 0;border-bottom:2px solid var(--saffron);border-radius:0;align-self:flex-start}
+.st-shop-grid{gap:34px 30px}
+.st-shop-grid .st-prod{background:#fffefa;border:1px solid var(--line);border-radius:4px;padding:12px 12px 16px;box-shadow:0 10px 24px rgba(56,68,27,.18);position:relative}
+.st-shop-grid .st-prod:nth-child(odd){transform:rotate(-.5deg)}
+.st-shop-grid .st-prod:nth-child(even){transform:rotate(.5deg)}
+.st-shop-grid .st-prod:nth-child(odd):hover{transform:rotate(-.5deg) translateY(-4px)}
+.st-shop-grid .st-prod:nth-child(even):hover{transform:rotate(.5deg) translateY(-4px)}
+.st-shop-grid .st-prod::after{content:"";position:absolute;top:-11px;left:50%;transform:translateX(-50%) rotate(-2deg);width:92px;height:24px;background:rgba(210,154,58,.4);border:1px dashed rgba(74,95,39,.35)}
+.st-shop-grid .st-prod .ph{border-radius:2px;aspect-ratio:1/1;border:1px solid var(--line)}
+.st-shop-grid .st-prod .bd{padding:14px 6px 0;text-align:center;align-items:center}
+.st-shop-grid .st-prod .bd h2{font-style:italic}
+.st-shop-grid .st-prod .btn{align-self:center}
+/* Polaroid featured reading cards (homepage) */
+.st-readings-home{gap:34px 30px}
+.st-readings-home .st-reading-feature{background:#fffefa;border:1px solid var(--line);border-radius:4px;padding:12px 12px 18px;box-shadow:0 10px 24px rgba(56,68,27,.18);position:relative;text-align:center}
+.st-readings-home .st-reading-feature:nth-child(odd){transform:rotate(-.5deg)}
+.st-readings-home .st-reading-feature:nth-child(even){transform:rotate(.5deg)}
+.st-readings-home .st-reading-feature:nth-child(odd):hover{transform:rotate(-.5deg) translateY(-4px)}
+.st-readings-home .st-reading-feature:nth-child(even):hover{transform:rotate(.5deg) translateY(-4px)}
+.st-readings-home .st-reading-feature::after{content:"";position:absolute;top:-11px;left:50%;transform:translateX(-50%) rotate(-2deg);width:92px;height:24px;background:rgba(210,154,58,.4);border:1px dashed rgba(74,95,39,.35)}
+.st-readings-home .st-reading-feature img{aspect-ratio:1/1;border-radius:2px;border:1px solid var(--line);margin-bottom:14px}
+.st-readings-home .st-reading-feature h3{font-size:22px;font-style:italic}
 .st-post img{border-radius:999px}
 .st-foot{background:var(--sage)!important;color:var(--ink)}
 footer.st-foot{background:var(--sage)!important}

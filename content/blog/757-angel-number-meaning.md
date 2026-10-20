@@ -22,7 +22,7 @@ The 5 in the middle is the number of change, freedom and movement. Placed betwee
 
 ## Seeing 757 during a season of change
 
-Many people report noticing 757 right when a slow transformation is underway: a retraining plan, a relationship redefining itself, a habit being rebuilt. The reflective reading is reassuring without making promises. It says the change has roots.
+Many people report noticing 757 right when a slow transformation is underway: a retraining plan, a relationship redefining itself, a habit being rebuilt. The reflective reading is reassuring without making promises. It says the change has roots. In card terms, this season is the [Seven of Wands](/tarot-card-meanings/seven-of-wands): quietly holding your ground while things shift around you.
 
 A practical habit when 757 keeps appearing: write down what you were thinking about each time you saw it. After two weeks, read the notes. The theme running through them is usually the real message, and it came from you, not the number.
 

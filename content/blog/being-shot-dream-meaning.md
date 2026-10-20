@@ -38,7 +38,7 @@ If distressing dreams are frequent and are affecting your sleep or your days, sp
 
 ## A tarot reflection
 
-If you read tarot, sudden shock maps onto [The Tower](/tarot-card-meanings/the-tower), the card of structures breaking so something truer can be built, while the feeling of being under siege belongs to the [Nine of Wands](/tarot-card-meanings/nine-of-wands), the card of guarded endurance. A one-card pull asking "where do I feel under attack, and what actually protects me" pairs naturally with this dream.
+If you read tarot, sudden shock maps onto [The Tower](/tarot-card-meanings/the-tower), the card of structures breaking so something truer can be built, while the feeling of being under siege belongs to the [Nine of Wands](/tarot-card-meanings/nine-of-wands), the card of guarded endurance. If the dream keeps you awake replaying it, that 3 AM loop is the [Nine of Swords](/tarot-card-meanings/nine-of-swords), the card of worry that grows in the dark. A one-card pull asking "where do I feel under attack, and what actually protects me" pairs naturally with this dream.
 
 You can browse all the cards in our [tarot card meanings](/tarot-card-meanings) library, or read our companion note on [car accident dreams](/blog/car-accident-dream-meaning), which work with a similar loss-of-control theme.
 

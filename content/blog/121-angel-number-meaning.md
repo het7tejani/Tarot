@@ -42,7 +42,7 @@ If 121 shows up while you are hesitating at a starting line, treat it as permiss
 
 ## A tarot reflection for 121
 
-If you read tarot, the 1s map onto [The Magician](/tarot-card-meanings/the-magician), the first numbered Major Arcana card, about turning intention into action, while the 2 belongs to [The High Priestess](/tarot-card-meanings/the-high-priestess), about the quiet knowledge that should guide the action. The hidden 4 recalls [The Emperor](/tarot-card-meanings/the-emperor), the card of structure. A one-card pull asking "what is the honest first step" pairs well with this number.
+If you read tarot, the 1s map onto [The Magician](/tarot-card-meanings/the-magician), the first numbered Major Arcana card, about turning intention into action, while the 2 belongs to [The High Priestess](/tarot-card-meanings/the-high-priestess), about the quiet knowledge that should guide the action. The hidden 4 recalls [The Emperor](/tarot-card-meanings/the-emperor), the card of structure. For the daily work of beginning, the [Page of Pentacles](/tarot-card-meanings/page-of-pentacles) is the student of the deck, all patient first steps and practice. A one-card pull asking "what is the honest first step" pairs well with this number.
 
 You can browse all the cards in our [tarot card meanings](/tarot-card-meanings) library, or explore how other sequences work in our notes on [757](/blog/757-angel-number-meaning) and [111](/angel-numbers/111).
 

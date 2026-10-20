@@ -1,92 +1,99 @@
 {
-  "date": "2026-10-20",
-  "baseline": "85ce3c1",
-  "published": true,
-  "keywordSource": "psychic-cross-site-seo-synthesis.xlsx (156249 bytes), captured Oct 7 2026, US/Desktop Oct 6 database; 1679 evidence rows from psychicsource/californiapsychics/kasamba/purplegarden",
-  "photos": [
-    {
-      "id": "32383878",
-      "source": "https://www.pexels.com/photo/tranquil-zen-meditation-space-with-incense-and-candle-32383878/",
-      "download": "https://images.pexels.com/photos/32383878/pexels-photo-32383878.jpeg?auto=compress&h=750&dpr=1",
-      "license": "https://www.pexels.com/license/"
-    },
-    {
-      "id": "6643159",
-      "source": "https://www.pexels.com/photo/women-holding-candles-while-meditating-6643159/",
-      "download": "https://images.pexels.com/photos/6643159/pexels-photo-6643159.jpeg?auto=compress&h=750&dpr=1",
-      "license": "https://www.pexels.com/license/"
-    },
-    {
-      "id": "4646564",
-      "source": "https://www.pexels.com/photo/full-moon-on-dark-night-sky-4646564/",
-      "download": "https://images.pexels.com/photos/4646564/pexels-photo-4646564.jpeg?auto=compress&h=750&dpr=1",
-      "license": "https://www.pexels.com/license/"
-    },
-    {
-      "id": "29347332",
-      "source": "https://www.pexels.com/photo/misty-forest-trail-at-sunrise-with-sunbeams-29347332/",
-      "download": "https://images.pexels.com/photos/29347332/pexels-photo-29347332.jpeg?auto=compress&h=750&dpr=1",
-      "license": "https://www.pexels.com/license/"
-    },
-    {
-      "id": "12969371",
-      "source": "https://www.pexels.com/photo/close-up-of-man-holding-a-seedling-in-soil-in-his-hands-12969371/",
-      "download": "https://images.pexels.com/photos/12969371/pexels-photo-12969371.jpeg?auto=compress&h=750&dpr=1",
-      "license": "https://www.pexels.com/license/"
-    },
-    {
-      "id": "4084698",
-      "source": "https://www.pexels.com/photo/bright-sun-illuminating-pathway-in-forest-at-dawn-4084698/",
-      "download": "https://images.pexels.com/photos/4084698/pexels-photo-4084698.jpeg?auto=compress&h=750&dpr=1",
-      "license": "https://www.pexels.com/license/"
-    },
-    {
-      "id": "935777",
-      "source": "https://www.pexels.com/photo/woman-sleeping-935777/",
-      "download": "https://images.pexels.com/photos/935777/pexels-photo-935777.jpeg?auto=compress&h=750&dpr=1",
-      "license": "https://www.pexels.com/license/"
-    },
-    {
-      "id": "6756093",
-      "source": "https://www.pexels.com/photo/hands-people-woman-night-6756093/",
-      "download": "https://images.pexels.com/photos/6756093/pexels-photo-6756093.jpeg?auto=compress&h=750&dpr=1",
-      "license": "https://www.pexels.com/license/"
-    },
-    {
-      "id": "8262595",
-      "source": "https://www.pexels.com/photo/a-woman-sitting-on-the-bed-while-holding-a-moon-lamp-8262595/",
-      "download": "https://images.pexels.com/photos/8262595/pexels-photo-8262595.jpeg?auto=compress&h=750&dpr=1",
-      "license": "https://www.pexels.com/license/"
-    }
-  ],
-  "topics": [
-    {
-      "slug": "757-angel-number-meaning",
-      "keyword": "757 angel number",
-      "evidence": "All keyword evidence: psychicsource pos 4 + purplegarden pos 6, volume 4.4K, KD 33; variant \"angel number 757\" purplegarden pos 8, volume 1.9K, KD 21",
-      "sources": [
-        "https://www.astrology.com/numerology/angel-numbers/757-meaning",
-        "https://www.psychicsource.com/article/spiritual-meaning/757-angel-number-twin-flame/28984",
-        "https://www.purplegarden.co/blog/757-angel-number-meaning-for-love-and-twin-flames"
-      ]
-    },
-    {
-      "slug": "121-angel-number-meaning",
-      "keyword": "121 angel number",
-      "evidence": "All keyword evidence: psychicsource pos 2, volume 2.9K, KD 26",
-      "sources": [
-        "https://numerologist.com/angel-repeating-numbers/angel-number-121",
-        "https://www.psychicsource.com/article/spiritual-meaning/121-angel-number-twin-flame/28985"
-      ]
-    },
-    {
-      "slug": "being-shot-dream-meaning",
-      "keyword": "been shot in the dream",
-      "evidence": "All keyword evidence: purplegarden pos 1, volume 1.6K, KD 22",
-      "sources": [
-        "https://www.verywellmind.com/dream-about-getting-shot-8637182",
-        "https://www.purplegarden.co/blog/why-did-i-dream-about-getting-shot-unlock-the-symbolism-behind-your-nightmares"
-      ]
-    }
-  ]
+ "date": "2026-10-20",
+ "baseline": "85ce3c1",
+ "published": true,
+ "keywordSource": "psychic-cross-site-seo-synthesis.xlsx (156249 bytes), captured Oct 7 2026, US/Desktop Oct 6 database; 1679 evidence rows from psychicsource/californiapsychics/kasamba/purplegarden",
+ "photos": [
+  {
+   "id": "32383878",
+   "source": "https://www.pexels.com/photo/tranquil-zen-meditation-space-with-incense-and-candle-32383878/",
+   "download": "https://images.pexels.com/photos/32383878/pexels-photo-32383878.jpeg?auto=compress&h=750&dpr=1",
+   "license": "https://www.pexels.com/license/"
+  },
+  {
+   "id": "6643159",
+   "source": "https://www.pexels.com/photo/women-holding-candles-while-meditating-6643159/",
+   "download": "https://images.pexels.com/photos/6643159/pexels-photo-6643159.jpeg?auto=compress&h=750&dpr=1",
+   "license": "https://www.pexels.com/license/"
+  },
+  {
+   "id": "4646564",
+   "source": "https://www.pexels.com/photo/full-moon-on-dark-night-sky-4646564/",
+   "download": "https://images.pexels.com/photos/4646564/pexels-photo-4646564.jpeg?auto=compress&h=750&dpr=1",
+   "license": "https://www.pexels.com/license/"
+  },
+  {
+   "id": "29347332",
+   "source": "https://www.pexels.com/photo/misty-forest-trail-at-sunrise-with-sunbeams-29347332/",
+   "download": "https://images.pexels.com/photos/29347332/pexels-photo-29347332.jpeg?auto=compress&h=750&dpr=1",
+   "license": "https://www.pexels.com/license/"
+  },
+  {
+   "id": "12969371",
+   "source": "https://www.pexels.com/photo/close-up-of-man-holding-a-seedling-in-soil-in-his-hands-12969371/",
+   "download": "https://images.pexels.com/photos/12969371/pexels-photo-12969371.jpeg?auto=compress&h=750&dpr=1",
+   "license": "https://www.pexels.com/license/"
+  },
+  {
+   "id": "4084698",
+   "source": "https://www.pexels.com/photo/bright-sun-illuminating-pathway-in-forest-at-dawn-4084698/",
+   "download": "https://images.pexels.com/photos/4084698/pexels-photo-4084698.jpeg?auto=compress&h=750&dpr=1",
+   "license": "https://www.pexels.com/license/"
+  },
+  {
+   "id": "935777",
+   "source": "https://www.pexels.com/photo/woman-sleeping-935777/",
+   "download": "https://images.pexels.com/photos/935777/pexels-photo-935777.jpeg?auto=compress&h=750&dpr=1",
+   "license": "https://www.pexels.com/license/"
+  },
+  {
+   "id": "6756093",
+   "source": "https://www.pexels.com/photo/hands-people-woman-night-6756093/",
+   "download": "https://images.pexels.com/photos/6756093/pexels-photo-6756093.jpeg?auto=compress&h=750&dpr=1",
+   "license": "https://www.pexels.com/license/"
+  },
+  {
+   "id": "8262595",
+   "source": "https://www.pexels.com/photo/a-woman-sitting-on-the-bed-while-holding-a-moon-lamp-8262595/",
+   "download": "https://images.pexels.com/photos/8262595/pexels-photo-8262595.jpeg?auto=compress&h=750&dpr=1",
+   "license": "https://www.pexels.com/license/"
+  }
+ ],
+ "topics": [
+  {
+   "slug": "757-angel-number-meaning",
+   "keyword": "757 angel number",
+   "evidence": "All keyword evidence: psychicsource pos 4 + purplegarden pos 6, volume 4.4K, KD 33; variant \"angel number 757\" purplegarden pos 8, volume 1.9K, KD 21",
+   "sources": [
+    "https://www.astrology.com/numerology/angel-numbers/757-meaning",
+    "https://www.psychicsource.com/article/spiritual-meaning/757-angel-number-twin-flame/28984",
+    "https://www.purplegarden.co/blog/757-angel-number-meaning-for-love-and-twin-flames"
+   ]
+  },
+  {
+   "slug": "121-angel-number-meaning",
+   "keyword": "121 angel number",
+   "evidence": "All keyword evidence: psychicsource pos 2, volume 2.9K, KD 26",
+   "sources": [
+    "https://numerologist.com/angel-repeating-numbers/angel-number-121",
+    "https://www.psychicsource.com/article/spiritual-meaning/121-angel-number-twin-flame/28985"
+   ]
+  },
+  {
+   "slug": "being-shot-dream-meaning",
+   "keyword": "been shot in the dream",
+   "evidence": "All keyword evidence: purplegarden pos 1, volume 1.6K, KD 22",
+   "sources": [
+    "https://www.verywellmind.com/dream-about-getting-shot-8637182",
+    "https://www.purplegarden.co/blog/why-did-i-dream-about-getting-shot-unlock-the-symbolism-behind-your-nightmares"
+   ]
+  }
+ ],
+ "seo_changes": [
+  {
+   "time": "2026-10-20T14:14 IST",
+   "change": "Internal links from today's indexed blog posts to unindexed older pages: being-shot post -> nine-of-swords; 121 post -> page-of-pentacles; 757 post -> seven-of-wands. One contextual sentence each, house style, no em dashes.",
+   "reason": "Speed up discovery/indexing of 'Discovered - currently not indexed' pages; requested by Het via main"
+  }
+ ]
 }

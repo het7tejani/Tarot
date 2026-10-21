@@ -45,5 +45,12 @@
   "33322288": "pexels",
   "30419150": "pexels",
   "28553956": "pexels"
- }
+ },
+ "seo_changes": [
+  {
+   "time": "2026-10-21T13:31 IST",
+   "change": "Zodiac depth batch: added 3 sections (strengths and blind spots, sign-and-tarot with card+horoscope+compatibility links, living well) to all 12 /zodiac/* pages, ~390 -> ~650 words each.",
+   "reason": "Het feedback: impressions weak vs category volume. Zodiac pages earn most impressions (aries 183/28d) at position 70+; thin content is a likely position factor. Gap analysis Oct 21."
+  }
+ ]
 }

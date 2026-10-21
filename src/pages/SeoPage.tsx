@@ -164,6 +164,12 @@ export const SeoPage: React.FC = () => {
             <P>{sign.love}</P>
             <H2>{N} career strengths</H2>
             <P>{sign.work}</P>
+            <H2>{N} strengths and blind spots</H2>
+            <P>{sign.strengths}</P>
+            <H2>{N} and the tarot</H2>
+            <P>{sign.tarot} Explore the <Link to={`/tarot-card-meanings/${sign.cardSlug}`} className="text-[#73a89a] font-semibold">{sign.card}</Link> card meaning, your <Link to={`/horoscope/${sign.n}`} className="text-[#73a89a] font-semibold">{N} daily tarot reflection</Link>, and how {N} pairs with every other sign in the <Link to="/zodiac-compatibility" className="text-[#73a89a] font-semibold">compatibility guide</Link>.</P>
+            <H2>Living well as a {N}</H2>
+            <P>{sign.growth}</P>
             <P>Your sun sign is only one part of your chart. For the full picture, see the <Link to="/birth-chart" className="text-[#73a89a] font-semibold">birth chart guide</Link>.</P>
           </>
         )}

@@ -2,7 +2,8 @@ import React, { useEffect, useState } from 'react';
 import { Link, NavLink, useLocation } from 'react-router-dom';
 import './studio.css';
 import { RouteSEO } from '../components/RouteSEO';
-const NAV: [string, string][] = [['/', 'Home'], ['/shop', 'Shop'], ['/free-tarot', 'Free Tarot'], ['/horoscope', 'Horoscope'], ['/tarot-card-meanings', 'Card Meanings'], ['/blog', 'Blog'], ['/about', 'About'], ['/contact', 'Contact']];
+import { SiteSearch } from './SiteSearch';
+const NAV: [string, string][] = [['/shop', 'Shop'], ['/free-tarot', 'Free Tarot'], ['/horoscope', 'Horoscope'], ['/blog', 'Blog'], ['/contact', 'Contact']];
 const REVEAL_SEL = 'main section:not(:first-child) h2, main section:not(:first-child) .st-card, main .st-prod, main article, main .st-sec > .wrap > p, main .faq > div, main .st-grid > *, main .grid > article';
 const useReveal = (pathname: string) => {
   useEffect(() => {
@@ -27,6 +28,31 @@ const useReveal = (pathname: string) => {
     return () => { window.clearTimeout(t); mo.disconnect(); io.disconnect(); root.classList.remove('js-rv'); };
   }, [pathname]);
 };
+const ScrollProgress: React.FC = () => {
+  const [w, setW] = useState(0);
+  useEffect(() => {
+    const onScroll = () => {
+      const h = document.documentElement;
+      const max = h.scrollHeight - h.clientHeight;
+      setW(max > 0 ? Math.min(100, (h.scrollTop / max) * 100) : 0);
+    };
+    onScroll();
+    window.addEventListener('scroll', onScroll, { passive: true });
+    return () => window.removeEventListener('scroll', onScroll);
+  }, []);
+  return <div className="st-progress" aria-hidden="true"><span style={{ width: w + '%' }} /></div>;
+};
+const BackToTop: React.FC = () => {
+  const [show, setShow] = useState(false);
+  useEffect(() => {
+    const onScroll = () => setShow(window.scrollY > 600);
+    onScroll();
+    window.addEventListener('scroll', onScroll, { passive: true });
+    return () => window.removeEventListener('scroll', onScroll);
+  }, []);
+  if (!show) return null;
+  return <button type="button" className="st-totop" aria-label="Back to top" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round"><polyline points="18 15 12 9 6 15" /></svg></button>;
+};
 export const Layout: React.FC<{ children: React.ReactNode; seo?: boolean }> = ({ children, seo = true }) => {
   const [open, setOpen] = useState(false);
   const { pathname } = useLocation();
@@ -34,15 +60,18 @@ export const Layout: React.FC<{ children: React.ReactNode; seo?: boolean }> = ({
   useReveal(pathname);
   return (
     <div className="st">
+      <a className="st-skip" href="#st-main">Skip to content</a>
+      <ScrollProgress />
       {seo && <RouteSEO />}
       <header className="st-head"><div className="wrap in">
         <Link to="/" className="st-logo"><img className="st-brand-mark" src="/navbar-96.webp" srcSet="/navbar-96.webp 96w, /navbar-192.webp 192w" sizes="40px" width="40" height="44.667" alt="" />The Psychic Studio</Link>
-        <button className="st-burger" aria-label="Menu" onClick={() => setOpen(!open)}>{open ? '×' : '☰'}</button>
         <nav className={'st-nav' + (open ? ' open' : '')}>
           {NAV.map(([to, l]) => <NavLink key={to} to={to} end={to === '/'} className={({ isActive }) => (isActive ? 'on' : '')}>{l}</NavLink>)}
         </nav>
+        <div className="st-head-actions"><SiteSearch />
+        <button className="st-burger" aria-label="Menu" onClick={() => setOpen(!open)}>{open ? '×' : '☰'}</button></div>
       </div></header>
-      <main>{children}</main>
+      <main id="st-main">{children}</main>
       <footer className="st-foot"><div className="wrap">
         <div className="cols">
           <div><div className="st-logo" style={{ color: "var(--leaf-d)" }}><img className="st-brand-mark" src="/navbar-96.webp" srcSet="/navbar-96.webp 96w, /navbar-192.webp 192w" sizes="40px" width="40" height="44.667" alt="" />The Psychic Studio</div><p style={{ fontSize: 14, opacity: .75, maxWidth: 280 }}>Tarot, horoscopes and personal readings.</p></div>
@@ -61,6 +90,8 @@ export const Layout: React.FC<{ children: React.ReactNode; seo?: boolean }> = ({
         </nav>
         <small>© The Psychic Studio. For entertainment and personal reflection only; not medical, legal or financial advice.</small>
       </div></footer>
+      <BackToTop />
+      <Link to="/contact" className="st-float-contact" aria-label="Ask a question"><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z" /></svg><span>Ask us</span></Link>
     </div>
   );
 };

@@ -65,12 +65,11 @@ export const AskAboutReading: React.FC<{ title: string; slug: string }> = ({ tit
         />
       </label>
       <label>
-        Date of birth
+        Date of birth <span className="st-opt">(optional)</span>
         <input
           type="date"
           name="date_of_birth"
           autoComplete="bday"
-          required
           value={dob}
           onChange={(e) => setDob(e.target.value)}
         />

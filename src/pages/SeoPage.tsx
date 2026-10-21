@@ -174,6 +174,26 @@ export const SeoPage: React.FC = () => {
           </>
         )}
 
+        {page.kind === 'dates' && (
+          <>
+            <ul className="grid sm:grid-cols-2 gap-3 mb-6 text-sm">
+              {SIGN_INFO.map((sg) => (
+                <li key={sg.n} className="rounded-xl border border-[#1f2322]/10 bg-white/40 px-4 py-3">
+                  <Link to={`/zodiac/${sg.n}`} className="font-semibold text-[#73a89a]">{cap(sg.n)}</Link>: {sg.dates} ({sg.el}, ruled by {sg.ruler})
+                </li>
+              ))}
+            </ul>
+            <H2>How to find your sign by birthday</H2>
+            <P>Find your birth date in the list above. The sign whose date range contains it is your sun sign, the sign most people mean when they ask "what is your sign". If your birthday falls on the first or last day of a range, read the cusp section below.</P>
+            <H2>Born on the cusp?</H2>
+            <P>A cusp birthday is one within about two days of a sign change, for example March 20 or April 19. Because the sun changes signs at a specific hour that shifts slightly each year, cusp birthdays can fall in either sign depending on the year and time of birth. The reliable way to settle a cusp birthday is a full <Link to="/birth-chart" className="text-[#73a89a] font-semibold">birth chart</Link> calculated from your date, time and place of birth.</P>
+            <H2>Why the dates sometimes look different</H2>
+            <P>Different astrology books print slightly different sign dates, usually by a day at each boundary. The ranges above are the most commonly used Western tropical dates. The wobble comes from leap years and the exact hour of the sun's sign change, which is another reason cusp birthdays deserve a real chart rather than a table.</P>
+            <H2>More than a sun sign</H2>
+            <P>Your sun sign describes one layer: broad style and themes. A full chart adds your moon sign, rising sign and the houses, which is why two people with the same birthday can read so differently. When you know your sign, you can explore its <Link to="/zodiac" className="text-[#73a89a] font-semibold">traits, love and work themes</Link> or its <Link to="/horoscope" className="text-[#73a89a] font-semibold">daily tarot reflection</Link>.</P>
+          </>
+        )}
+
         {page.kind === 'compat' && page.a && page.b && (() => {
           const { A, B } = compatBlurb(page.a, page.b);
           return (

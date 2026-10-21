@@ -73,9 +73,3 @@ No. It can prompt inward attention, rest or a different way to express confidenc
 You do not need to. Record the question it raises, gather relevant information and return to ordinary life. Another card does not have to approve your choices.
 
 Tarot here is for entertainment and reflection, not medical, legal or financial advice.
-
-## Sources and photo credits
-
-Interpretive background: [Labyrinthos on Queen of Wands](https://labyrinthos.co/blogs/tarot-card-meanings-list/queen-of-wands-meaning-tarot-card-meanings) and [Kasamba's Queen of Wands guide](https://www.kasamba.com/tarot-reading/decks/minor-arcana/queen-of-wands/). Symbolic descriptions are not verified predictions or evidence about a person.
-
-Pexels photos: [cards on colorful fabric](https://www.pexels.com/photo/tarot-card-reading-on-colorful-fabric-32771812/), [a tarot reading](https://www.pexels.com/photo/woman-reading-tarot-cards-7182582/) and [a tarot spread](https://www.pexels.com/photo/mystical-tarot-card-spread-with-crystals-and-incense-29721590/). Used under the [Pexels License](https://www.pexels.com/license/). Stock models do not endorse this site; the photographs illustrate tarot practice, not a particular reading outcome.

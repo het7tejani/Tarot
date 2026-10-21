@@ -67,8 +67,3 @@ No. It is a symbol interpreted in context, not a judgment on a faith or communit
 No. A tarot card cannot establish a future event. Discuss values and expectations directly with the people involved.
 
 Tarot is for entertainment and personal reflection, not medical, legal or financial advice.
-
-## Sources and further reading
-
-- [Labyrinthos: The Hierophant meanings](https://labyrinthos.co/blogs/tarot-card-meanings-list/the-hierophant-meaning-major-arcana-tarot-card-meanings)
-- [Labyrinthos: interpreting reversed cards](https://labyrinthos.co/blogs/learn-tarot-with-labyrinthos-academy/how-to-interpret-reversed-tarot-cards)

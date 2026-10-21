@@ -56,9 +56,3 @@ Some readers connect the mirrored 7s to two people on parallel inner journeys, w
 
 **What should I do when I keep seeing 757?**
 Pause and name what was on your mind. Most people find the useful response is simple: give the change you are already making a little more trust, and a little more quiet.
-
-## Sources and photo credits
-
-Background reading: [Astrology.com on angel number 757](https://www.astrology.com/numerology/angel-numbers/757-meaning). Symbolic meanings vary between traditions; this post is a reflective take, not a definitive reading.
-
-Photos from Pexels: [Photo 1](https://www.pexels.com/photo/tranquil-zen-meditation-space-with-incense-and-candle-32383878/), [Photo 2](https://www.pexels.com/photo/women-holding-candles-while-meditating-6643159/), [Photo 3](https://www.pexels.com/photo/full-moon-on-dark-night-sky-4646564/). Used under the [Pexels License](https://www.pexels.com/license/). Stock models do not endorse this site.

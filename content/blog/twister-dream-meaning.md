@@ -59,9 +59,3 @@ Occasional frightening dreams are normal. If nightmares are frequent, disrupt yo
 ### Can a dream reading tell me what my dream meant?
 
 A reader can offer frameworks and questions, and you keep the parts that fit. Nobody knows your context better than you. Dream interpretation here is for entertainment and reflection, not diagnosis.
-
-## Sources and photo credits
-
-Background reading: [Source 1](https://www.californiapsychics.com/blog/dreams/twister-dream-meaning.html), [Source 2](https://www.verywellmind.com/what-do-dreams-about-tornadoes-mean-8648271). Interpretations vary; spiritual and therapeutic guides are not evidence of predicted events.
-
-Photos from Pexels: [Photo 1](https://www.pexels.com/photo/tornado-in-countryside-10956169/), [Photo 2](https://www.pexels.com/photo/dramatic-sky-with-clouds-and-a-thunderstorm-at-night-13840223/), [Photo 3](https://www.pexels.com/photo/dramatic-lightning-storm-at-night-31130769/). Used under the [Pexels License](https://www.pexels.com/license/).

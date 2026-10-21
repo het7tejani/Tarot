@@ -50,9 +50,3 @@ Common spiritual readings point to an unfinished lesson, an unhealed attachment,
 
 **How do I stop thinking about my ex?**
 Time plus engagement with your present life. Therapy helps, journaling helps, and noticing the moments the thoughts arrive (usually boredom, stress or loneliness) helps most. The goal is not to erase the past but to let it finish settling.
-
-## Sources and photo credits
-
-Background reading: [PsychCentral on dreaming and thinking about an ex](https://psychcentral.com/relationships/dreaming-about-an-ex) and [Purple Garden on spiritual signs an ex is thinking of you](https://www.purplegarden.co/blog/7-spiritual-signs-your-ex-is-still-thinking-about-you). Symbolic meanings vary between traditions; this post is a reflective take, not professional advice.
-
-Photos from Pexels: [Photo 1](https://www.pexels.com/photo/thoughtful-androgynous-black-woman-standing-near-window-at-rainy-day-6303563/), [Photo 2](https://www.pexels.com/photo/anonymous-man-behind-window-in-raindrops-5028920/), [Photo 3](https://www.pexels.com/photo/pensive-woman-looking-through-rainy-window-31662652/). Used under the [Pexels License](https://www.pexels.com/license/). Stock models do not endorse this site.

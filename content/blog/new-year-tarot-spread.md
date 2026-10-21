@@ -83,9 +83,3 @@ Look up its broader themes. A difficult image is not evidence of coming disaster
 Yes, but allow time to use the first reading. Review notes before deciding whether a different question would be useful.
 
 The goal is not to know every turn ahead. Enter the next chapter with more attention and a step you can take. Tarot here is for entertainment and personal reflection, not medical, legal or financial advice.
-
-## Sources and photo credits
-
-Background reading: [Source 1](https://www.purplegarden.co/blog/new-year-tarot-spread-your-complete-guide-to-starting-the-year-with-clarity). Symbolic interpretations vary; cited spiritual guides are not evidence of predicted events.
-
-Photos from Pexels: [Photo 1](https://www.pexels.com/photo/tarot-cards-on-wooden-table-7689420/), [Photo 2](https://www.pexels.com/photo/close-up-shot-of-tarot-cards-on-a-wooden-table-7689415/), [Photo 3](https://www.pexels.com/photo/tarot-cards-and-lavender-14667699/). Used under the [Pexels License](https://www.pexels.com/license/). Stock models do not endorse this site.

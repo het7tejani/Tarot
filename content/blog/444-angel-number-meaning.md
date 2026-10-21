@@ -56,9 +56,3 @@ No number can promise that. Read symbolically, 444 encourages strengthening the 
 
 **What should I do when I keep seeing 444?**
 Pause and ask which structure in your life needs attention. The pattern people find most useful is simple: shore up one foundation, then keep building.
-
-## Sources and photo credits
-
-Background reading: [Astrology.com on angel number 444](https://www.astrology.com/numerology/angel-numbers/444-meaning). Symbolic meanings vary between traditions; this post is a reflective take, not a definitive reading.
-
-Photos from Pexels: [Photo 1](https://www.pexels.com/photo/sunlit-forest-path-with-tall-trees-39127751/), [Photo 2](https://www.pexels.com/photo/serene-forest-pathway-with-sunlight-filtering-through-trees-33188519/), [Photo 3](https://www.pexels.com/photo/serene-forest-path-with-sunlight-filtering-through-trees-29048211/). Used under the [Pexels License](https://www.pexels.com/license/). Stock models do not endorse this site.

@@ -52,9 +52,3 @@ Recurring dreams usually follow unresolved stress. If the feeling behind the dre
 
 **What if I dreamt someone else was shot?**
 Watching another person hurt in a dream often reflects worry about them, or about how their situation affects you. It can be a prompt to check in with them rather than to worry silently.
-
-## Sources and photo credits
-
-Background reading: [Verywell Mind on dreams about getting shot](https://www.verywellmind.com/dream-about-getting-shot-8637182). Dream interpretation is reflective, not diagnostic; this post is not medical advice.
-
-Photos from Pexels: [Photo 1](https://www.pexels.com/photo/woman-sleeping-935777/), [Photo 2](https://www.pexels.com/photo/hands-people-woman-night-6756093/), [Photo 3](https://www.pexels.com/photo/a-woman-sitting-on-the-bed-while-holding-a-moon-lamp-8262595/). Used under the [Pexels License](https://www.pexels.com/license/). Stock models do not endorse this site.

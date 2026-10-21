@@ -61,9 +61,3 @@ No number can confirm a twin-flame identity or someone's return. Use the symbol 
 ### What should I do when I keep seeing 747?
 
 Pause, note what you were thinking about, and check whether your plans and your instincts agree. The value is in the reflection, not the sighting itself. Angel number guides here are for entertainment and reflection.
-
-## Sources and photo credits
-
-Background reading: [Source 1](https://www.purplegarden.co/blog/exploring-twin-flame-connections-the-magic-of-the-747-angel-number). Symbolic interpretations vary; cited spiritual guides are not evidence of predicted events.
-
-Photos from Pexels: [Photo 1](https://www.pexels.com/photo/view-from-airplane-window-at-sunrise-35168054/), [Photo 2](https://www.pexels.com/photo/serene-sky-view-from-airplane-window-at-sunrise-33335733/), [Photo 3](https://www.pexels.com/photo/airplane-window-with-view-of-clouds-4657595/). Used under the [Pexels License](https://www.pexels.com/license/). Stock models do not endorse this site.

@@ -56,9 +56,3 @@ Recurring dreams usually track ongoing stressors rather than single events. If t
 
 **What does it mean if someone else was crashing?**
 Watching another person crash in a dream often reflects worry about that person's choices, or about how their direction affects you. It can be a prompt for an honest conversation rather than silent worry.
-
-## Sources and photo credits
-
-Background reading: [Psychology Today on out-of-control car dreams](https://www.psychologytoday.com/us/blog/dream-factory/202006/out-control-car-dreams-are-surprisingly-common). Dream interpretation is reflective, not diagnostic; this post is not medical advice.
-
-Photos from Pexels: [Photo 1](https://www.pexels.com/photo/an-empty-road-at-night-10957638/), [Photo 2](https://www.pexels.com/photo/raindrops-on-car-window-with-blurred-lights-34250449/), [Photo 3](https://www.pexels.com/photo/water-droplets-on-wet-road-during-night-time-12384859/). Used under the [Pexels License](https://www.pexels.com/license/). Stock models do not endorse this site.

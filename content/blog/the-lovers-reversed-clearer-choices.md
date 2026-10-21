@@ -71,8 +71,3 @@ Yes. The Lovers reversed is also interpreted through personal values and decisio
 No. It can be used to notice a mismatch while there is still room to discuss it. The useful part is the question you ask and the real-world information you gather.
 
 Tarot is for entertainment and personal reflection, not medical, legal or financial advice.
-
-## Sources and further reading
-
-- [Labyrinthos: The Lovers meanings](https://labyrinthos.co/blogs/tarot-card-meanings-list/the-lovers-meaning-major-arcana-tarot-card-meanings)
-- [Biddy Tarot: The Lovers meanings](https://biddytarot.com/tarot-card-meanings/major-arcana/lovers/)

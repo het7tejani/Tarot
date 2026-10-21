@@ -63,8 +63,3 @@ No. A card does not provide evidence about another person's conduct. Ask clear q
 No. Some readers use only upright meanings. A consistent approach is more helpful than treating every upside-down card as a warning.
 
 Tarot is for entertainment and personal reflection, not medical, legal or financial advice.
-
-## Sources and further reading
-
-- [Labyrinthos: The High Priestess meanings](https://labyrinthos.co/blogs/tarot-card-meanings-list/the-high-priestess-meaning-major-arcana-tarot-card-meanings)
-- [Labyrinthos: interpreting reversed cards](https://labyrinthos.co/blogs/learn-tarot-with-labyrinthos-academy/how-to-interpret-reversed-tarot-cards)

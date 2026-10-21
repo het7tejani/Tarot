@@ -73,9 +73,3 @@ A label cannot diagnose physical or mental health. For symptoms or concerns, see
 ### Do I need aura cleansing?
 
 You do not need to buy anything because of a color label. If you enjoy symbolic practice, a quiet pause or journal entry can be enough. Let the image support your choices, not define your worth. Tarot and aura interpretation here are for entertainment and reflection.
-
-## Sources and photo credits
-
-Background reading: [Source 1](https://www.psychicsource.com/article/spiritual-meaning/gold-aura-meaning/29060). Symbolic interpretations vary; cited spiritual guides are not evidence of predicted events.
-
-Photos from Pexels: [Photo 1](https://www.pexels.com/photo/silhouette-of-woman-during-golden-hour-1879864/), [Photo 2](https://www.pexels.com/photo/woman-meditating-in-front-of-setting-sun-13849274/), [Photo 3](https://www.pexels.com/photo/silhouette-of-a-woman-standing-on-the-beach-with-her-arms-raised-at-sunset-13805472/). Used under the [Pexels License](https://www.pexels.com/license/). Stock models do not endorse this site.

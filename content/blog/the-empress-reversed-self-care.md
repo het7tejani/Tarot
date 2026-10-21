@@ -81,9 +81,3 @@ It does not predict a breakup. If something feels unbalanced, examine the situat
 Yes. Readers use different methods. Decide how you will read the deck before drawing rather than changing the method to obtain a preferred answer.
 
 Tarot here is for entertainment and personal reflection, not medical, legal or financial advice.
-
-## Sources and photo credits
-
-Symbolic background: [Labyrinthos on The Empress](https://labyrinthos.co/blogs/tarot-card-meanings-list/the-empress-meaning-major-arcana-tarot-card-meanings) and [Kasamba's Empress guide](https://www.kasamba.com/tarot-reading/decks/major-arcana/the-empress-card/). Interpretations vary; fertility imagery is not medical evidence.
-
-Pexels photos: [a spread including The Empress](https://www.pexels.com/photo/colorful-tarot-cards-spread-on-a-table-34445804/), [cards with flowers](https://www.pexels.com/photo/tarot-cards-on-a-white-surface-surrounded-by-green-leaves-and-colorful-flowers-11204760/) and [a tarot deck with a crystal](https://www.pexels.com/photo/mystical-tarot-cards-with-citrine-crystal-31158454/). Used under the [Pexels License](https://www.pexels.com/license/). The photos illustrate tarot practice and do not imply endorsement or health outcomes.

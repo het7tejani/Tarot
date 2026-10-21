@@ -52,9 +52,3 @@ Some people experience dragonfly visits as connected to someone they have lost, 
 
 **What should I do after a dragonfly visits?**
 Nothing is required. If you want a small practice, write down what you were thinking about in the moment before you noticed it, and look at that thought with fresh eyes.
-
-## Sources and photo credits
-
-Background reading: [Mental Floss on dragonfly folklore and spiritual meaning](https://www.mentalfloss.com/culture/folklore-mythology/dragonflies-spiritual-meaning). Symbolic meanings vary between traditions; this post is a reflective take, not a definitive reading.
-
-Photos from Pexels: [Photo 1](https://www.pexels.com/photo/dragonfly-perched-on-a-branch-over-a-pond-35660809/), [Photo 2](https://www.pexels.com/photo/dragonfly-on-flower-18021324/), [Photo 3](https://www.pexels.com/photo/blue-darner-131092/). Used under the [Pexels License](https://www.pexels.com/license/). Stock models do not endorse this site.

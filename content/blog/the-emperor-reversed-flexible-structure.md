@@ -67,8 +67,3 @@ No. Some rules protect safety and clear responsibilities. Consider what a rule d
 No. Use the facts of the situation. A symbolic reading is not evidence about blame or intent.
 
 Tarot is for entertainment and personal reflection, not medical, legal or financial advice.
-
-## Sources and further reading
-
-- [Labyrinthos: The Emperor meanings](https://labyrinthos.co/blogs/tarot-card-meanings-list/the-emperor-meaning-major-arcana-tarot-card-meanings)
-- [Labyrinthos: interpreting reversed cards](https://labyrinthos.co/blogs/learn-tarot-with-labyrinthos-academy/how-to-interpret-reversed-tarot-cards)

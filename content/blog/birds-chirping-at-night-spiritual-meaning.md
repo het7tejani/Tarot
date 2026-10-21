@@ -50,9 +50,3 @@ Common readings include a message asking for your attention, a transition ahead,
 
 **Which birds actually sing at night?**
 Nightingales and mockingbirds are the famous night singers. Robins often sing after dark in cities because of artificial light, and nocturnal species like owls call at night as a matter of routine.
-
-## Sources and photo credits
-
-Background reading: [Britannica on why birds chirp at night](https://www.britannica.com/science/Why-Do-Birds-Chirp-at-Night) and [What Spiritual on night birdsong meanings](https://whatspiritual.com/). Symbolic meanings vary between traditions; this post is a reflective take, not a definitive reading.
-
-Photos from Pexels: [Photo 1](https://www.pexels.com/photo/an-owl-perched-on-a-branch-in-the-dark-18683300/), [Photo 2](https://www.pexels.com/photo/barn-owl-perched-on-tree-branch-at-night-30994787/), [Photo 3](https://www.pexels.com/photo/night-view-of-sky-920534/). Used under the [Pexels License](https://www.pexels.com/license/). Stock models do not endorse this site.

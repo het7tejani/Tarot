@@ -61,9 +61,3 @@ Once a number feels important, ordinary sightings can feel especially noticeable
 No reliable timeline follows from the number. Check the actual payment agreement, account or payer instead.
 
 Use 888 as an invitation to look at balance. The meaningful part is the choice you make afterward, not how often the number appears. Tarot and numerology here are for entertainment and reflection, not financial, medical or legal advice.
-
-## Sources and photo credits
-
-Background reading: [Source 1](https://www.astrology.com/numerology/angel-numbers/888-meaning). Symbolic interpretations vary; cited spiritual guides are not evidence of predicted events.
-
-Photos from Pexels: [Photo 1](https://www.pexels.com/photo/elegant-angel-statue-with-trumpet-33899643/), [Photo 2](https://www.pexels.com/photo/gold-coins-in-person-s-hands-7080559/), [Photo 3](https://www.pexels.com/photo/golden-coins-on-red-background-20843727/). Used under the [Pexels License](https://www.pexels.com/license/). Stock models do not endorse this site.

@@ -56,9 +56,3 @@ Some readers connect the mirrored 7s to two people on parallel inner journeys, w
 
 **What should I do when I keep seeing 707?**
 Pause and note what was on your mind. The pattern people find most useful is simple: make a little more room for quiet, and trust what surfaces in it.
-
-## Sources and photo credits
-
-Background reading: [Astrology.com on angel number 707](https://www.astrology.com/numerology/angel-numbers/707-meaning). Symbolic meanings vary between traditions; this post is a reflective take, not a definitive reading.
-
-Photos from Pexels: [Photo 1](https://www.pexels.com/photo/stunning-sunrise-over-calm-ocean-horizon-35484518/), [Photo 2](https://www.pexels.com/photo/captivating-milky-way-galaxy-night-sky-30875038/), [Photo 3](https://www.pexels.com/photo/serene-sunrise-over-calm-ocean-with-pink-sky-35145247/). Used under the [Pexels License](https://www.pexels.com/license/). Stock models do not endorse this site.

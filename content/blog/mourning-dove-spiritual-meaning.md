@@ -73,9 +73,3 @@ Consider habitat and bird behavior before a spiritual explanation. Cornell's [mo
 Let the bird remain a bird. The peace you choose to practice afterward can be meaningful in its own right.
 
 For a broader look at interpreting animal imagery without assigning a sacred identity, read our [animal symbolism and spirit-animal guide](/spirit-animal).
-
-## Sources and photo credits
-
-Background reading: [Source 1](https://www.birdsandblooms.com/birding/birding-basics/mourning-dove-meaning/). [Source 2](https://www.allaboutbirds.org/guide/Mourning_Dove/overview). Symbolic interpretations vary; cited spiritual guides are not evidence of predicted events.
-
-Photos from Pexels: [Photo 1](https://www.pexels.com/photo/mourning-dove-perched-on-a-branch-of-tree-7903507/), [Photo 2](https://www.pexels.com/photo/two-mourning-doves-perched-on-a-wire-34043022/), [Photo 3](https://www.pexels.com/photo/close-up-of-a-mourning-dove-in-santa-maria-30820036/). Used under the [Pexels License](https://www.pexels.com/license/). Stock models do not endorse this site.

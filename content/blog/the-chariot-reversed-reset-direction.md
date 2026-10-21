@@ -67,8 +67,3 @@ No. A symbolic draw is not evidence of a future event. Use ordinary safety measu
 Explore whether the goal is clear and the pace is workable. The Chariot reversed has several interpretations; you do not need to invent a lack of motivation to make one fit.
 
 Tarot is for entertainment and personal reflection, not medical, legal or financial advice.
-
-## Sources and further reading
-
-- [Labyrinthos: The Chariot meanings](https://labyrinthos.co/blogs/tarot-card-meanings-list/the-chariot-meaning-major-arcana-tarot-card-meanings)
-- [Biddy Tarot: The Chariot meanings](https://biddytarot.com/tarot-card-meanings/major-arcana/chariot/)

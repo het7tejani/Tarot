@@ -79,9 +79,3 @@ No. Readers interpret reversals differently. It can suggest a question about cla
 There is no universal rule. If your method allows an uncertain answer, this can be a good moment to identify what needs checking instead of forcing a verdict.
 
 Tarot here is for entertainment and reflection, not medical, legal or financial advice.
-
-## Sources and photo credits
-
-Interpretive background: [Labyrinthos on The Moon](https://labyrinthos.co/blogs/tarot-card-meanings-list/the-moon-meaning-major-arcana-tarot-card-meanings) and [Kasamba's Moon guide](https://www.kasamba.com/tarot-reading/decks/major-arcana/moon-card/). Spiritual interpretations are not proof of hidden information or future events.
-
-Pexels photos: [tarot cards with crystals](https://www.pexels.com/photo/tarot-cards-and-healing-crystals-13779223/), [cards and a zodiac chart](https://www.pexels.com/photo/tarot-cards-and-horoscope-on-a-table-7222056/) and [a reader spreading cards](https://www.pexels.com/photo/woman-in-black-long-sleeve-shirt-spreading-the-cards-on-the-table-6014308/). Used under the [Pexels License](https://www.pexels.com/license/). Stock models do not endorse this site; the photos illustrate tarot practice, not the result of a reading.

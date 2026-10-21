@@ -56,9 +56,3 @@ Some readers connect the mirrored 1s to two people beginning parallel journeys, 
 
 **What should I do when I keep seeing 121?**
 Name the beginning you have been postponing and take its smallest step today. The number is a prompt; the start is yours to make.
-
-## Sources and photo credits
-
-Background reading: [Numerologist.com on angel number 121](https://numerologist.com/angel-repeating-numbers/angel-number-121). Symbolic meanings vary between traditions; this post is a reflective take, not a definitive reading.
-
-Photos from Pexels: [Photo 1](https://www.pexels.com/photo/misty-forest-trail-at-sunrise-with-sunbeams-29347332/), [Photo 2](https://www.pexels.com/photo/close-up-of-man-holding-a-seedling-in-soil-in-his-hands-12969371/), [Photo 3](https://www.pexels.com/photo/bright-sun-illuminating-pathway-in-forest-at-dawn-4084698/). Used under the [Pexels License](https://www.pexels.com/license/). Stock models do not endorse this site.

@@ -69,8 +69,3 @@ No. Tarot cannot diagnose a health condition. Discuss persistent or concerning s
 No. Patience can include a clear request, a boundary or a pause in a conversation. Strength reversed does not require you to ignore your needs to appear calm.
 
 Tarot is for entertainment and personal reflection, not medical, legal or financial advice.
-
-## Sources and further reading
-
-- [Labyrinthos: Strength meanings](https://labyrinthos.co/blogs/tarot-card-meanings-list/strength-meaning-major-arcana-tarot-card-meanings)
-- [Biddy Tarot: Strength meanings](https://biddytarot.com/tarot-card-meanings/major-arcana/strength/)

@@ -56,9 +56,3 @@ Some readers connect the 1 and 2 to two people whose individual growth runs in p
 
 **What should I do when I keep seeing 127?**
 Name the decision or beginning you have been circling, and take its smallest honest step. The number is a prompt; the beginning is yours to make.
-
-## Sources and photo credits
-
-Background reading: [Astrology.com on angel number 127](https://www.astrology.com/numerology/angel-numbers/127-meaning). Symbolic meanings vary between traditions; this post is a reflective take, not a definitive reading.
-
-Photos from Pexels: [Photo 1](https://www.pexels.com/photo/serene-forest-pathway-at-sunrise-33322288/), [Photo 2](https://www.pexels.com/photo/serene-pine-forest-at-sunrise-with-scenic-path-30419150/), [Photo 3](https://www.pexels.com/photo/scenic-mountain-path-with-signpost-at-sunrise-28553956/). Used under the [Pexels License](https://www.pexels.com/license/). Stock models do not endorse this site.

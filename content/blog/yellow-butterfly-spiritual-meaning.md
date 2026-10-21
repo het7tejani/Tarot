@@ -73,9 +73,3 @@ No. Avoid broad claims that whole cultures share a single belief. This guide des
 Attention itself can be a gift. You do not need a prediction to leave the encounter a little more present. Symbolic readings are for reflection and entertainment, not professional advice.
 
 For a broader look at interpreting animal imagery without assigning a sacred identity, read our [animal symbolism and spirit-animal guide](/spirit-animal).
-
-## Sources and photo credits
-
-Background reading: [Source 1](https://www.psychicsource.com/article/spiritual-meaning/yellow-butterfly-spiritual-meaning/28264). Symbolic interpretations vary; cited spiritual guides are not evidence of predicted events.
-
-Photos from Pexels: [Photo 1](https://www.pexels.com/photo/yellow-butterfly-on-a-daisy-in-guangdong-29306206/), [Photo 2](https://www.pexels.com/photo/a-close-up-of-a-yellow-butterfly-on-a-leaf-16254628/), [Photo 3](https://www.pexels.com/photo/beautiful-swallowtail-butterfly-on-yellow-flowers-36996164/). Used under the [Pexels License](https://www.pexels.com/license/). Stock models do not endorse this site.

@@ -86,9 +86,3 @@ It is not evidence for choosing an investment. A repeating number cannot tell yo
 You have not lost support or missed a deadline. Your next steps can rest on your circumstances, priorities and the information you gather.
 
 Numerology and tarot here are for entertainment and reflection, not financial, medical or legal advice.
-
-## Sources and photo credits
-
-Symbolic background: [Keen's 333 angel number guide](https://www.keen.com/articles/psychic/333-angel-number-meaning). Its spiritual interpretations are not verified predictions. Practical resource: [Consumer Financial Protection Bureau's Your Money, Your Goals toolkit](https://www.consumerfinance.gov/consumer-tools/educator-tools/your-money-your-goals/toolkit/).
-
-Pexels photos: [notebook, calculator and coins](https://www.pexels.com/photo/notebook-and-pen-beside-a-calculator-and-coins-6927337/), [notebook near money](https://www.pexels.com/photo/top-view-photo-of-notebook-near-money-5466800/) and [calculator and coins on a notepad](https://www.pexels.com/photo/calculator-red-pen-and-coins-on-notepad-7111496/). Used under the [Pexels License](https://www.pexels.com/license/). The images are illustrative, not evidence of financial results.

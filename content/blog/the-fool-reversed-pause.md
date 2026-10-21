@@ -77,9 +77,3 @@ Tarot here is for entertainment and personal reflection, not medical, legal or f
 ## Read our shorter reflection on Medium
 
 For a brief companion to this guide, read [The Fool Reversed: A Thoughtful Pause Before a New Start on Medium](https://medium.com/@thepsychicstudio/the-fool-reversed-a-thoughtful-pause-before-a-new-start-147512f496ba).
-
-## Sources and photo credits
-
-Symbolic background: [Labyrinthos on The Fool](https://labyrinthos.co/blogs/tarot-card-meanings-list/the-fool-meaning-major-arcana-tarot-card-meanings). The practical exercises above are reflection prompts, not predictions.
-
-Pexels photos: [a varied card spread](https://www.pexels.com/photo/diverse-tarot-card-spread-with-wheel-of-fortune-34888694/), [cards on a table](https://www.pexels.com/photo/tarot-cards-on-the-table-13468270/) and [a tabletop card arrangement](https://www.pexels.com/photo/tarot-cards-on-table-14299091/). Used under the [Pexels License](https://www.pexels.com/license/). Images illustrate tarot practice; they do not all depict The Fool.

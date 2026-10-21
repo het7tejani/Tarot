@@ -52,9 +52,3 @@ Babies lock onto faces that are close, well lit, moving or unfamiliar, and your 
 
 **What should I do when a baby stares at me?**
 Nothing is required. Soft eye contact and a calm face are friendly responses. If you want a small practice, take the moment as a prompt to be as present as the baby is.
-
-## Sources and photo credits
-
-Background reading: [BBC Tiny Happy People on babies and gazing](https://www.bbc.co.uk/tiny-happy-people/articles/zg4sjfr). Symbolic meanings vary between traditions; this post is a reflective take, not a definitive reading.
-
-Photos from Pexels: [Photo 1](https://www.pexels.com/photo/adorable-baby-with-bright-blue-eyes-portrait-39976910/), [Photo 2](https://www.pexels.com/photo/photo-of-a-little-baby-with-blue-eyes-wide-open-18794423/), [Photo 3](https://www.pexels.com/photo/face-of-baby-girl-20737259/). Used under the [Pexels License](https://www.pexels.com/license/). Stock models do not endorse this site.

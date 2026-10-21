@@ -73,9 +73,3 @@ No one can verify private thoughts from the outside. A reading can help you noti
 ### How many questions should I bring?
 
 Three to five, ranked. Start with the one you most want answered. Tarot and psychic readings here are for entertainment and reflection; decisions about health, money and relationships deserve appropriate professional advice.
-
-## Sources and photo credits
-
-Background reading: [Source 1](https://www.purplegarden.co/blog/preparing-for-a-psychic-reading), [Source 2](https://www.thequestionvault.com/questions-to-ask-a-psychic-medium). Competitor guides informed topic selection; the guidance here is our own.
-
-Photos from Pexels: [Photo 1](https://www.pexels.com/photo/woman-writing-journal-7623657/), [Photo 2](https://www.pexels.com/photo/elegant-handwritten-notes-in-journal-with-pen-34640246/), [Photo 3](https://www.pexels.com/photo/a-person-writing-on-a-notebook-11025209/). Used under the [Pexels License](https://www.pexels.com/license/). Stock models do not endorse this site.

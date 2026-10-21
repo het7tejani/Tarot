@@ -7,15 +7,21 @@ import { FAQS } from '../data/readingsData';
 import { getBlogPosts } from '../services/cmsStorage';
 const inline = (t: string): React.ReactNode[] => {
   const out: React.ReactNode[] = []; const re = /\[([^\]]+)\]\(([^)]+)\)/g; let last = 0; let m: RegExpExecArray | null; let k = 0;
-  while ((m = re.exec(t))) { if (m.index > last) out.push(t.slice(last, m.index)); out.push(m[2].startsWith('http') ? <a key={k++} href={m[2]} target="_blank" rel="noopener noreferrer" style={{ color: 'var(--leaf)', textDecoration: 'underline' }}>{m[1]}</a> : <Link key={k++} to={m[2]} style={{ color: 'var(--leaf)', textDecoration: 'underline' }}>{m[1]}</Link>); last = m.index + m[0].length; }
-  if (last < t.length) out.push(t.slice(last)); return out;
+  const pushText = (chunk: string) => {
+    chunk.split(/\*\*([^*]+)\*\*/g).forEach((part, idx) => { if (part) out.push(idx % 2 === 1 ? <strong key={k++}>{part}</strong> : part); });
+  };
+  while ((m = re.exec(t))) { if (m.index > last) pushText(t.slice(last, m.index)); out.push(m[2].startsWith('http') ? <a key={k++} href={m[2]} target="_blank" rel="noopener noreferrer" style={{ color: 'var(--leaf)', textDecoration: 'underline' }}>{m[1]}</a> : <Link key={k++} to={m[2]} style={{ color: 'var(--leaf)', textDecoration: 'underline' }}>{m[1]}</Link>); last = m.index + m[0].length; }
+  if (last < t.length) pushText(t.slice(last)); return out;
 };
 const headingId = (t: string) => t.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 const minutes = (text: string) => Math.max(1, Math.ceil(text.split(/\s+/).length / 200));
 export const Md: React.FC<{ text: string; resolveImage?: (src:string)=>string }> = ({ text, resolveImage = src=>src }) => (<>{text.split(/\n{2,}/).map((b, i) => {
   const img = b.match(/^!\[([^\]]*)\]\(([^)]+)\)$/); if (img) return <figure key={i} className="st-journal-figure"><TarotArtwork src={resolveImage(img[2])} alt={img[1]} loading="lazy" /><figcaption>{img[1]}</figcaption></figure>;
   const h = b.match(/^(#{2,3})\s+(.*)$/); if (h) return h[1].length === 2 ? <h2 key={i} id={headingId(h[2])}>{h[2]}</h2> : <h3 key={i} id={headingId(h[2])}>{h[2]}</h3>;
-  return <p key={i}>{inline(b)}</p>; })}</>);
+  const lines = b.split('\n');
+  if (lines.length > 1 && lines.every((l) => /^- /.test(l))) return <ul key={i}>{lines.map((l, j) => <li key={j}>{inline(l.slice(2))}</li>)}</ul>;
+  if (lines.length > 1 && lines.every((l) => /^\d+\.\s/.test(l))) return <ol key={i}>{lines.map((l, j) => <li key={j}>{inline(l.replace(/^\d+\.\s/, ''))}</li>)}</ol>;
+  return <p key={i}>{lines.flatMap((l, j) => (j === 0 ? inline(l) : [<br key={`br-${i}-${j}`} />, ...inline(l)]))}</p>; })}</>);
 export const About: React.FC = () => (
   <Layout><div className="st-page"><div className="wrap">
     <span className="eyebrow">About</span><h1>About The Psychic Studio</h1>
@@ -73,7 +79,7 @@ export const BlogPostPage: React.FC = () => {
   return <Layout seo={false}><div className="st-journal st-journal-article wrap"><Link className="st-journal-back" to="/blog">← Back to the journal</Link>
     {p ? <><SEOHead title={p.metaTitle || `${p.title} | The Psychic Studio`} description={p.excerpt.slice(0, 155)} ogType="article" ogImage={p.coverImage.startsWith('https://') ? p.coverImage : `https://thepsychicstudio.com${p.coverImage}`} canonicalUrl={`https://thepsychicstudio.com/blog/${p.slug}`} schema={{"@context":"https://schema.org","@type":"BlogPosting",headline:p.title,description:p.excerpt,image:p.coverImage.startsWith('https://') ? p.coverImage : `https://thepsychicstudio.com${p.coverImage}`,author:{"@type":"Organization",name:"The Psychic Studio",url:"https://thepsychicstudio.com/about"},publisher:{"@id":"https://thepsychicstudio.com/#organization"},url:`https://thepsychicstudio.com/blog/${p.slug}`,datePublished:p.publishedDate,mainEntityOfPage:`https://thepsychicstudio.com/blog/${p.slug}`}} />
     <div className="st-journal-article-head"><div><span className="eyebrow">{p.category} · {minutes(p.content)} min read</span><h1>{p.title}</h1><p>{p.excerpt}</p><div className="st-journal-meta">By The Psychic Studio · <time dateTime={p.publishedDate}>{p.publishedDate}</time></div></div><figure className="st-journal-hero">{p.slug?.startsWith('888-') || p.slug?.startsWith('757-') ? <span className="st-journal-number-label">{p.slug.slice(0,3)}<small>ANGEL NUMBER</small></span> : null}<TarotArtwork src={p.coverImage || '/tarot/the_fool.jpg'} alt={p.title} /></figure></div>
-    <div className="st-journal-reading"><nav className="st-journal-toc" aria-label="In this guide"><span className="eyebrow">In this guide</span>{headings.map((h, i) => <a key={`${h}-${i}`} href={`#${headingId(h)}`}>{h}</a>)}<hr /><Link to="/tarot-card-meanings">Explore card meanings ↗</Link></nav><article className="st-journal-copy"><Md text={p.content} /><div className="st-journal-note">Let the reading help you think. Your choices remain your own.</div></article></div></> : <><SEOHead title="Post not found | The Psychic Studio" description="This journal story could not be found. Browse the latest tarot guides and reflections." /><h1>Post not found</h1></>}
+    <div className="st-journal-reading"><nav className="st-journal-toc" aria-label="In this guide"><span className="eyebrow">In this guide</span>{headings.map((h, i) => <a key={`${h}-${i}`} href={`#${headingId(h)}`}>{h}</a>)}<hr /><Link to="/tarot-card-meanings">Explore card meanings ↗</Link></nav><article className="st-journal-copy"><Md text={p.content} /><div className="st-journal-note">Let the reading help you think. Your choices remain your own. This post is for reflection and entertainment, not medical, psychological, legal or financial advice.</div></article></div></> : <><SEOHead title="Post not found | The Psychic Studio" description="This journal story could not be found. Browse the latest tarot guides and reflections." /><h1>Post not found</h1></>}
   </div></Layout>;
 };
 export const Faq: React.FC = () => (

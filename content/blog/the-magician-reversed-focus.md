@@ -81,9 +81,3 @@ It does not predict success or failure. You can reflect on preparation, practice
 There is no universal rule. For important choices, facts and consent matter more than assigning a binary answer to a tarot card.
 
 Tarot here is for entertainment and personal reflection, not medical, legal or financial advice.
-
-## Sources and photo credits
-
-Symbolic background: [Labyrinthos on The Magician](https://labyrinthos.co/blogs/tarot-card-meanings-list/the-magician-meaning-major-arcana-tarot-card-meanings). Interpretations vary, and symbolic associations are not evidence about another person.
-
-Pexels photos: [a Shadowscapes deck arrangement](https://www.pexels.com/photo/shadowscapes-tarot-deck-10810660/), [a reading setup with candles](https://www.pexels.com/photo/colorful-tarot-card-reading-setup-with-candles-36116185/) and [a person arranging cards](https://www.pexels.com/photo/a-woman-spreading-the-tarot-card-on-the-table-6944688/). Used under the [Pexels License](https://www.pexels.com/license/). Photos illustrate tarot practice and do not all depict The Magician.

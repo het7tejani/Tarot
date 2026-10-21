@@ -86,9 +86,3 @@ No. Opposite signs are an astrological relationship between positions in the zod
 Look at the arguments rather than the signs. Can both people speak, take responsibility and make changes? Fear, coercion or repeated boundary violations should not be explained away as compatibility challenges.
 
 Astrology and tarot here are for entertainment and reflection, not a substitute for professional support or a reason to ignore your own experience.
-
-## Sources and photo credits
-
-Astrological background: [Kasamba's Leo and Aquarius discussion](https://www.kasamba.com/astrology/zodiac-compatibility/leo-aquarius-love-match/) and [Astrology.com's Aquarius and Leo guide](https://www.astrology.com/love/compatibility/aquarius-leo.html). These descriptions are symbolic interpretations, not evidence of relationship outcomes.
-
-Pexels photos: [a couple having a conversation](https://www.pexels.com/photo/a-couple-sitting-on-a-wooden-table-while-having-a-conversation-6322819/), [people on a lawn](https://www.pexels.com/photo/couple-sitting-and-talking-on-the-lawn-14534771/) and [a conversation on a couch](https://www.pexels.com/photo/couple-talking-on-couch-3958829/). Used under the [Pexels License](https://www.pexels.com/license/). Stock models are illustrative and do not endorse the site.

@@ -56,9 +56,3 @@ Some readers link the 2 in 128 to partnership and mirrored growth, which is why 
 
 **What should I do when I keep seeing 128?**
 Pause and note what you were thinking about at the time. The pattern people find most useful is simple: start the postponed thing, keep your close relationships steady, and let consistent work do the rest.
-
-## Sources and photo credits
-
-Background reading: [Astrology.com on angel number 128](https://www.astrology.com/numerology/angel-numbers/128-meaning). Symbolic meanings vary between traditions; this post is a reflective take, not a definitive reading.
-
-Photos from Pexels: [Photo 1](https://www.pexels.com/photo/serene-sunrise-over-misty-mountain-ranges-32103954/), [Photo 2](https://www.pexels.com/photo/mountains-at-sunrise-9291023/), [Photo 3](https://www.pexels.com/photo/mountains-and-trees-during-sunrise-4448846/). Used under the [Pexels License](https://www.pexels.com/license/). Stock models do not endorse this site.

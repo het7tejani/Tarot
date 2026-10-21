@@ -85,9 +85,3 @@ Tarot here is for entertainment and personal reflection, not medical, legal or f
 ## More reflections from the studio
 
 Visit [The Psychic Studio on Tumblr](https://thepsychicstudio.tumblr.com) for our shorter Hermit reversed reflection and other tarot notes.
-
-## Sources and photo credits
-
-Symbolic background: [Labyrinthos on The Hermit](https://labyrinthos.co/blogs/tarot-card-meanings-list/the-hermit-meaning-major-arcana-tarot-card-meanings). This article uses solitude and connection as reflection themes, not as clinical claims.
-
-Pexels photos: [a candlelit tarot reading arrangement](https://www.pexels.com/photo/tarot-cards-and-a-crystal-ball-on-the-table-7179792/), [cards on a wooden surface](https://www.pexels.com/photo/tarot-cards-on-a-wooden-surface-8219802/) and [a deck on books](https://www.pexels.com/photo/tarot-deck-atop-piles-of-books-19495045/). Used under the [Pexels License](https://www.pexels.com/license/). Photos illustrate tarot practice and do not imply endorsement or health outcomes.

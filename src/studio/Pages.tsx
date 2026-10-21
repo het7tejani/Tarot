@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { Layout } from './Layout';
 import { TarotArtwork } from '../components/TarotArtwork';
@@ -78,9 +78,14 @@ const CopyLink: React.FC = () => {
 };
 export const BlogPostPage: React.FC = () => {
   const { slug } = useParams();
+  const [blClass, setBlClass] = useState('');
+  useEffect(() => {
+    const bl = new URLSearchParams(window.location.search).get('layout');
+    setBlClass(bl && ['1', '2', '3'].includes(bl) ? ` st-bl${bl}` : '');
+  }, []);
   const p = getBlogPosts().find((x) => (x.slug === slug || x.id === slug) && x.published !== false);
   const headings = p ? Array.from(p.content.matchAll(/^#{2,3}\s+(.+)$/gm)).map((m) => m[1]) : [];
-  return <Layout seo={false}><div className="st-journal st-journal-article wrap"><Link className="st-journal-back" to="/blog">← Back to the journal</Link>
+  return <Layout seo={false}><div className={`st-journal st-journal-article wrap${blClass}`}><Link className="st-journal-back" to="/blog">← Back to the journal</Link>
     {p ? <><SEOHead title={p.metaTitle || `${p.title} | The Psychic Studio`} description={p.excerpt.slice(0, 155)} ogType="article" ogImage={p.coverImage.startsWith('https://') ? p.coverImage : `https://thepsychicstudio.com${p.coverImage}`} canonicalUrl={`https://thepsychicstudio.com/blog/${p.slug}`} schema={{"@context":"https://schema.org","@type":"BlogPosting",headline:p.title,description:p.excerpt,image:p.coverImage.startsWith('https://') ? p.coverImage : `https://thepsychicstudio.com${p.coverImage}`,author:{"@type":"Organization",name:"The Psychic Studio",url:"https://thepsychicstudio.com/about"},publisher:{"@id":"https://thepsychicstudio.com/#organization"},url:`https://thepsychicstudio.com/blog/${p.slug}`,datePublished:p.publishedDate,dateModified:p.publishedDate,mainEntityOfPage:`https://thepsychicstudio.com/blog/${p.slug}`}} />
     <div className="st-journal-article-head"><div><span className="eyebrow">{p.category} · {minutes(p.content)} min read</span><h1>{p.title}</h1><p>{p.excerpt}</p><div className="st-journal-meta">By The Psychic Studio · <time dateTime={p.publishedDate}>{p.publishedDate}</time> · <CopyLink /></div></div><figure className="st-journal-hero">{p.slug?.startsWith('888-') || p.slug?.startsWith('757-') ? <span className="st-journal-number-label">{p.slug.slice(0,3)}<small>ANGEL NUMBER</small></span> : null}<TarotArtwork src={p.coverImage || '/tarot/the_fool.jpg'} alt={p.title} /></figure></div>
     <div className="st-journal-reading"><nav className="st-journal-toc" aria-label="In this guide"><span className="eyebrow">In this guide</span>{headings.map((h, i) => <a key={`${h}-${i}`} href={`#${headingId(h)}`}>{h}</a>)}<hr /><Link to="/tarot-card-meanings">Explore card meanings ↗</Link></nav><article className="st-journal-copy"><Md text={p.content} /><div className="st-journal-note">Let the reading help you think. Your choices remain your own. This post is for reflection and entertainment, not medical, psychological, legal or financial advice.</div></article></div></> : <><SEOHead title="Post not found | The Psychic Studio" description="This journal story could not be found. Browse the latest tarot guides and reflections." /><h1>Post not found</h1></>}

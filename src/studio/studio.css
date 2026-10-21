@@ -499,3 +499,4 @@ header .nav a.on,header a[aria-current=page]{color:#846019!important}
 .st-journal-article .st-journal-copy ul,.st-journal-article .st-journal-copy ol{margin:0 0 22px;padding-left:22px}
 .st-journal-article .st-journal-copy li{margin-bottom:8px}
 .st-journal-article .st-journal-copy blockquote{border-left:2px solid var(--leaf);padding-left:18px;color:var(--ink);font-style:italic;margin:0 0 22px}
+.st-sign-orbit .st-sign-drawing{background:var(--paper2);border-radius:12px}

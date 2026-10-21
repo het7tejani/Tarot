@@ -540,38 +540,44 @@ header .nav a.on,header a[aria-current=page]{color:#846019!important}
 .st-journal-article .st-journal-copy li{margin-bottom:8px}
 .st-journal-article .st-journal-copy blockquote{border-left:2px solid var(--leaf);padding-left:18px;color:var(--ink);font-style:italic;margin:0 0 22px}
 .st-sign-orbit .st-sign-drawing{background:var(--paper2);border-radius:12px}
-/* Blog layout samples for Het (preview branch only): /blog/<slug>?layout=1|2|3 */
-/* L1 Magazine: hero image full width on top, left-aligned title below, single centered reading column, TOC as chips */
-.st-bl1 .st-journal-article-head{display:flex;flex-direction:column;gap:14px;margin:0 0 34px}
-.st-bl1 .st-journal-article-head>div{order:2;max-width:720px}
-.st-bl1 .st-journal-hero{order:1;margin:0 0 8px}
-.st-bl1 .st-journal-hero img{width:100%;height:auto;border-radius:14px}
-.st-bl1 .st-journal-article-head h1{font-size:clamp(30px,4.4vw,46px);line-height:1.12;max-width:19ch}
-.st-bl1 .st-journal-reading{display:block;max-width:720px;margin:0 auto}
-.st-bl1 .st-journal-toc{position:static;border-left:none;border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:14px 0;display:flex;flex-wrap:wrap;gap:8px 18px;margin:0 0 30px}
-.st-bl1 .st-journal-toc .eyebrow{width:100%}
-.st-bl1 .st-journal-toc a{font-size:13.5px}
-.st-bl1 .st-journal-toc hr,.st-bl1 .st-journal-toc>a:last-child{display:none}
-/* L2 Classic feature: text left with smaller card art right, TOC as a boxed guide on top of the article */
-.st-bl2 .st-journal-article-head{grid-template-columns:minmax(0,1fr) 300px;gap:46px;align-items:center}
-.st-bl2 .st-journal-article-head h1{font-size:clamp(30px,4vw,42px)}
-.st-bl2 .st-journal-hero img{border-radius:12px}
-.st-bl2 .st-journal-reading{display:block;max-width:760px}
-.st-bl2 .st-journal-toc{position:static;border:1px solid var(--line);border-left:none;border-radius:12px;background:var(--paper2);padding:16px 20px;margin:0 0 28px}
-.st-bl2 .st-journal-toc a{display:list-item;list-style:decimal inside;font-size:14px;padding:3px 0}
-.st-bl2 .st-journal-toc hr{display:none}
-/* L3 Text-led minimal: no hero image, big type header, drop cap opening, TOC as a quiet single line list */
+/* Blog layout samples v2 for Het (preview branch only): /blog/<slug>?layout=1|2|3 */
+/* shared professional base: left aligned, even edges, clean meta row */
+.st-bl1 .st-journal-article-head,.st-bl2 .st-journal-article-head,.st-bl3 .st-journal-article-head{display:flex;flex-direction:column;gap:14px;text-align:left;margin:8px auto 30px}
+.st-bl1 .st-journal-article-head h1,.st-bl2 .st-journal-article-head h1,.st-bl3 .st-journal-article-head h1{font-size:clamp(28px,3.4vw,40px);line-height:1.16;letter-spacing:-.01em;margin:0}
+.st-bl1 .st-journal-article-head p,.st-bl2 .st-journal-article-head p,.st-bl3 .st-journal-article-head p{font-size:18px;line-height:1.55;color:var(--ink2);margin:0;max-width:62ch}
+.st-bl1 .st-journal-meta,.st-bl2 .st-journal-meta,.st-bl3 .st-journal-meta{display:flex;align-items:center;flex-wrap:wrap;gap:6px 10px;border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:10px 0;margin-top:8px;font-size:13px;color:var(--ink2)}
+.st-bl1 .st-journal-toc hr,.st-bl2 .st-journal-toc hr,.st-bl3 .st-journal-toc hr{display:none}
+.st-bl1 .st-journal-toc>a:last-child,.st-bl2 .st-journal-toc>a:last-child,.st-bl3 .st-journal-toc>a:last-child{display:none}
+.st-bl1 .st-journal-copy h2,.st-bl2 .st-journal-copy h2,.st-bl3 .st-journal-copy h2{margin:42px 0 12px;padding-top:24px;border-top:1px solid var(--line);font-size:24px}
+.st-bl1 .st-journal-copy h3,.st-bl2 .st-journal-copy h3,.st-bl3 .st-journal-copy h3{margin:28px 0 10px;font-size:19px}
+.st-bl1 .st-journal-copy img,.st-bl2 .st-journal-copy img,.st-bl3 .st-journal-copy img{border-radius:12px;margin:10px 0 6px}
+/* L1 Column: Medium-style single 680px column - title block, 16:9 hero, boxed numbered guide, steady article column */
+.st-bl1 .st-journal-article-head,.st-bl1 .st-journal-reading{max-width:680px;margin-left:auto;margin-right:auto}
+.st-bl1 .st-journal-hero{order:3;margin:6px 0 0;aspect-ratio:16/9;border-radius:14px}
+.st-bl1 .st-journal-hero img{border-radius:14px}
+.st-bl1 .st-journal-reading{display:block}
+.st-bl1 .st-journal-toc{position:static;border:1px solid var(--line);border-left:3px solid var(--leaf);border-radius:10px;background:var(--paper2);padding:14px 20px;margin:0 0 34px}
+.st-bl1 .st-journal-toc a{display:list-item;list-style:decimal inside;font-size:14.5px;padding:4px 0;color:var(--ink)}
+/* L2 Cover: wide 21:9 photo first, left-aligned title block, numbered guide as a horizontal strip, 700px reading column */
+.st-bl2 .st-journal-hero{order:-1;margin:0 0 26px;aspect-ratio:21/9;border-radius:14px}
+.st-bl2 .st-journal-hero img{border-radius:14px}
+.st-bl2 .st-journal-article-head,.st-bl2 .st-journal-reading{max-width:700px;margin-left:auto;margin-right:auto}
+.st-bl2 .st-journal-reading{display:block}
+.st-bl2 .st-journal-toc{position:static;border-left:none;border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:14px 0;margin:0 0 32px;display:flex;flex-wrap:wrap;gap:8px 26px}
+.st-bl2 .st-journal-toc .eyebrow{width:100%}
+.st-bl2 .st-journal-toc a{font-size:13.5px;counter-reset:none}
+.st-bl2 .st-journal-toc a::before{content:counter(toc-item,decimal-leading-zero)}
+.st-bl2 .st-journal-toc{counter-reset:toc-item}
+.st-bl2 .st-journal-toc a{counter-increment:toc-item}
+.st-bl2 .st-journal-toc a::before{content:counter(toc-item,decimal-leading-zero) "  ";color:var(--leaf);font-weight:600}
+/* L3 Report: no hero, compact header, bordered contents box, drop cap, generous 700px column */
 .st-bl3 .st-journal-article-head .st-journal-hero{display:none!important}
-.st-bl3 .st-journal-article-head{display:block;margin:20px 0 40px}
-.st-bl3 .st-journal-article-head h1{font-size:clamp(34px,5vw,54px);line-height:1.08;max-width:21ch}
-.st-bl3 .st-journal-reading{display:block;max-width:700px}
-.st-bl3 .st-journal-toc{position:static;border-left:none;display:flex;flex-wrap:wrap;gap:6px 16px;margin:0 0 34px;opacity:.85}
-.st-bl3 .st-journal-toc .eyebrow{width:100%}
-.st-bl3 .st-journal-toc a{font-size:13px;text-decoration:underline;text-underline-offset:3px}
-.st-bl3 .st-journal-toc hr,.st-bl3 .st-journal-toc>a:last-child{display:none}
-.st-bl3 .st-journal-copy>p:first-of-type::first-letter{float:left;font-size:54px;line-height:.9;padding:6px 12px 0 0;color:var(--leaf-d);font-weight:700}
+.st-bl3 .st-journal-article-head,.st-bl3 .st-journal-reading{max-width:700px;margin-left:auto;margin-right:auto}
+.st-bl3 .st-journal-reading{display:block}
+.st-bl3 .st-journal-toc{position:static;border:1px solid var(--line);border-radius:10px;padding:14px 20px;margin:0 0 34px;background:transparent}
+.st-bl3 .st-journal-toc a{display:list-item;list-style:decimal inside;font-size:14px;padding:3px 0}
+.st-bl3 .st-journal-copy>p:first-of-type::first-letter{float:left;font-size:52px;line-height:.9;padding:6px 12px 0 0;color:var(--leaf-d);font-weight:700}
 @media(max-width:820px){
-  .st-bl2 .st-journal-article-head{grid-template-columns:1fr;gap:22px}
-  .st-bl2 .st-journal-hero{max-width:260px}
-  .st-bl1 .st-journal-article-head h1,.st-bl2 .st-journal-article-head h1,.st-bl3 .st-journal-article-head h1{font-size:30px}
+  .st-bl1 .st-journal-article-head,.st-bl2 .st-journal-article-head,.st-bl3 .st-journal-article-head{margin-top:4px}
+  .st-bl1 .st-journal-hero,.st-bl2 .st-journal-hero{aspect-ratio:4/3}
 }

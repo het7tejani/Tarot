@@ -8,7 +8,7 @@ metaTitle: "What Does It Mean When a Baby Stares at You? | The Psychic Studio"
 published: "true"
 ---
 
-Few moments feel as strangely significant as a baby holding your gaze. The look is steady, unembarrassed and completely present, and adults often walk away from it asking what it meant. The question has two honest answers, one from development science and one from symbolism, and they sit together better than you might expect.
+Few moments feel as strangely significant as a baby holding your gaze. The look is steady, unembarrassed and completely present, and adults often walk away from it asking what it meant. The question has two honest answers, one from development science and one from symbolism, and the two sit together surprisingly well.
 
 The scientific answer comes first, because it grounds everything else. Newborns are wired to seek faces. In the first months of life, a baby's clearest vision is at roughly the distance to a caregiver's face, and staring is how they learn expression, voice and connection. A baby staring at you is doing the most important work of their early life: studying a person.
 

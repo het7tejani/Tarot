@@ -45,7 +45,7 @@ export const About: React.FC = () => (
       <p>Choose the topic closest to your question, then email the studio with the context you want to share. The studio confirms what the reading includes, how it is delivered and the payment arrangements before anything is arranged. This website itself does not take payments.</p>
       <h2>Get in touch</h2>
       <p>Questions about a reading or a guide? Write to <a href="mailto:contact.thepsychicstudio@gmail.com">contact.thepsychicstudio@gmail.com</a> or visit the <Link to="/contact">contact page</Link>. Common questions are answered in the <Link to="/faq">reading FAQ</Link>.</p>
-      <p><Link className="btn" to="/shop">See my readings</Link></p>
+      <p><Link className="btn" to="/shop">Explore personal readings</Link></p>
     </div>
   </div></div></Layout>
 );

@@ -20,7 +20,7 @@ export const HowItWorksPage: React.FC<HowItWorksPageProps> = ({ etsyBaseUrl }) =
             How Your Reading Works
           </h1>
           <p className="text-base sm:text-lg text-[#654D3B] font-serif-body italic leading-relaxed">
-            From submitting your questions to receiving your personalized, in-depth illustrated PDF guide and high-resolution altar photo—explained step by step.
+            From submitting your questions to receiving your personalized, in-depth illustrated PDF guide and high-resolution altar photo, explained step by step.
           </p>
         </div>
 
@@ -90,7 +90,7 @@ export const HowItWorksPage: React.FC<HowItWorksPageProps> = ({ etsyBaseUrl }) =
                 </span>
               </div>
               <h2 className="text-2xl font-display font-bold text-[#2E1E13]">
-                Receive your detailed reading in 24–48 hours
+                Receive your detailed reading within 24 to 48 hours
               </h2>
               <p className="text-sm sm:text-base text-[#57402F] leading-relaxed">
                 Within 24 to 48 hours of purchase, you will receive a message directly in your Etsy inbox with:

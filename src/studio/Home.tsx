@@ -63,9 +63,9 @@ const HeroSlider: React.FC = () => {
         <div className="wrap in hs-slide hs-a" aria-hidden={idx !== 0} inert={idx !== 0 ? (true as any) : undefined}>
           <div className="hs-copy">
             <span className="eyebrow">Tarot · Horoscopes · Readings</span>
-            <h1>Psychic and tarot readings for a clearer perspective.</h1>
+            <h1>Psychic and tarot readings for love, career and the question on your mind.</h1>
             <p className="lead">Draw a free card, read today's horoscope, or explore personal reading topics.</p>
-            <div className="cta"><Link className="btn" to="/free-tarot">Draw a free card</Link><Link className="btn ghost" to="/shop">See my readings</Link></div>
+            <div className="cta"><Link className="btn" to="/free-tarot">Draw a free card</Link><Link className="btn ghost" to="/shop">Explore personal readings</Link></div>
           </div>
           <div className="hs-wheel"><Wheel /></div>
         </div>

@@ -248,7 +248,7 @@ export const ReadingsPage: React.FC<ReadingsPageProps> = ({
           <span className="hidden sm:inline text-[#1f2322]/30">•</span>
           <span>No registration required on this website</span>
           <span className="hidden sm:inline text-[#1f2322]/30">•</span>
-          <span>Guaranteed delivery within 24–48 hours</span>
+          <span>Guaranteed delivery within 24 to 48 hours</span>
         </div>
       </div>
     </div>

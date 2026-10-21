@@ -39,7 +39,7 @@ export const SERVICES_CATEGORIES: ServiceCategory[] = [
       {
         title: 'Tarot Consultations & Spreads',
         description: 'Targeted spreads for Love, Career, Financial Abundance, and 12-Month Year Ahead forecasts.',
-        duration: 'Delivered in 24–48h'
+        duration: 'Delivered in 24 to 48 hours'
       },
       {
         title: 'Numerology & Name Correction',
@@ -150,7 +150,7 @@ export const COURSES_DATA: CourseItem[] = [
     id: 'tarot-foundations',
     category: 'tarot',
     title: 'Tarot Foundations Course',
-    tagline: 'Master the 78 cards of the Rider-Waite deck from intuition—without relying on booklets.',
+    tagline: 'Master the 78 cards of the Rider-Waite deck from intuition, without relying on booklets.',
     level: 'Beginner to Intermediate',
     duration: '4 Weeks • Live + Self-Paced',
     imageUrl: 'https://images.unsplash.com/photo-1638803040283-7a5ffd48dad5?auto=format&fit=crop&w=800&q=80',
@@ -230,7 +230,7 @@ export const FREE_TAROT_CARDS: TarotCard[] = [
     arcana: 'Major Arcana',
     image: '/tarot/the_fool.jpg',
     keywords: 'New Beginnings, Innocent Faith, Spontaneity, Leap of Trust',
-    upright: 'A fresh cycle beckons. Do not allow fear of the unknown to freeze your feet. Take the leap of faith—the universe will catch you.',
+    upright: 'A fresh cycle beckons. Do not allow fear of the unknown to freeze your feet. Take the leap of faith. The universe will catch you.',
     reversed: 'Recklessness, unnecessary risk-taking, or fear holding you back from starting an exciting journey.',
     advice: 'Embrace a beginner’s mind. Release rigid expectations and allow wonder back into your decisions.'
   },
@@ -290,7 +290,7 @@ export const FREE_TAROT_CARDS: TarotCard[] = [
     arcana: 'Major Arcana',
     image: '/tarot/the_lovers.jpg',
     keywords: 'Soul Connection, Sacred Choice, Harmony, Core Alignment',
-    upright: 'A meaningful union or pivotal crossroads. Choose with your heart and soul, not merely outward convenience.',
+    upright: 'A meaningful union or a defining crossroads. Choose with your heart and soul, not merely outward convenience.',
     reversed: 'Misalignment in values, inner conflict, communication breakdown, or rushed decisions.',
     advice: 'Ensure internal harmony before seeking external validation. Honesty in communication heals old rifts.'
   },
@@ -310,7 +310,7 @@ export const FREE_TAROT_CARDS: TarotCard[] = [
     arcana: 'Major Arcana',
     image: '/tarot/strength.jpg',
     keywords: 'Gentle Fortitude, Compassion, Taming the Ego, Inner Courage',
-    upright: 'True power does not shout or dominate—it embraces with patient compassion. You have the inner grace to navigate current pressures.',
+    upright: 'True power does not shout or dominate. It embraces with patient compassion. You have the inner grace to navigate current pressures.',
     reversed: 'Self-doubt, feeling drained, raw emotional vulnerability, or explosive impatience.',
     advice: 'Tame reactive impulses with kindness. Soft power conquers what aggressive force cannot.'
   },

@@ -44,7 +44,7 @@ write('/admin', shell('Admin | The Psychic Studio', 'Private admin area.'));
 
 const sitemap = generateSitemap(root);
 const paths = new Set([...sitemap.matchAll(/<loc>https:\/\/thepsychicstudio\.com([^<]*)<\/loc>/g)].map((m) => m[1] || '/'));
-for (const extra of ['/', '/shop', '/about', '/faq', '/contact', '/blog', '/free-tarot', '/privacy-policy', '/terms', '/cookie-policy']) paths.add(extra);
+for (const extra of ['/', '/shop', '/about', '/faq', '/contact', '/blog', '/free-tarot', '/privacy-policy', '/terms', '/cookie-policy', '/refund-policy']) paths.add(extra);
 
 const problems = [];
 let count = 0;

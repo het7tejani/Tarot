@@ -18,7 +18,7 @@ const LegalPage: React.FC<{ eyebrow: string; title: string; description: string;
 
 export const PrivacyPolicy: React.FC = () => (
   <LegalPage eyebrow="PRIVACY" title="Privacy Policy" description="What The Psychic Studio collects, why, and how to ask us to delete it. Plain language, no fine print.">
-    <p>The Psychic Studio is an online tarot and psychic reading studio run from India. This page says what we collect when you use thepsychicstudio.com, what we do with it, and how to reach us about it. The short version: we collect only what a reading needs, we never sell your data, and you can ask us to delete everything at any time.</p>
+    <p>The Psychic Studio is an online tarot and psychic reading studio run from India. The Psychic Studio is our business name, and the way to reach us is contact.thepsychicstudio@gmail.com. This page says what we collect when you use thepsychicstudio.com, what we do with it, and how to reach us about it. The short version: we collect only what a reading needs, we never sell your data, and you can ask us to delete everything at any time.</p>
     <h2>What we collect</h2>
     <p>When you send a reading inquiry or contact form, we receive your name, email address, your questions and, if you choose to share it, your date of birth. The form is delivered to our studio email through FormSubmit. When you join the free daily horoscope email, we store your email address and, if you give it, your zodiac sign. When you buy a reading, payment is handled outside this website; we never see or store your card number.</p>
     <h2>Analytics and cookies</h2>
@@ -49,8 +49,8 @@ export const Terms: React.FC = () => (
     <p>Prices are listed in US dollars on each reading page and confirmed before you pay. Payment is completed before your reading is prepared. We do not store your payment card details on this website.</p>
     <h2>Delivery</h2>
     <p>Your reading goes to the email address you give us. Check your spam folder if it has not arrived within 48 hours, then write to us at <a href={`mailto:${EMAIL}`}>{EMAIL}</a> and we will resend it. If you gave us a wrong email address, tell us and we will fix it.</p>
-    <h2>If something goes wrong</h2>
-    <p>Write to <a href={`mailto:${EMAIL}`}>{EMAIL}</a> and we will sort it out with you directly.</p>
+    <h2>Refunds</h2>
+    <p>If your reading is not delivered within 48 hours of payment, you get a full refund. Because each reading is a digital service made for you, refunds are not available after delivery. Details are on the <Link to="/refund-policy">refund policy</Link> page. For any refund request, write to <a href={`mailto:${EMAIL}`}>{EMAIL}</a>.</p>
     <h2>Fair use</h2>
     <p>Do not misuse the site: no scraping, no attempts to break in, no sending us unlawful content. We can refuse service to anyone who abuses the site or the reader.</p>
     <h2>Our content</h2>
@@ -73,5 +73,19 @@ export const CookiePolicy: React.FC = () => (
     <p>Use the "Clarity cookie settings" button at the bottom of any page to change your choice at any time. You can also clear cookies in your browser settings, which resets the banner.</p>
     <h2>More</h2>
     <p>For what we do with the rest of your information, read the <Link to="/privacy-policy">privacy policy</Link>.</p>
+  </LegalPage>
+);
+
+export const RefundPolicy: React.FC = () => (
+  <LegalPage eyebrow="REFUNDS" title="Refund Policy" description="Refund terms for digital readings from The Psychic Studio: full refund if not delivered in 48 hours.">
+    <p>Readings from The Psychic Studio are digital services, prepared by hand for each person. Our refund terms are short and firm.</p>
+    <h2>Not delivered in 48 hours</h2>
+    <p>If your reading has not reached you within 48 hours of payment, you get a full refund. Check your spam folder first; if it is not there, write to <a href={`mailto:${EMAIL}`}>{EMAIL}</a> and we will either deliver immediately or refund you, your choice.</p>
+    <h2>After delivery</h2>
+    <p>Once a reading is delivered, refunds are not available. The work is done for you alone and cannot be returned or resold. This is the standard position for digital services.</p>
+    <h2>Wrong email address</h2>
+    <p>If your reading went to a mistyped email address, that does not count as non-delivery. Write to us and we will resend it to the right address at no charge.</p>
+    <h2>How to ask</h2>
+    <p>Email <a href={`mailto:${EMAIL}`}>{EMAIL}</a> with the email address you ordered with and the date. Approved refunds go back through the original payment method within 7 working days.</p>
   </LegalPage>
 );

@@ -81,5 +81,17 @@
       "pages_affected": "35 posts (Sources removal); 12 posts had raw ** now bold; 7 posts had literal '- ' lists now real lists",
       "verified": "live curl check on being-shot-dream-meaning: no **, no Sources, disclaimer present, <strong> FAQ questions; screenshot sent to main"
     }
+  ],
+  "changes": [
+    {
+      "time": "17:20 IST",
+      "type": "site-features",
+      "summary": "Merged preview/site-features: site search, skip link, scroll progress, back-to-top, floating contact button, copy link on posts, print stylesheet, nav 8 to 5, DOB optional on inquiry form (Het approved 5:19 PM)."
+    },
+    {
+      "time": "17:20 IST",
+      "type": "legal",
+      "summary": "New pages live: /privacy-policy, /terms, /cookie-policy, linked in footer; copyright year added; vercel.json security headers (nosniff, X-Frame-Options DENY, Referrer-Policy, Permissions-Policy). Het authorized live publish 5:13 PM."
+    }
   ]
 }

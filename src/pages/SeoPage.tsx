@@ -240,36 +240,80 @@ export const SeoPage: React.FC = () => {
         {page.kind === 'hub-tarot' && <><TarotCardLibrary /><TarotStudyGuide /></>}
 
         {page.kind === 'card' && card && (
-          <>
-            <div className="grid sm:grid-cols-[160px_1fr] gap-6 items-start mb-6">
-              <TarotArtwork src={card.img} alt={`${card.name} tarot card illustration for upright and reversed meanings`} className="w-40 rounded-lg shadow-md" loading="lazy" />
-              <div>
-                <p className="text-xs uppercase tracking-widest text-[#73a89a] font-semibold mb-2">{card.arcana}{card.suit ? ` - ${card.suit}` : ''}</p>
-                {major ? <P>{major.keywords}</P> : <P>{card.name} speaks to {card.dom}. As a {card.num}, it stands for {card.up}.</P>}
+          <div className="st-card-detail">
+            <section aria-label="Card overview" className="pb-8 mb-10 border-b border-[#e4ded3]">
+              <div className="grid sm:grid-cols-[190px_1fr] gap-6 sm:gap-10 items-center">
+                <TarotArtwork src={card.img} alt={`${card.name} tarot card illustration for upright and reversed meanings`} className="w-44 sm:w-full rounded-md shadow-lg mx-auto" loading="lazy" />
+                <div>
+                  <p className="text-xs uppercase tracking-[0.18em] text-[#4a3560] font-semibold mb-3">{card.arcana}{card.suit ? ` - ${card.suit}` : ''}</p>
+                  {major ? (
+                    <p className="text-base text-[#1b1a17] font-medium">{major.keywords}</p>
+                  ) : <P>{card.name} speaks to {card.dom}. As a {card.num}, it stands for {card.up}.</P>}
+                </div>
               </div>
+            </section>
+            {reflection && (
+              <section aria-label="Card at a glance" className="mb-12">
+                <h2 className="text-xs uppercase tracking-[0.18em] text-[#4a3560] font-semibold mb-4">{card.name} at a glance</h2>
+                <dl className="grid sm:grid-cols-3 gap-6 text-sm leading-relaxed">
+                  <div className="border-t-2 border-[#1b1a17] pt-3"><dt className="text-xs uppercase tracking-widest text-[#4a3560] font-semibold mb-1">Upright theme</dt><dd>{reflection.theme}.</dd></div>
+                  <div className="border-t-2 border-[#1b1a17] pt-3"><dt className="text-xs uppercase tracking-widest text-[#4a3560] font-semibold mb-1">Reversed theme</dt><dd>{reflection.challenge}.</dd></div>
+                  <div className="border-t-2 border-[#1b1a17] pt-3"><dt className="text-xs uppercase tracking-widest text-[#4a3560] font-semibold mb-1">Card group and number</dt><dd>{reflection.group} · {reflection.number}{reflection.element ? ` · ${reflection.element}` : ''}</dd></div>
+                </dl>
+              </section>
+            )}
+            <div className="grid sm:grid-cols-2 gap-x-10 gap-y-10 mb-12">
+              <section aria-label={`${card.name} upright meaning`} className="border-t-2 border-[#1b1a17] pt-4">
+                <p className="text-xs uppercase tracking-[0.18em] text-[#4a3560] font-semibold mb-2">Upright</p>
+                <h2 className="text-2xl font-semibold mb-3 text-[#1b1a17]">{card.name} upright</h2>
+                <P>{reflection ? reflection.theme + ". " + reflection.prompt : major ? major.upright : `Upright, the ${card.name} points to ${card.up}, in the area of ${card.dom}.`}</P>
+                {reflection && !lore && <P>{reflection.theme}. Think about where this theme is already present rather than waiting for the card to make something happen. In an advice position, it asks how you could respond deliberately; in a challenge position, it may describe something that needs more attention. {reflection.prompt}</P>}
+              </section>
+              <section aria-label={`${card.name} reversed meaning`} className="border-t border-[#e4ded3] pt-4">
+                <p className="text-xs uppercase tracking-[0.18em] text-[#4a3560] font-semibold mb-2">Reversed</p>
+                <h2 className="text-2xl font-semibold mb-3 text-[#1b1a17]">{card.name} reversed</h2>
+                <P>{reflection ? reflection.challenge + ". " + "Consider whether the theme is blocked, excessive or asking for a different response." : major?.reversed ? major.reversed : card.rev ? `Reversed, the ${card.name} can point to ${card.rev}.` : 'Reversed, look at where this energy is blocked or overdone.'}</P>
+                {lore ? <P>{lore[3]}</P> : reflection && <P>{reflection.challenge}. A reversed card is not automatically the opposite of the upright meaning. It can bring attention to the same theme being blocked, exaggerated or directed inward. Check which possibility matches your situation and which relies on an assumption.</P>}
+              </section>
+              <section aria-label={`${card.name} in love`} className="border-t border-[#e4ded3] pt-4">
+                <p className="text-xs uppercase tracking-[0.18em] text-[#4a3560] font-semibold mb-2">Love</p>
+                <h2 className="text-2xl font-semibold mb-3 text-[#1b1a17]">{card.name} in love</h2>
+                <P>{lore ? lore[1] : details ? details.love : card.suit === 'Cups' ? `As a Cups card, the ${card.name} puts feelings and connection in front. Ask what you truly feel and what you need to hear.` : `In a love question, ask how the themes of the ${card.name} show up in how you and your partner talk, trust and commit.`}</P>
+                {reflection && !lore && <P>For a relationship question, start with this reflection: {reflection.prompt} Consider both your needs and the other person's stated needs. If you are single, apply the theme to the kind of connection you want to build. If you are partnered, use it to start a direct conversation. The card cannot confirm another person's private feelings.</P>}
+              </section>
+              <section aria-label={`${card.name} in career`} className="border-t border-[#e4ded3] pt-4">
+                <p className="text-xs uppercase tracking-[0.18em] text-[#4a3560] font-semibold mb-2">Career</p>
+                <h2 className="text-2xl font-semibold mb-3 text-[#1b1a17]">{card.name} in career</h2>
+                <P>{lore ? lore[2] : details ? details.career : card.suit === 'Pentacles' ? `As a Pentacles card, the ${card.name} speaks directly to work, money and effort. Look at what is practical and sustainable.` : `At work, ask where the ${card.name} shows up in your goals, your team and your habits.`}</P>
+                {reflection && !lore && <P>For work or money questions, {reflection.theme.toLowerCase()} can help you review your approach. Look at the resources, commitments and facts of the situation before changing direction. {reflection.prompt} This is a reflection tool, not a financial forecast or investment recommendation.</P>}
+              </section>
             </div>
-            {reflection && <section aria-label="Card at a glance" className="rounded-xl border border-[#1f2322]/10 bg-white/40 p-5 my-6"><h2 className="text-xl font-semibold mb-3">{card.name} at a glance</h2><dl className="space-y-3 text-sm leading-relaxed"><div><dt className="font-semibold">Upright theme</dt><dd>{reflection.theme}.</dd></div><div><dt className="font-semibold">Reversed theme</dt><dd>{reflection.challenge}.</dd></div><div><dt className="font-semibold">Card group and number</dt><dd>{reflection.group} · {reflection.number}{reflection.element ? ` · ${reflection.element}` : ''}</dd></div></dl></section>}
-            <H2>{card.name} upright</H2>
-            <P>{reflection ? reflection.theme + ". " + reflection.prompt : major ? major.upright : `Upright, the ${card.name} points to ${card.up}, in the area of ${card.dom}.`}</P>
-            {reflection && !lore && <P>{reflection.theme}. Think about where this theme is already present rather than waiting for the card to make something happen. In an advice position, it asks how you could respond deliberately; in a challenge position, it may describe something that needs more attention. {reflection.prompt}</P>}
-            <H2>{card.name} reversed</H2>
-            <P>{reflection ? reflection.challenge + ". " + "Consider whether the theme is blocked, excessive or asking for a different response." : major?.reversed ? major.reversed : card.rev ? `Reversed, the ${card.name} can point to ${card.rev}.` : 'Reversed, look at where this energy is blocked or overdone.'}</P>
-            {lore ? <P>{lore[3]}</P> : reflection && <P>{reflection.challenge}. A reversed card is not automatically the opposite of the upright meaning. It can bring attention to the same theme being blocked, exaggerated or directed inward. Check which possibility matches your situation and which relies on an assumption.</P>}
-            <H2>{card.name} in love</H2>
-            <P>{lore ? lore[1] : details ? details.love : card.suit === 'Cups' ? `As a Cups card, the ${card.name} puts feelings and connection in front. Ask what you truly feel and what you need to hear.` : `In a love question, ask how the themes of the ${card.name} show up in how you and your partner talk, trust and commit.`}</P>
-            {reflection && !lore && <P>For a relationship question, start with this reflection: {reflection.prompt} Consider both your needs and the other person's stated needs. If you are single, apply the theme to the kind of connection you want to build. If you are partnered, use it to start a direct conversation. The card cannot confirm another person's private feelings.</P>}
-            <H2>{card.name} in career</H2>
-            <P>{lore ? lore[2] : details ? details.career : card.suit === 'Pentacles' ? `As a Pentacles card, the ${card.name} speaks directly to work, money and effort. Look at what is practical and sustainable.` : `At work, ask where the ${card.name} shows up in your goals, your team and your habits.`}</P>
-            {reflection && !lore && <P>For work or money questions, {reflection.theme.toLowerCase()} can help you review your approach. Look at the resources, commitments and facts of the situation before changing direction. {reflection.prompt} This is a reflection tool, not a financial forecast or investment recommendation.</P>}
-            {reflection && <><H2>Advice and a journal prompt</H2><P>{reflection.prompt} Write down the part of the card that feels relevant, then name one action that stays within your control. Compare that action with what you would choose without the reading; the card should help you think, not take the decision away from you.</P><H2>{card.name}: yes or no?</H2><P>Tarot traditions do not share one fixed yes/no answer for every card. For {card.name}, consider whether the theme of {reflection.theme.toLowerCase()} supports the step you are considering. The reversed theme may suggest a condition to address first. A card is not reliable evidence that an event will happen.</P><H2>Common questions about {card.name}</H2><div className="space-y-5"><div><h3 className="text-lg font-semibold">What does {card.name} mean in a reading?</h3><P>{reflection.theme}. Read that theme with your question, the card's position and the surrounding cards. There is no single interpretation that fits every situation.</P></div><div><h3 className="text-lg font-semibold">Is {card.name} reversed a bad sign?</h3><P>No. Its reversed reflection is {reflection.challenge.toLowerCase()}. Use that as a question about your situation, not a judgment or a guaranteed prediction.</P></div><div><h3 className="text-lg font-semibold">Can {card.name} tell me how someone feels?</h3><P>It can help you reflect on relationship themes, but it cannot verify another person's thoughts or intentions. Ask directly and pay attention to their words and actions.</P></div></div></>}
+            {reflection && (
+              <>
+                <section aria-label="Advice and journal prompt" className="border-t-2 border-[#1b1a17] pt-4 mb-10">
+                  <h2 className="text-2xl font-semibold mb-3 text-[#1b1a17]">Advice and a journal prompt</h2>
+                  <P>{reflection.prompt} Write down the part of the card that feels relevant, then name one action that stays within your control. Compare that action with what you would choose without the reading; the card should help you think, not take the decision away from you.</P>
+                </section>
+                <section aria-label="Yes or no" className="border-t border-[#e4ded3] pt-4 mb-12">
+                  <h2 className="text-2xl font-semibold mb-3 text-[#1b1a17]">{card.name}: yes or no?</h2>
+                  <P>Tarot traditions do not share one fixed yes/no answer for every card. For {card.name}, consider whether the theme of {reflection.theme.toLowerCase()} supports the step you are considering. The reversed theme may suggest a condition to address first. A card is not reliable evidence that an event will happen.</P>
+                </section>
+                <h2 className="text-2xl font-semibold mt-12 mb-5 text-[#1b1a17]">Common questions about {card.name}</h2>
+                <div className="grid sm:grid-cols-3 gap-6 mb-8">
+                  <div className="border-t border-[#e4ded3] pt-3"><h3 className="text-base font-semibold mb-2 text-[#1b1a17]">What does {card.name} mean in a reading?</h3><P>{reflection.theme}. Read that theme with your question, the card's position and the surrounding cards. There is no single interpretation that fits every situation.</P></div>
+                  <div className="border-t border-[#e4ded3] pt-3"><h3 className="text-base font-semibold mb-2 text-[#1b1a17]">Is {card.name} reversed a bad sign?</h3><P>No. Its reversed reflection is {reflection.challenge.toLowerCase()}. Use that as a question about your situation, not a judgment or a guaranteed prediction.</P></div>
+                  <div className="border-t border-[#e4ded3] pt-3"><h3 className="text-base font-semibold mb-2 text-[#1b1a17]">Can {card.name} tell me how someone feels?</h3><P>It can help you reflect on relationship themes, but it cannot verify another person's thoughts or intentions. Ask directly and pay attention to their words and actions.</P></div>
+                </div>
+              </>
+            )}
             {details && <><H2>Symbolism and the card's message</H2><P>{details.symbolism}</P><P>{details.question}</P></>}
             {lore && <><H2>Symbolism and imagery</H2><P>{lore[0]}</P></>}
             {lore && card && card.arcana !== 'Major Arcana' && (() => { const x = minorExtra(card.slug, card.name); return x ? <><H2>Meaning in practice</H2><P>{x[0]}</P><P>{x[1]}</P><P>{x[2]}</P></> : null; })()}
             {!details && <><H2>Reading this card in a spread</H2><P>Compare {card.name} with the question you asked and the position it occupies. A card describing a challenge may invite a different reflection from the same card in an advice position. Notice the surrounding cards before settling on an interpretation.</P></>}
             {card.arcana === 'Major Arcana' && MAJOR_PRACTICE[card.slug] && <><H2>A practical example for {card.name}</H2><P>{MAJOR_PRACTICE[card.slug][0]}</P><H2>A useful card comparison</H2><P>{MAJOR_PRACTICE[card.slug][1]}</P><LinkGrid paths={CARD_PAGES.filter(c => c.card && c.card.slug !== card.slug && MAJOR_PRACTICE[card.slug][1].toLowerCase().includes(c.card.name.toLowerCase())).map(c => c.path)} /></>}
-            {companionPosts.length > 0 && <section><H2>Related reflections from the journal</H2><ul className="space-y-3">{companionPosts.map(p => <li key={p.slug}><Link to={`/blog/${p.slug}`} className="underline underline-offset-4">{p.title}</Link></li>)}</ul></section>}
-            {major && (<><h3 className="text-lg font-semibold mt-6 mb-2">A question to reflect on</h3><P>{major.advice}</P></>)}
-          </>
+            {companionPosts.length > 0 && <section><H2>Related reflections from the journal</H2><ul className="space-y-2">{companionPosts.map(p => <li key={p.slug}><Link to={`/blog/${p.slug}`} className="underline underline-offset-4 decoration-[#d8d0e2] hover:decoration-[#4a3560]">{p.title}</Link></li>)}</ul></section>}
+            {major && (<div className="border-l-2 border-[#4a3560] pl-5 mt-10"><h3 className="text-lg font-semibold mb-2 text-[#1b1a17]">A question to reflect on</h3><P>{major.advice}</P></div>)}
+          </div>
         )}
 
         <SearchGuidance path={page.path} />

@@ -488,3 +488,14 @@ header .nav a.on,header a[aria-current=page]{color:#846019!important}
 .st-ask-done h3{margin:0 0 8px}
 .st-ask-done p{margin:0;color:var(--ink2);font-size:15px}
 #ask-about-reading{scroll-margin-top:96px}
+
+/* Editorial restyle: journal article pages (Oct 21, pending Het approval). Plum and ink on warm white, hairlines instead of pastel fills. */
+.st-journal-article{--leaf:#4a3560;--leaf-d:#33244a;--leaf-l:#d8d0e2;--sage:#f5f2ee;--paper:#fdfcfa;--paper2:#f6f3ee;--ink:#1b1a17;--ink2:#57544d;--line:#e4ded3}
+.st-journal-article .st-journal-article-head h1{font-style:normal;letter-spacing:-.02em;color:var(--ink)}
+.st-journal-article .st-journal-copy h2,.st-journal-article .st-journal-copy h3{color:var(--ink)}
+.st-journal-article .st-journal-toc{border-left-color:var(--line)}
+.st-journal-article .st-journal-note{border-left:none;border-top:1px solid var(--line);background:transparent;color:var(--ink2);font-size:13px;padding:16px 0 0;line-height:1.6}
+.st-journal-article .st-journal-copy strong{color:var(--ink);font-weight:600}
+.st-journal-article .st-journal-copy ul,.st-journal-article .st-journal-copy ol{margin:0 0 22px;padding-left:22px}
+.st-journal-article .st-journal-copy li{margin-bottom:8px}
+.st-journal-article .st-journal-copy blockquote{border-left:2px solid var(--leaf);padding-left:18px;color:var(--ink);font-style:italic;margin:0 0 22px}

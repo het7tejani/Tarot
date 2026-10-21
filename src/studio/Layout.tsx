@@ -88,7 +88,12 @@ export const Layout: React.FC<{ children: React.ReactNode; seo?: boolean }> = ({
           <a href="https://www.quora.com/profile/The-Psychic-Studio" target="_blank" rel="noopener noreferrer" style={{ display: "inline-flex", alignItems: "center", gap: 8, minHeight: 44, fontSize: 13 }}><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M7.3799.9483A11.9628 11.9628 0 0 1 21.248 19.5397l2.4096 2.4225c.7322.7362.21 1.9905-.8272 1.9905l-10.7105.01a12.52 12.52 0 0 1-.304 0h-.02A11.9628 11.9628 0 0 1 7.3818.9503Zm7.3217 4.428a7.1717 7.1717 0 1 0-5.4873 13.2512 7.1717 7.1717 0 0 0 5.4883-13.2511Z" /></svg>Quora</a>
           <a href="https://www.trustpilot.com/review/thepsychicstudio.com" target="_blank" rel="noopener noreferrer" style={{ display: "inline-flex", alignItems: "center", gap: 8, minHeight: 44, fontSize: 13 }}><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 1.5l3.09 7.2 7.41.6-5.6 5.1 1.7 7.6L12 17.9l-6.6 4.1 1.7-7.6-5.6-5.1 7.41-.6z" /></svg>Trustpilot</a>
         </nav>
-        <small>© The Psychic Studio. For entertainment and personal reflection only; not medical, legal or financial advice.</small>
+        <nav aria-label="Legal" className="st-legal" style={{ marginTop: 18, display: "flex", gap: 20, flexWrap: "wrap", fontSize: 13 }}>
+          <Link to="/privacy-policy">Privacy policy</Link>
+          <Link to="/terms">Terms and conditions</Link>
+          <Link to="/cookie-policy">Cookie policy</Link>
+        </nav>
+        <small>© 2026 The Psychic Studio. For entertainment and personal reflection only; not medical, legal or financial advice.</small>
       </div></footer>
       <BackToTop />
       <Link to="/contact" className="st-float-contact" aria-label="Ask a question"><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z" /></svg><span>Ask us</span></Link>

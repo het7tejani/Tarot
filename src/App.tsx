@@ -9,6 +9,9 @@ const ReadingDetail=lazy(()=>import('./studio/ReadingDetail').then(m=>({default:
 const About=page('About'),Contact=page('Contact'),Blog=page('Blog'),BlogPost=page('BlogPostPage'),Faq=page('Faq');
 const Free=lazy(()=>import('./pages/FreeTarotPage').then(m=>({default:m.FreeTarotPage})));
 const NotFound=page('NotFound');
+const PrivacyPolicy=lazy(()=>import('./studio/Legal').then(m=>({default:m.PrivacyPolicy})));
+const Terms=lazy(()=>import('./studio/Legal').then(m=>({default:m.Terms})));
+const CookiePolicy=lazy(()=>import('./studio/Legal').then(m=>({default:m.CookiePolicy})));
 const Seo=lazy(()=>import('./pages/SeoPage').then(m=>({default:m.SeoPage})));
 const Layout=lazy(()=>import('./studio/Layout').then(m=>({default:m.Layout})));
 export default function App(){return <Suspense fallback={null}><Routes>
@@ -17,5 +20,6 @@ export default function App(){return <Suspense fallback={null}><Routes>
 <Route path="/admin" element={<Admin/>}/><Route path="/blog" element={<Blog/>}/><Route path="/blog/:slug" element={<BlogPost/>}/>
 <Route path="/free-tarot" element={<Layout seo={false}><Free/></Layout>}/>
 {SEO_ROUTE_PATHS.map(path=><Route key={path} path={path} element={<Layout seo={false}><Seo/></Layout>}/>)}
+<Route path="/privacy-policy" element={<PrivacyPolicy/>}/><Route path="/terms" element={<Terms/>}/><Route path="/cookie-policy" element={<CookiePolicy/>}/>
 <Route path="*" element={<NotFound/>}/>
 </Routes></Suspense>}

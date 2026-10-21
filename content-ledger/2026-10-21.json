@@ -1,56 +1,72 @@
 {
- "date": "2026-10-21",
- "posts": [
-  {
-   "slug": "dragonfly-visits-spiritual-meaning",
-   "keyword": "what does it mean when a dragonfly visits you",
-   "evidence": "purplegarden pos 5, vol 480, KD 26",
-   "hero": "35660809",
-   "inline": [
-    "18021324",
-    "131092"
-   ],
-   "source": "mentalfloss.com/culture/folklore-mythology/dragonflies-spiritual-meaning"
+  "date": "2026-10-21",
+  "posts": [
+    {
+      "slug": "dragonfly-visits-spiritual-meaning",
+      "keyword": "what does it mean when a dragonfly visits you",
+      "evidence": "purplegarden pos 5, vol 480, KD 26",
+      "hero": "35660809",
+      "inline": [
+        "18021324",
+        "131092"
+      ],
+      "source": "mentalfloss.com/culture/folklore-mythology/dragonflies-spiritual-meaning"
+    },
+    {
+      "slug": "127-angel-number-meaning",
+      "keyword": "angel number 127",
+      "evidence": "kasamba pos 6, vol 390, KD 9",
+      "hero": "33322288",
+      "inline": [
+        "30419150",
+        "28553956"
+      ],
+      "source": "astrology.com/numerology/angel-numbers/127-meaning"
+    },
+    {
+      "slug": "baby-staring-spiritual-meaning",
+      "keyword": "what does it mean when a baby stares at you",
+      "evidence": "purplegarden pos 6, vol 590, KD 26",
+      "hero": "39976910",
+      "inline": [
+        "18794423",
+        "20737259"
+      ],
+      "source": "bbc.co.uk/tiny-happy-people/articles/zg4sjfr"
+    }
+  ],
+  "photos": {
+    "35660809": "pexels",
+    "18021324": "pexels",
+    "131092": "pexels",
+    "39976910": "pexels",
+    "18794423": "pexels",
+    "20737259": "pexels",
+    "33322288": "pexels",
+    "30419150": "pexels",
+    "28553956": "pexels"
   },
-  {
-   "slug": "127-angel-number-meaning",
-   "keyword": "angel number 127",
-   "evidence": "kasamba pos 6, vol 390, KD 9",
-   "hero": "33322288",
-   "inline": [
-    "30419150",
-    "28553956"
-   ],
-   "source": "astrology.com/numerology/angel-numbers/127-meaning"
-  },
-  {
-   "slug": "baby-staring-spiritual-meaning",
-   "keyword": "what does it mean when a baby stares at you",
-   "evidence": "purplegarden pos 6, vol 590, KD 26",
-   "hero": "39976910",
-   "inline": [
-    "18794423",
-    "20737259"
-   ],
-   "source": "bbc.co.uk/tiny-happy-people/articles/zg4sjfr"
-  }
- ],
- "photos": {
-  "35660809": "pexels",
-  "18021324": "pexels",
-  "131092": "pexels",
-  "39976910": "pexels",
-  "18794423": "pexels",
-  "20737259": "pexels",
-  "33322288": "pexels",
-  "30419150": "pexels",
-  "28553956": "pexels"
- },
- "seo_changes": [
-  {
-   "time": "2026-10-21T13:31 IST",
-   "change": "Zodiac depth batch: added 3 sections (strengths and blind spots, sign-and-tarot with card+horoscope+compatibility links, living well) to all 12 /zodiac/* pages, ~390 -> ~650 words each.",
-   "reason": "Het feedback: impressions weak vs category volume. Zodiac pages earn most impressions (aries 183/28d) at position 70+; thin content is a likely position factor. Gap analysis Oct 21."
-  }
- ]
+  "seo_changes": [
+    {
+      "time": "2026-10-21T13:31 IST",
+      "change": "Zodiac depth batch: added 3 sections (strengths and blind spots, sign-and-tarot with card+horoscope+compatibility links, living well) to all 12 /zodiac/* pages, ~390 -> ~650 words each.",
+      "reason": "Het feedback: impressions weak vs category volume. Zodiac pages earn most impressions (aries 183/28d) at position 70+; thin content is a likely position factor. Gap analysis Oct 21."
+    },
+    {
+      "type": "new_page",
+      "url": "https://thepsychicstudio.com/zodiac-sign-dates",
+      "commit": "9024ece",
+      "reason": "GSC 7-day query data shows a large date-zodiac cluster ('what zodiac sign is <date>', '<month day> zodiac sign', 'zodiac sign dates') with several queries already at positions 4-11 and no dedicated page; created visible page per main instruction (Oct 21 3:09 PM) to target position-30+ and near-miss queries with real content",
+      "targets": [
+        "zodiac sign dates",
+        "what zodiac sign is",
+        "star sign dates",
+        "zodiac dates",
+        "what is my zodiac sign",
+        "zodiac sign by birthday"
+      ],
+      "content": "date grid of all 12 signs linking to /zodiac/<sign>, find-your-sign-by-birthday explainer, cusp section linking /birth-chart, why dates differ, more-than-a-sun-sign linking /zodiac and /horoscope; inbound link added from /zodiac hub",
+      "indexing": "GSC request queued for tomorrow (quota exhausted today)"
+    }
+  ]
 }

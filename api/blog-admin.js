@@ -7,12 +7,15 @@ const secureEquals=(a,b)=>{const x=Buffer.from(a),y=Buffer.from(b);return x.leng
 function sessionToken(secret){const payload=Buffer.from(JSON.stringify({exp:Date.now()+8*60*60*1000})).toString('base64url');return payload+'.'+crypto.createHmac('sha256',secret).update(payload).digest('base64url')}
 function validSession(req,secret){const token=(req.headers.cookie||'').split(';').map(c=>c.trim()).find(c=>c.startsWith(cookieName+'='))?.slice(cookieName.length+1);if(!token)return false;const [payload,signature]=token.split('.');if(!payload||!signature||!secureEquals(signature,crypto.createHmac('sha256',secret).update(payload).digest('base64url')))return false;try{return JSON.parse(Buffer.from(payload,'base64url').toString()).exp>Date.now()}catch{return false}}
 function decodePost(file){const raw=Buffer.from(file.content,'base64').toString('utf8').replace(/\r\n/g,'\n');const m=raw.match(/^---\n([\s\S]*?)\n---\n?([\s\S]*)$/);const field=k=>{const v=m?.[1].match(new RegExp('^'+k+':\\s*(.*?)\\s*$','m'))?.[1]||'';if(v.startsWith('"')){try{return JSON.parse(v)}catch{}}return v.replace(/^'|'$/g,'')};return {slug:file.name.replace(/\.md$/,''),title:field('title'),category:field('category'),date:field('date'),excerpt:field('excerpt'),metaTitle:field('metaTitle'),coverImage:field('coverImage'),content:m?.[2].trim()||raw,published:field('published')!=='false',sha:file.sha,raw}}
+const RATE_WINDOW_MS=60000,RATE_MAX=10,hits=new Map();
+function rateLimited(req){const ip=(req.headers['x-forwarded-for']||'').split(',')[0].trim()||'anon';const now=Date.now();const recent=(hits.get(ip)||[]).filter(t=>now-t<RATE_WINDOW_MS);if(recent.length>=RATE_MAX)return true;recent.push(now);hits.set(ip,recent);return false}
 export default async function handler(req,res){
  res.setHeader('Cache-Control','no-store');res.setHeader('X-Robots-Tag','noindex, nofollow');
  const send=(status,value)=>res.status(status).json(value);
  if(req.method!=='POST')return send(405,{error:'Use POST.'});
  const expectedOrigin=process.env.CMS_ORIGIN||'https://thepsychicstudio.com';
  if(req.headers.origin!==expectedOrigin)return send(403,{error:'This request did not come from the admin site.'});
+ if(rateLimited(req))return send(429,{error:'Too many attempts. Wait a minute and try again.'});
  const password=process.env.CMS_ADMIN_PASSWORD;
  const hash=process.env.CMS_PASSWORD_HASH,secret=process.env.CMS_SESSION_SECRET,token=process.env.CMS_GITHUB_TOKEN;
  if((!hash&&!password)||!secret||!token)return send(503,{error:'Admin setup is not complete. No changes have been made.'});

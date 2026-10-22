@@ -36,10 +36,10 @@
     banner.hidden = choice === 'accepted' || choice === 'rejected';
     banner.querySelectorAll('[data-choice]').forEach(function (b) { b.addEventListener('click', function () { decide(b.dataset.choice); }); });
     document.body.appendChild(banner);
-    var settings = document.createElement('button');
-    settings.type = 'button'; settings.id = 'studio-cookie-settings'; settings.textContent = 'Clarity cookie settings';
-    settings.addEventListener('click', function () { banner.hidden = false; banner.querySelector('button').focus(); });
-    document.body.appendChild(settings);
+    document.addEventListener('click', function (e) {
+      var t = e.target && e.target.closest ? e.target.closest('[data-cookie-settings]') : null;
+      if (t) { e.preventDefault(); banner.hidden = false; banner.querySelector('button').focus(); }
+    });
     if (choice === 'accepted') startClarity();
   }
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', mount, { once: true }); else mount();

@@ -540,3 +540,10 @@ header .nav a.on,header a[aria-current=page]{color:#846019!important}
 .st-journal-article .st-journal-copy li{margin-bottom:8px}
 .st-journal-article .st-journal-copy blockquote{border-left:2px solid var(--leaf);padding-left:18px;color:var(--ink);font-style:italic;margin:0 0 22px}
 .st-sign-orbit .st-sign-drawing{background:var(--paper2);border-radius:12px}
+
+/* Quick free-tarot CTA near top of zodiac/horoscope pages (Clarity fix, Oct 22) */
+.st-quick-cta{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin:0 0 28px;padding:14px 18px;border:1px solid #1f232214;border-radius:14px;background:#fffdf7}
+.st-quick-cta-btn{display:inline-flex;align-items:center;min-height:44px;padding:10px 20px;border-radius:999px;background:#1f2322;color:#fff;font-weight:600;font-size:14px;text-decoration:none}
+.st-quick-cta-btn:hover{background:#4a3560}
+.st-quick-cta-note{font-size:13px;color:#1f232299}
+@media(max-width:600px){.st-quick-cta{flex-direction:column;align-items:stretch;text-align:center}.st-quick-cta-btn{justify-content:center}}

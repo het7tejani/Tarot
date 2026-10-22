@@ -93,6 +93,7 @@ export const SeoPage: React.FC = () => {
   const N = sign ? cap(sign.n) : '';
 
   const isHoroscope = page.path === '/horoscope' || page.kind === 'horoscope';
+  const ctaIcon = <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" aria-hidden="true"><rect x="5" y="3" width="14" height="18" rx="2.5"/><path d="M12 7.2l1.15 2.3 2.5.36-1.8 1.76.43 2.5L12 13.05l-2.24 1.17.42-2.5-1.8-1.76 2.5-.36z" fill="currentColor" stroke="none"/></svg>;
   const card = page.card;
   const reflection = card ? CARD_REFLECTIONS[card.slug] : undefined;
   const details = card ? PRIORITY_CARD_DETAILS[card.slug] : undefined;
@@ -114,8 +115,8 @@ export const SeoPage: React.FC = () => {
             {sign && <div className="st-sign-meta"><span>{sign.dates}</span><span>{sign.el}</span><span>{sign.ruler}</span></div>}
             {page.path === '/horoscope' && <a className="btn ghost" href="#your-sign">Find your sign ↓</a>}
             {isHoroscope && (
-              <div className="st-quick-cta">
-                <Link to="/free-tarot" className="st-quick-cta-btn">Free tarot reading: draw 1 or 3 cards</Link>
+              <div className="st-quick-cta v-gold">
+                <Link to="/free-tarot" className="st-quick-cta-btn">{ctaIcon}Free tarot reading: draw 1 or 3 cards</Link>
                 <span className="st-quick-cta-note">No sign-up, takes under a minute.</span>
               </div>
             )}
@@ -123,8 +124,8 @@ export const SeoPage: React.FC = () => {
           {isHoroscope && (sign ? <div className="st-sign-orbit" aria-hidden="true"><img className="st-sign-drawing" src={`/perf-assets/signs/${sign.n}.svg`} alt="" width={340} height={423} loading="eager" fetchPriority="high" decoding="async" /><span className="st-orbit-label">{N}</span></div> : <div className="st-wheel-slice st-hand-slice"><ZodiacArc /></div>)}
         </div>
         {(page.kind === 'zodiac' || page.kind === 'dates') && (
-          <div className="st-quick-cta">
-            <Link to="/free-tarot" className="st-quick-cta-btn">Free tarot reading: draw 1 or 3 cards</Link>
+          <div className="st-quick-cta v-gold">
+            <Link to="/free-tarot" className="st-quick-cta-btn">{ctaIcon}Free tarot reading: draw 1 or 3 cards</Link>
             <span className="st-quick-cta-note">No sign-up, takes under a minute.</span>
           </div>
         )}

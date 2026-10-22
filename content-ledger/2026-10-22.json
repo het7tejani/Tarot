@@ -84,17 +84,20 @@
   },
   "security_changes": [
     "Rate limiting on admin CMS endpoints live (commit 14c7fb1): 10 req/min per IP on /api/auth and /api/blog-admin, verified on production (429 after burst, 401 wrong-password intact, wrong-origin 403 unaffected).",
-    "CSP as Content-Security-Policy-Report-Only on branch preview/clarity-fixes (commit 75927b9) with /api/csp-report collector; zero violations across 7 representative pages in local check; enforce only after real-traffic reports are clean."
+    "CSP as Content-Security-Policy-Report-Only on branch preview/clarity-fixes (commit 75927b9) with /api/csp-report collector; zero violations across 7 representative pages in local check; enforce only after real-traffic reports are clean.",
+    "CSP report-only now live with the merge; /api/csp-report collector deployed. Watch Vercel function logs for violations before enforcing."
   ],
-  "clarity_fixes_pending_approval": {
+  "clarity_fixes_live": {
     "branch": "preview/clarity-fixes",
     "commit": "75927b9",
-    "status": "awaiting Het approval of screenshots via main",
+    "status": "LIVE on main (merge 3cfe514, deployed and pixel-verified ~14:15 IST)",
     "items": [
       "Free-tarot CTA near top above the fold on zodiac/horoscope pages",
       "Home breadcrumb 44px tappable",
       "Smaller cookie consent card, floating pill removed (footer Cookie settings link reopens banner)",
-      "Card library and study guide above long text on /tarot-card-meanings hub"
+      "Card library and study guide above long text on /tarot-card-meanings hub",
+      "CTA design: Het picked C minimal gold pill (WhatsApp 2:02 PM), variants A/B removed",
+      "Floating overlap: Ask us + back-to-top hidden while cookie banner shows"
     ],
     "note": "Header/nav untouched per main instruction."
   }

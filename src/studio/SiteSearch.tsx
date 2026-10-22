@@ -61,10 +61,11 @@ export const SiteSearch: React.FC = () => {
       <div className={`st-search-panel${open ? ' open' : ''}`} role="dialog" aria-label="Site search" aria-hidden={!open}>
         <div className="st-drawer-head">
           <span>Search the site</span>
-          <button type="button" className="st-drawer-x" aria-label="Close search" onClick={close}>&times;</button>
+          <button type="button" className="st-drawer-x" aria-label="Close search" tabIndex={open ? 0 : -1} onClick={close}>&times;</button>
         </div>
         <input
             ref={inputRef}
+          tabIndex={open ? 0 : -1}
             value={q}
             onChange={(e) => setQ(e.target.value)}
             placeholder="Search readings, cards, articles"

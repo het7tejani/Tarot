@@ -93,6 +93,7 @@ export const Layout: React.FC<{ children: React.ReactNode; seo?: boolean }> = ({
           <Link to="/terms">Terms and conditions</Link>
           <Link to="/cookie-policy">Cookie policy</Link>
           <Link to="/refund-policy">Refund policy</Link>
+          <a href="/cookie-policy" data-cookie-settings>Cookie settings</a>
         </nav>
         <small>© 2026 The Psychic Studio. For entertainment and personal reflection only; not medical, legal or financial advice.</small>
       </div></footer>

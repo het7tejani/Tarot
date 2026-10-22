@@ -93,6 +93,7 @@ export const SeoPage: React.FC = () => {
   const N = sign ? cap(sign.n) : '';
 
   const isHoroscope = page.path === '/horoscope' || page.kind === 'horoscope';
+  const ctaIcon = <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" aria-hidden="true"><rect x="5" y="3" width="14" height="18" rx="2.5"/><path d="M12 7.2l1.15 2.3 2.5.36-1.8 1.76.43 2.5L12 13.05l-2.24 1.17.42-2.5-1.8-1.76 2.5-.36z" fill="currentColor" stroke="none"/></svg>;
   const card = page.card;
   const reflection = card ? CARD_REFLECTIONS[card.slug] : undefined;
   const details = card ? PRIORITY_CARD_DETAILS[card.slug] : undefined;
@@ -105,7 +106,7 @@ export const SeoPage: React.FC = () => {
     <div className={`pt-32 pb-24 bg-[#FAF8F5] min-h-screen text-[#1f2322] ${isHoroscope ? "st-astro-page" : "st-editorial"}`}>
       <SEOHead title={page.title.includes("| The Psychic Studio") ? page.title : `${page.title} | The Psychic Studio`} description={SEARCH_SNIPPETS[page.path]?.meta || page.meta} schema={reflection && card ? {'@context':'https://schema.org','@type':'FAQPage',mainEntity:[{'@type':'Question',name:`What does ${card.name} mean in a reading?`,acceptedAnswer:{'@type':'Answer',text:`${reflection.theme}. Read that theme with your question, the card's position and the surrounding cards. There is no single interpretation that fits every situation.`}},{'@type':'Question',name:`Is ${card.name} reversed a bad sign?`,acceptedAnswer:{'@type':'Answer',text:`No. Its reversed reflection is ${reflection.challenge.toLowerCase()}. Use that as a question about your situation, not a judgment or a guaranteed prediction.`}},{'@type':'Question',name:`Can ${card.name} tell me how someone feels?`,acceptedAnswer:{'@type':'Answer',text:"It can help you reflect on relationship themes, but it cannot verify another person's thoughts or intentions. Ask directly and pay attention to their words and actions."}}]} : undefined} canonicalUrl={page.path} />
       <div className={`mx-auto px-4 sm:px-6 lg:px-8 ${isHoroscope ? "st-astro-wrap" : page.kind === 'hub-tarot' ? "max-w-6xl" : "max-w-4xl"}`}>
-        <nav className="text-xs text-[#1f2322]/50 mb-5" aria-label="Breadcrumb"><Link to="/" className="hover:text-[#73a89a]">Home</Link> / <span>{page.h1}</span></nav>
+        <nav className="text-sm text-[#1f2322]/60 mb-5" aria-label="Breadcrumb"><Link to="/" className="inline-flex items-center min-h-[44px] px-3 -ml-3 rounded-lg font-semibold hover:bg-[#1f2322]/5 hover:text-[#73a89a]">Home</Link> <span aria-hidden="true">/</span> <span className="inline-flex items-center min-h-[44px]">{page.h1}</span></nav>
         <div className={isHoroscope ? "st-astro-hero" : "st-editorial-heading"}>
           <div>
             <p className="eyebrow">{isHoroscope ? 'A little perspective from the stars' : 'The Psychic Studio'}</p>
@@ -113,9 +114,21 @@ export const SeoPage: React.FC = () => {
             {page.intro && <p className="text-lg leading-relaxed text-[#1f2322]/70 mb-8">{page.intro}</p>}
             {sign && <div className="st-sign-meta"><span>{sign.dates}</span><span>{sign.el}</span><span>{sign.ruler}</span></div>}
             {page.path === '/horoscope' && <a className="btn ghost" href="#your-sign">Find your sign ↓</a>}
+            {isHoroscope && (
+              <div className="st-quick-cta v-minimal">
+                <Link to="/free-tarot" className="st-quick-cta-btn">{ctaIcon}Free tarot reading: draw 1 or 3 cards</Link>
+                <span className="st-quick-cta-note">No sign-up, takes under a minute.</span>
+              </div>
+            )}
           </div>
           {isHoroscope && (sign ? <div className="st-sign-orbit" aria-hidden="true"><img className="st-sign-drawing" src={`/perf-assets/signs/${sign.n}.svg`} alt="" width={340} height={423} loading="eager" fetchPriority="high" decoding="async" /><span className="st-orbit-label">{N}</span></div> : <div className="st-wheel-slice st-hand-slice"><ZodiacArc /></div>)}
         </div>
+        {(page.kind === 'zodiac' || page.kind === 'dates') && (
+          <div className="st-quick-cta v-minimal">
+            <Link to="/free-tarot" className="st-quick-cta-btn">{ctaIcon}Free tarot reading: draw 1 or 3 cards</Link>
+            <span className="st-quick-cta-note">No sign-up, takes under a minute.</span>
+          </div>
+        )}
         {page.path === '/numerology' && <NumerologyCalculator />}
         {(page.path === '/horoscope' || page.kind === 'horoscope') && <DailyCardSignup sign={page.kind === 'horoscope' && sign ? sign.n.charAt(0).toUpperCase() + sign.n.slice(1) : undefined} />}
         {page.path === '/horoscope' && <section id="your-sign" className="st-sign-selection">
@@ -232,12 +245,12 @@ export const SeoPage: React.FC = () => {
           </>
         )}
 
+        {page.kind === 'hub-tarot' && <><TarotCardLibrary /><TarotStudyGuide /></>}
+
         {researchSections && <section aria-label="Reading guide">{researchSections.map(([heading, text]) => <React.Fragment key={heading}><H2>{heading}</H2><P>{text}</P></React.Fragment>)}</section>}
 
         {SEO_PASS_SECTIONS[page.path] && <section aria-label="Practical questions and examples">{SEO_PASS_SECTIONS[page.path].map(([heading, text]) => <React.Fragment key={heading}><H2>{heading}</H2><P>{text}</P></React.Fragment>)}</section>}
         {SEO_CONTEXT_LINKS[page.path] && <section aria-label="Related learning"><H2>Related guides</H2><ul className="space-y-3 mb-6">{SEO_CONTEXT_LINKS[page.path].map(([url, label]) => <li key={url}><Link to={url} className="text-[#507d71] underline underline-offset-4">{label}</Link></li>)}</ul></section>}
-
-        {page.kind === 'hub-tarot' && <><TarotCardLibrary /><TarotStudyGuide /></>}
 
         {page.kind === 'card' && card && (
           <div className="st-card-detail">

@@ -3,7 +3,7 @@ import { Link, NavLink, useLocation } from 'react-router-dom';
 import './studio.css';
 import { RouteSEO } from '../components/RouteSEO';
 import { SiteSearch } from './SiteSearch';
-const NAV: [string, string][] = [['/shop', 'Shop'], ['/free-tarot', 'Free Tarot'], ['/horoscope', 'Horoscope'], ['/blog', 'Blog'], ['/contact', 'Contact']];
+const NAV: [string, string][] = [['/', 'Home'], ['/shop', 'Shop'], ['/free-tarot', 'Free Tarot'], ['/horoscope', 'Horoscope'], ['/blog', 'Blog'], ['/contact', 'Contact']];
 const REVEAL_SEL = 'main section:not(:first-child) h2, main section:not(:first-child) .st-card, main .st-prod, main article, main .st-sec > .wrap > p, main .faq > div, main .st-grid > *, main .grid > article';
 const useReveal = (pathname: string) => {
   useEffect(() => {
@@ -65,7 +65,9 @@ export const Layout: React.FC<{ children: React.ReactNode; seo?: boolean }> = ({
       {seo && <RouteSEO />}
       <header className="st-head"><div className="wrap in">
         <Link to="/" className="st-logo"><img className="st-brand-mark" src="/navbar-96.webp" srcSet="/navbar-96.webp 96w, /navbar-192.webp 192w" sizes="40px" width="40" height="44.667" alt="" />The Psychic Studio</Link>
+        <div className={'st-drawer-scrim' + (open ? ' show' : '')} onClick={() => setOpen(false)} aria-hidden="true" />
         <nav className={'st-nav' + (open ? ' open' : '')}>
+          <button type="button" className="st-nav-close" aria-label="Close menu" onClick={() => setOpen(false)}>&#215;</button>
           {NAV.map(([to, l]) => <NavLink key={to} to={to} end={to === '/'} className={({ isActive }) => (isActive ? 'on' : '')}>{l}</NavLink>)}
         </nav>
         <div className="st-head-actions"><SiteSearch />

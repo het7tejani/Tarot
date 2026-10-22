@@ -24,7 +24,7 @@ export default async function handler(req: Request): Promise<Response> {
   const question = String(body.question || '').slice(0, 500).trim();
   const card = String(body.card || '').slice(0, 80).trim();
   const keywords = String(body.keywords || '').slice(0, 200).trim();
-  const orientation = body.orientation === 'reversed' ? 'reversed' : 'upright';
+  const orientation = body.orientation === 'reversed' ? 'reversed' : body.orientation === 'mixed' ? 'mixed' : 'upright';
   if (!question || !card) return new Response(JSON.stringify({ error: 'bad_request' }), { status: 400, headers: { 'Content-Type': 'application/json' } });
 
   const prompt = [
@@ -33,7 +33,7 @@ export default async function handler(req: Request): Promise<Response> {
     'Rules: speak directly to their situation; use plain, gentle language; frame everything as reflection, never prediction or certainty;',
     'never claim to know their future, other people\'s feelings, or outcomes; no medical, legal or financial advice;',
     'no dashes of any kind except hyphens inside words; no lists; one short paragraph; end with one gentle question they can sit with.',
-    `Card: ${card} (${orientation}). Themes: ${keywords}.`,
+    `Card: ${card}${orientation === 'mixed' ? '' : ' (' + orientation + ')'}. Themes: ${keywords}.`,
     `What they wrote: "${question}"`,
   ].join(' ');
 

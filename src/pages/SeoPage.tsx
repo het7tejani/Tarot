@@ -21,7 +21,7 @@ import { ALL_SEO_PAGES, CARD_PAGES, SIGN_INFO, SeoPageDef } from '../data/seoPag
 import { FREE_TAROT_CARDS } from '../data/readingsData';
 
 const zodiacNames = ['Aries','Taurus','Gemini','Cancer','Leo','Virgo','Libra','Scorpio','Sagittarius','Capricorn','Aquarius','Pisces'];
-const ZodiacArc: React.FC = () => <div className="st-hand-arc" aria-hidden="true"><svg className="st-figure-wheel" viewBox="0 0 1000 1000"><g transform="translate(500 500) rotate(180) translate(-500 -500)"><image width="1000" height="1000" href="/perf-assets/zodiac-800.webp" /></g></svg></div>;
+const ZodiacArc: React.FC = () => <div className="st-hand-arc" aria-hidden="true"><svg className="st-figure-wheel" viewBox="0 0 1000 1000"><g transform="translate(500 500) rotate(180) translate(-500 -500)"><image width="1000" height="1000" href="/perf-assets/zodiac.webp" /></g></svg></div>;
 
 const GLYPHS = ['♈','♉','♊','♋','♌','♍','♎','♏','♐','♑','♒','♓'];
 const cap = (s: string) => s.charAt(0).toUpperCase() + s.slice(1);

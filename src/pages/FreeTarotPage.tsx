@@ -27,6 +27,7 @@ export const FreeTarotPage: React.FC = () => {
   const [isShuffling, setIsShuffling] = useState(false);
   const [question, setQuestion] = useState('');
   const [activeTabByCard, setActiveTabByCard] = useState<Record<number, 'upright' | 'reversed'>>({});
+  const [drawnOrients, setDrawnOrients] = useState<Record<number, 'upright' | 'reversed'>>({});
   const [zoomedCard, setZoomedCard] = useState<TarotCard | null>(null);
   const [filterQuery, setFilterQuery] = useState('');
   const [showDeckGallery, setShowDeckGallery] = useState(false);
@@ -73,20 +74,21 @@ export const FreeTarotPage: React.FC = () => {
       setIsShuffling(false);
       const initialTabs: Record<number, 'upright' | 'reversed'> = {};
       chosen.forEach((_, i) => {
-        initialTabs[i] = 'upright';
+        initialTabs[i] = Math.random() < 0.5 ? 'upright' : 'reversed';
       });
       setActiveTabByCard(initialTabs);
+      setDrawnOrients(initialTabs);
 
       const q = question.trim();
       if (q) {
         setReflection(null);
         setReflectionLoading(true);
         const first = FREE_TAROT_CARDS[chosen[0]];
-        const names = chosen.map((i) => FREE_TAROT_CARDS[i].name).join(', ');
+        const names = chosen.map((i, pos) => `${FREE_TAROT_CARDS[i].name} (${initialTabs[pos]})`).join(', ');
         fetch('/api/reflect', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ question: q, card: names, keywords: first.keywords, orientation: 'upright' }),
+          body: JSON.stringify({ question: q, card: names, keywords: first.keywords, orientation: chosen.length === 1 ? initialTabs[0] : 'mixed' }),
         })
           .then((r) => (r.ok ? r.json() : Promise.reject(new Error('fail'))))
           .then((d) => setReflection(typeof d.reflection === 'string' ? d.reflection : null))
@@ -102,6 +104,7 @@ export const FreeTarotPage: React.FC = () => {
     setSelectedCards([]);
     setIsRevealed(false);
     setActiveTabByCard({});
+    setDrawnOrients({});
     setReflection(null);
     setReflectionLoading(false);
   };
@@ -256,7 +259,7 @@ export const FreeTarotPage: React.FC = () => {
                       <TarotArtwork
                         src={card.image}
                         alt={`${card.name} Tarot Card`}
-                        className="w-56 sm:w-64 aspect-[2/3] object-cover rounded-lg shadow-lg group-hover:scale-[1.02] transition-transform duration-200"
+                        className={`w-56 sm:w-64 aspect-[2/3] object-cover rounded-lg shadow-lg group-hover:scale-[1.02] transition-transform duration-200${drawnOrients[0] === 'reversed' ? ' rotate-180' : ''}`}
                         referrerPolicy="no-referrer"
                         onError={(e) => {
                           const target = e.currentTarget;
@@ -272,7 +275,7 @@ export const FreeTarotPage: React.FC = () => {
                       </div>
                     </div>
                     <span className="text-[11px] text-[#1f2322]/50 mt-2 font-mono">
-                      Major Arcana {card.number}
+                      Major Arcana {card.number} · {drawnOrients[0] === 'reversed' ? 'Reversed' : 'Upright'}
                     </span>
                   </div>
 
@@ -362,7 +365,7 @@ export const FreeTarotPage: React.FC = () => {
                         <TarotArtwork
                           src={card.image}
                           alt={`${card.name} Tarot Card`}
-                          className="w-48 aspect-[2/3] object-cover rounded-lg shadow-md group-hover:scale-[1.02] transition-transform duration-200"
+                          className={`w-48 aspect-[2/3] object-cover rounded-lg shadow-md group-hover:scale-[1.02] transition-transform duration-200${drawnOrients[i] === 'reversed' ? ' rotate-180' : ''}`}
                           referrerPolicy="no-referrer"
                           onError={(e) => {
                             const target = e.currentTarget;
@@ -383,7 +386,7 @@ export const FreeTarotPage: React.FC = () => {
                           {card.name}
                         </h2>
                         <span className="text-xs text-[#1f2322]/50 font-mono">
-                          Arcana {card.number}
+                          Arcana {card.number} · {drawnOrients[i] === 'reversed' ? 'Reversed' : 'Upright'}
                         </span>
                         <p className="text-xs text-[#1f2322]/65 italic mt-1 px-2">
                           {card.keywords}

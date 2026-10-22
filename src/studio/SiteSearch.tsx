@@ -57,9 +57,13 @@ export const SiteSearch: React.FC = () => {
       <button type="button" className="st-search-btn" aria-label="Search the site" aria-expanded={open} onClick={() => setOpen((o) => !o)}>
         <svg aria-hidden="true" width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round"><circle cx="11" cy="11" r="7" /><line x1="16.5" y1="16.5" x2="21" y2="21" /></svg>
       </button>
-      {open && (
-        <div className="st-search-panel" role="dialog" aria-label="Site search">
-          <input
+      <div className={`st-drawer-scrim${open ? ' show' : ''}`} onClick={close} aria-hidden="true" />
+      <div className={`st-search-panel${open ? ' open' : ''}`} role="dialog" aria-label="Site search" aria-hidden={!open}>
+        <div className="st-drawer-head">
+          <span>Search the site</span>
+          <button type="button" className="st-drawer-x" aria-label="Close search" onClick={close}>&times;</button>
+        </div>
+        <input
             ref={inputRef}
             value={q}
             onChange={(e) => setQ(e.target.value)}
@@ -78,8 +82,7 @@ export const SiteSearch: React.FC = () => {
           ) : (
             <p className="st-search-empty">Nothing found. Try a card name, a sign or a topic.</p>
           ))}
-        </div>
-      )}
+      </div>
     </div>
   );
 };

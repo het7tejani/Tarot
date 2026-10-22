@@ -115,7 +115,7 @@ export const SeoPage: React.FC = () => {
             {sign && <div className="st-sign-meta"><span>{sign.dates}</span><span>{sign.el}</span><span>{sign.ruler}</span></div>}
             {page.path === '/horoscope' && <a className="btn ghost" href="#your-sign">Find your sign ↓</a>}
             {isHoroscope && (
-              <div className="st-quick-cta v-gold">
+              <div className="st-quick-cta v-minimal">
                 <Link to="/free-tarot" className="st-quick-cta-btn">{ctaIcon}Free tarot reading: draw 1 or 3 cards</Link>
                 <span className="st-quick-cta-note">No sign-up, takes under a minute.</span>
               </div>
@@ -124,7 +124,7 @@ export const SeoPage: React.FC = () => {
           {isHoroscope && (sign ? <div className="st-sign-orbit" aria-hidden="true"><img className="st-sign-drawing" src={`/perf-assets/signs/${sign.n}.svg`} alt="" width={340} height={423} loading="eager" fetchPriority="high" decoding="async" /><span className="st-orbit-label">{N}</span></div> : <div className="st-wheel-slice st-hand-slice"><ZodiacArc /></div>)}
         </div>
         {(page.kind === 'zodiac' || page.kind === 'dates') && (
-          <div className="st-quick-cta v-gold">
+          <div className="st-quick-cta v-minimal">
             <Link to="/free-tarot" className="st-quick-cta-btn">{ctaIcon}Free tarot reading: draw 1 or 3 cards</Link>
             <span className="st-quick-cta-note">No sign-up, takes under a minute.</span>
           </div>

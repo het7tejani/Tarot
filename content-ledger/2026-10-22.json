@@ -100,5 +100,29 @@
       "Floating overlap: Ask us + back-to-top hidden while cookie banner shows"
     ],
     "note": "Header/nav untouched per main instruction."
+  },
+  "ux_batch_live": {
+    "merged": "2026-10-22T16:24 IST",
+    "branch": "preview/remove-breadcrumb",
+    "main_commit": "035bc3b",
+    "approved_by": "Het via WhatsApp 2026-10-22 ~16:23 IST",
+    "changes": [
+      "Removed visual Home breadcrumb chip from all SEO pages (BreadcrumbList JSON-LD kept)",
+      "Zodiac wheel on horoscope hub now serves full 1400px zodiac.webp (was 800px, caused blur at ~1120px display)",
+      "Home added as first link in top nav (6 items)",
+      "Site search: desktop opens a small inline search bar within the nav bar (nav links shift left, results dropdown under bar); mobile keeps large left slide-in panel",
+      "Mobile hamburger menu: large left slide-in panel with all 6 links, X and tap-outside close",
+      "Free tarot draw: each card randomly upright or reversed ~50/50; reversed renders rotated 180deg with label; reflection uses per-card orientation; api/reflect accepts 'mixed' for 3-card draws",
+      "AI reflection remains optional: only generates when visitor types a question (Het's pick 2026-10-22)"
+    ],
+    "verified_live": [
+      "wheel sharpness screenshot",
+      "Home first nav",
+      "breadcrumb chip absent",
+      "inline desktop search CSS live",
+      "mobile drawer CSS live",
+      "FreeTarotPage chunk has orientation code",
+      "api/reflect mixed-orientation 3-card test passed"
+    ]
   }
 }

@@ -1,0 +1,85 @@
+{
+  "date": "2026-10-22",
+  "posts": [
+    {
+      "slug": "may-star-sign",
+      "keyword": "may star sign",
+      "evidence": "GSC 7d: 'may star sign' pos 11.0, 4 impr; 'may 31 zodiac sign' pos 71; date-cluster strength",
+      "photos": [
+        "14356762",
+        "8219290",
+        "31734845"
+      ]
+    },
+    {
+      "slug": "april-star-sign",
+      "keyword": "april star sign / april zodiac",
+      "evidence": "GSC 7d: 'april zodiac' pos 11.0, 2 impr; 'april zodiac sign' pos 79, 6 impr; 'april 16 zodiac sign' 91; 'april 35 zodiac sign' 62",
+      "photos": [
+        "21752185",
+        "20481341",
+        "15306502"
+      ]
+    },
+    {
+      "slug": "taurus-personality-traits",
+      "keyword": "taurus personality / taurus traits",
+      "evidence": "GSC 7d taurus cluster pos 48-73, ~20 impr; workbook californiapsychics 'taurus traits' KD 55, 'taurus personality' KD 53",
+      "photos": [
+        "6571240",
+        "7944396",
+        "7222056"
+      ]
+    }
+  ],
+  "photos": {
+    "source": "pexels",
+    "pack": "pack-8.json",
+    "ids": [
+      "14356762",
+      "8219290",
+      "31734845",
+      "21752185",
+      "20481341",
+      "15306502",
+      "6571240",
+      "7944396",
+      "7222056"
+    ]
+  },
+  "seo_changes": [
+    "New posts carry internal links to /zodiac/taurus, /zodiac/gemini, /zodiac/aries, /zodiac-sign-dates and 8 compatibility pages (hub-and-spoke support for the taurus cluster at pos 48-73).",
+    "Markdown tables removed after render check: journal renderer does not support pipe tables; bold-line format used instead."
+  ],
+  "gsc": {
+    "pages_report": {
+      "indexed": 87,
+      "not_indexed": 89,
+      "data_as_of": "2026-10-12"
+    },
+    "performance_7d": {
+      "clicks": 7,
+      "impressions": 895,
+      "ctr": "0.8%",
+      "avg_position": 74.6,
+      "last_update": "7 hours ago"
+    },
+    "url_inspection_confirmed_indexed": [
+      "/zodiac/taurus",
+      "/zodiac/leo"
+    ],
+    "index_requests_submitted": [
+      "/zodiac-sign-dates",
+      "/zodiac/scorpio",
+      "/blog/may-star-sign",
+      "/blog/april-star-sign",
+      "/blog/taurus-personality-traits"
+    ],
+    "index_requests_queued_tomorrow": [
+      "/blog/121-angel-number-meaning",
+      "/tarot-card-meanings/page-of-pentacles",
+      "/tarot-card-meanings/seven-of-wands"
+    ],
+    "psi": "429 quota (project 583797351490), retry tomorrow"
+  }
+}

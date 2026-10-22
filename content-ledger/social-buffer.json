@@ -1,0 +1,51 @@
+{
+  "purpose": "Advance content buffer for daily Pinterest + Tumblr (Het Oct 22 grant) and Medium office-PC route. Each day: 1 pin, 1 Tumblr card-reflection post, 1 Medium draft. Rules: no em dashes, no prediction/guarantee claims, realistic 1:1 images, brand style. Post from buffer in the 8 AM IST run, then top back up.",
+  "days": [
+    {
+      "date": "2026-10-23",
+      "pinterest": {
+        "title": "444 Angel Number Meaning: Stability and Foundations",
+        "description": "Keep seeing 444? It is the foundation number: structure, patience and things built to last. Grounded takes on love, work and money, with no predictions. Full guide on the blog.",
+        "link": "https://thepsychicstudio.com/blog/444-angel-number-meaning",
+        "image": "content-ledger/social-buffer-images/pin-444-oct23.png",
+        "board_hint": "Angel Numbers"
+      },
+      "tumblr": {
+        "title": "The Hermit Reversed: When Alone Time Stops Restoring You",
+        "body": "Some evenings alone leave you rested. Others leave you stuck.\n\nThe Hermit reversed sits right on that line. Upright, the card is quiet on purpose: time to think, to walk your own path with your own lantern. Reversed, the same solitude can tip into distance you did not choose, or the strange tiredness of handling everything privately.\n\nA gentle check for today: after your last stretch of alone time, did you come back clearer, or just quieter? If it is the second, the smallest honest step counts. One short message. One specific question to someone you trust.\n\nYou do not have to become more outgoing to deserve support. The lantern is still yours. It just works better when someone knows where to find you.",
+        "link_card": "https://thepsychicstudio.com/blog/the-hermit-reversed-connection",
+        "free_tarot_link": "https://thepsychicstudio.com/free-tarot",
+        "tags": ["tarot", "the hermit reversed", "tarot reflection", "daily tarot", "the psychic studio"],
+        "image": "content-ledger/social-buffer-images/tumblr-hermit-oct23.png"
+      },
+      "medium": {
+        "title": "444 Angel Number Meaning: Stability, Foundations and Patience",
+        "source_blog": "https://thepsychicstudio.com/blog/444-angel-number-meaning",
+        "note": "Condensed hand-paste version for office-PC publish, import tool failed last time. Open with: Originally published on The Psychic Studio: <URL>. End with link back. Tags: Tarot, Astrology, Angel Numbers, Spirituality, horoscope."
+      }
+    },
+    {
+      "date": "2026-10-24",
+      "pinterest": {
+        "title": "Yellow Butterfly Spiritual Meaning: Hope and Change",
+        "description": "A yellow butterfly is often read as hope, joy and a fresh start. Nature first, meaning second: what the moment can and cannot tell you. Full guide on the blog.",
+        "link": "https://thepsychicstudio.com/blog/yellow-butterfly-spiritual-meaning",
+        "image": "content-ledger/social-buffer-images/pin-butterfly-oct24.png",
+        "board_hint": "Spiritual Meaning"
+      },
+      "tumblr": {
+        "title": "The Lovers Reversed: A Choice That Does Not Fit",
+        "body": "The Lovers reversed is not a verdict on your relationship. It is a question about fit.\n\nSomething feels out of step. Maybe an actual disagreement. Maybe an expectation nobody said out loud. Maybe a decision you keep moving to next week.\n\nThe card cannot tell you whether someone loves you or what you should choose. What it can do is hold up the gap between your values and your week, and ask which one you plan to adjust.\n\nTry naming it in one sentence, plainly: I keep postponing X because Y. If the sentence is hard to write, that is usually where the honest conversation lives.",
+        "link_card": "https://thepsychicstudio.com/blog/the-lovers-reversed-clearer-choices",
+        "free_tarot_link": "https://thepsychicstudio.com/free-tarot",
+        "tags": ["tarot", "the lovers reversed", "tarot reflection", "daily tarot", "the psychic studio"],
+        "image": "content-ledger/social-buffer-images/tumblr-lovers-oct24.png"
+      },
+      "medium": {
+        "title": "Yellow Butterfly Spiritual Meaning: Hope and Change",
+        "source_blog": "https://thepsychicstudio.com/blog/yellow-butterfly-spiritual-meaning",
+        "note": "Condensed hand-paste version for office-PC publish. Same open/close attribution format. Tags: Spirituality, Tarot, Nature, Self Improvement, horoscope."
+      }
+    }
+  ]
+}

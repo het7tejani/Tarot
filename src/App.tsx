@@ -15,6 +15,7 @@ const CookiePolicy=lazy(()=>import('./studio/Legal').then(m=>({default:m.CookieP
 const RefundPolicy=lazy(()=>import('./studio/Legal').then(m=>({default:m.RefundPolicy})));
 const Seo=lazy(()=>import('./pages/SeoPage').then(m=>({default:m.SeoPage})));
 const Layout=lazy(()=>import('./studio/Layout').then(m=>({default:m.Layout})));
+const BoundaryPreviewTest=()=>{throw new Error('ErrorBoundary preview test');return null;};
 export default function App(){return <Suspense fallback={null}><Routes>
 <Route path="/" element={<Home/>}/><Route path="/shop" element={<Shop/>}/><Route path="/readings" element={<Navigate to="/shop" replace/>}/>
 <Route path="/readings/:slug" element={<ReadingDetail/>}/><Route path="/about" element={<About/>}/><Route path="/faq" element={<Faq/>}/><Route path="/contact" element={<Contact/>}/>
@@ -22,5 +23,5 @@ export default function App(){return <Suspense fallback={null}><Routes>
 <Route path="/free-tarot" element={<Layout seo={false}><Free/></Layout>}/>
 {SEO_ROUTE_PATHS.map(path=><Route key={path} path={path} element={<Layout seo={false}><Seo/></Layout>}/>)}
 <Route path="/privacy-policy" element={<PrivacyPolicy/>}/><Route path="/terms" element={<Terms/>}/><Route path="/cookie-policy" element={<CookiePolicy/>}/><Route path="/refund-policy" element={<RefundPolicy/>}/>
-<Route path="*" element={<NotFound/>}/>
+<Route path="/boundary-preview-test" element={<BoundaryPreviewTest/>}/><Route path="*" element={<NotFound/>}/>
 </Routes></Suspense>}

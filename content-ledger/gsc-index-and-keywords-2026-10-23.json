@@ -772,5 +772,16 @@
    }
   ]
  },
- "authority": "Read-only GSC analysis under standing SEO autonomy. Request indexing button still erroring since Oct 22; retry daily."
+ "authority": "Read-only GSC analysis under standing SEO autonomy. Request indexing button still erroring since Oct 22; retry daily.",
+ "discovery_analysis": {
+  "checked": "2026-10-23",
+  "findings": [
+   "All 74 discovered-not-indexed URLs are present in sitemap.xml (281 URLs total).",
+   "73 of 74 have no lastmod; only blog posts carry their publish date.",
+   "Crawl-readiness check confirms every canonical route has incoming HTML links, so basic internal linking exists.",
+   "Sitemap lastmod was NOT added: a build-date lastmod is dishonest and Google ignores or distrusts it. Honest per-page lastmod needs mapping pages to their data source files' last real edit."
+  ],
+  "conclusion": "Discovery bottleneck is site authority and crawl priority, not sitemap coverage. Main levers remain content depth (shipped today for the 5 crawled-not-indexed posts), daily publishing, and outside authority (Quora/Pinterest/Tumblr).",
+  "shipped_same_day": "commit 185d6b4 deepened the 5 crawled-not-indexed blog posts (975-1031 words each), verified live"
+ }
 }

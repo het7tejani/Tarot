@@ -1,0 +1,732 @@
+{
+ "date": "2026-10-23",
+ "source": "GSC live, URL-prefix property https://thepsychicstudio.com/ (authuser=0)",
+ "pages_report": {
+  "indexed": 100,
+  "not_indexed": 91,
+  "oct12_baseline": {
+   "indexed": 87,
+   "not_indexed": 89
+  },
+  "exclusion_reasons": {
+   "Discovered - currently not indexed": {
+    "count": 74,
+    "urls": [
+     "https://thepsychicstudio.com/angel-numbers",
+     "https://thepsychicstudio.com/angel-numbers/1010",
+     "https://thepsychicstudio.com/angel-numbers/111",
+     "https://thepsychicstudio.com/angel-numbers/222",
+     "https://thepsychicstudio.com/angel-numbers/333",
+     "https://thepsychicstudio.com/angel-numbers/555",
+     "https://thepsychicstudio.com/angel-numbers/611",
+     "https://thepsychicstudio.com/angel-numbers/999",
+     "https://thepsychicstudio.com/blog/mourning-dove-spiritual-meaning",
+     "https://thepsychicstudio.com/love-tarot-reading",
+     "https://thepsychicstudio.com/mercury-retrograde",
+     "https://thepsychicstudio.com/numerology",
+     "https://thepsychicstudio.com/readings/30-day-relationship-outlook",
+     "https://thepsychicstudio.com/readings/90-day-relationship-outlook",
+     "https://thepsychicstudio.com/readings/academic-confidence-and-recognition",
+     "https://thepsychicstudio.com/readings/career-growth-and-promotion",
+     "https://thepsychicstudio.com/readings/new-job-and-career-opportunities",
+     "https://thepsychicstudio.com/readings/prosperity-and-new-opportunities",
+     "https://thepsychicstudio.com/rising-sign",
+     "https://thepsychicstudio.com/spirit-animal",
+     "https://thepsychicstudio.com/tarot-card-meanings",
+     "https://thepsychicstudio.com/tarot-card-meanings/ace-of-cups",
+     "https://thepsychicstudio.com/tarot-card-meanings/ace-of-pentacles",
+     "https://thepsychicstudio.com/tarot-card-meanings/ace-of-swords",
+     "https://thepsychicstudio.com/tarot-card-meanings/ace-of-wands",
+     "https://thepsychicstudio.com/tarot-card-meanings/death",
+     "https://thepsychicstudio.com/tarot-card-meanings/eight-of-cups",
+     "https://thepsychicstudio.com/tarot-card-meanings/eight-of-pentacles",
+     "https://thepsychicstudio.com/tarot-card-meanings/eight-of-swords",
+     "https://thepsychicstudio.com/tarot-card-meanings/five-of-cups",
+     "https://thepsychicstudio.com/tarot-card-meanings/five-of-pentacles",
+     "https://thepsychicstudio.com/tarot-card-meanings/five-of-swords",
+     "https://thepsychicstudio.com/tarot-card-meanings/five-of-wands",
+     "https://thepsychicstudio.com/tarot-card-meanings/four-of-pentacles",
+     "https://thepsychicstudio.com/tarot-card-meanings/four-of-swords",
+     "https://thepsychicstudio.com/tarot-card-meanings/justice",
+     "https://thepsychicstudio.com/tarot-card-meanings/king-of-cups",
+     "https://thepsychicstudio.com/tarot-card-meanings/king-of-pentacles",
+     "https://thepsychicstudio.com/tarot-card-meanings/king-of-wands",
+     "https://thepsychicstudio.com/tarot-card-meanings/knight-of-cups",
+     "https://thepsychicstudio.com/tarot-card-meanings/knight-of-pentacles",
+     "https://thepsychicstudio.com/tarot-card-meanings/nine-of-swords",
+     "https://thepsychicstudio.com/tarot-card-meanings/nine-of-wands",
+     "https://thepsychicstudio.com/tarot-card-meanings/page-of-pentacles",
+     "https://thepsychicstudio.com/tarot-card-meanings/page-of-wands",
+     "https://thepsychicstudio.com/tarot-card-meanings/queen-of-swords",
+     "https://thepsychicstudio.com/tarot-card-meanings/seven-of-swords",
+     "https://thepsychicstudio.com/tarot-card-meanings/seven-of-wands",
+     "https://thepsychicstudio.com/tarot-card-meanings/six-of-pentacles",
+     "https://thepsychicstudio.com/tarot-card-meanings/six-of-swords",
+     "https://thepsychicstudio.com/tarot-card-meanings/six-of-wands",
+     "https://thepsychicstudio.com/tarot-card-meanings/ten-of-pentacles",
+     "https://thepsychicstudio.com/tarot-card-meanings/ten-of-swords",
+     "https://thepsychicstudio.com/tarot-card-meanings/the-fool",
+     "https://thepsychicstudio.com/tarot-card-meanings/the-hanged-man",
+     "https://thepsychicstudio.com/tarot-card-meanings/the-hierophant",
+     "https://thepsychicstudio.com/tarot-card-meanings/the-high-priestess",
+     "https://thepsychicstudio.com/tarot-card-meanings/the-lovers",
+     "https://thepsychicstudio.com/tarot-card-meanings/the-magician",
+     "https://thepsychicstudio.com/tarot-card-meanings/the-moon",
+     "https://thepsychicstudio.com/tarot-card-meanings/the-sun",
+     "https://thepsychicstudio.com/tarot-card-meanings/the-world",
+     "https://thepsychicstudio.com/tarot-card-meanings/two-of-swords",
+     "https://thepsychicstudio.com/tarot-card-meanings/two-of-wands",
+     "https://thepsychicstudio.com/tarot-card-meanings/wheel-of-fortune",
+     "https://thepsychicstudio.com/zodiac-compatibility",
+     "https://thepsychicstudio.com/zodiac-compatibility/leo-and-libra",
+     "https://thepsychicstudio.com/zodiac-compatibility/leo-and-pisces",
+     "https://thepsychicstudio.com/zodiac-compatibility/libra-and-scorpio",
+     "https://thepsychicstudio.com/zodiac-compatibility/taurus-and-gemini",
+     "https://thepsychicstudio.com/zodiac/cancer",
+     "https://thepsychicstudio.com/zodiac/libra",
+     "https://thepsychicstudio.com/zodiac/pisces",
+     "https://thepsychicstudio.com/zodiac/scorpio"
+    ]
+   },
+   "Duplicate, Google chose different canonical than user": {
+    "count": 11,
+    "note": "correct canonicals, no action",
+    "urls": [
+     "https://thepsychicstudio.com/tarot-card-meanings/nine-of-pentacles",
+     "https://thepsychicstudio.com/tarot-card-meanings/page-of-swords",
+     "https://thepsychicstudio.com/tarot-card-meanings/seven-of-pentacles",
+     "https://thepsychicstudio.com/tarot-card-meanings/six-of-cups",
+     "https://thepsychicstudio.com/tarot-card-meanings/the-chariot",
+     "https://thepsychicstudio.com/tarot-card-meanings/the-empress",
+     "https://thepsychicstudio.com/tarot-card-meanings/the-star",
+     "https://thepsychicstudio.com/tarot-card-meanings/three-of-cups",
+     "https://thepsychicstudio.com/tarot-card-meanings/two-of-cups",
+     "https://thepsychicstudio.com/tarot-card-meanings/two-of-pentacles",
+     "https://thepsychicstudio.com/zodiac/virgo"
+    ]
+   },
+   "Crawled - currently not indexed": {
+    "count": 5,
+    "urls": [
+     "https://thepsychicstudio.com/blog/questions-to-ask-a-psychic",
+     "https://thepsychicstudio.com/blog/the-lovers-reversed-clearer-choices",
+     "https://thepsychicstudio.com/blog/strength-reversed-gentler-confidence",
+     "https://thepsychicstudio.com/blog/the-emperor-reversed-flexible-structure",
+     "https://thepsychicstudio.com/blog/the-hermit-reversed-connection"
+    ]
+   },
+   "Blocked due to access forbidden (403)": {
+    "count": 1,
+    "urls": [
+     "https://thepsychicstudio.com/index.php"
+    ],
+    "note": "legacy URL, likely intentional"
+   }
+  },
+  "priority_note": "Crawled-not-indexed (5) means Google saw content and declined: content quality/depth work first. Discovered-not-indexed (74) means crawl budget/discovery: internal linking + sitemap freshness. Duplicates need no action."
+ },
+ "performance_28d": {
+  "clicks": 10,
+  "impressions": 1280,
+  "ctr": 0.008,
+  "avg_position": 73,
+  "user_target": "average position per keyword toward top 20-30 (Het, Oct 23 voice approval)",
+  "queries_top100": [
+   {
+    "query": "psychic studio",
+    "clicks": 4,
+    "impressions": 17,
+    "position": 3.9
+   },
+   {
+    "query": "free psychic soulmate reading",
+    "clicks": 1,
+    "impressions": 18,
+    "position": 97.9
+   },
+   {
+    "query": "scorpio love horoscope today",
+    "clicks": 1,
+    "impressions": 2,
+    "position": 89.0
+   },
+   {
+    "query": "scorpio today",
+    "clicks": 1,
+    "impressions": 2,
+    "position": 89.5
+   },
+   {
+    "query": "free love horoscope",
+    "clicks": 1,
+    "impressions": 2,
+    "position": 94.0
+   },
+   {
+    "query": "scorpio horoscope",
+    "clicks": 0,
+    "impressions": 23,
+    "position": 79.7
+   },
+   {
+    "query": "soulmate reading",
+    "clicks": 0,
+    "impressions": 20,
+    "position": 74.8
+   },
+   {
+    "query": "psychic soulmate reading",
+    "clicks": 0,
+    "impressions": 20,
+    "position": 79.7
+   },
+   {
+    "query": "soulmate psychic readings",
+    "clicks": 0,
+    "impressions": 19,
+    "position": 70.9
+   },
+   {
+    "query": "libra horoscope today",
+    "clicks": 0,
+    "impressions": 14,
+    "position": 94.7
+   },
+   {
+    "query": "scorpio horoscope today",
+    "clicks": 0,
+    "impressions": 11,
+    "position": 79.7
+   },
+   {
+    "query": "888 angel number",
+    "clicks": 0,
+    "impressions": 11,
+    "position": 81.3
+   },
+   {
+    "query": "yes no tarot",
+    "clicks": 0,
+    "impressions": 11,
+    "position": 89.3
+   },
+   {
+    "query": "leo astrology",
+    "clicks": 0,
+    "impressions": 10,
+    "position": 72.3
+   },
+   {
+    "query": "queen of wands",
+    "clicks": 0,
+    "impressions": 9,
+    "position": 89.6
+   },
+   {
+    "query": "aries zodiac sign",
+    "clicks": 0,
+    "impressions": 9,
+    "position": 95.1
+   },
+   {
+    "query": "yes or no tarot",
+    "clicks": 0,
+    "impressions": 8,
+    "position": 94.9
+   },
+   {
+    "query": "april zodiac sign",
+    "clicks": 0,
+    "impressions": 7,
+    "position": 80.3
+   },
+   {
+    "query": "questions to ask a psychic",
+    "clicks": 0,
+    "impressions": 7,
+    "position": 83.1
+   },
+   {
+    "query": "aries date",
+    "clicks": 0,
+    "impressions": 7,
+    "position": 97.1
+   },
+   {
+    "query": "888",
+    "clicks": 0,
+    "impressions": 6,
+    "position": 32.0
+   },
+   {
+    "query": "aquarius and leo",
+    "clicks": 0,
+    "impressions": 6,
+    "position": 85.8
+   },
+   {
+    "query": "taurus sign",
+    "clicks": 0,
+    "impressions": 5,
+    "position": 60.0
+   },
+   {
+    "query": "love horoscopes today",
+    "clicks": 0,
+    "impressions": 5,
+    "position": 78.0
+   },
+   {
+    "query": "july 31 zodiac",
+    "clicks": 0,
+    "impressions": 5,
+    "position": 79.6
+   },
+   {
+    "query": "march 23 zodiac",
+    "clicks": 0,
+    "impressions": 5,
+    "position": 80.8
+   },
+   {
+    "query": "april 22 zodiac",
+    "clicks": 0,
+    "impressions": 5,
+    "position": 82.4
+   },
+   {
+    "query": "angel number 888",
+    "clicks": 0,
+    "impressions": 5,
+    "position": 88.0
+   },
+   {
+    "query": "aries star sign",
+    "clicks": 0,
+    "impressions": 5,
+    "position": 93.8
+   },
+   {
+    "query": "tarot yes or no",
+    "clicks": 0,
+    "impressions": 5,
+    "position": 93.8
+   },
+   {
+    "query": "scorpio daily horoscope",
+    "clicks": 0,
+    "impressions": 5,
+    "position": 151.0
+   },
+   {
+    "query": "may star sign",
+    "clicks": 0,
+    "impressions": 4,
+    "position": 11.0
+   },
+   {
+    "query": "horoscope today love",
+    "clicks": 0,
+    "impressions": 4,
+    "position": 73.5
+   },
+   {
+    "query": "leo star sign",
+    "clicks": 0,
+    "impressions": 4,
+    "position": 77.0
+   },
+   {
+    "query": "what to ask a psychic",
+    "clicks": 0,
+    "impressions": 4,
+    "position": 77.8
+   },
+   {
+    "query": "leo sign",
+    "clicks": 0,
+    "impressions": 4,
+    "position": 78.0
+   },
+   {
+    "query": "ask a question to a psychic",
+    "clicks": 0,
+    "impressions": 4,
+    "position": 80.0
+   },
+   {
+    "query": "three of wands as feelings",
+    "clicks": 0,
+    "impressions": 4,
+    "position": 85.0
+   },
+   {
+    "query": "tarot yes no",
+    "clicks": 0,
+    "impressions": 4,
+    "position": 89.8
+   },
+   {
+    "query": "yes and no tarot",
+    "clicks": 0,
+    "impressions": 4,
+    "position": 90.2
+   },
+   {
+    "query": "april star sign",
+    "clicks": 0,
+    "impressions": 4,
+    "position": 93.5
+   },
+   {
+    "query": "march 21 zodiac",
+    "clicks": 0,
+    "impressions": 4,
+    "position": 96.2
+   },
+   {
+    "query": "libra horoscopes",
+    "clicks": 0,
+    "impressions": 4,
+    "position": 103.2
+   },
+   {
+    "query": "libra dates",
+    "clicks": 0,
+    "impressions": 3,
+    "position": 25.0
+   },
+   {
+    "query": "april zodiac",
+    "clicks": 0,
+    "impressions": 3,
+    "position": 40.3
+   },
+   {
+    "query": "zodiac psychics",
+    "clicks": 0,
+    "impressions": 3,
+    "position": 44.0
+   },
+   {
+    "query": "psychic studio city",
+    "clicks": 0,
+    "impressions": 3,
+    "position": 47.0
+   },
+   {
+    "query": "taurus zodiac",
+    "clicks": 0,
+    "impressions": 3,
+    "position": 52.7
+   },
+   {
+    "query": "taurus zodiac sign",
+    "clicks": 0,
+    "impressions": 3,
+    "position": 55.3
+   },
+   {
+    "query": "taurus in astrology",
+    "clicks": 0,
+    "impressions": 3,
+    "position": 64.7
+   },
+   {
+    "query": "birth chart for libra",
+    "clicks": 0,
+    "impressions": 3,
+    "position": 66.0
+   },
+   {
+    "query": "taurus and libra",
+    "clicks": 0,
+    "impressions": 3,
+    "position": 74.3
+   },
+   {
+    "query": "horoscope for libra today",
+    "clicks": 0,
+    "impressions": 3,
+    "position": 79.0
+   },
+   {
+    "query": "three of wands feelings",
+    "clicks": 0,
+    "impressions": 3,
+    "position": 79.7
+   },
+   {
+    "query": "april 21 zodiac",
+    "clicks": 0,
+    "impressions": 3,
+    "position": 83.0
+   },
+   {
+    "query": "taurus and libra compatibility",
+    "clicks": 0,
+    "impressions": 3,
+    "position": 84.0
+   },
+   {
+    "query": "july 30 zodiac",
+    "clicks": 0,
+    "impressions": 3,
+    "position": 84.3
+   },
+   {
+    "query": "march 22 astrology sign",
+    "clicks": 0,
+    "impressions": 3,
+    "position": 85.3
+   },
+   {
+    "query": "888 meaning angel number",
+    "clicks": 0,
+    "impressions": 3,
+    "position": 86.3
+   },
+   {
+    "query": "aries horoscope today",
+    "clicks": 0,
+    "impressions": 3,
+    "position": 87.0
+   },
+   {
+    "query": "astrology yes or no",
+    "clicks": 0,
+    "impressions": 3,
+    "position": 88.3
+   },
+   {
+    "query": "march 22 zodiac",
+    "clicks": 0,
+    "impressions": 3,
+    "position": 90.3
+   },
+   {
+    "query": "april 16 zodiac sign",
+    "clicks": 0,
+    "impressions": 3,
+    "position": 91.3
+   },
+   {
+    "query": "aries zodiac astrology",
+    "clicks": 0,
+    "impressions": 3,
+    "position": 94.0
+   },
+   {
+    "query": "april sign zodiac",
+    "clicks": 0,
+    "impressions": 3,
+    "position": 94.3
+   },
+   {
+    "query": "horoscope scorpio",
+    "clicks": 0,
+    "impressions": 3,
+    "position": 95.7
+   },
+   {
+    "query": "aries dates",
+    "clicks": 0,
+    "impressions": 3,
+    "position": 96.7
+   },
+   {
+    "query": "leo zodiac sign",
+    "clicks": 0,
+    "impressions": 3,
+    "position": 97.7
+   },
+   {
+    "query": "astrology gemini",
+    "clicks": 0,
+    "impressions": 3,
+    "position": 99.7
+   },
+   {
+    "query": "may zodiac sign",
+    "clicks": 0,
+    "impressions": 2,
+    "position": 32.5
+   },
+   {
+    "query": "taurus zodiac star sign",
+    "clicks": 0,
+    "impressions": 2,
+    "position": 54.5
+   },
+   {
+    "query": "april 20 zodiac",
+    "clicks": 0,
+    "impressions": 2,
+    "position": 57.5
+   },
+   {
+    "query": "birth chart for taurus",
+    "clicks": 0,
+    "impressions": 2,
+    "position": 60.0
+   },
+   {
+    "query": "april 35 zodiac sign",
+    "clicks": 0,
+    "impressions": 2,
+    "position": 62.0
+   },
+   {
+    "query": "astrology scorpio horoscope",
+    "clicks": 0,
+    "impressions": 2,
+    "position": 64.0
+   },
+   {
+    "query": "zodiac psychics sign up",
+    "clicks": 0,
+    "impressions": 2,
+    "position": 66.0
+   },
+   {
+    "query": "star signs leo",
+    "clicks": 0,
+    "impressions": 2,
+    "position": 67.5
+   },
+   {
+    "query": "yellow butterfly spiritual meaning",
+    "clicks": 0,
+    "impressions": 2,
+    "position": 69.0
+   },
+   {
+    "query": "psychic love marriage readings",
+    "clicks": 0,
+    "impressions": 2,
+    "position": 70.5
+   },
+   {
+    "query": "may 31 zodiac sign",
+    "clicks": 0,
+    "impressions": 2,
+    "position": 71.0
+   },
+   {
+    "query": "leo dates",
+    "clicks": 0,
+    "impressions": 2,
+    "position": 71.5
+   },
+   {
+    "query": "what dates for leo",
+    "clicks": 0,
+    "impressions": 2,
+    "position": 71.5
+   },
+   {
+    "query": "libra and taurus compatibility",
+    "clicks": 0,
+    "impressions": 2,
+    "position": 73.0
+   },
+   {
+    "query": "signification papillon jaune",
+    "clicks": 0,
+    "impressions": 2,
+    "position": 76.0
+   },
+   {
+    "query": "888 angel numbers",
+    "clicks": 0,
+    "impressions": 2,
+    "position": 77.0
+   },
+   {
+    "query": "july 23 zodiac",
+    "clicks": 0,
+    "impressions": 2,
+    "position": 77.0
+   },
+   {
+    "query": "soulmate psychic reading",
+    "clicks": 0,
+    "impressions": 2,
+    "position": 77.0
+   },
+   {
+    "query": "questions to ask psychics",
+    "clicks": 0,
+    "impressions": 2,
+    "position": 78.0
+   },
+   {
+    "query": "april 28 zodiac sign",
+    "clicks": 0,
+    "impressions": 2,
+    "position": 79.0
+   },
+   {
+    "query": "taurus dates",
+    "clicks": 0,
+    "impressions": 2,
+    "position": 80.5
+   },
+   {
+    "query": "free daily aries horoscope",
+    "clicks": 0,
+    "impressions": 2,
+    "position": 81.0
+   },
+   {
+    "query": "leo zodiac sign horoscope",
+    "clicks": 0,
+    "impressions": 2,
+    "position": 81.0
+   },
+   {
+    "query": "papillon jaune signification",
+    "clicks": 0,
+    "impressions": 2,
+    "position": 81.0
+   },
+   {
+    "query": "27 \u03bc\u03b1\u0390\u03bf\u03c5 \u03b6\u03c9\u03b4\u03b9\u03bf",
+    "clicks": 0,
+    "impressions": 2,
+    "position": 83.0
+   },
+   {
+    "query": "all about taurus",
+    "clicks": 0,
+    "impressions": 2,
+    "position": 85.0
+   },
+   {
+    "query": "august 22 zodiac",
+    "clicks": 0,
+    "impressions": 2,
+    "position": 85.0
+   },
+   {
+    "query": "august 9 zodiac",
+    "clicks": 0,
+    "impressions": 2,
+    "position": 85.0
+   },
+   {
+    "query": "april birthday sign",
+    "clicks": 0,
+    "impressions": 2,
+    "position": 85.5
+   },
+   {
+    "query": "what does 888 symbolize",
+    "clicks": 0,
+    "impressions": 2,
+    "position": 86.0
+   }
+  ]
+ },
+ "authority": "Read-only GSC analysis under standing SEO autonomy. Request indexing button still erroring since Oct 22; retry daily."
+}

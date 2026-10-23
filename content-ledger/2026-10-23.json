@@ -55,7 +55,10 @@
   "social": {
     "pinterest": "pin 444 live on new Angel Numbers board",
     "tumblr": "Hermit Reversed card-reflection posted",
-    "medium": "skipped (cloud login stays blocked)"
+    "medium": "skipped (cloud login stays blocked)",
+    "pinterest_url": "https://www.pinterest.com/pin/1109715164522180259/",
+    "tumblr_url": "https://www.tumblr.com/thepsychicstudio/831244390153502720/the-hermit-reversed-when-alone-time-stops"
   },
-  "deploy": "commit c53fd4d live ~11:33 IST"
+  "deploy": "commit c53fd4d live ~11:33 IST",
+  "auth_state": "config-c write lease saved on release ~11:52 IST: Google hettj149 (u/0) + brand contact.thepsychicstudio (u/1) signed in, Tumblr via brand Google SSO, Pinterest session pre-existing. GSC property is URL-prefix https://thepsychicstudio.com/ under hettj149 (use authuser=0)."
 }

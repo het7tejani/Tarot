@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-23",
+  "trigger": "Het voice notes Oct 23 17:39-17:46: coding base must be strong to avoid future problems; sent Instagram reel DeUqqRqN4CN listing 10 code-foundation topics. His own further topics to come.",
+  "authority": "Audit and preparation approved. Live non-SEO changes stay inside the existing rule: tested, previewed, visitor-visible changes approved by Het first. No promise of zero future issues.",
+  "audit_scope": "Quick static audit of het7tejani/Tarot (main, commit 0c96cac)",
+  "already_solid": [
+    "Folder structure: src/components, src/pages, src/services, src/data, src/contexts, src/admin, api/ serverless",
+    "Naming consistent (PascalCase components, no duplicate component filenames)",
+    "0 console.log, 0 TODO/FIXME across 73 ts/tsx files",
+    "Config out of code: .env.example present, only 3 env references"
+  ],
+  "gaps": [
+    {"n": 1, "gap": "No ErrorBoundary anywhere (0 matches). One render error can white-screen the whole SPA for every visitor.", "fix": "Add a small ErrorBoundary wrapping the router; show a calm fallback. Small, well understood.", "priority": "first"},
+    {"n": 2, "gap": "No root README.md; codebase knowledge lives in chat memory only.", "fix": "Write README: structure, build, deploy (Vercel auto from main), env vars, ledger conventions.", "priority": "second"},
+    {"n": 3, "gap": "src/pages/AdminPage.tsx is 1167 lines; src/data/seoResearch.ts 1682 (data, acceptable).", "fix": "Split AdminPage next time it needs changes; do not refactor for its own sake.", "priority": "when-touched"},
+    {"n": 4, "gap": "State management is one small context (DailyCardDate). Fine today; revisit only if cross-page state grows.", "fix": "none now", "priority": "watch"}
+  ],
+  "not_promised": "Refactoring does not guarantee speed gains or ranking improvement; measure before/after any performance claim."
+}

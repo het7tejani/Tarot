@@ -726,6 +726,50 @@
     "impressions": 2,
     "position": 86.0
    }
+  ],
+  "keywords_position_11_50": [
+   {
+    "query": "888",
+    "clicks": 0,
+    "impressions": 6,
+    "position": 32.0
+   },
+   {
+    "query": "may star sign",
+    "clicks": 0,
+    "impressions": 4,
+    "position": 11.0
+   },
+   {
+    "query": "libra dates",
+    "clicks": 0,
+    "impressions": 3,
+    "position": 25.0
+   },
+   {
+    "query": "april zodiac",
+    "clicks": 0,
+    "impressions": 3,
+    "position": 40.3
+   },
+   {
+    "query": "zodiac psychics",
+    "clicks": 0,
+    "impressions": 3,
+    "position": 44.0
+   },
+   {
+    "query": "psychic studio city",
+    "clicks": 0,
+    "impressions": 3,
+    "position": 47.0
+   },
+   {
+    "query": "may zodiac sign",
+    "clicks": 0,
+    "impressions": 2,
+    "position": 32.5
+   }
   ]
  },
  "authority": "Read-only GSC analysis under standing SEO autonomy. Request indexing button still erroring since Oct 22; retry daily."

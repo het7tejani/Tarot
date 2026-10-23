@@ -46,6 +46,12 @@ The [Hierophant reversed reflection guide](/blog/the-hierophant-reversed-your-va
 
 ![A hand resting near tarot cards and candles on a table](/uploads/daily-20261016-4790550.webp)
 
+## When the same disagreement keeps returning
+
+A repeated argument usually has a schedule: same trigger, same lines, same silence afterward. The Lovers reversed is a useful prompt to map that loop instead of replaying it. Write down the last three times it happened: what started it, what you actually said, and what you wanted but did not ask for. Most people find the third column is the one their partner has never heard.
+
+Pick one request small enough to make this week. "Be more supportive" cannot be acted on. "Can we talk for ten minutes after dinner without phones?" can. If the same loop runs in every relationship rather than one, that is worth slower reflection, and a counselor does that work better than any spread.
+
 ## Try a clearer question
 
 Instead of asking, "Is this connection doomed?", try: "Which expectation have we not discussed?" Instead of, "What do they secretly feel?", ask: "What do I know from our conversations, and what am I assuming?"

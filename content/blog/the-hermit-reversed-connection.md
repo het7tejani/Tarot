@@ -48,6 +48,12 @@ The Hermit reversed can be an image for that transition: carrying something lear
 
 ![A tarot deck resting on a stack of books](/uploads/19495045.webp)
 
+## A gradual return to people
+
+If isolation has stopped feeling restful, the way back is measured in minutes, not transformations. The Hermit reversed can prompt a simple ladder: a message to someone safe, a short walk somewhere with other people, one plan within the next two weeks that you would not cancel easily. Keep each step small enough that failing it once means retrying, not quitting.
+
+Notice the difference between choosing solitude and defaulting to it. Chosen solitude leaves you clearer afterward. Defaulted isolation leaves you heavier. If the heavier kind has lasted for weeks, or withdrawal comes with persistent low mood, a card can name the pattern but a counselor or doctor is the right next call. Connection is a practice, and small repetitions count.
+
 ## When a tarot reflection is not enough
 
 A card cannot assess your mental health or tell you what support you need. If distress, loneliness or difficulty with daily life persists, consider speaking with a qualified professional or someone you trust.

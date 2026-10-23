@@ -56,6 +56,14 @@ If you prefer asking a person, our guide to [love tarot readings](/love-tarot-re
 
 ![Writing down questions before asking them in a session](/blog-images/11025209.webp)
 
+## A five-minute preparation that works
+
+Set a timer for five minutes and answer three prompts on paper: what is bothering me, what have I already tried, and what would a useful answer let me do next. The third prompt is the one that turns worry into a question. "My relationship feels stuck" becomes "what would help me have the conversation I keep postponing?"
+
+Bring no more than three questions. One deep question explored properly teaches you more than ten questions answered in a sentence each. If the reading raises something unexpected, let the session follow it. Your list is a map, not a contract.
+
+After the session, write down the one thing you plan to do differently. A reading that changes nothing you do was entertainment, which is fine, but it helps to know which one you paid for.
+
 ## Questions about asking questions
 
 ### Is it rude to test a psychic?

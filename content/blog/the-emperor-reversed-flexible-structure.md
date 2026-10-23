@@ -48,6 +48,12 @@ For consequential financial or legal decisions, check the actual terms and use q
 
 ![A reader holding and shuffling a deck of tarot cards](/uploads/8391596.webp)
 
+## Audit the rules you actually follow
+
+The Emperor reversed is a good prompt for a rule audit. List the rules you followed yesterday, both the written ones and the ones you invented: when you replied to messages, what you were allowed to spend, who you had to update. Mark each as useful, outdated or nobody-knows-why. Most people find at least one rule they enforce on themselves that nobody asked for and nothing rewards.
+
+Then check the other direction: where is a rule missing? One clear agreement, like a budget cap or a decision deadline, often replaces five anxious habits. Structure earns its place by protecting something you value. Anything else is just control wearing a uniform.
+
 ## A practical next step
 
 Write one rule you want to keep, one you want to question and one responsibility that needs a clearer owner. Focus on a change you can discuss, rather than trying to control another person's response.

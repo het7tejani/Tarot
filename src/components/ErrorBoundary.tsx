@@ -21,7 +21,7 @@ export class ErrorBoundary extends React.Component<Props, State> {
     if (!this.state.hasError) return this.props.children;
     return (
       <main style={{
-        minHeight: '60vh', display: 'flex', flexDirection: 'column',
+        minHeight: '100vh', display: 'flex', flexDirection: 'column',
         alignItems: 'center', justifyContent: 'center', gap: '1rem',
         padding: '2rem', textAlign: 'center',
         backgroundColor: '#f4efec', color: '#1f2322',

@@ -37,6 +37,25 @@
       "avg_position": 74.1,
       "last_update": "4 hours ago (checked ~09:20 IST)"
     },
-    "note": "Recovery run after morning failures. Impressions 941 vs 895 yesterday (+5%), position 74.1 vs 74.6."
-  }
+    "note": "Recovery run after morning failures. Impressions 941 vs 895 yesterday (+5%), position 74.1 vs 74.6.",
+    "url_inspections": {
+      "indexed": [
+        "/blog/121-angel-number-meaning"
+      ],
+      "not_indexed": [
+        "/tarot-card-meanings/page-of-pentacles",
+        "/tarot-card-meanings/seven-of-wands",
+        "/blog/march-28-zodiac-sign",
+        "/blog/888-angel-number-warning",
+        "/blog/libra-dates"
+      ],
+      "index_requests": "all failed with GSC \"Oops! Something went wrong\" x3, likely quota/outage, retry next run"
+    }
+  },
+  "social": {
+    "pinterest": "pin 444 live on new Angel Numbers board",
+    "tumblr": "Hermit Reversed card-reflection posted",
+    "medium": "skipped (cloud login stays blocked)"
+  },
+  "deploy": "commit c53fd4d live ~11:33 IST"
 }

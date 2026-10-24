@@ -61,3 +61,5 @@ Aries, covering most of April, is a fire sign. Taurus, from April 20 onward, is 
 
 **What is the April star sign's symbol?**
 Aries is the ram. Taurus is the bull. April gets both animals in one month, which tells you most of what you need to know about April people.
+
+Taurus begins around April 20. See [Taurus dates and what month Taurus is](/blog/taurus-zodiac-dates).

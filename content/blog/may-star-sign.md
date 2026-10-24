@@ -63,3 +63,5 @@ Taurus, covering most of May, is an earth sign. Gemini, covering the last ten da
 
 **Are May Taurus and May Geminis compatible?**
 They can be. Taurus brings steadiness, Gemini brings spark, and the friction between routine and variety is the work of that relationship. The full breakdown is on our [Taurus and Gemini compatibility](/zodiac-compatibility/taurus-and-gemini) page.
+
+Taurus covers the first three weeks of May. The full breakdown is in [Taurus dates](/blog/taurus-zodiac-dates).

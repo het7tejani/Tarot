@@ -1,0 +1,10 @@
+{
+  "date": "2026-10-24",
+  "posts": [
+    {"slug": "leo-zodiac-dates", "keyword": "leo zodiac dates / what are the dates for a leo", "evidence": "GSC 7d Oct 23: 'what are the dates for a leo' pos 37, 'leo zodiac dates' in 11-50 band", "photos": ["36187082","32964634","6401474"]},
+    {"slug": "taurus-zodiac-dates", "keyword": "taurus month / what month is taurus", "evidence": "GSC 7d Oct 23: 'taurus month' and 'taurus horoscope zodiac sign' in 11-50 band", "photos": ["12205029","32160917","28424334"]},
+    {"slug": "taurus-and-libra-compatibility", "keyword": "libra taurus", "evidence": "GSC 7d Oct 23: 'libra taurus' in 11-50 band", "photos": ["32195293","38348249","6563405"]}
+  ],
+  "photos": {"source": "pexels", "pack": "pack-10.json", "note": "38348249 is in pack but unused in text"},
+  "internal_links": "Added inbound links from libra-dates, taurus-personality-traits, may-star-sign, april-star-sign, aquarius-leo-compatibility"
+}

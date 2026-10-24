@@ -61,3 +61,5 @@ Air. Libra shares the air element with Gemini and Aquarius, which shows up as co
 
 **Who is Libra most compatible with?**
 Gemini and Aquarius speak its language, Leo and Sagittarius bring the warmth it enjoys, and Scorpio offers the depth that helps it grow. Each pairing has its own page in our compatibility section.
+
+If you are curious how Libra gets along with the other Venus-ruled sign, read [Taurus and Libra compatibility](/blog/taurus-and-libra-compatibility).

@@ -86,3 +86,5 @@ No. Opposite signs are an astrological relationship between positions in the zod
 Look at the arguments rather than the signs. Can both people speak, take responsibility and make changes? Fear, coercion or repeated boundary violations should not be explained away as compatibility challenges.
 
 Astrology and tarot here are for entertainment and reflection, not a substitute for professional support or a reason to ignore your own experience.
+
+For the sign itself, see [Leo zodiac dates](/blog/leo-zodiac-dates).

@@ -61,3 +61,5 @@ Resistance to change. The same staying power that makes Taurus reliable keeps it
 
 **Who is Taurus most compatible with?**
 Virgo and Scorpio are the classic matches, with Cancer close behind. The full breakdowns are on our [Taurus compatibility pages](/zodiac-compatibility/taurus-and-cancer), and the sign's own profile is on our [Taurus zodiac page](/zodiac/taurus).
+
+To check your sign by birthday, see [Taurus dates and what month Taurus is](/blog/taurus-zodiac-dates).

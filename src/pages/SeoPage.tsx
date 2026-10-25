@@ -150,12 +150,12 @@ const SignPeriods: React.FC<{ signIndex: number; name: string }> = ({ signIndex,
       <div className="st-today-tabs" role="tablist" aria-label={`${name} horoscope period`}>
         {TODAY_TABS.map((t) => <button key={t} type="button" role="tab" aria-selected={tab === t} className={tab === t ? 'on' : ''} onClick={() => setTab(t)}>{t}</button>)}
       </div>
-      <div className="st-period-card">
+      <div className="st-period-card" style={{border:0,boxShadow:"none",background:"transparent"}}>
         <TarotArtwork src={c.image} alt={`${c.name} tarot card illustration for ${name}`} className="w-28 rounded-lg shadow-md" loading="lazy" />
         <div>
           <span className="eyebrow">{name} {tab.toLowerCase()} horoscope</span>
-          <h2>{heading}</h2>
-          <h3 className="st-period-card-name">{c.name}</h3>
+          <p className="st-period-h">{heading}</p>
+          <p className="st-period-card-name">{c.name}</p>
           <p className="st-today-kw">{c.keywords}</p>
           <p className="st-today-adv">{c.upright}</p>
           <p className="st-today-adv"><strong>Reflect:</strong> {c.advice}</p>

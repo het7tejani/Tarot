@@ -598,3 +598,5 @@ header .nav a.on,header a[aria-current=page]{color:#846019!important}
 .st-period-card .st-today-note{margin-top:14px}
 .st-today-sign-page{margin-top:28px}
 @media(max-width:560px){.st-period-card{grid-template-columns:1fr}}
+.st-period-h{margin:6px 0 4px;font-size:clamp(22px,2.6vw,30px);font-style:italic;color:var(--leaf-d);line-height:1.2;opacity:1!important}
+.st-today-sign-page .st-period-card::before,.st-today-sign-page .st-period-card::after{display:none!important}

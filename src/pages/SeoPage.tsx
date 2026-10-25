@@ -48,6 +48,47 @@ const DailyCard: React.FC<{ signIndex: number; label: string }> = ({ signIndex, 
   );
 };
 
+
+const dayKeyToDate = (k: number) => new Date(Date.UTC(Math.floor(k / 10000), Math.floor((k % 10000) / 100) - 1, k % 100, 12));
+const TodayBoard: React.FC = () => {
+  const dayKey = useDailyCardDay();
+  const [now, setNow] = React.useState<Date | null>(null);
+  React.useEffect(() => {
+    setNow(new Date());
+    const t = setInterval(() => setNow(new Date()), 1000);
+    return () => clearInterval(t);
+  }, []);
+  const dateLabel = now
+    ? new Intl.DateTimeFormat(undefined, { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' }).format(now)
+    : new Intl.DateTimeFormat('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' }).format(dayKeyToDate(dayKey));
+  const timeLabel = now ? new Intl.DateTimeFormat(undefined, { hour: 'numeric', minute: '2-digit', second: '2-digit', timeZoneName: 'short' }).format(now) : '';
+  return (
+    <section id="today" className="st-today">
+      <div className="st-today-head">
+        <div>
+          <span className="eyebrow">Today's horoscope</span>
+          <h2>{dateLabel}</h2>
+          <p className="st-today-time" aria-live="off">{timeLabel || '\u00A0'}</p>
+        </div>
+        <p className="st-today-note">Shown in your own time zone. A new tarot card for each sign every day. A prompt for reflection, not a prediction.</p>
+      </div>
+      <div className="st-today-grid">
+        {SIGN_INFO.map((s, i) => {
+          const c = FREE_TAROT_CARDS[(dayKey * 31 + (i + 1) * 97) % FREE_TAROT_CARDS.length];
+          return (
+            <Link key={s.n} to={`/horoscope/${s.n}`} className="st-today-tile">
+              <span className="st-today-sign"><b aria-hidden="true">{GLYPHS[i]}{'\uFE0E'}</b>{cap(s.n)}<em>{s.dates}</em></span>
+              <span className="st-today-card">{c.name}</span>
+              <span className="st-today-kw">{c.keywords}</span>
+              <span className="st-today-adv">{c.advice}</span>
+            </Link>
+          );
+        })}
+      </div>
+    </section>
+  );
+};
+
 const H2: React.FC<{ children: React.ReactNode }> = ({ children }) => <h2 className="text-2xl font-semibold mt-10 mb-3">{children}</h2>;
 const P: React.FC<{ children: React.ReactNode }> = ({ children }) => <p className="text-base leading-relaxed text-[#1f2322]/75 mb-4">{children}</p>;
 
@@ -112,7 +153,7 @@ export const SeoPage: React.FC = () => {
             <h1 className="text-4xl sm:text-5xl font-semibold tracking-tight mb-5">{page.h1}</h1>
             {page.intro && <p className="text-lg leading-relaxed text-[#1f2322]/70 mb-8">{page.intro}</p>}
             {sign && <div className="st-sign-meta"><span>{sign.dates}</span><span>{sign.el}</span><span>{sign.ruler}</span></div>}
-            {page.path === '/horoscope' && <a className="btn ghost" href="#your-sign">Find your sign ↓</a>}
+            {page.path === '/horoscope' && <a className="btn ghost" href="#today">See today\u2019s cards \u2193</a>}
             {isHoroscope && (
               <div className="st-quick-cta v-minimal">
                 <Link to="/free-tarot" className="st-quick-cta-btn">{ctaIcon}Free tarot reading: draw 1 or 3 cards</Link>
@@ -130,6 +171,7 @@ export const SeoPage: React.FC = () => {
         )}
         {page.path === '/numerology' && <NumerologyCalculator />}
         {(page.path === '/horoscope' || page.kind === 'horoscope') && <DailyCardSignup sign={page.kind === 'horoscope' && sign ? sign.n.charAt(0).toUpperCase() + sign.n.slice(1) : undefined} />}
+        {page.path === '/horoscope' && <TodayBoard />}
         {page.path === '/horoscope' && <section id="your-sign" className="st-sign-selection">
           <span className="eyebrow">Twelve signs. Your own perspective.</span><h2>Choose your sign</h2>
           <div className="st-zodiac-gallery">{SIGN_INFO.map((s, i) => <Link key={s.n} to={`/horoscope/${s.n}`} className="st-zodiac-tile"><span className="st-zodiac-glyph" aria-hidden="true">{GLYPHS[i]}{'\uFE0E'}</span><span className="st-zodiac-name">{cap(s.n)}</span><span className="st-zodiac-dates">{s.dates}</span><span className="st-zodiac-element">{s.el} <span aria-hidden="true">↗</span></span></Link>)}</div>

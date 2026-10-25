@@ -560,3 +560,21 @@ header .nav a.on,header a[aria-current=page]{color:#846019!important}
 .st .st-quick-cta.v-minimal .st-quick-cta-note{color:var(--ink2)}
 
 @media(min-width:821px){.st-search .st-drawer-scrim{display:none}.st-search-panel{position:static;height:auto;width:0;padding:0;border:0;box-shadow:none;background:transparent;transform:none;visibility:visible;overflow:hidden;display:flex;align-items:center;gap:8px;transition:width .45s cubic-bezier(.22,.8,.24,1)}.st-search-panel.open{width:300px;overflow:visible}.st-search-panel .st-drawer-head{margin:0;order:2}.st-search-panel .st-drawer-head span{display:none}.st-search-panel .st-drawer-x{width:32px;height:32px;font-size:16px;flex:none}.st-search-panel ul{position:absolute;top:calc(100% + 14px);right:0;width:360px;max-height:320px;background:var(--paper);border:1px solid var(--line);border-radius:14px;box-shadow:0 18px 50px rgba(60,40,20,.18);padding:8px;z-index:130}.st-search-panel .st-search-empty{position:absolute;top:calc(100% + 14px);right:0;width:360px;margin:0;background:var(--paper);border:1px solid var(--line);border-radius:14px;box-shadow:0 18px 50px rgba(60,40,20,.18);padding:12px 14px}}
+
+.st-today{margin:44px 0 20px;padding:28px;border:1px solid var(--line);border-radius:20px;background:var(--cream)}
+.st-today-head{display:flex;justify-content:space-between;gap:24px;align-items:flex-end;flex-wrap:wrap;text-align:left}
+.st-today-head h2{margin:6px 0 4px;font-size:clamp(24px,3vw,34px)}
+.st-today-time{margin:0;font-variant-numeric:tabular-nums;font-weight:700;color:var(--leaf-d);font-size:18px}
+.st-today-note{max-width:340px;margin:0;font-size:13px;opacity:.7}
+.st-today-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:24px}
+.st-today-tile{display:flex;flex-direction:column;gap:6px;padding:16px;border:1px solid var(--line);border-radius:14px;background:#fff8;text-align:left;color:inherit}
+.st-today-tile:hover{border-color:var(--leaf)}
+.st-today-sign{display:flex;align-items:baseline;gap:8px;font-weight:700}
+.st-today-sign b{font-size:22px;font-weight:400;color:var(--saffron)}
+.st-today-sign em{margin-left:auto;font-style:normal;font-size:11px;opacity:.55;font-weight:500}
+.st-today-card{font-weight:700;font-size:16px}
+.st-today-kw{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--leaf);font-weight:700}
+.st-today-adv{font-size:13px;line-height:1.5;opacity:.8}
+@media(max-width:1000px){.st-today-grid{grid-template-columns:repeat(3,1fr)}}
+@media(max-width:760px){.st-today-grid{grid-template-columns:repeat(2,1fr)}.st-today{padding:18px}}
+@media(max-width:480px){.st-today-grid{grid-template-columns:1fr}}

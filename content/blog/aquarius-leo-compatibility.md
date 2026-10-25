@@ -88,3 +88,5 @@ Look at the arguments rather than the signs. Can both people speak, take respons
 Astrology and tarot here are for entertainment and reflection, not a substitute for professional support or a reason to ignore your own experience.
 
 For the sign itself, see [Leo zodiac dates](/blog/leo-zodiac-dates).
+
+For another love-focused sign guide, read [Scorpio in love](/blog/scorpio-in-love-tarot-and-horoscope).

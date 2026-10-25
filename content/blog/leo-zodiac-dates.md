@@ -54,6 +54,8 @@ Leo and Scorpio is the pairing people ask about most. Two fixed signs that both 
 
 Leo season in 2026 runs from July 23 to August 22, the hottest stretch of the northern summer. Astrologers treat it as the time of year when confidence and visibility come up in conversation, whether that means a big birthday, a presentation or finally posting the thing you made. You can check what the sign has in store for you this week on the [Leo horoscope](/horoscope/leo) page.
 
+Curious about the sign's intuition? Read [which zodiac signs are called most psychic](/blog/most-psychic-zodiac-signs).
+
 ## FAQ
 
 **What are the dates for Leo?**

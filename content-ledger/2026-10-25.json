@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-25",
+  "gsc_basis": "GSC 7d (data to Oct 22): 1.06K impressions, 6 clicks, avg position 73.8",
+  "posts": [
+    {"slug": "gemini-zodiac-dates", "keyword": "june 18 zodiac sign / 21 May zodiac / gemini dates", "evidence": "GSC 7d: 'june 18 zodiac sign' pos 48, '21 μαΐου ζωδιο' pos 35, 'may 31 sign' pos 46", "photos": ["30869080","31851450","7222018"]},
+    {"slug": "scorpio-in-love-tarot-and-horoscope", "keyword": "scorpio love horoscope / scorpio tarot", "evidence": "GSC 7d: 'daily love horoscope scorpio' pos 47, 'scorpio horoscope tarot' pos 29, 'scorpio tarot' pos 33", "photos": ["3607542","24906842","7222056"]},
+    {"slug": "most-psychic-zodiac-signs", "keyword": "zodiac psychics / leo psychic abilities", "evidence": "GSC 7d: 'zodiac psychics' pos 40, 'leo psychic abilities' pos 31.5", "photos": ["7179422","6593243","7179795"]}
+  ],
+  "photos_pack": "pack-11.json (pexels)",
+  "internal_links": "Inbound links added from taurus-zodiac-dates, may-star-sign, libra-dates, leo-zodiac-dates, questions-to-ask-a-psychic, gold-aura-meaning, taurus-and-libra-compatibility, aquarius-leo-compatibility; each new post links to 6+ site pages"
+}

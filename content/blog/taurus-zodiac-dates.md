@@ -50,6 +50,8 @@ Taurus tends to do best with other earth signs and with water signs that appreci
 
 Taurus and Libra shares a ruler in Venus and is the pairing we cover in detail in our guide to [Taurus and Libra](/zodiac-compatibility/taurus-and-libra). You can also read the weekly [Taurus horoscope](/horoscope/taurus).
 
+The next sign in the wheel is covered in our [Gemini zodiac dates](/blog/gemini-zodiac-dates) guide.
+
 ## FAQ
 
 **What are the Taurus dates?**

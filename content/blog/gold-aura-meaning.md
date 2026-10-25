@@ -73,3 +73,5 @@ A label cannot diagnose physical or mental health. For symptoms or concerns, see
 ### Do I need aura cleansing?
 
 You do not need to buy anything because of a color label. If you enjoy symbolic practice, a quiet pause or journal entry can be enough. Let the image support your choices, not define your worth. Tarot and aura interpretation here are for entertainment and reflection.
+
+For another view on intuition, see [the most psychic zodiac signs](/blog/most-psychic-zodiac-signs).

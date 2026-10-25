@@ -81,3 +81,5 @@ No one can verify private thoughts from the outside. A reading can help you noti
 ### How many questions should I bring?
 
 Three to five, ranked. Start with the one you most want answered. Tarot and psychic readings here are for entertainment and reflection; decisions about health, money and relationships deserve appropriate professional advice.
+
+Some people also ask which signs are the most intuitive. See [the most psychic zodiac signs](/blog/most-psychic-zodiac-signs).

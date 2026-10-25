@@ -50,6 +50,8 @@ Both signs should also make time for real conversation about disagreements, sinc
 
 Our [Taurus and Libra compatibility](/zodiac-compatibility/taurus-and-libra) page has the full pairing breakdown. To read each sign on its own, see the [Taurus zodiac page](/zodiac/taurus) and the [Libra zodiac page](/zodiac/libra). If you know your birth details, a [birth chart](/birth-chart) shows how the Moon and rising sign change the picture.
 
+Scorpio is the sign opposite Taurus. See [Scorpio in love](/blog/scorpio-in-love-tarot-and-horoscope) for how that pull works.
+
 ## FAQ
 
 **Are Taurus and Libra compatible?**

@@ -588,3 +588,13 @@ header .nav a.on,header a[aria-current=page]{color:#846019!important}
 .st-today-more{margin-top:auto;padding-top:6px;font-size:13px;font-weight:700;color:var(--leaf-d)}
 .st-today-sign em{display:none}
 @media(max-width:480px){.st-today-tabs button{padding:10px 12px;font-size:14px}}
+
+.st-live-clock{display:inline-flex;flex-direction:column;gap:2px;margin:0 0 18px;padding:10px 16px;border:1px solid var(--line);border-radius:12px;background:var(--cream);text-align:left;font-size:14px;color:var(--leaf-d)}
+.st-live-clock b{font-variant-numeric:tabular-nums;font-size:18px}
+.st-period-card{display:grid;grid-template-columns:120px 1fr;gap:24px;align-items:start;text-align:left}
+.st-period-card h2{margin:6px 0 4px;font-size:clamp(22px,2.6vw,30px)}
+.st-period-card-name{margin:8px 0 2px;font-size:20px;font-weight:700}
+.st-period-card .st-today-adv{margin:8px 0 0;font-size:14px}
+.st-period-card .st-today-note{margin-top:14px}
+.st-today-sign-page{margin-top:28px}
+@media(max-width:560px){.st-period-card{grid-template-columns:1fr}}

@@ -150,7 +150,7 @@ const SignPeriods: React.FC<{ signIndex: number; name: string }> = ({ signIndex,
       <div className="st-today-tabs" role="tablist" aria-label={`${name} horoscope period`}>
         {TODAY_TABS.map((t) => <button key={t} type="button" role="tab" aria-selected={tab === t} className={tab === t ? 'on' : ''} onClick={() => setTab(t)}>{t}</button>)}
       </div>
-      <div className="st-daily-card st-period-card">
+      <div className="st-period-card">
         <TarotArtwork src={c.image} alt={`${c.name} tarot card illustration for ${name}`} className="w-28 rounded-lg shadow-md" loading="lazy" />
         <div>
           <span className="eyebrow">{name} {tab.toLowerCase()} horoscope</span>
@@ -231,7 +231,7 @@ export const SeoPage: React.FC = () => {
             {page.intro && <p className="text-lg leading-relaxed text-[#1f2322]/70 mb-8">{page.intro}</p>}
             {sign && <div className="st-sign-meta"><span>{sign.dates}</span><span>{sign.el}</span><span>{sign.ruler}</span></div>}
             {isHoroscope && <LiveClock />}
-            {page.path === '/horoscope' && <a className="btn ghost" href="#today">See today\u2019s cards \u2193</a>}
+            {page.path === '/horoscope' && <a className="btn ghost" href="#today">See today's cards ↓</a>}
             {isHoroscope && (
               <div className="st-quick-cta v-minimal">
                 <Link to="/free-tarot" className="st-quick-cta-btn">{ctaIcon}Free tarot reading: draw 1 or 3 cards</Link>

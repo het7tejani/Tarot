@@ -53,6 +53,33 @@ const BackToTop: React.FC = () => {
   if (!show) return null;
   return <button type="button" className="st-totop" aria-label="Back to top" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round"><polyline points="18 15 12 9 6 15" /></svg></button>;
 };
+const ANN: { text: string; to?: string; cta?: string }[] = [
+  { text: 'Flat 94% off personal readings, now from $5', to: '/shop', cta: 'Shop readings' },
+  { text: 'Free tarot draw, no sign-up needed', to: '/free-tarot', cta: 'Draw a card' },
+  { text: "Today's horoscope for all 12 signs", to: '/horoscope', cta: 'Read today' },
+];
+const AnnouncementBar: React.FC = () => {
+  const [i, setI] = useState(0);
+  const [now, setNow] = useState<Date | null>(null);
+  const [paused, setPaused] = useState(false);
+  useEffect(() => { setNow(new Date()); const t = window.setInterval(() => setNow(new Date()), 1000); return () => window.clearInterval(t); }, []);
+  useEffect(() => {
+    if (paused || (typeof window !== 'undefined' && window.matchMedia('(prefers-reduced-motion: reduce)').matches)) return;
+    const t = window.setInterval(() => setI(v => (v + 1) % (ANN.length + 1)), 4500);
+    return () => window.clearInterval(t);
+  }, [paused]);
+  const date = now ? new Intl.DateTimeFormat('en-US', { weekday: 'long', month: 'long', day: 'numeric' }).format(now) : '';
+  const time = now ? new Intl.DateTimeFormat(undefined, { hour: 'numeric', minute: '2-digit', second: '2-digit' }).format(now) : '';
+  const slide = i === 0 ? null : ANN[i - 1];
+  return (
+    <div className="st-ann" role="region" aria-label="Announcements" onMouseEnter={() => setPaused(true)} onMouseLeave={() => setPaused(false)}>
+      <div className="wrap in" key={i}>
+        {slide ? <><span>{slide.text}</span>{slide.to && <Link to={slide.to}>{slide.cta}</Link>}</> : <><span>{date || '\u00A0'}</span><b>{time}</b></>}
+      </div>
+      <div className="st-ann-dots" aria-hidden="true">{[0, 1, 2, 3].map(d => <i key={d} className={d === i ? 'on' : ''} />)}</div>
+    </div>
+  );
+};
 export const Layout: React.FC<{ children: React.ReactNode; seo?: boolean }> = ({ children, seo = true }) => {
   const [open, setOpen] = useState(false);
   const { pathname } = useLocation();
@@ -63,6 +90,7 @@ export const Layout: React.FC<{ children: React.ReactNode; seo?: boolean }> = ({
       <a className="st-skip" href="#st-main">Skip to content</a>
       <ScrollProgress />
       {seo && <RouteSEO />}
+      <AnnouncementBar />
       <header className="st-head"><div className="wrap in">
         <Link to="/" className="st-logo"><img className="st-brand-mark" src="/navbar-96.webp" srcSet="/navbar-96.webp 96w, /navbar-192.webp 192w" sizes="40px" width="40" height="44.667" alt="" />The Psychic Studio</Link>
         <div className={'st-drawer-scrim' + (open ? ' show' : '')} onClick={() => setOpen(false)} aria-hidden="true" />

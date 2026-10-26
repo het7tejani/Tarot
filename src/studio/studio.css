@@ -600,3 +600,13 @@ header .nav a.on,header a[aria-current=page]{color:#846019!important}
 @media(max-width:560px){.st-period-card{grid-template-columns:1fr}}
 .st-period-h{margin:6px 0 4px;font-size:clamp(22px,2.6vw,30px);font-style:italic;color:var(--leaf-d);line-height:1.2;opacity:1!important}
 .st-today-sign-page .st-period-card::before,.st-today-sign-page .st-period-card::after{display:none!important}
+
+.st-ann{position:relative;background:var(--leaf-d);color:#f6f1e1;font-size:13px;letter-spacing:.02em;min-height:36px;display:flex;align-items:center;justify-content:center;overflow:hidden}
+.st-ann .in{display:flex;align-items:center;justify-content:center;gap:14px;padding:8px 40px;text-align:center;animation:st-ann-in .45s ease}
+.st-ann a{color:#ffd189;font-weight:600;text-decoration:underline;text-underline-offset:3px;white-space:nowrap}
+.st-ann b{font-variant-numeric:tabular-nums;font-weight:600;color:#ffd189}
+.st-ann-dots{position:absolute;right:14px;top:50%;transform:translateY(-50%);display:flex;gap:5px}
+.st-ann-dots i{width:5px;height:5px;border-radius:50%;background:#f6f1e1;opacity:.35}
+.st-ann-dots i.on{opacity:1}
+@keyframes st-ann-in{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+@media (max-width:640px){.st-ann{font-size:12px}.st-ann .in{padding:8px 28px;gap:10px;flex-wrap:wrap}.st-ann-dots{display:none}}

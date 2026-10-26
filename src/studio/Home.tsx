@@ -47,7 +47,7 @@ const HeroSlider: React.FC = () => {
     if (ref.current) {
       ref.current.dataset.rolling = '1';
       window.clearTimeout(rollTimer.current);
-      rollTimer.current = window.setTimeout(() => { delete ref.current!.dataset.rolling; }, 1350);
+      rollTimer.current = window.setTimeout(() => { if (ref.current) delete ref.current.dataset.rolling; }, 1350);
     }
     setIdx(n);
   };
@@ -89,7 +89,7 @@ const HeroSlider: React.FC = () => {
 export const Home: React.FC = () => (
   <Layout>
     <HeroSlider />
-    <div className="st-strip"><span>Free tarot</span>✦<span>Daily horoscope</span>✦<span>Love guidance</span>✦<span>Card meanings</span>✦<span>Angel numbers</span>✦<span>Personal readings</span></div>
+    <div className="st-strip"><Link to="/free-tarot">Free tarot</Link>✦<Link to="/horoscope">Daily horoscope</Link>✦<Link to="/love-horoscope">Love guidance</Link>✦<Link to="/tarot-card-meanings">Card meanings</Link>✦<Link to="/angel-numbers">Angel numbers</Link>✦<Link to="/shop">Personal readings</Link></div>
     <section className="st-halloween" aria-labelledby="halloween-title">
       <style>{`
         .st-halloween{position:relative;isolation:isolate;background:radial-gradient(ellipse at 18% 44%,#da6827 0%,#9d351c 40%,#3b1412 78%,#190f10 100%);padding:46px 0;min-height:620px;overflow:hidden;color:#fff6df;border-top:3px solid #dd852d;border-bottom:3px solid #dd852d}

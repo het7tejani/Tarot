@@ -560,3 +560,57 @@ header .nav a.on,header a[aria-current=page]{color:#846019!important}
 .st .st-quick-cta.v-minimal .st-quick-cta-note{color:var(--ink2)}
 
 @media(min-width:821px){.st-search .st-drawer-scrim{display:none}.st-search-panel{position:static;height:auto;width:0;padding:0;border:0;box-shadow:none;background:transparent;transform:none;visibility:visible;overflow:hidden;display:flex;align-items:center;gap:8px;transition:width .45s cubic-bezier(.22,.8,.24,1)}.st-search-panel.open{width:300px;overflow:visible}.st-search-panel .st-drawer-head{margin:0;order:2}.st-search-panel .st-drawer-head span{display:none}.st-search-panel .st-drawer-x{width:32px;height:32px;font-size:16px;flex:none}.st-search-panel ul{position:absolute;top:calc(100% + 14px);right:0;width:360px;max-height:320px;background:var(--paper);border:1px solid var(--line);border-radius:14px;box-shadow:0 18px 50px rgba(60,40,20,.18);padding:8px;z-index:130}.st-search-panel .st-search-empty{position:absolute;top:calc(100% + 14px);right:0;width:360px;margin:0;background:var(--paper);border:1px solid var(--line);border-radius:14px;box-shadow:0 18px 50px rgba(60,40,20,.18);padding:12px 14px}}
+
+.st-today{margin:44px 0 20px;padding:28px;border:1px solid var(--line);border-radius:20px;background:var(--cream)}
+.st-today-head{display:flex;justify-content:space-between;gap:24px;align-items:flex-end;flex-wrap:wrap;text-align:left}
+.st-today-head h2{margin:6px 0 4px;font-size:clamp(24px,3vw,34px)}
+.st-today-time{margin:0;font-variant-numeric:tabular-nums;font-weight:700;color:var(--leaf-d);font-size:18px}
+.st-today-note{max-width:340px;margin:0;font-size:13px;opacity:.7}
+.st-today-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:24px}
+.st-today-tile{display:flex;flex-direction:column;gap:6px;padding:16px;border:1px solid var(--line);border-radius:14px;background:#fff8;text-align:left;color:inherit}
+.st-today-tile:hover{border-color:var(--leaf)}
+.st-today-sign{display:flex;align-items:baseline;gap:8px;font-weight:700}
+.st-today-sign b{font-size:22px;font-weight:400;color:var(--saffron)}
+.st-today-sign em{margin-left:auto;font-style:normal;font-size:11px;opacity:.55;font-weight:500}
+.st-today-card{font-weight:700;font-size:16px}
+.st-today-kw{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--leaf);font-weight:700}
+.st-today-adv{font-size:13px;line-height:1.5;opacity:.8}
+@media(max-width:1000px){.st-today-grid{grid-template-columns:repeat(3,1fr)}}
+@media(max-width:760px){.st-today-grid{grid-template-columns:repeat(2,1fr)}.st-today{padding:18px}}
+@media(max-width:480px){.st-today-grid{grid-template-columns:1fr}}
+
+.st-today-tabs{display:flex;gap:4px;flex-wrap:wrap;border-bottom:1px solid var(--line);margin:-8px -8px 22px;padding:0 8px}
+.st-today-tabs button{background:none;border:0;border-bottom:2px solid transparent;padding:12px 16px;font:inherit;font-weight:600;color:var(--leaf-d);cursor:pointer;opacity:.7}
+.st-today-tabs button:hover{opacity:1}
+.st-today-tabs button.on{border-bottom-color:var(--saffron);opacity:1}
+.st-today-art{width:64px;height:64px;object-fit:contain;margin-bottom:4px}
+.st-today-dates{font-size:12px;opacity:.6;margin-top:-4px}
+.st-today-more{margin-top:auto;padding-top:6px;font-size:13px;font-weight:700;color:var(--leaf-d)}
+.st-today-sign em{display:none}
+@media(max-width:480px){.st-today-tabs button{padding:10px 12px;font-size:14px}}
+
+.st-live-clock{display:inline-flex;flex-direction:column;gap:2px;margin:0 0 18px;padding:10px 16px;border:1px solid var(--line);border-radius:12px;background:var(--cream);text-align:left;font-size:14px;color:var(--leaf-d)}
+.st-live-clock b{font-variant-numeric:tabular-nums;font-size:18px}
+.st-period-card{display:grid;grid-template-columns:120px 1fr;gap:24px;align-items:start;text-align:left}
+.st-period-card h2{margin:6px 0 4px;font-size:clamp(22px,2.6vw,30px)}
+.st-period-card-name{margin:8px 0 2px;font-size:20px;font-weight:700}
+.st-period-card .st-today-adv{margin:8px 0 0;font-size:14px}
+.st-period-card .st-today-note{margin-top:14px}
+.st-today-sign-page{margin-top:28px}
+@media(max-width:560px){.st-period-card{grid-template-columns:1fr}}
+.st-period-h{margin:6px 0 4px;font-size:clamp(22px,2.6vw,30px);font-style:italic;color:var(--leaf-d);line-height:1.2;opacity:1!important}
+.st-today-sign-page .st-period-card::before,.st-today-sign-page .st-period-card::after{display:none!important}
+
+.st-ann{position:relative;background:var(--leaf-d);color:#f6f1e1;font-size:13px;letter-spacing:.02em;min-height:36px;display:flex;align-items:center;justify-content:center;overflow:hidden}
+.st-ann .in{display:flex;align-items:center;justify-content:center;gap:14px;padding:8px 40px;text-align:center;animation:st-ann-in .45s ease}
+.st-ann a{color:#ffd189;font-weight:600;text-decoration:underline;text-underline-offset:3px;white-space:nowrap}
+.st-ann b{font-variant-numeric:tabular-nums;font-weight:600;color:#ffd189}
+.st-ann-dots{position:absolute;right:14px;top:50%;transform:translateY(-50%);display:flex;gap:5px}
+.st-ann-dots i{width:5px;height:5px;border-radius:50%;background:#f6f1e1;opacity:.35}
+.st-ann-dots i.on{opacity:1}
+@keyframes st-ann-in{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+@media (max-width:640px){.st-ann{font-size:12px}.st-ann .in{padding:8px 28px;gap:10px;flex-wrap:wrap}.st-ann-dots{display:none}}
+.st-live-clock{display:flex;flex-direction:row;align-items:baseline;gap:14px;width:fit-content;max-width:100%;flex-wrap:wrap;margin:0 0 16px;padding:9px 16px;border-radius:999px;font-size:14px}
+.st-live-clock b{font-size:15px}
+.st-astro-hero .btn.ghost{display:inline-flex;align-items:center;margin:0 0 20px}
+.st-astro-hero .st-quick-cta{margin-top:0}

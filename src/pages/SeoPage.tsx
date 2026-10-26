@@ -48,6 +48,124 @@ const DailyCard: React.FC<{ signIndex: number; label: string }> = ({ signIndex, 
   );
 };
 
+
+const dayKeyToDate = (k: number) => new Date(Date.UTC(Math.floor(k / 10000), Math.floor((k % 10000) / 100) - 1, k % 100, 12));
+const dateToKey = (d: Date) => d.getUTCFullYear() * 10000 + (d.getUTCMonth() + 1) * 100 + d.getUTCDate();
+const shiftKey = (k: number, days: number) => { const d = dayKeyToDate(k); d.setUTCDate(d.getUTCDate() + days); return dateToKey(d); };
+const TODAY_TABS = ['Daily', 'Yesterday', 'Tomorrow', 'Weekly', 'Monthly', 'Yearly'] as const;
+type TodayTab = typeof TODAY_TABS[number];
+const TAB_COPY: Record<TodayTab, string> = {
+  Daily: 'Your card for today, one per sign.',
+  Yesterday: 'Yesterday\u2019s cards, for looking back.',
+  Tomorrow: 'Tomorrow\u2019s cards, a day ahead.',
+  Weekly: 'One card per sign to carry through this week (Monday to Sunday).',
+  Monthly: 'One card per sign as a theme for this month.',
+  Yearly: 'One card per sign as a theme for this year.',
+};
+const TodayBoard: React.FC = () => {
+  const dayKey = useDailyCardDay();
+  const [now, setNow] = React.useState<Date | null>(null);
+  const [tab, setTab] = React.useState<TodayTab>('Daily');
+  React.useEffect(() => {
+    setNow(new Date());
+    const t = setInterval(() => setNow(new Date()), 1000);
+    return () => clearInterval(t);
+  }, []);
+  const base = dayKeyToDate(dayKey);
+  const fmt = (d: Date) => new Intl.DateTimeFormat('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' }).format(d);
+  const dateLabel = fmt(base);
+  const timeLabel = now ? new Intl.DateTimeFormat(undefined, { hour: 'numeric', minute: '2-digit', second: '2-digit', timeZoneName: 'short' }).format(now) : '';
+  const dow = (base.getUTCDay() + 6) % 7;
+  const weekStart = shiftKey(dayKey, -dow);
+  const y = Math.floor(dayKey / 10000), m = Math.floor((dayKey % 10000) / 100);
+  const MONTHS = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+  let key = dayKey, heading = dateLabel;
+  if (tab === 'Yesterday') { key = shiftKey(dayKey, -1); heading = fmt(dayKeyToDate(key)); }
+  else if (tab === 'Tomorrow') { key = shiftKey(dayKey, 1); heading = fmt(dayKeyToDate(key)); }
+  else if (tab === 'Weekly') { key = weekStart * 7 + 3; const e = shiftKey(weekStart, 6); heading = `Week of ${new Intl.DateTimeFormat('en-US', { month: 'long', day: 'numeric', timeZone: 'UTC' }).format(dayKeyToDate(weekStart))} to ${new Intl.DateTimeFormat('en-US', { month: 'long', day: 'numeric', timeZone: 'UTC' }).format(dayKeyToDate(e))}`; }
+  else if (tab === 'Monthly') { key = (y * 100 + m) * 13 + 5; heading = `${MONTHS[m - 1]} ${y}`; }
+  else if (tab === 'Yearly') { key = y * 17 + 11; heading = String(y); }
+  return (
+    <section id="today" className="st-today">
+      <div className="st-today-tabs" role="tablist" aria-label="Horoscope period">
+        {TODAY_TABS.map((t) => <button key={t} type="button" role="tab" aria-selected={tab === t} className={tab === t ? 'on' : ''} onClick={() => setTab(t)}>{t}</button>)}
+      </div>
+      <div className="st-today-head">
+        <div>
+          <span className="eyebrow">{tab === 'Daily' ? "Today's horoscope" : `${tab} horoscope`}</span>
+          <h2>{heading}</h2>
+          <p className="st-today-time" aria-live="off">{timeLabel ? `Now: ${timeLabel}` : '\u00A0'}</p>
+        </div>
+        <p className="st-today-note">{TAB_COPY[tab]} Dates follow your own time zone. These are tarot reflections, not planetary-transit forecasts or predictions.</p>
+      </div>
+      <div className="st-today-grid">
+        {SIGN_INFO.map((s, i) => {
+          const c = FREE_TAROT_CARDS[(key * 31 + (i + 1) * 97) % FREE_TAROT_CARDS.length];
+          return (
+            <Link key={s.n} to={`/horoscope/${s.n}`} className="st-today-tile">
+              <img className="st-today-art" src={`/perf-assets/signs/${s.n}.svg`} alt="" width={64} height={64} loading="lazy" decoding="async" />
+              <span className="st-today-sign"><b aria-hidden="true">{GLYPHS[i]}{'\uFE0E'}</b>{cap(s.n)}</span>
+              <span className="st-today-dates">{s.dates}</span>
+              <span className="st-today-card">{c.name}</span>
+              <span className="st-today-kw">{c.keywords}</span>
+              <span className="st-today-adv">{c.advice}</span>
+              <span className="st-today-more">Read {cap(s.n)} <span aria-hidden="true">&rarr;</span></span>
+            </Link>
+          );
+        })}
+      </div>
+    </section>
+  );
+};
+
+const periodInfo = (tab: TodayTab, dayKey: number) => {
+  const fmt = (k: number) => new Intl.DateTimeFormat('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' }).format(dayKeyToDate(k));
+  const md = (k: number) => new Intl.DateTimeFormat('en-US', { month: 'long', day: 'numeric', timeZone: 'UTC' }).format(dayKeyToDate(k));
+  const MONTHS = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+  const y = Math.floor(dayKey / 10000), m = Math.floor((dayKey % 10000) / 100);
+  const dow = (dayKeyToDate(dayKey).getUTCDay() + 6) % 7;
+  const ws = shiftKey(dayKey, -dow);
+  if (tab === 'Yesterday') { const k = shiftKey(dayKey, -1); return { key: k, heading: fmt(k) }; }
+  if (tab === 'Tomorrow') { const k = shiftKey(dayKey, 1); return { key: k, heading: fmt(k) }; }
+  if (tab === 'Weekly') return { key: ws * 7 + 3, heading: `Week of ${md(ws)} to ${md(shiftKey(ws, 6))}` };
+  if (tab === 'Monthly') return { key: (y * 100 + m) * 13 + 5, heading: `${MONTHS[m - 1]} ${y}` };
+  if (tab === 'Yearly') return { key: y * 17 + 11, heading: String(y) };
+  return { key: dayKey, heading: fmt(dayKey) };
+};
+const LiveClock: React.FC = () => {
+  const dayKey = useDailyCardDay();
+  const [now, setNow] = React.useState<Date | null>(null);
+  React.useEffect(() => { setNow(new Date()); const t = setInterval(() => setNow(new Date()), 1000); return () => clearInterval(t); }, []);
+  const date = new Intl.DateTimeFormat('en-US', { weekday: 'long', month: 'long', day: 'numeric', year: 'numeric', timeZone: 'UTC' }).format(dayKeyToDate(dayKey));
+  const time = now ? new Intl.DateTimeFormat(undefined, { hour: 'numeric', minute: '2-digit', second: '2-digit', timeZoneName: 'short' }).format(now) : '';
+  return <p className="st-live-clock" aria-live="off"><span>{date}</span><b>{time || '\u00A0'}</b></p>;
+};
+const SignPeriods: React.FC<{ signIndex: number; name: string }> = ({ signIndex, name }) => {
+  const dayKey = useDailyCardDay();
+  const [tab, setTab] = React.useState<TodayTab>('Daily');
+  const { key, heading } = periodInfo(tab, dayKey);
+  const c = FREE_TAROT_CARDS[(key * 31 + (signIndex + 1) * 97) % FREE_TAROT_CARDS.length];
+  return (
+    <section className="st-today st-today-sign-page">
+      <div className="st-today-tabs" role="tablist" aria-label={`${name} horoscope period`}>
+        {TODAY_TABS.map((t) => <button key={t} type="button" role="tab" aria-selected={tab === t} className={tab === t ? 'on' : ''} onClick={() => setTab(t)}>{t}</button>)}
+      </div>
+      <div className="st-period-card" style={{border:0,boxShadow:"none",background:"transparent"}}>
+        <TarotArtwork src={c.image} alt={`${c.name} tarot card illustration for ${name}`} className="w-28 rounded-lg shadow-md" loading="lazy" />
+        <div>
+          <span className="eyebrow">{name} {tab.toLowerCase()} horoscope</span>
+          <p className="st-period-h">{heading}</p>
+          <p className="st-period-card-name">{c.name}</p>
+          <p className="st-today-kw">{c.keywords}</p>
+          <p className="st-today-adv">{c.upright}</p>
+          <p className="st-today-adv"><strong>Reflect:</strong> {c.advice}</p>
+          <p className="st-today-note">{TAB_COPY[tab]} Dates follow your own time zone. A tarot reflection, not a planetary-transit forecast or a prediction.</p>
+        </div>
+      </div>
+    </section>
+  );
+};
+
 const H2: React.FC<{ children: React.ReactNode }> = ({ children }) => <h2 className="text-2xl font-semibold mt-10 mb-3">{children}</h2>;
 const P: React.FC<{ children: React.ReactNode }> = ({ children }) => <p className="text-base leading-relaxed text-[#1f2322]/75 mb-4">{children}</p>;
 
@@ -112,7 +230,8 @@ export const SeoPage: React.FC = () => {
             <h1 className="text-4xl sm:text-5xl font-semibold tracking-tight mb-5">{page.h1}</h1>
             {page.intro && <p className="text-lg leading-relaxed text-[#1f2322]/70 mb-8">{page.intro}</p>}
             {sign && <div className="st-sign-meta"><span>{sign.dates}</span><span>{sign.el}</span><span>{sign.ruler}</span></div>}
-            {page.path === '/horoscope' && <a className="btn ghost" href="#your-sign">Find your sign ↓</a>}
+            {isHoroscope && <LiveClock />}
+            {page.path === '/horoscope' && <a className="btn ghost" href="#today">See today's cards ↓</a>}
             {isHoroscope && (
               <div className="st-quick-cta v-minimal">
                 <Link to="/free-tarot" className="st-quick-cta-btn">{ctaIcon}Free tarot reading: draw 1 or 3 cards</Link>
@@ -130,6 +249,7 @@ export const SeoPage: React.FC = () => {
         )}
         {page.path === '/numerology' && <NumerologyCalculator />}
         {(page.path === '/horoscope' || page.kind === 'horoscope') && <DailyCardSignup sign={page.kind === 'horoscope' && sign ? sign.n.charAt(0).toUpperCase() + sign.n.slice(1) : undefined} />}
+        {page.path === '/horoscope' && <TodayBoard />}
         {page.path === '/horoscope' && <section id="your-sign" className="st-sign-selection">
           <span className="eyebrow">Twelve signs. Your own perspective.</span><h2>Choose your sign</h2>
           <div className="st-zodiac-gallery">{SIGN_INFO.map((s, i) => <Link key={s.n} to={`/horoscope/${s.n}`} className="st-zodiac-tile"><span className="st-zodiac-glyph" aria-hidden="true">{GLYPHS[i]}{'\uFE0E'}</span><span className="st-zodiac-name">{cap(s.n)}</span><span className="st-zodiac-dates">{s.dates}</span><span className="st-zodiac-element">{s.el} <span aria-hidden="true">↗</span></span></Link>)}</div>
@@ -137,7 +257,7 @@ export const SeoPage: React.FC = () => {
 
         {page.kind === 'horoscope' && sign && (
           <>
-            <DailyCard signIndex={signIndex} label={`Today's guidance card for ${N}`} />
+            <SignPeriods signIndex={signIndex} name={N} />
             <H2>{N} today: what to reflect on</H2>
             <P>{N} is {sign.traits}. Use today's card as a lens: ask where those traits are helping you and where they may be getting in the way.</P>
             <H2>{N} in love</H2>

@@ -58,25 +58,28 @@ const ANN: { text: string; to?: string; cta?: string }[] = [
   { text: 'Free tarot draw, no sign-up needed', to: '/free-tarot', cta: 'Draw a card' },
   { text: "Today's horoscope for all 12 signs", to: '/horoscope', cta: 'Read today' },
 ];
+const ANN_COUNT = ANN.length + 1;
+let annIdx = 0;
 const AnnouncementBar: React.FC = () => {
-  const [i, setI] = useState(0);
+  const [i, setI] = useState(annIdx);
   const [now, setNow] = useState<Date | null>(null);
   const [paused, setPaused] = useState(false);
+  const [anim, setAnim] = useState(false);
   useEffect(() => { setNow(new Date()); const t = window.setInterval(() => setNow(new Date()), 1000); return () => window.clearInterval(t); }, []);
   useEffect(() => {
-    if (paused || (typeof window !== 'undefined' && window.matchMedia('(prefers-reduced-motion: reduce)').matches)) return;
-    const t = window.setInterval(() => setI(v => (v + 1) % (ANN.length + 1)), 4500);
+    if (paused || window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+    const t = window.setInterval(() => { annIdx = (annIdx + 1) % ANN_COUNT; setAnim(true); setI(annIdx); }, 4500);
     return () => window.clearInterval(t);
   }, [paused]);
   const date = now ? new Intl.DateTimeFormat('en-US', { weekday: 'long', month: 'long', day: 'numeric' }).format(now) : '';
   const time = now ? new Intl.DateTimeFormat(undefined, { hour: 'numeric', minute: '2-digit', second: '2-digit' }).format(now) : '';
-  const slide = i === 0 ? null : ANN[i - 1];
+  const slide = i < ANN.length ? ANN[i] : null;
   return (
     <div className="st-ann" role="region" aria-label="Announcements" onMouseEnter={() => setPaused(true)} onMouseLeave={() => setPaused(false)}>
-      <div className="wrap in" key={i}>
+      <div className="wrap in" key={i} style={anim ? undefined : { animation: 'none' }}>
         {slide ? <><span>{slide.text}</span>{slide.to && <Link to={slide.to}>{slide.cta}</Link>}</> : <><span>{date || '\u00A0'}</span><b>{time}</b></>}
       </div>
-      <div className="st-ann-dots" aria-hidden="true">{[0, 1, 2, 3].map(d => <i key={d} className={d === i ? 'on' : ''} />)}</div>
+      <div className="st-ann-dots" aria-hidden="true">{Array.from({ length: ANN_COUNT }, (_, d) => <i key={d} className={d === i ? 'on' : ''} />)}</div>
     </div>
   );
 };

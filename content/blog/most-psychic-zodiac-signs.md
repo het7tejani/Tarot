@@ -46,6 +46,8 @@ If you are curious rather than skeptical, a reading works best when you bring a 
 
 ## FAQ
 
+For one fire sign's take on intuition, read [Leo psychic abilities](/blog/leo-psychic-abilities). The Moon-ruled sign has its own dates guide: [Cancer zodiac dates](/blog/cancer-zodiac-dates).
+
 **What is the most psychic zodiac sign?**
 
 Pisces, by most astrology sources, followed by Scorpio and Cancer.

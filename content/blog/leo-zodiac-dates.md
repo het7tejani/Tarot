@@ -16,6 +16,8 @@ The dates move by a day now and then. The Sun enters Leo at a precise moment tha
 
 ## Leo dates at a glance
 
+If you are checking neighboring dates, see the [Cancer zodiac dates](/blog/cancer-zodiac-dates) and [Virgo zodiac dates](/blog/virgo-zodiac-dates). Curious about the sign's instincts? Read [Leo psychic abilities](/blog/leo-psychic-abilities).
+
 **Leo season: July 23 to August 22.**
 
 **Cusp days to double-check: July 22 to 24 and August 22 to 23.**

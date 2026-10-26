@@ -50,6 +50,8 @@ For a full list of every sign and its range, see the [zodiac sign dates page](/z
 
 ## FAQ
 
+The sign that follows Gemini is covered in the [Cancer zodiac dates](/blog/cancer-zodiac-dates) guide.
+
 **What are the dates for Gemini?**
 
 About May 21 to June 20. Check the year if you were born on the first or last day.

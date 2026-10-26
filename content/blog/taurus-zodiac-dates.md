@@ -16,6 +16,8 @@ So what month is Taurus? Two of them. The sign starts in the second half of Apri
 
 ## Taurus dates at a glance
 
+Next in the zodiac wheel after Taurus: [Gemini zodiac dates](/blog/gemini-zodiac-dates), then the [Cancer zodiac dates](/blog/cancer-zodiac-dates).
+
 **Taurus season: April 20 to May 20.**
 
 **Cusp days to double-check: April 19 to 21 and May 20 to 22.**

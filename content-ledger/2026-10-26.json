@@ -1,0 +1,10 @@
+{
+  "date": "2026-10-26",
+  "gsc_basis": "GSC 28d (data to Oct 23): 1.67K impressions, 10 clicks",
+  "posts": [
+    {"slug": "virgo-zodiac-dates", "evidence": "GSC 28d: libra/leo/zodiac date queries pos 24-40", "photos": ["15833963","33305269","33135619"]},
+    {"slug": "cancer-zodiac-dates", "evidence": "GSC 28d: zodiac date queries pos 24-50", "photos": ["8969930","29144617","36595469"]},
+    {"slug": "leo-psychic-abilities", "evidence": "GSC 28d: 'leo psychic abilities' pos 31.5", "photos": ["28888378","6014336","6014343"]}
+  ],
+  "seo": ["inbound links added to leo-zodiac-dates, libra-dates, gemini-zodiac-dates, most-psychic-zodiac-signs, taurus-zodiac-dates", "libra-dates metaTitle rewritten for CTR"]
+}

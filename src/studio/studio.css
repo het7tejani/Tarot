@@ -610,3 +610,7 @@ header .nav a.on,header a[aria-current=page]{color:#846019!important}
 .st-ann-dots i.on{opacity:1}
 @keyframes st-ann-in{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
 @media (max-width:640px){.st-ann{font-size:12px}.st-ann .in{padding:8px 28px;gap:10px;flex-wrap:wrap}.st-ann-dots{display:none}}
+.st-live-clock{display:flex;flex-direction:row;align-items:baseline;gap:14px;width:fit-content;max-width:100%;flex-wrap:wrap;margin:0 0 16px;padding:9px 16px;border-radius:999px;font-size:14px}
+.st-live-clock b{font-size:15px}
+.st-astro-hero .btn.ghost{display:inline-flex;align-items:center;margin:0 0 20px}
+.st-astro-hero .st-quick-cta{margin-top:0}

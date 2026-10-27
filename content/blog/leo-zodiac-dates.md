@@ -75,3 +75,5 @@ Leo is a fire sign, along with Aries and Sagittarius.
 **What planet rules Leo?**
 
 The Sun rules Leo. Astrologers call the Sun a luminary rather than a planet, but it holds the ruling role.
+
+Born at the end of July? Read the [July 31 zodiac sign](/blog/july-31-zodiac-sign) guide for a date inside Leo.

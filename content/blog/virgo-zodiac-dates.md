@@ -75,3 +75,5 @@ Virgo is ruled by Mercury. Astrology links Mercury with communication, analysis 
 No. Astrology gives you one Sun sign. The cusp label is a popular way to describe a birthday near the edge, not a separate sign.
 
 If you want a quick card for your sign, [draw a free tarot reading](/free-tarot). It takes under a minute and needs no account. Horoscope and tarot content is for reflection and does not predict events.
+
+Born in late August? See what the [August 24 zodiac sign](/blog/august-24-zodiac-sign) says about a birthday inside Virgo.

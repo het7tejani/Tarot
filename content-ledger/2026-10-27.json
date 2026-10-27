@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-27",
+  "gsc_basis": "GSC 28d (to ~Oct 24): 10 clicks, 1.86K impressions, avg position 72.3. Queries: 'birth sign for august 24' pos 8, 'july 31 zodiac' pos 80, 'april 22 zodiac' pos 82 (impressions 7 each), 'leo/taurus/virgo' date queries.",
+  "posts": [
+    {
+      "slug": "august-24-zodiac-sign",
+      "evidence": "GSC query 'birth sign for august 24' pos 8.0",
+      "photos": [
+        "8611738",
+        "5417639",
+        "7622876"
+      ]
+    },
+    {
+      "slug": "july-31-zodiac-sign",
+      "evidence": "GSC query 'july 31 zodiac' 7 imp pos 80.4",
+      "photos": [
+        "4251806",
+        "28844179",
+        "19905185"
+      ]
+    },
+    {
+      "slug": "april-22-zodiac-sign",
+      "evidence": "GSC query 'april 22 zodiac' 7 imp pos 82.1",
+      "photos": [
+        "31851450",
+        "32160917",
+        "5417666"
+      ]
+    }
+  ],
+  "seo": [
+    "Inbound links: virgo-zodiac-dates, leo-zodiac-dates, taurus-zodiac-dates, april-star-sign link to the new date posts",
+    "pack-13.json"
+  ]
+}

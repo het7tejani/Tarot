@@ -37,9 +37,9 @@ export function ZodiacSignFinder() {
         <div role="status" aria-live="polite">
           <p><strong>{MONTHS[month]} {day} is {cap(sign.n)}.</strong> The {cap(sign.n)} date range is {sign.dates}.</p>
           <p>
-            <Link to={`/zodiac/${sign.n}`} className="underline underline-offset-4 font-semibold">{cap(sign.n)} traits and dates</Link>
+            <Link to={`/zodiac/${sign.n}`} className="underline underline-offset-4 font-semibold" style={{color:'#3f6b5f',textDecoration:'underline'}}>{cap(sign.n)} traits and dates</Link>
             {' · '}
-            <Link to={`/horoscope/${sign.n}`} className="underline underline-offset-4 font-semibold">{cap(sign.n)} tarot reflection</Link>
+            <Link to={`/horoscope/${sign.n}`} className="underline underline-offset-4 font-semibold" style={{color:'#3f6b5f',textDecoration:'underline'}}>{cap(sign.n)} tarot reflection</Link>
           </p>
           <p>If you were born within a day of a sign boundary, the exact change time differs by year, so check your birth time and place with a chart calculation.</p>
         </div>

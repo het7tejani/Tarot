@@ -4,7 +4,7 @@ category: "Tarot Practice"
 date: "2026-10-17"
 excerpt: "Prepare questions to ask a psychic with practical examples for love, work and direction, plus boundaries that keep any reading honest and useful."
 coverImage: "/blog-images/7623657.webp"
-metaTitle: "Questions to Ask a Psychic: A Guide | The Psychic Studio"
+metaTitle: "Questions to Ask a Psychic: A Ready List and What to Skip | The Psychic Studio"
 published: "true"
 ---
 
@@ -39,6 +39,23 @@ A reader cannot confirm that someone is your soulmate or tell you what a third p
 - What would a sensible first step toward my goal look like?
 
 Notice these are not "will I get the job?" A prediction you cannot verify until later is easy to say and hard to use. A question about your own behavior gives you something you can test this week.
+
+## A ready list of questions to ask a psychic
+
+Pick three to five from this list, or use them as models for your own. Each one is specific, open and about something you can act on.
+
+- What pattern in how I choose partners is worth looking at?
+- What do I need to understand before deciding whether to stay in this job?
+- What is one thing I keep avoiding that I could start this month?
+- How can I communicate more clearly with someone I find hard to talk to?
+- What am I holding onto that I could put down?
+- What would a good next step look like for my work?
+- What strengths am I underusing right now?
+- What question am I not asking myself?
+- How can I make a decision I have postponed?
+- What would help me feel more settled over the next few weeks?
+
+If you are not sure where to start, you can try the [free tarot draw](/free-tarot) first and bring the card's theme as a question. For relationship questions, [how a soulmate tarot reading works](/blog/soulmate-tarot-reading-how-it-works) explains what to prepare.
 
 ## Questions a careful reader will not answer
 

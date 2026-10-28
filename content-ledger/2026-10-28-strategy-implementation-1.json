@@ -1,0 +1,10 @@
+{
+  "date": "2026-10-28",
+  "basis": "Het approved implementing the Oct 28 strategy report. Existing pages improved instead of new duplicates. Low-impression date queries are tests, not proven volume.",
+  "changes": [
+    {"path": "/blog/yes-no-tarot-reading-guide", "what": "answer-first opening, free one-card draw link, sections on which cards mean yes or no and love questions, two new FAQ entries, new meta title", "queries": "yes no tarot, yes or no tarot, tarot yes or no"},
+    {"path": "/blog/questions-to-ask-a-psychic", "what": "ready list of 10 questions, links to free tarot and soulmate guide, new meta title", "queries": "questions to ask a psychic, what to ask a psychic, ask a question to a psychic"},
+    {"path": "/zodiac/leo, /zodiac/aries, /zodiac/taurus, /zodiac/gemini", "what": "date lookup section (which sign is a given date and neighbours), related-guides list linking existing date posts, horoscope page and sign tarot card, title with date range, meta with example dates", "queries": "leo/aries/taurus/gemini astrology, sign dates, july 31 / march 23 / april 22 / june 20 zodiac"}
+  ],
+  "not_changed": ["/readings/soulmate-and-future-relationship (reading product page, owned by main and Het)", "Shop and product cards"]
+}

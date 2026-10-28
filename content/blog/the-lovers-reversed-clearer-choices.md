@@ -77,3 +77,6 @@ Yes. The Lovers reversed is also interpreted through personal values and decisio
 No. It can be used to notice a mismatch while there is still room to discuss it. The useful part is the question you ask and the real-world information you gather.
 
 Tarot is for entertainment and personal reflection, not medical, legal or financial advice.
+
+
+If you are asking about a partner, our [soulmate reading guide](/blog/soulmate-tarot-reading-how-it-works) walks through a three card spread.

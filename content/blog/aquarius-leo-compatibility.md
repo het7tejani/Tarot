@@ -90,3 +90,6 @@ Astrology and tarot here are for entertainment and reflection, not a substitute 
 For the sign itself, see [Leo zodiac dates](/blog/leo-zodiac-dates).
 
 For another love-focused sign guide, read [Scorpio in love](/blog/scorpio-in-love-tarot-and-horoscope).
+
+
+To pair a sign with a card, try our [free love horoscope and tarot routine](/blog/love-horoscope-and-tarot-together).

@@ -65,3 +65,6 @@ Most systems link Scorpio to the Death card.
 **Is Scorpio loyal in relationships?**
 
 Scorpio is among the most loyal signs once trust is built. It expects the same from a partner.
+
+
+For the wider sign profile and a weekly check in, see our [Scorpio horoscope and tarot guide](/blog/scorpio-horoscope-and-tarot-cards).

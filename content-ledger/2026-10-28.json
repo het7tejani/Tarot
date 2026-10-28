@@ -1,0 +1,10 @@
+{
+  "date": "2026-10-28",
+  "gsc_basis": "GSC 28d (to Oct 25): 12 clicks, 2.18K impressions, avg position 71.5. Queries: soulmate reading variants (28-29 imp each), scorpio horoscope (23), free love horoscope, scorpio today.",
+  "posts": [
+    {"slug": "soulmate-tarot-reading-how-it-works", "evidence": "GSC queries: psychic soulmate reading 29, soulmate psychic readings 28, soulmate reading 28, free psychic soulmate reading 26", "photos": ["32195293","7179792","6014322"]},
+    {"slug": "scorpio-horoscope-and-tarot-cards", "evidence": "GSC queries: scorpio horoscope 23, scorpio today 2, scorpio love horoscope today 2", "photos": ["11737041","3607542","6087153"]},
+    {"slug": "love-horoscope-and-tarot-together", "evidence": "GSC query: free love horoscope", "photos": ["5633825","4790556","30160871"]}
+  ],
+  "seo": ["Inbound links from scorpio-in-love-tarot-and-horoscope, the-lovers-reversed-clearer-choices, aquarius-leo-compatibility", "pack-14.json"]
+}

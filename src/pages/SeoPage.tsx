@@ -266,6 +266,8 @@ export const SeoPage: React.FC = () => {
             <P>{sign.love}</P>
             <H2>{N} at work</H2>
             <P>{sign.work}</P>
+            <H2>Your next step, {N}</H2>
+            <P>Draw a <Link to="/free-tarot" className="text-[#73a89a] font-semibold">free tarot card</Link>, read what <Link to={`/tarot-card-meanings/${sign.cardSlug}`} className="text-[#73a89a] font-semibold">{sign.card}</Link> means for {N}, or find your date on the <Link to="/zodiac" className="text-[#73a89a] font-semibold">zodiac sign finder</Link>. If you would like to talk a question through with the studio, see the <Link to="/readings" className="text-[#73a89a] font-semibold">personal readings</Link>.</P>
             <H2>Read other signs</H2>
             <LinkGrid paths={SIGN_INFO.map((s) => `/horoscope/${s.n}`)} />
           </>
@@ -305,6 +307,7 @@ export const SeoPage: React.FC = () => {
             <H2>Living well as a {N}</H2>
             <P>{sign.growth}</P>
             <P>Your sun sign is only one part of your chart. For the full picture, see the <Link to="/birth-chart" className="text-[#73a89a] font-semibold">birth chart guide</Link>.</P>
+            <P>Next, draw a <Link to="/free-tarot" className="text-[#73a89a] font-semibold">free tarot card</Link>, read the <Link to={`/horoscope/${sign.n}`} className="text-[#73a89a] font-semibold">{cap(sign.n)} tarot reflection</Link>, or see the <Link to="/readings" className="text-[#73a89a] font-semibold">personal readings</Link> if you want to talk a question through with the studio.</P>
           </>
         )}
 

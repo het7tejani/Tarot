@@ -1,7 +1,8 @@
 /* Empty brand-owned GTM container. Existing GA4 and consent-gated Clarity stay separate. */
 (function () {
   'use strict';
-  if (/^\/(admin|cms)(\/|$)/.test(location.pathname)) return;
+  if (/^\/(admin|cms|boundary-preview-test)(\/|$)/.test(location.pathname)) return;
+  try { if (new URLSearchParams(location.search).get('internal') === '1') localStorage.setItem('psychic-studio-internal', '1'); if (new URLSearchParams(location.search).get('internal') === '0') localStorage.removeItem('psychic-studio-internal'); if (localStorage.getItem('psychic-studio-internal') === '1') return; } catch (e) { /* storage unavailable */ }
 
   // Key-event pushes in gtag format; the Google tag in the container forwards them to GA4.
   document.addEventListener('click', function (e) {

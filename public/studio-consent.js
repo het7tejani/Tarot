@@ -5,7 +5,7 @@
   var choice = null;
   var loaded = false;
   try { choice = localStorage.getItem(key); } catch (_) {}
-  function isPrivate() { return /^\/(admin|cms)(\/|$)/.test(location.pathname); }
+  function isPrivate() { try { if (localStorage.getItem('psychic-studio-internal') === '1') return true; } catch (e) { /* storage unavailable */ } return /^\/(admin|cms|boundary-preview-test)(\/|$)/.test(location.pathname); }
   function clarityStub() { window.clarity = window.clarity || function () { (window.clarity.q = window.clarity.q || []).push(arguments); }; }
   function signal(granted) {
     if (window.clarity) window.clarity('consentv2', { analytics_Storage: granted ? 'granted' : 'denied', ad_Storage: 'denied' });

@@ -27,7 +27,7 @@ Write your questions down before the session. People regularly forget their real
 - Am I ignoring something I already know about this relationship?
 - What would a healthier version of this situation ask of me?
 
-A reader cannot confirm that someone is your soulmate or tell you what a third person secretly intends. If you want to know what a partner feels, the direct route is asking them. Use a reading to prepare for that conversation, not to replace it.
+A reader cannot confirm that someone is your soulmate or tell you what a third person secretly intends. If you want to know what a partner feels, the direct route is asking them. Use a reading to prepare for that conversation, not to replace it. If your questions are about a relationship and its direction, the [soulmate and future relationship reading](/readings/soulmate-and-future-relationship) page explains what that reading looks at before you ask the studio about it.
 
 ![Handwritten questions in a journal before a reading](/blog-images/34640246.webp)
 

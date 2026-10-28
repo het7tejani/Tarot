@@ -10,6 +10,7 @@ import { minorExtra } from "../data/minorExtra";
 import { RESEARCH_SECTIONS, PRIORITY_CARD_DETAILS, CARD_REFLECTIONS } from "../data/seoResearch";
 import { TarotArtwork } from '../components/TarotArtwork';
 import { NumerologyCalculator } from '../components/NumerologyCalculator';
+import { ZodiacSignFinder } from '../components/ZodiacSignFinder';
 import { DailyCardSignup } from '../components/DailyCardSignup';
 import React, { useMemo } from 'react';
 import {useDailyCardDay} from '../contexts/DailyCardDate';
@@ -248,6 +249,7 @@ export const SeoPage: React.FC = () => {
           </div>
         )}
         {page.path === '/numerology' && <NumerologyCalculator />}
+        {page.path === '/zodiac' && <ZodiacSignFinder />}
         {(page.path === '/horoscope' || page.kind === 'horoscope') && <DailyCardSignup sign={page.kind === 'horoscope' && sign ? sign.n.charAt(0).toUpperCase() + sign.n.slice(1) : undefined} />}
         {page.path === '/horoscope' && <TodayBoard />}
         {page.path === '/horoscope' && <section id="your-sign" className="st-sign-selection">

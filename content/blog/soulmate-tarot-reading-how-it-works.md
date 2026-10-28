@@ -83,3 +83,5 @@ The Lovers, Two of Cups and Ten of Cups are the most common. None of them guaran
 **How often should I ask about love?**
 
 Once a month is plenty. Asking the same question daily tends to produce confusing answers and more anxiety.
+
+If you want to see what a personal soulmate reading covers, read the [soulmate and future relationship reading](/readings/soulmate-and-future-relationship) page. It explains what the reading looks at.

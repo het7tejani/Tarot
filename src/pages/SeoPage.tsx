@@ -369,7 +369,7 @@ export const SeoPage: React.FC = () => {
         {researchSections && <section aria-label="Reading guide">{researchSections.map(([heading, text]) => <React.Fragment key={heading}><H2>{heading}</H2><P>{text}</P></React.Fragment>)}</section>}
 
         {SEO_PASS_SECTIONS[page.path] && <section aria-label="Practical questions and examples">{SEO_PASS_SECTIONS[page.path].map(([heading, text]) => <React.Fragment key={heading}><H2>{heading}</H2><P>{text}</P></React.Fragment>)}</section>}
-        {SEO_CONTEXT_LINKS[page.path] && <section aria-label="Related learning"><H2>Related guides</H2><ul className="space-y-3 mb-6">{SEO_CONTEXT_LINKS[page.path].map(([url, label]) => <li key={url}><Link to={url} className="text-[#507d71] underline underline-offset-4">{label}</Link></li>)}</ul></section>}
+        {SEO_CONTEXT_LINKS[page.path] && <section aria-label="Related learning"><H2>Related guides</H2><ul className="space-y-3 mb-6">{SEO_CONTEXT_LINKS[page.path].map(([url, label]) => <li key={url}><Link to={url} className="text-[#507d71] underline underline-offset-4" style={{color:'#3f6b5f',textDecoration:'underline',textUnderlineOffset:'4px',fontWeight:600}}>{label}</Link></li>)}</ul></section>}
 
         {page.kind === 'card' && card && (
           <div className="st-card-detail">

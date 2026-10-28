@@ -2,6 +2,17 @@
 (function () {
   'use strict';
   if (/^\/(admin|cms)(\/|$)/.test(location.pathname)) return;
+
+  // Key-event pushes in gtag format; the Google tag in the container forwards them to GA4.
+  document.addEventListener('click', function (e) {
+    var a = e.target && e.target.closest ? e.target.closest('a[href]') : null;
+    if (!a) return;
+    var path = a.getAttribute('href') || '';
+    var name = /^\/shop(\/|$|\?)/.test(path) ? 'shop_click' : /^\/readings(\/|$|\?)/.test(path) ? 'readings_click' : /^\/free-tarot(\/|$|\?)/.test(path) ? 'free_tarot_click' : '';
+    if (!name) return;
+    window.dataLayer = window.dataLayer || [];
+    (function () { window.dataLayer.push(arguments); })('event', name, { link_url: path, page_path: location.pathname });
+  }, true);
   function load() {
     window.dataLayer = window.dataLayer || [];
     window.dataLayer.push({ 'gtm.start': Date.now(), event: 'gtm.js' });

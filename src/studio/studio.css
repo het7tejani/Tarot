@@ -522,6 +522,7 @@ header .nav a.on,header a[aria-current=page]{color:#846019!important}
 .st-copy-link:hover{color:var(--leaf-d);border-color:var(--leaf)}
 .st-opt{font-size:12px;font-weight:400;color:var(--ink2)}
 @media(max-width:820px){.st-head .in{gap:12px}.st-float-contact span{display:none}.st-float-contact{padding:13px}}
+@media(max-width:820px){.st-totop{right:8px;bottom:64px;width:36px;height:36px;opacity:.82}.st-float-contact{right:8px;bottom:12px;padding:10px;opacity:.9}body{padding-bottom:8px}}
 @media print{
   .st-head,.st-foot,.st-progress,.st-totop,.st-float-contact,.st-skip,.st-search-panel,.st-journal-toc,.st-journal-sidebar,.st-copy-link,[class*=consent],[id*=consent],[class*=cookie],[id*=cookie],[aria-label*=cookie],[role=dialog]{display:none!important}
   .st-journal-layout{display:block!important}

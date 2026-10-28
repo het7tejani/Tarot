@@ -55,6 +55,7 @@ export const FreeTarotPage: React.FC = () => {
   }, []);
 
   const handleDraw = () => {
+    try { (window as any).dataLayer = (window as any).dataLayer || []; (function (..._a: any[]) { (window as any).dataLayer.push(arguments); })('event','free_tarot_draw',{spread:spreadMode}); } catch (e) { /* analytics only */ }
     setIsShuffling(true);
     const total = FREE_TAROT_CARDS.length;
     const count = spreadMode === 'single' ? 1 : 3;
@@ -431,6 +432,13 @@ export const FreeTarotPage: React.FC = () => {
                 })}
               </div>
             )}
+
+            <div className="max-w-xl mx-auto text-center pt-8 pb-2" aria-label="Next free steps">
+              <p className="text-sm font-semibold text-[#1f2322] mb-2">Keep going, free</p>
+              <p className="text-xs sm:text-sm text-[#1f2322]/70 leading-relaxed">
+                Read the <Link to="/tarot-card-meanings" className="underline underline-offset-4 font-semibold text-[#1f2322] hover:text-[#73a89a]">full card meanings</Link>, check your <Link to="/horoscope" className="underline underline-offset-4 font-semibold text-[#1f2322] hover:text-[#73a89a]">daily sign reflection</Link>, or see how <Link to="/blog/yes-no-tarot-reading-guide" className="underline underline-offset-4 font-semibold text-[#1f2322] hover:text-[#73a89a]">yes or no tarot questions</Link> work.
+              </p>
+            </div>
 
             {/* Seamless Etsy Recommendation (Normal typography, not a giant boxed card) */}
             <div className="pt-12 border-t border-[#1f2322]/10 text-center max-w-xl mx-auto space-y-3">

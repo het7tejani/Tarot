@@ -1,267 +1,271 @@
 {
- "purpose": "Advance content buffer for daily Pinterest + Tumblr (Het Oct 22 grant) and Medium office-PC route. Each day: 1 pin, 1 Tumblr card-reflection post, 1 Medium draft. Rules: no em dashes, no prediction/guarantee claims, realistic 1:1 images, brand style. Post from buffer in the 8 AM IST run, then top back up.",
- "days": [
-  {
-   "date": "2026-10-23",
-   "pinterest": {
-    "title": "444 Angel Number Meaning: Stability and Foundations",
-    "description": "Keep seeing 444? It is the foundation number: structure, patience and things built to last. Grounded takes on love, work and money, with no predictions. Full guide on the blog.",
-    "link": "https://thepsychicstudio.com/blog/444-angel-number-meaning",
-    "image": "content-ledger/social-buffer-images/pin-444-oct23.png",
-    "board_hint": "Angel Numbers",
-    "posted": "2026-10-23 11:39 IST",
-    "url": "https://www.pinterest.com/pin/1109715164522180259/"
-   },
-   "tumblr": {
-    "title": "The Hermit Reversed: When Alone Time Stops Restoring You",
-    "body": "Some evenings alone leave you rested. Others leave you stuck.\n\nThe Hermit reversed sits right on that line. Upright, the card is quiet on purpose: time to think, to walk your own path with your own lantern. Reversed, the same solitude can tip into distance you did not choose, or the strange tiredness of handling everything privately.\n\nA gentle check for today: after your last stretch of alone time, did you come back clearer, or just quieter? If it is the second, the smallest honest step counts. One short message. One specific question to someone you trust.\n\nYou do not have to become more outgoing to deserve support. The lantern is still yours. It just works better when someone knows where to find you.",
-    "link_card": "https://thepsychicstudio.com/blog/the-hermit-reversed-connection",
-    "free_tarot_link": "https://thepsychicstudio.com/free-tarot",
-    "tags": [
-     "tarot",
-     "the hermit reversed",
-     "tarot reflection",
-     "daily tarot",
-     "the psychic studio"
-    ],
-    "image": "content-ledger/social-buffer-images/tumblr-hermit-oct23.png",
-    "posted": "2026-10-23 11:50 IST (first attempt landed in drafts, published from drafts view)",
-    "url": "https://www.tumblr.com/thepsychicstudio/831244390153502720/the-hermit-reversed-when-alone-time-stops"
-   },
-   "medium": {
-    "title": "444 Angel Number Meaning: Stability, Foundations and Patience",
-    "source_blog": "https://thepsychicstudio.com/blog/444-angel-number-meaning",
-    "note": "Condensed hand-paste version for office-PC publish, import tool failed last time. Open with: Originally published on The Psychic Studio: <URL>. End with link back. Tags: Tarot, Astrology, Angel Numbers, Spirituality, horoscope.",
-    "status": "deferred: cloud login blocked, office-PC route only"
-   }
-  },
-  {
-   "date": "2026-10-24",
-   "pinterest": {
-    "title": "Yellow Butterfly Spiritual Meaning: Hope and Change",
-    "description": "A yellow butterfly is often read as hope, joy and a fresh start. Nature first, meaning second: what the moment can and cannot tell you. Full guide on the blog.",
-    "link": "https://thepsychicstudio.com/blog/yellow-butterfly-spiritual-meaning",
-    "image": "content-ledger/social-buffer-images/pin-butterfly-oct24.png",
-    "board_hint": "Spiritual Meanings",
-    "posted": "2026-10-24 09:30 IST",
-    "url": "https://in.pinterest.com/pin/1109715164522269765/"
-   },
-   "tumblr": {
-    "title": "The Lovers Reversed: A Choice That Does Not Fit",
-    "body": "The Lovers reversed is not a verdict on your relationship. It is a question about fit.\n\nSomething feels out of step. Maybe an actual disagreement. Maybe an expectation nobody said out loud. Maybe a decision you keep moving to next week.\n\nThe card cannot tell you whether someone loves you or what you should choose. What it can do is hold up the gap between your values and your week, and ask which one you plan to adjust.\n\nTry naming it in one sentence, plainly: I keep postponing X because Y. If the sentence is hard to write, that is usually where the honest conversation lives.",
-    "link_card": "https://thepsychicstudio.com/blog/the-lovers-reversed-clearer-choices",
-    "free_tarot_link": "https://thepsychicstudio.com/free-tarot",
-    "tags": [
-     "tarot",
-     "the lovers reversed",
-     "tarot reflection",
-     "daily tarot",
-     "the psychic studio"
-    ],
-    "image": "content-ledger/social-buffer-images/tumblr-lovers-oct24.png",
-    "posted": "2026-10-24 09:36 IST",
-    "url": "https://www.tumblr.com/thepsychicstudio/831326525675732992/the-lovers-reversed-a-choice-that-does-not-fit"
-   },
-   "medium": {
-    "title": "Yellow Butterfly Spiritual Meaning: Hope and Change",
-    "source_blog": "https://thepsychicstudio.com/blog/yellow-butterfly-spiritual-meaning",
-    "note": "Condensed hand-paste version for office-PC publish. Same open/close attribution format. Tags: Spirituality, Tarot, Nature, Self Improvement, horoscope."
-   }
-  },
-  {
-   "date": "2026-10-25",
-   "pinterest": {
-    "title": "888 Angel Number Warning: What It Really Means",
-    "description": "888 is the abundance number, but its shadow side reads like a quiet warning: money habits, overwork and scorekeeping in love. A grounded look at what 888 can and cannot tell you. Full guide on the blog.",
-    "link": "https://thepsychicstudio.com/blog/888-angel-number-warning",
-    "image": "content-ledger/social-buffer-images/pin-888-oct25.png",
-    "board_hint": "Angel Numbers",
-    "posted": "2026-10-25 09:23 IST",
-    "url": "https://in.pinterest.com/pin/1109715164522375738/"
-   },
-   "tumblr": {
-    "title": "The Moon Reversed: When the Fog Finally Lifts",
-    "body": "Some weeks feel like reading through fog. The Moon reversed is the moment the fog starts to thin.\n\nUpright, the Moon is uncertainty: unclear signals, vivid worries at 2 AM, stories you cannot verify. Reversed, the same card often marks the slow return of ordinary clarity. Not a revelation. Just the ground becoming visible again.\n\nA small practice for today: write down the one thing you have been unsure about all week, then write what you actually know about it. Two columns. Most people find the second column longer than expected, and shorter than feared.\n\nClarity does not mean the answer arrives. It means you can finally see which question is real.",
-    "link_card": "https://thepsychicstudio.com/blog/the-moon-reversed-clarity",
-    "free_tarot_link": "https://thepsychicstudio.com/free-tarot",
-    "tags": [
-     "tarot",
-     "the moon reversed",
-     "tarot reflection",
-     "daily tarot",
-     "the psychic studio"
-    ],
-    "image": "content-ledger/social-buffer-images/tumblr-moon-oct25.png",
-    "posted": "2026-10-25 09:27 IST",
-    "url": "https://www.tumblr.com/thepsychicstudio/831416601508200448/the-moon-reversed-when-the-fog-finally-lifts"
-   },
-   "medium": {
-    "title": "888 Angel Number Warning: What It Really Means",
-    "source_blog": "https://thepsychicstudio.com/blog/888-angel-number-warning",
-    "note": "Condensed hand-paste version for office-PC publish. Same open/close attribution format. Tags: Angel Numbers, Spirituality, Tarot, Numerology, horoscope."
-   }
-  },
-  {
-   "date": "2026-10-26",
-   "pinterest": {
-    "title": "Taurus Dates: What Month Is Taurus and Who Is Born Under It",
-    "description": "Taurus season runs roughly April 20 to May 20, and the exact dates shift by year. A plain guide to the dates, the earth sign traits and what the sun sign can and cannot tell you. Full guide on the blog.",
-    "link": "https://thepsychicstudio.com/blog/taurus-zodiac-dates",
-    "image": "content-ledger/social-buffer-images/pin-taurus-oct26.png",
-    "board_hint": "Spiritual Meanings",
-    "posted": "2026-10-26 09:21 IST",
-    "url": "https://in.pinterest.com/pin/1109715164522474850/"
-   },
-   "tumblr": {
-    "title": "Strength Reversed: Confidence Without the Performance",
-    "body": "Strength upright is quiet courage. Reversed, it usually shows up as the week you doubt yourself and cover it with noise.\n\nThe card does not say you are weak. It asks where you are performing confidence instead of building it, and what a smaller, steadier version would look like.\n\nTry this today: pick one thing you have been avoiding and shrink it to ten minutes. Not the whole conversation, not the whole project. Ten minutes.\n\nStrength reversed is a prompt about patience with yourself. It cannot diagnose anxiety or replace support if self-doubt is heavy for you.",
-    "link_card": "https://thepsychicstudio.com/blog/strength-reversed-gentler-confidence",
-    "free_tarot_link": "https://thepsychicstudio.com/free-tarot",
-    "tags": [
-     "tarot",
-     "strength reversed",
-     "tarot reflection",
-     "daily tarot",
-     "the psychic studio"
-    ],
-    "image": "content-ledger/social-buffer-images/tumblr-strength-oct26.png",
-    "posted": "2026-10-26 09:25 IST (no image attached)",
-    "url": "https://www.tumblr.com/thepsychicstudio/831507051679219712/strength-reversed-confidence-without-the"
-   },
-   "medium": {
-    "title": "Taurus Dates: What Month Is Taurus and Who Is Born Under It",
-    "source_blog": "https://thepsychicstudio.com/blog/taurus-zodiac-dates",
-    "note": "Condensed hand-paste version for office-PC publish. Same open/close attribution format. Tags: Astrology, Zodiac, Spirituality, Self Improvement, horoscope."
-   }
-  },
-  {
-   "date": "2026-10-27",
-   "pinterest": {
-    "title": "Leo Zodiac Dates: When Leo Season Starts and Ends",
-    "description": "Leo runs from about July 23 to August 22. Check your exact range, what to do if your birthday sits on the edge, and what sets the sign apart. https://thepsychicstudio.com/blog/leo-zodiac-dates",
-    "link": "https://thepsychicstudio.com/blog/leo-zodiac-dates",
-    "image": "content-ledger/social-buffer-images/pin-leo-dates-oct27.png",
-    "board_hint": "Zodiac",
-    "format": "2:3 branded card, approved by Het 2026-10-26 4:27 PM",
-    "posted": "2026-10-27 09:22 IST",
-    "url": "https://in.pinterest.com/pin/1109715164522566374/",
-    "board": "Zodiac Signs and Dates (new board created)"
-   },
-   "tumblr": {
-    "title": "The Chariot Reversed: Reset Direction Without Forcing It",
-    "body": "The Chariot upright is momentum. Reversed, it is the feeling of pushing hard in several directions and arriving nowhere.\n\nThe card points at competing priorities and asks which one you are actually steering toward.\n\nA small practice: write down your open commitments on paper, then circle the one you would keep if you could only keep one this month. The rest are waiting, not dead.\n\nDirection comes before speed. The card cannot choose the road for you.",
-    "link_card": "https://thepsychicstudio.com/blog/the-chariot-reversed-reset-direction",
-    "free_tarot_link": "https://thepsychicstudio.com/free-tarot",
-    "tags": [
-     "tarot",
-     "the chariot reversed",
-     "tarot reflection",
-     "daily tarot",
-     "the psychic studio"
-    ],
-    "image": "content-ledger/social-buffer-images/tumblr-chariot-oct27.png",
-    "posted": "2026-10-27 09:28 IST",
-    "url": "https://www.tumblr.com/thepsychicstudio/831597873996136448/the-chariot-reversed-reset-direction-without",
-    "note": "no image attached (editor image upload not working)"
-   },
-   "medium": {
-    "title": "Leo Zodiac Dates: When Leo Season Starts and Ends",
-    "source_blog": "https://thepsychicstudio.com/blog/leo-zodiac-dates",
-    "note": "Condensed hand-paste version for office-PC publish. Same open/close attribution format. Tags: Astrology, Zodiac, Spirituality, Self Improvement, horoscope."
-   }
-  },
-  {
-   "date": "2026-10-28",
-   "pinterest": {
-    "title": "Gemini Dates: When Gemini Season Starts and Ends",
-    "description": "Gemini runs from about May 21 to June 20. Find out which birthdays sit on the edge and how to confirm your sign with a birth chart. https://thepsychicstudio.com/blog/gemini-zodiac-dates",
-    "link": "https://thepsychicstudio.com/blog/gemini-zodiac-dates",
-    "image": "content-ledger/social-buffer-images/pin-gemini-dates-oct28.png",
-    "board_hint": "Zodiac",
-    "format": "2:3 branded card, approved by Het 2026-10-26 4:27 PM",
-    "posted": "2026-10-28 09:21 IST",
-    "url": "https://in.pinterest.com/pin/1109715164522650133/"
-   },
-   "tumblr": {
-    "title": "The Star: Hope That Does Not Need Proof",
-    "body": "The Star comes after the Tower for a reason. The noise has stopped, and what is left is small and steady.\n\nIt gives no promise that things work out. It gives permission to want something again without demanding evidence first.\n\nTry this today: name one thing you would still hope for if nobody could tell you the odds. Write it down in one sentence. Keep the sentence, drop the forecast.\n\nThe Star cannot predict outcomes. It marks the point where you stop bracing and start trusting your own pace.",
-    "link_card": "https://thepsychicstudio.com/tarot-card-meanings/the-star",
-    "free_tarot_link": "https://thepsychicstudio.com/free-tarot",
-    "tags": [
-     "tarot",
-     "the star",
-     "tarot reflection",
-     "daily tarot",
-     "the psychic studio"
-    ],
-    "image": "content-ledger/social-buffer-images/tumblr-star-oct28.png",
-    "posted": "2026-10-28 09:23 IST",
-    "url": "https://www.tumblr.com/thepsychicstudio/831688127899910144/the-star-hope-that-does-not-need-proof"
-   },
-   "medium": {
-    "title": "Gemini Dates: When Gemini Season Starts and Ends",
-    "source_blog": "https://thepsychicstudio.com/blog/gemini-zodiac-dates",
-    "note": "Condensed hand-paste version for office-PC publish. Same open/close attribution format. Tags: Astrology, Zodiac, Spirituality, Self Improvement, horoscope."
-   }
-  },
-  {
-   "date": "2026-10-29",
-   "pinterest": {
-    "title": "Scorpio in Love: Tarot and Horoscope Guide",
-    "description": "How Scorpio handles trust, jealousy and loyalty in a relationship, and which tarot cards fit the sign. Written as reflection, with no predictions. https://thepsychicstudio.com/blog/scorpio-in-love-tarot-and-horoscope",
-    "link": "https://thepsychicstudio.com/blog/scorpio-in-love-tarot-and-horoscope",
-    "image": "content-ledger/social-buffer-images/pin-scorpio-love-oct29.png",
-    "board_hint": "Zodiac",
-    "format": "2:3 branded card, approved by Het 2026-10-26 4:27 PM"
-   },
-   "tumblr": {
-    "title": "Temperance: The Slow Mix",
-    "body": "Temperance is the card of two things poured into one cup at a pace you can control.\n\nIt shows up when you have been swinging between extremes: all in, then all out. The card asks for a ratio, not a verdict.\n\nA small practice: pick one habit you do in bursts and write the smallest daily version of it. Ten minutes of the thing, every day, beats a Sunday marathon.\n\nTemperance cannot fix a situation for you. It describes a rhythm you can choose.",
-    "link_card": "https://thepsychicstudio.com/tarot-card-meanings/temperance",
-    "free_tarot_link": "https://thepsychicstudio.com/free-tarot",
-    "tags": [
-     "tarot",
-     "temperance",
-     "tarot reflection",
-     "daily tarot",
-     "the psychic studio"
-    ],
-    "image": "content-ledger/social-buffer-images/tumblr-temperance-oct29.png"
-   },
-   "medium": {
-    "title": "Scorpio in Love: Tarot and Horoscope Guide",
-    "source_blog": "https://thepsychicstudio.com/blog/scorpio-in-love-tarot-and-horoscope",
-    "note": "Condensed hand-paste version for office-PC publish. Same open/close attribution format. Tags: Astrology, Zodiac, Love, Spirituality, horoscope."
-   }
-  },
-  {
-   "date": "2026-10-30",
-   "pinterest": {
-    "title": "August 24 Zodiac Sign: Virgo Traits and Tarot Card",
-    "description": "A birthday on August 24 is always Virgo. See the traits, the decan and the tarot card that fit the date. https://thepsychicstudio.com/blog/august-24-zodiac-sign",
-    "link": "https://thepsychicstudio.com/blog/august-24-zodiac-sign",
-    "image": "content-ledger/social-buffer-images/pin-virgo-aug24-oct30.png",
-    "board_hint": "Zodiac",
-    "format": "2:3 branded card, approved by Het 2026-10-26 4:27 PM"
-   },
-   "tumblr": {
-    "title": "The Sun: Warmth Without Performing",
-    "body": "The Sun is the card people call lucky and then ask for a promise.\n\nIt does not give one. It shows clarity, plain good energy and the relief of being seen as you are. Reversed, the same card can mean you are dimming yourself to keep a room comfortable.\n\nA small check for today: where did you lower your own brightness this week? Name the room. Then pick one honest sentence you can say there tomorrow.\n\nThe Sun describes a mood you can move toward. It does not forecast the day.",
-    "link_card": "https://thepsychicstudio.com/tarot-card-meanings/the-sun",
-    "free_tarot_link": "https://thepsychicstudio.com/free-tarot",
-    "tags": [
-     "tarot",
-     "the sun",
-     "tarot reflection",
-     "daily tarot",
-     "the psychic studio"
-    ]
-   },
-   "medium": {
-    "title": "August 24 Zodiac Sign: Virgo Traits and Tarot Card",
-    "source_blog": "https://thepsychicstudio.com/blog/august-24-zodiac-sign",
-    "note": "Condensed hand-paste version for office-PC publish. Same open/close attribution format. Tags: Astrology, Zodiac, Virgo, Spirituality, horoscope."
-   }
-  }
- ]
+  "purpose": "Advance content buffer for daily Pinterest + Tumblr (Het Oct 22 grant) and Medium office-PC route. Each day: 1 pin, 1 Tumblr card-reflection post, 1 Medium draft. Rules: no em dashes, no prediction/guarantee claims, realistic 1:1 images, brand style. Post from buffer in the 8 AM IST run, then top back up.",
+  "days": [
+    {
+      "date": "2026-10-23",
+      "pinterest": {
+        "title": "444 Angel Number Meaning: Stability and Foundations",
+        "description": "Keep seeing 444? It is the foundation number: structure, patience and things built to last. Grounded takes on love, work and money, with no predictions. Full guide on the blog.",
+        "link": "https://thepsychicstudio.com/blog/444-angel-number-meaning",
+        "image": "content-ledger/social-buffer-images/pin-444-oct23.png",
+        "board_hint": "Angel Numbers",
+        "posted": "2026-10-23 11:39 IST",
+        "url": "https://www.pinterest.com/pin/1109715164522180259/"
+      },
+      "tumblr": {
+        "title": "The Hermit Reversed: When Alone Time Stops Restoring You",
+        "body": "Some evenings alone leave you rested. Others leave you stuck.\n\nThe Hermit reversed sits right on that line. Upright, the card is quiet on purpose: time to think, to walk your own path with your own lantern. Reversed, the same solitude can tip into distance you did not choose, or the strange tiredness of handling everything privately.\n\nA gentle check for today: after your last stretch of alone time, did you come back clearer, or just quieter? If it is the second, the smallest honest step counts. One short message. One specific question to someone you trust.\n\nYou do not have to become more outgoing to deserve support. The lantern is still yours. It just works better when someone knows where to find you.",
+        "link_card": "https://thepsychicstudio.com/blog/the-hermit-reversed-connection",
+        "free_tarot_link": "https://thepsychicstudio.com/free-tarot",
+        "tags": [
+          "tarot",
+          "the hermit reversed",
+          "tarot reflection",
+          "daily tarot",
+          "the psychic studio"
+        ],
+        "image": "content-ledger/social-buffer-images/tumblr-hermit-oct23.png",
+        "posted": "2026-10-23 11:50 IST (first attempt landed in drafts, published from drafts view)",
+        "url": "https://www.tumblr.com/thepsychicstudio/831244390153502720/the-hermit-reversed-when-alone-time-stops"
+      },
+      "medium": {
+        "title": "444 Angel Number Meaning: Stability, Foundations and Patience",
+        "source_blog": "https://thepsychicstudio.com/blog/444-angel-number-meaning",
+        "note": "Condensed hand-paste version for office-PC publish, import tool failed last time. Open with: Originally published on The Psychic Studio: <URL>. End with link back. Tags: Tarot, Astrology, Angel Numbers, Spirituality, horoscope.",
+        "status": "deferred: cloud login blocked, office-PC route only"
+      }
+    },
+    {
+      "date": "2026-10-24",
+      "pinterest": {
+        "title": "Yellow Butterfly Spiritual Meaning: Hope and Change",
+        "description": "A yellow butterfly is often read as hope, joy and a fresh start. Nature first, meaning second: what the moment can and cannot tell you. Full guide on the blog.",
+        "link": "https://thepsychicstudio.com/blog/yellow-butterfly-spiritual-meaning",
+        "image": "content-ledger/social-buffer-images/pin-butterfly-oct24.png",
+        "board_hint": "Spiritual Meanings",
+        "posted": "2026-10-24 09:30 IST",
+        "url": "https://in.pinterest.com/pin/1109715164522269765/"
+      },
+      "tumblr": {
+        "title": "The Lovers Reversed: A Choice That Does Not Fit",
+        "body": "The Lovers reversed is not a verdict on your relationship. It is a question about fit.\n\nSomething feels out of step. Maybe an actual disagreement. Maybe an expectation nobody said out loud. Maybe a decision you keep moving to next week.\n\nThe card cannot tell you whether someone loves you or what you should choose. What it can do is hold up the gap between your values and your week, and ask which one you plan to adjust.\n\nTry naming it in one sentence, plainly: I keep postponing X because Y. If the sentence is hard to write, that is usually where the honest conversation lives.",
+        "link_card": "https://thepsychicstudio.com/blog/the-lovers-reversed-clearer-choices",
+        "free_tarot_link": "https://thepsychicstudio.com/free-tarot",
+        "tags": [
+          "tarot",
+          "the lovers reversed",
+          "tarot reflection",
+          "daily tarot",
+          "the psychic studio"
+        ],
+        "image": "content-ledger/social-buffer-images/tumblr-lovers-oct24.png",
+        "posted": "2026-10-24 09:36 IST",
+        "url": "https://www.tumblr.com/thepsychicstudio/831326525675732992/the-lovers-reversed-a-choice-that-does-not-fit"
+      },
+      "medium": {
+        "title": "Yellow Butterfly Spiritual Meaning: Hope and Change",
+        "source_blog": "https://thepsychicstudio.com/blog/yellow-butterfly-spiritual-meaning",
+        "note": "Condensed hand-paste version for office-PC publish. Same open/close attribution format. Tags: Spirituality, Tarot, Nature, Self Improvement, horoscope."
+      }
+    },
+    {
+      "date": "2026-10-25",
+      "pinterest": {
+        "title": "888 Angel Number Warning: What It Really Means",
+        "description": "888 is the abundance number, but its shadow side reads like a quiet warning: money habits, overwork and scorekeeping in love. A grounded look at what 888 can and cannot tell you. Full guide on the blog.",
+        "link": "https://thepsychicstudio.com/blog/888-angel-number-warning",
+        "image": "content-ledger/social-buffer-images/pin-888-oct25.png",
+        "board_hint": "Angel Numbers",
+        "posted": "2026-10-25 09:23 IST",
+        "url": "https://in.pinterest.com/pin/1109715164522375738/"
+      },
+      "tumblr": {
+        "title": "The Moon Reversed: When the Fog Finally Lifts",
+        "body": "Some weeks feel like reading through fog. The Moon reversed is the moment the fog starts to thin.\n\nUpright, the Moon is uncertainty: unclear signals, vivid worries at 2 AM, stories you cannot verify. Reversed, the same card often marks the slow return of ordinary clarity. Not a revelation. Just the ground becoming visible again.\n\nA small practice for today: write down the one thing you have been unsure about all week, then write what you actually know about it. Two columns. Most people find the second column longer than expected, and shorter than feared.\n\nClarity does not mean the answer arrives. It means you can finally see which question is real.",
+        "link_card": "https://thepsychicstudio.com/blog/the-moon-reversed-clarity",
+        "free_tarot_link": "https://thepsychicstudio.com/free-tarot",
+        "tags": [
+          "tarot",
+          "the moon reversed",
+          "tarot reflection",
+          "daily tarot",
+          "the psychic studio"
+        ],
+        "image": "content-ledger/social-buffer-images/tumblr-moon-oct25.png",
+        "posted": "2026-10-25 09:27 IST",
+        "url": "https://www.tumblr.com/thepsychicstudio/831416601508200448/the-moon-reversed-when-the-fog-finally-lifts"
+      },
+      "medium": {
+        "title": "888 Angel Number Warning: What It Really Means",
+        "source_blog": "https://thepsychicstudio.com/blog/888-angel-number-warning",
+        "note": "Condensed hand-paste version for office-PC publish. Same open/close attribution format. Tags: Angel Numbers, Spirituality, Tarot, Numerology, horoscope."
+      }
+    },
+    {
+      "date": "2026-10-26",
+      "pinterest": {
+        "title": "Taurus Dates: What Month Is Taurus and Who Is Born Under It",
+        "description": "Taurus season runs roughly April 20 to May 20, and the exact dates shift by year. A plain guide to the dates, the earth sign traits and what the sun sign can and cannot tell you. Full guide on the blog.",
+        "link": "https://thepsychicstudio.com/blog/taurus-zodiac-dates",
+        "image": "content-ledger/social-buffer-images/pin-taurus-oct26.png",
+        "board_hint": "Spiritual Meanings",
+        "posted": "2026-10-26 09:21 IST",
+        "url": "https://in.pinterest.com/pin/1109715164522474850/"
+      },
+      "tumblr": {
+        "title": "Strength Reversed: Confidence Without the Performance",
+        "body": "Strength upright is quiet courage. Reversed, it usually shows up as the week you doubt yourself and cover it with noise.\n\nThe card does not say you are weak. It asks where you are performing confidence instead of building it, and what a smaller, steadier version would look like.\n\nTry this today: pick one thing you have been avoiding and shrink it to ten minutes. Not the whole conversation, not the whole project. Ten minutes.\n\nStrength reversed is a prompt about patience with yourself. It cannot diagnose anxiety or replace support if self-doubt is heavy for you.",
+        "link_card": "https://thepsychicstudio.com/blog/strength-reversed-gentler-confidence",
+        "free_tarot_link": "https://thepsychicstudio.com/free-tarot",
+        "tags": [
+          "tarot",
+          "strength reversed",
+          "tarot reflection",
+          "daily tarot",
+          "the psychic studio"
+        ],
+        "image": "content-ledger/social-buffer-images/tumblr-strength-oct26.png",
+        "posted": "2026-10-26 09:25 IST (no image attached)",
+        "url": "https://www.tumblr.com/thepsychicstudio/831507051679219712/strength-reversed-confidence-without-the"
+      },
+      "medium": {
+        "title": "Taurus Dates: What Month Is Taurus and Who Is Born Under It",
+        "source_blog": "https://thepsychicstudio.com/blog/taurus-zodiac-dates",
+        "note": "Condensed hand-paste version for office-PC publish. Same open/close attribution format. Tags: Astrology, Zodiac, Spirituality, Self Improvement, horoscope."
+      }
+    },
+    {
+      "date": "2026-10-27",
+      "pinterest": {
+        "title": "Leo Zodiac Dates: When Leo Season Starts and Ends",
+        "description": "Leo runs from about July 23 to August 22. Check your exact range, what to do if your birthday sits on the edge, and what sets the sign apart. https://thepsychicstudio.com/blog/leo-zodiac-dates",
+        "link": "https://thepsychicstudio.com/blog/leo-zodiac-dates",
+        "image": "content-ledger/social-buffer-images/pin-leo-dates-oct27.png",
+        "board_hint": "Zodiac",
+        "format": "2:3 branded card, approved by Het 2026-10-26 4:27 PM",
+        "posted": "2026-10-27 09:22 IST",
+        "url": "https://in.pinterest.com/pin/1109715164522566374/",
+        "board": "Zodiac Signs and Dates (new board created)"
+      },
+      "tumblr": {
+        "title": "The Chariot Reversed: Reset Direction Without Forcing It",
+        "body": "The Chariot upright is momentum. Reversed, it is the feeling of pushing hard in several directions and arriving nowhere.\n\nThe card points at competing priorities and asks which one you are actually steering toward.\n\nA small practice: write down your open commitments on paper, then circle the one you would keep if you could only keep one this month. The rest are waiting, not dead.\n\nDirection comes before speed. The card cannot choose the road for you.",
+        "link_card": "https://thepsychicstudio.com/blog/the-chariot-reversed-reset-direction",
+        "free_tarot_link": "https://thepsychicstudio.com/free-tarot",
+        "tags": [
+          "tarot",
+          "the chariot reversed",
+          "tarot reflection",
+          "daily tarot",
+          "the psychic studio"
+        ],
+        "image": "content-ledger/social-buffer-images/tumblr-chariot-oct27.png",
+        "posted": "2026-10-27 09:28 IST",
+        "url": "https://www.tumblr.com/thepsychicstudio/831597873996136448/the-chariot-reversed-reset-direction-without",
+        "note": "no image attached (editor image upload not working)"
+      },
+      "medium": {
+        "title": "Leo Zodiac Dates: When Leo Season Starts and Ends",
+        "source_blog": "https://thepsychicstudio.com/blog/leo-zodiac-dates",
+        "note": "Condensed hand-paste version for office-PC publish. Same open/close attribution format. Tags: Astrology, Zodiac, Spirituality, Self Improvement, horoscope."
+      }
+    },
+    {
+      "date": "2026-10-28",
+      "pinterest": {
+        "title": "Gemini Dates: When Gemini Season Starts and Ends",
+        "description": "Gemini runs from about May 21 to June 20. Find out which birthdays sit on the edge and how to confirm your sign with a birth chart. https://thepsychicstudio.com/blog/gemini-zodiac-dates",
+        "link": "https://thepsychicstudio.com/blog/gemini-zodiac-dates",
+        "image": "content-ledger/social-buffer-images/pin-gemini-dates-oct28.png",
+        "board_hint": "Zodiac",
+        "format": "2:3 branded card, approved by Het 2026-10-26 4:27 PM",
+        "posted": "2026-10-28 09:21 IST",
+        "url": "https://in.pinterest.com/pin/1109715164522650133/"
+      },
+      "tumblr": {
+        "title": "The Star: Hope That Does Not Need Proof",
+        "body": "The Star comes after the Tower for a reason. The noise has stopped, and what is left is small and steady.\n\nIt gives no promise that things work out. It gives permission to want something again without demanding evidence first.\n\nTry this today: name one thing you would still hope for if nobody could tell you the odds. Write it down in one sentence. Keep the sentence, drop the forecast.\n\nThe Star cannot predict outcomes. It marks the point where you stop bracing and start trusting your own pace.",
+        "link_card": "https://thepsychicstudio.com/tarot-card-meanings/the-star",
+        "free_tarot_link": "https://thepsychicstudio.com/free-tarot",
+        "tags": [
+          "tarot",
+          "the star",
+          "tarot reflection",
+          "daily tarot",
+          "the psychic studio"
+        ],
+        "image": "content-ledger/social-buffer-images/tumblr-star-oct28.png",
+        "posted": "2026-10-28 09:23 IST",
+        "url": "https://www.tumblr.com/thepsychicstudio/831688127899910144/the-star-hope-that-does-not-need-proof"
+      },
+      "medium": {
+        "title": "Gemini Dates: When Gemini Season Starts and Ends",
+        "source_blog": "https://thepsychicstudio.com/blog/gemini-zodiac-dates",
+        "note": "Condensed hand-paste version for office-PC publish. Same open/close attribution format. Tags: Astrology, Zodiac, Spirituality, Self Improvement, horoscope."
+      }
+    },
+    {
+      "date": "2026-10-29",
+      "pinterest": {
+        "title": "Scorpio in Love: Tarot and Horoscope Guide",
+        "description": "How Scorpio handles trust, jealousy and loyalty in a relationship, and which tarot cards fit the sign. Written as reflection, with no predictions. https://thepsychicstudio.com/blog/scorpio-in-love-tarot-and-horoscope",
+        "link": "https://thepsychicstudio.com/blog/scorpio-in-love-tarot-and-horoscope",
+        "image": "content-ledger/social-buffer-images/pin-scorpio-love-oct29.png",
+        "board_hint": "Zodiac",
+        "format": "2:3 branded card, approved by Het 2026-10-26 4:27 PM",
+        "posted": "2026-10-29 09:22 IST",
+        "url": "https://in.pinterest.com/pin/1109715164522735992/"
+      },
+      "tumblr": {
+        "title": "Temperance: The Slow Mix",
+        "body": "Temperance is the card of two things poured into one cup at a pace you can control.\n\nIt shows up when you have been swinging between extremes: all in, then all out. The card asks for a ratio, not a verdict.\n\nA small practice: pick one habit you do in bursts and write the smallest daily version of it. Ten minutes of the thing, every day, beats a Sunday marathon.\n\nTemperance cannot fix a situation for you. It describes a rhythm you can choose.",
+        "link_card": "https://thepsychicstudio.com/tarot-card-meanings/temperance",
+        "free_tarot_link": "https://thepsychicstudio.com/free-tarot",
+        "tags": [
+          "tarot",
+          "temperance",
+          "tarot reflection",
+          "daily tarot",
+          "the psychic studio"
+        ],
+        "image": "content-ledger/social-buffer-images/tumblr-temperance-oct29.png",
+        "posted": "2026-10-29 09:26 IST",
+        "url": "https://www.tumblr.com/thepsychicstudio/831778894279589888/temperance-the-slow-mix"
+      },
+      "medium": {
+        "title": "Scorpio in Love: Tarot and Horoscope Guide",
+        "source_blog": "https://thepsychicstudio.com/blog/scorpio-in-love-tarot-and-horoscope",
+        "note": "Condensed hand-paste version for office-PC publish. Same open/close attribution format. Tags: Astrology, Zodiac, Love, Spirituality, horoscope."
+      }
+    },
+    {
+      "date": "2026-10-30",
+      "pinterest": {
+        "title": "August 24 Zodiac Sign: Virgo Traits and Tarot Card",
+        "description": "A birthday on August 24 is always Virgo. See the traits, the decan and the tarot card that fit the date. https://thepsychicstudio.com/blog/august-24-zodiac-sign",
+        "link": "https://thepsychicstudio.com/blog/august-24-zodiac-sign",
+        "image": "content-ledger/social-buffer-images/pin-virgo-aug24-oct30.png",
+        "board_hint": "Zodiac",
+        "format": "2:3 branded card, approved by Het 2026-10-26 4:27 PM"
+      },
+      "tumblr": {
+        "title": "The Sun: Warmth Without Performing",
+        "body": "The Sun is the card people call lucky and then ask for a promise.\n\nIt does not give one. It shows clarity, plain good energy and the relief of being seen as you are. Reversed, the same card can mean you are dimming yourself to keep a room comfortable.\n\nA small check for today: where did you lower your own brightness this week? Name the room. Then pick one honest sentence you can say there tomorrow.\n\nThe Sun describes a mood you can move toward. It does not forecast the day.",
+        "link_card": "https://thepsychicstudio.com/tarot-card-meanings/the-sun",
+        "free_tarot_link": "https://thepsychicstudio.com/free-tarot",
+        "tags": [
+          "tarot",
+          "the sun",
+          "tarot reflection",
+          "daily tarot",
+          "the psychic studio"
+        ]
+      },
+      "medium": {
+        "title": "August 24 Zodiac Sign: Virgo Traits and Tarot Card",
+        "source_blog": "https://thepsychicstudio.com/blog/august-24-zodiac-sign",
+        "note": "Condensed hand-paste version for office-PC publish. Same open/close attribution format. Tags: Astrology, Zodiac, Virgo, Spirituality, horoscope."
+      }
+    }
+  ]
 }

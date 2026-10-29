@@ -1,0 +1,5 @@
+{
+  "date": "2026-10-29",
+  "change": "Zodiac compatibility pair pages: added element-pair dynamics, modality note, love/work, strengths, practice, tarot link and card/horoscope links. All 78 pair pages; the 9 short pages Google had crawled but not indexed went from about 185 to about 500-680 words.",
+  "file": "src/pages/SeoPage.tsx"
+}

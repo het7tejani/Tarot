@@ -196,6 +196,20 @@ const ReadingCTA: React.FC = () => (
   </section>
 );
 
+const ELEMENT_PAIR: Record<string, string> = {
+  'Fire|Fire': 'Two fire signs spark fast. The attraction is quick and the energy is high, and the risk is that two strong wills both want to lead. The pair works best when each person gets a clear area to run and arguments are kept short and honest.',
+  'Earth|Fire': 'Fire starts things and earth finishes them. Fire gives earth momentum and a reason to try something new, while earth gives fire a base and a plan. Friction shows up when fire calls earth slow or earth calls fire reckless.',
+  'Air|Fire': 'Air feeds fire. Ideas, talk and curiosity give fire a direction, and fire gives air the push to act on what it has been thinking about. The weak point is follow-through when both enjoy the start more than the middle.',
+  'Fire|Water': 'Fire and water can make steam or put each other out. Fire brings warmth and courage, water brings depth and feeling. The pair needs direct talk about intensity, since fire can run over a sensitive moment and water can hold a quiet grudge.',
+  'Earth|Earth': 'Two earth signs build well together. Shared habits, money sense and loyalty make the bond steady. The risk is routine: when neither person pushes for change, the relationship can settle into a rut without anyone noticing.',
+  'Air|Earth': 'Air likes ideas and options, earth likes proof and routine. Each can teach the other something. Air loosens earth up, earth keeps air on the ground, and the friction is usually about speed and certainty.',
+  'Earth|Water': 'Earth and water nourish each other. Earth gives water safety and structure, water gives earth warmth and emotional range. This is one of the more natural elemental pairings, with the usual risk of avoiding hard conversations to keep things calm.',
+  'Air|Air': 'Two air signs talk easily. The friendship is strong and the conversation rarely stops. The gap tends to be emotional follow-through: it is easy to discuss a feeling at length and still not act on it.',
+  'Air|Water': 'Air thinks, water feels. Air can help water put words to what it senses, and water can show air that not everything is solved by analysis. Trouble starts when air treats feelings as a debate or water expects air to read the mood without being told.',
+  'Water|Water': 'Two water signs understand each other without much explaining. The bond is emotional and protective. The risk is a shared mood spiral, where both absorb each other\'s worries and nobody holds the practical side.'
+};
+const elementPair = (a: string, b: string) => ELEMENT_PAIR[[a, b].sort().join('|')] || '';
+
 const compatBlurb = (a: string, b: string) => {
   const A = SIGN_INFO.find((s) => s.n === a)!;
   const B = SIGN_INFO.find((s) => s.n === b)!;
@@ -341,7 +355,22 @@ export const SeoPage: React.FC = () => {
               <P>{B.love}</P>
               <H2>Making it work</H2>
               <P>{cap(A.n)} is {A.mod.toLowerCase()} and {B.n.charAt(0).toUpperCase() + B.n.slice(1)} is {B.mod.toLowerCase()}, so talk openly about pace, decisions and who leads. Ask what each of you needs to feel safe and appreciated, and say it plainly.</P>
-              <P>Sun signs describe only part of a match. Compare full birth charts for a fuller view.</P>
+              <H2>{A.el === B.el ? `Two ${A.el.toLowerCase()} signs` : `${A.el} and ${B.el.toLowerCase()} together`}</H2>
+              <P>{elementPair(A.el, B.el)}</P>
+              <P>{A.mod === B.mod ? `Both signs are ${A.mod.toLowerCase()}, so they move at a similar pace and tend to want the same kind of change at the same time. Disagreements come from competing for the same role rather than from different rhythms.` : `${cap(A.n)} is ${A.mod.toLowerCase()} and ${cap(B.n)} is ${B.mod.toLowerCase()}, which gives them different rhythms. One may start, hold or adjust at a different time than the other, and naming that early saves a lot of misreading.`}</P>
+              <H2>In love, friendship and work</H2>
+              <P><strong>Love.</strong> {A.n === B.n ? `Two ${cap(A.n)} partners recognize each other quickly, which is both the pull and the problem. ${A.love}` : `${A.love} ${B.love}`}</P>
+              <P><strong>Work.</strong> {A.n === B.n ? A.work : `${A.work} ${B.work}`} As coworkers or business partners they do best when each person owns a clear piece of the job.</P>
+              <H2>What each sign brings</H2>
+              <P>{A.strengths}</P>
+              {A.n !== B.n && <P>{B.strengths}</P>}
+              <H2>A practice to try together</H2>
+              <P>{A.growth}</P>
+              {A.n !== B.n && <P>{B.growth}</P>}
+              <H2>The tarot link</H2>
+              <P>{A.n === B.n ? A.tarot : `${A.tarot} ${B.tarot}`} Draw a card for each of you in the <Link to="/free-tarot" className="text-[#73a89a] font-semibold">free tarot reading</Link> and compare what each one asks of the relationship.</P>
+              <P>Explore the <Link to={`/tarot-card-meanings/${A.cardSlug}`} className="text-[#73a89a] font-semibold">{A.card}</Link> card{A.n !== B.n && <>, the <Link to={`/tarot-card-meanings/${B.cardSlug}`} className="text-[#73a89a] font-semibold">{B.card}</Link> card</>}, and the daily tarot reflections for <Link to={`/horoscope/${A.n}`} className="text-[#73a89a] font-semibold">{cap(A.n)}</Link>{A.n !== B.n && <> and <Link to={`/horoscope/${B.n}`} className="text-[#73a89a] font-semibold">{cap(B.n)}</Link></>}.</P>
+              <P>Sun signs describe only part of a match. Compare full birth charts for a fuller view, and treat any pairing guide as reflection rather than a verdict on a relationship.</P>
             </>
           );
         })()}

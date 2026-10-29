@@ -210,6 +210,18 @@ const ELEMENT_PAIR: Record<string, string> = {
 };
 const elementPair = (a: string, b: string) => ELEMENT_PAIR[[a, b].sort().join('|')] || '';
 
+const LOVE_BY_ELEMENT: Record<string, string> = {
+  'Fire|Fire': 'Two fire signs fall quickly and argue loudly, then move on. Love works when both agree that a flash of anger is not a verdict.',
+  'Earth|Earth': 'Two earth signs build slowly and trust what lasts. Love works when they plan for affection as carefully as they plan for money and time.',
+  'Air|Air': 'Two air signs talk for hours and enjoy ideas together. Love works when talk turns into action and feelings get named, not only discussed.',
+  'Water|Water': "Two water signs sense each other's moods without being told. Love works when both say what they feel aloud instead of waiting to be understood.",
+  'Air|Fire': 'Air feeds fire, so conversation and adventure come easily. Love works when quick plans are matched with follow-through.',
+  'Earth|Fire': 'Fire wants to move and earth wants to hold steady. Love works when the spark and the stability each get a fair share.',
+  'Fire|Water': 'Fire and water pull in different directions, which creates both steam and distance. Love works when warmth is paired with patience.',
+  'Air|Earth': 'Air likes options and earth likes certainty. Love works when ideas get a practical test and routine leaves room for surprise.',
+  'Air|Water': 'Air explains and water feels, so the two can misread each other. Love works when logic makes room for emotion and feeling gets words.',
+  'Earth|Water': 'Earth gives water a place to land and water softens earth. Love works when care shows up in both words and daily habits.',
+};
 const compatBlurb = (a: string, b: string) => {
   const A = SIGN_INFO.find((s) => s.n === a)!;
   const B = SIGN_INFO.find((s) => s.n === b)!;
@@ -359,7 +371,7 @@ export const SeoPage: React.FC = () => {
               <P>{elementPair(A.el, B.el)}</P>
               <P>{A.n === B.n ? `Both partners are ${A.mod.toLowerCase()}, so they hold their positions the same way and neither gives ground easily. Agree early on how decisions get made.` : A.mod === B.mod ? `Both signs are ${A.mod.toLowerCase()}, so they move at a similar pace and tend to want the same kind of change at the same time. Disagreements come from competing for the same role rather than from different rhythms.` : `${cap(A.n)} is ${A.mod.toLowerCase()} and ${cap(B.n)} is ${B.mod.toLowerCase()}, which gives them different rhythms. One may start, hold or adjust at a different time than the other, and naming that early saves a lot of misreading.`}</P>
               <H2>In love, friendship and work</H2>
-              <P><strong>Love.</strong> {A.n === B.n ? `Two ${cap(A.n)} partners recognize each other quickly, which is both the pull and the problem. ${A.love}` : `${A.love} ${B.love}`}</P>
+              <P><strong>Love.</strong> {A.n === B.n ? `Two ${cap(A.n)} partners recognize each other quickly, which is both the pull and the problem. Each one knows what the other wants, so the hard part is saying it out loud before it turns into a test.` : `${LOVE_BY_ELEMENT[[A.el, B.el].sort().join('|')] ?? ''} Because ${cap(A.n)} and ${cap(B.n)} show care in different ways, it helps to say plainly what each gesture means.`}</P>
               <P><strong>Work.</strong> {A.n === B.n ? A.work : `${A.work} ${B.work}`} As coworkers or business partners they do best when each person owns a clear piece of the job.</P>
               <H2>What each sign brings</H2>
               <P>{A.strengths}</P>

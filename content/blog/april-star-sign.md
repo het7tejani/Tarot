@@ -48,6 +48,8 @@ Aries loves like it lives: fast, warm and competitively. It needs a partner who 
 
 Aries tends to spark with Leo and Gemini; see [Aries and Leo](/zodiac-compatibility/aries-and-leo) and [Aries and Gemini](/zodiac-compatibility/aries-and-gemini). Taurus pairs well with Cancer and Virgo, covered in [Taurus and Cancer](/zodiac-compatibility/taurus-and-cancer) and [Taurus and Virgo](/zodiac-compatibility/taurus-and-virgo). The April-international pairing, Aries with Taurus, has its own page too: [Aries and Taurus](/zodiac-compatibility/aries-and-taurus).
 
+If your birthday is at the end of March, see the [March 31 zodiac sign guide](/blog/march-31-zodiac-sign) for how the date fits Aries.
+
 ## Questions about the April star sign
 
 **What is the April star sign?**

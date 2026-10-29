@@ -58,6 +58,8 @@ Read the full [Scorpio sign guide](/zodiac/scorpio) or see today's card on the [
 
 ![A crystal ball in a dark room](/blog-images/6087153.webp)
 
+Scorpio birthdays in late October are covered in the [October 26 zodiac sign guide](/blog/october-26-zodiac-sign).
+
 ## Scorpio horoscope questions
 
 **What is the Scorpio horoscope for today?**

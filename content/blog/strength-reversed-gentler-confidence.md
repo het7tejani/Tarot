@@ -54,6 +54,8 @@ Confidence rarely returns as a feeling first. It returns as evidence. If Strengt
 
 Write down what you did each day, not how you felt about it. After a week you have seven lines of proof that you can act while unsure, which is the actual mechanism of confidence. Feelings tend to follow records, not the other way around. If the heaviness sits on most days for weeks and small steps stay impossible, that deserves a conversation with a professional, not another draw.
 
+For the card the right way up, read our guide to [Strength upright](/blog/strength-tarot-card-upright-meaning).
+
 ## A gentler reflection practice
 
 Write a short note about the demand you are facing. Add what you already know how to do, what you need to learn and what help you could request. Keep the language factual rather than calling yourself lazy, weak or a failure.

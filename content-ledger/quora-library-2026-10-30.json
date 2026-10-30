@@ -1,0 +1,30 @@
+{
+ "date": "2026-10-30",
+ "note": "Daily Quora library. No site links. Slots 10:30, 14:00, 19:00 IST.",
+ "answers": [
+  {
+   "n": 1,
+   "question": "What does the Sun mean in tarot?",
+   "question_url": "https://www.quora.com/What-does-the-Sun-mean-in-tarot",
+   "text": "The Sun is the plainest good-news card in the deck. A child on a horse under a bright sky, nothing hidden.\n\nIn a reading it points to clarity, warmth and the relief of seeing a situation as it is. It often shows up when something you were unsure about becomes simple, or when you stop performing for a room.\n\nIt is not a promise of luck. The card describes a mood and a direction, and what you do with it is still up to you.\n\nReversed, it can mean you are dimming yourself to keep things comfortable, or that the good news is real but arriving slowly. ",
+   "used": false,
+   "posted": false
+  },
+  {
+   "n": 2,
+   "question": "What does the Empress card mean in tarot?",
+   "question_url": "https://www.quora.com/What-does-the-Empress-card-mean-in-tarot",
+   "text": "The Empress is the card of care and growth. She sits in a field with grain around her, and the image is about things that grow when they are looked after.\n\nIn readings it often points to nurturing, comfort, creativity and the body. That can mean a project you are tending, a relationship that needs warmth more than strategy, or a reminder to rest properly.\n\nIt does not have to mean motherhood or pregnancy. Most readers treat that as one possible reading among many, and only when the question is about it.\n\nReversed, it can show overgiving, neglecting your own needs, or a creative block. ",
+   "used": false,
+   "posted": false
+  },
+  {
+   "n": 3,
+   "question": "What does the Hermit mean in tarot?",
+   "question_url": "https://www.quora.com/What-does-the-Hermit-mean-in-tarot",
+   "text": "The Hermit is the card of chosen solitude. A figure on a mountain holds up a small lantern, enough light for the next few steps and no more.\n\nIn a reading it often means stepping back to think, a period of reflection, or looking for your own answer instead of collecting more opinions.\n\nIt is not a card about loneliness by default. The question is whether the quiet is helping you or whether you are hiding in it.\n\nReversed, it can point to isolation that has gone on too long, or to ignoring advice you already know is right. ",
+   "used": false,
+   "posted": false
+  }
+ ]
+}

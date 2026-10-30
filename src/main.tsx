@@ -6,7 +6,7 @@ import './index.css';
 import {DailyCardDateProvider, localDayKey} from './contexts/DailyCardDate';
 
 const root = document.getElementById('root')!;
-const savedDayKey = Number(root.dataset.dailyCardDay);
+const savedDayKey = Number(root?.dataset?.dailyCardDay);
 const initialDayKey = Number.isInteger(savedDayKey) && savedDayKey >= 20000101 && savedDayKey <= 99991231
   ? savedDayKey : localDayKey();
 const app = (

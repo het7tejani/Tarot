@@ -73,3 +73,6 @@ Taurus is an earth sign, along with Virgo and Capricorn.
 Venus rules Taurus. Libra shares the same ruler, which is one reason the two signs get along on matters of taste.
 
 Born just after the Aries edge? Read the [April 22 zodiac sign](/blog/april-22-zodiac-sign) guide.
+
+
+Looking for the months instead of the exact dates? See [which month is Taurus](/blog/taurus-month-and-dates).

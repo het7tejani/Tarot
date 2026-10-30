@@ -67,3 +67,6 @@ Aries is the ram. Taurus is the bull. April gets both animals in one month, whic
 Taurus begins around April 20. See [Taurus dates and what month Taurus is](/blog/taurus-zodiac-dates).
 
 For a single birthday in the Taurus range, see the [April 22 zodiac sign](/blog/april-22-zodiac-sign) guide.
+
+
+The sign changes late in the month. See [Taurus month and dates](/blog/taurus-month-and-dates) for where it starts.

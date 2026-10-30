@@ -67,3 +67,6 @@ They can be. Taurus brings steadiness, Gemini brings spark, and the friction bet
 Taurus covers the first three weeks of May. The full breakdown is in [Taurus dates](/blog/taurus-zodiac-dates).
 
 For the late May dates in more detail, see [Gemini zodiac dates](/blog/gemini-zodiac-dates).
+
+
+For the full Taurus window and its decans, see [Taurus month and dates](/blog/taurus-month-and-dates). For the Gemini side of May, see the [May 31 zodiac sign guide](/blog/may-31-zodiac-sign).

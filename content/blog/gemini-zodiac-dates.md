@@ -67,3 +67,6 @@ Gemini is an air sign ruled by Mercury.
 **Is May 21 Gemini or Taurus?**
 
 Gemini in most years. In years when the Sun enters Gemini on May 22, it is Taurus. Use a birth chart to confirm.
+
+
+For a single date inside the sign, see the [May 31 zodiac sign guide](/blog/may-31-zodiac-sign).

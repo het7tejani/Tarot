@@ -726,3 +726,18 @@ header .nav a.on,header a[aria-current=page]{color:#846019!important}
 .st-legal a{color:var(--leaf-d)!important;font-size:14px!important}
 .st-legal a:hover{color:var(--saffron)!important}
 .hs-h,.st-wheel-intro h2,.st-wheel-prompt h3,.st-period-h,.st-astro-hero h1{font-style:normal;font-weight:600}
+
+/* 14. Home horoscope section: editorial sign rows + grouped resources */
+.st-horo-grid{display:grid;grid-template-columns:1fr 1fr;column-gap:70px;margin-top:34px}
+.st-horo-row{display:flex;align-items:center;gap:16px;padding:15px 6px;border-bottom:1px solid var(--line);color:var(--ink)}
+.st-horo-row .sg{font-size:24px;color:var(--saffron);width:34px;text-align:center}
+.st-horo-row .sn{font-size:18px;font-weight:600}
+.st-horo-row .sd{margin-left:auto;font-size:13.5px;color:var(--ink2)}
+.st-horo-row .sa{color:var(--leaf-l);font-size:18px}
+.st-horo-row:hover{background:var(--sage);border-radius:8px}
+.st-horo-row:hover .sa{color:var(--leaf-d)}
+.st-horo-res{margin-top:56px;background:var(--sage);border-radius:22px;padding:38px 42px;display:grid;grid-template-columns:repeat(3,1fr);gap:36px}
+.st-horo-res h3{font-size:13px;letter-spacing:3px;text-transform:uppercase;color:var(--leaf-d);margin:0 0 16px}
+.st-horo-res a{display:block;padding:7px 0;font-size:15px;color:var(--ink);font-weight:500}
+.st-horo-res a:hover{color:var(--leaf-d);text-decoration:underline}
+@media(max-width:760px){.st-horo-grid{grid-template-columns:1fr}.st-horo-res{grid-template-columns:1fr;padding:28px 24px;gap:24px}}

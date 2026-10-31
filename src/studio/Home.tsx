@@ -3,6 +3,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Layout } from './Layout';
 import { Wheel } from './Wheel';
+const SIGN_DATES: Record<string, string> = { aries: 'Mar 21 - Apr 19', taurus: 'Apr 20 - May 20', gemini: 'May 21 - Jun 20', cancer: 'Jun 21 - Jul 22', leo: 'Jul 23 - Aug 22', virgo: 'Aug 23 - Sep 22', libra: 'Sep 23 - Oct 22', scorpio: 'Oct 23 - Nov 21', sagittarius: 'Nov 22 - Dec 21', capricorn: 'Dec 22 - Jan 19', aquarius: 'Jan 20 - Feb 18', pisces: 'Feb 19 - Mar 20' };
 const SIGN_INFO = ['aries','taurus','gemini','cancer','leo','virgo','libra','scorpio','sagittarius','capricorn','aquarius','pisces'].map(n=>({n}));
 import { ETSY_LISTINGS } from '../data/etsyListings';
 import { FAQS, HOW_IT_WORKS_STEPS } from '../data/readingsData';
@@ -133,11 +134,13 @@ export const Home: React.FC = () => (
       </div>
     </section>
     <section className="st-sec"><div className="wrap">
-      <span className="eyebrow">Your sign</span><h2>Read today's horoscope</h2>
-      <div className="st-grid c4">{SIGN_INFO.map((s) => <Link key={s.n} className="st-sign" to={`/horoscope/${s.n}`}><b>{GLYPH[s.n]}{'\uFE0E'}</b>{s.n[0].toUpperCase() + s.n.slice(1)}</Link>)}</div>
-      <p style={{ marginTop: 26, display: 'flex', flexWrap: 'wrap', gap: '10px 20px', fontWeight: 600, fontSize: 14 }}>
-        <Link to="/zodiac">Zodiac signs</Link><Link to="/zodiac-compatibility">Zodiac compatibility</Link><Link to="/angel-numbers">Angel numbers</Link><Link to="/numerology">Numerology</Link><Link to="/birth-chart">Birth chart</Link><Link to="/rising-sign">Rising sign</Link><Link to="/spirit-animal">Spirit animal</Link><Link to="/love-tarot-reading">Love tarot reading</Link><Link to="/love-horoscope">Love horoscope</Link><Link to="/mercury-retrograde">Mercury retrograde</Link>
-      </p>
+      <span className="eyebrow">Your sign</span><h2>Read today's horoscope</h2><p className="sub">Daily guidance for every sign, with the dates each sign covers.</p>
+      <div className="st-horo-grid">{[0, 1].map((col) => <div key={col}>{SIGN_INFO.slice(col * 6, col * 6 + 6).map((s) => <Link key={s.n} className="st-horo-row" to={`/horoscope/${s.n}`}><span className="sg">{GLYPH[s.n]}{'\uFE0E'}</span><span className="sn">{s.n[0].toUpperCase() + s.n.slice(1)}</span><span className="sd">{SIGN_DATES[s.n]}</span><span className="sa">{'\u2192'}</span></Link>)}</div>)}</div>
+      <div className="st-horo-res">
+        <div><h3>Zodiac guides</h3><Link to="/zodiac">Zodiac signs</Link><Link to="/zodiac-compatibility">Zodiac compatibility</Link><Link to="/mercury-retrograde">Mercury retrograde</Link></div>
+        <div><h3>Numbers and charts</h3><Link to="/angel-numbers">Angel numbers</Link><Link to="/numerology">Numerology</Link><Link to="/birth-chart">Birth chart</Link><Link to="/rising-sign">Rising sign</Link></div>
+        <div><h3>Love and spirit</h3><Link to="/love-tarot-reading">Love tarot reading</Link><Link to="/love-horoscope">Love horoscope</Link><Link to="/spirit-animal">Spirit animal</Link></div>
+      </div>
     </div></section>
     <section className="st-sec alt"><div className="wrap">
       <span className="eyebrow">Tarot library</span><h2>Tarot card meanings: all 78 cards</h2><p className="sub">Upright and reversed meanings for love, career and life, one page for every card.</p>

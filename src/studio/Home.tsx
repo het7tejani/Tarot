@@ -125,9 +125,8 @@ export const Home: React.FC = () => (
         <div className="sale-art" aria-hidden="true"><img src="/perf-assets/halloween-reading.webp" srcSet="/perf-assets/halloween-reading-400.webp 400w, /perf-assets/halloween-reading-560.webp 560w, /perf-assets/halloween-reading-800.webp 800w, /perf-assets/halloween-reading.webp 1100w" sizes="(max-width: 760px) 100vw, 45vw" loading="lazy" decoding="async" alt="" width="1100" height="733" /></div>
         <div className="sale-copy">
           <span className="sale-season">The Psychic Studio presents</span>
-          <h2 id="halloween-title">Halloween<span className="sale-word">SALE</span></h2>
-          <div className="sale-badge">UP TO 94% OFF</div>
-          <p className="sale-price"><del>$79</del><strong>from $5</strong><span>USD / reading</span></p>
+          <h2 id="halloween-title">Halloween<span className="sale-word">READINGS</span></h2>
+          <p className="sale-price"><strong>from $5</strong><span>USD / reading</span></p>
           <p className="sale-sub">A night of mystery. A moment for you.<br />Order by email: the studio replies personally with payment and delivery details.</p>
           <Link className="sale-cta" to="/shop">SHOP NOW</Link>
         </div>
@@ -148,7 +147,7 @@ export const Home: React.FC = () => (
     <section className="st-sec"><div className="wrap">
       <span className="eyebrow">Personal readings</span><h2>Personal reading topics</h2><p className="sub">Love, personal growth and life questions. Explore a topic and contact the studio to learn more.</p>
       <div className="st-grid c3 st-readings-home">{ETSY_LISTINGS.slice(0, 3).map((r) => (
-        <Link key={r.id} className="st-card st-reading-feature" to={`/readings/${r.slug}`}><TarotArtwork src={r.img} alt={r.title.split(" | ")[0]} loading="lazy" /><h3>{r.title.split(' | ')[0]}</h3><p>{r.description}</p><p><del style={{opacity:.5}}>$79</del> <strong>${r.price} USD</strong></p></Link>))}</div>
+        <Link key={r.id} className="st-card st-reading-feature" to={`/readings/${r.slug}`}><TarotArtwork src={r.img} alt={r.title.split(" | ")[0]} loading="lazy" /><h3>{r.title.split(' | ')[0]}</h3><p>{r.description}</p><p><strong>${r.price} USD</strong></p></Link>))}</div>
       <p style={{ marginTop: 26 }}><Link className="btn" to="/shop">View all readings</Link></p>
     </div></section>
     <section className="st-sec alt"><div className="wrap">

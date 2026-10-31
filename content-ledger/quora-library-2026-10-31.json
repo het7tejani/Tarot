@@ -1,34 +1,36 @@
 {
- "date": "2026-10-31",
- "note": "Daily Quora library. No site links. Slots 10:30, 14:00, 19:00 IST.",
- "answers": [
-  {
-   "n": 1,
-   "question": "What does the Strength tarot card mean?",
-   "question_url": "https://www.quora.com/What-does-the-Strength-tarot-card-mean",
-   "text": "Strength is the card of quiet courage. A woman rests her hand on a lion and the lion stays calm. Nothing is forced.\n\nIn a reading it points to patience, warmth and self-control. It describes the kind of strength that answers instead of reacts.\n\nThe lion stands for instinct and strong feeling. The card does not say to crush those feelings. It says to meet them with a steady hand.\n\nReversed, it can point to self-doubt, a short temper, or running low on energy. It is a prompt to ask what has been draining you.",
-   "used": true,
-   "posted": true,
-   "posted_url": "https://www.quora.com/What-does-the-strength-card-mean-during-tarot-card-readings/answer/The-Psychic-Studio",
-   "posted_question": "What does the strength card mean during tarot card readings?"
-  },
-  {
-   "n": 2,
-   "question": "What does the Star card mean in tarot?",
-   "question_url": "https://www.quora.com/What-does-the-Star-card-mean-in-tarot",
-   "text": "The Star is the card of calm hope after a hard stretch. A woman kneels by a pool and pours water onto land and into the pool, under a large star and seven smaller ones.\n\nIn a reading it often means recovery, renewal and a return of trust. It follows the Tower, so it can read as the quiet after something fell apart.\n\nIt does not promise that things will turn out well. It suggests you can rest, look after yourself and let hope come back at its own pace.\n\nReversed, it can point to discouragement or difficulty believing that things will improve.",
-   "used": true,
-   "posted": true,
-   "posted_url": "https://www.quora.com/In-tarot-what-does-the-star-card-mean/answer/The-Psychic-Studio",
-   "posted_question": "In tarot, what does the star card mean?"
-  },
-  {
-   "n": 3,
-   "question": "What does the Chariot card mean in tarot?",
-   "question_url": "https://www.quora.com/What-does-the-Chariot-card-mean-in-tarot",
-   "text": "The Chariot is the card of focused movement. A figure stands in a chariot pulled by two sphinxes, one light and one dark, and holds no reins. Will and focus do the steering.\n\nIn a reading it often means determination, direction and getting moving after a delay. The two sphinxes show that opposing pulls can be managed.\n\nIt does not say you will win. It asks where you want to go and whether you are steering or being pulled.\n\nReversed, it can point to scattered effort, a loss of direction, or pushing too hard in several ways at once.",
-   "used": false,
-   "posted": false
-  }
- ]
+  "date": "2026-10-31",
+  "note": "Daily Quora library. No site links. Slots 10:30, 14:00, 19:00 IST.",
+  "answers": [
+    {
+      "n": 1,
+      "question": "What does the Strength tarot card mean?",
+      "question_url": "https://www.quora.com/What-does-the-Strength-tarot-card-mean",
+      "text": "Strength is the card of quiet courage. A woman rests her hand on a lion and the lion stays calm. Nothing is forced.\n\nIn a reading it points to patience, warmth and self-control. It describes the kind of strength that answers instead of reacts.\n\nThe lion stands for instinct and strong feeling. The card does not say to crush those feelings. It says to meet them with a steady hand.\n\nReversed, it can point to self-doubt, a short temper, or running low on energy. It is a prompt to ask what has been draining you.",
+      "used": true,
+      "posted": true,
+      "posted_url": "https://www.quora.com/What-does-the-strength-card-mean-during-tarot-card-readings/answer/The-Psychic-Studio",
+      "posted_question": "What does the strength card mean during tarot card readings?"
+    },
+    {
+      "n": 2,
+      "question": "What does the Star card mean in tarot?",
+      "question_url": "https://www.quora.com/What-does-the-Star-card-mean-in-tarot",
+      "text": "The Star is the card of calm hope after a hard stretch. A woman kneels by a pool and pours water onto land and into the pool, under a large star and seven smaller ones.\n\nIn a reading it often means recovery, renewal and a return of trust. It follows the Tower, so it can read as the quiet after something fell apart.\n\nIt does not promise that things will turn out well. It suggests you can rest, look after yourself and let hope come back at its own pace.\n\nReversed, it can point to discouragement or difficulty believing that things will improve.",
+      "used": true,
+      "posted": true,
+      "posted_url": "https://www.quora.com/In-tarot-what-does-the-star-card-mean/answer/The-Psychic-Studio",
+      "posted_question": "In tarot, what does the star card mean?"
+    },
+    {
+      "n": 3,
+      "question": "What does the Chariot card mean in tarot?",
+      "question_url": "https://www.quora.com/What-does-the-Chariot-card-mean-in-tarot",
+      "text": "The Chariot is the card of focused movement. A figure stands in a chariot pulled by two sphinxes, one light and one dark, and holds no reins. Will and focus do the steering.\n\nIn a reading it often means determination, direction and getting moving after a delay. The two sphinxes show that opposing pulls can be managed.\n\nIt does not say you will win. It asks where you want to go and whether you are steering or being pulled.\n\nReversed, it can point to scattered effort, a loss of direction, or pushing too hard in several ways at once.",
+      "used": true,
+      "posted": true,
+      "posted_url": "https://www.quora.com/What-does-the-chariot-tarot-card-mean/answer/The-Psychic-Studio",
+      "posted_question": "What does the chariot tarot card mean?"
+    }
+  ]
 }

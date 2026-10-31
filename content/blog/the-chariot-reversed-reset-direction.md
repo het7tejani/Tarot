@@ -4,7 +4,7 @@ category: "Tarot Guides"
 date: "2026-10-16"
 excerpt: "Read The Chariot reversed through focus, control and competing priorities. Explore grounded questions about changing your approach without predicting failure."
 metaTitle: "The Chariot Reversed: Focus Guide | The Psychic Studio"
-coverImage: "/uploads/daily-20261016-14299091.webp"
+coverImage: "/tarot/the_chariot.jpg"
 published: "true"
 ---
 

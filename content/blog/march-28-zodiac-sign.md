@@ -3,7 +3,7 @@ title: "March 28 Zodiac Sign: Aries Personality, Dates and Compatibility"
 category: "Astrology"
 date: "2026-10-23"
 excerpt: "The March 28 zodiac sign is Aries, the first sign of the zodiac. Here are the dates, the fire sign traits, and how a March 28 Aries loves and works."
-coverImage: "/blog-images/34029381.webp"
+coverImage: "/perf-assets/signs/aries.svg"
 metaTitle: "March 28 Zodiac Sign: Aries | The Psychic Studio"
 published: "true"
 ---

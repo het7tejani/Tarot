@@ -3,7 +3,7 @@ title: "October 31 Zodiac Sign: Scorpio Traits, Decan and Tarot Card"
 category: "Astrology"
 date: "2026-10-31"
 excerpt: "A birthday on October 31 makes you a Scorpio. See how the date fits the sign, which decan it falls in and which tarot card matches."
-coverImage: "/blog-images/29264970.webp"
+coverImage: "/blog-images/cover-october-31-zodiac-sign.webp"
 metaTitle: "October 31 Zodiac Sign: Scorpio Traits and Meaning | The Psychic Studio"
 published: "true"
 ---

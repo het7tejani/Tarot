@@ -3,7 +3,7 @@ title: "Free Love Horoscope and Tarot: How to Use Both for Relationship Question
 category: "Love and Relationships"
 date: "2026-10-28"
 excerpt: "A free love horoscope gives a theme and tarot gives a question. Here is how to combine them for dating, relationships and breakups."
-coverImage: "/blog-images/5633825.webp"
+coverImage: "/tarot/the_lovers.jpg"
 metaTitle: "Free Love Horoscope and Tarot: Use Both for Love | The Psychic Studio"
 published: "true"
 ---

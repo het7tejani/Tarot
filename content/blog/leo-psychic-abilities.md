@@ -3,7 +3,7 @@ title: "Leo Psychic Abilities: What Astrology Says About the Sign"
 category: "Astrology"
 date: "2026-10-26"
 excerpt: "Are Leos psychic? Astrology links the sign with strong presence, bold intuition and a flair for reading a room. Here is what that means and what it does not."
-coverImage: "/blog-images/28888378.webp"
+coverImage: "/perf-assets/signs/leo.svg"
 metaTitle: "Leo Psychic Abilities: What Astrology Says | The Psychic Studio"
 published: "true"
 ---

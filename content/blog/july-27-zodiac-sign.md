@@ -3,7 +3,7 @@ title: "July 27 Zodiac Sign: Leo Traits, Decan and Tarot Card"
 category: "Astrology"
 date: "2026-10-30"
 excerpt: "A birthday on July 27 makes you a Leo. See how the date fits the sign, which decan it falls in, and which tarot card matches."
-coverImage: "/blog-images/29628441.webp"
+coverImage: "/perf-assets/signs/leo.svg"
 metaTitle: "July 27 Zodiac Sign: Leo Traits and Meaning | The Psychic Studio"
 published: "true"
 ---

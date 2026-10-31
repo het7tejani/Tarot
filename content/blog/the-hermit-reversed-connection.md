@@ -4,7 +4,7 @@ category: "Tarot Guides"
 date: "2026-10-14"
 excerpt: "Explore The Hermit reversed through solitude, disconnection and returning to conversation. Use gentle reflection prompts without diagnosis or breakup predictions."
 metaTitle: "The Hermit Reversed: Connection | The Psychic Studio"
-coverImage: "/uploads/7179792.webp"
+coverImage: "/tarot/the_hermit.jpg"
 published: "true"
 ---
 

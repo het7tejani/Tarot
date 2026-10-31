@@ -197,7 +197,7 @@ export const FreeTarotPage: React.FC = () => {
               value={question}
               onChange={(e) => setQuestion(e.target.value)}
               placeholder="Focus on a question or intention (optional)..."
-              className="w-full bg-transparent border-b border-[#1f2322]/20 focus:border-[#1f2322] py-2 text-center text-sm text-[#1f2322] placeholder:text-[#1f2322]/40 outline-none transition-colors"
+              className="st-question-input w-full py-2 text-center text-sm outline-none transition-colors"
             />
           </div>
 

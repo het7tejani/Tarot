@@ -3,7 +3,7 @@ title: "Cancer Zodiac Dates: June 21 to July 22 and What the Edges Mean"
 category: "Astrology"
 date: "2026-10-26"
 excerpt: "Cancer runs from about June 21 to July 22. See the exact range, what to do if you were born on the edge, and what defines the Moon-ruled sign."
-coverImage: "/blog-images/8969930.webp"
+coverImage: "/perf-assets/signs/cancer.svg"
 metaTitle: "Cancer Zodiac Dates: June 21 to July 22 | The Psychic Studio"
 published: "true"
 ---

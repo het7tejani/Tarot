@@ -3,7 +3,7 @@ title: "Car Accident Dream Meaning: Control, Direction and Anxiety"
 category: "Spiritual Reflection"
 date: "2026-10-19"
 excerpt: "Explore car accident dream meaning through control, direction and stress themes, with journaling prompts and a grounded tarot reflection."
-coverImage: "/blog-images/10957638.webp"
+coverImage: "/tarot/the_chariot.jpg"
 metaTitle: "Car Accident Dream Meaning: A Reflection | The Psychic Studio"
 published: "true"
 ---

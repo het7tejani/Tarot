@@ -3,7 +3,7 @@ title: "Yes No Tarot: A Simple Reading Guide for Clearer Questions"
 category: "Tarot Guides"
 date: "2026-10-12"
 excerpt: "Learn how to approach yes no tarot with a one-card method, better questions and practical steps. Explore symbolic answers without treating them as certainty."
-coverImage: "/uploads/daily-7689420.webp"
+coverImage: "/tarot/judgement.jpg"
 metaTitle: "Yes or No Tarot: How to Ask and Read One Card | The Psychic Studio"
 published: "true"
 ---

@@ -639,3 +639,105 @@ header .nav a.on,header a[aria-current=page]{color:#846019!important}
 .st .st-related-card span{font-size:17px;font-weight:600;text-align:left}
 .st .st-related-card:hover span{text-decoration:underline}
 @media(max-width:600px){.st .st-related-row{gap:10px}.st .st-related-card span{font-size:13px}.st .st-related-card img{border-radius:10px}}
+
+/* ===== Oct 31 visitor-audit fixes ===== */
+/* 9. Solid sticky header: no see-through, thin line */
+.st-head{background:var(--paper)!important;backdrop-filter:none!important;border-bottom:1px solid var(--line)!important}
+.st-card-detail h2,.st-card-detail h3,.st-editorial h2,.st-reading-main h2{scroll-margin-top:110px}
+
+/* 5. One heading style: upright; italic only for small accents */
+.st-hero h1,.st-sec h2,.st-page h1,.st-editorial h1,.st-card h3,.st-reading-feature h3,.st-sign-selection h2,.st-daily-card h2,.st-astro-page h2:not(.st-daily-card h2),.st-zodiac-name,.st-reading-detail-hero h1,.st-journal-intro h1,.st-journal-article-head h1,.st-journal-story h2{font-style:normal;font-weight:600}
+.st-shop-grid .st-prod .bd h2.st-shop-card-title{font-style:normal;font-weight:600}
+.st .st-halloween h2{font-style:normal}
+.st-num{font-style:italic}
+
+/* 4. Palette unification for SEO/editorial templates */
+.st [class*="text-[#1f2322]"]{color:var(--ink)!important}
+.st [class*="text-[#1f2322]/"]{color:var(--ink2)!important}
+.st [class*="text-[#73a89a]"]{color:var(--leaf)!important}
+.st [class*="text-[#4a3560]"]{color:var(--leaf-d)!important}
+.st [class*="text-[#1b1a17]"]{color:var(--ink)!important}
+.st [class*="border-[#4a3560]"]{border-color:var(--leaf-d)!important}
+.st [class*="border-[#e4ded3]"]{border-color:var(--line)!important}
+.st [class*="border-[#1b1a17]"]{border-color:var(--ink)!important}
+.st [class*="bg-[#f0ebe4]"]{background-color:var(--paper2)!important}
+.st [class*="decoration-[#d8d0e2]"]{text-decoration-color:var(--leaf-l)!important}
+.st .hover\:decoration-\[\#4a3560\]:hover{text-decoration-color:var(--leaf-d)!important}
+.st .st-quick-cta-btn{background:var(--leaf-d);color:#fff}
+.st .st-quick-cta-btn:hover{background:var(--leaf);color:#fff}
+.st .st-quick-cta.v-minimal .st-quick-cta-btn{background:var(--leaf-d);color:#fff;border:1px solid var(--leaf-d);box-shadow:0 3px 0 rgba(74,95,39,.35),0 8px 18px rgba(74,95,39,.18);font-weight:700}
+.st .st-quick-cta.v-minimal .st-quick-cta-btn:hover{background:var(--leaf);border-color:var(--leaf)}
+
+/* 11. Free tarot question box */
+.st-question-input{background:var(--cream);border:1.5px solid var(--leaf-l);border-radius:12px;padding:12px 16px;color:var(--ink)}
+.st-question-input::placeholder{color:var(--ink2);opacity:.8}
+.st-question-input:focus{border-color:var(--leaf)}
+
+/* 2+3. Shop card meta, reading page two-column with order card */
+.st-shop-meta{font-size:11.5px!important;letter-spacing:.09em;text-transform:uppercase;color:var(--leaf)!important;font-weight:700}
+.st-reading-meta{list-style:none;padding:0;margin:0 0 20px;font-size:14.5px;color:var(--ink2)}
+.st-reading-meta li{padding-left:22px;position:relative;margin-bottom:6px}
+.st-reading-meta li:before{content:"\2726";position:absolute;left:0;color:var(--saffron);font-size:12px;top:2px}
+.st-reading-layout{display:grid;grid-template-columns:minmax(0,1fr) 320px;gap:52px;margin-top:46px;align-items:stretch}
+.st-reading-main{max-width:680px}
+.st-reading-side{position:relative}
+.st-order-card{position:sticky;top:96px}
+.st-order-card{background:var(--cream);border:1px solid var(--line);border-radius:18px;padding:26px;box-shadow:0 10px 26px rgba(56,68,27,.10)}
+.st-order-price{font-size:30px;margin:0 0 6px;color:var(--ink)}
+.st-order-price del{opacity:.5;font-size:20px;margin-right:10px}
+.st-order-card h2{font-size:20px;margin:14px 0 10px}
+.st-order-card ol{margin:0;padding-left:20px;color:var(--ink2);font-size:15px;line-height:1.7}
+.st-order-note{font-size:13px;color:var(--ink2);margin:14px 0 18px}
+@media(max-width:900px){.st-reading-layout{grid-template-columns:1fr}.st-order-card{position:static}}
+
+/* 8. Card meaning pages: large card + glance box + accordion */
+.st-card-hero{display:grid;grid-template-columns:minmax(220px,300px) minmax(0,1fr);gap:44px;align-items:start;margin:8px 0 40px}
+.st-card-hero-img{border-radius:14px;box-shadow:0 16px 34px rgba(56,68,27,.18);width:100%;display:block}
+.st-card-kw{font-size:19px;color:var(--ink);font-weight:600;margin:4px 0 22px}
+.st-glance{background:var(--cream);border:1px solid var(--line);border-radius:16px;padding:20px 24px}
+.st-glance>h2{font-size:13px!important;letter-spacing:.16em;text-transform:uppercase;color:var(--saffron)!important;margin:0 0 14px!important;font-weight:700!important}
+.st-glance dl{display:grid;gap:14px;margin:0}
+.st-glance dt{font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:var(--leaf);font-weight:700}
+.st-glance dd{margin:3px 0 0;color:var(--ink2);font-size:15px;line-height:1.6}
+@media(max-width:760px){.st-card-hero{grid-template-columns:1fr;gap:26px}.st-card-hero-img{max-width:230px;margin:0 auto}}
+.st-card-acc details{border-top:1px solid var(--line)}
+.st-card-acc details:last-child{border-bottom:1px solid var(--line)}
+.st-card-acc summary{cursor:pointer;list-style:none;display:flex;align-items:center;justify-content:space-between;gap:16px;padding:18px 0}
+.st-card-acc summary::-webkit-details-marker{display:none}
+.st-card-acc summary .acc-label{display:block;font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--saffron);font-weight:700;margin-bottom:4px}
+.st-card-acc summary .acc-title{font-size:23px;font-weight:600;color:var(--leaf-d);line-height:1.2}
+.st-card-acc summary:after{content:"+";color:var(--saffron);font-size:26px;line-height:1;flex:none}
+.st-card-acc details[open] summary:after{content:"\2013"}
+.st-card-acc .acc-body{padding:0 0 24px;max-width:760px}
+
+/* 7. Blog covers: site art instead of stock photos */
+.st-journal-thumb.art{display:grid;place-items:center;background:var(--sage);padding:16px}
+.st-journal-thumb.art img{width:auto;max-width:72%;height:100%;max-height:100%;object-fit:contain;border-radius:8px;box-shadow:0 8px 20px rgba(74,95,39,.16)}
+.st-journal-hero.art{display:grid;place-items:center;background:var(--sage)}
+.st-journal-hero.art img{width:auto;max-width:64%;height:100%;object-fit:contain;padding:22px 0;border-radius:10px}
+.st-journal-thumb.number,.st-journal-hero.number{display:grid;place-items:center;background:radial-gradient(120% 130% at 30% 15%,var(--sage),var(--paper2))}
+.st-journal-thumb.number .st-journal-number-label,.st-journal-hero.number .st-journal-number-label{position:static;text-align:center;color:var(--leaf-d);text-shadow:none}
+.st-journal-thumb.number .st-journal-number-label small,.st-journal-hero.number .st-journal-number-label small{color:var(--saffron)}
+
+/* 10+12. Floating button and footer polish */
+.st-foot .st-social a{color:var(--leaf-d)!important;font-size:15px!important;min-height:48px;border:1px solid var(--line);border-radius:12px;background:rgba(255,254,250,.55)}
+.st-foot .st-social a:hover{border-color:var(--leaf)}
+.st-foot .st-social svg{width:22px;height:22px;flex:none}
+.st-legal a{color:var(--leaf-d)!important;font-size:14px!important}
+.st-legal a:hover{color:var(--saffron)!important}
+.hs-h,.st-wheel-intro h2,.st-wheel-prompt h3,.st-period-h,.st-astro-hero h1{font-style:normal;font-weight:600}
+
+/* 14. Home horoscope section: editorial sign rows + grouped resources */
+.st-horo-grid{display:grid;grid-template-columns:1fr 1fr;column-gap:70px;margin-top:34px}
+.st-horo-row{display:flex;align-items:center;gap:16px;padding:15px 6px;border-bottom:1px solid var(--line);color:var(--ink)}
+.st-horo-row .sg{font-size:24px;color:var(--saffron);width:34px;text-align:center}
+.st-horo-row .sn{font-size:18px;font-weight:600}
+.st-horo-row .sd{margin-left:auto;font-size:13.5px;color:var(--ink2)}
+.st-horo-row .sa{color:var(--leaf-l);font-size:18px}
+.st-horo-row:hover{background:var(--sage);border-radius:8px}
+.st-horo-row:hover .sa{color:var(--leaf-d)}
+.st-horo-res{margin-top:56px;background:var(--sage);border-radius:22px;padding:38px 42px;display:grid;grid-template-columns:repeat(3,1fr);gap:36px}
+.st-horo-res h3{font-size:13px;letter-spacing:3px;text-transform:uppercase;color:var(--leaf-d);margin:0 0 16px}
+.st-horo-res a{display:block;padding:7px 0;font-size:15px;color:var(--ink);font-weight:500}
+.st-horo-res a:hover{color:var(--leaf-d);text-decoration:underline}
+@media(max-width:760px){.st-horo-grid{grid-template-columns:1fr}.st-horo-res{grid-template-columns:1fr;padding:28px 24px;gap:24px}}

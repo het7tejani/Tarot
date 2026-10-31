@@ -54,7 +54,7 @@ const BackToTop: React.FC = () => {
   return <button type="button" className="st-totop" aria-label="Back to top" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round"><polyline points="18 15 12 9 6 15" /></svg></button>;
 };
 const ANN: { text: string; to?: string; cta?: string }[] = [
-  { text: 'Flat 94% off personal readings, now from $5', to: '/shop', cta: 'Shop readings' },
+  { text: 'Halloween at the studio: personal readings from $5', to: '/shop', cta: 'Shop readings' },
   { text: 'Free tarot draw, no sign-up needed', to: '/free-tarot', cta: 'Draw a card' },
   { text: "Today's horoscope for all 12 signs", to: '/horoscope', cta: 'Read today' },
 ];
@@ -130,7 +130,6 @@ export const Layout: React.FC<{ children: React.ReactNode; seo?: boolean }> = ({
         </nav>
         <small>© 2026 The Psychic Studio. For entertainment and personal reflection only; not medical, legal or financial advice.</small>
       </div></footer>
-      <BackToTop />
       <Link to="/contact" className="st-float-contact" aria-label="Ask a question"><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z" /></svg><span>Ask us</span></Link>
     </div>
   );

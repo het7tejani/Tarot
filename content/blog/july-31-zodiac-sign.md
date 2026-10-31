@@ -3,7 +3,7 @@ title: "July 31 Zodiac Sign: Leo Traits, Strengths and Tarot Card"
 category: "Astrology"
 date: "2026-10-27"
 excerpt: "A birthday on July 31 makes you a Leo. See what the sign says about the date, its decan, and which tarot card fits."
-coverImage: "/blog-images/4251806.webp"
+coverImage: "/perf-assets/signs/leo.svg"
 metaTitle: "July 31 Zodiac Sign: Leo Traits and Meaning | The Psychic Studio"
 published: "true"
 ---

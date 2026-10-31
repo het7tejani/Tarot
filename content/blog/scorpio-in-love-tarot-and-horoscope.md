@@ -3,7 +3,7 @@ title: "Scorpio in Love: Horoscope Traits, Best Matches and Tarot Cards"
 category: "Astrology"
 date: "2026-10-25"
 excerpt: "How Scorpio acts in love, which signs match best, and which tarot cards readers link to the sign. A plain guide to the Scorpio love horoscope."
-coverImage: "/blog-images/3607542.webp"
+coverImage: "/perf-assets/signs/scorpio.svg"
 metaTitle: "Scorpio Love Horoscope and Tarot Guide | The Psychic Studio"
 published: "true"
 ---

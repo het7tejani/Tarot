@@ -3,7 +3,7 @@ title: "121 Angel Number Meaning: Fresh Starts and Steady Focus"
 category: "Angel Numbers"
 date: "2026-10-20"
 excerpt: "Explore 121 angel number meaning through the two 1s of initiative and the balancing 2 between them, with grounded takes on love, work and a tarot reflection."
-coverImage: "/blog-images/29347332.webp"
+coverImage: "/tarot/the_magician.jpg"
 metaTitle: "121 Angel Number Meaning | The Psychic Studio"
 published: "true"
 ---

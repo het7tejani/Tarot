@@ -3,7 +3,7 @@ title: "Why Do Birds Chirp at Night? Science and Spiritual Meanings"
 category: "Nature & Symbolism"
 date: "2026-10-18"
 excerpt: "Why do birds chirp at night? The science first, then the spiritual meanings people attach to night birdsong, with a grounded reflection."
-coverImage: "/blog-images/18683300.webp"
+coverImage: "/tarot/the_moon.jpg"
 metaTitle: "Birds Chirping at Night Spiritual Meaning | The Psychic Studio"
 published: "true"
 ---

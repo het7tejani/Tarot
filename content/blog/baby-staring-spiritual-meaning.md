@@ -3,7 +3,7 @@ title: "What Does It Mean When a Baby Stares at You?"
 category: "Spiritual Reflection"
 date: "2026-10-21"
 excerpt: "Explore what it means when a baby stares at you, from developmental science to spiritual readings of innocence and presence, with reflective prompts."
-coverImage: "/blog-images/39976910.webp"
+coverImage: "/tarot/the_sun.jpg"
 metaTitle: "What Does It Mean When a Baby Stares at You? | The Psychic Studio"
 published: "true"
 ---

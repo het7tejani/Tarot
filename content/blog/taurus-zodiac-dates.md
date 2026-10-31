@@ -3,7 +3,7 @@ title: "Taurus Dates: What Month Is Taurus and Who Is Born Under It"
 category: "Astrology"
 date: "2026-10-24"
 excerpt: "Taurus dates run from April 20 to May 20 in most years. Learn what month Taurus is, where the cusp falls, and what the second sign is like."
-coverImage: "/blog-images/12205029.webp"
+coverImage: "/perf-assets/signs/taurus.svg"
 metaTitle: "Taurus Dates: April 20 to May 20 Zodiac Guide | The Psychic Studio"
 published: "true"
 ---

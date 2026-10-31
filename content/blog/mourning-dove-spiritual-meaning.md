@@ -3,7 +3,7 @@ title: "Mourning Dove Spiritual Meaning: Peace and Remembrance"
 category: "Nature & Symbolism"
 date: "2026-10-08"
 excerpt: "Explore mourning dove spiritual meaning, peace and remembrance, with natural-history context, grief-sensitive reflection and tarot prompts."
-coverImage: "/blog-images/7903507.webp"
+coverImage: "/tarot/temperance.jpg"
 metaTitle: "Mourning Dove Spiritual Meaning | The Psychic Studio"
 published: "true"
 ---

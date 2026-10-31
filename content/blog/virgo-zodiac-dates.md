@@ -3,7 +3,7 @@ title: "Virgo Zodiac Dates: August 23 to September 22 and the Edge Days"
 category: "Astrology"
 date: "2026-10-26"
 excerpt: "Virgo runs from about August 23 to September 22. Check your exact range, what to do if you were born on the edge, and what defines the sign."
-coverImage: "/blog-images/15833963.webp"
+coverImage: "/perf-assets/signs/virgo.svg"
 metaTitle: "Virgo Zodiac Dates: August 23 to September 22 | The Psychic Studio"
 published: "true"
 ---

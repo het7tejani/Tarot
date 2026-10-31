@@ -3,6 +3,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Layout } from './Layout';
 import { Wheel } from './Wheel';
+const SIGN_DATES: Record<string, string> = { aries: 'Mar 21 - Apr 19', taurus: 'Apr 20 - May 20', gemini: 'May 21 - Jun 20', cancer: 'Jun 21 - Jul 22', leo: 'Jul 23 - Aug 22', virgo: 'Aug 23 - Sep 22', libra: 'Sep 23 - Oct 22', scorpio: 'Oct 23 - Nov 21', sagittarius: 'Nov 22 - Dec 21', capricorn: 'Dec 22 - Jan 19', aquarius: 'Jan 20 - Feb 18', pisces: 'Feb 19 - Mar 20' };
 const SIGN_INFO = ['aries','taurus','gemini','cancer','leo','virgo','libra','scorpio','sagittarius','capricorn','aquarius','pisces'].map(n=>({n}));
 import { ETSY_LISTINGS } from '../data/etsyListings';
 import { FAQS, HOW_IT_WORKS_STEPS } from '../data/readingsData';
@@ -117,28 +118,29 @@ export const Home: React.FC = () => (
         @keyframes sale-bat-flight{0%{opacity:0;transform:translate(0,60px) rotate(-12deg)}8%{opacity:.85}35%{transform:translate(35vw,-30px) rotate(9deg)}65%{opacity:.85;transform:translate(70vw,22px) rotate(-7deg)}100%{opacity:0;transform:translate(calc(100vw + 150px),-80px) rotate(8deg)}}
         @keyframes sale-bat-flap{from{transform:scaleY(.6)}to{transform:scaleY(1)}}
         @media(prefers-reduced-motion:reduce){.st-halloween .sale-bats{display:none}.st-halloween .sale-bat,.st-halloween .sale-bat path{animation:none!important}}
-        @media(max-width:760px){.st-halloween{padding:0 0 38px;min-height:0;background:#351411}.st-halloween .sale-in{grid-template-columns:1fr;gap:0;min-height:0}.st-halloween .sale-art{height:450px}.st-halloween .sale-art img{object-position:40% center;mask-image:linear-gradient(180deg,#000 0%,#000 42%,#000b 65%,transparent 100%);-webkit-mask-image:linear-gradient(180deg,#000 0%,#000 42%,#000b 65%,transparent 100%)}.st-halloween .sale-copy{grid-column:1;padding:330px 0 0}.st-halloween h2{font-size:54px}.st-halloween .sale-word{font-size:87px}.st-halloween .sale-badge{font-size:23px;margin-top:22px}.st-halloween .sale-price strong{font-size:56px}.st-halloween .sale-season{font-size:10px}.st-halloween .sale-sub{max-width:300px}}
-        @media(max-width:350px){.st-halloween h2{font-size:46px}.st-halloween .sale-word{font-size:76px}.st-halloween .sale-badge{font-size:20px;padding:10px 16px}}
+        @media(max-width:760px){.st-halloween{padding:0 0 38px;min-height:0;background:#351411}.st-halloween .sale-in{grid-template-columns:1fr;gap:0;min-height:0}.st-halloween .sale-art{height:450px}.st-halloween .sale-art img{object-position:40% center;mask-image:linear-gradient(180deg,#000 0%,#000 42%,#000b 65%,transparent 100%);-webkit-mask-image:linear-gradient(180deg,#000 0%,#000 42%,#000b 65%,transparent 100%)}.st-halloween .sale-copy{grid-column:1;max-width:100%;box-sizing:border-box;padding:330px 18px 0}.st-halloween h2{font-size:clamp(36px,12vw,54px)}.st-halloween .sale-word{font-size:clamp(40px,12.5vw,87px);letter-spacing:.06em}.st-halloween .sale-badge{font-size:clamp(16px,5vw,23px);margin-top:22px;max-width:100%}.st-halloween .sale-price{flex-wrap:wrap}.st-halloween .sale-price strong{font-size:clamp(36px,12vw,56px)}.st-halloween .sale-season{font-size:10px}.st-halloween .sale-sub{max-width:300px}}
+        @media(max-width:350px){.st-halloween h2{font-size:clamp(32px,12vw,46px)}.st-halloween .sale-word{font-size:clamp(34px,12.5vw,76px)}.st-halloween .sale-badge{font-size:20px;padding:10px 16px}}
       `}</style>
       <HalloweenBats />
       <div className="wrap sale-in">
         <div className="sale-art" aria-hidden="true"><img src="/perf-assets/halloween-reading.webp" srcSet="/perf-assets/halloween-reading-400.webp 400w, /perf-assets/halloween-reading-560.webp 560w, /perf-assets/halloween-reading-800.webp 800w, /perf-assets/halloween-reading.webp 1100w" sizes="(max-width: 760px) 100vw, 45vw" loading="lazy" decoding="async" alt="" width="1100" height="733" /></div>
         <div className="sale-copy">
           <span className="sale-season">The Psychic Studio presents</span>
-          <h2 id="halloween-title">Halloween<span className="sale-word">SALE</span></h2>
-          <div className="sale-badge">FLAT 94% OFF</div>
-          <p className="sale-price"><del>$79</del><strong>$5</strong><span>USD / reading</span></p>
-          <p className="sale-sub">A night of mystery. A moment for you.<br />Explore personal readings this Halloween.</p>
+          <h2 id="halloween-title">Halloween<span className="sale-word">READINGS</span></h2>
+          <p className="sale-price"><strong>from $5</strong><span>USD / reading</span></p>
+          <p className="sale-sub">A night of mystery. A moment for you.<br />Email the studio your question and we reply personally with the next step.</p>
           <Link className="sale-cta" to="/shop">SHOP NOW</Link>
         </div>
       </div>
     </section>
     <section className="st-sec"><div className="wrap">
-      <span className="eyebrow">Your sign</span><h2>Read today's horoscope</h2>
-      <div className="st-grid c4">{SIGN_INFO.map((s) => <Link key={s.n} className="st-sign" to={`/horoscope/${s.n}`}><b>{GLYPH[s.n]}{'\uFE0E'}</b>{s.n[0].toUpperCase() + s.n.slice(1)}</Link>)}</div>
-      <p style={{ marginTop: 26, display: 'flex', flexWrap: 'wrap', gap: '10px 20px', fontWeight: 600, fontSize: 14 }}>
-        <Link to="/zodiac">Zodiac signs</Link><Link to="/zodiac-compatibility">Zodiac compatibility</Link><Link to="/angel-numbers">Angel numbers</Link><Link to="/numerology">Numerology</Link><Link to="/birth-chart">Birth chart</Link><Link to="/rising-sign">Rising sign</Link><Link to="/spirit-animal">Spirit animal</Link><Link to="/love-tarot-reading">Love tarot reading</Link><Link to="/love-horoscope">Love horoscope</Link><Link to="/mercury-retrograde">Mercury retrograde</Link>
-      </p>
+      <span className="eyebrow">Your sign</span><h2>Read today's horoscope</h2><p className="sub">Daily guidance for every sign, with the dates each sign covers.</p>
+      <div className="st-horo-grid">{[0, 1].map((col) => <div key={col}>{SIGN_INFO.slice(col * 6, col * 6 + 6).map((s) => <Link key={s.n} className="st-horo-row" to={`/horoscope/${s.n}`}><span className="sg">{GLYPH[s.n]}{'\uFE0E'}</span><span className="sn">{s.n[0].toUpperCase() + s.n.slice(1)}</span><span className="sd">{SIGN_DATES[s.n]}</span><span className="sa">{'\u2192'}</span></Link>)}</div>)}</div>
+      <div className="st-horo-res">
+        <div><h3>Zodiac guides</h3><Link to="/zodiac">Zodiac signs</Link><Link to="/zodiac-compatibility">Zodiac compatibility</Link><Link to="/mercury-retrograde">Mercury retrograde</Link></div>
+        <div><h3>Numbers and charts</h3><Link to="/angel-numbers">Angel numbers</Link><Link to="/numerology">Numerology</Link><Link to="/birth-chart">Birth chart</Link><Link to="/rising-sign">Rising sign</Link></div>
+        <div><h3>Love and spirit</h3><Link to="/love-tarot-reading">Love tarot reading</Link><Link to="/love-horoscope">Love horoscope</Link><Link to="/spirit-animal">Spirit animal</Link></div>
+      </div>
     </div></section>
     <section className="st-sec alt"><div className="wrap">
       <span className="eyebrow">Tarot library</span><h2>Tarot card meanings: all 78 cards</h2><p className="sub">Upright and reversed meanings for love, career and life, one page for every card.</p>
@@ -148,7 +150,7 @@ export const Home: React.FC = () => (
     <section className="st-sec"><div className="wrap">
       <span className="eyebrow">Personal readings</span><h2>Personal reading topics</h2><p className="sub">Love, personal growth and life questions. Explore a topic and contact the studio to learn more.</p>
       <div className="st-grid c3 st-readings-home">{ETSY_LISTINGS.slice(0, 3).map((r) => (
-        <Link key={r.id} className="st-card st-reading-feature" to={`/readings/${r.slug}`}><TarotArtwork src={r.img} alt={r.title.split(" | ")[0]} loading="lazy" /><h3>{r.title.split(' | ')[0]}</h3><p>{r.description}</p><p><del style={{opacity:.5}}>$79</del> <strong>$5 USD</strong></p></Link>))}</div>
+        <Link key={r.id} className="st-card st-reading-feature" to={`/readings/${r.slug}`}><TarotArtwork src={r.img} alt={r.title.split(" | ")[0]} loading="lazy" /><h3>{r.title.split(' | ')[0]}</h3><p>{r.description}</p><p><strong>${r.price} USD</strong></p></Link>))}</div>
       <p style={{ marginTop: 26 }}><Link className="btn" to="/shop">View all readings</Link></p>
     </div></section>
     <section className="st-sec alt"><div className="wrap">

@@ -3,7 +3,7 @@ title: "888 Angel Number Warning: What This Number Asks You to Check"
 category: "Angel Numbers"
 date: "2026-10-23"
 excerpt: "The 888 angel number warning side is about balance: overspending in good times, overworking for reward, and forgetting what abundance is for. Here is the grounded read."
-coverImage: "/blog-images/34975711.webp"
+coverImage: "/tarot/the_moon.jpg"
 metaTitle: "888 Angel Number Warning | The Psychic Studio"
 published: "true"
 ---

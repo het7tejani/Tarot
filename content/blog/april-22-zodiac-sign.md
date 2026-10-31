@@ -3,7 +3,7 @@ title: "April 22 Zodiac Sign: Taurus Traits, Strengths and Tarot Card"
 category: "Astrology"
 date: "2026-10-27"
 excerpt: "A birthday on April 22 makes you a Taurus. See what the sign says about the date, its decan, and which tarot card fits."
-coverImage: "/blog-images/32160917.webp"
+coverImage: "/perf-assets/signs/taurus.svg"
 metaTitle: "April 22 Zodiac Sign: Taurus Traits and Meaning | The Psychic Studio"
 published: "true"
 ---

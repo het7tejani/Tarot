@@ -4,7 +4,7 @@ category: "Tarot Guides"
 date: "2026-10-13"
 excerpt: "Explore Queen of Wands reversed through confidence, relationships and creative work. Use grounded tarot prompts without labeling people or predicting events."
 metaTitle: "Queen of Wands Reversed Guide | The Psychic Studio"
-coverImage: "/uploads/32771812.webp"
+coverImage: "/tarot/strength.jpg"
 published: "true"
 ---
 

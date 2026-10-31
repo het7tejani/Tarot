@@ -3,7 +3,7 @@ title: "Most Psychic Zodiac Signs: Which Signs Are Called Intuitive"
 category: "Astrology"
 date: "2026-10-25"
 excerpt: "Astrology calls Pisces, Scorpio and Cancer the most intuitive signs. See why, where Leo fits, and what psychic ability looks like in practice."
-coverImage: "/blog-images/7179422.webp"
+coverImage: "/perf-assets/signs/pisces.svg"
 metaTitle: "Most Psychic Zodiac Signs: Intuitive Signs Ranked | The Psychic Studio"
 published: "true"
 ---

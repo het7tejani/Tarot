@@ -3,7 +3,7 @@ title: "What Does It Mean When a Dragonfly Visits You?"
 category: "Nature & Symbolism"
 date: "2026-10-21"
 excerpt: "Explore what it means when a dragonfly visits you, from change and lightness to presence, with natural history, reflective takes and tarot prompts."
-coverImage: "/blog-images/35660809.webp"
+coverImage: "/tarot/the_star.jpg"
 metaTitle: "What Does It Mean When a Dragonfly Visits You? | The Psychic Studio"
 published: "true"
 ---

@@ -45,7 +45,7 @@ export const AskAboutReading: React.FC<{ title: string; slug: string }> = ({ tit
         <h3>Thank you, {name.split(' ')[0]}.</h3>
         <p>
           The studio has received your questions about <strong>{title}</strong> and will reply to you
-          by email with the next step and payment details.
+          by email with the next step.
         </p>
       </div>
     );
@@ -86,7 +86,7 @@ export const AskAboutReading: React.FC<{ title: string; slug: string }> = ({ tit
       </label>
       <p className="st-ask-note">
         This goes straight to the studio inbox with the reading you asked about. The studio will email
-        you back with the next step and payment details. Please do not send payment-card details or
+        you back with the next step. Please do not send payment-card details or
         passwords here.
       </p>
       {status === 'error' && (

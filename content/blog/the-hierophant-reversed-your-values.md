@@ -4,7 +4,7 @@ category: "Tarot Guides"
 date: "2026-10-15"
 excerpt: "Explore The Hierophant reversed through tradition, personal values and independent thought. Use grounded questions before changing a rule, routine or shared plan."
 metaTitle: "Hierophant Reversed: Values Guide | The Psychic Studio"
-coverImage: "/uploads/4790542.webp"
+coverImage: "/tarot/the_hierophant.jpg"
 published: "true"
 ---
 

@@ -11,7 +11,7 @@ const LegalPage: React.FC<{ eyebrow: string; title: string; description: string;
     <div className="st-page"><div className="wrap" style={{ maxWidth: 780 }}>
       <span className="eyebrow">{eyebrow}</span><h1>{title}</h1>
       <div className="st-prose">{children}</div>
-      <p style={{ marginTop: 26, fontSize: 13, opacity: .7 }}>Last updated: 21 October 2026. Questions? Write to <a href={`mailto:${EMAIL}`}>{EMAIL}</a>.</p>
+      <p style={{ marginTop: 26, fontSize: 13, opacity: .7 }}>Last updated: 31 October 2026. Questions? Write to <a href={`mailto:${EMAIL}`}>{EMAIL}</a>.</p>
     </div></div>
   </Layout>
 );
@@ -40,7 +40,7 @@ export const Terms: React.FC = () => (
   <LegalPage eyebrow="TERMS" title="Terms and Conditions" description="The plain terms for using thepsychicstudio.com and buying a digital reading from The Psychic Studio.">
     <p>These terms govern thepsychicstudio.com and the readings sold here. By using the site or ordering a reading, you accept them. They are short on purpose.</p>
     <h2>What we sell</h2>
-    <p>The Psychic Studio sells digital tarot and psychic readings. You order through the site, and your reading is prepared for you and delivered to the contact details you give us, usually within 24 to 48 hours of payment. The site also offers free content: daily horoscopes, card meanings, a free tarot draw and the journal.</p>
+    <p>The Psychic Studio sells digital tarot and psychic readings. You send an inquiry through the site, the studio confirms the details with you by email, and your reading is prepared for you and delivered to the contact details you give us. The site also offers free content: daily horoscopes, card meanings, a free tarot draw and the journal.</p>
     <h2>What a reading is, and is not</h2>
     <p>A reading is a reflective and entertainment service. It is not medical, psychological, legal or financial advice, and it never replaces a qualified professional. No reading can guarantee another person's feelings, a date, or any future outcome. If you face a health, legal or money emergency, contact a professional, not a tarot reader.</p>
     <h2>Who can order</h2>

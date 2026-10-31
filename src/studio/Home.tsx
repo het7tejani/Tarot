@@ -118,8 +118,8 @@ export const Home: React.FC = () => (
         @keyframes sale-bat-flight{0%{opacity:0;transform:translate(0,60px) rotate(-12deg)}8%{opacity:.85}35%{transform:translate(35vw,-30px) rotate(9deg)}65%{opacity:.85;transform:translate(70vw,22px) rotate(-7deg)}100%{opacity:0;transform:translate(calc(100vw + 150px),-80px) rotate(8deg)}}
         @keyframes sale-bat-flap{from{transform:scaleY(.6)}to{transform:scaleY(1)}}
         @media(prefers-reduced-motion:reduce){.st-halloween .sale-bats{display:none}.st-halloween .sale-bat,.st-halloween .sale-bat path{animation:none!important}}
-        @media(max-width:760px){.st-halloween{padding:0 0 38px;min-height:0;background:#351411}.st-halloween .sale-in{grid-template-columns:1fr;gap:0;min-height:0}.st-halloween .sale-art{height:450px}.st-halloween .sale-art img{object-position:40% center;mask-image:linear-gradient(180deg,#000 0%,#000 42%,#000b 65%,transparent 100%);-webkit-mask-image:linear-gradient(180deg,#000 0%,#000 42%,#000b 65%,transparent 100%)}.st-halloween .sale-copy{grid-column:1;padding:330px 0 0}.st-halloween h2{font-size:54px}.st-halloween .sale-word{font-size:87px}.st-halloween .sale-badge{font-size:23px;margin-top:22px}.st-halloween .sale-price strong{font-size:56px}.st-halloween .sale-season{font-size:10px}.st-halloween .sale-sub{max-width:300px}}
-        @media(max-width:350px){.st-halloween h2{font-size:46px}.st-halloween .sale-word{font-size:76px}.st-halloween .sale-badge{font-size:20px;padding:10px 16px}}
+        @media(max-width:760px){.st-halloween{padding:0 0 38px;min-height:0;background:#351411}.st-halloween .sale-in{grid-template-columns:1fr;gap:0;min-height:0}.st-halloween .sale-art{height:450px}.st-halloween .sale-art img{object-position:40% center;mask-image:linear-gradient(180deg,#000 0%,#000 42%,#000b 65%,transparent 100%);-webkit-mask-image:linear-gradient(180deg,#000 0%,#000 42%,#000b 65%,transparent 100%)}.st-halloween .sale-copy{grid-column:1;max-width:100%;box-sizing:border-box;padding:330px 18px 0}.st-halloween h2{font-size:clamp(36px,12vw,54px)}.st-halloween .sale-word{font-size:clamp(40px,12.5vw,87px);letter-spacing:.06em}.st-halloween .sale-badge{font-size:clamp(16px,5vw,23px);margin-top:22px;max-width:100%}.st-halloween .sale-price{flex-wrap:wrap}.st-halloween .sale-price strong{font-size:clamp(36px,12vw,56px)}.st-halloween .sale-season{font-size:10px}.st-halloween .sale-sub{max-width:300px}}
+        @media(max-width:350px){.st-halloween h2{font-size:clamp(32px,12vw,46px)}.st-halloween .sale-word{font-size:clamp(34px,12.5vw,76px)}.st-halloween .sale-badge{font-size:20px;padding:10px 16px}}
       `}</style>
       <HalloweenBats />
       <div className="wrap sale-in">
@@ -128,7 +128,7 @@ export const Home: React.FC = () => (
           <span className="sale-season">The Psychic Studio presents</span>
           <h2 id="halloween-title">Halloween<span className="sale-word">READINGS</span></h2>
           <p className="sale-price"><strong>from $5</strong><span>USD / reading</span></p>
-          <p className="sale-sub">A night of mystery. A moment for you.<br />Order by email: the studio replies personally with payment and delivery details.</p>
+          <p className="sale-sub">A night of mystery. A moment for you.<br />Email the studio your question and we reply personally with the next step.</p>
           <Link className="sale-cta" to="/shop">SHOP NOW</Link>
         </div>
       </div>

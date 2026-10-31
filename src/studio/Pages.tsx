@@ -50,7 +50,7 @@ export const About: React.FC = () => (
       <p>Card meanings follow the common Rider-Waite-Smith tradition of imagery and symbolism. The artwork on this site is the studio's own set of 78 illustrations, an interpretation of the cards rather than a reproduction of a historic deck.</p>
       <p>Every guide is written as a prompt for reflection. A card can help you frame a question; it cannot predict events, confirm what another person feels or replace professional advice.</p>
       <h2>How personal readings work</h2>
-      <p>Choose the topic closest to your question, then send the studio a short inquiry from the reading's page. The studio replies personally by email with payment details, and your written reading arrives by email, usually within 24 to 48 hours of payment. You can confirm scope, format and timing before you pay anything.</p>
+      <p>Choose the topic closest to your question, then send the studio a short inquiry from the reading's page. The studio replies personally by email with the next step, and your written reading arrives by email once the details are confirmed. You can ask anything before you decide.</p>
       <h2>Get in touch</h2>
       <p>Questions about a reading or a guide? Write to <a href="mailto:contact.thepsychicstudio@gmail.com">contact.thepsychicstudio@gmail.com</a> or visit the <Link to="/contact">contact page</Link>. Common questions are answered in the <Link to="/faq">reading FAQ</Link>.</p>
       <p><Link className="btn" to="/shop">Explore personal readings</Link></p>
@@ -60,9 +60,9 @@ export const About: React.FC = () => (
 export const Contact: React.FC = () => (
   <Layout><div className="st-page"><div className="wrap">
     <span className="eyebrow">Contact</span><h1>Questions about a reading?</h1>
-    <div className="st-prose"><p>Email the studio with your question or the reading topic you are interested in. The studio replies personally with payment and delivery details, and you can ask anything before you decide.</p>
+    <div className="st-prose"><p>Email the studio with your question or the reading topic you are interested in. The studio replies personally with the next step, and you can ask anything before you decide.</p>
       <p><a className="btn" href="mailto:contact.thepsychicstudio@gmail.com">contact.thepsychicstudio@gmail.com</a></p>
-      <p style={{ fontSize: 14 }}>Ordering is handled personally by email. Written readings are delivered by email, usually within 24 to 48 hours of payment.</p></div>
+      <p style={{ fontSize: 14 }}>Ordering is handled personally by email. Written readings are delivered by email once your inquiry is confirmed.</p></div>
   </div></div></Layout>
 );
 export const Blog: React.FC = () => {

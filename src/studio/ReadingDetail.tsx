@@ -15,7 +15,7 @@ export const ReadingDetail: React.FC = () => {
  <Link to="/shop">← All readings</Link><div className="st-reading-detail-hero">
  <img src={r.img} alt={r.title} width="600" height="420"/>
  <div><span className="eyebrow">Personal reading</span><h1>{r.title}</h1><p className="st-prose">{r.intro}</p><p className="st-reading-price"><strong>${r.price} USD</strong></p>
- <ul className="st-reading-meta"><li>Written reading, made personally for you</li><li>Delivered by email, usually within 24 to 48 hours of payment</li></ul>
+ <ul className="st-reading-meta"><li>Written reading, made personally for you</li><li>Delivered by email once your inquiry is confirmed</li></ul>
  <a className="btn" href="#ask-about-reading">Ask about this reading</a></div>
  </div>
  <div className="st-reading-layout">
@@ -36,13 +36,13 @@ export const ReadingDetail: React.FC = () => {
  <div className="st-order-card">
  <p className="st-order-price"><strong>${r.price} USD</strong></p>
  <h2>How ordering works</h2>
- <ol><li>Send the inquiry form below (or email the studio) with your question.</li><li>The studio replies personally with payment details.</li><li>You receive your written reading by email, usually within 24 to 48 hours of payment.</li></ol>
- <p className="st-order-note">Ordering is handled personally by email, so you can confirm scope, format and timing before you pay anything.</p>
+ <ol><li>Send the inquiry form below (or email the studio) with your question.</li><li>The studio replies personally by email with the next step.</li><li>You receive your written reading by email once everything is confirmed.</li></ol>
+ <p className="st-order-note">Ordering is handled personally by email, so you can confirm scope, format and timing before you decide.</p>
  <a className="btn" href={inquiry}>Talk to the studio · ${r.price} USD</a>
  </div>
  </aside>
  </div>
  {r.slug === 'soulmate-and-future-relationship' && <SoulmateReadingGuide />}
- <section className="st-sec alt" id="ask-about-reading"><span className="eyebrow">Questions first</span><h2>Ask about this reading</h2><p className="sub">Share your name, date of birth and your questions. The studio will email you back with the next step and payment details.</p><AskAboutReading title={r.title} slug={r.slug}/></section><section className="st-sec"><h2>Other reading topics</h2><div className="st-related-row">{related.map(x=><Link key={x.slug} className="st-related-card" to={`/readings/${x.slug}`}><img src={x.img} alt={x.title} loading="lazy"/><span>{x.title}</span></Link>)}</div><p><Link to="/free-tarot">Try the free tarot draw</Link> or read about <Link to="/tarot-card-meanings">all 78 card meanings</Link>.</p></section>
+ <section className="st-sec alt" id="ask-about-reading"><span className="eyebrow">Questions first</span><h2>Ask about this reading</h2><p className="sub">Share your name, date of birth and your questions. The studio will email you back personally with the next step.</p><AskAboutReading title={r.title} slug={r.slug}/></section><section className="st-sec"><h2>Other reading topics</h2><div className="st-related-row">{related.map(x=><Link key={x.slug} className="st-related-card" to={`/readings/${x.slug}`}><img src={x.img} alt={x.title} loading="lazy"/><span>{x.title}</span></Link>)}</div><p><Link to="/free-tarot">Try the free tarot draw</Link> or read about <Link to="/tarot-card-meanings">all 78 card meanings</Link>.</p></section>
  </div></div></Layout>;
 };

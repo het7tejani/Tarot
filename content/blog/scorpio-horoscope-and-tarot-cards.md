@@ -81,3 +81,5 @@ Water, along with Cancer and Pisces.
 **Is a daily horoscope accurate?**
 
 It is general by design. Use it as a prompt for reflection, then check it against your own week.
+
+Looking for a birthday guide? Read the [October 31 zodiac sign](/blog/october-31-zodiac-sign) or the [November 1 zodiac sign](/blog/november-1-zodiac-sign). For the opposite sign, see [Taurus and Scorpio compatibility](/blog/taurus-and-scorpio-compatibility).

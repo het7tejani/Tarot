@@ -52,6 +52,8 @@ Late October is the turn toward the dark half of the year, and Scorpio is the si
 
 See today's tarot card on the [Scorpio horoscope page](/horoscope/scorpio). It reads the day through a card and does not predict events.
 
+Other Scorpio birthdays have their own guides, including the [October 31 zodiac sign](/blog/october-31-zodiac-sign) and the [November 1 zodiac sign](/blog/november-1-zodiac-sign).
+
 ## October 26 zodiac questions
 
 **What zodiac sign is October 26?**

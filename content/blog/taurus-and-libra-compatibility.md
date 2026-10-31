@@ -69,3 +69,5 @@ Venus rules both signs.
 **What is the biggest challenge for Taurus and Libra?**
 
 Decision speed. Libra deliberates and Taurus holds firm once it chooses.
+
+Another pairing worth reading is [Taurus and Scorpio compatibility](/blog/taurus-and-scorpio-compatibility), the signs on opposite sides of the wheel.

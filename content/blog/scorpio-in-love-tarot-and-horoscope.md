@@ -68,3 +68,5 @@ Scorpio is among the most loyal signs once trust is built. It expects the same f
 
 
 For the wider sign profile and a weekly check in, see our [Scorpio horoscope and tarot guide](/blog/scorpio-horoscope-and-tarot-cards).
+
+For a Scorpio match with an opposite sign, see [Taurus and Scorpio compatibility](/blog/taurus-and-scorpio-compatibility).

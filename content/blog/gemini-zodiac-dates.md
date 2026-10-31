@@ -3,7 +3,7 @@ title: "Gemini Zodiac Dates: May 21 to June 20 and What the Edges Mean"
 category: "Astrology"
 date: "2026-10-25"
 excerpt: "Gemini runs from about May 21 to June 20. See the exact date range, what to do if you were born on the edge, and what defines the sign."
-coverImage: "/blog-images/30869080.webp"
+coverImage: "/perf-assets/signs/gemini.svg"
 metaTitle: "Gemini Zodiac Dates: May 21 to June 20 | The Psychic Studio"
 published: "true"
 ---

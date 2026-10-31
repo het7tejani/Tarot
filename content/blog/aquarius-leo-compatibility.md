@@ -3,7 +3,7 @@ title: "Aquarius Leo Compatibility: Love, Friendship and Space"
 category: "Astrology"
 date: "2026-10-12"
 excerpt: "Explore Aquarius Leo compatibility in love and friendship, with symbolic astrology themes and practical questions about attention, independence and connection."
-coverImage: "/uploads/daily-6322819.webp"
+coverImage: "/perf-assets/signs/leo.svg"
 metaTitle: "Aquarius Leo Compatibility Guide | The Psychic Studio"
 published: "true"
 ---

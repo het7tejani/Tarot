@@ -3,7 +3,7 @@ title: "November 1 Zodiac Sign: Scorpio Traits, Decan and Tarot Card"
 category: "Astrology"
 date: "2026-10-31"
 excerpt: "A birthday on November 1 makes you a Scorpio. See how the date fits the sign, where it sits between two decans and which tarot card matches."
-coverImage: "/blog-images/29295922.webp"
+coverImage: "/perf-assets/signs/scorpio.svg"
 metaTitle: "November 1 Zodiac Sign: Scorpio Traits and Meaning | The Psychic Studio"
 published: "true"
 ---

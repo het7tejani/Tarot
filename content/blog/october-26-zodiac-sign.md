@@ -3,7 +3,7 @@ title: "October 26 Zodiac Sign: Scorpio Traits, Decan and Tarot Card"
 category: "Astrology"
 date: "2026-10-29"
 excerpt: "A birthday on October 26 makes you a Scorpio. See how the date fits the sign, which decan it falls in and which tarot card matches."
-coverImage: "/blog-images/9173050.webp"
+coverImage: "/perf-assets/signs/scorpio.svg"
 metaTitle: "October 26 Zodiac Sign: Scorpio Traits and Meaning | The Psychic Studio"
 published: "true"
 ---

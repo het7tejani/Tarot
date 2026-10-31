@@ -3,7 +3,7 @@ title: "Soulmate Reading: How a Tarot Soulmate Spread Works"
 category: "Love and Relationships"
 date: "2026-10-28"
 excerpt: "What a soulmate reading can and cannot tell you, which tarot cards come up most, and a simple three card spread you can try for free today."
-coverImage: "/blog-images/32195293.webp"
+coverImage: "/tarot/the_lovers.jpg"
 metaTitle: "Soulmate Reading: How a Tarot Soulmate Spread Works | The Psychic Studio"
 published: "true"
 ---

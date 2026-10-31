@@ -3,7 +3,7 @@ title: "Why Do I Keep Thinking About My Ex? Spiritual Meanings and Honest Answer
 category: "Spiritual Reflection"
 date: "2026-10-18"
 excerpt: "Why do you keep thinking about your ex? The psychology first, then the spiritual meanings people attach to it, and a grounded way to reflect."
-coverImage: "/blog-images/6303563.webp"
+coverImage: "/tarot/the_moon.jpg"
 metaTitle: "Why You Keep Thinking About Your Ex | The Psychic Studio"
 published: "true"
 ---

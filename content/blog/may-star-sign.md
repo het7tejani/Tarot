@@ -3,7 +3,7 @@ title: "May Star Sign: Taurus or Gemini? Dates and What They Mean"
 category: "Astrology"
 date: "2026-10-22"
 excerpt: "Your May star sign depends on your exact birthday: Taurus until May 20, Gemini from May 21. Here are the dates, the traits and what the cusp days mean."
-coverImage: "/blog-images/14356762.webp"
+coverImage: "/perf-assets/signs/taurus.svg"
 metaTitle: "May Star Sign: Taurus or Gemini? | The Psychic Studio"
 published: "true"
 ---

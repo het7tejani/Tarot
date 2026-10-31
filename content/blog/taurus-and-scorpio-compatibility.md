@@ -3,7 +3,7 @@ title: "Taurus and Scorpio Compatibility: Love, Trust and Friction"
 category: "Astrology"
 date: "2026-10-31"
 excerpt: "Taurus and Scorpio sit on opposite sides of the zodiac. See how the pair handles love, trust and stubbornness, with a tarot card for each sign."
-coverImage: "/blog-images/29374206.webp"
+coverImage: "/perf-assets/signs/taurus.svg"
 metaTitle: "Taurus and Scorpio Compatibility: Love and Trust | The Psychic Studio"
 published: "true"
 ---

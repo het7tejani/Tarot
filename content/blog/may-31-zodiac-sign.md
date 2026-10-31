@@ -3,7 +3,7 @@ title: "May 31 Zodiac Sign: Gemini Traits, Decan and Tarot Card"
 category: "Astrology"
 date: "2026-10-30"
 excerpt: "A birthday on May 31 makes you a Gemini. See how the date fits the sign, where it sits in the decans, and which tarot card matches."
-coverImage: "/blog-images/36669480.webp"
+coverImage: "/perf-assets/signs/gemini.svg"
 metaTitle: "May 31 Zodiac Sign: Gemini Traits and Meaning | The Psychic Studio"
 published: "true"
 ---

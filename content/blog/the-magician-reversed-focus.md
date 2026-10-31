@@ -4,7 +4,7 @@ category: "Tarot Guides"
 date: "2026-10-14"
 excerpt: "Explore The Magician reversed through scattered effort, self-doubt and honest communication. Try grounded prompts without assuming a card proves manipulation."
 metaTitle: "The Magician Reversed: Focus Guide | The Psychic Studio"
-coverImage: "/uploads/10810660.webp"
+coverImage: "/tarot/the_magician.jpg"
 published: "true"
 ---
 

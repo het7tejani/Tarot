@@ -15,6 +15,14 @@ const inline = (t: string): React.ReactNode[] => {
 };
 const headingId = (t: string) => t.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 const minutes = (text: string) => Math.max(1, Math.ceil(text.split(/\s+/).length / 200));
+const angelNum = (p: { category?: string; slug?: string }) => p.category === 'Angel Numbers' ? (p.slug || '').match(/^(\d{3,})/)?.[1] || null : null;
+const isArtCover = (src?: string) => !!src && (src.startsWith('/tarot/') || src.includes('/signs/'));
+const coverClass = (p: { category?: string; slug?: string; coverImage?: string }, base: string) => base + (angelNum(p) ? ' number' : isArtCover(p.coverImage) ? ' art' : '');
+const CoverVisual: React.FC<{ p: any; eager?: boolean }> = ({ p, eager }) => {
+  const num = angelNum(p);
+  if (num) return <span className="st-journal-number-label">{num}<small>ANGEL NUMBER</small></span>;
+  return <TarotArtwork src={p.coverImage || '/tarot/the_fool.jpg'} alt={p.title} loading={eager ? 'eager' : 'lazy'} fetchPriority={eager ? 'high' : 'auto'} />;
+};
 export const Md: React.FC<{ text: string; resolveImage?: (src:string)=>string }> = ({ text, resolveImage = src=>src }) => (<>{text.split(/\n{2,}/).map((b, i) => {
   const img = b.match(/^!\[([^\]]*)\]\(([^)]+)\)$/); if (img) return <figure key={i} className="st-journal-figure"><TarotArtwork src={resolveImage(img[2])} alt={img[1]} loading="lazy" /><figcaption>{img[1]}</figcaption></figure>;
   const h = b.match(/^(#{2,3})\s+(.*)$/); if (h) return h[1].length === 2 ? <h2 key={i} id={headingId(h[2])}>{h[2]}</h2> : <h3 key={i} id={headingId(h[2])}>{h[2]}</h3>;
@@ -42,7 +50,7 @@ export const About: React.FC = () => (
       <p>Card meanings follow the common Rider-Waite-Smith tradition of imagery and symbolism. The artwork on this site is the studio's own set of 78 illustrations, an interpretation of the cards rather than a reproduction of a historic deck.</p>
       <p>Every guide is written as a prompt for reflection. A card can help you frame a question; it cannot predict events, confirm what another person feels or replace professional advice.</p>
       <h2>How personal readings work</h2>
-      <p>Choose the topic closest to your question, then email the studio with the context you want to share. The studio confirms what the reading includes, how it is delivered and the payment arrangements before anything is arranged. This website itself does not take payments.</p>
+      <p>Choose the topic closest to your question, then send the studio a short inquiry from the reading's page. The studio replies personally by email with payment details, and your written reading arrives by email, usually within 1 day of payment. You can confirm scope, format and timing before you pay anything.</p>
       <h2>Get in touch</h2>
       <p>Questions about a reading or a guide? Write to <a href="mailto:contact.thepsychicstudio@gmail.com">contact.thepsychicstudio@gmail.com</a> or visit the <Link to="/contact">contact page</Link>. Common questions are answered in the <Link to="/faq">reading FAQ</Link>.</p>
       <p><Link className="btn" to="/shop">Explore personal readings</Link></p>
@@ -52,9 +60,9 @@ export const About: React.FC = () => (
 export const Contact: React.FC = () => (
   <Layout><div className="st-page"><div className="wrap">
     <span className="eyebrow">Contact</span><h1>Questions about a reading?</h1>
-    <div className="st-prose"><p>Email the studio with your question or the reading topic you are interested in.</p>
+    <div className="st-prose"><p>Email the studio with your question or the reading topic you are interested in. The studio replies personally with payment and delivery details, and you can ask anything before you decide.</p>
       <p><a className="btn" href="mailto:contact.thepsychicstudio@gmail.com">contact.thepsychicstudio@gmail.com</a></p>
-      <p style={{ fontSize: 14 }}>This website does not take payments. Contact the studio to ask about reading details.</p></div>
+      <p style={{ fontSize: 14 }}>Ordering is handled personally by email. Written readings are delivered by email, usually within 1 day of payment.</p></div>
   </div></div></Layout>
 );
 export const Blog: React.FC = () => {
@@ -67,7 +75,7 @@ export const Blog: React.FC = () => {
     <div className="st-journal-filters" aria-label="Filter stories by category">{categories.map((c) => <button key={c} className={c === category ? 'active' : ''} aria-pressed={c === category} onClick={() => setCategory(c)}>{c}</button>)}</div>
     <div className="st-journal-layout"><section aria-label="Journal stories">{shown.map((p, index) => <Link key={p.id} className="st-journal-row" to={`/blog/${p.slug || p.id}`}>
       <div className="st-journal-story"><span className="eyebrow">{p.category}</span><h2>{p.title}</h2><p>{p.excerpt}</p><span className="st-journal-meta">The Psychic Studio · {minutes(p.content)} min read</span></div>
-      <div className="st-journal-thumb">{p.slug?.startsWith('888-') || p.slug?.startsWith('757-') ? <span className="st-journal-number-label">{p.slug.slice(0,3)}<small>ANGEL NUMBER</small></span> : null}<TarotArtwork src={p.coverImage || '/tarot/the_fool.jpg'} alt={p.title} loading={index===0 ? "eager" : "lazy"} fetchPriority={index===0 ? "high" : "auto"} /></div>
+      <div className={coverClass(p, "st-journal-thumb")}><CoverVisual p={p} eager={index===0} /></div>
     </Link>)}{shown.length === 0 && <p>No stories in this category yet.</p>}</section>
     <aside className="st-journal-sidebar"><span className="eyebrow">Start here</span><h2>New to tarot?</h2><p>You do not need to know every card. Start with one question and one small reflection.</p><Link className="btn" to="/free-tarot">Try a free card →</Link><hr /><span className="eyebrow">Explore</span><ul><li><Link to="/tarot-card-meanings">All 78 card meanings ↗</Link></li><li><Link to="/shop">Choosing a reading ↗</Link></li><li><Link to="/faq">Questions to ask ↗</Link></li></ul></aside></div>
   </div></Layout>;
@@ -82,7 +90,7 @@ export const BlogPostPage: React.FC = () => {
   const headings = p ? Array.from(p.content.matchAll(/^#{2,3}\s+(.+)$/gm)).map((m) => m[1]) : [];
   return <Layout seo={false}><div className="st-journal st-journal-article wrap"><Link className="st-journal-back" to="/blog">← Back to the journal</Link>
     {p ? <><SEOHead title={p.metaTitle || `${p.title} | The Psychic Studio`} description={p.excerpt.slice(0, 155)} ogType="article" ogImage={p.coverImage.startsWith('https://') ? p.coverImage : `https://thepsychicstudio.com${p.coverImage}`} canonicalUrl={`https://thepsychicstudio.com/blog/${p.slug}`} schema={{"@context":"https://schema.org","@type":"BlogPosting",headline:p.title,description:p.excerpt,image:p.coverImage.startsWith('https://') ? p.coverImage : `https://thepsychicstudio.com${p.coverImage}`,author:{"@type":"Organization",name:"The Psychic Studio",url:"https://thepsychicstudio.com/about"},publisher:{"@id":"https://thepsychicstudio.com/#organization"},url:`https://thepsychicstudio.com/blog/${p.slug}`,datePublished:p.publishedDate,dateModified:p.publishedDate,mainEntityOfPage:`https://thepsychicstudio.com/blog/${p.slug}`}} />
-    <div className="st-journal-article-head"><div><span className="eyebrow">{p.category} · {minutes(p.content)} min read</span><h1>{p.title}</h1><p>{p.excerpt}</p><div className="st-journal-meta">By The Psychic Studio · <time dateTime={p.publishedDate}>{p.publishedDate}</time> · <CopyLink /></div></div><figure className="st-journal-hero">{p.slug?.startsWith('888-') || p.slug?.startsWith('757-') ? <span className="st-journal-number-label">{p.slug.slice(0,3)}<small>ANGEL NUMBER</small></span> : null}<TarotArtwork src={p.coverImage || '/tarot/the_fool.jpg'} alt={p.title} /></figure></div>
+    <div className="st-journal-article-head"><div><span className="eyebrow">{p.category} · {minutes(p.content)} min read</span><h1>{p.title}</h1><p>{p.excerpt}</p><div className="st-journal-meta">By The Psychic Studio · <time dateTime={p.publishedDate}>{p.publishedDate}</time> · <CopyLink /></div></div><figure className={coverClass(p, "st-journal-hero")}><CoverVisual p={p} eager /></figure></div>
     <div className="st-journal-reading"><nav className="st-journal-toc" aria-label="In this guide"><span className="eyebrow">In this guide</span>{headings.map((h, i) => <a key={`${h}-${i}`} href={`#${headingId(h)}`}>{h}</a>)}<hr /><Link to="/tarot-card-meanings">Explore card meanings ↗</Link></nav><article className="st-journal-copy"><Md text={p.content} /><div className="st-journal-note">Let the reading help you think. Your choices remain your own. This post is for reflection and entertainment, not medical, psychological, legal or financial advice.</div></article></div></> : <><SEOHead title="Post not found | The Psychic Studio" description="This journal story could not be found. Browse the latest tarot guides and reflections." /><h1>Post not found</h1></>}
   </div></Layout>;
 };

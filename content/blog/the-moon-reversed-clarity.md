@@ -4,7 +4,7 @@ category: "Tarot Guides"
 date: "2026-10-13"
 excerpt: "Explore The Moon reversed through uncertainty, intuition and clearer questions. Use grounded tarot reflection without treating a card as proof of hidden facts."
 metaTitle: "The Moon Reversed: Clarity Guide | The Psychic Studio"
-coverImage: "/uploads/13779223.webp"
+coverImage: "/tarot/the_moon.jpg"
 published: "true"
 ---
 

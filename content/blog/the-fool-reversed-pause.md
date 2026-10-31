@@ -4,7 +4,7 @@ category: "Tarot Guides"
 date: "2026-10-14"
 excerpt: "Explore The Fool reversed through caution, hesitation and new beginnings. Use practical reflection prompts without treating a tarot card as a warning of disaster."
 metaTitle: "The Fool Reversed: New Start Guide | The Psychic Studio"
-coverImage: "/uploads/34888694.webp"
+coverImage: "/tarot/the_fool.jpg"
 published: "true"
 ---
 

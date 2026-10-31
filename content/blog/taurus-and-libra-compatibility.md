@@ -3,7 +3,7 @@ title: "Taurus and Libra: How This Venus-Ruled Pair Gets Along"
 category: "Astrology"
 date: "2026-10-24"
 excerpt: "Taurus and Libra share Venus as a ruler. See where this pair connects on taste and affection, and where stubbornness meets indecision."
-coverImage: "/blog-images/32195293.webp"
+coverImage: "/perf-assets/signs/taurus.svg"
 metaTitle: "Taurus and Libra Compatibility: Love and Friendship | The Psychic Studio"
 published: "true"
 ---

@@ -4,7 +4,7 @@ category: "Tarot Guides"
 date: "2026-10-15"
 excerpt: "Read The Emperor reversed through rigidity, responsibility and boundaries. Explore practical questions about structure without using tarot to judge other people."
 metaTitle: "Emperor Reversed: Structure Guide | The Psychic Studio"
-coverImage: "/uploads/7689420.webp"
+coverImage: "/tarot/the_emperor.jpg"
 published: "true"
 ---
 

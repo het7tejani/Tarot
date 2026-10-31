@@ -3,7 +3,7 @@ title: "August 24 Zodiac Sign: Virgo Traits, Strengths and Tarot Card"
 category: "Astrology"
 date: "2026-10-27"
 excerpt: "A birthday on August 24 makes you a Virgo. See what that means, why the sign is sure, and which tarot card fits it."
-coverImage: "/blog-images/8611738.webp"
+coverImage: "/perf-assets/signs/virgo.svg"
 metaTitle: "August 24 Zodiac Sign: Virgo Traits and Meaning | The Psychic Studio"
 published: "true"
 ---

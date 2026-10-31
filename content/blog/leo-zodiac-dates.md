@@ -3,7 +3,7 @@ title: "Leo Zodiac Dates: When Leo Season Starts and Ends"
 category: "Astrology"
 date: "2026-10-24"
 excerpt: "Leo zodiac dates run from July 23 to August 22 in most years. See where the edges fall, what the fifth sign is like, and how to check a cusp birthday."
-coverImage: "/blog-images/36187082.webp"
+coverImage: "/perf-assets/signs/leo.svg"
 metaTitle: "Leo Zodiac Dates: July 23 to August 22 | The Psychic Studio"
 published: "true"
 ---

@@ -4,7 +4,7 @@ category: "Tarot Guides"
 date: "2026-10-15"
 excerpt: "Explore The High Priestess reversed through intuition, uncertainty and honest questions. Separate a feeling from a fact with grounded tarot reflection prompts."
 metaTitle: "High Priestess Reversed Guide | The Psychic Studio"
-coverImage: "/uploads/6944181.webp"
+coverImage: "/tarot/the_high_priestess.jpg"
 published: "true"
 ---
 

@@ -4,7 +4,7 @@ category: "Tarot Guides"
 date: "2026-10-16"
 excerpt: "Explore Strength reversed through self-doubt, patience and personal limits. Use grounded reflection prompts without treating a tarot card as a health diagnosis."
 metaTitle: "Strength Reversed: Confidence Guide | The Psychic Studio"
-coverImage: "/uploads/daily-20261016-7179792.webp"
+coverImage: "/tarot/strength.jpg"
 published: "true"
 ---
 

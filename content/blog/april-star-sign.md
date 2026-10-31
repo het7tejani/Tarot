@@ -3,7 +3,7 @@ title: "April Star Sign: Aries or Taurus? Dates and What They Mean"
 category: "Astrology"
 date: "2026-10-22"
 excerpt: "The April star sign is Aries until April 19 and Taurus from April 20. Here are the dates, the traits, and what to do if your birthday sits on the cusp."
-coverImage: "/blog-images/21752185.webp"
+coverImage: "/perf-assets/signs/aries.svg"
 metaTitle: "April Star Sign: Aries or Taurus? | The Psychic Studio"
 published: "true"
 ---

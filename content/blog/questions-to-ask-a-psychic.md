@@ -3,7 +3,7 @@ title: "Questions to Ask a Psychic: Prepare for a Grounded Reading"
 category: "Tarot Practice"
 date: "2026-10-17"
 excerpt: "Prepare questions to ask a psychic with practical examples for love, work and direction, plus boundaries that keep any reading honest and useful."
-coverImage: "/blog-images/7623657.webp"
+coverImage: "/tarot/the_high_priestess.jpg"
 metaTitle: "Questions to Ask a Psychic: A Ready List and What to Skip | The Psychic Studio"
 published: "true"
 ---

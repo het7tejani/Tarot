@@ -3,7 +3,7 @@ title: "New Year Tarot Spread: A Six-Card Reflection for Clarity"
 category: "Tarot Practice"
 date: "2026-10-08"
 excerpt: "Try a six-card new year tarot spread for reflection, priorities and practical steps. Includes card positions, example questions and a review ritual."
-coverImage: "/blog-images/7689420.webp"
+coverImage: "/tarot/wheel_of_fortune.jpg"
 metaTitle: "New Year Tarot Spread: A Guide | The Psychic Studio"
 published: "true"
 ---

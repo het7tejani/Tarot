@@ -4,7 +4,7 @@ category: "Tarot Guides"
 date: "2026-10-16"
 excerpt: "Explore The Lovers reversed through values, communication and choices. Use practical reflection prompts without treating tarot as a relationship verdict."
 metaTitle: "The Lovers Reversed: Choices Guide | The Psychic Studio"
-coverImage: "/uploads/daily-20261016-7182580.webp"
+coverImage: "/tarot/the_lovers.jpg"
 published: "true"
 ---
 

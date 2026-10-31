@@ -4,7 +4,7 @@ category: "Tarot Guides"
 date: "2026-10-13"
 excerpt: "Read The Empress reversed as a prompt about care, creativity and personal space. Explore relationship questions without fertility predictions or health claims."
 metaTitle: "The Empress Reversed: Care Guide | The Psychic Studio"
-coverImage: "/uploads/34445804.webp"
+coverImage: "/tarot/the_empress.jpg"
 published: "true"
 ---
 

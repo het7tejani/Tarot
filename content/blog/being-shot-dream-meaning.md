@@ -3,7 +3,7 @@ title: "Dream About Being Shot? What It Can Mean"
 category: "Spiritual Reflection"
 date: "2026-10-20"
 excerpt: "Explore what a dream about being shot can mean through vulnerability, conflict and pressure themes, with journaling prompts and a grounded tarot reflection."
-coverImage: "/blog-images/935777.webp"
+coverImage: "/tarot/the_tower.jpg"
 metaTitle: "Dream About Being Shot: A Reflection | The Psychic Studio"
 published: "true"
 ---

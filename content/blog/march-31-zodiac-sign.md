@@ -3,7 +3,7 @@ title: "March 31 Zodiac Sign: Aries Traits, Decan and Tarot Card"
 category: "Astrology"
 date: "2026-10-29"
 excerpt: "A birthday on March 31 makes you an Aries. See how the date fits the sign, which decan it falls in, and which tarot card matches."
-coverImage: "/blog-images/9726312.webp"
+coverImage: "/perf-assets/signs/aries.svg"
 metaTitle: "March 31 Zodiac Sign: Aries Traits and Meaning | The Psychic Studio"
 published: "true"
 ---

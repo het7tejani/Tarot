@@ -18,7 +18,7 @@ The Sun enters Scorpio on October 22 or 23, depending on the year. October 31 fa
 
 Scorpio is the eighth sign of the zodiac and the second water sign. It arrives as autumn deepens in the Northern Hemisphere, which is one reason the sign is described as private and intense.
 
-![Carved pumpkin lantern with a lit candle on a wooden table](/blog-images/29264970.webp)
+![Two carved pumpkin lanterns with lit candles on a wooden table](/blog-images/29264970.webp)
 
 ## What an October 31 birthday looks like in Scorpio
 

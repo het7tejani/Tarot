@@ -678,16 +678,17 @@ header .nav a.on,header a[aria-current=page]{color:#846019!important}
 .st-reading-meta{list-style:none;padding:0;margin:0 0 20px;font-size:14.5px;color:var(--ink2)}
 .st-reading-meta li{padding-left:22px;position:relative;margin-bottom:6px}
 .st-reading-meta li:before{content:"\2726";position:absolute;left:0;color:var(--saffron);font-size:12px;top:2px}
-.st-reading-layout{display:grid;grid-template-columns:minmax(0,1fr) 320px;gap:52px;margin-top:46px;align-items:start}
+.st-reading-layout{display:grid;grid-template-columns:minmax(0,1fr) 320px;gap:52px;margin-top:46px;align-items:stretch}
 .st-reading-main{max-width:680px}
-.st-reading-side{position:sticky;top:96px}
+.st-reading-side{position:relative}
+.st-order-card{position:sticky;top:96px}
 .st-order-card{background:var(--cream);border:1px solid var(--line);border-radius:18px;padding:26px;box-shadow:0 10px 26px rgba(56,68,27,.10)}
 .st-order-price{font-size:30px;margin:0 0 6px;color:var(--ink)}
 .st-order-price del{opacity:.5;font-size:20px;margin-right:10px}
 .st-order-card h2{font-size:20px;margin:14px 0 10px}
 .st-order-card ol{margin:0;padding-left:20px;color:var(--ink2);font-size:15px;line-height:1.7}
 .st-order-note{font-size:13px;color:var(--ink2);margin:14px 0 18px}
-@media(max-width:900px){.st-reading-layout{grid-template-columns:1fr}.st-reading-side{position:static}}
+@media(max-width:900px){.st-reading-layout{grid-template-columns:1fr}.st-order-card{position:static}}
 
 /* 8. Card meaning pages: large card + glance box + accordion */
 .st-card-hero{display:grid;grid-template-columns:minmax(220px,300px) minmax(0,1fr);gap:44px;align-items:start;margin:8px 0 40px}

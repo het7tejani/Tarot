@@ -128,7 +128,7 @@ export const Home: React.FC = () => (
           <h2 id="halloween-title">Halloween<span className="sale-word">SALE</span></h2>
           <div className="sale-badge">UP TO 94% OFF</div>
           <p className="sale-price"><del>$79</del><strong>from $5</strong><span>USD / reading</span></p>
-          <p className="sale-sub">A night of mystery. A moment for you.<br />Order by email: the studio replies personally with payment and delivery details, usually within a day.</p>
+          <p className="sale-sub">A night of mystery. A moment for you.<br />Order by email: the studio replies personally with payment and delivery details.</p>
           <Link className="sale-cta" to="/shop">SHOP NOW</Link>
         </div>
       </div>

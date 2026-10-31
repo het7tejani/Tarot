@@ -15,7 +15,7 @@ export const ReadingDetail: React.FC = () => {
  <Link to="/shop">← All readings</Link><div className="st-reading-detail-hero">
  <img src={r.img} alt={r.title} width="600" height="420"/>
  <div><span className="eyebrow">Personal reading</span><h1>{r.title}</h1><p className="st-prose">{r.intro}</p><p className="st-reading-price"><del>$79</del> <strong>${r.price} USD</strong></p>
- <ul className="st-reading-meta"><li>Written reading, made personally for you</li><li>Delivered by email, usually within 1 day of payment</li></ul>
+ <ul className="st-reading-meta"><li>Written reading, made personally for you</li><li>Delivered by email, usually within 24 to 48 hours of payment</li></ul>
  <a className="btn" href="#ask-about-reading">Ask about this reading</a></div>
  </div>
  <div className="st-reading-layout">
@@ -36,7 +36,7 @@ export const ReadingDetail: React.FC = () => {
  <div className="st-order-card">
  <p className="st-order-price"><del>$79</del> <strong>${r.price} USD</strong></p>
  <h2>How ordering works</h2>
- <ol><li>Send the inquiry form below (or email the studio) with your question.</li><li>The studio replies personally with payment details.</li><li>You receive your written reading by email, usually within 1 day of payment.</li></ol>
+ <ol><li>Send the inquiry form below (or email the studio) with your question.</li><li>The studio replies personally with payment details.</li><li>You receive your written reading by email, usually within 24 to 48 hours of payment.</li></ol>
  <p className="st-order-note">Ordering is handled personally by email, so you can confirm scope, format and timing before you pay anything.</p>
  <a className="btn" href={inquiry}>Talk to the studio · ${r.price} USD</a>
  </div>

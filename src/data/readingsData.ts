@@ -478,7 +478,7 @@ export const READINGS_DATA: ReadingTopic[] = [];
 export const HOW_IT_WORKS_STEPS = [
 {stepNumber:'01',title:'Choose your reading',description:'Pick the topic closest to your question and send the studio a short inquiry from its page.'},
 {stepNumber:'02',title:'Confirm by email',description:'The studio replies personally with payment details. Ask anything before you decide.'},
-{stepNumber:'03',title:'Receive your reading',description:'Your written reading arrives by email, usually within 1 day of payment. Use it as a prompt for reflection, not a promise of a particular outcome.'}
+{stepNumber:'03',title:'Receive your reading',description:'Your written reading arrives by email, usually within 24 to 48 hours of payment. Use it as a prompt for reflection, not a promise of a particular outcome.'}
 ];
 
 export const CORE_VALUES = [
@@ -499,7 +499,7 @@ export const CORE_VALUES = [
 export const FAQS: FAQItem[] = [
 {question:'What is a psychic reading on this website?',answer:'Each reading is a written, personal reflection on your question, delivered by email. Ordering is handled personally: send an inquiry from the reading page and the studio replies with payment details.',category:'reading'},
 {question:'What questions should I ask?',answer:'Try open questions about your choices, communication and patterns. A reading cannot guarantee another person’s feelings, a date or a future outcome.',category:'reading'},
-{question:'How do I order a reading?',answer:'Choose the topic closest to your question and send the inquiry form on its page. The studio emails back with payment details, and your written reading is delivered by email, usually within 1 day of payment.',category:'ordering'},
+{question:'How do I order a reading?',answer:'Choose the topic closest to your question and send the inquiry form on its page. The studio emails back with payment details, and your written reading is delivered by email, usually within 24 to 48 hours of payment.',category:'ordering'},
 {question:'Is free tarot really free?',answer:'The one-card and three-card draws need no account or payment details. They are self-guided tools for reflection.',category:'reading'},
 {question:'Can readings replace professional advice?',answer:'No. Readings are for entertainment and personal reflection, not medical, legal, financial or mental health advice.',category:'reading'},
 {question:'How can I contact the studio?',answer:'Email contact.thepsychicstudio@gmail.com with your question.',category:'ordering'}

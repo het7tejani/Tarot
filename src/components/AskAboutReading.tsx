@@ -9,6 +9,8 @@ export const AskAboutReading: React.FC<{ title: string; slug: string }> = ({ tit
   const [name, setName] = useState('');
   const [dob, setDob] = useState('');
   const [questions, setQuestions] = useState('');
+  const [honey, setHoney] = useState('');
+  const [started] = useState(() => Date.now());
   const [status, setStatus] = useState<Status>('idle');
 
   const mailto = `mailto:${ASK_INBOX}?subject=${encodeURIComponent('Reading inquiry: ' + title)}`;
@@ -16,6 +18,8 @@ export const AskAboutReading: React.FC<{ title: string; slug: string }> = ({ tit
   const submit = async (e: React.FormEvent) => {
     e.preventDefault();
     if (status === 'sending') return;
+    // Spam guard: honeypot filled or impossibly fast completion means a bot. Fake success, send nothing.
+    if (honey || Date.now() - started < 2000) { setStatus('sent'); return; }
     setStatus('sending');
     try {
       const res = await fetch(`https://formsubmit.co/ajax/${ASK_INBOX}`, {
@@ -25,6 +29,7 @@ export const AskAboutReading: React.FC<{ title: string; slug: string }> = ({ tit
           _subject: `Reading inquiry: ${title} (${name})`,
           _template: 'table',
           _captcha: 'false',
+          _honey: honey,
           name,
           date_of_birth: dob,
           questions,
@@ -53,6 +58,7 @@ export const AskAboutReading: React.FC<{ title: string; slug: string }> = ({ tit
 
   return (
     <form className="st-ask-form" onSubmit={submit}>
+      <input type="text" name="_honey" value={honey} onChange={(e) => setHoney(e.target.value)} tabIndex={-1} autoComplete="off" aria-hidden="true" style={{ position: 'absolute', left: -9999, width: 1, height: 1, opacity: 0 }} />
       <label>
         Your name
         <input

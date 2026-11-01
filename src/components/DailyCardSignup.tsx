@@ -7,11 +7,14 @@ type Status = 'idle' | 'sending' | 'sent' | 'error';
 // Email signup for the free daily card / horoscope email.
 export const DailyCardSignup: React.FC<{ sign?: string }> = ({ sign }) => {
   const [email, setEmail] = useState('');
+  const [honey, setHoney] = useState('');
   const [status, setStatus] = useState<Status>('idle');
 
   const submit = async (e: React.FormEvent) => {
     e.preventDefault();
     if (status === 'sending' || !email.includes('@')) return;
+    // Spam guard: honeypot filled means a bot. Fake success, send nothing.
+    if (honey) { setStatus('sent'); return; }
     setStatus('sending');
     try {
       const res = await fetch(`https://formsubmit.co/ajax/${ASK_INBOX}`, {
@@ -21,6 +24,7 @@ export const DailyCardSignup: React.FC<{ sign?: string }> = ({ sign }) => {
           _subject: `Daily horoscope email signup${sign ? `: ${sign}` : ''}`,
           _template: 'table',
           _captcha: 'false',
+          _honey: honey,
           email,
           sign: sign || 'not chosen',
           source: 'daily-signup',
@@ -43,6 +47,7 @@ export const DailyCardSignup: React.FC<{ sign?: string }> = ({ sign }) => {
         <p className="text-[#4a5f27] font-semibold" role="status">You are on the list. Watch for a confirmation email and tomorrow's card.</p>
       ) : (
         <form onSubmit={submit} className="flex flex-wrap items-center gap-3">
+          <input type="text" name="_honey" value={honey} onChange={(e) => setHoney(e.target.value)} tabIndex={-1} autoComplete="off" aria-hidden="true" style={{ position: 'absolute', left: -9999, width: 1, height: 1, opacity: 0 }} />
           <input
             type="email"
             required

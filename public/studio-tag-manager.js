@@ -1,4 +1,4 @@
-/* Empty brand-owned GTM container. Existing GA4 and consent-gated Clarity stay separate. */
+/* Brand-owned GTM container (forwards to GA4). Loads only after analytics consent set by /studio-consent.js. */
 (function () {
   'use strict';
   if (/^\/(admin|cms|boundary-preview-test)(\/|$)/.test(location.pathname)) return;
@@ -14,7 +14,12 @@
     window.dataLayer = window.dataLayer || [];
     (function () { window.dataLayer.push(arguments); })('event', name, { link_url: path, page_path: location.pathname });
   }, true);
+  var CONSENT_KEY = 'psychic-studio-clarity-consent-v1';
+  function consented() { try { return localStorage.getItem(CONSENT_KEY) === 'accepted'; } catch (e) { return false; } }
+  var loaded = false;
   function load() {
+    if (loaded || !consented()) return;
+    loaded = true;
     window.dataLayer = window.dataLayer || [];
     window.dataLayer.push({ 'gtm.start': Date.now(), event: 'gtm.js' });
     var script = document.createElement('script');
@@ -28,4 +33,5 @@
   }
   if (document.readyState === 'complete') schedule();
   else window.addEventListener('load', schedule, { once: true });
+  window.addEventListener('studio-consent-changed', function (e) { if (e.detail === 'accepted') schedule(); });
 })();

@@ -35,7 +35,7 @@ export default defineConfig(({isSsrBuild})=>({
   async generateBundle(){
    if(isSsrBuild)return;
    this.emitFile({type:'asset',fileName:'sitemap.xml',source:generateSitemap(__dirname)});
-   const stock:Record<string,string>=JSON.parse(fs.readFileSync(path.resolve(__dirname,'public/reading-stock.json'),'utf8'));
+   const stock:Record<string,string>=JSON.parse(fs.readFileSync(path.resolve(__dirname,'art-src/reading-stock.json'),'utf8'));
    for(const [id,encoded] of Object.entries(stock))this.emitFile({type:'asset',fileName:`reading-images/${id}.webp`,source:Buffer.from(encoded,'base64')});
    const logos:Record<string,string>=JSON.parse(fs.readFileSync(path.resolve(__dirname,'public/logo-assets.json'),'utf8'));
    for(const [file,encoded] of Object.entries(logos)){

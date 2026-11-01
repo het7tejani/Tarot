@@ -11,6 +11,7 @@ export const AskAboutReading: React.FC<{ title: string; slug: string }> = ({ tit
   const [questions, setQuestions] = useState('');
   const [honey, setHoney] = useState('');
   const [started] = useState(() => Date.now());
+  const [warned, setWarned] = useState(false);
   const [status, setStatus] = useState<Status>('idle');
 
   const mailto = `mailto:${ASK_INBOX}?subject=${encodeURIComponent('Reading inquiry: ' + title)}`;
@@ -18,8 +19,10 @@ export const AskAboutReading: React.FC<{ title: string; slug: string }> = ({ tit
   const submit = async (e: React.FormEvent) => {
     e.preventDefault();
     if (status === 'sending') return;
-    // Spam guard: honeypot filled or impossibly fast completion means a bot. Fake success, send nothing.
-    if (honey || Date.now() - started < 2000) { setStatus('sent'); return; }
+    // Spam guard: honeypot filled means a bot. Fake success, send nothing.
+    if (honey) { setStatus('sent'); return; }
+    // Very fast completion is usually a script, but autofill users exist: warn once and always allow the retry.
+    if (!warned && Date.now() - started < 2000) { setWarned(true); return; }
     setStatus('sending');
     try {
       const res = await fetch(`https://formsubmit.co/ajax/${ASK_INBOX}`, {
@@ -95,6 +98,11 @@ export const AskAboutReading: React.FC<{ title: string; slug: string }> = ({ tit
         you back with the next step. Please do not send payment-card details or
         passwords here.
       </p>
+      {warned && status === 'idle' && (
+        <p className="st-ask-note" role="alert">
+          That was very quick. Please review your answers and press send again.
+        </p>
+      )}
       {status === 'error' && (
         <p className="st-ask-note" role="alert">
           Something went wrong sending your questions. You can also <a href={mailto}>email the studio

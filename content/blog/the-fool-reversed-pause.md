@@ -44,7 +44,7 @@ Not every delay means you are being careful. Sometimes the same question is repe
 
 Separate missing information from discomfort with uncertainty. Missing information may have a practical answer. Uncertainty may remain even after you have done reasonable preparation.
 
-Set a review point for a low-stakes choice: gather the facts you need, consider a manageable option and decide when you will revisit it. Do not use another card draw as a requirement for permission to act.
+Set a review point for a low-stakes choice: gather the facts you need, consider a manageable option and decide when you will revisit it. Do not use another card draw as a requirement for permission to act. When the pause is really about pulling back from people, the [Hermit reversed guide](/blog/the-hermit-reversed-connection) looks at solitude that has gone on too long.
 
 ![A close arrangement of tarot cards on a reading table](/uploads/14299091.webp)
 

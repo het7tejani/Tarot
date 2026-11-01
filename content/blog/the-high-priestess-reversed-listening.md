@@ -40,7 +40,7 @@ You do not need a tarot explanation to take unwanted pressure seriously. Base bo
 
 For work or a practical decision, The High Priestess reversed can become a prompt to identify missing details. What has not been explained? Who can answer? What would you need in writing before agreeing?
 
-An inward pause does not replace checking a contract, asking about responsibilities or seeking qualified advice. Nor does uncertainty mean a colleague has a secret agenda. Treat the card as a question generator, not an investigation result.
+An inward pause does not replace checking a contract, asking about responsibilities or seeking qualified advice. Nor does uncertainty mean a colleague has a secret agenda. Treat the card as a question generator, not an investigation result. If the quiet comes from withdrawing rather than listening, the [Hermit reversed guide](/blog/the-hermit-reversed-connection) covers the line between solitude and disconnection.
 
 ![Hands arranging a tarot spread on a tiled floor](/uploads/11760478.webp)
 

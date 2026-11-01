@@ -62,7 +62,7 @@ Question one: what part of this situation is still unclear?
 
 Question two: what is one realistic way to learn more?
 
-Record the answers before drawing anything else. If you want another symbolic perspective, the [Hermit guide](/tarot-card-meanings/the-hermit) explores inward attention, while the [card meanings library](/tarot-card-meanings) lets you compare interpretations. More cards are not a substitute for the missing fact.
+Record the answers before drawing anything else. If you want another symbolic perspective, the [Hermit guide](/tarot-card-meanings/the-hermit) explores inward attention, the [Hermit reversed guide](/blog/the-hermit-reversed-connection) looks at when time alone starts to feel like isolation, while the [card meanings library](/tarot-card-meanings) lets you compare interpretations. More cards are not a substitute for the missing fact.
 
 ## Questions about The Moon reversed
 

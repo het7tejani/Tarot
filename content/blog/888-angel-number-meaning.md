@@ -46,6 +46,8 @@ Draw one card and ask what needs a fairer exchange in your life. Write the first
 
 ![Gold-colored coins spilling from a glass on a red background](/blog-images/20843727.webp)
 
+For the number that marks a start rather than a result, read the [111 angel number meaning](/blog/111-angel-number-meaning).
+
 ## Questions about seeing 888
 
 ### Is 888 always good luck?

@@ -56,6 +56,8 @@ When an argument stalls, take a break before the next round. Fixed signs rarely 
 
 For other pairings, use the [zodiac compatibility guide](/zodiac-compatibility). To read your own sign day by day, see the [Taurus horoscope](/horoscope/taurus) and the [Scorpio horoscope](/horoscope/scorpio). Neither page predicts events. They read the day through a tarot card.
 
+Scorpio also pairs well with its own element. For two water signs, see [Scorpio and Cancer compatibility](/blog/scorpio-and-cancer-compatibility).
+
 ## Taurus and Scorpio compatibility questions
 
 **Are Taurus and Scorpio compatible?**

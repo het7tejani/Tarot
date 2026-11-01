@@ -30,7 +30,7 @@ The strength of the sign is staying power. A Scorpio finishes what matters to th
 
 Each sign splits into three decans of about ten days. In the modern system the first Scorpio decan runs from about October 23 to November 1 and is ruled by Mars. The second runs from about November 2 to November 11 and borrows from Pisces. The third runs from about November 12 to November 21 and borrows from Cancer.
 
-November 1 is the last day of the first decan. A person born on this date is often read as pure Mars Scorpio, with the Pisces softness one day away. Astrologers draw the decan lines differently, and the exact edge depends on the system. None of them changes your Sun sign. Another date in the same decan is covered in the [October 26 zodiac sign](/blog/october-26-zodiac-sign) guide.
+November 1 is the last day of the first decan. A person born on this date is often read as pure Mars Scorpio, with the Pisces softness one day away. Astrologers draw the decan lines differently, and the exact edge depends on the system. None of them changes your Sun sign. Another date in the same decan is covered in the [October 26 zodiac sign](/blog/october-26-zodiac-sign) guide. The next day opens the second decan, covered in the [November 2 zodiac sign](/blog/november-2-zodiac-sign) guide.
 
 ![Half moon in a blue sky above autumn trees](/blog-images/35376525.webp)
 

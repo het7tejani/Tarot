@@ -15,7 +15,7 @@ const inline = (t: string): React.ReactNode[] => {
 };
 const headingId = (t: string) => t.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 const minutes = (text: string) => Math.max(1, Math.ceil(text.split(/\s+/).length / 200));
-const angelNum = (p: { category?: string; slug?: string }) => p.category === 'Angel Numbers' ? (p.slug || '').match(/^(\d{3,})/)?.[1] || null : null;
+const angelNum = (p: { category?: string; slug?: string; coverImage?: string }) => p.category === 'Angel Numbers' && !(p.coverImage || '').startsWith('/blog-images/cover-') ? (p.slug || '').match(/^(\d{3,})/)?.[1] || null : null;
 const isArtCover = (src?: string) => !!src && (src.startsWith('/tarot/') || src.includes('/signs/'));
 const coverClass = (p: { category?: string; slug?: string; coverImage?: string }, base: string) => base + (angelNum(p) ? ' number' : isArtCover(p.coverImage) ? ' art' : '');
 const CoverVisual: React.FC<{ p: any; eager?: boolean }> = ({ p, eager }) => {

@@ -48,6 +48,8 @@ A simple three card spread works: what I am protecting, what I am afraid to say,
 
 Use the Sun sign as a starting point, not a verdict. Your Venus sign shows how you love and your Moon sign shows what you need. A [birth chart](/birth-chart) gives you both in one place. Two Scorpios with different Venus signs can love in completely different ways.
 
+For a pairing with another water sign, read [Scorpio and Cancer compatibility](/blog/scorpio-and-cancer-compatibility). For the Scorpio date pages, see the [November 2 zodiac sign](/blog/november-2-zodiac-sign) guide.
+
 ## FAQ
 
 **What are Scorpio dates?**

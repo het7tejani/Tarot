@@ -46,6 +46,8 @@ If you read tarot, 444 maps naturally onto [The Emperor](/tarot-card-meanings/th
 
 You can browse all the cards in our [tarot card meanings](/tarot-card-meanings) library, or explore how other sequences work in our notes on [707](/blog/707-angel-number-meaning) and [333 and money](/blog/333-angel-number-money).
 
+If 444 is about foundations, [111 is about the first step](/blog/111-angel-number-meaning) that comes before them.
+
 ## Questions about 444
 
 **Is 444 a lucky number?**

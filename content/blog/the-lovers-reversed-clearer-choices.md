@@ -54,7 +54,7 @@ Pick one request small enough to make this week. "Be more supportive" cannot be 
 
 ## Try a clearer question
 
-Instead of asking, "Is this connection doomed?", try: "Which expectation have we not discussed?" Instead of, "What do they secretly feel?", ask: "What do I know from our conversations, and what am I assuming?"
+Instead of asking, "Is this connection doomed?", try: "Which expectation have we not discussed?" Instead of, "What do they secretly feel?", ask: "What do I know from our conversations, and what am I assuming?" Perception questions deserve their own card too. When you keep wondering how someone sees you, the [Four of Wands](/blog/four-of-wands-how-someone-sees-you) is one of the clearest cards for that position.
 
 For a short journal exercise, finish these sentences:
 

@@ -75,7 +75,7 @@ Do not keep drawing until you receive permission for something you already want.
 
 ## Which tarot cards mean yes or no?
 
-No card carries a fixed yes or no. Some readers sort cards into yes, no and maybe groups, others use upright for yes and reversed for no, and others ignore the sorting and read the card's theme. Your reading is only as steady as the method you chose before drawing. Write the method down first so you do not change the rules after you see the card.
+No card carries a fixed yes or no. Some readers sort cards into yes, no and maybe groups, others use upright for yes and reversed for no, and others ignore the sorting and read the card's theme. Your reading is only as steady as the method you chose before drawing. Write the method down first so you do not change the rules after you see the card. Some cards answer with conditions attached, and the [Nine of Wands yes or no](/blog/nine-of-wands-yes-or-no) reading is a clear example: a guarded yes upright, a tired no reversed.
 
 ## Yes or no tarot for love questions
 

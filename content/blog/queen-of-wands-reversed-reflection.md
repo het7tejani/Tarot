@@ -18,7 +18,7 @@ Contemporary tarot guides associate the upright Queen of Wands with warmth, inde
 
 Readers disagree about how reversals work. Some treat them as an inward theme; others as a blockage or excess. You do not have to decide that the card has become its upright opposite. Read the surrounding cards and your question before settling on an interpretation.
 
-The [Queen of Wands meaning guide](/tarot-card-meanings/queen-of-wands) covers the card's wider upright and reversed symbolism. This article focuses on applying the reversal as a reflection rather than assigning a personality label.
+The [Queen of Wands meaning guide](/tarot-card-meanings/queen-of-wands) covers the card's wider upright and reversed symbolism. This article focuses on applying the reversal as a reflection rather than assigning a personality label. For the upright side of the same card, the [Queen of Wands as feelings](/blog/queen-of-wands-as-feelings) guide covers how it reads when it lands in a feelings position.
 
 ## Confidence without performing certainty
 

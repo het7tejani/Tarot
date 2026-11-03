@@ -54,6 +54,8 @@ Late April is the middle of spring in the Northern Hemisphere, and Taurus is the
 
 Read the [Taurus sign guide](/zodiac/taurus) for more on love, work and habits, and see today's tarot card on the [Taurus horoscope page](/horoscope/taurus). If your month is April, our guide to the [April star sign](/blog/april-star-sign) covers both Aries and Taurus.
 
+
+If your birthday falls two days earlier, read the [April 20 zodiac sign](/blog/april-20-zodiac-sign) guide, since that date sits exactly on the Aries-Taurus edge.
 ## April 22 zodiac questions
 
 **What zodiac sign is April 22?**

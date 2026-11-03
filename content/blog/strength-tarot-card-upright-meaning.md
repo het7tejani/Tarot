@@ -62,6 +62,8 @@ For the full card entry, with love, career and yes-or-no readings, see the [Stre
 
 Pick one situation this week where you usually react quickly. Before you answer, take one slow breath and ask what you actually want from the exchange. Then reply once, calmly. The card is a reminder that a steady response is a skill you can practice.
 
+
+If you pulled a card about waiting rather than acting, the [Hanged Man tarot card meaning](/blog/the-hanged-man-tarot-card-meaning) covers the chosen pause.
 ## Strength tarot questions
 
 **What does the Strength tarot card mean upright?**

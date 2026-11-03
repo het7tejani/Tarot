@@ -58,6 +58,8 @@ What small experiment would teach me something without asking me to ignore my li
 
 You can write an answer before using the [free tarot reflection](/free-tarot). Its single-card Major Arcana draw can offer an image to think with; it does not replace evidence, consent or professional advice.
 
+
+When the pause has done its work, the [Star tarot meaning](/blog/the-star-tarot-card-meaning) describes the quiet hope that follows it.
 ## Questions about The Fool reversed
 
 ### Does it mean something bad will happen?

@@ -64,6 +64,8 @@ Question two: what is one realistic way to learn more?
 
 Record the answers before drawing anything else. If you want another symbolic perspective, the [Hermit guide](/tarot-card-meanings/the-hermit) explores inward attention, the [Hermit reversed guide](/blog/the-hermit-reversed-connection) looks at when time alone starts to feel like isolation, while the [card meanings library](/tarot-card-meanings) lets you compare interpretations. More cards are not a substitute for the missing fact.
 
+
+For a card about pausing on purpose instead of pushing through fog, read the [Hanged Man tarot card meaning](/blog/the-hanged-man-tarot-card-meaning). The [Star tarot meaning](/blog/the-star-tarot-card-meaning) covers the calm that comes after.
 ## Questions about The Moon reversed
 
 ### Does it mean someone is lying?

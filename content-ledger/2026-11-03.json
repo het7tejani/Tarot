@@ -1,0 +1,17 @@
+{
+  "date": "2026-11-03",
+  "gsc_basis": "GSC 28d Oct 7-31 (read Nov 3): the star tarot meaning 11 impressions at position 87.9 with no journal post; april 20 zodiac cluster 9 combined impressions at 48-61 (april 20 zodiac 5@59, april 20 zodiac sign 3@60.7, april 20th sign 1@48); the hanged man has zero GSC impressions and zero site coverage, a workbook P1 gap (competitor volume 880, KD 14). Workbook cross-check: hanged man is shortlist P1; no conflicts for the other two.",
+  "posts": [
+    {"slug": "the-hanged-man-tarot-card-meaning", "photos": ["33969288", "1229753", "5272999"], "cover": "cover-the-hanged-man-tarot-card-meaning.webp"},
+    {"slug": "the-star-tarot-card-meaning", "photos": ["23995209", "14478408", "32703532"], "cover": "cover-the-star-tarot-card-meaning.webp"},
+    {"slug": "april-20-zodiac-sign", "photos": ["38031712", "34002955", "37653667"], "cover": "cover-april-20-zodiac-sign.webp"}
+  ],
+  "inbound_links": {
+    "the-hanged-man-tarot-card-meaning": ["strength-tarot-card-upright-meaning", "the-moon-reversed-clarity"],
+    "the-star-tarot-card-meaning": ["the-moon-reversed-clarity", "the-fool-reversed-pause"],
+    "april-20-zodiac-sign": ["taurus-zodiac-dates", "april-22-zodiac-sign"]
+  },
+  "pack": "pack-20.json",
+  "quora_library": "quora-library-2026-11-03.json",
+  "index_requests": "paused per Google try-again-later Oct 29, per main"
+}

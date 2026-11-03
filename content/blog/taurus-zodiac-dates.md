@@ -54,6 +54,8 @@ Taurus and Libra shares a ruler in Venus and is the pairing we cover in detail i
 
 The next sign in the wheel is covered in our [Gemini zodiac dates](/blog/gemini-zodiac-dates) guide.
 
+
+The trickiest day of the whole range is the first one. Our guide to the [April 20 zodiac sign](/blog/april-20-zodiac-sign) explains why that birthday can be Aries or Taurus depending on the year.
 ## FAQ
 
 **What are the Taurus dates?**

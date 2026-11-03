@@ -14,12 +14,13 @@
     },
     {
       "n": 2,
-      "question": "What does the Moon tarot card mean?",
-      "question_url": "https://www.quora.com/What-does-the-Moon-tarot-card-mean",
+      "question": "What is the significance of the moon card in tarot readings?",
+      "question_url": "https://www.quora.com/What-is-the-significance-of-the-moon-card-in-tarot-readings",
       "text": "The Moon shows a path winding between two towers, a dog and a wolf howling, a crayfish climbing out of the water. Everything in the card is half-lit. It is the card of unclear information.\n\nIn a reading it often means you are working with partial facts, projection or fear rather than solid ground. Things look bigger and stranger at night. The Moon asks you to slow down before acting on what you think you saw.\n\nIt is also the card of intuition and dreams. The same fog that confuses can carry real signals, which is why the card asks for patience instead of panic: let the shape of things emerge before you commit.\n\nReversed, it can mean the fog lifting, or anxiety that is finally being named for what it is.",
-      "used": false,
-      "posted": false,
-      "note": "COLLISION: What-does-the-Moon-tarot-card-mean already has a The Psychic Studio answer. Use quora search for the closest unanswered general Moon question."
+      "used": true,
+      "posted": true,
+      "note": "Posted Nov 3 slot 2. COLLISIONS on What-does-the-Moon-tarot-card-mean and What-does-the-Moon-mean-in-tarot (both already have The Psychic Studio answers). Posted on this clean general Moon question. Verified text verbatim on live answer page.",
+      "answer_url": "https://www.quora.com/What-is-the-significance-of-the-moon-card-in-tarot-readings/answer/The-Psychic-Studio"
     },
     {
       "n": 3,

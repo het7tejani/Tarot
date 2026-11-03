@@ -24,12 +24,13 @@
     },
     {
       "n": 3,
-      "question": "What does the Star tarot card mean?",
-      "question_url": "https://www.quora.com/What-does-the-Star-tarot-card-mean",
+      "question": "What does the star mean in tarot?",
+      "question_url": "https://www.quora.com/What-does-the-star-mean-in-tarot",
       "text": "The Star shows a naked figure kneeling by a pool, pouring water onto land and back into the water, with one large star and seven smaller ones above. After the storm of the Tower, the Star is calm. It is the card of quiet hope.\n\nIn a reading it often means recovery, renewal and a steady kind of faith: not a promise that everything will be fine, but evidence that you are still here and the water is still flowing. People often pull it when they are healing from something.\n\nThe Star asks for openness. The figure is unprotected and unhurried, and the card suggests that trust, given slowly and honestly, is the way forward.\n\nReversed, it can point to hope running low, or forgetting to refill your own pool while you pour for everyone else.",
-      "used": false,
-      "posted": false,
-      "note": "Checked 2026-11-03: Star question page has no existing The Psychic Studio answer; safe to post."
+      "used": true,
+      "posted": true,
+      "note": "Posted Nov 3 slot 3. Original question_url (What-does-the-Star-tarot-card-mean) 404'd at post time despite a clean check earlier the same day; posted on the closest clean general Star question found via external search. Verified on profile answers list and direct URL.",
+      "answer_url": "https://www.quora.com/What-does-the-star-mean-in-tarot/answer/The-Psychic-Studio"
     }
   ]
 }

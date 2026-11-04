@@ -1,0 +1,33 @@
+{
+  "date": "2026-11-04",
+  "rules": "Answers carry no site links. Check each question page for an existing The Psychic Studio answer before posting (one per account per question). If the question_url 404s or collides, find the closest unanswered general question via external web search (on-site search unreliable).",
+  "answers": [
+    {
+      "n": 1,
+      "question": "What does the Magician tarot card mean?",
+      "question_url": "https://www.quora.com/What-does-the-Magician-tarot-card-mean",
+      "text": "The Magician stands behind a table holding all four tarot tools: wand, cup, sword, pentacle. One hand points to the sky, one to the ground. It is the card of turning intention into action with what you already have.\n\nIn a reading it usually means the resources are in place and the missing piece is commitment. The question shifts from do I have what I need to will I use it. Readers often pull it at the start of projects, businesses or study, where the first move shapes everything after.\n\nIt also carries a warning about focus. The Magician works by putting all four tools behind one aim. Scattered effort is the one thing that defeats him.\n\nReversed, the card can point to blocked power, plans that stay plans, or skill used to manipulate rather than build.",
+      "used": false,
+      "posted": false,
+      "note": ""
+    },
+    {
+      "n": 2,
+      "question": "What does the High Priestess tarot card mean?",
+      "question_url": "https://www.quora.com/What-does-the-High-Priestess-tarot-card-mean",
+      "text": "The High Priestess sits between two pillars, one black and one white, with a veil of pomegranates behind her and a crescent moon at her feet. She is the card of intuition and of knowledge that stays hidden until you are ready.\n\nIn a reading she usually means the answer you want is not in more opinions or more searching. It is in the quiet sense you have been carrying while asking everyone else. She often appears when something in the situation is unspoken, and she asks you to trust your read of it.\n\nShe also counsels patience. Where the Magician acts, the High Priestess waits, and her waiting is active. Forcing a reveal when she appears usually backfires.\n\nReversed, she can mean intuition blocked or ignored, noise drowning out the inner voice, or secrecy that has turned into withheld information.",
+      "used": false,
+      "posted": false,
+      "note": ""
+    },
+    {
+      "n": 3,
+      "question": "What does the Chariot tarot card mean?",
+      "question_url": "https://www.quora.com/What-does-the-Chariot-tarot-card-mean",
+      "text": "The Chariot shows an armored driver with two sphinxes, one black and one white, and no reins in his hands. It is the card of victory through direction: opposing forces made to pull together.\n\nIn a reading it usually means momentum you control. The goal is chosen, the drive is there, and the card promises they can carry you through opposition, on one condition: you keep both hands on the direction. It often appears during competitions, negotiations, moves and the final stretch of hard projects.\n\nThe missing reins are the detail that matters. The driver does not force the sphinxes. He is so clear about the destination that both forces fall in behind it.\n\nReversed, the Chariot points to effort scattered in five directions, aggression without aim, or a stall where nobody is steering anymore.",
+      "used": false,
+      "posted": false,
+      "note": ""
+    }
+  ]
+}

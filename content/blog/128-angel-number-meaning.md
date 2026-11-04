@@ -4,7 +4,7 @@ category: "Angel Numbers"
 date: "2026-10-18"
 excerpt: "Explore 128 angel number meaning through the energy of 1, 2 and 8, with grounded takes on love, work and a simple tarot reflection."
 coverImage: "/tarot/the_high_priestess.jpg"
-metaTitle: "128 Angel Number Meaning | The Psychic Studio"
+metaTitle: "128 Angel Number Meaning: Beginnings and Abundance | The Psychic Studio"
 published: "true"
 ---
 

@@ -63,3 +63,5 @@ No. A card does not provide evidence about another person's conduct. Ask clear q
 No. Some readers use only upright meanings. A consistent approach is more helpful than treating every upside-down card as a warning.
 
 Tarot is for entertainment and personal reflection, not medical, legal or financial advice.
+
+For the upright card's full symbolism and meanings, read [the High Priestess upright and what the card means](/blog/the-high-priestess-tarot-card-meaning).

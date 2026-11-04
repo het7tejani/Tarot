@@ -81,3 +81,5 @@ It does not predict success or failure. You can reflect on preparation, practice
 There is no universal rule. For important choices, facts and consent matter more than assigning a binary answer to a tarot card.
 
 Tarot here is for entertainment and personal reflection, not medical, legal or financial advice.
+
+For the upright card's full symbolism and meanings, read [the Magician upright and what the card means](/blog/the-magician-tarot-card-meaning).

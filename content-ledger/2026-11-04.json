@@ -2,16 +2,54 @@
   "date": "2026-11-04",
   "gsc_basis": "GSC 28d Oct 7-Nov 1 (read Nov 4): workbook P1 gaps chosen because all have zero site coverage: the magician tarot card meaning (competitor volume 5400, KD 5), the high priestess tarot card meaning (2900, KD 10), the chariot tarot (14800, KD 20). Position 11-50 optimization targets: 888 cluster (888 16 imp @ 19.6, what does 888 mean 3 @ 31.7), 128 angel number (9 @ 40.1, angel number 128 4 @ 28.0), why do i keep thinking about my ex spiritual meaning (6 @ 29.2), taurus month (7 @ 23.7, taurus birth month 6 @ 25.2); all four already have posts, so meta titles were tuned instead of new posts.",
   "posts": [
-    {"slug": "the-magician-tarot-card-meaning", "photos": ["19455911", "20469144", "9352629"], "cover": "cover-the-magician-tarot-card-meaning.webp"},
-    {"slug": "the-high-priestess-tarot-card-meaning", "photos": ["10524858", "11433138", "12774779"], "cover": "cover-the-high-priestess-tarot-card-meaning.webp"},
-    {"slug": "the-chariot-tarot-card-meaning", "photos": ["10864044", "25430752", "28919217"], "cover": "cover-the-chariot-tarot-card-meaning.webp"}
+    {
+      "slug": "the-magician-tarot-card-meaning",
+      "photos": [
+        "19455911",
+        "20469144",
+        "9352629"
+      ],
+      "cover": "cover-the-magician-tarot-card-meaning.webp"
+    },
+    {
+      "slug": "the-high-priestess-tarot-card-meaning",
+      "photos": [
+        "10524858",
+        "11433138",
+        "12774779"
+      ],
+      "cover": "cover-the-high-priestess-tarot-card-meaning.webp"
+    },
+    {
+      "slug": "the-chariot-tarot-card-meaning",
+      "photos": [
+        "10864044",
+        "25430752",
+        "28919217"
+      ],
+      "cover": "cover-the-chariot-tarot-card-meaning.webp"
+    }
   ],
   "inbound_links": {
-    "the-magician-tarot-card-meaning": ["the-magician-reversed-focus", "the-high-priestess-tarot-card-meaning"],
-    "the-high-priestess-tarot-card-meaning": ["the-high-priestess-reversed-listening", "the-magician-tarot-card-meaning"],
-    "the-chariot-tarot-card-meaning": ["the-chariot-reversed-reset-direction"]
+    "the-magician-tarot-card-meaning": [
+      "the-magician-reversed-focus",
+      "the-high-priestess-tarot-card-meaning"
+    ],
+    "the-high-priestess-tarot-card-meaning": [
+      "the-high-priestess-reversed-listening",
+      "the-magician-tarot-card-meaning"
+    ],
+    "the-chariot-tarot-card-meaning": [
+      "the-chariot-reversed-reset-direction"
+    ]
   },
-  "meta_title_tunes": ["888-angel-number-meaning", "128-angel-number-meaning", "thinking-about-ex-spiritual-meaning", "taurus-zodiac-dates"],
+  "meta_title_tunes": [
+    "888-angel-number-meaning",
+    "128-angel-number-meaning",
+    "thinking-about-ex-spiritual-meaning",
+    "taurus-zodiac-dates"
+  ],
   "pack": "pack-21.json",
-  "index_requests": "paused per Google try-again-later Oct 29, per main"
+  "index_requests": "paused per Google try-again-later Oct 29, per main",
+  "announcement_bar": "Layout.tsx ANN slide 1 changed from stale 'Halloween at the studio: personal readings from $5' to 'Personal readings from $5, delivered by email'. $5 claim verified against src/data/etsyListings.ts (five live $5 readings). Home.tsx Halloween sale section left untouched; flagged to main for Het's decision."
 }

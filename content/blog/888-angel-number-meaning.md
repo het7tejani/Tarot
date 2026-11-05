@@ -48,6 +48,10 @@ Draw one card and ask what needs a fairer exchange in your life. Write the first
 
 For the number that marks a start rather than a result, read the [111 angel number meaning](/blog/111-angel-number-meaning).
 
+## 888 and 555
+
+People often see [555, the number of change in motion](/blog/555-angel-number-meaning), before 888 appears. 555 marks the middle of a shift; 888 marks the cycle completing and renewing. If both keep showing up, read the 555 guide alongside this one and look at what changed in the last few months.
+
 ## Questions about seeing 888
 
 ### Is 888 always good luck?

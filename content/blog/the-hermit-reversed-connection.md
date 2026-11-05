@@ -90,4 +90,6 @@ Tarot here is for entertainment and personal reflection, not medical, legal or f
 
 ## More reflections from the studio
 
+For the upright card, our full guide to [the Hermit tarot card meaning](/blog/the-hermit-tarot-card-meaning) covers the lantern, the mountain and the timing.
+
 Visit [The Psychic Studio on Tumblr](https://thepsychicstudio.tumblr.com) for our shorter Hermit reversed reflection and other tarot notes.

@@ -1,0 +1,57 @@
+{
+  "date": "2026-11-05",
+  "gsc_basis": "GSC 28d through ~Nov 2 (read Nov 5): 19 clicks, 4.27K impressions, avg position 68.3. Zero-coverage gaps chosen: six of pentacles tarot card meaning (competitor volume 9900, KD 25, P1 workbook), 555 angel number meaning (246000, KD high, P2 volume play), the hermit tarot card meaning (series continuation after Magician, High Priestess, Chariot). Position 11-50 tunes applied: strength tarot card upright card keywords (17 imp @ 18.1) and strength tarot card reversed card keywords (10 @ 23.9, prior meta title lacked 'tarot card' and 'keywords').",
+  "posts": [
+    {
+      "slug": "six-of-pentacles-tarot-card-meaning",
+      "photos": [
+        "35237380",
+        "7157571",
+        "31188751"
+      ],
+      "cover": "cover-six-of-pentacles-tarot-card-meaning.webp"
+    },
+    {
+      "slug": "555-angel-number-meaning",
+      "photos": [
+        "28574011",
+        "16183797",
+        "18425298"
+      ],
+      "cover": "cover-555-angel-number-meaning.webp"
+    },
+    {
+      "slug": "the-hermit-tarot-card-meaning",
+      "photos": [
+        "30567896",
+        "11481770",
+        "34742649"
+      ],
+      "cover": "cover-the-hermit-tarot-card-meaning.webp"
+    }
+  ],
+  "inbound_links": {
+    "the-hermit-tarot-card-meaning": [
+      "the-hermit-reversed-connection"
+    ],
+    "555-angel-number-meaning": [
+      "888-angel-number-meaning"
+    ],
+    "six-of-pentacles-tarot-card-meaning": [
+      "333-angel-number-money"
+    ]
+  },
+  "seo_tunes": [
+    {
+      "slug": "strength-tarot-card-upright-meaning",
+      "change": "metaTitle -> Strength Tarot Card Upright: Keywords, Love, Career",
+      "target_query": "strength tarot card upright card keywords (17 imp @ 18.1)"
+    },
+    {
+      "slug": "strength-reversed-gentler-confidence",
+      "change": "metaTitle -> Strength Tarot Card Reversed: Keywords and Meaning",
+      "target_query": "strength tarot card reversed card keywords (10 @ 23.9); prior title lacked tarot card and keywords"
+    }
+  ],
+  "image_pack": "public/blog-images/pack-22.json"
+}

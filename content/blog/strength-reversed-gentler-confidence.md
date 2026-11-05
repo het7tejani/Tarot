@@ -3,7 +3,7 @@ title: "Strength Reversed: A Gentler Way to Explore Confidence"
 category: "Tarot Guides"
 date: "2026-10-16"
 excerpt: "Explore Strength reversed through self-doubt, patience and personal limits. Use grounded reflection prompts without treating a tarot card as a health diagnosis."
-metaTitle: "Strength Reversed: Confidence Guide | The Psychic Studio"
+metaTitle: "Strength Tarot Card Reversed: Keywords and Meaning | The Psychic Studio"
 coverImage: "/tarot/strength.jpg"
 published: "true"
 ---

@@ -67,7 +67,7 @@ If a ritual is comforting, keep it separate from financial commitments. Seeing 3
 
 ## A two-card reflection about resources
 
-You can connect these questions with tarot without claiming that the systems predict the same outcome. [Three of Pentacles](/tarot-card-meanings/three-of-pentacles) offers themes of skill and collaboration; [Six of Pentacles](/tarot-card-meanings/six-of-pentacles) invites reflection on giving and receiving.
+You can connect these questions with tarot without claiming that the systems predict the same outcome. [Three of Pentacles](/tarot-card-meanings/three-of-pentacles) offers themes of skill and collaboration; [Six of Pentacles](/tarot-card-meanings/six-of-pentacles) invites reflection on giving and receiving, and our [Six of Pentacles meaning guide](/blog/six-of-pentacles-tarot-card-meaning) walks the card in full.
 
 Draw one card for a resource you may be overlooking and one for a question that deserves attention. Record a practical action beside each. The [888 money and balance article](/blog/888-angel-number-meaning) explores a related symbolic theme without promising a windfall.
 

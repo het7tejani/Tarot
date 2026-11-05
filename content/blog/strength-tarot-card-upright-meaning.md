@@ -4,7 +4,7 @@ category: "Tarot Guides"
 date: "2026-10-29"
 excerpt: "Strength upright is about patience, courage and calm self-control. See the keywords, the love and career readings, and how to read the card."
 coverImage: "/tarot/strength.jpg"
-metaTitle: "Strength Tarot Card Upright: Keywords and Meaning | The Psychic Studio"
+metaTitle: "Strength Tarot Card Upright: Keywords, Love, Career | The Psychic Studio"
 published: "true"
 ---
 

@@ -1,0 +1,30 @@
+{
+  "date": "2026-11-05",
+  "rules": "Answers carry no site links. Check each question page for an existing The Psychic Studio answer before posting (one per account per question). If the question_url 404s or collides, find the closest unanswered general question via external web search (on-site search unreliable).",
+  "answers": [
+    {
+      "n": 1,
+      "question": "What does the Six of Pentacles tarot card mean?",
+      "question_url": "https://www.quora.com/What-does-the-Six-of-Pentacles-tarot-card-mean",
+      "text": "The Six of Pentacles shows a wealthy figure weighing coins on a scale, giving to two kneeling people. It is the card of giving, receiving and the balance of power that sits underneath both.\n\nIn a reading it usually means resources are moving: help arriving, a debt repaid, a favor offered. The card asks you to notice which side of the scale you are on. Giving well means giving without keeping score. Receiving well means accepting help without turning it into shame.\n\nIt also carries a quiet warning. Generosity can become control when the giver expects loyalty in return. Readers often pull this card around money questions, workplace dynamics and family help with strings attached.\n\nReversed, the card can point to one-sided giving, unpaid debts, or charity that buys power instead of doing good.",
+      "used": false,
+      "posted": false
+    },
+    {
+      "n": 2,
+      "question": "What does the 555 angel number mean?",
+      "question_url": "https://www.quora.com/What-does-the-555-angel-number-mean",
+      "text": "In numerology, 5 is the number of change, movement and the five senses. Repeated three times, 555 is usually read as change already in motion, not change you are still deciding about.\n\nPeople tend to notice 555 in transitional weeks: a move, a new job, a relationship shift. Readers treat it as a nudge to stop gripping the old plan and move with what is actually happening.\n\nThe grounded way to use it: when you keep seeing 555, write down what changed in the last month and what you have been avoiding because of it. The number is a prompt for reflection, not a prediction of what comes next.\n\nSkeptics note that once a number is on your mind, you spot it everywhere, and that is a fair point. The value of 555 is the pause it creates, not the digit itself.",
+      "used": false,
+      "posted": false
+    },
+    {
+      "n": 3,
+      "question": "What does the Hermit tarot card mean?",
+      "question_url": "https://www.quora.com/What-does-the-Hermit-tarot-card-mean",
+      "text": "The Hermit stands alone on a mountain holding a lantern with a six-pointed star inside. It is the card of chosen solitude: stepping back from noise to find your own answer.\n\nIn a reading it usually means the answer is not in more opinions. It is in time alone, honest reflection and maybe guidance from someone who has walked the path before. Readers often pull it during burnout, big decisions or grief, when outside input has stopped helping.\n\nThe Hermit is not about hiding. The lantern stays lit, which means the withdrawal has a purpose: you go in to find something, then you bring it back.\n\nReversed, the card can point to isolation that has stopped being useful, loneliness dressed up as independence, or refusing counsel you actually need.",
+      "used": false,
+      "posted": false
+    }
+  ]
+}

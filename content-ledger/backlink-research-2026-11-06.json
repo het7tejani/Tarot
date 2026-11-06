@@ -1,0 +1,45 @@
+{
+  "date": "2026-11-06",
+  "result": "No new referring-domain backlink landed. New-account route requires office PC; no signup or outreach sent.",
+  "candidate": {
+    "name": "The Astrology Directory",
+    "url": "https://theastrologydirectory.com/list-for-free",
+    "terms": "https://theastrologydirectory.com/terms",
+    "privacy": "https://theastrologydirectory.com/privacy",
+    "verified": "Official pages state free website/studio listings, website link included, no fees/subscriptions/commissions, account required, admin review before publication. New account must be created on user office PC. Search did not find brand listing but is not proof of absence; check directory before creating duplicate.",
+    "copy_draft": "The Psychic Studio publishes tarot card meanings, zodiac guides and free tarot draws. Its guides use symbolism as a prompt for personal reflection, not a promise of future events.",
+    "not_verified": "No account created. Eligibility, final form fields, author verification and backlink attributes not verified."
+  },
+  "rejected": [
+    {
+      "url": "https://tarot-free.com/write-for-us/",
+      "reason": "Official page charges EUR50 per guest post; free-only rule."
+    },
+    {
+      "url": "https://www.astrologyanswers.com/pages/write-for-us/",
+      "reason": "Official page says not currently accepting articles."
+    },
+    {
+      "url": "https://astrorasa.com/write-for-us",
+      "reason": "Does not accept articles written entirely by AI; no submission prepared."
+    },
+    {
+      "url": "https://astrologylo.com/write-for-us/",
+      "reason": "Does not accept AI-generated text; no submission prepared."
+    },
+    {
+      "url": "https://bestpsychicdirectory.com/pgetlisted.html",
+      "reason": "Requires real first/last name, real headshot and reciprocal link. Brand-only identity cannot satisfy; no application."
+    }
+  ],
+  "unresolved": [
+    {
+      "url": "https://tarotup.com/write-for-us-tarot-share-your-mystical-wisdom-and-divination-expertise/",
+      "reason": "Editorial page found but free status unconfirmed and personal experience/professional-photo requirements not grounded."
+    },
+    {
+      "url": "https://www.tarotreading.mobi/psychicdirectory/getlisted.htm",
+      "reason": "Calls for genuine psychic mediums. Does not establish fit for brand publishing tarot/astrology reflection guides."
+    }
+  ]
+}

@@ -100,5 +100,12 @@
   ],
   "build": "All npm run build component commands passed; client/SSR/prerender/SEO/crawl/markdown run sequentially in separate calls because combined build exceeded per-call runtime.323 canonical indexable routes does not establish Google index status.",
   "psi": "429 quota unchanged",
-  "clarity": "2 sessions last3days. Viewed recording homepage->shop->soulmate reading; second listed Google visitor seven-of-wands exit after9sec. No JS errors/rage/dead clicks. Insufficient sample for layout changes."
+  "clarity": "Both last3day recordings watched to end. US mobile64sec homepage->shop->soulmate detail. France Google9sec SevenWands,0clicks.2sessions, insufficient for layout conclusion.",
+  "verification": {
+    "live_at": "2026-11-06T09:44:00+05:30",
+    "all_three_posts": "HTTP200, correct title/canonical, original covers visually checked. Live article bodies and first stock photos inspected after reveal fix. All9stock photo URLs checked.",
+    "visibility_fix": "20f8cc4 excludes .st-journal-copy from reveal animation. Long article could not meet12percent IntersectionObserver threshold and remained opacity0. Live fixed body opacity1 with rendered screenshots for all3.",
+    "homepage": "No homepage or promo changes."
+  },
+  "backlink_research": "content-ledger/backlink-research-2026-11-06.json; no new domain landed; candidate requires officePC new account"
 }

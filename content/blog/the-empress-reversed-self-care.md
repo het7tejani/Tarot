@@ -81,3 +81,5 @@ It does not predict a breakup. If something feels unbalanced, examine the situat
 Yes. Readers use different methods. Decide how you will read the deck before drawing rather than changing the method to obtain a preferred answer.
 
 Tarot here is for entertainment and personal reflection, not medical, legal or financial advice.
+
+For the wider card, read [the Empress tarot meaning](/blog/the-empress-tarot-card-meaning), including its symbols and creative-life reflections.

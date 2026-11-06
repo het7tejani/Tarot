@@ -63,3 +63,5 @@ It sits in Taurus, the steady earth sign, which fits its themes of material secu
 
 **How is it different from the High Priestess approach to intuition?**
 The High Priestess works in silence and inner knowing, and our [High Priestess meaning guide](/blog/the-high-priestess-tarot-card-meaning) covers that card in full. The Six of Pentacles works in the visible world: coins, hands and ledgers. One listens, the other counts, and a good week usually needs both.
+
+For the teamwork side of practical life, read [the Three of Pentacles meaning](/blog/three-of-pentacles-tarot-card-meaning). It asks how different skills can support a shared task.

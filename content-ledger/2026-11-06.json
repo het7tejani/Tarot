@@ -1,0 +1,104 @@
+{
+  "date": "2026-11-06",
+  "selection": "May14: GSC query may 14 zodiac, 3 impressions position40.3. One date post only. Remaining new posts fill workbook gaps: three of pentacles9900/KD27 and the empress tarot22200/KD7, archived Oct6 estimates, not current demand. Existing position11-50 clusters retained on their current pages.",
+  "posts": [
+    {
+      "slug": "three-of-pentacles-tarot-card-meaning",
+      "photos": [
+        "33753646",
+        "33753649",
+        "33753655"
+      ],
+      "cover": "cover-three-of-pentacles-tarot-card-meaning.webp"
+    },
+    {
+      "slug": "the-empress-tarot-card-meaning",
+      "photos": [
+        "38336805",
+        "37887868",
+        "34109927"
+      ],
+      "cover": "cover-the-empress-tarot-card-meaning.webp"
+    },
+    {
+      "slug": "may-14-zodiac-sign",
+      "photos": [
+        "37507858",
+        "37549041",
+        "13044748"
+      ],
+      "cover": "cover-may-14-zodiac-sign.webp"
+    }
+  ],
+  "image_pack": "public/blog-images/pack-23.json",
+  "seo_tunes": [
+    {
+      "slug": "queen-of-wands-as-feelings",
+      "change": "Title/excerpt and body/FAQ: upright/reversed query intent; removed claims that tarot proves attraction/exclusivity or predicts action. GSC feelings variants at positions47-48.5 contain comma-stat strings, so treat search-demand interpretation cautiously."
+    },
+    {
+      "slug": "libra-dates",
+      "change": "Meta title September/October zodiac wording; excerpt removes best-match claim. Query libra date:3 impressions position29.7, libra dates19 position54.2."
+    }
+  ],
+  "inbound_links": {
+    "three-of-pentacles-tarot-card-meaning": [
+      "six-of-pentacles-tarot-card-meaning"
+    ],
+    "the-empress-tarot-card-meaning": [
+      "the-empress-reversed-self-care",
+      "queen-of-wands-as-feelings"
+    ],
+    "may-14-zodiac-sign": [
+      "taurus-zodiac-dates"
+    ]
+  },
+  "gsc": {
+    "read_at": "2026-11-06",
+    "period": "Oct7-Nov3 2026, 28 days",
+    "clicks": 21,
+    "impressions_display": "4.98K",
+    "average_position": 69.4,
+    "daily": [
+      {
+        "date": "2026-11-03",
+        "clicks": 2,
+        "impressions": 712,
+        "position": 76.5
+      },
+      {
+        "date": "2026-11-02",
+        "clicks": 0,
+        "impressions": 404,
+        "position": 66.5
+      },
+      {
+        "date": "2026-11-01",
+        "clicks": 1,
+        "impressions": 209,
+        "position": 63.2
+      },
+      {
+        "date": "2026-10-31",
+        "clicks": 1,
+        "impressions": 220,
+        "position": 62.2
+      }
+    ],
+    "pages_baseline": {
+      "as_of": "2026-10-23",
+      "indexed": 187,
+      "not_indexed": 96
+    },
+    "new_url_inspections": []
+  },
+  "sources": [
+    "https://www.keen.com/articles/tarot/3-of-pentacles-tarot-card",
+    "https://www.practicaltarot.co.uk/musings-feed/2020the-empress-and-the-threes-in-tarot",
+    "https://mychartcheck.com/zodiac/may-14/",
+    "https://www.pexels.com/license/"
+  ],
+  "build": "All npm run build component commands passed; client/SSR/prerender/SEO/crawl/markdown run sequentially in separate calls because combined build exceeded per-call runtime.323 canonical indexable routes does not establish Google index status.",
+  "psi": "429 quota unchanged",
+  "clarity": "2 sessions last3days. Viewed recording homepage->shop->soulmate reading; second listed Google visitor seven-of-wands exit after9sec. No JS errors/rage/dead clicks. Insufficient sample for layout changes."
+}

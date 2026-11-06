@@ -78,3 +78,5 @@ Born just after the Aries edge? Read the [April 22 zodiac sign](/blog/april-22-z
 
 
 Looking for the months instead of the exact dates? See [which month is Taurus](/blog/taurus-month-and-dates).
+
+Born in the middle of the season? Our [May 14 zodiac guide](/blog/may-14-zodiac-sign) explains Taurus and the third-decan Seven of Pentacles association.

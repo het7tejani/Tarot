@@ -2,9 +2,9 @@
 title: "Libra Dates: When Libra Season Starts and What the Sign Means"
 category: "Astrology"
 date: "2026-10-23"
-excerpt: "Libra dates run from September 23 to October 22 in most years. Here is where the boundaries fall, what the seventh sign is like, and who it loves best."
+excerpt: "Libra dates run from September 23 to October 22 in most years. Here is where the boundaries fall, what the seventh sign is like, and how to check a boundary birthday."
 coverImage: "/perf-assets/signs/libra.svg"
-metaTitle: "Libra Dates: September 23 to October 22 | The Psychic Studio"
+metaTitle: "Libra Dates: September and October Zodiac Sign | The Psychic Studio"
 published: "true"
 ---
 

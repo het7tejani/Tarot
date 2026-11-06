@@ -4,7 +4,7 @@ import './studio.css';
 import { RouteSEO } from '../components/RouteSEO';
 import { SiteSearch } from './SiteSearch';
 const NAV: [string, string][] = [['/', 'Home'], ['/shop', 'Shop'], ['/free-tarot', 'Free Tarot'], ['/horoscope', 'Horoscope'], ['/blog', 'Blog'], ['/contact', 'Contact']];
-const REVEAL_SEL = 'main section:not(:first-child) h2, main section:not(:first-child) .st-card, main .st-prod, main article, main .st-sec > .wrap > p, main .faq > div, main .st-grid > *, main .grid > article';
+const REVEAL_SEL = 'main section:not(:first-child) h2, main section:not(:first-child) .st-card, main .st-prod, main article:not(.st-journal-copy), main .st-sec > .wrap > p, main .faq > div, main .st-grid > *, main .grid > article';
 const useReveal = (pathname: string) => {
   useEffect(() => {
     if (pathname === '/free-tarot' || typeof window === 'undefined' || !('IntersectionObserver' in window) || window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;

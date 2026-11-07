@@ -2,19 +2,57 @@
   "date": "2026-11-07",
   "selection": "GSC 28d Oct7-Nov4, brand account, data to Nov4: June19 has two query variants at positions33-36, so it is the single date post. Knight of Swords and Queen of Pentacles are high-volume workbook gaps (22200 estimated searches each, archived Oct6 estimates) after current position11-50 candidates that already had pages were excluded.",
   "posts": [
-    {"slug":"knight-of-swords-tarot-card-meaning","photos":["29140947","29189099","2046779"],"cover":"cover-knight-of-swords-tarot-card-meaning.webp"},
-    {"slug":"queen-of-pentacles-tarot-card-meaning","photos":["6774947","8369589","11391951"],"cover":"cover-queen-of-pentacles-tarot-card-meaning.webp"},
-    {"slug":"june-19-zodiac-sign","photos":["30725902","19191050","4759631"],"cover":"cover-june-19-zodiac-sign.webp"}
+    {
+      "slug": "knight-of-swords-tarot-card-meaning",
+      "photos": [
+        "29140947",
+        "29189099",
+        "2046779"
+      ],
+      "cover": "cover-knight-of-swords-tarot-card-meaning.webp"
+    },
+    {
+      "slug": "queen-of-pentacles-tarot-card-meaning",
+      "photos": [
+        "6774947",
+        "8369589",
+        "11391951"
+      ],
+      "cover": "cover-queen-of-pentacles-tarot-card-meaning.webp"
+    },
+    {
+      "slug": "june-19-zodiac-sign",
+      "photos": [
+        "30725902",
+        "19191050",
+        "4759631"
+      ],
+      "cover": "cover-june-19-zodiac-sign.webp"
+    }
   ],
   "image_pack": "public/blog-images/pack-24.json",
   "seo_tunes": [
-    {"slug":"most-psychic-zodiac-signs","change":"Title and excerpt now include exact ranked query wording; existing page already held GSC position11 for 'most psychic zodiac signs ranked'."},
-    {"slug":"scorpio-horoscope-and-tarot-cards","change":"Title, excerpt and meta now target Scorpio tarot wording; existing page already held GSC position30 for 'scorpio tarot'."}
+    {
+      "slug": "most-psychic-zodiac-signs",
+      "change": "Title and excerpt now include exact ranked query wording; existing page already held GSC position11 for 'most psychic zodiac signs ranked'."
+    },
+    {
+      "slug": "scorpio-horoscope-and-tarot-cards",
+      "change": "Title, excerpt and meta now target Scorpio tarot wording; existing page already held GSC position30 for 'scorpio tarot'."
+    }
   ],
   "inbound_links": {
-    "knight-of-swords-tarot-card-meaning":["the-chariot-tarot-card-meaning"],
-    "queen-of-pentacles-tarot-card-meaning":["the-empress-tarot-card-meaning","six-of-pentacles-tarot-card-meaning"],
-    "june-19-zodiac-sign":["gemini-zodiac-dates","cancer-zodiac-dates"]
+    "knight-of-swords-tarot-card-meaning": [
+      "the-chariot-tarot-card-meaning"
+    ],
+    "queen-of-pentacles-tarot-card-meaning": [
+      "the-empress-tarot-card-meaning",
+      "six-of-pentacles-tarot-card-meaning"
+    ],
+    "june-19-zodiac-sign": [
+      "gemini-zodiac-dates",
+      "cancer-zodiac-dates"
+    ]
   },
   "gsc": {
     "read_at": "2026-11-07T09:18+05:30",
@@ -24,12 +62,36 @@
     "impressions_display": "6.07K",
     "average_position": 70.5,
     "daily": [
-      {"date":"2026-11-04","clicks":29,"impressions":1093,"position":75.4},
-      {"date":"2026-11-03","clicks":2,"impressions":712,"position":76.5},
-      {"date":"2026-11-02","clicks":0,"impressions":404,"position":66.5},
-      {"date":"2026-11-01","clicks":1,"impressions":209,"position":63.2}
+      {
+        "date": "2026-11-04",
+        "clicks": 29,
+        "impressions": 1093,
+        "position": 75.4
+      },
+      {
+        "date": "2026-11-03",
+        "clicks": 2,
+        "impressions": 712,
+        "position": 76.5
+      },
+      {
+        "date": "2026-11-02",
+        "clicks": 0,
+        "impressions": 404,
+        "position": 66.5
+      },
+      {
+        "date": "2026-11-01",
+        "clicks": 1,
+        "impressions": 209,
+        "position": 63.2
+      }
     ],
-    "pages_baseline": {"as_of":"2026-10-23","indexed":187,"not_indexed":96},
+    "pages_baseline": {
+      "as_of": "2026-10-23",
+      "indexed": 187,
+      "not_indexed": 96
+    },
     "new_url_inspections": []
   },
   "sources": [
@@ -45,9 +107,37 @@
     "https://docs.google.com/spreadsheets/d/1bsS3NyT-H2a1JQVY2wc4ZQwtXHF5bXSE/edit?usp=drivesdk&ouid=116686889569689261879&rtpof=true&sd=true&authuser=contact.thepsychicstudio%40gmail.com"
   ],
   "build": "npm run lint and full npm run build passed: client, SSR, prerender 330 routes, SEO 326 canonical routes, crawl readiness 326, markdown 334 HTML files.",
-  "psi": "pending",
-  "clarity": "pending",
-  "verification": {"live_at": null, "status": "pending deployment"},
+  "psi": "PageSpeed Insights retry at 2026-11-07T09:28+05:30 returned HTTP429: daily quota exhausted for pagespeedonline.googleapis.com project 583797351490. No score available today.",
+  "clarity": "Brand Clarity last-3-days review at 2026-11-07T09:28+05:30: 1 recording, no users online; Nov5 mobile Safari US visit entered homepage, exited soulmate-and-future-relationship, 1:04, 2 clicks, 3 pages. No new UX action from this single old recording.",
+  "verification": {
+    "live_at": "2026-11-07T09:32+05:30",
+    "status": "All three post URLs returned HTTP200. Live HTML contains each cover and all three Pexels webp sources. Browser screenshots inspected the first stock image and article layout for each post; no opacity or rendering issue seen.",
+    "posts": {
+      "knight-of-swords-tarot-card-meaning": {
+        "http": 200,
+        "cover": true,
+        "photos": true,
+        "visual": "Knight stock image and article layout inspected"
+      },
+      "queen-of-pentacles-tarot-card-meaning": {
+        "http": 200,
+        "cover": true,
+        "photos": true,
+        "visual": "Plant and coins stock image and article layout inspected"
+      },
+      "june-19-zodiac-sign": {
+        "http": 200,
+        "cover": true,
+        "photos": true,
+        "visual": "Twin portrait stock image and article layout inspected"
+      }
+    }
+  },
   "quora": "Library prepared, all 3 submissions deferred because Nov6 publication is unverified and parent directed no same-route retries without a new signal.",
-  "backlinks": "The Astrology Directory remains ready but blocked on user's office-PC choice; no account or submission."
+  "backlinks": "The Astrology Directory remains ready but blocked on user's office-PC choice; no account or submission.",
+  "social": {
+    "pinterest": "https://in.pinterest.com/pin/1109715164523505864/",
+    "tumblr": "https://www.tumblr.com/thepsychicstudio/832594648500453376/the-hermit-make-room-for-your-own-answer",
+    "buffer": "Nov8 Six of Pentacles and Nov9 Queen of Pentacles drafts are ready. Nov9 Pinterest image created. Medium remains office-PC draft only."
+  }
 }

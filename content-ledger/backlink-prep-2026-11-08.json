@@ -1,0 +1,123 @@
+{
+  "date": "2026-11-08",
+  "prepared_at": "2026-11-08T04:25+05:30",
+  "scope": "OfficeMe backlink account and listing submission completed through The Astrology Directory. No optional image, badge, outreach or site edit was made. Listing is pending directory review.",
+  "authority": {
+    "current_user_instruction": {
+      "message_id": "wamid.HBgMOTE5NzIzMjk4NjA2FQIAEhggQUM0Mjg1MEZBMjFFMjM5NEU3RTgxMkM5ODM2NTg1RTcA",
+      "received_at": "2026-11-08T04:22:26+05:30",
+      "text": "Ane backlink nu kam kam psychic studio vala mail ma karva mand"
+    },
+    "pc_selection": {
+      "message_id": "wamid.HBgMOTE5NzIzMjk4NjA2FQIAEhggQUNDMTFDOTZGNDY1MUQwQ0VCNTUyODkzQ0U2NUVENDkA",
+      "received_at": "2026-11-08T04:22:35+05:30",
+      "text": "E j pc ma"
+    },
+    "chrome_profile_constraint": {
+      "message_id": "wamid.HBgMOTE5NzIzMjk4NjA2FQIAEhggQUM2MTAyMjgzQTc3N0E3NTJEQTU2QTRFNzRGMzAxQ0EA",
+      "received_at": "2026-11-08T04:22:58+05:30",
+      "text": "Dhyan rakhje chrome thepsychicstudio valu j use thay"
+    },
+    "brand_email": "contact.thepsychicstudio@gmail.com"
+  },
+  "selected_route": {
+    "name": "The Astrology Directory",
+    "reason": "Best-fit niche route from prior screening. Official pages state free website/studio listings, website links included, manual review, no subscription or commission for the free listing.",
+    "sources": [
+      "https://theastrologydirectory.com/list-for-free",
+      "https://theastrologydirectory.com/register?next=/add-listing",
+      "https://theastrologydirectory.com/add-listing",
+      "https://theastrologydirectory.com/terms",
+      "https://theastrologydirectory.com/how-we-verify"
+    ],
+    "duplicate_check": {
+      "gmail_account": "contact.thepsychicstudio@gmail.com",
+      "query": "theastrologydirectory.com OR \"The Astrology Directory\"",
+      "result": "0 matching emails found at 2026-11-08T04:24+05:30. This supports no known prior signup, but does not prove no public listing exists."
+    }
+  },
+  "account_draft": {
+    "name": "The Psychic Studio",
+    "email": "contact.thepsychicstudio@gmail.com",
+    "password_rule": "Generate a new 12 to 128 character password in the vault during signup on OfficeMe. Do not create a new Chrome profile.",
+    "terms_checkbox": "Accept only after reviewing the current terms and privacy policy in the live session."
+  },
+  "listing_draft_pending_public_copy_approval": {
+    "approval_state": "Pending main/user approval before any external listing submission. Do not treat these words or optional public fields as settled instructions.",
+    "listingType": "website",
+    "name": "The Psychic Studio",
+    "title": "Free tarot, horoscope and compatibility guides",
+    "email": "contact.thepsychicstudio@gmail.com",
+    "country": "India",
+    "city": "Surat",
+    "traditions": [
+      "Western astrology"
+    ],
+    "specializations": [
+      "Compatibility"
+    ],
+    "languages": [
+      "English"
+    ],
+    "bio": "The Psychic Studio publishes free tarot readings, all 78 tarot card meanings, daily horoscope reflections, zodiac compatibility guides and numerology tools. It also offers written personal readings by email. The site frames cards, signs and numbers as prompts for reflection, not promises of future events.",
+    "credentials": "",
+    "website": "https://thepsychicstudio.com",
+    "bookingUrl": "https://thepsychicstudio.com/contact",
+    "online": true,
+    "inPerson": false,
+    "imagePath": "Omit. The optional image was not presented for approval. If the live form requires an image or it becomes materially useful, request separate approval before upload.",
+    "consent": "I own or represent this listing, confirm the information is accurate, and agree to the terms and privacy policy.",
+    "claim_grounding": {
+      "western_astrology": "Site blog pages explicitly discuss Western astrology, for example https://thepsychicstudio.com/blog/may-31-zodiac-sign and https://thepsychicstudio.com/blog/taurus-month-and-dates.",
+      "compatibility": "The live compatibility hub and 78 sign-pair pages are under https://thepsychicstudio.com/zodiac-compatibility.",
+      "free_tarot": "https://thepsychicstudio.com/free-tarot",
+      "all_78_card_meanings": "https://thepsychicstudio.com/tarot-card-meanings",
+      "daily_horoscope_reflections": "https://thepsychicstudio.com/horoscope",
+      "numerology_tools": "https://thepsychicstudio.com/numerology",
+      "written_readings_by_email": "https://thepsychicstudio.com/contact",
+      "surat_india": "Grounded in the user's prior Trustpilot location decision recorded in memory; still included in this approval request because this would be a new public directory audience."
+    }
+  },
+  "execution_runbook": [
+    "Wait for main to confirm the OfficeMe session can be shared safely after the video worker finishes its immediate status or collection step.",
+    "Use only the existing The Psychic Studio Chrome profile on OfficeMe and the verified contact.thepsychicstudio@gmail.com context.",
+    "Open https://theastrologydirectory.com/register?next=/add-listing and create the account as The Psychic Studio with the brand email.",
+    "Save the generated password in the vault and complete any brand-email verification if the site sends one.",
+    "Open the add-listing flow, select Astrology website, and enter the prepared listing draft.",
+    "Review the final preview against the live page before publishing. Do not add any site badge or reciprocal link.",
+    "After publication or review acceptance, capture the live listing URL, account/dashboard URL and timestamp, then update the ledger."
+  ],
+  "remaining_blocker": "Directory manual review is pending. No live public backlink URL exists yet.",
+  "public_copy_approval": {
+    "proposal_message_id": "wamid.HBgMOTE5NzIzMjk4NjA2FQIAERgSM0E3N0EwMDJDMUU3Q0NEMTc1AA==",
+    "proposal_sent_at": "2026-11-08T04:26:41+05:30",
+    "approval_message_id": "wamid.HBgMOTE5NzIzMjk4NjA2FQIAEhggQUM0N0VDRjk3MTAzNDAzNDZFMTY0QTA0QTM1Qzc3RDUA",
+    "approval_received_at": "2026-11-08T09:08:19+05:30",
+    "approval_text": "Backlink banavi de",
+    "reply_to_message_id": "wamid.HBgMOTE5NzIzMjk4NjA2FQIAERgSMTM4OTdBMjA4N0M1NUMzOEVFAA==",
+    "interpretation": "User replied to the status that explicitly said the sent directory details/bio approval was pending, directing the backlink to be made."
+  },
+  "submission_result": {
+    "submitted_at": "2026-11-08T09:09:31+05:30",
+    "account_created": true,
+    "account_name": "The Psychic Studio",
+    "account_email": "contact.thepsychicstudio@gmail.com",
+    "vault_entry": "The Astrology Directory - The Psychic Studio",
+    "lease_id": "L-xjsnfvqc6q3p2bqabp5dwqzl6y",
+    "config": "config-c",
+    "status": "pending",
+    "dashboard_url": "https://theastrologydirectory.com/dashboard",
+    "edit_url": "https://theastrologydirectory.com/add-listing?edit=c47db156-1504-47e4-b597-0e34016c347c",
+    "confirmation_text": "Your free listing has been submitted. We’ll check it for accuracy and spam before it goes live. Follow its publication status in your dashboard.",
+    "dashboard_observed": "1 listing, The Psychic Studio, pending; submitted 08/11/2026.",
+    "review_screenshot": "/downloads/cloud-browser-20261108-033927.png",
+    "dashboard_screenshot": "/downloads/cloud-browser-20261108-033944.png",
+    "confirmation_email": "No matching The Astrology Directory email found in contact.thepsychicstudio@gmail.com at 2026-11-08T09:09:52+05:30.",
+    "monitoring": "Recurring wake wakeschedule-01M6WKVSKQWMHWC9T2GVXRAENS checks approval state every 360 minutes with a relevance trigger.",
+    "saved_session_verified": {
+      "verified_at": "2026-11-08T09:10:30+05:30",
+      "read_lease_id": "L-ruef6o3stbkcxafnjm2xxuqubu",
+      "result": "Config-c read lease opened the dashboard with the saved session, showing The Psychic Studio pending and the same edit URL."
+    }
+  }
+}

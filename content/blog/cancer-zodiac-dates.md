@@ -52,6 +52,8 @@ Look up any pair in the [compatibility guide](/zodiac-compatibility), and open y
 
 Cancer season opens with the longest day of the year in the Northern Hemisphere. Many Cancers say they feel the pull toward home, family and a quiet night in. The timing fits a sign that treats the front door as the center of the world.
 
+A [June 19 birthday](/blog/june-19-zodiac-sign) usually remains Gemini. A birth chart settles any edge-date question for your birth year, time and place.
+
 ## Cancer questions
 
 **What are the Cancer dates?**

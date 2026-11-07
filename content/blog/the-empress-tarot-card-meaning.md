@@ -64,6 +64,8 @@ Choose one thing you want to support. Name what it needs in practical terms. A t
 
 Then name what you cannot provide. That second answer matters. Care that ignores your capacity can become resentment. You can be generous without promising unlimited access to your time.
 
+For the practical, daily side of the same care theme, read the [Queen of Pentacles](/blog/queen-of-pentacles-tarot-card-meaning). She turns nourishment into routines people can rely on.
+
 ## Common questions
 
 **Does the Empress mean pregnancy?**

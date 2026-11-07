@@ -1,10 +1,10 @@
 ---
-title: "Scorpio Horoscope and Tarot: Traits, Cards and a Weekly Check In"
+title: "Scorpio Tarot and Horoscope: Traits, Cards and a Weekly Check In"
 category: "Astrology"
 date: "2026-10-28"
-excerpt: "Reading a Scorpio horoscope today with tarot in mind: what the sign is known for, the cards that match it and a simple weekly reflection."
+excerpt: "Scorpio tarot cards and horoscope themes: what the sign is known for, which cards match it and a simple weekly reflection."
 coverImage: "/perf-assets/signs/scorpio.svg"
-metaTitle: "Scorpio Horoscope and Tarot Cards for Scorpio | The Psychic Studio"
+metaTitle: "Scorpio Tarot Cards and Horoscope Guide | The Psychic Studio"
 published: "true"
 ---
 

@@ -50,6 +50,8 @@ The fix the reversed card suggests is practical. Look at one exchange in your li
 
 The Six of Pentacles rewards concreteness. Pick one resource you have in surplus this week, money, time or attention, and place it deliberately. Ten minutes of real listening counts. So does paying a small debt early. The card is less impressed by the size of the gesture than by the honesty of the weighing.
 
+The [Queen of Pentacles](/blog/queen-of-pentacles-tarot-card-meaning) shows what steady stewardship looks like when care becomes a routine rather than a single exchange.
+
 ## Six of Pentacles: common questions
 
 **Is the Six of Pentacles a yes or no?**

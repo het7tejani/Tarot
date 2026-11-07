@@ -48,6 +48,8 @@ Taurus comes right before Gemini and runs about April 20 to May 20. Cancer comes
 
 For a full list of every sign and its range, see the [zodiac sign dates page](/zodiac-sign-dates). To read about the sign itself, go to the [Gemini zodiac page](/zodiac/gemini). For a sign-specific forecast, see the [Gemini horoscope](/horoscope/gemini).
 
+For a birthday near the end of the sign, the [June 19 zodiac guide](/blog/june-19-zodiac-sign) explains why that date is usually Gemini and when a birth chart is worth checking.
+
 ## FAQ
 
 The sign that follows Gemini is covered in the [Cancer zodiac dates](/blog/cancer-zodiac-dates) guide.

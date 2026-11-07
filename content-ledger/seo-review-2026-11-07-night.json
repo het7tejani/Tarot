@@ -1,0 +1,70 @@
+{
+  "date": "2026-11-07",
+  "reviewed_at": "2026-11-07T23:28+05:30",
+  "scope": "Night live-site SEO spot check after the user's request. Read-only; no site content, homepage, promotional area, index request or remote PC action.",
+  "live_checks": {
+    "robots_txt": {
+      "url": "https://thepsychicstudio.com/robots.txt",
+      "status": 200,
+      "result": "Allows crawling, disallows /admin, references https://thepsychicstudio.com/sitemap.xml."
+    },
+    "sitemap": {
+      "url": "https://thepsychicstudio.com/sitemap.xml",
+      "status": 200,
+      "url_count": 326,
+      "blog_url_count": 86,
+      "nov7_posts_present": [
+        "https://thepsychicstudio.com/blog/knight-of-swords-tarot-card-meaning",
+        "https://thepsychicstudio.com/blog/queen-of-pentacles-tarot-card-meaning",
+        "https://thepsychicstudio.com/blog/june-19-zodiac-sign"
+      ]
+    },
+    "homepage": {
+      "url": "https://thepsychicstudio.com/",
+      "status": 200,
+      "canonical": "https://thepsychicstudio.com/",
+      "meta_description_length": 160,
+      "jsonld_count": 1
+    },
+    "blog_index": {
+      "url": "https://thepsychicstudio.com/blog",
+      "status": 200,
+      "canonical": "https://thepsychicstudio.com/blog",
+      "meta_description_length": 138,
+      "jsonld_count": 1
+    }
+  },
+  "nov7_post_checks": [
+    {
+      "slug": "knight-of-swords-tarot-card-meaning",
+      "status": 200,
+      "canonical_ok": true,
+      "h1_count": 1,
+      "meta_description_length": 151,
+      "image_count": 6,
+      "missing_alt_count": 0,
+      "blog_internal_links": ["/blog/the-chariot-tarot-card-meaning", "/blog/the-hermit-tarot-card-meaning", "/blog/three-of-pentacles-tarot-card-meaning"]
+    },
+    {
+      "slug": "queen-of-pentacles-tarot-card-meaning",
+      "status": 200,
+      "canonical_ok": true,
+      "h1_count": 1,
+      "meta_description_length": 148,
+      "image_count": 6,
+      "missing_alt_count": 0,
+      "blog_internal_links": ["/blog/six-of-pentacles-tarot-card-meaning", "/blog/the-empress-tarot-card-meaning", "/blog/three-of-pentacles-tarot-card-meaning"]
+    },
+    {
+      "slug": "june-19-zodiac-sign",
+      "status": 200,
+      "canonical_ok": true,
+      "h1_count": 1,
+      "meta_description_length": 144,
+      "image_count": 6,
+      "missing_alt_count": 0,
+      "blog_internal_links": ["/blog/cancer-zodiac-dates", "/blog/gemini-zodiac-dates", "/blog/most-psychic-zodiac-signs"]
+    }
+  ],
+  "result": "Live technical spot check found the new posts in the sitemap and serving with one H1, correct canonical, meta description, JSON-LD, and image alt text. No issue requiring a same-night change was found."
+}

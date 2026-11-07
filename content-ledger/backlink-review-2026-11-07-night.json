@@ -1,0 +1,73 @@
+{
+  "date": "2026-11-07",
+  "reviewed_at": "2026-11-07T23:28+05:30",
+  "scope": "Night backlink review only. No new account, remote-PC connection, listing submission, outreach, homepage change or index request.",
+  "gsc_links_live": {
+    "account": "contact.thepsychicstudio@gmail.com",
+    "external_links_total": 15,
+    "top_linked_page": {
+      "url": "https://thepsychicstudio.com/",
+      "links": 15
+    },
+    "top_linking_sites": [
+      {"domain": "deluxeastrology.com", "links": 10},
+      {"domain": "nextdoor.com", "links": 2},
+      {"domain": "trustpilot.com", "links": 2},
+      {"domain": "medium.com", "links": 1}
+    ],
+    "top_linking_text": ["visit website", "thepsychicstudio com", "thepsychicstudio logo", "zur website"],
+    "internal_links_total": 3393
+  },
+  "public_profile_observed": {
+    "url": "https://about.me/thepsychicstudio",
+    "status": "Public page contains links to https://thepsychicstudio.com, but GSC Links did not count about.me in the live top-linking-sites list at review time."
+  },
+  "existing_candidate": {
+    "name": "The Astrology Directory",
+    "url": "https://theastrologydirectory.com/list-for-free",
+    "status": "Still best-fit free candidate, but its official flow requires creating an account. Standing restriction says new directory accounts belong on the user's chosen office PC. No account or submission made."
+  },
+  "new_candidates_screened": [
+    {
+      "name": "OracleHunt",
+      "url": "https://oraclehunt.com/en/submit",
+      "status": "Deferred. Search result says free listing, but requires adding an OracleHunt badge to homepage or footer. Site/footer changes need explicit approval before use."
+    },
+    {
+      "name": "FindYourFate Astrologers Directory",
+      "url": "https://www.findyourfate.com/astro-directory/addtodirectory.php",
+      "status": "Rejected for tonight. Public form asks for personal identity fields such as name and sex, not a clean brand-only fit."
+    },
+    {
+      "name": "Exploring Psychics",
+      "url": "https://exploringpsychics.com/register",
+      "status": "Do not touch without review. Search shows a mismatched existing page named Psychic Readings by Sandy in Lake Placid, Florida using thepsychicstudio.com. Claiming or editing it could affect the wrong identity and requires an account."
+    },
+    {
+      "name": "Tarot Hub",
+      "url": "https://www.tarothub.net/submit",
+      "status": "Deferred. Submission form asks for street address, city, state or province, ZIP or postal code, and phone. No approved public business address or phone was supplied."
+    },
+    {
+      "name": "MetaphysicalNearMe",
+      "url": "https://www.metaphysicalnearme.com/submit",
+      "status": "Deferred. Free listing but form asks for street address; no approved public business address was supplied."
+    },
+    {
+      "name": "Psychic121",
+      "url": "https://www.psychic121.com/add-your-free-listing",
+      "status": "Rejected. Requires a clear face picture and uses a 5 pound booking-fee flow, which does not fit brand-only/free-only rules."
+    },
+    {
+      "name": "Spiritual Practitioners",
+      "url": "https://spiritualpractitioners.com/",
+      "status": "Deferred. Free listing but requires account creation, blocked by the office-PC rule."
+    },
+    {
+      "name": "Fifth Element Directory",
+      "url": "https://fifth-element.co/pages/list-your-practice",
+      "status": "Deferred. Free direct listing looks possible, but full form fields and fit were not verified tonight; no submission made."
+    }
+  ],
+  "result": "No new referring-domain submission was made tonight. Live GSC confirms 15 external links from 4 counted domains. Existing about.me profile is publicly visible but not yet counted by GSC. Actual new directory work remains blocked on the user's chosen office PC and approved public contact details where required."
+}

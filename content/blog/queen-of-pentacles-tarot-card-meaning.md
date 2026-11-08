@@ -62,6 +62,8 @@ If you tend to give more than you receive, practice accepting one specific offer
 
 ![A small green plant growing between stacked silver coins](/blog-images/11391951.webp)
 
+For another stage of the same suit, read the [Nine of Pentacles](/blog/nine-of-pentacles-tarot-card-meaning). It focuses on earned independence and receiving the results of patient work.
+
 ## Common questions
 
 **Is the Queen of Pentacles a good card?**

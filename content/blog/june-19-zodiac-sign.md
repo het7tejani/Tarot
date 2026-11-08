@@ -62,6 +62,8 @@ Ask yourself where curiosity has helped you recently, and where it has become di
 
 Gemini's gift is the question that opens a conversation. Use it on yourself first: what am I actually trying to learn? A [free tarot draw](/free-tarot) can support that reflection by giving you an image to think with.
 
+For the wider sign background, see the [Gemini zodiac sign](/blog/gemini-zodiac-sign) guide. It places this birthday in the full date range and explains the sign's traits.
+
 ## June 19 zodiac questions
 
 **What zodiac sign is June 19?**

@@ -50,6 +50,8 @@ For a full list of every sign and its range, see the [zodiac sign dates page](/z
 
 For a birthday near the end of the sign, the [June 19 zodiac guide](/blog/june-19-zodiac-sign) explains why that date is usually Gemini and when a birth chart is worth checking.
 
+For the broader sign background, read the [Gemini zodiac sign](/blog/gemini-zodiac-sign) guide. It covers traits, compatibility and how the date range fits the sign.
+
 ## FAQ
 
 The sign that follows Gemini is covered in the [Cancer zodiac dates](/blog/cancer-zodiac-dates) guide.

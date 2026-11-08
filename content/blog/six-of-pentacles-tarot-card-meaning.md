@@ -52,6 +52,8 @@ The Six of Pentacles rewards concreteness. Pick one resource you have in surplus
 
 The [Queen of Pentacles](/blog/queen-of-pentacles-tarot-card-meaning) shows what steady stewardship looks like when care becomes a routine rather than a single exchange.
 
+The [Nine of Pentacles](/blog/nine-of-pentacles-tarot-card-meaning) looks at the independence that can grow from steady work and careful use of resources.
+
 ## Six of Pentacles: common questions
 
 **Is the Six of Pentacles a yes or no?**

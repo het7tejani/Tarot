@@ -58,6 +58,8 @@ Prompt three: what small action would let me practice confidence rather than per
 
 Keep your answers specific. You can explore a single card with the [free tarot reflection](/free-tarot), or browse the [card meanings library](/tarot-card-meanings) for another perspective. Repeated draws are not required to validate your first response.
 
+The broader [Queen of Wands tarot meaning](/blog/queen-of-wands-tarot-card-meaning) explains the upright card, the sunflower image and how the reversed reading relates to confidence.
+
 ## Questions about Queen of Wands reversed
 
 ### Does this card mean someone is jealous of me?

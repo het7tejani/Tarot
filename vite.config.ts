@@ -43,10 +43,10 @@ export default defineConfig(({isSsrBuild})=>({
     this.emitFile({type:'asset',fileName:file,source:Buffer.from(encoded,'base64')});
     if(file==='navbar-480.png'){for(const width of [96,192])this.emitFile({type:'asset',fileName:`navbar-${width}.webp`,source:await sharp(Buffer.from(encoded,'base64')).resize({width}).webp({quality:85}).toBuffer()});}
    }
-   const emit=async(base:string,bytes:Buffer)=>{
+   const imageJobs:{fileName:string,width:number,bytes:Buffer}[]=[];
+   const queueImage=(base:string,bytes:Buffer)=>{
     for(const [suffix,width]of [['',1600],['-800',800],['-560',560],['-400',400],['-240',240]]as const){
-     const image=await sharp(bytes).resize({width,withoutEnlargement:true}).webp({quality:83}).toBuffer();
-     this.emitFile({type:'asset',fileName:base+suffix+'.webp',source:image});
+     imageJobs.push({fileName:base+suffix+'.webp',width,bytes});
     }
    };
    for(const folder of ['blog-images','tarot-custom']){
@@ -55,14 +55,22 @@ export default defineConfig(({isSsrBuild})=>({
      const pack:Record<string,string>=JSON.parse(fs.readFileSync(path.join(dir,file),'utf8'));
      for(const [id,uri]of Object.entries(pack)){
       if(!/^[a-z0-9_]+$/.test(id)||!uri.startsWith('data:image/'))throw Error('Invalid artwork pack');
-      await emit(`${folder==='blog-images'?'blog-images':'tarot-optimized'}/${id}`,Buffer.from(uri.split(',')[1],'base64'));
+      queueImage(`${folder==='blog-images'?'blog-images':'tarot-optimized'}/${id}`,Buffer.from(uri.split(',')[1],'base64'));
      }
     }
    }
    const zodiac:Record<string,string>=JSON.parse(fs.readFileSync(path.resolve(__dirname,'public/perf-assets/zodiac.json'),'utf8'));
-   await emit('perf-assets/zodiac',Buffer.from(zodiac.zodiac.split(',')[1],'base64'));
-   await emit('perf-assets/halloween-reading',fs.readFileSync(path.resolve(__dirname,'public/halloween-reading.webp')));
-   await emit('tarot-optimized/card_back',fs.readFileSync(path.resolve(__dirname,'public/tarot/card_back.jpg')));
+   queueImage('perf-assets/zodiac',Buffer.from(zodiac.zodiac.split(',')[1],'base64'));
+   queueImage('perf-assets/halloween-reading',fs.readFileSync(path.resolve(__dirname,'public/halloween-reading.webp')));
+   queueImage('tarot-optimized/card_back',fs.readFileSync(path.resolve(__dirname,'public/tarot/card_back.jpg')));
+   await Promise.all(Array.from({length:8},async()=>{
+    while(true){
+     const job=imageJobs.shift();
+     if(!job)break;
+     const image=await sharp(job.bytes).resize({width:job.width,withoutEnlargement:true}).webp({quality:83}).toBuffer();
+     this.emitFile({type:'asset',fileName:job.fileName,source:image});
+    }
+   }));
   },
  }],
  build:isSsrBuild?{}:{rollupOptions:{output:{manualChunks(id:string){if(id.includes('node_modules')){if(/[\\/](react|react-dom|react-router|react-router-dom|scheduler)[\\/]/.test(id))return 'vendor-react';if(/[\\/](motion|framer-motion|lucide-react|@google\/genai)[\\/]/.test(id))return 'vendor-ui';}}}}},

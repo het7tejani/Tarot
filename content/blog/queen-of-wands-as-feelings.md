@@ -46,6 +46,8 @@ Alongside the [Four of Wands](/blog/four-of-wands-how-someone-sees-you), readers
 
 If you want a card for your own situation, you can [draw a free tarot card](/free-tarot) here. It takes under a minute and no account is needed.
 
+For the full card background before interpreting feelings, read the [Queen of Wands tarot meaning](/blog/queen-of-wands-tarot-card-meaning) guide.
+
 ## Queen of Wands feelings questions
 
 **Is the Queen of Wands a good card for feelings?**

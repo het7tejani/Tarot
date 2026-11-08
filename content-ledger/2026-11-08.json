@@ -1,0 +1,155 @@
+{
+  "date": "2026-11-08",
+  "gsc": {
+    "performance_url": "https://search.google.com/u/1/search-console/performance/search-analytics?resource_id=https%3A%2F%2Fthepsychicstudio.com%2F&breakdown=query&metrics=CLICKS%2CIMPRESSIONS%2CCTR%2CPOSITION",
+    "pages_url": "https://search.google.com/u/1/search-console/index?resource_id=https%3A%2F%2Fthepsychicstudio.com%2F",
+    "period": "Oct 7-Nov 5, 28 days, last update shown 5.5 hours ago",
+    "totals": {
+      "clicks": 52,
+      "impressions": 7080,
+      "ctr": "0.7%",
+      "average_position": 71.5
+    },
+    "daily": [
+      {
+        "date": "2026-11-05",
+        "clicks": 2,
+        "impressions": 1005,
+        "ctr": "0.2%",
+        "position": 77.8
+      },
+      {
+        "date": "2026-11-04",
+        "clicks": 29,
+        "impressions": 1093,
+        "ctr": "2.7%",
+        "position": 75.4
+      },
+      {
+        "date": "2026-11-03",
+        "clicks": 2,
+        "impressions": 712,
+        "ctr": "0.3%",
+        "position": 76.5
+      },
+      {
+        "date": "2026-11-02",
+        "clicks": 0,
+        "impressions": 404,
+        "ctr": "0%",
+        "position": 66.5
+      },
+      {
+        "date": "2026-11-01",
+        "clicks": 1,
+        "impressions": 209,
+        "ctr": "0.5%",
+        "position": 63.2
+      }
+    ],
+    "query_opportunities": [
+      "gemini zodiac sign (32 impressions, 0 clicks, position 96.4)",
+      "queen of wands (27 impressions, 0 clicks, position 93.7)",
+      "9 of pentacles (21 impressions, 0 clicks, position 92.5)"
+    ],
+    "pages_baseline": "187 indexed, 96 not indexed; 69 discovered-currently not indexed, 14 crawled-currently not indexed, 12 duplicate canonical, 1 blocked by 403; data as of 2026-10-23"
+  },
+  "selection_basis": [
+    "workbook cross-site synthesis",
+    "GSC zero-click query opportunities",
+    "journal gap check"
+  ],
+  "posts": [
+    {
+      "slug": "gemini-zodiac-sign",
+      "words": 853,
+      "pexels_ids": [
+        7287135,
+        10029714,
+        5386522
+      ],
+      "url": "https://thepsychicstudio.com/blog/gemini-zodiac-sign"
+    },
+    {
+      "slug": "queen-of-wands-tarot-card-meaning",
+      "words": 1056,
+      "pexels_ids": [
+        7240115,
+        9953611,
+        9774293
+      ],
+      "url": "https://thepsychicstudio.com/blog/queen-of-wands-tarot-card-meaning"
+    },
+    {
+      "slug": "nine-of-pentacles-tarot-card-meaning",
+      "words": 978,
+      "pexels_ids": [
+        5529546,
+        5644288,
+        5529567
+      ],
+      "url": "https://thepsychicstudio.com/blog/nine-of-pentacles-tarot-card-meaning"
+    }
+  ],
+  "image_pack": "public/blog-images/pack-25.json",
+  "covers": [
+    "public/blog-images/cover-gemini-zodiac-sign.webp",
+    "public/blog-images/cover-queen-of-wands-tarot-card-meaning.webp",
+    "public/blog-images/cover-nine-of-pentacles-tarot-card-meaning.webp"
+  ],
+  "inbound_links": {
+    "gemini-zodiac-dates.md": "gemini-zodiac-sign",
+    "june-19-zodiac-sign.md": "gemini-zodiac-sign",
+    "queen-of-wands-as-feelings.md": "queen-of-wands-tarot-card-meaning",
+    "queen-of-wands-reversed-reflection.md": "queen-of-wands-tarot-card-meaning",
+    "queen-of-pentacles-tarot-card-meaning.md": "nine-of-pentacles-tarot-card-meaning",
+    "six-of-pentacles-tarot-card-meaning.md": "nine-of-pentacles-tarot-card-meaning"
+  },
+  "build": {
+    "lint": "passed",
+    "build": "passed",
+    "prerendered_routes": 333,
+    "canonical_public_routes": 329,
+    "crawl_ready_urls": 329,
+    "markdown_artifacts_checked": 337,
+    "note": "vite.config.ts responsive-static-artwork queue parallelized to 8 workers so the full build fits the tool timeout"
+  },
+  "psi": {
+    "status": "HTTP 429 daily quota exhausted",
+    "checked_at": "2026-11-08 09:32 IST"
+  },
+  "clarity": {
+    "period": "Last 3 days",
+    "sessions": 1,
+    "bot_sessions_excluded": 1,
+    "pages_per_session": 1,
+    "scroll_depth": "34%",
+    "active_time": "0 sec",
+    "live_users": 0,
+    "unique_users": 1,
+    "returning_users": 1,
+    "rage_clicks": "0% / 0 sessions",
+    "dead_clicks": "0% / 0 sessions",
+    "excessive_scrolling": "0% / 0 sessions",
+    "quick_backs": "0% / 0 sessions",
+    "recording": "Nov 7 19:07 IST, India, Chrome PC, 1 page, 0 clicks, listed duration 1:32:19; no UX action indicated"
+  },
+  "verification": {
+    "live_posts": "all 3 returned HTTP 200 and were visually inspected in browser at 09:35 IST",
+    "social": "Pinterest and Tumblr published and verified"
+  },
+  "social": {
+    "pinterest": "https://in.pinterest.com/pin/1109715164523596316/",
+    "tumblr": "https://www.tumblr.com/thepsychicstudio/832685652099350528/six-of-pentacles-what-does-the-help-cost",
+    "buffer_top_up": "2026-11-10 Nine of Pentacles prepared with original pin image"
+  },
+  "quora": "content-ledger/quora-library-2026-11-08.json prepared; submissions remain deferred under the Nov6 verification pause",
+  "medium": "Nov8 body prepared in social-buffer.json for office-PC route only; no cloud login retry",
+  "backlinks": "The Astrology Directory account/listing remains frozen after the Nov8 route violation; no checks, edits, monitoring, withdrawal, duplicate account, or reconnect were made",
+  "browser_outcomes": {
+    "search.google.com": "brand Google session restored and GSC data read",
+    "clarity.microsoft.com": "brand dashboard and recordings read",
+    "pinterest.com": "organic pin published after direct pin-creation-tool route; one board click on the legacy pin-builder route navigated away, so the form was rebuilt",
+    "tumblr.com": "text post published and verified"
+  }
+}

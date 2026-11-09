@@ -62,6 +62,8 @@ If the card feels uncomfortable, ask where you dismiss your own progress. You do
 
 ![A basket filled with freshly harvested purple grapes](/blog-images/5529567.webp)
 
+If progress feels fragile after a sudden change, [The Tower tarot card meaning](/blog/the-tower-tarot-card-meaning) looks at what can be rebuilt on stronger ground.
+
 ## Common questions
 
 **Is the Nine of Pentacles a good money card?**

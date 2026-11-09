@@ -70,6 +70,8 @@ Write down one interest you have been quiet about. Choose a small action that le
 
 If confidence feels low, list three things you handled without applause. Let evidence answer the inner critic. A [free tarot draw](/free-tarot) can help frame the reflection, but the action is what changes your relationship with confidence.
 
+For a brighter look at visible confidence, read [The Sun tarot card meaning](/blog/the-sun-tarot-card-meaning). It asks how honest joy can become easier to share.
+
 ## Common questions
 
 **Is the Queen of Wands a yes card?**

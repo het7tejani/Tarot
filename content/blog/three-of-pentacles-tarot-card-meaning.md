@@ -60,6 +60,8 @@ Choose one unfinished task. Describe the result in one sentence, then name the p
 
 After the conversation, record what changed. Perhaps the plan became simpler, or you noticed a mistake before it became expensive. That visible change is a better measure of collaboration than how agreeable the conversation felt. The [Empress](/blog/the-empress-tarot-card-meaning) offers a related reflection on giving a project the conditions it needs to grow.
 
+When teamwork raises questions about control, the [Four of Pentacles tarot card meaning](/blog/four-of-pentacles-tarot-card-meaning) asks what should be protected and what can be shared.
+
 ## Common questions
 
 **Is the Three of Pentacles a yes or no card?**

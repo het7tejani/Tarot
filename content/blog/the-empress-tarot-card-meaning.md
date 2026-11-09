@@ -66,6 +66,8 @@ Then name what you cannot provide. That second answer matters. Care that ignores
 
 For the practical, daily side of the same care theme, read the [Queen of Pentacles](/blog/queen-of-pentacles-tarot-card-meaning). She turns nourishment into routines people can rely on.
 
+When growth is ready to be seen, [The Sun tarot card meaning](/blog/the-sun-tarot-card-meaning) offers a warm next reflection on clarity and confidence.
+
 ## Common questions
 
 **Does the Empress mean pregnancy?**

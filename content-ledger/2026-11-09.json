@@ -1,0 +1,137 @@
+{
+  "date": "2026-11-09",
+  "selection_basis": "Workbook gaps after GSC query review: The Sun (the sun tarot, 60.5K volume, position 28/31, KD 49), The Tower (the tower tarot, 14.8K volume, position 44, KD 48), Four of Pentacles (4 pentacles, 880 volume, position 1, KD 17; full guide missing locally). Existing GSC opportunities were already covered.",
+  "gsc": {
+    "performance_url": "https://search.google.com/u/1/search-console/performance/search-analytics?resource_id=https%3A%2F%2Fthepsychicstudio.com%2F&breakdown=query&metrics=CLICKS%2CIMPRESSIONS%2CCTR%2CPOSITION",
+    "pages_url": "https://search.google.com/u/1/search-console/index?resource_id=https%3A%2F%2Fthepsychicstudio.com%2F",
+    "period": "Oct 7-Nov 7, 28 days, last update shown 3.5 hours ago",
+    "totals": {
+      "clicks": 52,
+      "impressions": 9470,
+      "ctr": "0.5%",
+      "average_position": 71.8
+    },
+    "query_opportunities": [
+      "888 (28 impressions, 0 clicks, position 12.5)",
+      "strength tarot card upright card keywords (31 impressions, 0 clicks, position 17.1)",
+      "888 meaning (16 impressions, 0 clicks, position 18.9)",
+      "strength tarot card reversed card keywords (18 impressions, 0 clicks, position 23.2)",
+      "why do i keep thinking about my ex spiritual meaning (9 impressions, 0 clicks, position 29.2)",
+      "may 14 zodiac (7 impressions, 0 clicks, position 34.3)"
+    ],
+    "pages_baseline": "187 indexed, 96 not indexed; 69 discovered-currently not indexed, 14 crawled-currently not indexed, 12 duplicate canonical, 1 blocked by 403; data as of 2026-10-23"
+  },
+  "posts": [
+    {
+      "slug": "the-sun-tarot-card-meaning",
+      "words": 1038,
+      "pexels_ids": [
+        35509192,
+        7568327,
+        7947792
+      ],
+      "url": "https://thepsychicstudio.com/blog/the-sun-tarot-card-meaning"
+    },
+    {
+      "slug": "the-tower-tarot-card-meaning",
+      "words": 1018,
+      "pexels_ids": [
+        11599583,
+        8195862,
+        16946497
+      ],
+      "url": "https://thepsychicstudio.com/blog/the-tower-tarot-card-meaning"
+    },
+    {
+      "slug": "four-of-pentacles-tarot-card-meaning",
+      "words": 1009,
+      "pexels_ids": [
+        3833052,
+        12644987,
+        9755376
+      ],
+      "url": "https://thepsychicstudio.com/blog/four-of-pentacles-tarot-card-meaning"
+    }
+  ],
+  "covers": [
+    "public/blog-images/cover-the-sun-tarot-card-meaning.webp",
+    "public/blog-images/cover-the-tower-tarot-card-meaning.webp",
+    "public/blog-images/cover-four-of-pentacles-tarot-card-meaning.webp"
+  ],
+  "image_pack": "public/blog-images/pack-26.json",
+  "inbound_links": [
+    "queen-of-wands -> the-sun",
+    "the-empress -> the-sun",
+    "nine-of-pentacles -> the-tower",
+    "three-of-pentacles -> four-of-pentacles",
+    "six-of-pentacles -> four-of-pentacles"
+  ],
+  "build": {
+    "lint": "passed",
+    "build": "passed before push",
+    "content_commit": "2356098"
+  },
+  "verification": {
+    "http_status": "all three 200 at 09:35 IST",
+    "saved_screenshots": [
+      "/downloads/cloud-browser-20261109-040558.png",
+      "/downloads/cloud-browser-20261109-040601.png",
+      "/downloads/cloud-browser-20261109-040603.png"
+    ]
+  },
+  "psi": {
+    "status": "HTTP 429 quota exceeded on Nov 9 retry",
+    "detail": "Daily Pagespeed Insights quota remained exhausted for the shared consumer project."
+  },
+  "clarity": {
+    "range": "Last 3 days",
+    "sessions": 3,
+    "unique_users": 3,
+    "pages_per_session": 1,
+    "scroll_depth": "68%",
+    "active_time": "28 sec of 31.3 min",
+    "bot_sessions_excluded": 1,
+    "rage_clicks": "0%",
+    "dead_clicks": "0%",
+    "quick_backs": "0%",
+    "javascript_errors": 0,
+    "top_pages": [
+      "/",
+      "/tarot-card-meanings/seven-of-wands",
+      "/zodiac/leo"
+    ],
+    "source": "https://clarity.microsoft.com/projects/view/ywia4vi28f/dashboard?date=Last%203%20days"
+  },
+  "social": {
+    "pinterest": {
+      "url": "https://in.pinterest.com/pin/1109715164523683772/",
+      "asset": "content-ledger/social-buffer-images/pin-queen-of-pentacles-tarot-card-meaning-2026-11-09.png",
+      "format": "1000x1500, 2:3, visible URL",
+      "saved_screenshot": "/downloads/cloud-browser-20261109-040230.png"
+    },
+    "tumblr": {
+      "url": "https://www.tumblr.com/thepsychicstudio/832775997675995136/queen-of-pentacles-care-you-can-actually-use",
+      "saved_screenshot": "/downloads/cloud-browser-20261109-040539.png"
+    },
+    "buffer": "Nov 10 retained; Nov 11 The Tower added with 1000x1500 pin and office-PC Medium draft."
+  },
+  "medium": {
+    "status": "Draft retained in social buffer for office-PC route only; no cloud login retry."
+  },
+  "quora": {
+    "status": "Library prepared at content-ledger/quora-library-2026-11-09.json; submissions deferred under the Nov 6 publication-verification pause."
+  },
+  "backlinks": {
+    "status": "No directory/account work. Astrology Directory remains frozen; no retention check, edit, withdrawal, monitoring, reconnect or duplicate."
+  },
+  "browser_outcomes": {
+    "lease": "L-2v36fqrlp3ch6rguhsy335es5e",
+    "sites": [
+      "search.google.com",
+      "clarity.microsoft.com",
+      "pinterest.com",
+      "tumblr.com",
+      "thepsychicstudio.com"
+    ]
+  }
+}

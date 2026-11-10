@@ -46,7 +46,7 @@ Reversed, the Chariot points to a vehicle out of control: aggression without aim
 
 The remedy is to stop and re-aim before pressing the accelerator again. Direction first, speed second. The card also asks you to check whether you are trying to control what cannot be controlled, other people's choices chief among them.
 
-For a faster court-card expression of the same directed energy, compare it with the [Knight of Swords](/blog/knight-of-swords-tarot-card-meaning). The Chariot sustains control; the Knight acts on a decision quickly.
+For a faster court-card expression of the same directed energy, compare it with the [Knight of Swords](/blog/knight-of-swords-tarot-card-meaning). The Chariot sustains control; the Knight acts on a decision quickly. For the card that turns direction into durable structure, read [The Emperor tarot card meaning](/blog/the-emperor-tarot-card-meaning).
 
 ## Common questions about the Chariot
 

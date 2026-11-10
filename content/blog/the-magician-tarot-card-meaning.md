@@ -55,4 +55,4 @@ A stretch where your effort counts double. Skills you already have become useful
 **What zodiac sign and planet belong to the Magician?**
 The Magician is linked to Mercury, the planet of communication, skill and quick thinking, which fits the card's mix of cleverness and craft.
 
-If you want to see which card answers your own question, the [free tarot draw](/free-tarot) takes under a minute. For another card about turning inward before acting, read [the High Priestess tarot card meaning](/blog/the-high-priestess-tarot-card-meaning).
+Before skill comes the first step, which [The Fool tarot card meaning](/blog/the-fool-tarot-card-meaning) explores in detail. If you want to see which card answers your own question, the [free tarot draw](/free-tarot) takes under a minute. For another card about turning inward before acting, read [the High Priestess tarot card meaning](/blog/the-high-priestess-tarot-card-meaning).

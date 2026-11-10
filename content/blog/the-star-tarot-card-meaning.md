@@ -55,7 +55,7 @@ It can also mean faith misplaced, waiting for rescue instead of doing the slow r
 
 ## The Star and the cards around it
 
-The Star sits between the Tower and [the Moon](/tarot-card-meanings/the-moon). The story the three cards tell is collapse, then calm, then confusion. Enjoy the calm while it lasts, and let it restore you for the fog ahead. Pulled with [the Hanged Man](/tarot-card-meanings/the-hanged-man), readers often see a pause that ends in genuine renewal rather than a forced restart.
+The Star sits between the Tower and [the Moon](/tarot-card-meanings/the-moon). For the full journal guide to that next card, read [The Moon tarot card meaning](/blog/the-moon-tarot-card-meaning). The story the three cards tell is collapse, then calm, then confusion. Enjoy the calm while it lasts, and let it restore you for the fog ahead. Pulled with [the Hanged Man](/tarot-card-meanings/the-hanged-man), readers often see a pause that ends in genuine renewal rather than a forced restart.
 
 To pull a card for your own question, [draw a free tarot card](/free-tarot). It takes under a minute and needs no account. Tarot works as a reflection tool. It does not predict events.
 

@@ -18,7 +18,7 @@ The upright Emperor often represents order, authority and stability. Reversed, r
 
 Ask which part of the symbolism matches something you can actually describe. A confusing handoff, an unspoken expectation and a rule that cannot be questioned are different problems. Naming the specific problem gives you more to work with than calling a person "controlling."
 
-Read the [Emperor card meaning guide](/tarot-card-meanings/the-emperor) for the broader symbolism. Here, the focus is on making structure useful rather than turning the card into a verdict.
+Read the [Emperor card meaning guide](/tarot-card-meanings/the-emperor) for the broader symbolism. For the complete journal guide, read [The Emperor tarot card meaning](/blog/the-emperor-tarot-card-meaning). Here, the focus is on making structure useful rather than turning the card into a verdict.
 
 ## Helpful structure versus unnecessary control
 

@@ -18,7 +18,7 @@ A reversal does not make a card bad. With The Fool reversed, some readers emphas
 
 Start with the situation rather than deciding which label fits you. What do you know? What needs checking? Which part of the decision belongs to you, and which part depends on another person's agreement?
 
-The [Fool card meaning guide](/tarot-card-meanings/the-fool) explains the broader symbolism. This reflection focuses on a practical pause before action, rather than repeating every upright and reversed meaning.
+The [Fool card meaning guide](/tarot-card-meanings/the-fool) explains the broader symbolism. For the complete journal guide, read [The Fool tarot card meaning](/blog/the-fool-tarot-card-meaning). This reflection focuses on a practical pause before action, rather than repeating every upright and reversed meaning.
 
 ## A new beginning that needs a smaller first step
 

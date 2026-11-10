@@ -18,7 +18,7 @@ Contemporary tarot guides connect The Moon with unclear paths, imagination and t
 
 There is no single mandatory definition. Labyrinthos discusses both continuing uncertainty and confusion easing. That range is a reason to stay curious, not to choose whichever interpretation confirms what you already fear or hope.
 
-The [Moon card meaning guide](/tarot-card-meanings/the-moon) covers the wider symbolism. This article focuses on questions you can use after drawing the reversal.
+The [Moon card meaning guide](/tarot-card-meanings/the-moon) covers the wider symbolism. For the complete journal guide, read [The Moon tarot card meaning](/blog/the-moon-tarot-card-meaning). This article focuses on questions you can use after drawing the reversal.
 
 ## Separate an observation from a story
 

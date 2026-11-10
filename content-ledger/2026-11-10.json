@@ -1,0 +1,127 @@
+{
+  "date": "2026-11-10",
+  "workbook": {
+    "file": "psychic-cross-site-seo-synthesis.xlsx",
+    "source": "https://docs.google.com/spreadsheets/d/1bsS3NyT-H2a1JQVY2wc4ZQwtXHF5bXSE/edit?usp=drivesdk&ouid=116686889569689261879&rtpof=true&sd=true&authuser=contact.thepsychicstudio%40gmail.com",
+    "downloaded_copy": "/downloads/psychic-cross-site-seo-synthesis (1).xlsx"
+  },
+  "posts": [
+    {
+      "slug": "the-emperor-tarot-card-meaning",
+      "url": "https://thepsychicstudio.com/blog/the-emperor-tarot-card-meaning",
+      "words": 922,
+      "workbook_evidence": "the emperor tarot, 14.8K volume, KD 35, observed competitor position 38",
+      "pexels_ids": ["30253453", "8333260", "35766653"]
+    },
+    {
+      "slug": "the-moon-tarot-card-meaning",
+      "url": "https://thepsychicstudio.com/blog/the-moon-tarot-card-meaning",
+      "words": 908,
+      "workbook_evidence": "the moon tarot card meaning, 8.1K volume, KD 27, observed competitor position 21",
+      "pexels_ids": ["10299209", "20696420", "17572016"]
+    },
+    {
+      "slug": "the-fool-tarot-card-meaning",
+      "url": "https://thepsychicstudio.com/blog/the-fool-tarot-card-meaning",
+      "words": 903,
+      "workbook_evidence": "the fool tarot card meaning, 8.1K volume, KD 40, observed competitor position 25",
+      "pexels_ids": ["5456276", "6775318", "19052328"]
+    }
+  ],
+  "pexels": [
+    {"id": "30253453", "source": "https://www.pexels.com/photo/ornate-imperial-crown-in-vienna-exhibit-30253453/", "license": "https://www.pexels.com/license/"},
+    {"id": "8333260", "source": "https://www.pexels.com/photo/stairs-to-ornamented-throne-8333260/", "license": "https://www.pexels.com/license/"},
+    {"id": "35766653", "source": "https://www.pexels.com/photo/bronze-statue-of-roman-emperor-in-ancient-ruins-35766653/", "license": "https://www.pexels.com/license/"},
+    {"id": "10299209", "source": "https://www.pexels.com/photo/moon-over-the-sea-10299209/", "license": "https://www.pexels.com/license/"},
+    {"id": "20696420", "source": "https://www.pexels.com/photo/bright-full-moon-over-the-ocean-20696420/", "license": "https://www.pexels.com/license/"},
+    {"id": "17572016", "source": "https://www.pexels.com/photo/full-moon-behind-a-cloud-over-the-sea-17572016/", "license": "https://www.pexels.com/license/"},
+    {"id": "5456276", "source": "https://www.pexels.com/photo/a-backpacker-standing-on-the-cliff-of-a-mountain-5456276/", "license": "https://www.pexels.com/license/"},
+    {"id": "6775318", "source": "https://www.pexels.com/photo/hiker-with-backpack-looking-at-the-view-6775318/", "license": "https://www.pexels.com/license/"},
+    {"id": "19052328", "source": "https://www.pexels.com/photo/man-with-a-backpack-standing-on-the-edge-of-a-cliff-19052328/", "license": "https://www.pexels.com/license/"}
+  ],
+  "image_pack": "public/blog-images/pack-27.json",
+  "covers": [
+    "public/blog-images/cover-the-emperor-tarot-card-meaning.webp",
+    "public/blog-images/cover-the-moon-tarot-card-meaning.webp",
+    "public/blog-images/cover-the-fool-tarot-card-meaning.webp"
+  ],
+  "internal_links": {
+    "new_posts": "Each new post links to the card library, the matching card page and related journal guides.",
+    "older_posts": [
+      "the-emperor-reversed-flexible-structure -> the-emperor-tarot-card-meaning",
+      "the-chariot-tarot-card-meaning -> the-emperor-tarot-card-meaning",
+      "the-moon-reversed-clarity -> the-moon-tarot-card-meaning",
+      "the-star-tarot-card-meaning -> the-moon-tarot-card-meaning",
+      "the-fool-reversed-pause -> the-fool-tarot-card-meaning",
+      "the-magician-tarot-card-meaning -> the-fool-tarot-card-meaning"
+    ]
+  },
+  "quality": {
+    "writing_scan": "Passed for the three new posts: no em/en dashes, no banned phrases, no pipe tables; each over 800 words.",
+    "lint": "npm run lint passed",
+    "build": "npm run build passed; 339 routes prerendered",
+    "live_check": "All three new URLs returned HTTP 200 at 09:38 IST"
+  },
+  "gsc": {
+    "performance_url": "https://search.google.com/search-console/performance/search-analytics?resource_id=https%3A%2F%2Fthepsychicstudio.com%2F&breakdown=query&metrics=CLICKS%2CIMPRESSIONS%2CCTR%2CPOSITION&authuser=contact.thepsychicstudio%40gmail.com",
+    "period": "2026-10-07 to 2026-11-07",
+    "last_update": "4 hours before 09:29 IST",
+    "clicks": 52,
+    "impressions": "9.47K",
+    "ctr": "0.5%",
+    "average_position": 71.8,
+    "opportunity_note": "Top-impression queries were mostly position 50+; brand query 'psychic studio' held position 7.1 with 52 impressions. 'scorpio tarot' had 4 impressions at position 30.0.",
+    "pages_url": "https://search.google.com/search-console/index?resource_id=https%3A%2F%2Fthepsychicstudio.com%2F&authuser=contact.thepsychicstudio%40gmail.com",
+    "pages_last_update": "2026-11-06",
+    "indexed": 272,
+    "not_indexed": 53,
+    "not_indexed_reasons": {
+      "not_found_404": 2,
+      "blocked_403": 1,
+      "page_with_redirect": 1,
+      "discovered_currently_not_indexed": 45,
+      "duplicate_google_chose_different_canonical": 4,
+      "crawled_currently_not_indexed": 0
+    }
+  },
+  "pagespeed": {
+    "checked_at": "2026-11-10 09:28 IST",
+    "status": "HTTP 429 quota exceeded for project 583797351490 daily query limit"
+  },
+  "clarity": {
+    "url": "https://clarity.microsoft.com/projects/view/ywia4vi28f/dashboard?date=Last%203%20days",
+    "period": "Last 3 days",
+    "sessions": 3,
+    "unique_users": 3,
+    "pages_per_session": 1,
+    "scroll_depth": "85.33%",
+    "active_time": "39 sec",
+    "bot_sessions_excluded": 0,
+    "rage_clicks": "0%",
+    "dead_clicks": "0%",
+    "quick_backs": "0%",
+    "javascript_errors": 0,
+    "top_pages": ["/blog/gold-aura-meaning", "/tarot-card-meanings/seven-of-wands", "/zodiac/leo"]
+  },
+  "social": {
+    "pinterest": {
+      "url": "https://in.pinterest.com/pin/1109715164523760549/",
+      "saved_screenshot": "/downloads/cloud-browser-20261110-040210.png",
+      "asset": "content-ledger/social-buffer-images/pin-nine-of-pentacles-tarot-card-meaning-2026-11-10.png",
+      "format": "1000x1500 2:3 with visible thepsychicstudio.com URL"
+    },
+    "tumblr": {
+      "url": "https://www.tumblr.com/thepsychicstudio/832866700043157504/nine-of-pentacles-let-the-work-support-you",
+      "saved_screenshot": "/downloads/cloud-browser-20261110-040701.png"
+    },
+    "buffer": "Nov 11 The Tower retained; Nov 12 The Moon added with a visually inspected 1000x1500 plum/gold pin and visible URL. Medium draft remains office-PC only."
+  },
+  "medium": "Draft buffered for office-PC route only; no cloud retry.",
+  "quora": "content-ledger/quora-library-2026-11-10.json prepared; submissions deferred under the Nov 6 publication-verification pause.",
+  "backlinks": "No expansion today. Astrology Directory remains frozen; no check, edit, withdrawal, monitoring, reconnect or duplicate.",
+  "verification_screenshots": [
+    "/downloads/cloud-browser-20261110-040832.png",
+    "/downloads/cloud-browser-20261110-040837.png",
+    "/downloads/cloud-browser-20261110-040840.png"
+  ]
+}

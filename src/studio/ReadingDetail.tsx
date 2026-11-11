@@ -5,6 +5,7 @@ import { Layout } from './Layout';
 import { SEOHead } from '../components/SEOHead';
 import { ETSY_LISTINGS } from '../data/etsyListings';
 import { AskAboutReading } from '../components/AskAboutReading';
+import { trackStudioEvent } from '../analytics';
 export const ReadingDetail: React.FC = () => {
  const {slug}=useParams();const r=ETSY_LISTINGS.find(x=>x.slug===slug);
  if(!r)return <Layout><div className="st-page wrap"><h1>Reading not found</h1><Link to="/shop">Explore all readings</Link></div></Layout>;
@@ -16,7 +17,7 @@ export const ReadingDetail: React.FC = () => {
  <img src={r.img} alt={r.title} width="600" height="420"/>
  <div><span className="eyebrow">Personal reading</span><h1>{r.title}</h1><p className="st-prose">{r.intro}</p><p className="st-reading-price"><strong>${r.price} USD</strong></p>
  <ul className="st-reading-meta"><li>Written reading, made personally for you</li><li>Delivered by email once your inquiry is confirmed</li></ul>
- <a className="btn" href="#ask-about-reading">Ask about this reading</a></div>
+ <a className="btn" href="#ask-about-reading" onClick={() => trackStudioEvent('inquiry_cta_click', { cta_type: 'ask_form', link_url: '#ask-about-reading', page_path: window.location.pathname, reading_slug: r.slug, reading_title: r.title })}>Ask about this reading</a></div>
  </div>
  <div className="st-reading-layout">
  <div className="st-reading-main st-prose">
@@ -38,7 +39,7 @@ export const ReadingDetail: React.FC = () => {
  <h2>How ordering works</h2>
  <ol><li>Send the inquiry form below (or email the studio) with your question.</li><li>The studio replies personally by email with the next step.</li><li>You receive your written reading by email once everything is confirmed.</li></ol>
  <p className="st-order-note">Ordering is handled personally by email, so you can confirm scope, format and timing before you decide.</p>
- <a className="btn" href={inquiry}>Talk to the studio · ${r.price} USD</a>
+ <a className="btn" href={inquiry} onClick={() => trackStudioEvent('inquiry_cta_click', { cta_type: 'mailto', link_url: inquiry, page_path: window.location.pathname, reading_slug: r.slug, reading_title: r.title })}>Talk to the studio · ${r.price} USD</a>
  </div>
  </aside>
  </div>

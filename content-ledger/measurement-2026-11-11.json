@@ -1,0 +1,32 @@
+{
+  "date": "2026-11-11",
+  "scope": "Measurement-only inquiry and listing tracking pass approved by Het at 08:25 IST.",
+  "ga4_findings": {
+    "period": "2026-10-14 to 2026-11-10",
+    "reading_detail_views": 29,
+    "reading_detail_active_users": 8,
+    "readings_click_events": 11,
+    "readings_click_from_shop": 7,
+    "readings_click_from_related_reading_pages": 4,
+    "inquiry_form_events": "No form_start, form_submit or uiformsubmit count found in GA4 before this change.",
+    "completed_inquiries": "No real customer Reading inquiry submission found in brand Gmail in the last 60 days; only Oct 19 tests."
+  },
+  "implementation": {
+    "events": [
+      "shop_listing_open",
+      "inquiry_cta_click",
+      "inquiry_form_start",
+      "inquiry_form_validation_error",
+      "inquiry_submit_attempt",
+      "inquiry_submit_success",
+      "inquiry_submit_error"
+    ],
+    "metadata": "reading_slug, reading_title, page_path, link_url, cta_type, form_id, field_name and error_type where applicable; no name, date of birth, question text or other personal form content.",
+    "privacy": "Existing analytics consent gate and psychic-studio-internal exclusion are preserved.",
+    "drop_off": "Measured from inquiry_form_start versus inquiry_submit_success rather than an unreliable page-unload event.",
+    "layout": "No visual layout, inquiry-flow, payment or checkout change."
+  },
+  "quality": {
+    "build": "npm run build passed on 2026-11-11 08:38 IST after npm ci restored local dependencies."
+  }
+}

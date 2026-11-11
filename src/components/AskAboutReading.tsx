@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+import React, { useRef, useState } from 'react';
+import { trackStudioEvent } from '../analytics';
 
 // Destination inbox for reading inquiries. One-line swap if the studio inbox changes.
 const ASK_INBOX = 'contact.thepsychicstudio@gmail.com';
@@ -13,6 +14,20 @@ export const AskAboutReading: React.FC<{ title: string; slug: string }> = ({ tit
   const [started] = useState(() => Date.now());
   const [warned, setWarned] = useState(false);
   const [status, setStatus] = useState<Status>('idle');
+  const trackedStart = useRef(false);
+
+  const analyticsParams = {
+    form_id: 'ask_about_reading',
+    page_path: window.location.pathname,
+    reading_slug: slug,
+    reading_title: title,
+  };
+
+  const markStarted = () => {
+    if (trackedStart.current) return;
+    trackedStart.current = true;
+    trackStudioEvent('inquiry_form_start', analyticsParams);
+  };
 
   const mailto = `mailto:${ASK_INBOX}?subject=${encodeURIComponent('Reading inquiry: ' + title)}`;
 
@@ -21,6 +36,7 @@ export const AskAboutReading: React.FC<{ title: string; slug: string }> = ({ tit
     if (status === 'sending') return;
     // Spam guard: honeypot filled means a bot. Fake success, send nothing.
     if (honey) { setStatus('sent'); return; }
+    trackStudioEvent('inquiry_submit_attempt', analyticsParams);
     // Very fast completion is usually a script, but autofill users exist: warn once and always allow the retry.
     if (!warned && Date.now() - started < 2000) { setWarned(true); return; }
     setStatus('sending');
@@ -41,8 +57,10 @@ export const AskAboutReading: React.FC<{ title: string; slug: string }> = ({ tit
         }),
       });
       if (!res.ok) throw new Error('send failed');
+      trackStudioEvent('inquiry_submit_success', analyticsParams);
       setStatus('sent');
     } catch {
+      trackStudioEvent('inquiry_submit_error', { ...analyticsParams, error_type: 'send_failed' });
       setStatus('error');
     }
   };
@@ -60,7 +78,15 @@ export const AskAboutReading: React.FC<{ title: string; slug: string }> = ({ tit
   }
 
   return (
-    <form className="st-ask-form" onSubmit={submit}>
+    <form
+      className="st-ask-form"
+      onSubmit={submit}
+      onFocusCapture={markStarted}
+      onInvalidCapture={(e) => trackStudioEvent('inquiry_form_validation_error', {
+        ...analyticsParams,
+        field_name: (e.target as HTMLInputElement | HTMLTextAreaElement).name || 'unknown',
+      })}
+    >
       <input type="text" name="_honey" value={honey} onChange={(e) => setHoney(e.target.value)} tabIndex={-1} autoComplete="off" aria-hidden="true" style={{ position: 'absolute', left: -9999, width: 1, height: 1, opacity: 0 }} />
       <label>
         Your name
@@ -70,7 +96,7 @@ export const AskAboutReading: React.FC<{ title: string; slug: string }> = ({ tit
           autoComplete="name"
           required
           value={name}
-          onChange={(e) => setName(e.target.value)}
+          onChange={(e) => { markStarted(); setName(e.target.value); }}
         />
       </label>
       <label>
@@ -80,7 +106,7 @@ export const AskAboutReading: React.FC<{ title: string; slug: string }> = ({ tit
           name="date_of_birth"
           autoComplete="bday"
           value={dob}
-          onChange={(e) => setDob(e.target.value)}
+          onChange={(e) => { markStarted(); setDob(e.target.value); }}
         />
       </label>
       <label>
@@ -90,7 +116,7 @@ export const AskAboutReading: React.FC<{ title: string; slug: string }> = ({ tit
           required
           placeholder="What would you like to ask about this reading?"
           value={questions}
-          onChange={(e) => setQuestions(e.target.value)}
+          onChange={(e) => { markStarted(); setQuestions(e.target.value); }}
         />
       </label>
       <p className="st-ask-note">

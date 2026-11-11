@@ -1,8 +1,11 @@
-import React, { useEffect, useState } from 'react';
+import React, { Suspense, lazy, useEffect, useState } from 'react';
 import { Link, NavLink, useLocation } from 'react-router-dom';
 import './studio.css';
 import { RouteSEO } from '../components/RouteSEO';
-import { SiteSearch } from './SiteSearch';
+const SiteSearch = lazy(() => import('./SiteSearch').then((m) => ({ default: m.SiteSearch })));
+
+const SearchGlyph: React.FC = () => <svg aria-hidden="true" width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round"><circle cx="11" cy="11" r="7" /><line x1="16.5" y1="16.5" x2="21" y2="21" /></svg>;
+
 const NAV: [string, string][] = [['/', 'Home'], ['/shop', 'Shop'], ['/free-tarot', 'Free Tarot'], ['/horoscope', 'Horoscope'], ['/blog', 'Blog'], ['/contact', 'Contact']];
 const REVEAL_SEL = 'main section:not(:first-child) h2, main section:not(:first-child) .st-card, main .st-prod, main article:not(.st-journal-copy), main .st-sec > .wrap > p, main .faq > div, main .st-grid > *, main .grid > article';
 const useReveal = (pathname: string) => {
@@ -85,6 +88,7 @@ const AnnouncementBar: React.FC = () => {
 };
 export const Layout: React.FC<{ children: React.ReactNode; seo?: boolean }> = ({ children, seo = true }) => {
   const [open, setOpen] = useState(false);
+  const [searchRequested, setSearchRequested] = useState(false);
   const { pathname } = useLocation();
   useEffect(() => { setOpen(false); window.scrollTo(0, 0); }, [pathname]);
   useReveal(pathname);
@@ -101,7 +105,14 @@ export const Layout: React.FC<{ children: React.ReactNode; seo?: boolean }> = ({
           <button type="button" className="st-nav-close" aria-label="Close menu" onClick={() => setOpen(false)}>&#215;</button>
           {NAV.map(([to, l]) => <NavLink key={to} to={to} end={to === '/'} className={({ isActive }) => (isActive ? 'on' : '')}>{l}</NavLink>)}
         </nav>
-        <div className="st-head-actions"><SiteSearch />
+        <div className="st-head-actions">
+          {searchRequested ? (
+            <Suspense fallback={<button type="button" className="st-search-btn" aria-label="Loading search" disabled><SearchGlyph /></button>}>
+              <SiteSearch initialOpen />
+            </Suspense>
+          ) : (
+            <button type="button" className="st-search-btn" aria-label="Search the site" aria-expanded="false" onClick={() => setSearchRequested(true)}><SearchGlyph /></button>
+          )}
         <button className="st-burger" aria-label="Menu" onClick={() => setOpen(!open)}>{open ? '×' : '☰'}</button></div>
       </div></header>
       <main id="st-main">{children}</main>

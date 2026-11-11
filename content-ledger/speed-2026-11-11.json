@@ -1,0 +1,42 @@
+{
+  "date": "2026-11-11",
+  "scope": "Technical speed improvement, no visual redesign",
+  "diagnosis": {
+    "pagespeed_insights": "quota exceeded for unauthenticated PageSpeed Insights API at 2026-11-11T09:18:00+05:30, so this pass used bundle analysis and build output instead",
+    "before": {
+      "layout_chunk": "/assets/Layout-CQQOOKMs.js",
+      "layout_chunk_bytes": 546836,
+      "layout_chunk_gzip_bytes": 171080,
+      "cause": "SiteSearch was statically imported by Layout and eagerly imported cmsStorage, which embeds all published markdown posts in the initial route chunk"
+    }
+  },
+  "change": {
+    "summary": "Lazy-load SiteSearch only after the visitor activates search; keep the same search button and panel once loaded.",
+    "files": [
+      "src/studio/Layout.tsx",
+      "src/studio/SiteSearch.tsx",
+      "src/analytics.ts"
+    ],
+    "analytics_fix": "TypeScript-safe dataLayer push helper; no event-name or metadata change"
+  },
+  "local_build": {
+    "lint": "passed",
+    "build": "passed",
+    "after": {
+      "layout_chunk": "/assets/Layout-vaoBjBt-.js",
+      "layout_chunk_bytes": 18745,
+      "layout_chunk_gzip_bytes": 6840,
+      "search_data_chunk": "/assets/cmsStorage-D2k-nbAT.js",
+      "search_data_chunk_bytes": 525855,
+      "search_data_chunk_gzip_bytes": 163900,
+      "loading_behavior": "search data chunk is deferred until search is requested"
+    },
+    "reduction": {
+      "layout_chunk_bytes_saved": 528091,
+      "layout_chunk_percent_reduction": 96.6,
+      "layout_chunk_gzip_bytes_saved": 164240,
+      "layout_chunk_gzip_percent_reduction": 96.0
+    }
+  },
+  "verification": "pending live deployment and visual check"
+}

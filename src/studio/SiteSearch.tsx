@@ -19,8 +19,8 @@ const PAGES: Item[] = [
   { title: 'Contact', sub: 'Ask a question', to: '/contact', kind: 'Page' },
 ];
 
-export const SiteSearch: React.FC = () => {
-  const [open, setOpen] = useState(false);
+export const SiteSearch: React.FC<{ initialOpen?: boolean }> = ({ initialOpen = false }) => {
+  const [open, setOpen] = useState(initialOpen);
   const [q, setQ] = useState('');
   const navigate = useNavigate();
   const inputRef = useRef<HTMLInputElement>(null);

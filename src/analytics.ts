@@ -9,7 +9,8 @@ export function trackStudioEvent(name: string, params: StudioAnalyticsParams = {
     if (window.localStorage.getItem(INTERNAL_KEY) === '1') return;
     const win = window as typeof window & { dataLayer?: unknown[] };
     win.dataLayer = win.dataLayer || [];
-    (function () { win.dataLayer!.push(arguments); })('event', name, params);
+    const pushEvent = (...args: unknown[]) => win.dataLayer!.push(args);
+    pushEvent('event', name, params);
   } catch {
     // Analytics must never interrupt the visit.
   }

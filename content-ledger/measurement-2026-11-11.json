@@ -28,5 +28,13 @@
   },
   "quality": {
     "build": "npm run build passed on 2026-11-11 08:38 IST after npm ci restored local dependencies."
+  },
+  "deployment": {
+    "first_commit": "692b9f1c9b75cd849a9b5e207ecfeebc453036a8",
+    "first_vercel_result": "failed",
+    "first_failure": "SSR build error: AskAboutReading read window during prerendering",
+    "fix_commit": "249a19d",
+    "fix_summary": "Read window.location.pathname only when tracking events run, not during SSR render.",
+    "verification": "pending at 2026-11-11T08:52:23"
   }
 }

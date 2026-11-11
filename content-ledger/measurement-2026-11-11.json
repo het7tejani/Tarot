@@ -35,6 +35,32 @@
     "first_failure": "SSR build error: AskAboutReading read window during prerendering",
     "fix_commit": "249a19d",
     "fix_summary": "Read window.location.pathname only when tracking events run, not during SSR render.",
-    "verification": "pending at 2026-11-11T08:52:23"
+    "verification": "live chunks and accepted-consent events verified at 2026-11-11T09:14:00+05:30",
+    "final_vercel_result": "success",
+    "final_verified_commit": "be8017a"
+  },
+  "live_verification": {
+    "checked_at": "2026-11-11T09:14:00+05:30",
+    "production_home_http": 200,
+    "production_shop_http": 200,
+    "chunks": {
+      "Shop": "/assets/Shop-CCgjE6Cj.js",
+      "ReadingDetail": "/assets/ReadingDetail-DdZs2fFW.js",
+      "analytics": "/assets/analytics-B0KMBSkW.js"
+    },
+    "consent": "accepted in cloud-browser test after clearing the stored test choice; internal flag null",
+    "events_verified_in_data_layer": [
+      "shop_listing_open",
+      "inquiry_cta_click",
+      "inquiry_form_start",
+      "inquiry_form_validation_error"
+    ],
+    "ga4_collect_events_observed": [
+      "shop_listing_open",
+      "inquiry_cta_click",
+      "inquiry_form_start"
+    ],
+    "formsubmit_requests_observed": 0,
+    "note": "Submit attempt/success/send-error handlers are instrumented but were not live-tested because no real inquiry submission was authorized."
   }
 }

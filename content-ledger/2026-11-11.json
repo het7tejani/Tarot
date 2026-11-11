@@ -85,7 +85,8 @@
     "lint": "passed",
     "build": "passed, 342 prerendered routes and 338 canonical public routes",
     "local_visual": "All three headings and covers inspected; all nine article images decoded successfully. No layout redesign.",
-    "publication": "Included in daily batch; live URL verification follows deployment."
+    "publication": "Included in daily batch; live URL verification follows deployment.",
+    "mobile_visual": "390px inspection caught cover text touching the crop edge. Covers regenerated with a wider text-safe inset and rechecked. No page-layout or inquiry-flow change."
   },
   "social": {
     "pinterest": "https://in.pinterest.com/pin/1109715164523838077/",

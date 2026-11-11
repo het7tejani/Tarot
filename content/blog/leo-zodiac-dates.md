@@ -2,13 +2,15 @@
 title: "Leo Zodiac Dates: When Leo Season Starts and Ends"
 category: "Astrology"
 date: "2026-10-24"
-excerpt: "Leo zodiac dates run from July 23 to August 22 in most years. See where the edges fall, what the fifth sign is like, and how to check a cusp birthday."
+excerpt: "Leo zodiac dates are usually July 23 to August 22. Check July 22, July 23 and August 22 cusp birthdays, plus the difference between dates and a birth chart."
 coverImage: "/perf-assets/signs/leo.svg"
 metaTitle: "Leo Zodiac Dates: July 23 to August 22 | The Psychic Studio"
 published: "true"
 ---
 
-Leo zodiac dates run from July 23 to August 22 in most years. Born in that window, your Sun sign is Leo, the fifth sign of the zodiac, a fire sign ruled by the Sun and symbolized by the lion.
+Leo zodiac dates are usually listed as July 23 to August 22 in Western tropical astrology. Dates well inside that range, such as July 31 and August 1, fall within Leo. A birthday near either boundary needs the birth year and exact time checked before the Sun sign is confirmed.
+
+Leo is the fifth sign of the tropical zodiac, a fire sign ruled by the Sun and symbolized by the lion. These are astrology conventions, not a scientific description of personality.
 
 The dates move by a day now and then. The Sun enters Leo at a precise moment that shifts a little each year, so a birthday on July 22 or 23 can land on either side. The cusp section below shows how to settle it.
 
@@ -28,7 +30,7 @@ If your birthday sits in the middle of the window, you are a Leo and the dates a
 
 Aries starts things, Sagittarius wanders off to explore them, and Leo is the one who stays to host. Leo is a fixed sign, which means it holds its position through the middle of summer. That fits the personality: loyal, steady and happiest when it has an audience of people it likes.
 
-Leo's ruler is the Sun, the only sign with a star for a planet. Leos tend to be warm, generous and visible. They remember birthdays, throw the party and tell you when your idea is good. They also want credit, and a Leo who feels overlooked goes quiet in a way that is hard to miss.
+Leo's ruler in astrology is the Sun, described as a luminary rather than a planet. Traditional Leo descriptions emphasize warmth, generosity and visibility. Treat those themes as prompts to compare with a person's actual habits, rather than facts established by a birthday.
 
 ![A lioness resting in golden light](/blog-images/32964634.webp)
 
@@ -40,9 +42,9 @@ The blind spot is pride. Leo takes criticism personally and can dig in over smal
 
 ## Born on the Leo cusp
 
-Two cusps touch Leo. People born around July 22 to 24 sit between Cancer and Leo, and often mix Cancer's care with Leo's confidence. People born around August 22 to 23 sit between Leo and Virgo, and often add Virgo's attention to detail to Leo's flair.
+Two sign boundaries touch Leo: Cancer to Leo around July 22 or 23, and Leo to Virgo around August 22 or 23. The Sun changes signs at one moment. A nearby birthday does not establish a blend of two Sun signs.
 
-A cusp does not make you two signs. Your Sun sign is whichever one the Sun was in at your exact time of birth. A birth chart gives you the answer, and our [birth chart](/birth-chart) tool lays out the Moon and rising sign too, which say more about the rest of your personality than the Sun alone.
+To check an edge birthday, use the full birth date, recorded birth time and birthplace in an accurate chart calculation. The location lets the calculation account for the local time zone. If the birth time is unknown and the Sun changed signs that day, leave the result uncertain. Our [birth chart guide](/birth-chart) explains the information needed; it is not a chart calculator.
 
 ![A lion standing on dry grass at the edge of the savanna](/blog-images/6401474.webp)
 
@@ -50,11 +52,13 @@ A cusp does not make you two signs. Your Sun sign is whichever one the Sun was i
 
 Leo pairs well with other fire and air signs because they match its energy. [Leo and Aries](/zodiac-compatibility/aries-and-leo) is a high-voltage match with plenty of friction. [Leo and Libra](/zodiac-compatibility/leo-and-libra) is easier, since Libra enjoys the show and Leo enjoys being appreciated. [Leo and Sagittarius](/zodiac-compatibility/leo-and-sagittarius) tends to be the most relaxed of the three.
 
-Leo and Scorpio is the pairing people ask about most. Two fixed signs that both want to lead have to agree on who drives, and that conversation takes some time. Our [Leo and Scorpio](/zodiac-compatibility/leo-and-scorpio) page covers how couples handle it.
+Leo and Scorpio is another pairing worth comparing. Two fixed signs that both want to lead have to agree on who drives, and that conversation takes some time. Our [Leo and Scorpio](/zodiac-compatibility/leo-and-scorpio) page covers how couples handle it.
 
-## Leo season in 2026
+## Leo season and daily tarot
 
-Leo season in 2026 runs from July 23 to August 22, the hottest stretch of the northern summer. Astrologers treat it as the time of year when confidence and visibility come up in conversation, whether that means a big birthday, a presentation or finally posting the thing you made. You can check what the sign has in store for you this week on the [Leo horoscope](/horoscope/leo) page.
+Leo season is the part of the tropical zodiac calendar associated with the Sun in Leo. A general date range is useful for orientation, but it is not an exact entry-time table for a particular year or time zone.
+
+The [Leo horoscope page](/horoscope/leo) offers a changing daily tarot card and reflection questions. It does not calculate planetary transits or predict what will happen during your week. For Leo's tarot connection, explore [Strength](/tarot-card-meanings/strength) as a reflection on patience and self-control.
 
 Curious about the sign's intuition? Read [which zodiac signs are called most psychic](/blog/most-psychic-zodiac-signs).
 
@@ -63,6 +67,10 @@ Curious about the sign's intuition? Read [which zodiac signs are called most psy
 **What are the dates for Leo?**
 
 Leo runs from July 23 to August 22 in most years. The exact moment the Sun enters Leo changes slightly each year.
+
+**Is July 22 or July 23 Cancer or Leo?**
+
+Either date can fall near the Cancer-Leo change. Check the Sun's position for your birth year and time, using the birthplace to convert local time correctly. A fixed date list cannot settle every edge birthday.
 
 **What zodiac sign is August 22?**
 
@@ -76,7 +84,4 @@ Leo is a fire sign, along with Aries and Sagittarius.
 
 The Sun rules Leo. Astrologers call the Sun a luminary rather than a planet, but it holds the ruling role.
 
-Born at the end of July? Read the [July 31 zodiac sign](/blog/july-31-zodiac-sign) guide for a date inside Leo.
-
-
-For a single date inside the sign, see the [July 27 zodiac sign guide](/blog/july-27-zodiac-sign).
+For birthdays well inside Leo, read the [July 31 zodiac sign](/blog/july-31-zodiac-sign) or [July 27 zodiac sign](/blog/july-27-zodiac-sign) guide. These date pages use the same tropical zodiac convention.

@@ -76,5 +76,26 @@
     ],
     "faq_schema_checked_in_dist": "/readings/soulmate-and-future-relationship"
   },
-  "live_verification": "pending deployment"
+  "live_verification": {
+    "commit": "3bcc2e2",
+    "checked_at": "2026-11-11T09:29:17+05:30",
+    "result": "All five pages HTTP 200; expected title, meta and canonical; soulmate JSON-LD parsed with Service, FAQPage and BreadcrumbList."
+  },
+  "date_blog_followup": {
+    "scope": "Leo and Cancer date-blog copy only, no layout changes",
+    "selection_basis": "Nov 11 page review: Leo date blog 234 impressions, 3 clicks, position 71; Cancer date blog 217 impressions, 3 clicks, position 67. These are content-quality opportunities, not claimed easy ranking wins.",
+    "changes": [
+      "Direct-answer excerpts and opening paragraphs; boundary dates depend on year/time/time zone.",
+      "Removed claims that the site birth-chart guide calculates Moon/rising or resolves cusp birthdays.",
+      "Leo: replaced unverified exact 2026 season claim and weekly-prediction language with an evergreen explanation and daily tarot boundary; consolidated date links.",
+      "Cancer: corrected common tarot correspondence from The Moon to The Chariot; removed unsupported June 22 assertion."
+    ],
+    "sources": [
+      "https://plainastro.com/cancer-leo-cusp",
+      "https://labyrinthos.co/blogs/learn-tarot-with-labyrinthos-academy/astrology-tarot-correspondences-your-tarot-cards-by-zodiac-signs-infographic",
+      "https://thepsychicstudio.com/birth-chart"
+    ],
+    "local_checks": "lint and build passed; 339 routes prerendered, 335 canonical routes checked",
+    "live_verification": "pending deployment"
+  }
 }

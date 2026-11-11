@@ -16,17 +16,17 @@ export const AskAboutReading: React.FC<{ title: string; slug: string }> = ({ tit
   const [status, setStatus] = useState<Status>('idle');
   const trackedStart = useRef(false);
 
-  const analyticsParams = {
+  const analyticsParams = () => ({
     form_id: 'ask_about_reading',
     page_path: window.location.pathname,
     reading_slug: slug,
     reading_title: title,
-  };
+  });
 
   const markStarted = () => {
     if (trackedStart.current) return;
     trackedStart.current = true;
-    trackStudioEvent('inquiry_form_start', analyticsParams);
+    trackStudioEvent('inquiry_form_start', analyticsParams());
   };
 
   const mailto = `mailto:${ASK_INBOX}?subject=${encodeURIComponent('Reading inquiry: ' + title)}`;
@@ -36,7 +36,7 @@ export const AskAboutReading: React.FC<{ title: string; slug: string }> = ({ tit
     if (status === 'sending') return;
     // Spam guard: honeypot filled means a bot. Fake success, send nothing.
     if (honey) { setStatus('sent'); return; }
-    trackStudioEvent('inquiry_submit_attempt', analyticsParams);
+    trackStudioEvent('inquiry_submit_attempt', analyticsParams());
     // Very fast completion is usually a script, but autofill users exist: warn once and always allow the retry.
     if (!warned && Date.now() - started < 2000) { setWarned(true); return; }
     setStatus('sending');
@@ -57,10 +57,10 @@ export const AskAboutReading: React.FC<{ title: string; slug: string }> = ({ tit
         }),
       });
       if (!res.ok) throw new Error('send failed');
-      trackStudioEvent('inquiry_submit_success', analyticsParams);
+      trackStudioEvent('inquiry_submit_success', analyticsParams());
       setStatus('sent');
     } catch {
-      trackStudioEvent('inquiry_submit_error', { ...analyticsParams, error_type: 'send_failed' });
+      trackStudioEvent('inquiry_submit_error', { ...analyticsParams(), error_type: 'send_failed' });
       setStatus('error');
     }
   };
@@ -83,7 +83,7 @@ export const AskAboutReading: React.FC<{ title: string; slug: string }> = ({ tit
       onSubmit={submit}
       onFocusCapture={markStarted}
       onInvalidCapture={(e) => trackStudioEvent('inquiry_form_validation_error', {
-        ...analyticsParams,
+        ...analyticsParams(),
         field_name: (e.target as HTMLInputElement | HTMLTextAreaElement).name || 'unknown',
       })}
     >

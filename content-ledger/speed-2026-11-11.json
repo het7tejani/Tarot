@@ -38,5 +38,38 @@
       "layout_chunk_gzip_percent_reduction": 96.0
     }
   },
-  "verification": "pending live deployment and visual check"
+  "verification": {
+    "checked_at": "2026-11-11T09:25:49+05:30",
+    "commit": "0542e46",
+    "production_pages": {
+      "https://thepsychicstudio.com/": 200,
+      "https://thepsychicstudio.com/shop": 200,
+      "https://thepsychicstudio.com/readings/grounding-and-inner-stability": 200
+    },
+    "production_assets": {
+      "/assets/Layout-vaoBjBt-.js": {
+        "http": 200,
+        "bytes": 18745
+      },
+      "/assets/cmsStorage-D2k-nbAT.js": {
+        "http": 200,
+        "bytes": 525855,
+        "loading": "not present in initial HTML; loaded after activating search"
+      }
+    },
+    "browser_visual": {
+      "lease": "L-3nb47xrtx7favch6fq3sfabc2y",
+      "homepage_checked_at": "2026-11-11T09:25:08+05:30",
+      "search_panel_checked_at": "2026-11-11T09:25:18+05:30",
+      "result": "Header, search icon, search drawer, input and results visually normal against the pre-deploy baseline.",
+      "search_query": "Leo",
+      "search_result_count": 5,
+      "first_result": "July 27 Zodiac Sign: Leo Traits, Decan and Tarot Card"
+    },
+    "analytics_smoke": "Accepted-consent smoke test after this deployment confirmed shop_listing_open and inquiry_cta_click in dataLayer, with GTM and Clarity scripts loaded. See measurement-2026-11-11.json synthetic_analytics_events.",
+    "vercel": {
+      "the-psychic-studio": "success: https://vercel.com/het-tejanis-projects/the-psychic-studio/CsHz6uCR9jo1DrKuLaXLT1f1EH8D",
+      "tarot": "pending when production was verified: https://vercel.com/het-tejanis-projects/tarot/8TU9xkLYKbwp7zG1o4CehDUF77iB"
+    }
+  }
 }

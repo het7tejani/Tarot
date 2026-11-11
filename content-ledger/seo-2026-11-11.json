@@ -1,0 +1,80 @@
+{
+  "date": "2026-11-11",
+  "scope": "Metadata and structured-data SEO only; no layout or inquiry-flow change",
+  "selection_basis": "Nov 11 GSC pages and queries with impressions but weak CTR or deep average position.",
+  "source": {
+    "gsc_performance_url": "https://search.google.com/search-console/performance/search-analytics?resource_id=https%3A%2F%2Fthepsychicstudio.com%2F&breakdown=query&metrics=CLICKS%2CIMPRESSIONS%2CCTR%2CPOSITION&authuser=contact.thepsychicstudio%40gmail.com",
+    "period": "Oct 7-Nov 8, 28 days"
+  },
+  "targets": [
+    {
+      "path": "/zodiac/leo",
+      "clicks": 9,
+      "impressions": 1026,
+      "ctr": "0.9%",
+      "position": 71
+    },
+    {
+      "path": "/zodiac/gemini",
+      "clicks": 4,
+      "impressions": 535,
+      "ctr": "0.7%",
+      "position": 79
+    },
+    {
+      "path": "/zodiac/scorpio",
+      "clicks": 2,
+      "impressions": 311,
+      "position": 69
+    },
+    {
+      "path": "/horoscope/scorpio",
+      "clicks": 2,
+      "impressions": 145,
+      "position": 74
+    },
+    {
+      "query": "free psychic soulmate reading",
+      "clicks": 1,
+      "impressions": 42,
+      "position": 94
+    }
+  ],
+  "changes": [
+    {
+      "path": "/zodiac/leo",
+      "change": "Focused title on exact date intent and kept direct date/meta answer with specific date examples."
+    },
+    {
+      "path": "/zodiac/gemini",
+      "change": "Focused title on exact date intent and kept direct date/meta answer with specific date examples."
+    },
+    {
+      "path": "/zodiac/scorpio",
+      "change": "Added title and direct date/meta answer with specific date examples."
+    },
+    {
+      "path": "/horoscope/scorpio",
+      "change": "Added title and meta wording for daily love/work tarot reflection; retained not-a-transit-forecast boundary."
+    },
+    {
+      "path": "/readings/soulmate-and-future-relationship",
+      "change": "Focused title and meta on soulmate/future-relationship reflection; added FAQ structured data matching the existing on-page boundaries and free-tarot distinction."
+    }
+  ],
+  "local_verification": {
+    "lint": "passed at 2026-11-11T09:22:00+05:30",
+    "build": "passed at 2026-11-11T09:22:00+05:30",
+    "prerendered_routes": 339,
+    "canonical_public_routes_checked": 335,
+    "title_meta_checked_in_dist": [
+      "/zodiac/leo",
+      "/zodiac/gemini",
+      "/zodiac/scorpio",
+      "/horoscope/scorpio",
+      "/readings/soulmate-and-future-relationship"
+    ],
+    "faq_schema_checked_in_dist": "/readings/soulmate-and-future-relationship"
+  },
+  "live_verification": "pending deployment"
+}

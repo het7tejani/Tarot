@@ -126,6 +126,35 @@
       "mock_scope": "window.fetch intercepted only formsubmit.co/ajax and returned local HTTP 500",
       "real_formsubmit_requests_observed": 0,
       "mocked_formsubmit_calls": 1
+    },
+    {
+      "test": "accepted-consent analytics smoke after lazy-search speed deployment",
+      "browser_lease": "L-3nb47xrtx7favch6fq3sfabc2y",
+      "started_at": "2026-11-11T09:25:31+05:30",
+      "completed_at": "2026-11-11T09:25:49+05:30",
+      "internal_flag": "cleared before test with internal=0; test traffic, not customer activity",
+      "pages": [
+        "https://thepsychicstudio.com/?analytics-smoke=20261111-0926&internal=0",
+        "https://thepsychicstudio.com/shop?analytics-smoke=20261111-0926",
+        "https://thepsychicstudio.com/readings/grounding-and-inner-stability#ask-about-reading"
+      ],
+      "event_labels": [
+        "page_view",
+        "readings_click",
+        "shop_listing_open",
+        "inquiry_cta_click"
+      ],
+      "events_verified_in_data_layer": [
+        "shop_listing_open",
+        "inquiry_cta_click"
+      ],
+      "ga4_collect_events_observed": [
+        "page_view",
+        "readings_click"
+      ],
+      "gtm_id": "GTM-MXBQ87JD",
+      "clarity_id": "ywia4vi28f",
+      "formsubmit_requests_observed": 0
     }
   ]
 }

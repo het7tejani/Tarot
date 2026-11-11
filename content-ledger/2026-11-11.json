@@ -1,0 +1,134 @@
+{
+  "date": "2026-11-11",
+  "posts": [
+    {
+      "slug": "the-hierophant-tarot-card-meaning",
+      "words": 1014,
+      "workbook_evidence": "the hierophant tarot: archived competitor pos25/30, 12.1K volume, KD46",
+      "pexels_ids": [
+        8349006,
+        144671,
+        208219
+      ]
+    },
+    {
+      "slug": "353-angel-number-meaning",
+      "words": 1048,
+      "workbook_evidence": "353 angel number: archived competitor pos2, 2.9K volume, KD27",
+      "pexels_ids": [
+        12887938,
+        31325488,
+        34721263
+      ]
+    },
+    {
+      "slug": "744-angel-number-meaning",
+      "words": 1056,
+      "workbook_evidence": "744 angel number: archived competitor pos3, 3.6K volume, KD34",
+      "pexels_ids": [
+        37546283,
+        31779100,
+        144671
+      ]
+    }
+  ],
+  "image_pack": "public/blog-images/pack-28.json",
+  "pexels": [
+    {
+      "id": 8349006,
+      "source": "https://www.pexels.com/photo/a-holy-book-on-church-podium-8349006/",
+      "license": "https://www.pexels.com/license/"
+    },
+    {
+      "id": 144671,
+      "source": "https://www.pexels.com/photo/opened-book-144671/",
+      "license": "https://www.pexels.com/license/"
+    },
+    {
+      "id": 208219,
+      "source": "https://www.pexels.com/photo/close-up-of-black-book-208219/",
+      "license": "https://www.pexels.com/license/"
+    },
+    {
+      "id": 12887938,
+      "source": "https://www.pexels.com/photo/wet-stone-stairs-12887938/",
+      "license": "https://www.pexels.com/license/"
+    },
+    {
+      "id": 31325488,
+      "source": "https://www.pexels.com/photo/open-book-with-antique-key-and-mimosa-flowers-31325488/",
+      "license": "https://www.pexels.com/license/"
+    },
+    {
+      "id": 34721263,
+      "source": "https://www.pexels.com/photo/charming-courtyard-with-stone-pathway-and-greenery-34721263/",
+      "license": "https://www.pexels.com/license/"
+    },
+    {
+      "id": 37546283,
+      "source": "https://www.pexels.com/photo/stairs-leading-to-historic-swiss-church-37546283/",
+      "license": "https://www.pexels.com/license/"
+    },
+    {
+      "id": 31779100,
+      "source": "https://www.pexels.com/photo/scenic-view-of-historic-stone-church-exterior-31779100/",
+      "license": "https://www.pexels.com/license/"
+    }
+  ],
+  "meaning_sources": [
+    "https://labyrinthos.co/blogs/tarot-card-meanings-list/the-hierophant-meaning-major-arcana-tarot-card-meanings",
+    "https://www.astrology.com/numerology/angel-numbers/353-meaning",
+    "https://www.astrology.com/numerology/angel-numbers/744-meaning"
+  ],
+  "editorial_note": "Symbolic interpretations clearly labeled; no financial, health, reunion or hidden-feelings guarantees copied from sources. Three stock photos per article plus original cover poster.",
+  "quality": {
+    "lint": "passed",
+    "build": "passed, 342 prerendered routes and 338 canonical public routes",
+    "local_visual": "All three headings and covers inspected; all nine article images decoded successfully. No layout redesign.",
+    "publication": "Included in daily batch; live URL verification follows deployment."
+  },
+  "social": {
+    "pinterest": "https://in.pinterest.com/pin/1109715164523838077/",
+    "tumblr": "https://www.tumblr.com/thepsychicstudio/832958320460627968/the-tower-what-can-be-rebuilt",
+    "buffer_through": "2026-11-13",
+    "medium": "office-PC drafts only; no cloud retry",
+    "quora": "paused; no same-route retry",
+    "astrology_directory": "frozen, no checks"
+  },
+  "reply_email": "Preview isolated on separate branch; no production change pending user approval",
+  "gsc": {
+    "performance_url": "https://search.google.com/search-console/performance/search-analytics?resource_id=https%3A%2F%2Fthepsychicstudio.com%2F",
+    "period": "2026-10-07 to 2026-11-08",
+    "last_update": "4 hours before 09:54 IST",
+    "clicks": 55,
+    "impressions": "10.7K",
+    "ctr": "0.5%",
+    "average_position": 71.9,
+    "days": [
+      {
+        "date": "2026-11-08",
+        "clicks": 3,
+        "impressions": 1218,
+        "position": 72.4
+      },
+      {
+        "date": "2026-11-07",
+        "clicks": 0,
+        "impressions": 1039,
+        "position": 70.9
+      },
+      {
+        "date": "2026-11-06",
+        "clicks": 0,
+        "impressions": 1349,
+        "position": 74.1
+      }
+    ],
+    "trend_note": "Latest Nov8 daily impressions +179 vs Nov7; position 72.4 vs70.9, 1.5 places worse. No improvement attributed to today changes.",
+    "pages_url": "https://search.google.com/search-console/index?resource_id=https://thepsychicstudio.com/",
+    "pages_data_as_of": "2026-11-06",
+    "indexed": 272,
+    "not_indexed": 53,
+    "indexing_caveat": "Dated Pages baseline, not a live count. No new journal URL inspection performed."
+  }
+}

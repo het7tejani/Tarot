@@ -73,3 +73,5 @@ It is better read as a confirmation. Something was already changing; the number 
 
 **What is the difference between 555 and 888?**
 555 is change in motion, the middle of the process. [888](/blog/888-angel-number-meaning) is the cycle completing and renewing. Many people see 555 first and 888 later, as the change settles into its new shape.
+
+For another view of expression during change, read the [353 angel number guide](/blog/353-angel-number-meaning).

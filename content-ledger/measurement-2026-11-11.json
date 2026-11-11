@@ -62,5 +62,70 @@
     ],
     "formsubmit_requests_observed": 0,
     "note": "Submit attempt/success/send-error handlers are instrumented but were not live-tested because no real inquiry submission was authorized."
-  }
+  },
+  "synthetic_analytics_events": [
+    {
+      "test": "accepted-consent live tracking smoke test",
+      "browser_lease": "L-avvicxpja6vd5sthkkazi44ptq",
+      "started_at": "2026-11-11T09:13:12+05:30",
+      "completed_at": "2026-11-11T09:14:28+05:30",
+      "internal_flag": "cleared before test; test traffic, not customer activity",
+      "pages": [
+        "https://thepsychicstudio.com/?internal=0&measurement-test=20261111-0913",
+        "https://thepsychicstudio.com/shop",
+        "https://thepsychicstudio.com/readings/grounding-and-inner-stability#ask-about-reading"
+      ],
+      "event_labels": [
+        "page_view",
+        "shop_click",
+        "uiclick",
+        "readings_click",
+        "shop_listing_open",
+        "uiscroll",
+        "inquiry_cta_click",
+        "inquiry_form_start",
+        "inquiry_form_validation_error"
+      ],
+      "validation_error_fields": [
+        "name",
+        "questions"
+      ],
+      "formsubmit_requests_observed": 0
+    },
+    {
+      "test": "mocked inquiry submit success",
+      "browser_lease": "L-rikmfax4ftqjhdq2qq3czvoiji",
+      "started_at": "2026-11-11T09:17:17+05:30",
+      "completed_at": "2026-11-11T09:17:33+05:30",
+      "internal_flag": "cleared before test; test traffic, not customer activity",
+      "page": "https://thepsychicstudio.com/readings/grounding-and-inner-stability?internal=0&mock-submit-test=20261111-0917#ask-about-reading",
+      "event_labels": [
+        "inquiry_cta_click",
+        "inquiry_form_start",
+        "inquiry_submit_attempt",
+        "inquiry_submit_success"
+      ],
+      "mock_scope": "window.fetch intercepted only formsubmit.co/ajax and returned local HTTP 200",
+      "real_formsubmit_requests_observed": 0,
+      "mocked_formsubmit_calls": 1
+    },
+    {
+      "test": "mocked inquiry submit failure",
+      "browser_lease": "L-rikmfax4ftqjhdq2qq3czvoiji",
+      "started_at": "2026-11-11T09:17:40+05:30",
+      "completed_at": "2026-11-11T09:17:51+05:30",
+      "internal_flag": "cleared before test; test traffic, not customer activity",
+      "page": "https://thepsychicstudio.com/readings/grounding-and-inner-stability?internal=0&mock-submit-test=20261111-0917-error#ask-about-reading",
+      "event_labels": [
+        "inquiry_cta_click",
+        "inquiry_form_start",
+        "inquiry_submit_attempt",
+        "inquiry_submit_error"
+      ],
+      "error_type": "send_failed",
+      "mock_scope": "window.fetch intercepted only formsubmit.co/ajax and returned local HTTP 500",
+      "real_formsubmit_requests_observed": 0,
+      "mocked_formsubmit_calls": 1
+    }
+  ]
 }

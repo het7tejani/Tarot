@@ -4,7 +4,7 @@ category: "Tarot Guides"
 date: "2026-10-29"
 excerpt: "Strength upright is about patience, courage and calm self-control. See the keywords, the love and career readings, and how to read the card."
 coverImage: "/tarot/strength.jpg"
-metaTitle: "Strength Tarot Card Upright: Keywords, Love, Career | The Psychic Studio"
+metaTitle: "Strength Tarot Card Upright: Keywords, Love and Meaning"
 published: "true"
 ---
 
@@ -18,7 +18,7 @@ In the Rider-Waite-Smith deck, Strength shows a woman calmly closing or soothing
 
 Strength is card 8 in the Rider-Waite-Smith deck and card 11 in some older decks. The placement differs by deck, but the meaning is nearly the same.
 
-## Strength upright keywords
+## Strength tarot card upright keywords
 
 Most readers connect the upright card to these ideas:
 

@@ -12,6 +12,8 @@ The Lovers reversed is commonly associated with disharmony, different priorities
 
 Start with the situation rather than a prediction. What feels out of step? Is there an actual disagreement, an unclear expectation or a decision you have been postponing? Naming the issue gives you something to discuss beyond the card.
 
+For the wider upright interpretation, read the [Lovers tarot card meaning guide](/blog/the-lovers-tarot-card-meaning), which focuses on mutual choice and shared values.
+
 ## The Lovers reversed meaning
 
 In contemporary tarot guides, the upright Lovers often represents relationships, shared values and meaningful choices. The reversal turns attention toward imbalance, inner conflict or difficulty bringing those values into everyday decisions.

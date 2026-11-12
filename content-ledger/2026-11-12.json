@@ -1,0 +1,203 @@
+{
+  "date": "2026-11-12",
+  "posts": [
+    {
+      "slug": "the-lovers-tarot-card-meaning",
+      "url": "https://thepsychicstudio.com/blog/the-lovers-tarot-card-meaning",
+      "words": 936,
+      "pexels_ids": [
+        6457564,
+        5124850,
+        4790556
+      ],
+      "cover": "/blog-images/cover-the-lovers-tarot-card-meaning.webp",
+      "internal_link_count": 7
+    },
+    {
+      "slug": "333-angel-number-meaning",
+      "url": "https://thepsychicstudio.com/blog/333-angel-number-meaning",
+      "words": 986,
+      "pexels_ids": [
+        1424543,
+        11740374,
+        30345419
+      ],
+      "cover": "/blog-images/cover-333-angel-number-meaning.webp",
+      "internal_link_count": 7
+    },
+    {
+      "slug": "how-many-cards-in-a-tarot-deck",
+      "url": "https://thepsychicstudio.com/blog/how-many-cards-in-a-tarot-deck",
+      "words": 982,
+      "pexels_ids": [
+        4790556,
+        6944184,
+        7179792
+      ],
+      "cover": "/blog-images/cover-how-many-cards-in-a-tarot-deck.webp",
+      "internal_link_count": 8
+    }
+  ],
+  "keyword_evidence": {
+    "basis": "Archived Oct7 competitor workbook, independently re-read Nov12. Estimates are not current rankings or demand forecasts.",
+    "rows": [
+      [
+        "kasamba",
+        "lovers tarot card",
+        "I",
+        "13",
+        "7",
+        "2.4K",
+        "38",
+        "www.kasamba.com/tarot-reading/decks/major-arcana/the-lovers-card/"
+      ],
+      [
+        "psychicsource",
+        "333 angel number meaning",
+        "I",
+        "24",
+        "552",
+        "368K",
+        "42",
+        "www.psychicsource.com/article/spiritual-meaning/333-angel-number/29163"
+      ],
+      [
+        "purplegarden",
+        "how many cards in a tarot deck",
+        "I",
+        "15",
+        "19",
+        "6.6K",
+        "61",
+        "www.purplegarden.co/blog/list-of-tarot-cards-with-pictures"
+      ]
+    ]
+  },
+  "meaning_sources": [
+    "https://labyrinthos.co/blogs/tarot-card-meanings-list/the-lovers-meaning-major-arcana-tarot-card-meanings",
+    "https://www.astrology.com/numerology/angel-numbers/333-meaning",
+    "https://www.vam.ac.uk/articles/tarot-cards/",
+    "https://labyrinthos.co/blogs/tarot-card-meanings-list/strength-meaning-major-arcana-tarot-card-meanings",
+    "https://www.astrology.com/numerology/angel-numbers/128-meaning"
+  ],
+  "pexels": [
+    {
+      "id": 6457564,
+      "source": "https://www.pexels.com/photo/multiethnic-best-friends-stacking-hands-on-timber-table-6457564/",
+      "license": "https://www.pexels.com/license/"
+    },
+    {
+      "id": 5124850,
+      "source": "https://www.pexels.com/photo/hands-on-wooden-table-beside-notebook-and-pen-5124850/",
+      "license": "https://www.pexels.com/license/"
+    },
+    {
+      "id": 4790556,
+      "source": "https://www.pexels.com/photo/burning-candle-near-tarot-cards-on-table-4790556/",
+      "license": "https://www.pexels.com/license/"
+    },
+    {
+      "id": 6944184,
+      "source": "https://www.pexels.com/photo/person-holding-a-deck-of-tarot-cards-6944184/",
+      "license": "https://www.pexels.com/license/"
+    },
+    {
+      "id": 7179792,
+      "source": "https://www.pexels.com/photo/tarot-cards-and-a-crystal-ball-on-the-table-7179792/",
+      "license": "https://www.pexels.com/license/"
+    },
+    {
+      "id": 1424543,
+      "source": "https://www.pexels.com/photo/color-markers-on-white-surface-near-book-1424543/",
+      "license": "https://www.pexels.com/license/"
+    },
+    {
+      "id": 11740374,
+      "source": "https://www.pexels.com/photo/a-row-of-colored-pencils-on-the-open-notebook-11740374/",
+      "license": "https://www.pexels.com/license/"
+    },
+    {
+      "id": 30345419,
+      "source": "https://www.pexels.com/photo/set-of-colored-pencils-and-blank-sketchbook-30345419/",
+      "license": "https://www.pexels.com/license/"
+    }
+  ],
+  "image_pack": "public/blog-images/pack-29.json",
+  "image_note": "Six new stock-photo IDs; two reused from existing pack-14 without overwriting their bytes. Each article has three stock photos plus an original cover. Photos are illustrative and do not depict studio readers or clients.",
+  "changes": [
+    "Added contextual incoming links from Lovers reversed,333 money and Fool guides.",
+    "Shortened Strength upright/reversed,888 and128 search titles. Added direct reversed Strength keyword answer and upright comparison link.",
+    "Reframed128 opening and resource paragraph explicitly as symbolic belief, with no success promise.",
+    "Original poster artwork checked within both mobile horizontal and desktop vertical crop areas.",
+    "Daily Moon pin and Tumblr reflection published; social buffer replenished through Nov14 inclusive.",
+    "Prepared three Quora answers with no site links; publishing remains paused. Medium drafts remain office-PC-only."
+  ],
+  "social": {
+    "pinterest": "https://in.pinterest.com/pin/1109715164523915423/",
+    "tumblr": "https://www.tumblr.com/thepsychicstudio/833047534492631040/the-moon-what-is-still-unclear"
+  },
+  "checks": {
+    "lint": "passed",
+    "build": "345 prerendered routes;341 canonical public routes; unique titles and incoming links checked",
+    "writing": "New batch and Nov11 posts checked for prohibited phrases, em dashes, pipe tables and source sections. FAQ questions remain bold lines.",
+    "visual": "Local desktop and390px renders inspected; desktop/mobile cover crop corrected before deployment. Live verification follows deployment."
+  },
+  "boundaries": [
+    "No inquiry-flow, homepage, Shop or product-card changes.",
+    "No index requests or paused directory checks.",
+    "No new profile/listing submission; today adds the two verified social placements."
+  ],
+  "gsc": {
+    "pages": {
+      "indexed": 289,
+      "not_indexed": 53,
+      "data_as_of": "2026-11-09",
+      "previous_baseline": {
+        "indexed": 272,
+        "data_as_of": "2026-11-06"
+      },
+      "url_inspection_confirmed_today": []
+    },
+    "performance": {
+      "period": "2026-10-07 to2026-11-09",
+      "clicks": 55,
+      "impressions_display": "11.4K",
+      "average_position": 71.6,
+      "last_update_display": "3.5 hours ago",
+      "daily": [
+        {
+          "date": "2026-11-09",
+          "clicks": 0,
+          "impressions": 706,
+          "position": 66.8
+        },
+        {
+          "date": "2026-11-08",
+          "clicks": 3,
+          "impressions": 1218,
+          "position": 72.4
+        },
+        {
+          "date": "2026-11-07",
+          "clicks": 0,
+          "impressions": 1039,
+          "position": 70.9
+        }
+      ],
+      "comparison": "Nov9 vs Nov8: impressions -512; position improved5.6. No attribution."
+    },
+    "sources": [
+      "https://search.google.com/search-console/index?resource_id=https://thepsychicstudio.com/",
+      "https://search.google.com/search-console/performance/search-analytics?resource_id=https%3A%2F%2Fthepsychicstudio.com%2F"
+    ]
+  },
+  "clarity": {
+    "source": "https://clarity.microsoft.com/projects/view/ywia4vi28f/impressions?date=Last+3+days",
+    "review": "Watched Nov11 Google/UK mobile Seven of Wands replay through1:42, one page and one tap, no navigation. Non-India list also includes Bing/Indonesia free-tarot11:31 and Pinterest/Netherlands444 guide23seconds. India measurement sessions excluded from inference. No justified layout change.",
+    "caveat": "Session insight text is machine-generated, checked against visible playback. Times are total session durations, not guaranteed active attention."
+  },
+  "pagespeed": {
+    "status": 429,
+    "message": "Daily query quota exceeded for project583797351490. No score or improvement claimed."
+  }
+}

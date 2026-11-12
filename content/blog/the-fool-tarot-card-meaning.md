@@ -14,6 +14,8 @@ The Fool does not promise that a leap will work. Tarot is a reflective practice,
 
 ![A backpacker standing on a mountain cliff at sunrise](/blog-images/5456276.webp)
 
+New to the deck? The [78-card tarot deck guide](/blog/how-many-cards-in-a-tarot-deck) explains the Major and Minor Arcana before you look up individual meanings.
+
 ## What The Fool shows
 
 In the Rider-Waite-Smith image, a young traveler stands near the edge of a cliff. A small dog jumps beside them. The Fool carries a light pack, a white rose and a bright expression. The sky is clear, and the mountains in the distance suggest a larger journey ahead.

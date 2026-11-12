@@ -4,7 +4,7 @@ category: "Angel Numbers"
 date: "2026-10-08"
 excerpt: "Explore 888 angel number meaning in love, money and work, with grounded reflection prompts, tarot connections and no promises of future wealth."
 coverImage: "/tarot/the_empress.jpg"
-metaTitle: "888 Angel Number Meaning: Love, Money, Balance | The Psychic Studio"
+metaTitle: "888 Angel Number Meaning: Love, Money and Spiritual Balance"
 published: "true"
 ---
 

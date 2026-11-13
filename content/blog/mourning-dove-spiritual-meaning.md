@@ -73,3 +73,5 @@ Consider habitat and bird behavior before a spiritual explanation. Cornell's [mo
 Let the bird remain a bird. The peace you choose to practice afterward can be meaningful in its own right.
 
 For a broader look at interpreting animal imagery without assigning a sacred identity, read our [animal symbolism and spirit-animal guide](/spirit-animal).
+
+The [earth-angel eye-colour guide](/blog/what-color-eyes-do-earth-angels-have) applies the same distinction between a personal symbol and evidence about another person.

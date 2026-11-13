@@ -4,7 +4,7 @@ category: "Tarot"
 date: "2026-11-06"
 excerpt: "The Empress tarot meaning connects care, creativity and growth. Explore her symbols, upright and reversed meanings, and grounded love and work reflections."
 coverImage: "/blog-images/cover-the-empress-tarot-card-meaning.webp"
-metaTitle: "The Empress Tarot Meaning: Upright, Reversed, Love | The Psychic Studio"
+metaTitle: "The Empress Tarot Meaning: Upright, Reversed and Love"
 published: "true"
 ---
 

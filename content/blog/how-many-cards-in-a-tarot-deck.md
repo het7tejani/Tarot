@@ -66,6 +66,8 @@ Start by recognising whether a card belongs to the Major or Minor Arcana. For a 
 
 If you want a low-pressure practice, use the [free tarot draw](/free-tarot) and write one question the image brings to mind. You do not need to memorise all 78 meanings before making a useful observation. Keep real decisions grounded in evidence, particularly when they affect health, money or another person's consent.
 
+The [World card guide](/blog/the-world-tarot-card-meaning) explores the final numbered Major Arcana card in more detail.
+
 ## Common questions
 
 **Does the Fool count as a card?**

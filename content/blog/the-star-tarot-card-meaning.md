@@ -31,7 +31,7 @@ For the card on its own, see the [Star card page](/tarot-card-meanings/the-star)
 
 ## The Star in love
 
-In a love reading the upright Star is one of the gentlest cards in the deck. After a breakup it says the grief is lifting and you are becoming someone who can be loved again, slowly, without performance. In a relationship it suggests a period of honesty that brings you closer, the kind where you stop managing impressions.
+In a love reading the upright Star is one of the gentlest cards in the deck. After a breakup, it can prompt reflection on hope and support without putting a deadline on grief. You remain worthy of love while you are still hurting. In a relationship it suggests a period of honesty that brings you closer, the kind where you stop managing impressions.
 
 If you are single and asking about someone new, the Star reads as encouragement to be plain. The card's figure wears nothing, and the advice matches: let the person see you early. Whatever runs from the truth was never going to stay.
 

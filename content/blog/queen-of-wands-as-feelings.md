@@ -66,4 +66,6 @@ No card can promise contact or action. Avoid putting life on hold for a predicti
 
 Yes. You can use its image of confidence to reflect on what you want and how you choose to express it respectfully.
 
+If your question is about how someone sees you rather than how they feel, see the [Five of Swords](/blog/five-of-swords-how-someone-sees-you) and [Ten of Swords](/blog/ten-of-swords-how-someone-sees-you) guides.
+
 Tarot is for entertainment and personal reflection, not medical, legal or financial advice.

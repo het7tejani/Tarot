@@ -22,7 +22,7 @@ As a symbolic reflection, 128 can prompt you to begin a task, consider the peopl
 
 ## Seeing 128 when you are starting something new
 
-Because the sequence begins with 1, many people notice 128 right at the edge of a decision. A new job, a move, a project they keep postponing. The reflective reading is simple: the beginning matters, and so does how you carry others with you through it.
+If you notice 128 while considering a new job, a move or a postponed project, you can use it as a reflection prompt. The number cannot establish that the decision is timely or right. Check the actual options, responsibilities and resources before committing.
 
 A useful question when 128 keeps appearing is not "what is about to happen" but "what have I been meaning to begin". Write the answer down. If the number has any power at all, it is the power of making you stop and notice your own priorities.
 
@@ -36,7 +36,7 @@ If you are single, the combination reads kindly: 1 asks you to stay open to new 
 
 ## 128, work and money
 
-The 8 gives 128 a practical streak. In work and money contexts, readers often take it as encouragement that steady effort is building something, even when results are not visible yet. It is a patient number, not a lottery number.
+In work and money interpretations, the 8 is often connected with resources and effort. Treat that as a theme to explore, not evidence that unseen progress is happening. Look at the actual work completed, agreements and financial records.
 
 If finances are on your mind when 128 appears, use it as a cue for a grounded review instead of a leap. Are you starting (1) the habits, budgets or conversations that lead to stability (8), and are you doing it in a way that keeps your life balanced (2)? That framing turns a sighting into something actionable.
 

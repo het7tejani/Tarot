@@ -1,0 +1,76 @@
+{
+  "date": "2026-11-14",
+  "posts": [
+    {
+      "slug": "five-of-swords-how-someone-sees-you",
+      "url": "https://thepsychicstudio.com/blog/five-of-swords-how-someone-sees-you",
+      "words": 872,
+      "pexels_ids": [9764167, 15149448, 14821797],
+      "cover": "/blog-images/cover-five-of-swords-how-someone-sees-you.webp",
+      "internal_link_count": 4
+    },
+    {
+      "slug": "ten-of-swords-how-someone-sees-you",
+      "url": "https://thepsychicstudio.com/blog/ten-of-swords-how-someone-sees-you",
+      "words": 930,
+      "pexels_ids": [5841687, 6476697, 35678996],
+      "cover": "/blog-images/cover-ten-of-swords-how-someone-sees-you.webp",
+      "internal_link_count": 4
+    },
+    {
+      "slug": "capricorn-and-aquarius-compatibility",
+      "url": "https://thepsychicstudio.com/blog/capricorn-and-aquarius-compatibility",
+      "words": 820,
+      "pexels_ids": [29170509, 35679306, 17954395],
+      "cover": "/blog-images/cover-capricorn-and-aquarius-compatibility.webp",
+      "internal_link_count": 5
+    }
+  ],
+  "keyword_evidence": {
+    "basis": "Live GSC query export Oct7-Nov10 fetched Nov13 (data as of Nov10), cross-checked with archived Oct7 competitor workbook. GSC impression counts are observed, not estimates.",
+    "rows": [
+      ["gsc", "5 of swords as how someone sees you", "909 impressions", "position 4"],
+      ["gsc", "five of swords how someone sees you", "897 impressions", "position 5"],
+      ["gsc", "ten of swords how someone sees you", "1011 impressions", "position 6"],
+      ["gsc", "ten of swords as how someone sees you", "619 impressions", "position 6"],
+      ["gsc", "capricorn and aquarius compatibility", "4181 impressions", "2 clicks", "position 46"],
+      ["workbook", "kasamba", "capricorn and aquarius compatible", "I", "position 4", "volume 720", "KD 6", "www.kasamba.com/astrology/zodiac-compatibility/capricorn-aquarius-love-match/"]
+    ]
+  },
+  "meaning_sources": [
+    "https://labyrinthos.co/blogs/tarot-card-meanings-list/five-of-swords-meaning-tarot-card-meanings",
+    "https://labyrinthos.co/blogs/tarot-card-meanings-list/ten-of-swords-meaning-tarot-card-meanings",
+    "https://www.zodiacsign.com/compatibility/aquarius-capricorn/"
+  ],
+  "photo_sources": {
+    "basis": "Pexels free license, found via Pexels search pages Nov14",
+    "searches": [
+      "https://www.pexels.com/search/storm%20clouds%20sea/ (9764167 sea storm, 15149448 stormy sky, 14821797 stormy ocean)",
+      "https://www.pexels.com/search/dark%20sunrise%20ocean/ (5841687 ocean sunrise, 6476697 dark beach, 35678996 sunrise sea)",
+      "https://www.pexels.com/search/mountain%20goat/ (29170509 goat)",
+      "https://www.pexels.com/search/pouring%20water%20stars/ (35679306 pouring water, 17954395 sky stars)"
+    ],
+    "note": "Initial pick 14856402 (star-shaped fairy lights) replaced before push with 17954395 real night sky for topic relevance."
+  },
+  "bounded_copy_fixes": {
+    "basis": "Nov13 prepared patch /tmp/nov14-seo-prep/copy-accuracy.patch, validated against fresh main before applying",
+    "files": [
+      "strength-reversed-gentler-confidence.md: removed unsupported claim that records are the actual mechanism of confidence; added task-observation framing and professional-support guidance",
+      "888-angel-number-meaning.md: removed unsupported claim that people often see 555 before 888 in a sequence; replaced with separate symbolic interpretations, no established sequence",
+      "128-angel-number-meaning.md: removed claims that people notice 128 at decision edges and that unseen progress is happening; replaced with factual option/resource checks"
+    ]
+  },
+  "internal_link_additions": [
+    "four-of-wands-how-someone-sees-you -> five-of-swords + ten-of-swords guides",
+    "queen-of-wands-as-feelings -> five-of-swords + ten-of-swords guides",
+    "taurus-and-scorpio-compatibility -> capricorn-and-aquarius-compatibility",
+    "aquarius-leo-compatibility -> capricorn-and-aquarius-compatibility"
+  ],
+  "restrictions_observed": [
+    "no homepage, Shop, form or product-card changes",
+    "no inquiry submissions",
+    "no index requests (paused since Oct29)",
+    "Quora drafts carry no site links; no posting retries",
+    "free plans and brand identity only"
+  ]
+}

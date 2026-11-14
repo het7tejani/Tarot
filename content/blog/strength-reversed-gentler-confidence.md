@@ -54,9 +54,9 @@ The [Magician reversed guide](/blog/the-magician-reversed-focus) explores the ga
 
 ## Confidence rebuilt in small units
 
-Confidence rarely returns as a feeling first. It returns as evidence. If Strength reversed shows up while you are doubting yourself, give the doubt a seven-day experiment instead of an argument. Choose one task you have been avoiding and cut it to a size that takes less than fifteen minutes: one email, one form, one phone call. Do that size only.
+If you want to try a practical reflection, choose one small task and write down what doing it would involve. You might prepare the opening of an email or find the instructions for a form. Choose a size that fits your energy and circumstances rather than using a timer as a test of your worth.
 
-Write down what you did each day, not how you felt about it. After a week you have seven lines of proof that you can act while unsure, which is the actual mechanism of confidence. Feelings tend to follow records, not the other way around. If the heaviness sits on most days for weeks and small steps stay impossible, that deserves a conversation with a professional, not another draw.
+Afterwards, note what you did and what remained difficult. This is information about a task, not proof of a psychological mechanism or a promise that your feelings will change. If distress or tiredness is persistent or affects daily life, seek appropriate professional support rather than relying on another draw.
 
 For the card the right way up, read our guide to [Strength upright](/blog/strength-tarot-card-upright-meaning).
 

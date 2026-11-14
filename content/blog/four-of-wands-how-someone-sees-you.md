@@ -67,3 +67,5 @@ Usually a timing or access problem, not a cold one. They may see you as distant 
 **Can this card describe how family sees me?**
 
 Yes. In family readings it often means you are seen as the one who holds gatherings together, even if nobody says it out loud.
+
+For the harder side of this question, see the [Five of Swords as how someone sees you](/blog/five-of-swords-how-someone-sees-you) and the [Ten of Swords as how someone sees you](/blog/ten-of-swords-how-someone-sees-you).

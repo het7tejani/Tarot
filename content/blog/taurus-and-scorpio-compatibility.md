@@ -75,3 +75,5 @@ Stubbornness. Both are fixed signs, so each can hold a position long after it st
 **Which tarot cards fit Taurus and Scorpio?**
 
 The Hierophant and The Emperor are often linked with Taurus. Death and The Moon are often linked with Scorpio.
+
+For another pairing built on contrast, see [Capricorn and Aquarius compatibility](/blog/capricorn-and-aquarius-compatibility).

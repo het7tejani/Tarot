@@ -93,3 +93,5 @@ For another love-focused sign guide, read [Scorpio in love](/blog/scorpio-in-lov
 
 
 To pair a sign with a card, try our [free love horoscope and tarot routine](/blog/love-horoscope-and-tarot-together).
+
+For Aquarius with its other neighbour, read [Capricorn and Aquarius compatibility](/blog/capricorn-and-aquarius-compatibility).

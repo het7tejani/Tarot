@@ -50,7 +50,7 @@ For an established relationship, the card may mark a necessary conversation. Avo
 
 At work, The Tower can reflect a sudden change in a project, role or expectation. First secure the facts. What changed, who decided it and what deadline is real? Then choose the next useful action instead of trying to restore the old plan exactly.
 
-For creative work, the card can break a precious idea that was not serving the final piece. Keep the part that still works. Let the rest go. The [Death tarot card](/tarot-card-meanings/death) carries a related lesson about endings making room, but The Tower moves faster.
+For creative work, the card can break a precious idea that was not serving the final piece. Keep the part that still works. Let the rest go. The [Death tarot card](/tarot-card-meanings/death) carries a related lesson about endings making room, but The Tower moves faster. Our full [Death tarot card meaning](/blog/death-tarot-card-meaning) guide covers that slower kind of ending.
 
 For money, this card is a warning against fragile assumptions. Do not rely on income you do not have, a refund you have not received or a price you have not checked. Keep records and ask direct questions.
 

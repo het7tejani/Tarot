@@ -48,6 +48,8 @@ Choose one missing fact and name the person or document that can supply it. Ask 
 
 With money or legal decisions, do not rely on a symbolic reading. Check the terms, the identity of the other party and the cost of changing your mind. The Moon is a reminder to look again, not a reason to panic.
 
+The Moon is also the card the Golden Dawn mapping assigns to Pisces, the most inward sign of the zodiac. Our [Pisces and Scorpio compatibility](/blog/pisces-and-scorpio-compatibility) guide shows how that intuitive style behaves in a pairing.
+
 ## The Moon reversed
 
 Reversed, The Moon can suggest that confusion is starting to clear. It can also show that fear has become louder because you are tired or overloaded.

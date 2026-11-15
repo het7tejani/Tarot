@@ -1,0 +1,91 @@
+{
+ "date": "2026-11-15",
+ "posts": [
+  {
+   "slug": "death-tarot-card-meaning",
+   "url": "https://thepsychicstudio.com/blog/death-tarot-card-meaning",
+   "words": 1117,
+   "pexels_ids": [
+    2582548,
+    39565222,
+    37875243
+   ],
+   "cover": "/blog-images/cover-death-tarot-card-meaning.webp",
+   "internal_link_count": 4
+  },
+  {
+   "slug": "two-of-cups-how-someone-sees-you",
+   "url": "https://thepsychicstudio.com/blog/two-of-cups-how-someone-sees-you",
+   "words": 974,
+   "pexels_ids": [
+    11019325,
+    6625836,
+    196651
+   ],
+   "cover": "/blog-images/cover-two-of-cups-how-someone-sees-you.webp",
+   "internal_link_count": 4
+  },
+  {
+   "slug": "pisces-and-scorpio-compatibility",
+   "url": "https://thepsychicstudio.com/blog/pisces-and-scorpio-compatibility",
+   "words": 1030,
+   "pexels_ids": [
+    32585990,
+    15210605,
+    39109568
+   ],
+   "cover": "/blog-images/cover-pisces-and-scorpio-compatibility.webp",
+   "internal_link_count": 5
+  }
+ ],
+ "keyword_evidence": {
+  "basis": "Archived Oct7 competitor workbook (psychic-cross-site-seo-synthesis.xlsx) Page plan + Keyword shortlist, plus live GSC export fetched Nov13 (data as of Nov10) for series momentum. No fresh GSC pull today: production domain offline pending Cloudflare cutover, Search Console trend data would reflect the outage, not content.",
+  "rows": [
+   [
+    "workbook",
+    "death tarot card meaning",
+    "P1-pattern Major Arcana head term; site's Major Arcana set had zero Death coverage while fool/magician/priestess/empress/emperor/hierophant/lovers/chariot/strength/hermit/hanged/tower/star/moon all have 2 posts"
+   ],
+   [
+    "gsc-series",
+    "how someone sees you series",
+    "five of swords 909 imp pos4, ten of swords 1011 imp pos6 (GSC Oct7-Nov10); two of cups is the love-context counterpart of the same query pattern"
+   ],
+   [
+    "gsc-series",
+    "zodiac compatibility series",
+    "capricorn and aquarius compatibility 4100+ impressions Oct7-Nov10; pisces-scorpio is the adjacent water-sign pair to scorpio-cancer (already live)"
+   ]
+  ]
+ },
+ "meaning_sources": [
+  "Rider-Waite imagery (Pamela Colman Smith, 1909)",
+  "Golden Dawn astrology-tarot mapping (Death=Scorpio, The Moon=Pisces)",
+  "standard upright/reversed reading conventions"
+ ],
+ "photo_sources": {
+  "basis": "Pexels free license, found via web search of pexels.com photo pages Nov15",
+  "searches": [
+   "pexels.com dawn mountains 2582548, monarch chrysalis 39565222, forest path 37875243 (death post)",
+   "pexels.com couple coffee cups 11019325, holding hands 6625836, heart mugs 196651 (two of cups post)",
+   "pexels.com deep blue waves 32585990, underwater sunlight 15210605 + 39109568 (pisces-scorpio post)"
+  ]
+ },
+ "bounded_copy_fixes": {
+  "none": "no existing-page copy edits today"
+ },
+ "internal_link_additions": [
+  "the-tower-tarot-card-meaning -> death-tarot-card-meaning",
+  "the-moon-tarot-card-meaning -> pisces-and-scorpio-compatibility",
+  "the-lovers-tarot-card-meaning -> two-of-cups-how-someone-sees-you",
+  "five-of-swords-how-someone-sees-you -> two-of-cups-how-someone-sees-you"
+ ],
+ "restrictions_observed": [
+  "no homepage, Shop, form or product-card changes",
+  "no inquiry submissions",
+  "no index requests (paused since Oct29)",
+  "Quora drafts carry no site links; no posting retries (route paused since Nov6)",
+  "free plans and brand identity only",
+  "no invented GSC figures in post copy: no fresh export available, so today's posts carry no metric claims"
+ ]
+}

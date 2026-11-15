@@ -44,7 +44,7 @@ In friendship, the card can mark a falling out that nobody has repaired, or a gr
 
 The Five of Swords rewards one move above all others: decide what you want more than being right. If the relationship matters, name the conflict plainly and invite the other person to do the same. If the conflict does not matter, drop it fully instead of winning it slowly over months.
 
-For a warmer contrast, read how the [Four of Wands as how someone sees you](/blog/four-of-wands-how-someone-sees-you) reads, or explore the [Queen of Wands as feelings](/blog/queen-of-wands-as-feelings). Its heavier sibling, the [Ten of Swords as how someone sees you](/blog/ten-of-swords-how-someone-sees-you), covers what happens when a conflict reaches its final chapter.
+For a warmer contrast, read how the [Four of Wands as how someone sees you](/blog/four-of-wands-how-someone-sees-you) reads, or explore the [Queen of Wands as feelings](/blog/queen-of-wands-as-feelings). Its heavier sibling, the [Ten of Swords as how someone sees you](/blog/ten-of-swords-how-someone-sees-you), covers what happens when a conflict reaches its final chapter. For the opposite picture, what mutual recognition looks like, read the [Two of Cups as how someone sees you](/blog/two-of-cups-how-someone-sees-you).
 
 ![Stormy ocean under a darkening sky](/blog-images/14821797.webp)
 

@@ -42,6 +42,8 @@ If you are asking about an ex, the card does not tell you that contact is welcom
 
 For another perspective on interpreting relationship questions, the [soulmate tarot reading guide](/blog/soulmate-tarot-reading-how-it-works) explains the limits of a reading alongside what it can help you reflect on.
 
+For the earlier chapter of the same story, the meeting and the first mutual exchange, read the [Two of Cups as how someone sees you](/blog/two-of-cups-how-someone-sees-you).
+
 ## Reversed Lovers meaning
 
 The Lovers reversed is commonly associated with disharmony, conflicting values or a choice that does not feel fully owned. It does not automatically mean a breakup. Sometimes the issue is a small agreement that needs changing; sometimes it is a larger difference you have been minimising.

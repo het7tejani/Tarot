@@ -87,5 +87,35 @@
   "Quora drafts carry no site links; no posting retries (route paused since Nov6)",
   "free plans and brand identity only",
   "no invented GSC figures in post copy: no fresh export available, so today's posts carry no metric claims"
+ ],
+ "backlink_research": [
+  {
+   "url": "https://divinatlas.com/en/submit-a-site/",
+   "verdict": "DECLINED by Het Nov15 09:26 (requires their badge on the site, checked daily). Do not submit."
+  },
+  {
+   "url": "https://www.tarothub.net/submit",
+   "verdict": "Blocked: form requires street address, city, state, ZIP, phone. No invented addresses rule. Only viable if Het supplies a real address and phone."
+  },
+  {
+   "url": "https://1111tarot.com/join",
+   "verdict": "Likely out: free Basic tier requires a link back from the website or a controlled profile (same category as the declined badge), and the free tier shows the site link as plain text only, not clickable."
+  },
+  {
+   "url": "https://www.metaphysicalnearme.com/submit",
+   "verdict": "Blocked pending verification: free basic listing but form is built around US street address/city/state/ZIP. Needs a real address or confirmed-optional address fields."
+  },
+  {
+   "url": "https://www.psychic121.com/add-your-free-listing",
+   "verdict": "Out: requires the reader's face photo by email and routes live reading enquiries with a 5 GBP booking-fee flow. A service arrangement, not a brand backlink."
+  },
+  {
+   "url": "https://spiritualpractitioners.com/",
+   "verdict": "Research-only candidate: free complete listing, worldwide + online format, no badge or reciprocal link mentioned, website + social links included. Newly launched directory. Account creation belongs to the permitted office-profile route. No submission."
+  },
+  {
+   "url": "https://linktr.ee/",
+   "verdict": "Research-only candidate: free link-in-bio brand profile, no badge, no address, brand-name friendly. Signup with the brand Google account belongs to the permitted office-profile route. No submission."
+  }
  ]
 }

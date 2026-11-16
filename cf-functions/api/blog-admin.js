@@ -74,7 +74,7 @@ export async function onRequestPost(context) {
   try {
     if (input.action === 'list') {
       // Single GraphQL call: the tree of content/blog with every blob's oid and text in one round trip.
-      const query = `query($expr:String!){repository(owner:"het7tejani",name:"Tarot"){object(expression:$expr){... on Tree{entries{name oid ... on Blob{text}}}}}}`;
+      const query = `query($expr:String!){repository(owner:"het7tejani",name:"Tarot"){object(expression:$expr){... on Tree{entries{name oid object{... on Blob{text}}}}}}}`;
       const r = await fetch('https://api.github.com/graphql', {
         method: 'POST',
         headers: { Authorization: `Bearer ${token}`, 'Content-Type': 'application/json', 'User-Agent': 'psychic-studio-cms' },
@@ -87,7 +87,7 @@ export async function onRequestPost(context) {
         throw e;
       }
       const entries = data?.data?.repository?.object?.entries || [];
-      const posts = entries.filter((f) => f.name.endsWith('.md') && typeof f.text === 'string').map((f) => decodePostRaw(f.text, f.name, f.oid));
+      const posts = entries.filter((f) => f.name.endsWith('.md') && typeof f.object?.text === 'string').map((f) => decodePostRaw(f.object.text, f.name, f.oid));
       return send(200, { posts });
     }
 

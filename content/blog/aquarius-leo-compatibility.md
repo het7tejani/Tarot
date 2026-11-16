@@ -73,6 +73,8 @@ For an optional tarot reflection, [The Lovers](/tarot-card-meanings/the-lovers) 
 
 ## Questions about Aquarius Leo compatibility
 
+For the other famous opposition in the zodiac, see our [Gemini and Sagittarius compatibility](/blog/gemini-and-sagittarius-compatibility) guide.
+
 ### Are Aquarius and Leo a good match?
 
 They can be, as can people of other sign pairings. Astrology describes possible themes, but a good match requires mutual care, willingness and respect in the actual relationship.

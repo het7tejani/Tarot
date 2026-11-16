@@ -1,0 +1,95 @@
+{
+ "date": "2026-11-16",
+ "posts": [
+  {
+   "slug": "the-wheel-of-fortune-tarot-card-meaning",
+   "url": "https://thepsychicstudio.com/blog/the-wheel-of-fortune-tarot-card-meaning",
+   "words": 1135,
+   "pexels_ids": [
+    12199964,
+    38197092,
+    33249942
+   ],
+   "cover": "/blog-images/cover-the-wheel-of-fortune-tarot-card-meaning.webp",
+   "internal_link_count": 4
+  },
+  {
+   "slug": "ace-of-cups-how-someone-sees-you",
+   "url": "https://thepsychicstudio.com/blog/ace-of-cups-how-someone-sees-you",
+   "words": 1057,
+   "pexels_ids": [
+    5051043,
+    28480091,
+    6853442
+   ],
+   "cover": "/blog-images/cover-ace-of-cups-how-someone-sees-you.webp",
+   "internal_link_count": 4
+  },
+  {
+   "slug": "gemini-and-sagittarius-compatibility",
+   "url": "https://thepsychicstudio.com/blog/gemini-and-sagittarius-compatibility",
+   "words": 1065,
+   "pexels_ids": [
+    3989923,
+    8828672,
+    3989931
+   ],
+   "cover": "/blog-images/cover-gemini-and-sagittarius-compatibility.webp",
+   "internal_link_count": 5
+  }
+ ],
+ "keyword_evidence": {
+  "basis": "Series momentum from live GSC export fetched Nov13 (data as of Nov10) + workbook Page plan P1 pattern. No fresh GSC pull: production domain offline pending Cloudflare cutover, current Search Console data reflects the outage rather than content.",
+  "rows": [
+   [
+    "workbook",
+    "wheel of fortune tarot card meaning",
+    "P1-pattern Major Arcana head term; after yesterday's Death post, Wheel/Justice/Temperance/Devil/Judgement were the only Major Arcana with zero coverage"
+   ],
+   [
+    "gsc-series",
+    "how someone sees you series",
+    "five of swords 909 imp pos4, ten of swords 1011 imp pos6 (GSC Oct7-Nov10); ace of cups is the most-searched love ace in the same query pattern, completes the ace->two story started yesterday"
+   ],
+   [
+    "gsc-series",
+    "zodiac compatibility series",
+    "capricorn-aquarius 4100+ impressions Oct7-Nov10; gemini-sagittarius is the classic opposition pair, joins aquarius-leo (other opposition) with a mutual cross-link"
+   ]
+  ]
+ },
+ "meaning_sources": [
+  "Rider-Waite imagery (Pamela Colman Smith, 1909)",
+  "Golden Dawn astrology-tarot mapping (Wheel of Fortune=Jupiter, Gemini=The Lovers, Sagittarius=Temperance)",
+  "standard upright/reversed reading conventions"
+ ],
+ "photo_sources": {
+  "basis": "Pexels free license, found via web search of pexels.com photo pages Nov16",
+  "searches": [
+   "pexels.com ferris wheel dusk 12199964, ferris wheel long exposure 38197092, spiral staircase 33249942 (wheel post)",
+   "pexels.com pouring water glass 5051043, latte heart 28480091, pouring water sweater 6853442 (ace of cups post)",
+   "pexels.com road trip friends 3989923, notebook world map 8828672, friends car 3989931 (gemini-sagittarius post)"
+  ]
+ },
+ "bounded_copy_fixes": {
+  "none": "no existing-page copy edits today"
+ },
+ "internal_link_additions": [
+  "two-of-cups-how-someone-sees-you -> ace-of-cups-how-someone-sees-you",
+  "aquarius-leo-compatibility -> gemini-and-sagittarius-compatibility",
+  "death-tarot-card-meaning -> the-wheel-of-fortune-tarot-card-meaning"
+ ],
+ "infrastructure": {
+  "cf_functions_committed": "cf-functions/api/ now in repo: Pages Functions ports of api/* (auth, blog-admin, callback, csp-report, reflect) with the two CF fixes (User-Agent on GitHub calls, single GraphQL list call). Previously sandbox-only, lost on reset; now reproducible.",
+  "cf_deploy_assets_committed": "cf-deploy-assets/ now in repo: _redirects (3 legacy 301s) and _headers (full security header set + asset cache policy) ported from vercel.json."
+ },
+ "restrictions_observed": [
+  "no homepage, Shop, form or product-card changes",
+  "no inquiry submissions",
+  "no index requests (paused since Oct29)",
+  "Quora drafts carry no site links; no posting retries (route paused since Nov6)",
+  "free plans and brand identity only",
+  "no invented GSC figures in post copy",
+  "api/ (Vercel originals) untouched; CF ports live in cf-functions/ instead"
+ ]
+}

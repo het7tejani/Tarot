@@ -64,4 +64,4 @@ No. It describes any balanced, mutual bond: friendships, business partnerships, 
 It usually flags mismatched expectations early: one of you is further in than the other. Worth an honest conversation sooner rather than later.
 
 **How is it different from The Lovers?**
-The Two of Cups is the meeting and the early exchange. The Lovers is the larger choice about values and commitment that follows. Most readers see the two as chapters of the same story.
+The Two of Cups is the meeting and the early exchange. The Lovers is the larger choice about values and commitment that follows. Most readers see the two as chapters of the same story, and the [Ace of Cups as how someone sees you](/blog/ace-of-cups-how-someone-sees-you) covers the first chapter of it.

@@ -52,7 +52,7 @@ In money readings, Death describes a financial chapter closing: a debt finally p
 
 ## What to do when Death appears
 
-Name the ending out loud, in plain words, to yourself first. Then let it be over. Grieve it if it deserves grief, with a real timeframe rather than an open tab. Then look at the picture again: the sun between the towers is already up. The card never asks what you are losing. It asks what you will plant.
+Name the ending out loud, in plain words, to yourself first. Then let it be over. Grieve it if it deserves grief, with a real timeframe rather than an open tab. Then look at the picture again: the sun between the towers is already up. The card never asks what you are losing. It asks what you will plant. For the cycles that turn after the clearing, see our guide to [The Wheel of Fortune](/blog/the-wheel-of-fortune-tarot-card-meaning).
 
 For what hope and healing look like after an ending, read our guide to [The Star](/blog/the-star-tarot-card-meaning). For the fresh start that follows, see [The Fool](/blog/the-fool-tarot-card-meaning).
 

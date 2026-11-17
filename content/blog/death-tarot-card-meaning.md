@@ -71,3 +71,5 @@ It suggests the relationship starts only once something old is genuinely finishe
 
 **Which zodiac sign is the Death card linked to?**
 Scorpio, in the Golden Dawn mapping most readers use. Both share the same theme: transformation through letting go. Our [Scorpio and Cancer compatibility](/blog/scorpio-and-cancer-compatibility) guide shows how that intensity plays out in a pairing.
+
+After the clearing comes the remixing: [Temperance](/blog/temperance-tarot-card-meaning) is the card that follows Death in the Major Arcana, and it shows what patient hands do with what remains.

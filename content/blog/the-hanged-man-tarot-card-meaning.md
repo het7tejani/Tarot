@@ -80,3 +80,5 @@ Either a wait that has stopped being useful, or a refusal to pause at all. It ca
 **Is the Hanged Man a bad card?**
 
 No. It can feel frustrating, but the card's message is that stillness is doing work you cannot see yet. Many readers welcome it as permission to stop forcing a stuck door.
+
+When the waiting ends and the weighing begins, [Justice](/blog/justice-tarot-card-meaning) is the card that takes over, and [the Wheel of Fortune](/blog/the-wheel-of-fortune-tarot-card-meaning) looks at the turns that no amount of patience can schedule.

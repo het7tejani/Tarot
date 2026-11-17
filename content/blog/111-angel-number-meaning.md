@@ -75,3 +75,5 @@ It points to starting something practical. It is not a signal to gamble or take 
 **What tarot card is 111?**
 
 The Magician is the usual match for the number one. The Fool is the other common pairing.
+
+If the number following you around is a pair rather than a single digit, [222 angel number meaning](/blog/222-angel-number-meaning) covers the partnership and timing side of the sequence.

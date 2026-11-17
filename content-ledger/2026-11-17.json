@@ -1,0 +1,55 @@
+{
+ "date": "2026-11-17",
+ "posts": [
+  {
+   "slug": "justice-tarot-card-meaning",
+   "title": "Justice Tarot Card Meaning: Fairness, Truth and Cause and Effect",
+   "category": "Tarot",
+   "keyword": "justice tarot card meaning",
+   "basis": "Major Arcana coverage gap (4 remaining); workbook P1 card-meaning pattern; GSC unavailable today (property re-verification in progress)"
+  },
+  {
+   "slug": "temperance-tarot-card-meaning",
+   "title": "Temperance Tarot Card Meaning: Balance, Patience and the Middle Way",
+   "category": "Tarot",
+   "keyword": "temperance tarot card meaning",
+   "basis": "Major Arcana coverage gap; follows Death in arcana sequence, links both ways"
+  },
+  {
+   "slug": "222-angel-number-meaning",
+   "title": "222 Angel Number Meaning: Balance, Partnership and Trusting the Timing",
+   "category": "Angel Numbers",
+   "keyword": "222 angel number meaning",
+   "basis": "High-volume angel-number series gap (111/333/444/555/888 live, 222 missing)"
+  }
+ ],
+ "photos": {
+  "pack": "pack-34.json",
+  "pexels_ids": [
+   6077961,
+   5669619,
+   5362115,
+   36825592,
+   10382787,
+   34066348,
+   31172232,
+   11006260,
+   10852689
+  ]
+ },
+ "covers": [
+  "cover-justice-tarot-card-meaning.webp",
+  "cover-temperance-tarot-card-meaning.webp",
+  "cover-222-angel-number-meaning.webp"
+ ],
+ "internal_links": {
+  "outbound_from_new": "each new post links 3-6 relevant pages (card pages, related posts, /free-tarot, /angel-numbers)",
+  "reverse": [
+   "the-hanged-man-tarot-card-meaning -> justice",
+   "death-tarot-card-meaning -> temperance",
+   "111-angel-number-meaning -> 222"
+  ]
+ },
+ "site_change": "index.html: added google-site-verification meta tag (y1NFkmQ7...) for GSC URL-prefix property re-verification; previous verification lapsed during the Nov 14-16 domain outage (HTML-file token in repo belongs to a different token, property access lost)",
+ "gsc": "deferred until re-verification completes after deploy"
+}

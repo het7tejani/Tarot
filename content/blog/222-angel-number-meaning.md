@@ -57,4 +57,4 @@ Partnership and balance. For couples, a relationship finding its even footing. F
 **What should I do when I keep seeing 222?**
 Keep your agreements, protect your routines, and resist the urge to force a stalled situation with one dramatic move. 222 seasons reward the person who stays consistent while the pieces fall into place.
 
-For the numbers around 222 in the sequence, read [111 angel number meaning](/blog/111-angel-number-meaning) for beginnings and [444 angel number meaning](/blog/444-angel-number-meaning) for foundations, or browse the full [angel numbers](/angel-numbers) section. If you want a card to sit with your question, the [free tarot draw](/free-tarot) takes under a minute.
+For the numbers around 222 in the sequence, read [111 angel number meaning](/blog/111-angel-number-meaning) for beginnings and [444 angel number meaning](/blog/444-angel-number-meaning) for foundations, and when patience turns into confirmed alignment, [777 angel number meaning](/blog/777-angel-number-meaning). Or browse the full [angel numbers](/angel-numbers) section. If you want a card to sit with your question, the [free tarot draw](/free-tarot) takes under a minute.

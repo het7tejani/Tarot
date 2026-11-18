@@ -1,0 +1,48 @@
+{
+ "date": "2026-11-18",
+ "posts": [
+  {
+   "slug": "devil-tarot-card-meaning",
+   "title": "The Devil Tarot Card Meaning: Attachment, Shadow and the Key in Your Own Hand",
+   "category": "Tarot",
+   "keyword": "devil tarot card meaning",
+   "basis": "Major Arcana coverage gap (2 remaining before today); workbook P1 card-meaning pattern; GSC queries brand-dominated, no new position 11-50 openings"
+  },
+  {
+   "slug": "judgement-tarot-card-meaning",
+   "title": "Judgement Tarot Card Meaning: Awakening, Reckoning and the Second Chance",
+   "category": "Tarot",
+   "keyword": "judgement tarot card meaning",
+   "basis": "Last missing Major Arcana meaning post; links with justice and death both ways"
+  },
+  {
+   "slug": "777-angel-number-meaning",
+   "title": "777 Angel Number Meaning: Trust, Alignment and Spiritual Luck",
+   "category": "Angel Numbers",
+   "keyword": "777 angel number meaning",
+   "basis": "High-volume angel-number series gap (111/222/333/444/555/888 live, 777 missing)"
+  }
+ ],
+ "photos": {
+  "pack": "pack-35.json",
+  "pexels_ids": [596136, 12716708, 5982829, 2932022, 6759066, 17026767, 7881721, 1234389, 11545003]
+ },
+ "internal_links": {
+  "outgoing": {
+   "devil-tarot-card-meaning": ["death-tarot-card-meaning", "the-wheel-of-fortune-tarot-card-meaning", "temperance-tarot-card-meaning", "the-tower-tarot-card-meaning", "the-moon-tarot-card-meaning", "/tarot-card-meanings/the-devil", "/free-tarot"],
+   "judgement-tarot-card-meaning": ["death-tarot-card-meaning", "justice-tarot-card-meaning", "the-wheel-of-fortune-tarot-card-meaning", "the-world-tarot-card-meaning", "/tarot-card-meanings/judgement", "/free-tarot"],
+   "777-angel-number-meaning": ["222-angel-number-meaning", "888-angel-number-meaning", "555-angel-number-meaning", "/angel-numbers", "/free-tarot"]
+  },
+  "reverse": {
+   "temperance-tarot-card-meaning": "links to devil-tarot-card-meaning",
+   "justice-tarot-card-meaning": "links to judgement-tarot-card-meaning",
+   "222-angel-number-meaning": "links to 777-angel-number-meaning"
+  }
+ },
+ "gsc": {
+  "performance_3mo_through": "Nov 15 (latest available): 65 clicks, 15.8K impressions, CTR 0.4%, avg position 69.6",
+  "latest_day": "Nov 15: 689 impressions, 0 clicks; Nov 16-17 not yet reported",
+  "pages": "298 indexed, 53 not indexed, data as of 11/13/26 (unchanged)"
+ },
+ "notes": "All 22 Major Arcana meaning posts now live. Outage window Nov 14-16 will likely show as dip in upcoming GSC days."
+}

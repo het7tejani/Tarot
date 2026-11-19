@@ -1,0 +1,48 @@
+{
+ "date": "2026-11-19",
+ "posts": [
+  {
+   "slug": "666-angel-number-meaning",
+   "title": "666 Angel Number Meaning: Refocus, Compassion and Coming Back to Center",
+   "category": "Angel Numbers",
+   "keyword": "666 angel number meaning",
+   "basis": "High-volume angel-number series gap; all 22 majors completed Nov18 so series continues with big missing sequences"
+  },
+  {
+   "slug": "999-angel-number-meaning",
+   "title": "999 Angel Number Meaning: Completion, Release and the Next Chapter",
+   "category": "Angel Numbers",
+   "keyword": "999 angel number meaning",
+   "basis": "High-volume angel-number series gap; pairs with 111/1010 beginnings arc"
+  },
+  {
+   "slug": "1010-angel-number-meaning",
+   "title": "1010 Angel Number Meaning: New Beginnings and Stepping Forward",
+   "category": "Angel Numbers",
+   "keyword": "1010 angel number meaning",
+   "basis": "High-volume angel-number series gap; doubles pattern complements 111"
+  }
+ ],
+ "photos": {
+  "pack": "pack-36.json",
+  "pexels_ids": [4740584, 19404434, 11592918, 1308657, 12627672, 33217874, 7390536, 18861919, 12248528]
+ },
+ "internal_links": {
+  "outgoing": {
+   "666-angel-number-meaning": ["555-angel-number-meaning", "444-angel-number-meaning", "222-angel-number-meaning", "/angel-numbers", "/free-tarot"],
+   "999-angel-number-meaning": ["111-angel-number-meaning", "death-tarot-card-meaning", "/angel-numbers", "/free-tarot"],
+   "1010-angel-number-meaning": ["111-angel-number-meaning", "999-angel-number-meaning", "777-angel-number-meaning", "/angel-numbers", "/free-tarot"]
+  },
+  "reverse": {
+   "444-angel-number-meaning": "links to 666-angel-number-meaning",
+   "555-angel-number-meaning": "links to 999-angel-number-meaning",
+   "111-angel-number-meaning": "links to 1010-angel-number-meaning"
+  }
+ },
+ "gsc": {
+  "performance_3mo_through": "Nov 16 (latest available): 67 clicks, 16.3K impressions, CTR 0.4%, avg position 69.1",
+  "latest_day": "Nov 16: 545 impressions, 2 clicks (outage day); Nov 17 not yet reported",
+  "pages": "298 indexed, 53 not indexed, data as of 11/13/26 (unchanged)"
+ },
+ "notes": "Position improving slowly: 70.2 (Nov14) to 69.6 (Nov15) to 69.1 (Nov16)."
+}

@@ -1,0 +1,48 @@
+{
+ "date": "2026-11-20",
+ "posts": [
+  {
+   "slug": "1111-angel-number-meaning",
+   "title": "1111 Angel Number Meaning: Awakening, Alignment and the Open Door",
+   "category": "Angel Numbers",
+   "keyword": "1111 angel number meaning",
+   "basis": "Highest-volume angel number gap; signature sequence of the series"
+  },
+  {
+   "slug": "1212-angel-number-meaning",
+   "title": "1212 Angel Number Meaning: Growth, Trust and the Next Step Up",
+   "category": "Angel Numbers",
+   "keyword": "1212 angel number meaning",
+   "basis": "High-volume angel-number series gap; pairs with 1010 and 1234 sequential arc"
+  },
+  {
+   "slug": "1234-angel-number-meaning",
+   "title": "1234 Angel Number Meaning: Progress, Order and Moving Forward",
+   "category": "Angel Numbers",
+   "keyword": "1234 angel number meaning",
+   "basis": "High-volume angel-number series gap; completes the sequential numbers cluster"
+  }
+ ],
+ "photos": {
+  "pack": "pack-37.json",
+  "pexels_ids": [5997540, 330216, 39850030, 36770679, 374858, 39498779, 10762340, 6836454, 34493953]
+ },
+ "internal_links": {
+  "outgoing": {
+   "1111-angel-number-meaning": ["111-angel-number-meaning", "1010-angel-number-meaning", "777-angel-number-meaning", "/angel-numbers", "/free-tarot"],
+   "1212-angel-number-meaning": ["1010-angel-number-meaning", "222-angel-number-meaning", "1111-angel-number-meaning", "1234-angel-number-meaning", "/angel-numbers", "/free-tarot"],
+   "1234-angel-number-meaning": ["1212-angel-number-meaning", "999-angel-number-meaning", "1010-angel-number-meaning", "/angel-numbers", "/free-tarot"]
+  },
+  "reverse": {
+   "111-angel-number-meaning": "links to 1111-angel-number-meaning",
+   "1010-angel-number-meaning": "links to 1212-angel-number-meaning",
+   "999-angel-number-meaning": "links to 1234-angel-number-meaning"
+  }
+ },
+ "gsc": {
+  "performance_3mo_through": "Nov 17 (latest available): 68 clicks, 17K impressions, CTR 0.4%, avg position 68.2",
+  "latest_day": "Nov 17: 712 impressions, 1 click; Nov 18-19 not yet reported",
+  "pages": "298 indexed, 53 not indexed, data as of 11/13/26 (unchanged)"
+ },
+ "notes": "Position trend: 70.2 to 69.6 to 69.1 to 68.2 across Nov 14-17. Daily impressions recovered to 712 on Nov 17 after outage-window dip (545 on Nov 16)."
+}

@@ -1,0 +1,48 @@
+{
+ "date": "2026-11-22",
+ "posts": [
+  {
+   "slug": "1221-angel-number-meaning",
+   "title": "1221 Angel Number Meaning: Balance, Trust and Fresh Momentum",
+   "category": "Angel Numbers",
+   "keyword": "1221 angel number meaning",
+   "basis": "High-volume angel-number series gap; mirror number pairing with 1212 and 222"
+  },
+  {
+   "slug": "1122-angel-number-meaning",
+   "title": "1122 Angel Number Meaning: Intuition, Purpose and Building Big",
+   "category": "Angel Numbers",
+   "keyword": "1122 angel number meaning",
+   "basis": "High-volume angel-number series gap; double master number 11+22"
+  },
+  {
+   "slug": "1144-angel-number-meaning",
+   "title": "1144 Angel Number Meaning: Practical Angels and Earned Stability",
+   "category": "Angel Numbers",
+   "keyword": "1144 angel number meaning",
+   "basis": "High-volume angel-number series gap; completes the 11xx cluster after 1111 and 1122"
+  }
+ ],
+ "photos": {
+  "pack": "pack-39.json",
+  "pexels_ids": [1366919, 247600, 414144, 3408744, 691668, 2775196, 3408354, 164721, 1262302]
+ },
+ "internal_links": {
+  "outgoing": {
+   "1221-angel-number-meaning": ["1212-angel-number-meaning", "222-angel-number-meaning", "/angel-numbers", "/free-tarot"],
+   "1122-angel-number-meaning": ["1111-angel-number-meaning", "1212-angel-number-meaning", "/angel-numbers", "/free-tarot"],
+   "1144-angel-number-meaning": ["1414-angel-number-meaning", "444-angel-number-meaning", "/angel-numbers", "/free-tarot"]
+  },
+  "reverse": {
+   "222-angel-number-meaning": "links to 1221-angel-number-meaning",
+   "1111-angel-number-meaning": "links to 1122-angel-number-meaning",
+   "1414-angel-number-meaning": "links to 1144-angel-number-meaning"
+  }
+ },
+ "gsc": {
+  "performance_3mo_through": "Nov 19 (latest available): 71 clicks, 18.5K impressions, CTR 0.4%, avg position 66.3",
+  "latest_day": "Nov 19: 825 impressions, 0 clicks; Nov 20-21 not yet reported",
+  "pages": "298 indexed, 53 not indexed, data as of 11/13/26 (not re-read today)"
+ },
+ "notes": "Position trend: 70.2 to 69.6 to 69.1 to 68.2 to 67.4 to 66.3 across Nov 14-19. Daily avg position by day: Nov 15 57.1, Nov 16 54.0, Nov 17 48.6, Nov 18 48.3, Nov 19 41.1. Impressions holding 700-825/day post-outage. Position 11-50 queries all map to existing posts; strength upright title already carries Keywords phrasing, no CTR rewrite needed today."
+}

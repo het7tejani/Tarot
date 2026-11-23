@@ -32,7 +32,7 @@ The Sun also asks for honesty. If something is working, name it. If you want mor
 
 Reversed, The Sun can point to muted joy, delayed clarity or confidence that has gone flat. You may be physically present for a good moment while your mind keeps looking for the catch. Sometimes the card appears when rest is needed before enjoyment can return.
 
-It can also warn against forced positivity. A smile does not fix a problem that needs a conversation, money or time. Let optimism tell the truth. Say, "This part is good, and this part still needs work." That sentence is often more useful than pretending everything is fine.
+For a fuller reading of the reversed card, see [The Sun reversed](/blog/the-sun-reversed-dimmed-light). It can also warn against forced positivity. A smile does not fix a problem that needs a conversation, money or time. Let optimism tell the truth. Say, "This part is good, and this part still needs work." That sentence is often more useful than pretending everything is fine.
 
 If you feel dimmed, lower the demand. Choose one small source of light: step outside, finish the easy task, speak to someone safe or eat before deciding your whole future. Small warmth counts.
 

@@ -1,0 +1,44 @@
+{
+ "date": "2026-11-23",
+ "posts": [
+  {
+   "slug": "july-23-zodiac-sign",
+   "title": "July 23 Zodiac Sign: Leo Traits, Cusp Questions and Compatibility",
+   "category": "Astrology",
+   "keyword": "july 23 zodiac sign / 7/23 zodiac sign",
+   "basis": "GSC query '7/23 zodiac sign' at position 29.0 with clicks and no dedicated page"
+  },
+  {
+   "slug": "tarot-card-meanings-complete-guide",
+   "title": "Tarot Card Meanings: A Complete Guide to All 78 Cards",
+   "category": "Tarot",
+   "keyword": "tarot card meanings",
+   "basis": "Workbook P1 page plan: 'tarot card meanings' volume 40500, KD 45; doubles as internal-link hub to all card posts"
+  },
+  {
+   "slug": "the-sun-reversed-dimmed-light",
+   "title": "The Sun Reversed: Joy That Runs Quieter Than Usual",
+   "category": "Tarot",
+   "keyword": "the sun reversed tarot card meaning",
+   "basis": "Workbook all-top-pages evidence: 'the sun reversed tarot card meaning' is a top keyword for kasamba (90 traffic); only the upright Sun existed on site"
+  }
+ ],
+ "photos": {
+  "pack": "pack-40.json",
+  "pexels_ids": [32196368, 6052186, 11848472, 32831016, 11760478, 36116183, 37589032, 32771815, 29150580],
+  "reserved_for_pin": [29304300]
+ },
+ "internal_links": {
+  "outgoing": {
+   "july-23-zodiac-sign": ["leo-zodiac-dates", "cancer-zodiac-dates", "leo-psychic-abilities", "aquarius-leo-compatibility", "july-27-zodiac-sign", "july-31-zodiac-sign"],
+   "tarot-card-meanings-complete-guide": ["the-fool-tarot-card-meaning", "the-magician-tarot-card-meaning", "the-high-priestess-tarot-card-meaning", "the-empress-tarot-card-meaning", "the-emperor-tarot-card-meaning", "the-chariot-tarot-card-meaning", "strength-tarot-card-upright-meaning", "the-hanged-man-tarot-card-meaning", "the-star-tarot-card-meaning", "the-sun-tarot-card-meaning", "the-sun-reversed-dimmed-light", "nine-of-wands-yes-or-no", "knight-of-swords-tarot-card-meaning", "three-of-pentacles-tarot-card-meaning", "nine-of-pentacles-tarot-card-meaning", "queen-of-pentacles-tarot-card-meaning", "/free-tarot"],
+   "the-sun-reversed-dimmed-light": ["the-sun-tarot-card-meaning", "the-star-tarot-card-meaning", "tarot-card-meanings-complete-guide", "/free-tarot"]
+  },
+  "reverse": {
+   "leo-zodiac-dates": "links to july-23-zodiac-sign",
+   "the-sun-tarot-card-meaning": "links to the-sun-reversed-dimmed-light",
+   "the-chariot-tarot-card-meaning": "links to tarot-card-meanings-complete-guide"
+  }
+ },
+ "covers": ["cover-july-23-zodiac-sign.webp", "cover-tarot-card-meanings-complete-guide.webp", "cover-the-sun-reversed-dimmed-light.webp"]
+}

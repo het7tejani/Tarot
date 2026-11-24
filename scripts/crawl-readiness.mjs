@@ -7,7 +7,7 @@ if(new Set(urls).size!==urls.length)errors.push('Duplicate sitemap URLs');
 for(const url of urls){
  const route=new URL(url).pathname;
  if(!url.startsWith(origin+'/') || new URL(url).search || (route!=='/'&&route.endsWith('/')))errors.push(`Noncanonical sitemap URL: ${url}`);
- const file=path.join(root,route,'index.html');
+ const file=(route==='/'?path.join(root,'index.html'):path.join(root,route.replace(/\/$/,'')+'.html'));
  if(!fs.existsSync(file)){errors.push(`No prerender: ${route}`);continue;}
  const html=fs.readFileSync(file,'utf8');
  if(!html.includes(`rel="canonical" href="${url}"`))errors.push(`Wrong canonical: ${route}`);

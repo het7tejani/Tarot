@@ -32,7 +32,7 @@ const headTags = (h) => [
 ].filter(Boolean).join('\n    ');
 
 const write = (route, html) => {
-  const file = route === '/' ? path.join(dist, 'index.html') : path.join(dist, route.replace(/^\//, ''), 'index.html');
+  const file = route === '/' ? path.join(dist, 'index.html') : path.join(dist, route.replace(/^\//, '').replace(/\/$/, '') + '.html');
   fs.mkdirSync(path.dirname(file), {recursive: true});
   fs.writeFileSync(file, html);
 };

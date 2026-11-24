@@ -648,7 +648,7 @@ header .nav a.on,header a[aria-current=page]{color:#846019!important}
 /* 5. One heading style: upright; italic only for small accents */
 .st-hero h1,.st-sec h2,.st-page h1,.st-editorial h1,.st-card h3,.st-reading-feature h3,.st-sign-selection h2,.st-daily-card h2,.st-astro-page h2:not(.st-daily-card h2),.st-zodiac-name,.st-reading-detail-hero h1,.st-journal-intro h1,.st-journal-article-head h1,.st-journal-story h2{font-style:normal;font-weight:600}
 .st-shop-grid .st-prod .bd h2.st-shop-card-title{font-style:normal;font-weight:600}
-.st .st-halloween h2{font-style:normal}
+.st .st-xmas h2{font-style:normal}
 .st-num{font-style:italic}
 
 /* 4. Palette unification for SEO/editorial templates */

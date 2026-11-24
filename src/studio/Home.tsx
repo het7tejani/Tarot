@@ -153,8 +153,35 @@ const Cabin: React.FC<{ t: string; cls: string }> = ({ t, cls }) => <g className
     <ellipse cx="0" cy="62" rx="50" ry="5" fill="#ffd27a" opacity=".35" />
     <g className="xm-smoke">{[0, 1, 2, 3].map((i) => <circle key={i} cx="37" cy="-48" r={6 + i * 2} fill="#f4f9ff" style={{ animationDelay: `${i * 1.2}s` }} />)}</g>
 </g></g>;
-const ChristmasScene: React.FC = () => <svg className="xm-scene" viewBox="0 0 1260 640" preserveAspectRatio="xMidYMax meet" overflow="visible" role="presentation" aria-hidden="true">
+const ChristmasScene: React.FC = () => {
+  const sceneRef = React.useRef<SVGSVGElement>(null);
+  React.useEffect(() => {
+    const svg = sceneRef.current;
+    const title = svg?.closest('.st-xmas')?.querySelector('.sale-copy');
+    if (!svg || !title) return;
+    const update = () => {
+      const matrix = svg.getScreenCTM();
+      if (!matrix) return;
+      const box = title.getBoundingClientRect();
+      const inverse = matrix.inverse();
+      const a = new DOMPoint(box.left, box.top).matrixTransform(inverse);
+      const b = new DOMPoint(box.right, box.bottom).matrixTransform(inverse);
+      const rect = svg.querySelector('#xsTextBlur rect');
+      rect?.setAttribute('x', String(a.x)); rect?.setAttribute('y', String(a.y));
+      rect?.setAttribute('width', String(b.x-a.x)); rect?.setAttribute('height', String(b.y-a.y));
+      svg.querySelector('#xsTextClear path')?.setAttribute('d', `M-5000 -5000H5000V5000H-5000Z M${a.x} ${a.y}H${b.x}V${b.y}H${a.x}Z`);
+    };
+    update();
+    const observer = new ResizeObserver(update);
+    observer.observe(svg); observer.observe(title);
+    document.fonts.ready.then(update);
+    window.addEventListener('resize', update);
+    return () => { observer.disconnect(); window.removeEventListener('resize', update); };
+  }, []);
+  return <svg ref={sceneRef} className="xm-scene" viewBox="0 0 1260 640" preserveAspectRatio="xMidYMax meet" overflow="visible" role="presentation" aria-hidden="true">
   <defs>
+    <clipPath id="xsTextBlur" clipPathUnits="userSpaceOnUse"><rect x="0" y="0" width="0" height="0" /></clipPath>
+    <clipPath id="xsTextClear" clipPathUnits="userSpaceOnUse"><path clipRule="evenodd" d="M-5000 -5000H5000V5000H-5000Z" /></clipPath>
     <radialGradient id="xsMoon" cx=".4" cy=".4" r=".8"><stop offset="0" stopColor="#fffbe6" /><stop offset="1" stopColor="#e9d9a4" /></radialGradient>
     <radialGradient id="xsHalo"><stop offset="0" stopColor="#fff3c4" stopOpacity=".5" /><stop offset="1" stopColor="#fff3c4" stopOpacity="0" /></radialGradient>
     <linearGradient id="xsHill" gradientUnits="userSpaceOnUse" x1="0" y1="470" x2="0" y2="640"><stop offset="0" stopColor="#f4f9ff" /><stop offset="1" stopColor="#b9d2ea" /></linearGradient>
@@ -168,7 +195,8 @@ const ChristmasScene: React.FC = () => <svg className="xm-scene" viewBox="0 0 12
   <circle cx="470" cy="170" r="170" fill="url(#xsHalo)" className="xm-halo2" />
   <circle cx="470" cy="170" r="58" fill="url(#xsMoon)" />
   <g fill="#cdbb86" opacity=".5"><circle cx="452" cy="154" r="11" /><circle cx="490" cy="188" r="8" /><circle cx="478" cy="146" r="5" /><circle cx="448" cy="190" r="6" /></g>
-  <g className="xm-sleigh"><image href="/xmas/santa-flying.png" x="0" y="0" width="250" height="141" /></g>
+  <g clipPath="url(#xsTextClear)"><g className="xm-sleigh"><image href="/xmas/santa-flying.png" x="0" y="0" width="250" height="141" /></g></g>
+  <g clipPath="url(#xsTextBlur)"><g style={{ filter: 'blur(1px)' }}><g className="xm-sleigh"><image href="/xmas/santa-flying.png" x="0" y="0" width="250" height="141" /></g></g></g>
   <path d="M-1500 400 L-1330 300 L-1180 360 L-980 270 L-760 360 L-560 290 L-380 380 L-190 310 L0 400 V470 H-1500Z" fill="url(#xsMtn)" opacity=".9" />
   <path d="M1200 390 L1330 310 L1470 360 L1650 280 L1850 360 L2050 300 L2250 380 L2400 330 L2700 400 V470 H1200Z" fill="url(#xsMtn)" opacity=".9" />
   <path d="M-1500 400 L-1330 300 L-1180 360 L-980 270 L-760 360 L-560 290 L-380 380 L-190 310 L0 400 V470 H-1500Z" fill="url(#xsMtn)" opacity=".9" />
@@ -189,6 +217,7 @@ const ChristmasScene: React.FC = () => <svg className="xm-scene" viewBox="0 0 12
   <g stroke="#fff" strokeWidth="5" strokeLinecap="round" fill="none" transform="translate(70 592) rotate(-14)"><path d="M0 0V-46Q0-60 14-60T26-48" stroke="#f4f9ff" /><path d="M0 -8 3 -12M0 -20 3 -24M0 -32 3 -36" stroke="#d12a3c" /></g>
   <g stroke="#fff" strokeWidth="5" strokeLinecap="round" fill="none" transform="translate(948 608) rotate(8)"><path d="M0 0V-46Q0-60 14-60T26-48" stroke="#f4f9ff" /><path d="M0 -8 3 -12M0 -20 3 -24M0 -32 3 -36" stroke="#d12a3c" /></g>
 </svg>;
+};
 const HeroSlider: React.FC = () => {
   const [idx, setIdx] = React.useState(0);
   const ref = React.useRef<HTMLElement>(null);
@@ -269,7 +298,7 @@ export const Home: React.FC = () => (
         .st-xmas .xm-cab-m{display:none}
         .st-xmas .xm-scene{position:absolute;inset:0;width:100%;height:100%;z-index:1;pointer-events:none}.st-xmas .xm-reind{animation:xm-nod 3.2s ease-in-out infinite alternate;transform-box:fill-box;transform-origin:50% 100%}.st-xmas .xm-wave{animation:xm-wv 1.1s ease-in-out infinite alternate;transform-box:fill-box;transform-origin:50% 50%}@keyframes xm-nod{from{transform:rotate(-1deg)}to{transform:rotate(1.5deg)}}@keyframes xm-wv{from{transform:translate(-4px,3px)}to{transform:translate(4px,-3px)}}
         .st-xmas .xm-sleigh{animation:xm-fly 26s linear infinite}
-        @media(min-width:761px){.st-xmas .xm-sleigh{animation-name:xm-flyd}}@keyframes xm-flyd{0%{opacity:1;filter:blur(0);transform:translate(1800px,150px)}30%{opacity:1;filter:blur(0)}36%{opacity:1;filter:blur(1px)}62%{opacity:1;filter:blur(1px)}70%{opacity:1;filter:blur(0)}50%{transform:translate(700px,110px)}100%{opacity:1;filter:blur(0);transform:translate(-600px,170px)}}@keyframes xm-fly{0%{transform:translate(1800px,150px)}50%{transform:translate(700px,110px)}100%{transform:translate(-600px,170px)}}
+        @keyframes xm-fly{0%{transform:translate(1800px,150px)}50%{transform:translate(700px,110px)}100%{transform:translate(-600px,170px)}}
         .st-xmas .xm-gallop{animation:xm-gal .5s ease-in-out infinite alternate;transform-box:fill-box}
         @keyframes xm-gal{from{transform:translateY(-2px) rotate(-2deg)}to{transform:translateY(3px) rotate(2deg)}}
         .st-xmas .xm-nose{animation:xm-twinkle 1s ease-in-out infinite;filter:drop-shadow(0 0 5px #f00)}

@@ -405,7 +405,7 @@ export const SeoPage: React.FC = () => {
               const rows: Array<[string, string]> = [];
               if (love) rows.push(['In love', first(love[1])]);
               if (work) rows.push(['At work', first(work[1])]);
-              if (step) rows.push(['A practical step', first(step[1])]);
+              if (step) rows.push(['A practical step', (step[1].match(/^.*?[.?!](?=\s|$)\s*.*?[.?!](?=\s|$)/)?.[0] ?? step[1])]);
               if (!rows.length && secs[0]) rows.push(['Core theme', first(secs[0][1])]);
               return rows.length ? <div className="st-glance mb-8"><h2>{page.num} at a glance</h2><dl>{rows.map(([k, v]) => <div key={k}><dt>{k}</dt><dd>{v}</dd></div>)}</dl></div> : null;
             })()}

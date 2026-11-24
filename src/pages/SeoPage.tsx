@@ -397,13 +397,18 @@ export const SeoPage: React.FC = () => {
 
         {page.kind === 'angel' && (
           <>
-            <div className="st-glance mb-8">
-              <h2>{page.num} at a glance</h2>
-              <dl>
-                <div><dt>In love</dt><dd>Treat {page.num} as a pause to check in with yourself and your partner: what do I want, and what am I avoiding saying?</dd></div>
-                <div><dt>At work</dt><dd>Use it as a prompt to review your goals. Pick one small action that matches what you want and do it today.</dd></div>
-              </dl>
-            </div>
+            {(() => {
+              const secs = SEO_PASS_SECTIONS[page.path] || [];
+              const first = (t: string) => (t.match(/^.*?[.?!](?=\s|$)/)?.[0] ?? t);
+              const find = (re: RegExp) => secs.find(([h]) => re.test(h));
+              const love = find(/love|relationship|twin/i), work = find(/work|career|money/i), step = find(/what to do|journal|practical|reflection/i);
+              const rows: Array<[string, string]> = [];
+              if (love) rows.push(['In love', first(love[1])]);
+              if (work) rows.push(['At work', first(work[1])]);
+              if (step) rows.push(['A practical step', first(step[1])]);
+              if (!rows.length && secs[0]) rows.push(['Core theme', first(secs[0][1])]);
+              return rows.length ? <div className="st-glance mb-8"><h2>{page.num} at a glance</h2><dl>{rows.map(([k, v]) => <div key={k}><dt>{k}</dt><dd>{v}</dd></div>)}</dl></div> : null;
+            })()}
             <H2>Questions to reflect on</H2>
             <ul className="list-disc pl-6 space-y-2 mb-6">
               <li>What was I thinking when I saw {page.num}?</li>

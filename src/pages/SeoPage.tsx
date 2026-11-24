@@ -286,6 +286,14 @@ export const SeoPage: React.FC = () => {
         {page.kind === 'horoscope' && sign && (
           <>
             <SignPeriods signIndex={signIndex} name={N} />
+            <div className="st-glance mt-10">
+              <h2>{N} at a glance</h2>
+              <dl>
+                <div><dt>Dates</dt><dd>{sign.dates}</dd></div>
+                <div><dt>Element and ruler</dt><dd>{sign.el}, ruled by {sign.ruler}</dd></div>
+                <div><dt>Linked tarot card</dt><dd><Link to={`/tarot-card-meanings/${sign.cardSlug}`} className="text-[#507d71] underline">{sign.card}</Link></dd></div>
+              </dl>
+            </div>
             <H2>{N} today: what to reflect on</H2>
             <P>{N} is {sign.traits}. Use today's card as a lens: ask where those traits are helping you and where they may be getting in the way.</P>
             <H2>{N} in love</H2>
@@ -295,7 +303,7 @@ export const SeoPage: React.FC = () => {
             <H2>Your next step, {N}</H2>
             <P>Draw a <Link to="/free-tarot" className="text-[#73a89a] font-semibold">free tarot card</Link>, read what <Link to={`/tarot-card-meanings/${sign.cardSlug}`} className="text-[#73a89a] font-semibold">{sign.card}</Link> means for {N}, or find your date on the <Link to="/zodiac" className="text-[#73a89a] font-semibold">zodiac sign finder</Link>. If you would like to talk a question through with the studio, see the <Link to="/readings" className="text-[#73a89a] font-semibold">personal readings</Link>.</P>
             <H2>Read other signs</H2>
-            <LinkGrid paths={SIGN_INFO.map((s) => `/horoscope/${s.n}`)} />
+            <ul className="grid sm:grid-cols-3 gap-x-6 gap-y-2 mb-6 text-sm">{SIGN_INFO.filter((s) => s.n !== sign.n).map((s) => <li key={s.n} className="border-b border-[#1f2322]/10 py-2"><Link to={`/horoscope/${s.n}`} className="font-semibold text-[#507d71]">{cap(s.n)} horoscope</Link><span className="text-[#1f2322]/60"> · {s.dates}</span></li>)}</ul>
           </>
         )}
 
@@ -389,15 +397,20 @@ export const SeoPage: React.FC = () => {
 
         {page.kind === 'angel' && (
           <>
-            <H2>What {page.num} may be telling you</H2>
-            <P>{page.body}</P>
-            <H2>In love</H2>
-            <P>Treat {page.num} as a pause to check in with yourself and your partner: what do I want, and what am I avoiding saying?</P>
-            <H2>At work</H2>
-            <P>Use it as a prompt to review your goals. Pick one small action that matches what you want and do it today.</P>
+            <div className="st-glance mb-8">
+              <h2>{page.num} at a glance</h2>
+              <dl>
+                <div><dt>In love</dt><dd>Treat {page.num} as a pause to check in with yourself and your partner: what do I want, and what am I avoiding saying?</dd></div>
+                <div><dt>At work</dt><dd>Use it as a prompt to review your goals. Pick one small action that matches what you want and do it today.</dd></div>
+              </dl>
+            </div>
             <H2>Questions to reflect on</H2>
-            <P>What was I thinking when I saw {page.num}? What decision is waiting? What would I do if I trusted myself?</P>
-            <p className="text-xs text-[#1f2322]/50">Angel numbers are a spiritual belief, not a scientific fact. Use them as a reflection tool.</p>
+            <ul className="list-disc pl-6 space-y-2 mb-6">
+              <li>What was I thinking when I saw {page.num}?</li>
+              <li>What decision is waiting?</li>
+              <li>What would I do if I trusted myself?</li>
+            </ul>
+            <p className="text-sm text-[#1f2322]/60 mt-8 mb-6">Angel numbers are a spiritual belief, not a scientific fact. Use them as a reflection tool.</p>
           </>
         )}
 

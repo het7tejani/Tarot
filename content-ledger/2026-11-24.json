@@ -1,0 +1,49 @@
+{
+ "date": "2026-11-24",
+ "posts": [
+  {
+   "slug": "leo-zodiac-sign-traits",
+   "title": "Leo Zodiac Sign: Traits, Dates, Strengths and Love Style",
+   "category": "Astrology",
+   "keyword": "leo zodiac sign",
+   "basis": "GSC query 'leo zodiac sign' at position 19.5 with 560 impressions and 0 clicks; no core Leo traits page existed, only dates and psychic-abilities pages"
+  },
+  {
+   "slug": "scorpio-zodiac-sign-traits",
+   "title": "Scorpio Zodiac Sign: Traits, Dates, Strengths and Love Style",
+   "category": "Astrology",
+   "keyword": "scorpio zodiac sign",
+   "basis": "GSC query 'scorpio zodiac sign' with 119 impressions and no core Scorpio traits page; related queries 'what does scorpio mean in zodiac sign' (65.5) and 'birth chart scorpio' (63.0) also uncovered"
+  },
+  {
+   "slug": "july-28-zodiac-sign",
+   "title": "July 28 Zodiac Sign: Leo Birthday Guide, Traits and Compatibility",
+   "category": "Astrology",
+   "keyword": "july 28 zodiac sign / 7/28 zodiac sign",
+   "basis": "GSC query '7/28 zodiac sign' at position 30.0 and 'july 32 zodiac sign' at 37.2 with clicks; no July 28 page while July 23, 27 and 31 existed"
+  }
+ ],
+ "photos": {
+  "pack": "pack-41.json",
+  "pexels_ids": [11838539, 11153559, 40619276, 18415767, 14746489, 5444426, 39034105, 17345550, 33989935]
+ },
+ "internal_links": {
+  "outgoing": {
+   "leo-zodiac-sign-traits": ["leo-zodiac-dates", "aquarius-leo-compatibility", "strength-tarot-card-upright-meaning", "july-23-zodiac-sign", "august-24-zodiac-sign"],
+   "scorpio-zodiac-sign-traits": ["october-31-zodiac-sign", "november-1-zodiac-sign", "november-2-zodiac-sign", "scorpio-and-cancer-compatibility", "pisces-and-scorpio-compatibility", "taurus-and-scorpio-compatibility", "scorpio-horoscope-and-tarot-cards"],
+   "july-28-zodiac-sign": ["july-23-zodiac-sign", "july-31-zodiac-sign", "leo-zodiac-dates", "aquarius-leo-compatibility", "july-27-zodiac-sign", "leo-zodiac-sign-traits"]
+  },
+  "reverse": {
+   "leo-zodiac-dates": "links to leo-zodiac-sign-traits",
+   "leo-psychic-abilities": "links to leo-zodiac-sign-traits",
+   "july-27-zodiac-sign": "links to july-28-zodiac-sign",
+   "july-31-zodiac-sign": "links to july-28-zodiac-sign",
+   "scorpio-horoscope-and-tarot-cards": "links to scorpio-zodiac-sign-traits",
+   "scorpio-in-love-tarot-and-horoscope": "links to scorpio-zodiac-sign-traits",
+   "october-31-zodiac-sign": "links to scorpio-zodiac-sign-traits",
+   "november-1-zodiac-sign": "links to scorpio-zodiac-sign-traits",
+   "november-2-zodiac-sign": "links to scorpio-zodiac-sign-traits"
+  }
+ },
+ "covers": ["cover-leo-zodiac-sign-traits.webp", "cover-scorpio-zodiac-sign-traits.webp", "cover-july-28-zodiac-sign.webp"]
+}

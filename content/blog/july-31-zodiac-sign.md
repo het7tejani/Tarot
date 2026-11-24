@@ -77,3 +77,5 @@ The Sun. It rules Leo and the first Leo decan, which includes this date.
 **What tarot card matches a July 31 birthday?**
 
 Strength is the usual pairing for Leo. The Sun also fits, since it rules the sign.
+
+For an earlier Leo season birthday, read the [July 28 zodiac sign](/blog/july-28-zodiac-sign) guide.

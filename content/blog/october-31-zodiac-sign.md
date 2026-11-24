@@ -77,3 +77,5 @@ Mars rules Scorpio in traditional astrology, and many modern astrologers also na
 **What tarot card matches an October 31 birthday?**
 
 Death is the usual pairing for Scorpio. The Moon also fits.
+
+For the sign as a whole, read our [Scorpio zodiac sign traits](/blog/scorpio-zodiac-sign-traits) guide.

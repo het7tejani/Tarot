@@ -69,3 +69,5 @@ Strength is the card most often paired with Leo. The Sun card also fits, because
 Log your gut feelings for two weeks and score them against what happened. Over 30 entries, a result well above 50 percent on yes or no calls is worth noticing.
 
 Horoscope and tarot content is for reflection and does not predict events.
+
+For the wider picture of the sign, read our [Leo zodiac sign traits](/blog/leo-zodiac-sign-traits) guide.

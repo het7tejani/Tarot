@@ -75,3 +75,5 @@ Water. Scorpio is a water sign, along with Cancer and Pisces.
 **What tarot card matches a November 1 birthday?**
 
 Death is the usual pairing for Scorpio. The Moon also fits.
+
+For the sign as a whole, read our [Scorpio zodiac sign traits](/blog/scorpio-zodiac-sign-traits) guide.

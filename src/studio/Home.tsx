@@ -269,7 +269,7 @@ export const Home: React.FC = () => (
         .st-xmas .xm-cab-m{display:none}
         .st-xmas .xm-scene{position:absolute;inset:0;width:100%;height:100%;z-index:1;pointer-events:none}.st-xmas .xm-reind{animation:xm-nod 3.2s ease-in-out infinite alternate;transform-box:fill-box;transform-origin:50% 100%}.st-xmas .xm-wave{animation:xm-wv 1.1s ease-in-out infinite alternate;transform-box:fill-box;transform-origin:50% 50%}@keyframes xm-nod{from{transform:rotate(-1deg)}to{transform:rotate(1.5deg)}}@keyframes xm-wv{from{transform:translate(-4px,3px)}to{transform:translate(4px,-3px)}}
         .st-xmas .xm-sleigh{animation:xm-fly 26s linear infinite}
-        @media(min-width:761px){.st-xmas .xm-sleigh{animation-name:xm-flyd}}@keyframes xm-flyd{0%{opacity:1;transform:translate(1800px,150px)}30%{opacity:1}34%{opacity:0}64%{opacity:0}70%{opacity:1}50%{transform:translate(700px,110px)}100%{opacity:1;transform:translate(-600px,170px)}}@keyframes xm-fly{0%{transform:translate(1800px,150px)}50%{transform:translate(700px,110px)}100%{transform:translate(-600px,170px)}}
+        @media(min-width:761px){.st-xmas .xm-sleigh{animation-name:xm-flyd}}@keyframes xm-flyd{0%{opacity:1;filter:blur(0);transform:translate(1800px,150px)}30%{opacity:1;filter:blur(0)}36%{opacity:1;filter:blur(1px)}62%{opacity:1;filter:blur(1px)}70%{opacity:1;filter:blur(0)}50%{transform:translate(700px,110px)}100%{opacity:1;filter:blur(0);transform:translate(-600px,170px)}}@keyframes xm-fly{0%{transform:translate(1800px,150px)}50%{transform:translate(700px,110px)}100%{transform:translate(-600px,170px)}}
         .st-xmas .xm-gallop{animation:xm-gal .5s ease-in-out infinite alternate;transform-box:fill-box}
         @keyframes xm-gal{from{transform:translateY(-2px) rotate(-2deg)}to{transform:translateY(3px) rotate(2deg)}}
         .st-xmas .xm-nose{animation:xm-twinkle 1s ease-in-out infinite;filter:drop-shadow(0 0 5px #f00)}
@@ -286,7 +286,7 @@ export const Home: React.FC = () => (
         @keyframes xm-glow2{from{opacity:.75;transform:scale(.95)}to{opacity:1;transform:scale(1.08)}}
         .st-xmas .xm-bulb{animation:xm-twinkle 2.2s ease-in-out infinite}
         .st-xmas .sale-in{grid-template-columns:1.15fr 1fr}
-        .st-xmas .sale-in{display:grid;grid-template-columns:1.2fr 1fr;align-items:center;gap:24px;min-height:540px;position:relative;z-index:2}
+        .st-xmas .sale-in{display:grid;grid-template-columns:1.2fr 1fr;align-items:center;gap:24px;min-height:540px;position:relative;z-index:auto}
         .st-xmas .xmas-art{display:flex;align-items:center;justify-content:center}
         .st-xmas .xm-orb{width:min(500px,100%);height:auto;overflow:visible;filter:drop-shadow(0 20px 30px #0008)}
         .st-xmas .xm-spin-a,.st-xmas .xm-spin-b{transform-box:view-box;transform-origin:0 0}
@@ -301,7 +301,7 @@ export const Home: React.FC = () => (
         .st-xmas .xm-twinkle{animation:xm-twinkle 2.8s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
         @keyframes xm-twinkle{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.25;transform:scale(.7)}}
         .st-xmas .sale-copy::before{content:'';position:absolute;inset:-30px -40px;z-index:-1;background:radial-gradient(closest-side,#041a2bd9 0%,#041a2b99 60%,transparent 100%)}
-        .st-xmas .sale-copy{z-index:2;grid-column:2;text-align:center;position:relative;padding:16px 0;text-shadow:0 2px 12px #02101a}
+        .st-xmas .sale-copy>*{position:relative;z-index:2}.st-xmas .sale-copy{z-index:auto;grid-column:2;text-align:center;position:relative;padding:16px 0;text-shadow:0 2px 12px #02101a}
         .st-xmas .sale-season{display:block;font-size:12px;letter-spacing:.25em;text-transform:uppercase;color:#f1d58b;margin-bottom:10px;font-weight:600}
         .st-xmas h2{margin:0;color:#f6d77d;font-size:clamp(50px,5.6vw,76px);line-height:1.04;font-style:normal;font-weight:800;text-shadow:2px 4px 0 #6e1620}
         .st-xmas .sale-word{display:block;font-family:Georgia,serif;font-size:clamp(46px,6.4vw,92px);line-height:1.12;letter-spacing:.06em;font-style:normal;font-weight:900;background:linear-gradient(180deg,#fffbe8,#f6d77d 55%,#d9a93a);-webkit-background-clip:text;background-clip:text;color:transparent;text-shadow:none;filter:drop-shadow(2px 4px 0 #8f1c2b)}

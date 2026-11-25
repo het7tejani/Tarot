@@ -3,7 +3,7 @@ title: "What Does It Mean When a Dragonfly Visits You?"
 category: "Nature & Symbolism"
 date: "2026-10-21"
 excerpt: "Explore what it means when a dragonfly visits you, from change and lightness to presence, with natural history, reflective takes and tarot prompts."
-coverImage: "/tarot/the_star.jpg"
+coverImage: "/blog-images/cover-dragonfly-visits-spiritual-meaning-creative-v2.webp"
 metaTitle: "What Does It Mean When a Dragonfly Visits You? | The Psychic Studio"
 published: "true"
 ---
@@ -20,7 +20,7 @@ A second common thread is lightness. Dragonfly folklore in many traditions links
 
 A third thread is presence. A dragonfly does not visit for long. The meaning, if you want one, is partly in the noticing: you stopped, you looked, you were exactly where you were.
 
-![A dragonfly resting on a flower in bright daylight](/blog-images/18021324.webp)
+![A nymph underwater and an adult on a reed illustrate the dragonfly life cycle](/blog-images/dragonfly-visits-spiritual-meaning-creative-1.webp)
 
 ## When the visit keeps happening
 
@@ -34,7 +34,7 @@ Sometimes the question arrives during a hard season: a move, a loss, a relations
 
 A gentle way to use the symbol here is as permission to be mid-change without demanding clarity yet. You do not have to know what the wings will be for.
 
-![A blue darner dragonfly seen up close](/blog-images/131092.webp)
+![Noting a pond encounter illustrates noticing what was on your mind](/blog-images/dragonfly-visits-spiritual-meaning-creative-2.webp)
 
 ## A tarot reflection
 

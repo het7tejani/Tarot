@@ -3,7 +3,7 @@ title: "Mourning Dove Spiritual Meaning: Peace and Remembrance"
 category: "Nature & Symbolism"
 date: "2026-10-08"
 excerpt: "Explore mourning dove spiritual meaning, peace and remembrance, with natural-history context, grief-sensitive reflection and tarot prompts."
-coverImage: "/tarot/temperance.jpg"
+coverImage: "/blog-images/cover-mourning-dove-spiritual-meaning-creative-v2.webp"
 metaTitle: "Mourning Dove Spiritual Meaning | The Psychic Studio"
 published: "true"
 ---
@@ -28,7 +28,7 @@ A dove near home may be resting, feeding or moving through suitable habitat. Rep
 
 For identification, compare reliable bird-guide photographs rather than using symbolism pages. Not every pale bird or dove-like silhouette is a mourning dove.
 
-![Two mourning doves sitting close together on a wire](/blog-images/34043022.webp)
+![A pair of mourning doves illustrates their familiar social behavior](/blog-images/mourning-dove-spiritual-meaning-creative-1.webp)
 
 ## Mourning dove spiritual meaning after a loss
 
@@ -46,7 +46,7 @@ Ask how you can practice care. Listen without immediately solving a problem, mak
 
 The [Two of Cups](/tarot-card-meanings/two-of-cups) offers a connection for mutual exchange. [Temperance](/tarot-card-meanings/temperance) can prompt reflection on patience and balance. These are symbolic companions, not evidence about another person's feelings.
 
-![A close view of a mourning dove showing its soft brown plumage](/blog-images/30820036.webp)
+![A memory journal illustrates finding personal comfort without treating a bird as proof](/blog-images/mourning-dove-spiritual-meaning-creative-2.webp)
 
 ## A quiet reflection ritual
 

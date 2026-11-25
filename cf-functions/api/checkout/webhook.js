@@ -1,11 +1,12 @@
+import {checkoutConfig} from '../../../checkout/lib/config.mjs';
 import {applyPaymentHold} from '../../../checkout/lib/payment-holds.mjs';
-import {enabledTestConfig,verifySignature,CheckoutError} from '../../../checkout/lib/payment.mjs';
+import {verifySignature,CheckoutError} from '../../../checkout/lib/payment.mjs';
 import {gateway} from '../../../checkout/lib/gateway.mjs';
 import {json,boundedBody,safeError} from '../../../checkout/lib/http.mjs';
 import {reconcileCaptured} from '../../../checkout/lib/reconcile.mjs';
 export async function onRequestPost({request,env}){
  try{
-  enabledTestConfig(env);
+  checkoutConfig(env,{allowPaused:true});
   const raw=await boundedBody(request,65536);
   if(!verifySignature(env.RAZORPAY_WEBHOOK_SECRET,raw,request.headers.get('X-Razorpay-Signature')))throw new CheckoutError('invalid_signature');
   const event=JSON.parse(raw);const eventId=request.headers.get('X-Razorpay-Event-Id');

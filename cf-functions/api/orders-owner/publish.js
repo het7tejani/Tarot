@@ -1,6 +1,7 @@
-import {randomUUID} from 'node:crypto';import {enabledTestConfig,CheckoutError} from '../../../checkout/lib/payment.mjs';import {requireOwner} from '../../../checkout/lib/owner.mjs';import {json,sameOrigin,jsonBody,safeError} from '../../../checkout/lib/http.mjs';
+import {checkoutConfig} from '../../../checkout/lib/config.mjs';
+import {randomUUID} from 'node:crypto';import {CheckoutError} from '../../../checkout/lib/payment.mjs';import {requireOwner} from '../../../checkout/lib/owner.mjs';import {json,sameOrigin,jsonBody,safeError} from '../../../checkout/lib/http.mjs';
 export async function onRequestPost({request,env}){try{
- enabledTestConfig(env);sameOrigin(request);const actor=requireOwner(request,env);const input=await jsonBody(request,1024);if(!/^[a-f0-9-]{36}$/.test(input.fileId||'')||input.reviewed!==true||typeof input.confirmEmail!=='string')throw new CheckoutError('invalid_input');
+ checkoutConfig(env,{allowPaused:true});sameOrigin(request);const actor=requireOwner(request,env);const input=await jsonBody(request,1024);if(!/^[a-f0-9-]{36}$/.test(input.fileId||'')||input.reviewed!==true||typeof input.confirmEmail!=='string')throw new CheckoutError('invalid_input');
  const now=Date.now(),operation=randomUUID();
  // All preconditions are checked inside the same atomic batch as publication.
  // A concurrent publish/refund cannot interleave between the guard and writes.

@@ -1,14 +1,15 @@
+import {checkoutConfig} from '../../../checkout/lib/config.mjs';
 import {domesticPrice} from '../../../checkout/lib/domestic-pricing.mjs';
 import {allowRequest} from '../../../checkout/lib/rate-limit.mjs';
 import {randomUUID,createHash} from 'node:crypto';
 import {ETSY_LISTINGS} from '../../../src/data/etsyListings.ts';
-import {enabledTestConfig,validateCustomer,opaqueToken,CheckoutError} from '../../../checkout/lib/payment.mjs';
+import {validateCustomer,opaqueToken,CheckoutError} from '../../../checkout/lib/payment.mjs';
 import {createGatewayOrder} from '../../../checkout/lib/gateway.mjs';
 import {json,sameOrigin,jsonBody,safeError} from '../../../checkout/lib/http.mjs';
 export async function createOrder({request,env},market='usd'){
  let accessCookie;
  try{
-  const {keyId}=enabledTestConfig(env);sameOrigin(request);
+  const {keyId,mode}=checkoutConfig(env);sameOrigin(request);if(mode==='live'&&market!=='domestic')throw new CheckoutError('checkout_unavailable');
   // A deployed rate limiter and abuse controls are required before enabling even a shared test preview.
   if(!await allowRequest(env,request,'checkout-create',5))return json({error:'try_later'},429);
   const input=await jsonBody(request);const customer=validateCustomer(input);
@@ -21,7 +22,7 @@ export async function createOrder({request,env},market='usd'){
   const quote=market==='domestic'?domesticPrice(product,env):{amount_minor:Math.round(product.price*100),currency:'USD'};
   const order={id,...quote};
   await env.ORDER_DB.batch([
-   env.ORDER_DB.prepare('INSERT INTO orders(id,client_request_id,product_slug,product_title,amount_minor,currency,customer_name,customer_email,customer_question,terms_version,created_at,updated_at) VALUES(?,?,?,?,?,?,?,?,?,?,?,?)').bind(id,input.requestId,product.slug,product.title,order.amount_minor,order.currency,customer.name,customer.email,customer.question,'checkout-draft-2026-11-25',now,now),
+   env.ORDER_DB.prepare('INSERT INTO orders(id,client_request_id,product_slug,product_title,amount_minor,currency,customer_name,customer_email,customer_question,terms_version,created_at,updated_at) VALUES(?,?,?,?,?,?,?,?,?,?,?,?)').bind(id,input.requestId,product.slug,product.title,order.amount_minor,order.currency,customer.name,customer.email,customer.question,mode==='live'?env.ORDER_TERMS_VERSION:'checkout-draft-2026-11-25',now,now),
    env.ORDER_DB.prepare('INSERT INTO access_tokens(token_hash,order_id,expires_at) VALUES(?,?,?)').bind(createHash('sha256').update(token).digest('hex'),id,now+30*24*60*60*1000)
   ]);
   accessCookie=`guest_order=${token}; Secure; HttpOnly; SameSite=Strict; Path=/api/checkout; Max-Age=2592000`;

@@ -1,7 +1,7 @@
 import {CheckoutError} from './payment.mjs';
 // Explicit environment identity. A Live key alone never activates customer payments.
 export function checkoutConfig(env,{allowPaused=false}={}){
- const mode=env.CHECKOUT_MODE;
+ const mode=env.CHECKOUT_MODE??(env.CHECKOUT_ENABLED==='test'?'test':undefined);
  if(!['test','live'].includes(mode)||!env.ORDER_DB||!env.RAZORPAY_KEY_SECRET||!env.RAZORPAY_WEBHOOK_SECRET)throw new CheckoutError('checkout_unavailable');
  if(!String(env.RAZORPAY_KEY_ID||'').startsWith(mode==='live'?'rzp_live_':'rzp_test_'))throw new CheckoutError('checkout_unavailable');
  if(mode==='live'){

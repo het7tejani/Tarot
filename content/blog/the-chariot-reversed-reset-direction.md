@@ -4,7 +4,7 @@ category: "Tarot Guides"
 date: "2026-10-16"
 excerpt: "Read The Chariot reversed through focus, control and competing priorities. Explore grounded questions about changing your approach without predicting failure."
 metaTitle: "The Chariot Reversed: Focus Guide | The Psychic Studio"
-coverImage: "/tarot/the_chariot.jpg"
+coverImage: "/blog-images/cover-the-chariot-reversed-reset-direction-creative-v2.webp"
 published: "true"
 ---
 
@@ -26,7 +26,7 @@ Suppose a project keeps slipping. Working longer might seem like the obvious ans
 
 Write down the intended outcome in one sentence. Then list the specific obstacle without judging yourself: "I need approval for the outline" is clearer than "I have no discipline." Ask the person who can answer, adjust the plan or make the missing decision visible.
 
-![Hands holding a tarot deck beside a lit candle](/uploads/daily-20261016-7179807.webp)
+![Identifying a missing connector illustrates asking what is stuck rather than adding more effort](/blog-images/the-chariot-reversed-reset-direction-creative-1.webp)
 
 ## The Chariot reversed at work
 
@@ -44,7 +44,7 @@ Ask about the actual decision. Are you choosing when to meet, how often to commu
 
 Keep consent and boundaries separate from symbolism. Someone else's "no" is not an obstacle to overcome, and a tarot card does not turn pressure into persistence worth rewarding.
 
-![A curtained tarot table with cards, a candle and a crystal ball](/uploads/daily-20261016-7179425.webp)
+![Discussing pace at a fork illustrates making room for both people to decide](/blog-images/the-chariot-reversed-reset-direction-creative-2.webp)
 
 ## A small direction reset
 

@@ -3,7 +3,7 @@ title: "April Star Sign: Aries or Taurus? Dates and What They Mean"
 category: "Astrology"
 date: "2026-10-22"
 excerpt: "The April star sign is Aries until April 19 and Taurus from April 20. Here are the dates, the traits, and what to do if your birthday sits on the cusp."
-coverImage: "/perf-assets/signs/aries.svg"
+coverImage: "/blog-images/cover-april-star-sign-creative-v2.webp"
 metaTitle: "April Star Sign: Aries or Taurus? | The Psychic Studio"
 published: "true"
 ---
@@ -26,7 +26,7 @@ Aries opens the zodiac, and it acts like it. Ruled by Mars and symbolized by the
 
 The strengths are courage, directness and a short memory for failure. The blind spots are impatience and a temper that arrives before the thinking does. Aries at its best is the friend who talks you into the brave thing; at its worst, the friend who talks you into the expensive thing. More on our [Aries zodiac page](/zodiac/aries).
 
-![Cherry blossom branches over a green spring field](/blog-images/20481341.webp)
+![Starting and tending garden beds illustrates initiative alongside follow-through](/blog-images/april-star-sign-creative-1.webp)
 
 ## Taurus: the April star sign from April 20
 
@@ -40,7 +40,7 @@ Birthdays on April 18, 19, 20 or 21 sit in the cusp window. The Sun changes sign
 
 A birth chart, calculated from your date, time and place, answers it exactly. Start with our [zodiac sign dates](/zodiac-sign-dates) page, which maps the boundaries for every month, and treat any cusp birthday as a chart question rather than a list question.
 
-![A starry night sky](/blog-images/15306502.webp)
+![Journal, clock and map illustrate checking birth details at a sign boundary](/blog-images/april-star-sign-creative-2.webp)
 
 ## April star sign in love and friendship
 
@@ -67,6 +67,5 @@ Aries is the ram. Taurus is the bull. April gets both animals in one month, whic
 Taurus begins around April 20. See [Taurus dates and what month Taurus is](/blog/taurus-zodiac-dates).
 
 For a single birthday in the Taurus range, see the [April 22 zodiac sign](/blog/april-22-zodiac-sign) guide.
-
 
 The sign changes late in the month. See [Taurus month and dates](/blog/taurus-month-and-dates) for where it starts.

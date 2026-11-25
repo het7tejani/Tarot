@@ -3,7 +3,7 @@ title: "Yes No Tarot: A Simple Reading Guide for Clearer Questions"
 category: "Tarot Guides"
 date: "2026-10-12"
 excerpt: "Learn how to approach yes no tarot with a one-card method, better questions and practical steps. Explore symbolic answers without treating them as certainty."
-coverImage: "/tarot/judgement.jpg"
+coverImage: "/blog-images/cover-yes-no-tarot-reading-guide-creative-v2.webp"
 metaTitle: "Yes or No Tarot: How to Ask and Read One Card | The Psychic Studio"
 published: "true"
 ---
@@ -44,10 +44,9 @@ Step 4: Write one reason the choice might work and one concern.
 
 Step 5: Check those points against facts before choosing a next step.
 
-
 You can use your own deck or the site's [free tarot reflection](/free-tarot). That page offers a Major Arcana draw, not a separate yes-or-no calculator. The [card meanings library](/tarot-card-meanings) provides context when an image is unfamiliar.
 
-![Tarot cards spread across a wooden table beside a face-down deck](/uploads/daily-7689415.webp)
+![A single card and reflection notebook illustrate a chosen one-card method](/blog-images/yes-no-tarot-reading-guide-creative-1.webp)
 
 ## Do upright cards mean yes and reversed cards mean no?
 
@@ -65,7 +64,7 @@ Drawing [The Hanged Man](/tarot-card-meanings/the-hanged-man) could invite a pau
 
 Both readings lead back to actions you can test. Neither card replaces a budget, an agreement or a deadline.
 
-![Tarot cards arranged with lavender-toned objects for a reflective reading](/uploads/daily-14667699.webp)
+![Reviewing a small prototype illustrates checking a creative sample before investing further](/blog-images/yes-no-tarot-reading-guide-creative-2.webp)
 
 ## When a different spread is more helpful
 

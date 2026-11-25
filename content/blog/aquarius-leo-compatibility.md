@@ -3,7 +3,7 @@ title: "Aquarius Leo Compatibility: Love, Friendship and Space"
 category: "Astrology"
 date: "2026-10-12"
 excerpt: "Explore Aquarius Leo compatibility in love and friendship, with symbolic astrology themes and practical questions about attention, independence and connection."
-coverImage: "/perf-assets/signs/leo.svg"
+coverImage: "/blog-images/cover-aquarius-leo-compatibility-creative-v2.webp"
 metaTitle: "Aquarius Leo Compatibility Guide | The Psychic Studio"
 published: "true"
 ---
@@ -28,7 +28,7 @@ Those preferences are not automatically opposed. The difficulty starts when each
 
 Then ask what would work for both of you. A regular evening together, a clearer plan or an agreed way to ask for space can make the conversation concrete. Compatibility is something you observe in those choices, not something the signs settle beforehand.
 
-![Two people spending time together on a grassy urban lawn](/uploads/daily-14534771.webp)
+![A shared planner illustrates agreeing on time together and personal space](/blog-images/aquarius-leo-compatibility-creative-1.webp)
 
 ## Friendship and shared interests
 
@@ -54,7 +54,7 @@ When a disagreement repeats, separate the event from the story you attach to it.
 
 Try a small repair: explain your concern, hear the other person's account and choose one change you can both test. If the same hurt continues, evaluate the pattern itself rather than looking for a more favorable compatibility reading.
 
-![Two people having a conversation while sitting together indoors](/uploads/daily-3958829.webp)
+![Comparing reflections illustrates asking what helps each person feel appreciated](/blog-images/aquarius-leo-compatibility-creative-2.webp)
 
 ## A reflection exercise for the pair
 
@@ -67,7 +67,6 @@ Step 2: What kind of space helps me feel like myself?
 Step 3: What do I wish we understood about each other's routines?
 
 Step 4: What small agreement would make this week easier?
-
 
 For an optional tarot reflection, [The Lovers](/tarot-card-meanings/the-lovers) offers themes of values and choice. It does not confirm that someone is your destined partner. You can also browse the [zodiac compatibility guide](/zodiac-compatibility) or the individual [Aquarius](/zodiac/aquarius) and [Leo](/zodiac/leo) pages for more symbolic context.
 
@@ -92,7 +91,6 @@ Astrology and tarot here are for entertainment and reflection, not a substitute 
 For the sign itself, see [Leo zodiac dates](/blog/leo-zodiac-dates).
 
 For another love-focused sign guide, read [Scorpio in love](/blog/scorpio-in-love-tarot-and-horoscope).
-
 
 To pair a sign with a card, try our [free love horoscope and tarot routine](/blog/love-horoscope-and-tarot-together).
 

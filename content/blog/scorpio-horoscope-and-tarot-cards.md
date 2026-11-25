@@ -3,7 +3,7 @@ title: "Scorpio Tarot and Horoscope: Traits, Cards and a Weekly Check In"
 category: "Astrology"
 date: "2026-10-28"
 excerpt: "Scorpio tarot cards and horoscope themes: what the sign is known for, which cards match it and a simple weekly reflection."
-coverImage: "/perf-assets/signs/scorpio.svg"
+coverImage: "/blog-images/cover-scorpio-horoscope-and-tarot-cards-creative-v2.webp"
 metaTitle: "Scorpio Tarot Cards and Horoscope Guide | The Psychic Studio"
 published: "true"
 ---
@@ -18,7 +18,7 @@ Scorpio is a water sign ruled by Pluto in modern astrology, with Mars as the old
 
 The strength of the sign is focus. A Scorpio who decides to learn something or finish something often does. The weak point is control. Holding back information as a form of protection can read as distance to the people closest to you.
 
-![A purple night sky full of stars, the water sign Scorpio at its darkest hour](/blog-images/11737041.webp)
+![A dry branch and fresh growth illustrate endings and a new start](/blog-images/scorpio-horoscope-and-tarot-cards-creative-1.webp)
 
 ## Tarot cards that match Scorpio
 
@@ -38,7 +38,7 @@ Read the horoscope for the theme, not the prediction. If it talks about trust or
 
 You can [draw a free tarot card](/free-tarot) to try this now. Write the card and your one line answer in a notebook. After a week, read it back and see what changed. Tarot works as a reflection tool and does not forecast events.
 
-![The night sky with a faint blue and purple glow](/blog-images/3607542.webp)
+![Selecting an unfinished project illustrates choosing one thing to finish this week](/blog-images/scorpio-horoscope-and-tarot-cards-creative-2.webp)
 
 ## A weekly check in for Scorpio
 
@@ -55,8 +55,6 @@ Try these three questions on Sunday evening. They are short on purpose.
 Water signs like Cancer and Pisces usually read as the easiest matches, since they share the depth. Earth signs such as Taurus and Virgo give Scorpio steadiness. Leo, Aquarius and Taurus are the fixed signs and tend to clash on who is in charge. For a specific pair, use the [zodiac compatibility guide](/zodiac-compatibility).
 
 Read the full [Scorpio sign guide](/zodiac/scorpio) or see today's card on the [Scorpio horoscope page](/horoscope/scorpio).
-
-![A crystal ball in a dark room](/blog-images/6087153.webp)
 
 Scorpio birthdays in late October are covered in the [October 26 zodiac sign guide](/blog/october-26-zodiac-sign).
 

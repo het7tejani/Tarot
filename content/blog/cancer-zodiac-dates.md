@@ -3,7 +3,7 @@ title: "Cancer Zodiac Dates: June 21 to July 22 and What the Edges Mean"
 category: "Astrology"
 date: "2026-10-26"
 excerpt: "Cancer zodiac dates are usually June 21 to July 22. Check June 20, June 21, July 22 and July 23 edge birthdays and learn why birth time matters."
-coverImage: "/perf-assets/signs/cancer.svg"
+coverImage: "/blog-images/cover-cancer-zodiac-dates-creative-v2.webp"
 metaTitle: "Cancer Zodiac Dates: June 21 to July 22 | The Psychic Studio"
 published: "true"
 ---
@@ -18,7 +18,7 @@ Cancer is the fourth sign of the zodiac. The Sun enters it around June 20 or 21,
 
 Quick check: July 10 is well inside the usual Cancer range. June 21 and July 23 sit near sign changes, so do not use the calendar date alone to settle those birthdays.
 
-![Calm sea under a full moon, the planet that rules Cancer](/blog-images/29144617.webp)
+![Birth record tools illustrate needing year, time and place near a sign boundary](/blog-images/cancer-zodiac-dates-creative-1.webp)
 
 ## Why the dates shift
 
@@ -48,7 +48,7 @@ Look up any pair in the [compatibility guide](/zodiac-compatibility), and open y
 
 ## Cancer season
 
-![Shells and crabs on a beach, the shoreline symbol of Cancer](/blog-images/36595469.webp)
+![Preparing a cottage table illustrates Cancer season themes of home and family](/blog-images/cancer-zodiac-dates-creative-2.webp)
 
 Cancer season opens with the longest day of the year in the Northern Hemisphere. Many Cancers say they feel the pull toward home, family and a quiet night in. The timing fits a sign that treats the front door as the center of the world.
 

@@ -68,3 +68,6 @@ Gemini is an air sign. Astrology associates air signs with thought, communicatio
 Astrology often matches Gemini with Libra, Aquarius, Aries and Leo. Any sign pairing can work when communication and daily habits support the relationship.
 
 Astrology and tarot are for entertainment and personal reflection, not medical, legal or financial advice.
+
+
+Our [Gemini and Leo compatibility guide](/blog/gemini-and-leo-compatibility) turns sign symbolism into practical relationship questions.

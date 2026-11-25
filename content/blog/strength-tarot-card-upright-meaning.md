@@ -1,5 +1,5 @@
 ---
-title: "Strength Tarot Card Upright: Meaning, Keywords and How to Read It"
+title: "Strength Tarot Card Upright: Keywords, Love and Calm Courage"
 category: "Tarot Guides"
 date: "2026-10-29"
 excerpt: "Strength upright is about patience, courage and calm self-control. See the keywords, the love and career readings, and how to read the card."
@@ -11,6 +11,10 @@ published: "true"
 The Strength tarot card upright is commonly read as quiet courage: patience, compassion and the ability to stay calm when a situation is hard. It is not about force. The card shows that steady, gentle influence can do what pressure cannot.
 
 This guide covers the upright keywords, what the card says about love, work and daily choices, and how to read it in a spread.
+
+## Strength upright keywords at a glance
+
+Courage, patience, compassion, self-control and steady confidence. In a love question, start with respectful communication rather than pressure. In work, look at the next difficult action you can take calmly. These are reflective interpretations, not promised outcomes.
 
 ## What the Strength card shows
 

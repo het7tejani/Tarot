@@ -76,3 +76,6 @@ It sits near the Gemini Cancer transition but is usually Gemini. Check a birth c
 Astrology links the birthday with curiosity, communication, adaptability and a fast-moving mind. Individual personality still varies.
 
 Astrology and tarot are for entertainment and personal reflection, not medical, legal or financial advice.
+
+
+For nearby Gemini birthdays, compare [June 12](/blog/june-12-zodiac-sign) and [June 13](/blog/june-13-zodiac-sign).

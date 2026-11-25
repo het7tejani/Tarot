@@ -74,3 +74,6 @@ Gemini in most years. In years when the Sun enters Gemini on May 22, it is Tauru
 
 
 For a single date inside the sign, see the [May 31 zodiac sign guide](/blog/may-31-zodiac-sign).
+
+
+For individual birthday questions, see [June 12](/blog/june-12-zodiac-sign) and [June 13](/blog/june-13-zodiac-sign).

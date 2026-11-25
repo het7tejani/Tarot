@@ -64,3 +64,6 @@ Leo often clicks with fellow fire signs Aries and Sagittarius, and with air sign
 
 **What is Leo's ruling planet?**
 Leo is ruled by the Sun. In astrology that ties the sign to vitality, identity and the wish to shine in a way that matters to the people around them.
+
+
+For an air-and-fire relationship comparison, read [Gemini and Leo compatibility](/blog/gemini-and-leo-compatibility).

@@ -1,0 +1,89 @@
+{
+  "date": "2026-11-25",
+  "posts": [
+    {
+      "slug": "june-12-zodiac-sign",
+      "title": "June 12 Zodiac Sign: Gemini Dates, Traits and Relationships",
+      "excerpt": "June 12 is Gemini. Understand the sign, why this is not a Cancer cusp date, and how to use a birthday reading without treating it as a personality test."
+    },
+    {
+      "slug": "june-13-zodiac-sign",
+      "title": "June 13 Zodiac Sign: Gemini, the Twins and Birthday Questions",
+      "excerpt": "June 13 is Gemini in Western tropical astrology. A clear guide to Mercury, the Twins, compatibility and what a birthday alone cannot tell you."
+    },
+    {
+      "slug": "gemini-and-leo-compatibility",
+      "title": "Gemini and Leo Compatibility: Conversation, Attention and Trust",
+      "excerpt": "Gemini and Leo compatibility through communication, affection and conflict. What air-and-fire symbolism can suggest, without assigning a relationship score."
+    }
+  ],
+  "basis": {
+    "june-12-zodiac-sign": "GSC6/12 zodiac sign:3impressions,1click,position38.0; exact date page missing",
+    "june-13-zodiac-sign": "GSC6/13 zodiac sign:2impressions,1click,position28.0; exact date page missing",
+    "gemini-and-leo-compatibility": "Workbook kasamba observed Gemini Leo compatibility pos5,volume estimate1900; missing relationship guide. Historical third-party evidence, not current volume."
+  },
+  "photos": {
+    "pack": "pack-42.json",
+    "pexels_ids": [
+      9304643,
+      16763957,
+      35442167,
+      33631698,
+      35578022,
+      7179807,
+      4790587,
+      6014324,
+      4790542
+    ],
+    "license": "https://www.pexels.com/license/"
+  },
+  "reverse_links": {
+    "gemini-zodiac-dates": "For individual birthday questions, see [June 12](/blog/june-12-zodiac-sign) and [June 13](/blog/june-13-zodiac-sign).",
+    "june-19-zodiac-sign": "For nearby Gemini birthdays, compare [June 12](/blog/june-12-zodiac-sign) and [June 13](/blog/june-13-zodiac-sign).",
+    "leo-zodiac-sign-traits": "For an air-and-fire relationship comparison, read [Gemini and Leo compatibility](/blog/gemini-and-leo-compatibility).",
+    "gemini-zodiac-sign": "Our [Gemini and Leo compatibility guide](/blog/gemini-and-leo-compatibility) turns sign symbolism into practical relationship questions."
+  },
+  "seo_change": "Strength upright title and visible keyword summary for GSC query position15.5/43impressions. No topic duplicate added.",
+  "analytics": {
+    "gsc_pages": {
+      "data_as_of": "2026-11-16",
+      "indexed": 295,
+      "not_indexed": 83,
+      "comparison": "unchanged lagging report"
+    },
+    "gsc_performance_28d": {
+      "range": "2026-10-26 to 2026-11-22",
+      "clicks": 75,
+      "impressions": "20.4K",
+      "ctr": "0.4%",
+      "position": 60.4,
+      "comparison": "unchanged"
+    },
+    "clarity_last_3_days": {
+      "sessions": 12,
+      "users": 10,
+      "pages_per_session": 1.58,
+      "average_scroll": "56.35%",
+      "active_time": "1.1 minutes",
+      "dead_click_sessions": 1,
+      "findings": "Nov24 15:37 India desktop session shows repeated Chakra balance product-title clicks. Shop not modified. Small sample, no broad defect claim."
+    }
+  },
+  "backlink_research": {
+    "candidates": [
+      "https://fifth-element.co/pages/list-your-practice",
+      "https://spiritualpractitioners.com/"
+    ],
+    "action": "Research only. No submission, listing guarantee or new contact disclosure."
+  },
+  "deployment": "https://afdec92a.psychic-studio.pages.dev",
+  "build_checks": [
+    "client build",
+    "SSR build",
+    "strict prerender",
+    "SEO structure",
+    "crawl readiness",
+    "markdown artifacts",
+    "TypeScript"
+  ]
+}

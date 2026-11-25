@@ -1,0 +1,2 @@
+import {test} from 'node:test';import assert from 'node:assert/strict';import {inspectPdf} from '../lib/pdf.mjs';const bytes=s=>Buffer.from(s);
+test('PDF structure check rejects unrelated data and active content',()=>{assert.throws(()=>inspectPdf(bytes('not a PDF')),/invalid_pdf/);assert.throws(()=>inspectPdf(bytes('%PDF-1.7\n'+' '.repeat(40)+'/JavaScript\n%%EOF')),/unsafe_pdf/);assert.equal(inspectPdf(bytes('%PDF-1.7\n'+' '.repeat(40)+'%%EOF')).bytes,54);});

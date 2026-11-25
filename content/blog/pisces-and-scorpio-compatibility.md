@@ -3,7 +3,7 @@ title: "Pisces and Scorpio Compatibility: Love, Trust and Emotional Depth"
 category: "Astrology"
 date: "2026-11-15"
 excerpt: "Pisces and Scorpio are both water signs, which gives them rare emotional fluency and a few predictable storms. How the pair handles love, trust, conflict and daily life."
-coverImage: "/blog-images/cover-pisces-and-scorpio-compatibility.webp"
+coverImage: "/blog-images/cover-pisces-and-scorpio-compatibility-creative-v2.webp"
 metaTitle: "Pisces and Scorpio Compatibility: Love and Trust | The Psychic Studio"
 published: "true"
 ---
@@ -12,7 +12,7 @@ Pisces and Scorpio sit four signs apart on the zodiac wheel, a trine, which astr
 
 This guide covers how Pisces and Scorpio get along in love, where they clash and which tarot cards fit each side. Compatibility in astrology is a reflection tool, not a verdict on any real couple.
 
-![Deep blue ocean waves seen up close](/blog-images/32585990.webp)
+![A gentle direct conversation illustrates replacing silent tests and evasion with honesty](/blog-images/pisces-and-scorpio-compatibility-creative-1.webp)
 
 ## Pisces and Scorpio at a glance
 
@@ -32,7 +32,7 @@ The same water that connects them can flood them. Scorpio's shadow is control: j
 
 Secrecy is the other fault line. Scorpio keeps secrets as a form of self-protection. Pisces keeps them as a form of kindness, sparing feelings, avoiding scenes. Both call it privacy. Neither experiences the other's version of it as private. Left unnamed, small withholdings compound into real distrust.
 
-![Sunlight filtering down through deep water](/blog-images/15210605.webp)
+![Making a shared mosaic illustrates giving emotional depth a creative outlet](/blog-images/pisces-and-scorpio-compatibility-creative-2.webp)
 
 ## Love and trust
 
@@ -53,8 +53,6 @@ Together the two cards describe the relationship neatly: The Moon feels the dept
 Two practices carry this pair further than any others. First, say the quiet things early. Scorpio should voice suspicions while they are still small enough to discuss, and Pisces should answer directly even when a soft deflection would be easier. Second, keep a shared outlet for all that feeling. Couples with this much emotional water do best when it flows somewhere: travel, a creative project, a home they build together.
 
 For a look at how Scorpio pairs with another water sign, see our [Scorpio and Cancer compatibility](/blog/scorpio-and-cancer-compatibility) guide, and for a pairing built on opposite instincts, [Capricorn and Aquarius](/blog/capricorn-and-aquarius-compatibility).
-
-![Sun rays moving beneath the sea surface](/blog-images/39109568.webp)
 
 ## Questions about Pisces and Scorpio
 

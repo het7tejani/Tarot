@@ -3,7 +3,7 @@ title: "Five of Swords: How Someone Sees You When This Card Appears"
 category: "Tarot"
 date: "2026-11-14"
 excerpt: "The Five of Swords as how someone sees you reads as tension, rivalry and the wish to be right. What it suggests in love, friendship and work, upright and reversed."
-coverImage: "/blog-images/cover-five-of-swords-how-someone-sees-you.webp"
+coverImage: "/blog-images/cover-five-of-swords-how-someone-sees-you-creative-v2.webp"
 metaTitle: "Five of Swords: How Someone Sees You (Upright and Reversed) | The Psychic Studio"
 published: "true"
 ---
@@ -12,7 +12,7 @@ The Five of Swords is the card of the argument that cost too much. When it lands
 
 As always, tarot reflects. It cannot open a window into another person's head. It gives you an image to think with, and this image asks an honest question about conflict.
 
-![Dark storm clouds gathering over a rough sea](/blog-images/9764167.webp)
+![An empty meeting after a victory illustrates the social cost of winning an argument](/blog-images/five-of-swords-how-someone-sees-you-creative-1.webp)
 
 ## What the Five of Swords shows
 
@@ -32,7 +32,7 @@ Reversed, readers often describe a softening. Resentment starts to loosen, someo
 
 Either way, the reversed card points at unfinished business. Something between you and this person has not been said out loud yet.
 
-![A stormy sky over open water](/blog-images/15149448.webp)
+![An open conversation after a storm illustrates choosing repair over keeping score](/blog-images/five-of-swords-how-someone-sees-you-creative-2.webp)
 
 ## In love, friendship and at work
 
@@ -45,8 +45,6 @@ In friendship, the card can mark a falling out that nobody has repaired, or a gr
 The Five of Swords rewards one move above all others: decide what you want more than being right. If the relationship matters, name the conflict plainly and invite the other person to do the same. If the conflict does not matter, drop it fully instead of winning it slowly over months.
 
 For a warmer contrast, read how the [Four of Wands as how someone sees you](/blog/four-of-wands-how-someone-sees-you) reads, or explore the [Queen of Wands as feelings](/blog/queen-of-wands-as-feelings). Its heavier sibling, the [Ten of Swords as how someone sees you](/blog/ten-of-swords-how-someone-sees-you), covers what happens when a conflict reaches its final chapter. For the opposite picture, what mutual recognition looks like, read the [Two of Cups as how someone sees you](/blog/two-of-cups-how-someone-sees-you).
-
-![Stormy ocean under a darkening sky](/blog-images/14821797.webp)
 
 ## Questions about the Five of Swords
 

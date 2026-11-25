@@ -3,7 +3,7 @@ title: "Death Tarot Card Meaning: Endings, Change and What Comes Next"
 category: "Tarot"
 date: "2026-11-15"
 excerpt: "The Death card is the most feared card in the tarot, and the most misread. What it means upright and reversed, in love, work and money, and why it is about clearing ground, not literal death."
-coverImage: "/blog-images/cover-death-tarot-card-meaning.webp"
+coverImage: "/blog-images/cover-death-tarot-card-meaning-creative-v2.webp"
 metaTitle: "Death Tarot Card Meaning: Upright, Reversed and Love | The Psychic Studio"
 published: "true"
 ---
@@ -12,7 +12,7 @@ No card in the tarot gets a stronger reaction than Death. It is card number 13 o
 
 A tarot card cannot see the future. It gives you an image to think with, and this one asks a direct question: what in your life is already over, and what could grow in the space it leaves?
 
-![Mountains catching the first light of dawn](/blog-images/2582548.webp)
+![Leaving a key in a cleared studio illustrates completing an outgrown chapter](/blog-images/death-tarot-card-meaning-creative-1.webp)
 
 ## What the Death card shows
 
@@ -34,7 +34,7 @@ Reversed, the card usually describes resistance. The ending is obvious to everyo
 
 There is a gentler reversed reading too. Sometimes Death reversed means change is happening quietly, on the inside, before it shows anywhere else. The person looks the same from the outside, but a decision has already been made. If that reading fits, the card is simply asking you to notice it.
 
-![A monarch butterfly emerging from its chrysalis](/blog-images/39565222.webp)
+![Clearing old roots and planting roses illustrates renewal within a relationship](/blog-images/death-tarot-card-meaning-creative-2.webp)
 
 ## Death in love readings
 
@@ -55,8 +55,6 @@ In money readings, Death describes a financial chapter closing: a debt finally p
 Name the ending out loud, in plain words, to yourself first. Then let it be over. Grieve it if it deserves grief, with a real timeframe rather than an open tab. Then look at the picture again: the sun between the towers is already up. The card never asks what you are losing. It asks what you will plant. For the cycles that turn after the clearing, see our guide to [The Wheel of Fortune](/blog/the-wheel-of-fortune-tarot-card-meaning).
 
 For what hope and healing look like after an ending, read our guide to [The Star](/blog/the-star-tarot-card-meaning). For the fresh start that follows, see [The Fool](/blog/the-fool-tarot-card-meaning).
-
-![A forest path lit by sunlight between the trees](/blog-images/37875243.webp)
 
 ## Questions about the Death card
 

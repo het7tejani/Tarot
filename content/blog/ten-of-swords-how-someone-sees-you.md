@@ -3,7 +3,7 @@ title: "Ten of Swords: How Someone Sees You When This Card Appears"
 category: "Tarot"
 date: "2026-11-14"
 excerpt: "The Ten of Swords as how someone sees you reads as an ending, exhaustion or betrayal. What it suggests upright and reversed, and why the sunrise matters."
-coverImage: "/blog-images/cover-ten-of-swords-how-someone-sees-you.webp"
+coverImage: "/blog-images/cover-ten-of-swords-how-someone-sees-you-creative-v2.webp"
 metaTitle: "Ten of Swords: How Someone Sees You (Upright and Reversed) | The Psychic Studio"
 published: "true"
 ---
@@ -12,7 +12,7 @@ The Ten of Swords is the card people remember, because the picture is hard to fo
 
 A tarot card cannot look inside another person. It gives you an image to think with. This one asks what ended, who was hurt, and what the morning after looks like.
 
-![The first light of sunrise over a dark ocean](/blog-images/5841687.webp)
+![An exhausted worker illustrates how burnout can shape another person’s impression](/blog-images/ten-of-swords-how-someone-sees-you-creative-1.webp)
 
 ## What the Ten of Swords shows
 
@@ -34,7 +34,7 @@ Reversed, the Ten of Swords is one of the more hopeful turns in the deck. Reader
 
 The reversed card also carries a warning. It can describe someone who refuses to let an ending end: replaying the betrayal, reopening the argument, keeping a finished chapter on life support. If that reading rings true, the card is asking what it would take to accept that this particular story is over.
 
-![A dark, empty beach at dusk](/blog-images/6476697.webp)
+![A finished handmade chair illustrates rebuilding trust through one visible success](/blog-images/ten-of-swords-how-someone-sees-you-creative-2.webp)
 
 ## In love and in work
 
@@ -47,8 +47,6 @@ At work, the card often reads as burnout or a betrayal: credit taken, a role los
 The Ten of Swords asks for acceptance first and action second. Name what ended, out loud, in plain words. Grieve it properly for a defined stretch of time. Then look at the horizon in the card: the sun is already up, and the next chapter is the only thing left that can still be shaped.
 
 For the conflict that often comes before this ending, read the [Five of Swords as how someone sees you](/blog/five-of-swords-how-someone-sees-you). For what hope looks like after it, see our guide to [The Star](/blog/the-star-tarot-card-meaning), and for sudden upheaval of a different kind, [The Tower](/blog/the-tower-tarot-card-meaning).
-
-![The sea glowing as the sun rises](/blog-images/35678996.webp)
 
 ## Questions about the Ten of Swords
 

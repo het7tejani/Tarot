@@ -3,7 +3,7 @@ title: "Two of Cups: How Someone Sees You When This Card Appears"
 category: "Tarot"
 date: "2026-11-15"
 excerpt: "The Two of Cups as how someone sees you reads as warmth, attraction and mutual respect. What it suggests upright and reversed, in love, friendship and work."
-coverImage: "/blog-images/cover-two-of-cups-how-someone-sees-you.webp"
+coverImage: "/blog-images/cover-two-of-cups-how-someone-sees-you-creative-v2.webp"
 metaTitle: "Two of Cups: How Someone Sees You (Upright and Reversed) | The Psychic Studio"
 published: "true"
 ---
@@ -12,7 +12,7 @@ The Two of Cups is one of the gentlest cards in the tarot, and one of the cleare
 
 A tarot card cannot look inside another person's mind. It gives you an image to think with. This one asks what mutual recognition feels like, and what happens when one side stops offering it.
 
-![A couple holding coffee cups together](/blog-images/11019325.webp)
+![Offering equal warmth illustrates reciprocal attention and meeting halfway](/blog-images/two-of-cups-how-someone-sees-you-creative-1.webp)
 
 ## What the Two of Cups shows
 
@@ -34,7 +34,7 @@ Reversed, the Two of Cups tips. The most common reading is imbalance: one person
 
 The reversed card can also describe a broken agreement. Something was understood between you, spoken or not, and one side stopped honouring it. If the person seems cooler lately, this reading asks what changed on your side first. For the sharper conflict version of that story, see the [Five of Swords as how someone sees you](/blog/five-of-swords-how-someone-sees-you).
 
-![A couple holding hands](/blog-images/6625836.webp)
+![Working on a shared model illustrates professional respect between equals](/blog-images/two-of-cups-how-someone-sees-you-creative-2.webp)
 
 ## In love, friendship and work
 
@@ -49,8 +49,6 @@ At work, the Two of Cups reads as professional respect: a colleague or client wh
 Meet what is offered. The Two of Cups only works as an exchange, so if someone has been extending warmth toward you, this card is a nudge to return it while it is still being extended. If the card appears reversed, name the imbalance honestly, to yourself at minimum, and decide whether you want to correct it.
 
 If the connection you are asking about has already ended, our guide to [thinking about an ex and its spiritual meaning](/blog/thinking-about-ex-spiritual-meaning) looks at what remains. And for how feelings read through a very different card, see the [Queen of Wands as feelings](/blog/queen-of-wands-as-feelings).
-
-![Two mugs side by side, one red and one white](/blog-images/196651.webp)
 
 ## Questions about the Two of Cups
 

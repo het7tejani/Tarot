@@ -3,7 +3,7 @@ title: "March 28 Zodiac Sign: Aries Personality, Dates and Compatibility"
 category: "Astrology"
 date: "2026-10-23"
 excerpt: "The March 28 zodiac sign is Aries, the first sign of the zodiac. Here are the dates, the fire sign traits, and how a March 28 Aries loves and works."
-coverImage: "/perf-assets/signs/aries.svg"
+coverImage: "/blog-images/cover-march-28-zodiac-sign-creative-v2.webp"
 metaTitle: "March 28 Zodiac Sign: Aries | The Psychic Studio"
 published: "true"
 ---
@@ -20,7 +20,7 @@ That "first sign" label is not decorative. Aries opens the astrological year, an
 
 The exact start of Aries season is the March equinox, which lands on March 20 or 21 depending on the year. By March 28 the Sun is around seven degrees into Aries, so no birth chart is needed to settle the question. If your birthday were closer to a boundary, our [zodiac sign dates](/zodiac-sign-dates) page lists the cutoff for every sign.
 
-![A ram with curved horns standing in a field](/blog-images/34246625.webp)
+![Planting the first orchard tree illustrates practical initiative with others](/blog-images/march-28-zodiac-sign-creative-1.webp)
 
 ## The March 28 Aries personality
 
@@ -36,7 +36,7 @@ You can read the full profile on our [Aries zodiac page](/zodiac/aries), includi
 
 Fire signs run warm: quick to ignite, quick to burn through fuel. For a March 28 Aries, that means energy arrives in bursts. The practical skill is not becoming calmer; it is aiming the bursts. Aries does its best work in sprints with a clear finish line, and its worst work in open-ended meetings about future meetings.
 
-![A bonfire burning at dusk among trees](/blog-images/9175262.webp)
+![A walking pause to sketch an idea illustrates aiming energy at a clear next step](/blog-images/march-28-zodiac-sign-creative-2.webp)
 
 Movement helps this sign think. Many Aries people report that their best decisions arrive on a walk, in a gym, or halfway through doing something physical, not at a desk staring at a pros-and-cons list.
 

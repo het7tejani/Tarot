@@ -745,3 +745,7 @@ header .nav a.on,header a[aria-current=page]{color:#846019!important}
 /* Original creative blog artwork keeps its full 16:9 composition. */
 .st-journal-thumb:has(img[src*="-creative-v2"]),.st-journal-article-head figure.st-journal-hero:has(img[src*="-creative-v2"]){height:auto;aspect-ratio:16/9}
 .st-journal-thumb img[src*="-creative-v2"],.st-journal-article-head figure.st-journal-hero img[src*="-creative-v2"]{width:100%;height:100%;object-fit:contain}
+
+/* Blog images must show every edge at every viewport width (Nov 25). */
+.st-journal-thumb img,.st-journal-article-head figure.st-journal-hero img{object-fit:contain}
+.st-journal-copy figure.st-journal-figure img{width:100%;height:auto;max-height:none;object-fit:contain}

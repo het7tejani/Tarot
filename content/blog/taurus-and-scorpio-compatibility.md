@@ -3,7 +3,7 @@ title: "Taurus and Scorpio Compatibility: Love, Trust and Friction"
 category: "Astrology"
 date: "2026-10-31"
 excerpt: "Taurus and Scorpio sit on opposite sides of the zodiac. See how the pair handles love, trust and stubbornness, with a tarot card for each sign."
-coverImage: "/blog-images/cover-taurus-scorpio-compatibility.webp"
+coverImage: "/blog-images/cover-taurus-and-scorpio-compatibility-creative-v2.webp"
 metaTitle: "Taurus and Scorpio Compatibility: Love and Trust | The Psychic Studio"
 published: "true"
 ---
@@ -18,7 +18,7 @@ Taurus is a fixed earth sign ruled by Venus. It values comfort, routine, loyalty
 
 Both are fixed signs, which means both dig in. Neither changes direction quickly. That is the main source of the pair's strength and also of its stalemates. For the full profile of each sign, see our guides to [Taurus](/zodiac/taurus) and [Scorpio](/zodiac/scorpio).
 
-![Brown bull standing in a green field under a blue sky](/blog-images/29374206.webp)
+![Different workshop tasks illustrate giving each decision a clear owner](/blog-images/taurus-and-scorpio-compatibility-creative-1.webp)
 
 ## Why the pair attracts
 
@@ -32,7 +32,7 @@ The friction usually comes from three sources. Taurus wants a predictable life, 
 
 Jealousy and possessiveness are the other common topic. Both signs hold tightly to what they love. Without clear talk about trust, the grip can feel like control. Our guide to [Scorpio in love](/blog/scorpio-in-love-tarot-and-horoscope) covers how the sign handles trust and loyalty in more detail.
 
-![Close-up of a yellow scorpion on dry soil](/blog-images/35465379.webp)
+![A regular evening together illustrates practical routines and full attention](/blog-images/taurus-and-scorpio-compatibility-creative-2.webp)
 
 ## Tarot cards for Taurus and Scorpio
 
@@ -45,8 +45,6 @@ Jealousy and possessiveness are the other common topic. Both signs hold tightly 
 As friends, the two tend to be few in number and long in duration. Neither collects acquaintances. They trust slowly, so early meetings can feel stiff, and the bond deepens after a few years.
 
 At work, Taurus brings patience and follow-through, and Scorpio brings focus and a sharp eye for what is not being said. The risk is a standoff: two fixed signs who both think their plan is right. A clear owner for each decision helps.
-
-![Couple walking together through a park with autumn trees](/blog-images/34991516.webp)
 
 ## Tips for the pair
 

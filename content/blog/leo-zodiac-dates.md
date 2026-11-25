@@ -3,7 +3,7 @@ title: "Leo Zodiac Dates: When Leo Season Starts and Ends"
 category: "Astrology"
 date: "2026-10-24"
 excerpt: "Leo zodiac dates are usually July 23 to August 22. Check July 22, July 23 and August 22 cusp birthdays, plus the difference between dates and a birth chart."
-coverImage: "/perf-assets/signs/leo.svg"
+coverImage: "/blog-images/cover-leo-zodiac-dates-creative-v2.webp"
 metaTitle: "Leo Zodiac Dates: July 23 to August 22 | The Psychic Studio"
 published: "true"
 ---
@@ -14,7 +14,7 @@ Leo is the fifth sign of the tropical zodiac, a fire sign ruled by the Sun and s
 
 The dates move by a day now and then. The Sun enters Leo at a precise moment that shifts a little each year, so a birthday on July 22 or 23 can land on either side. The cusp section below shows how to settle it.
 
-![A close-up of a lion with a full mane](/blog-images/36187082.webp)
+![Acknowledging a colleague work illustrates generosity with attention](/blog-images/leo-zodiac-dates-creative-1.webp)
 
 ## Leo dates at a glance
 
@@ -32,7 +32,7 @@ Aries starts things, Sagittarius wanders off to explore them, and Leo is the one
 
 Leo's ruler in astrology is the Sun, described as a luminary rather than a planet. Traditional Leo descriptions emphasize warmth, generosity and visibility. Treat those themes as prompts to compare with a person's actual habits, rather than facts established by a birthday.
 
-![A lioness resting in golden light](/blog-images/32964634.webp)
+![A quiet review illustrates asking for feedback in private](/blog-images/leo-zodiac-dates-creative-2.webp)
 
 ## Leo strengths and blind spots
 
@@ -45,8 +45,6 @@ The blind spot is pride. Leo takes criticism personally and can dig in over smal
 Two sign boundaries touch Leo: Cancer to Leo around July 22 or 23, and Leo to Virgo around August 22 or 23. The Sun changes signs at one moment. A nearby birthday does not establish a blend of two Sun signs.
 
 To check an edge birthday, use the full birth date, recorded birth time and birthplace in an accurate chart calculation. The location lets the calculation account for the local time zone. If the birth time is unknown and the Sun changed signs that day, leave the result uncertain. Our [birth chart guide](/birth-chart) explains the information needed; it is not a chart calculator.
-
-![A lion standing on dry grass at the edge of the savanna](/blog-images/6401474.webp)
 
 ## Leo compatibility
 

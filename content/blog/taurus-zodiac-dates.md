@@ -3,7 +3,7 @@ title: "Taurus Dates: What Month Is Taurus and Who Is Born Under It"
 category: "Astrology"
 date: "2026-10-24"
 excerpt: "Taurus dates run from April 20 to May 20 in most years. Learn what month Taurus is, where the cusp falls, and what the second sign is like."
-coverImage: "/perf-assets/signs/taurus.svg"
+coverImage: "/blog-images/cover-taurus-zodiac-dates-creative-v2.webp"
 metaTitle: "Taurus Month and Dates: April 20 to May 20 | The Psychic Studio"
 published: "true"
 ---
@@ -12,7 +12,7 @@ Taurus dates run from April 20 to May 20 in most years. Taurus is the second sig
 
 So what month is Taurus? Two of them. The sign starts in the second half of April and ends around the third week of May. A person born on April 25 and one born on May 15 are both Taurus.
 
-![A black bull standing in a grass field](/blog-images/12205029.webp)
+![Repairing a well-made chair illustrates valuing useful things that last](/blog-images/taurus-zodiac-dates-creative-1.webp)
 
 ## Taurus dates at a glance
 
@@ -30,7 +30,7 @@ Taurus is a fixed earth sign, which makes it the most stable of the twelve. It l
 
 That patience carries over to people. Taurus friendships are slow to start and hard to end. A Taurus partner shows love through consistency: remembering your coffee order, fixing the thing that has been broken for a month, showing up on time. For a longer profile, see our guide to [Taurus personality traits](/blog/taurus-personality-traits) and the [Taurus zodiac page](/zodiac/taurus).
 
-![Cows grazing in a green spring pasture](/blog-images/32160917.webp)
+![Reviewing a plan illustrates asking what would change if starting fresh](/blog-images/taurus-zodiac-dates-creative-2.webp)
 
 ## Taurus strengths and blind spots
 
@@ -44,8 +44,6 @@ Birthdays around April 19 to 21 sit between Aries and Taurus. People born then o
 
 A cusp does not give you two Sun signs. It does mean the neighboring sign may show up in your chart through the Moon, Mercury or Venus, which a [birth chart](/birth-chart) will show.
 
-![A bull standing in a meadow with dandelions](/blog-images/28424334.webp)
-
 ## Taurus compatibility
 
 Taurus tends to do best with other earth signs and with water signs that appreciate its stability. [Taurus and Virgo](/zodiac-compatibility/taurus-and-virgo) works because both prefer practical plans. [Taurus and Cancer](/zodiac-compatibility/taurus-and-cancer) is a homebody match. [Taurus and Scorpio](/zodiac-compatibility/taurus-and-scorpio) sits across the wheel and pulls hard in both directions.
@@ -53,7 +51,6 @@ Taurus tends to do best with other earth signs and with water signs that appreci
 Taurus and Libra shares a ruler in Venus and is the pairing we cover in detail in our guide to [Taurus and Libra](/zodiac-compatibility/taurus-and-libra). You can also read the weekly [Taurus horoscope](/horoscope/taurus).
 
 The next sign in the wheel is covered in our [Gemini zodiac dates](/blog/gemini-zodiac-dates) guide.
-
 
 The trickiest day of the whole range is the first one. Our guide to the [April 20 zodiac sign](/blog/april-20-zodiac-sign) explains why that birthday can be Aries or Taurus depending on the year.
 ## FAQ
@@ -75,7 +72,6 @@ Taurus is an earth sign, along with Virgo and Capricorn.
 Venus rules Taurus. Libra shares the same ruler, which is one reason the two signs get along on matters of taste.
 
 Born just after the Aries edge? Read the [April 22 zodiac sign](/blog/april-22-zodiac-sign) guide.
-
 
 Looking for the months instead of the exact dates? See [which month is Taurus](/blog/taurus-month-and-dates).
 

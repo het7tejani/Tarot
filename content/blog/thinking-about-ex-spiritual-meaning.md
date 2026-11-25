@@ -3,7 +3,7 @@ title: "Why Do I Keep Thinking About My Ex? Spiritual Meanings and Honest Answer
 category: "Spiritual Reflection"
 date: "2026-10-18"
 excerpt: "Why do you keep thinking about your ex? The psychology first, then the spiritual meanings people attach to it, and a grounded way to reflect."
-coverImage: "/tarot/the_moon.jpg"
+coverImage: "/blog-images/cover-thinking-about-ex-spiritual-meaning-creative-v2.webp"
 metaTitle: "Thinking About Your Ex: Spiritual Meaning and Reflection"
 published: "true"
 ---
@@ -18,7 +18,7 @@ A relationship can leave familiar routines and expectations behind. Consider whe
 
 If you feel that something is unfinished, name it as your experience rather than evidence of an active bond. You may want an explanation or miss a routine. Neither feeling tells you what the other person wants now.
 
-![A man standing behind a window covered in raindrops](/blog-images/5028920.webp)
+![An old photograph illustrates noticing ordinary memory triggers without assuming a signal](/blog-images/thinking-about-ex-spiritual-meaning-creative-1.webp)
 
 ## Spiritual meanings people attach to it
 
@@ -32,7 +32,7 @@ Ask what you miss in concrete terms. It might be the person, a familiar routine 
 
 If you imagine reconnecting, include the actual history rather than only the moments you miss. Respect any request for no contact. A symbolic interpretation cannot override a boundary or make a reply owed to you.
 
-![A pensive woman looking out through a rainy window](/blog-images/31662652.webp)
+![Repotting a plant illustrates choosing an activity in the present day](/blog-images/thinking-about-ex-spiritual-meaning-creative-2.webp)
 
 ## A tarot reflection for letting go
 

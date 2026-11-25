@@ -12,3 +12,9 @@ Keep normal USD schema/catalog and current deployment untouched. Use disposable 
 6. Restore saved Test webhook endpoint, verify enabled details. Remove disposable fixture project/D1 after preserving non-secret evidence and checking no dependency. Never expose or log signed payload credentials.
 
 If any resource would spend money or require wider access, stop that step. If original signed event cannot be recovered, duplicate proof remains unverified. Do not manufacture one and call it gateway-origin evidence.
+
+## Local preparation completed23:05
+
+`node checkout/fixtures/build-inr-schema.mjs /tmp/psychic-inr-proof/schema.sql` produces an INR-only disposable schema under the guarded temporary directory. It never changes the normal USD migration. Full webhook-handler tests exercise the unmodified handler and gateway read interface with local synthetic signatures and mocked gateway responses: valid capture+duplicate give one paid timestamp/event/outbox; invalid signature causes no gateway request/mutation; USD mismatch against INR fixture rejects409, no paid state. All53local tests and TypeScript pass. These are synthetic local tests, not gateway delivery proof.
+
+Remaining external preparation needs an authorized console route to provision isolated free D1. Current deploy credential's D1 access denied; never widen or repurpose credentials to evade that. Remote PC held with no further changes pending closure decision.

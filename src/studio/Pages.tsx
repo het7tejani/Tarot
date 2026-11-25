@@ -75,7 +75,7 @@ export const Blog: React.FC = () => {
     <div className="st-journal-filters" aria-label="Filter stories by category">{categories.map((c) => <button key={c} className={c === category ? 'active' : ''} aria-pressed={c === category} onClick={() => setCategory(c)}>{c}</button>)}</div>
     <div className="st-journal-layout"><section aria-label="Journal stories">{shown.map((p, index) => <Link key={p.id} className="st-journal-row" to={`/blog/${p.slug || p.id}`}>
       <div className="st-journal-story"><span className="eyebrow">{p.category}</span><h2>{p.title}</h2><p>{p.excerpt}</p><span className="st-journal-meta">The Psychic Studio · {minutes(p.content)} min read</span></div>
-      <div className={coverClass(p, "st-journal-thumb")}><CoverVisual p={p} eager={index===0} /></div>
+      <div className={coverClass(p, "st-journal-thumb")}><CoverVisual p={p} eager={index<3} /></div>
     </Link>)}{shown.length === 0 && <p>No stories in this category yet.</p>}</section>
     <aside className="st-journal-sidebar"><span className="eyebrow">Start here</span><h2>New to tarot?</h2><p>You do not need to know every card. Start with one question and one small reflection.</p><Link className="btn" to="/free-tarot">Try a free card →</Link><hr /><span className="eyebrow">Explore</span><ul><li><Link to="/tarot-card-meanings">All 78 card meanings ↗</Link></li><li><Link to="/shop">Choosing a reading ↗</Link></li><li><Link to="/faq">Questions to ask ↗</Link></li></ul></aside></div>
   </div></Layout>;

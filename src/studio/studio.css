@@ -749,3 +749,6 @@ header .nav a.on,header a[aria-current=page]{color:#846019!important}
 /* Blog images must show every edge at every viewport width (Nov 25). */
 .st-journal-thumb img,.st-journal-article-head figure.st-journal-hero img{object-fit:contain}
 .st-journal-copy figure.st-journal-figure img{width:100%;height:auto;max-height:none;object-fit:contain}
+
+/* Content stays painted on first visit and while scrolling. No delayed blank reveal. */
+.js-rv .rv{opacity:1;transform:none;transition:none;will-change:auto}

@@ -1,0 +1,18 @@
+{
+  "date": "2026-11-25",
+  "scope": "first-visit loading, no Shop changes",
+  "reference": "https://www.narolainfotech.com/",
+  "observed": [
+    "Reference hero is discoverable in initial HTML and not lazy-loaded",
+    "Psychic Studio blog hero already preloaded, but creative artworks lacked mobile variants",
+    "Home first-screen card artwork marked lazy",
+    "Scroll reveal hides content until transition delay"
+  ],
+  "changes": [
+    "400px and 800px WebP derivatives for all blog images, originals untouched",
+    "Responsive image selection for creative covers and interiors",
+    "Home first-screen cards eager/high-priority",
+    "First three journal thumbnails eager",
+    "Remove blank scroll-reveal transition while preserving layout and other animations"
+  ]
+}

@@ -270,7 +270,7 @@ const HeroSlider: React.FC = () => {
             <div className="cta"><Link className="btn" to="/shop">Explore readings</Link><Link className="btn ghost" to="/faq">Read the FAQ</Link></div>
           </div>
           <div className="hs-cards" aria-hidden="true">
-            {['the_star', 'the_lovers', 'the_moon'].map((c) => <TarotArtwork key={c} src={`/tarot/${c}.jpg`} alt="" loading="lazy" width={200} height={300} />)}
+            {['the_star', 'the_lovers', 'the_moon'].map((c) => <TarotArtwork key={c} src={`/tarot/${c}.jpg`} alt="" loading="eager" fetchPriority="high" sizes="(max-width: 700px) 220px, 200px" width={200} height={300} />)}
           </div>
         </div>
       </div>

@@ -1,7 +1,7 @@
 import {createHash} from 'node:crypto';
 import {CheckoutError} from './payment.mjs';
 export async function storePrivatePdf(db,record,bytes){
- const commands=[db.prepare('INSERT INTO order_files(id,order_id,object_key,sha256,bytes,state,created_at) VALUES(?,?,?,?,?,?,?)').bind(record.id,record.orderId,'d1:'+record.id,record.sha256,bytes.length,'draft',record.now)];
+ const commands=[db.prepare("INSERT INTO order_files(id,order_id,object_key,sha256,bytes,state,created_at) SELECT ?,id,?,?,?,'draft',? FROM orders WHERE id=? AND payment_status='paid' AND fulfilment_status IN('new','in_progress') AND (SELECT count(*) FROM order_files WHERE order_id=?)<5 AND COALESCE((SELECT sum(bytes) FROM order_files),0)+?<=134217728").bind(record.id,'d1:'+record.id,record.sha256,bytes.length,record.now,record.orderId,record.orderId,bytes.length)];
  for(let offset=0,index=0;offset<bytes.length;offset+=128*1024,index++)commands.push(db.prepare('INSERT INTO pdf_chunks(file_id,ordinal,data) VALUES(?,?,?)').bind(record.id,index,bytes.slice(offset,offset+128*1024).buffer));
  if(record.actor){commands.push(db.prepare('INSERT INTO admin_audit(id,actor_id,order_id,action,created_at) VALUES(?,?,?,?,?)').bind(record.auditId,record.actor,record.orderId,'pdf_draft:'+record.id,record.now));}
  await db.batch(commands);

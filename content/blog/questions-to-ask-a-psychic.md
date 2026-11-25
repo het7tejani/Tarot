@@ -3,7 +3,7 @@ title: "Questions to Ask a Psychic: Prepare for a Grounded Reading"
 category: "Tarot Practice"
 date: "2026-10-17"
 excerpt: "Prepare questions to ask a psychic with practical examples for love, work and direction, plus boundaries that keep any reading honest and useful."
-coverImage: "/tarot/the_high_priestess.jpg"
+coverImage: "/blog-images/cover-questions-to-ask-a-psychic-creative-v2.webp"
 metaTitle: "Questions to Ask a Psychic: A Ready List and What to Skip | The Psychic Studio"
 published: "true"
 ---
@@ -29,7 +29,7 @@ Write your questions down before the session. People regularly forget their real
 
 A reader cannot confirm that someone is your soulmate or tell you what a third person secretly intends. If you want to know what a partner feels, the direct route is asking them. Use a reading to prepare for that conversation, not to replace it. If your questions are about a relationship and its direction, the [soulmate and future relationship reading](/readings/soulmate-and-future-relationship) page explains what that reading looks at before you ask the studio about it.
 
-![Handwritten questions in a journal before a reading](/blog-images/34640246.webp)
+![Preparing a short question list illustrates keeping a reading focused on usable choices](/blog-images/questions-to-ask-a-psychic-creative-1.webp)
 
 ## Questions about work and direction
 
@@ -71,7 +71,7 @@ Cards like [The High Priestess](/tarot-card-meanings/the-high-priestess) invite 
 
 If you prefer asking a person, our guide to [love tarot readings](/love-tarot-reading) shows what a question-led session looks like with the cards.
 
-![Writing down questions before asking them in a session](/blog-images/11025209.webp)
+![A careful conversation illustrates a reader listening without promising certainty](/blog-images/questions-to-ask-a-psychic-creative-2.webp)
 
 ## A five-minute preparation that works
 

@@ -3,7 +3,7 @@ title: "Scorpio and Cancer Compatibility: Trust, Privacy and Shared Depth"
 category: "Astrology"
 date: "2026-11-01"
 excerpt: "Scorpio and Cancer are both water signs. See how the pair handles trust, privacy and conflict, and which tarot cards describe each sign."
-coverImage: "/blog-images/cover-scorpio-cancer-compatibility.webp"
+coverImage: "/blog-images/cover-scorpio-and-cancer-compatibility-creative-v2.webp"
 metaTitle: "Scorpio and Cancer Compatibility: Love, Trust and Friction | The Psychic Studio"
 published: "true"
 ---
@@ -12,7 +12,7 @@ Scorpio and Cancer are two of the three water signs, and astrologers usually ran
 
 That shared ground is the strength of the match. It is also where trouble starts, because two signs that go quiet when hurt can leave a problem unspoken for a long time.
 
-![Two people resting their feet on a beach](/blog-images/17051407.webp)
+![Restoring a garden bench illustrates bonding through a shared practical project](/blog-images/scorpio-and-cancer-compatibility-creative-1.webp)
 
 ## Why Scorpio and Cancer fit
 
@@ -28,7 +28,7 @@ The second pressure point is how each sign handles hurt. Cancer retreats and sul
 
 Jealousy shows up from both sides. Cancer fears being left. Scorpio fears being betrayed. Neither fear is a fact about the partner. Naming the fear out loud usually takes the heat out of it.
 
-![Two people sitting by a bay at sunset](/blog-images/13993599.webp)
+![A calm conversation illustrates making a repair rather than staying silent](/blog-images/scorpio-and-cancer-compatibility-creative-2.webp)
 
 ## Tarot cards for Scorpio and Cancer
 
@@ -41,8 +41,6 @@ Together the cards describe a couple that changes through hard stretches and kee
 Some habits help this pair. Say small things early, before they pile up. Agree on one place where each person can be alone without it meaning distance. On days when one partner is low, check plans together, since Cancer tends to want company and Scorpio tends to want space.
 
 A Scorpio and Cancer pair also does well when it has a shared project, like a home, a garden or a long trip. Water signs bond through building something that holds feeling.
-
-![Moonlight on dark water](/blog-images/15406028.webp)
 
 For a different pairing, compare it with [Taurus and Scorpio](/blog/taurus-and-scorpio-compatibility), where the signs sit opposite each other. For other combinations, use the [zodiac compatibility guide](/zodiac-compatibility). Compatibility readings describe patterns between sign types. They do not say how any real couple will fare.
 

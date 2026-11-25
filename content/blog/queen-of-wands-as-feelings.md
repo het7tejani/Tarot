@@ -3,7 +3,7 @@ title: "Queen of Wands as Feelings: Upright and Reversed Interpretations"
 category: "Tarot"
 date: "2026-11-02"
 excerpt: "The Queen of Wands as feelings symbolises warmth and confidence. Explore upright and reversed interpretations without treating a card as proof of another person's thoughts."
-coverImage: "/blog-images/cover-queen-of-wands-as-feelings.webp"
+coverImage: "/blog-images/cover-queen-of-wands-as-feelings-creative-v2.webp"
 metaTitle: "Queen of Wands as Feelings: Upright and Reversed | The Psychic Studio"
 published: "true"
 ---
@@ -12,7 +12,7 @@ The Queen of Wands as feelings is commonly read as warmth, attraction and confid
 
 A tarot card cannot look inside another person. Use the interpretation to name a question you want to ask, then look at their words and behaviour rather than treating the spread as an answer on their behalf.
 
-![Sunflower glowing against a dark background](/blog-images/34749185.webp)
+![Sunflower and black cat symbolism illustrates warmth alongside independence](/blog-images/queen-of-wands-as-feelings-creative-1.webp)
 
 ## What the Queen of Wands shows
 
@@ -32,7 +32,7 @@ If this card appears after that question, turn the reading into a prompt about w
 
 You can ask a direct, respectful question when the relationship allows it. You cannot use a reading to bypass consent or to insist that someone has feelings they have denied. The most useful interpretation leaves room for their own answer.
 
-![A black cat sitting on sunny pavement](/blog-images/30809271.webp)
+![An honest conversation illustrates asking directly rather than assuming hidden feelings](/blog-images/queen-of-wands-as-feelings-creative-2.webp)
 
 ## Queen of Wands reversed as feelings
 

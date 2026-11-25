@@ -1,0 +1,10 @@
+{
+  "currency": "INR",
+  "usdInr": "92.468",
+  "observedAt": "2026-11-25T23:17:40+05:30",
+  "sourceQuoteClock": "22:19:56, source does not identify timezone",
+  "sourceUrl": "https://in.investing.com/currencies/usd-inr-historical-data",
+  "rule": "One-time current-rate conversion, nearest paise, half-up, no markup",
+  "tiersPaise": {"5": 46234, "9": 83221, "15": 138702},
+  "automaticRefresh": false
+}

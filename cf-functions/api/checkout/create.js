@@ -1,3 +1,4 @@
+import {allowRequest} from '../../../checkout/lib/rate-limit.mjs';
 import {randomUUID,createHash} from 'node:crypto';
 import {ETSY_LISTINGS} from '../../../src/data/etsyListings.ts';
 import {enabledTestConfig,validateCustomer,opaqueToken,CheckoutError} from '../../../checkout/lib/payment.mjs';
@@ -7,9 +8,7 @@ export async function onRequestPost({request,env}){
  try{
   const {keyId}=enabledTestConfig(env);sameOrigin(request);
   // A deployed rate limiter and abuse controls are required before enabling even a shared test preview.
-  if(!env.CHECKOUT_RATE_LIMITER)throw new CheckoutError('checkout_unavailable');
-  const {success}=await env.CHECKOUT_RATE_LIMITER.limit({key:request.headers.get('CF-Connecting-IP')||'unknown'});
-  if(!success)return json({error:'try_later'},429);
+  if(!await allowRequest(env,request,'checkout-create',5))return json({error:'try_later'},429);
   const input=await jsonBody(request);const customer=validateCustomer(input);
   if(!/^[a-f0-9-]{36}$/.test(input.requestId||''))throw new CheckoutError('invalid_input');
   const product=ETSY_LISTINGS.find(item=>item.slug===input.slug);if(!product)throw new CheckoutError('unknown_product');

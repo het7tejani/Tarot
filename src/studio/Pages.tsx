@@ -33,34 +33,16 @@ export const Md: React.FC<{ text: string; resolveImage?: (src:string)=>string }>
 export const About: React.FC = () => (
   <Layout><div className="st-page"><div className="wrap">
     <span className="eyebrow">About</span><h1>About The Psychic Studio</h1>
-    <div className="st-prose">
-      <p>I use tarot as a way to slow down, ask better questions and see your situation from a new angle.</p>
-      <p>This site is where I share free tarot draws, horoscopes, card meanings and guides. If you want something personal, explore the personal reading topics here.</p>
-      <p>Readings are for entertainment and personal reflection. They don't replace medical, legal, financial or mental health advice.</p>
-      <h2>What you will find here</h2>
-      <ul>
-        <li><Link to="/free-tarot">Free tarot draw</Link>: pull one or three cards from the 22 Major Arcana, with upright and reversed meanings. No account or payment details needed.</li>
-        <li><Link to="/tarot-card-meanings">Tarot card meanings</Link>: a page for each of the 78 cards covering upright and reversed meanings, love, career, symbolism and a reflection question.</li>
-        <li><Link to="/horoscope">Horoscopes</Link>, <Link to="/zodiac">zodiac sign guides</Link> and <Link to="/zodiac-compatibility">compatibility pages</Link> for the twelve signs.</li>
-        <li><Link to="/angel-numbers">Angel numbers</Link>, <Link to="/numerology">numerology</Link> and other symbolism guides.</li>
-        <li><Link to="/blog">The journal</Link>: tarot guides and ways to reflect on a question.</li>
-        <li><Link to="/shop">Personal reading topics</Link> you can ask the studio about by email.</li>
-      </ul>
-      <h2>How the guides are written</h2>
-      <p>Card meanings follow the common Rider-Waite-Smith tradition of imagery and symbolism. The artwork on this site is the studio's own set of 78 illustrations, an interpretation of the cards rather than a reproduction of a historic deck.</p>
-      <p>Every guide is written as a prompt for reflection. A card can help you frame a question; it cannot predict events, confirm what another person feels or replace professional advice.</p>
-      <h2>How personal readings work</h2>
-      <p>Choose the topic closest to your question, then send the studio a short inquiry from the reading's page. The studio replies personally by email with the next step, and your written reading arrives by email once the details are confirmed. You can ask anything before you decide.</p>
-      <h2>Get in touch</h2>
-      <p>Questions about a reading or a guide? Write to <a href="mailto:contact.thepsychicstudio@gmail.com">contact.thepsychicstudio@gmail.com</a> or visit the <Link to="/contact">contact page</Link>. Common questions are answered in the <Link to="/faq">reading FAQ</Link>.</p>
-      <p><Link className="btn" to="/shop">Explore personal readings</Link></p>
-    </div>
+    <div className="st-about-intro"><div className="st-prose"><p>I use tarot as a way to slow down, ask better questions and see your situation from a new angle.</p><p>This is a space for reflection, with free card guides and personal written readings. Your choices stay yours.</p><Link className="btn" to="/shop">Explore personal readings</Link></div><div className="st-about-art"><TarotArtwork src="/tarot/the_star.jpg" alt="The studio's original Star tarot illustration" loading="eager" sizes="260px"/><span>Space to pause. A question to begin.</span></div></div>
+    <div className="st-guide-links"><Link to="/free-tarot"><span>01 / TRY</span><h2>Start with one question</h2><p>Draw a free card and read its upright or reversed meaning.</p></Link><Link to="/tarot-card-meanings"><span>02 / LEARN</span><h2>Understand the symbolism</h2><p>Explore the studio's own artwork and guides to all 78 cards.</p></Link><Link to="/shop"><span>03 / REFLECT</span><h2>Talk it through</h2><p>Choose a personal reading topic and ask the studio before you decide.</p></Link></div>
+    <div className="st-about-details"><section><h2>How the guides are written</h2><p>Card meanings follow the common Rider-Waite-Smith tradition. The studio's original set of 78 illustrations interprets the cards rather than reproducing a historic deck.</p><p>The guides are prompts for reflection. A card cannot confirm another person's thoughts or promise a future outcome.</p></section><section><h2>How personal readings work</h2><ol className="st-simple-steps"><li>Choose a topic and send your question.</li><li>The studio replies by email with the next step.</li><li>Confirm the scope and timing before you decide.</li></ol><p>Your written reading is delivered by email. Questions? <Link to="/contact">Contact the studio</Link> or read the <Link to="/faq">reading FAQ</Link>.</p></section></div>
+    <p className="st-scope-note">For entertainment and personal reflection. Readings do not replace medical, legal, financial or mental health advice.</p>
   </div></div></Layout>
 );
 export const Contact: React.FC = () => (
   <Layout><div className="st-page"><div className="wrap">
     <span className="eyebrow">Contact</span><h1>Questions about a reading?</h1>
-    <div className="st-prose"><p>Email the studio with your question or the reading topic you are interested in. The studio replies personally with the next step, and you can ask anything before you decide.</p>
+    <div className="st-contact-panel st-prose"><p>Email the studio with your question or the reading topic you are interested in. The studio replies personally with the next step, and you can ask anything before you decide.</p>
       <p><a className="btn" href="mailto:contact.thepsychicstudio@gmail.com">contact.thepsychicstudio@gmail.com</a></p>
       <p style={{ fontSize: 14 }}>Ordering is handled personally by email. Written readings are delivered by email once your inquiry is confirmed.</p></div>
   </div></div></Layout>
@@ -68,16 +50,17 @@ export const Contact: React.FC = () => (
 export const Blog: React.FC = () => {
   const posts = getBlogPosts().filter((p) => p.published !== false);
   const [category, setCategory] = useState('All stories');
+  const [visibleCount, setVisibleCount] = useState(12);
   const categories = ['All stories', ...Array.from(new Set(posts.map((p) => p.category))).filter(Boolean)];
   const shown = category === 'All stories' ? posts : posts.filter((p) => p.category === category);
   return <Layout><div className="st-journal wrap">
     <div className="st-journal-intro"><span className="eyebrow">The studio journal</span><h1>A little clarity, one story at a time.</h1><p>Tarot guides, thoughtful questions and practical ways to reflect.</p></div>
-    <div className="st-journal-filters" aria-label="Filter stories by category">{categories.map((c) => <button key={c} className={c === category ? 'active' : ''} aria-pressed={c === category} onClick={() => setCategory(c)}>{c}</button>)}</div>
-    <div className="st-journal-layout"><section aria-label="Journal stories">{shown.map((p, index) => <Link key={p.id} className="st-journal-row" to={`/blog/${p.slug || p.id}`}>
+    <div className="st-journal-filters" aria-label="Filter stories by category">{categories.map((c) => <button key={c} className={c === category ? 'active' : ''} aria-pressed={c === category} onClick={() => {setCategory(c);setVisibleCount(12);}}>{c}</button>)}</div>
+    <div className="st-journal-layout"><section aria-label="Journal stories">{shown.slice(0,visibleCount).map((p, index) => <Link key={p.id} className="st-journal-row" to={`/blog/${p.slug || p.id}`}>
       <div className="st-journal-story"><span className="eyebrow">{p.category}</span><h2>{p.title}</h2><p>{p.excerpt}</p><span className="st-journal-meta">The Psychic Studio · {minutes(p.content)} min read</span></div>
       <div className={coverClass(p, "st-journal-thumb")}><CoverVisual p={p} eager={index<3} /></div>
-    </Link>)}{shown.length === 0 && <p>No stories in this category yet.</p>}</section>
-    <aside className="st-journal-sidebar"><span className="eyebrow">Start here</span><h2>New to tarot?</h2><p>You do not need to know every card. Start with one question and one small reflection.</p><Link className="btn" to="/free-tarot">Try a free card →</Link><hr /><span className="eyebrow">Explore</span><ul><li><Link to="/tarot-card-meanings">All 78 card meanings ↗</Link></li><li><Link to="/shop">Choosing a reading ↗</Link></li><li><Link to="/faq">Questions to ask ↗</Link></li></ul></aside></div>
+    </Link>)}{shown.length > visibleCount && <button className="btn ghost" onClick={()=>setVisibleCount(n=>n+12)}>Show more stories ({shown.length-visibleCount} remaining)</button>}{shown.length === 0 && <p>No stories in this category yet.</p>}</section>
+    <aside className="st-journal-sidebar"><details className="st-journal-archive"><summary>All article titles</summary><ul>{posts.map(p=><li key={p.id}><Link to={`/blog/${p.slug || p.id}`}>{p.title}</Link></li>)}</ul></details><span className="eyebrow">Start here</span><h2>New to tarot?</h2><p>You do not need to know every card. Start with one question and one small reflection.</p><Link className="btn" to="/free-tarot">Try a free card →</Link><hr /><span className="eyebrow">Explore</span><ul><li><Link to="/tarot-card-meanings">All 78 card meanings ↗</Link></li><li><Link to="/shop">Choosing a reading ↗</Link></li><li><Link to="/faq">Questions to ask ↗</Link></li></ul></aside></div>
   </div></Layout>;
 };
 const CopyLink: React.FC = () => {

@@ -1,0 +1,20 @@
+{
+  "scope": "User-approved buyer report implementation pass1",
+  "authority_message": "wamid.HBgMOTE5NzIzMjk4NjA2FQIAEhggQUNFMzg5M0M5MzMzNUYwMUY5QkJDODk5RDg5OEYzRUUA",
+  "changes": [
+    "Removed remaining visible Etsy instruction from Love Tarot; build-wide rendered text scan finds zero Etsy references",
+    "About redesigned with original studio card, linked starting points and readable sections",
+    "Reading pages use separated content sections; price and inquiry CTA precede image on mobile; email CTA no longer resembles paid checkout",
+    "Shop ordering explainer added, listing content/prices unchanged",
+    "Love Tarot, Birth Chart, Angel Numbers, Numerology and Compatibility get visual guide overview",
+    "Journal displays12image rows at a time with show-more and full HTML archive links for crawl access",
+    "Home title more compact; Contact/FAQ/policy typography cleaned",
+    "Refund canonical corrected without changing refund terms"
+  ],
+  "not_changed": [
+    "No reviews, named identity, sample customer reading or payment gateway fabricated",
+    "Forms not submitted",
+    "Refund business terms unchanged",
+    "Blog artwork count20of140 remains,120outstanding"
+  ]
+}

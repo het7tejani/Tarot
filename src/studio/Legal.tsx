@@ -7,10 +7,10 @@ const EMAIL = 'contact.thepsychicstudio@gmail.com';
 
 const LegalPage: React.FC<{ eyebrow: string; title: string; description: string; children: React.ReactNode }> = ({ eyebrow, title, description, children }) => (
   <Layout seo={false}>
-    <SEOHead title={`${title} | The Psychic Studio`} description={description} canonicalUrl={`https://thepsychicstudio.com/${eyebrow === 'PRIVACY' ? 'privacy-policy' : eyebrow === 'TERMS' ? 'terms' : 'cookie-policy'}`} />
+    <SEOHead title={`${title} | The Psychic Studio`} description={description} canonicalUrl={`https://thepsychicstudio.com/${eyebrow === 'PRIVACY' ? 'privacy-policy' : eyebrow === 'TERMS' ? 'terms' : eyebrow === 'REFUNDS' ? 'refund-policy' : 'cookie-policy'}`} />
     <div className="st-page"><div className="wrap" style={{ maxWidth: 780 }}>
       <span className="eyebrow">{eyebrow}</span><h1>{title}</h1>
-      <div className="st-prose">{children}</div>
+      <div className="st-prose st-policy-copy">{children}</div>
       <p style={{ marginTop: 26, fontSize: 13, opacity: .7 }}>Last updated: 31 October 2026. Questions? Write to <a href={`mailto:${EMAIL}`}>{EMAIL}</a>.</p>
     </div></div>
   </Layout>

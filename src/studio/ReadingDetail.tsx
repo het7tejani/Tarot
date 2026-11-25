@@ -22,31 +22,33 @@ export const ReadingDetail: React.FC = () => {
  <ul className="st-reading-meta"><li>Written reading, made personally for you</li><li>Delivered by email once your inquiry is confirmed</li></ul>
  <a className="btn" href="#ask-about-reading" onClick={() => trackStudioEvent('inquiry_cta_click', { cta_type: 'ask_form', link_url: '#ask-about-reading', page_path: window.location.pathname, reading_slug: r.slug, reading_title: r.title })}>Ask about this reading</a></div>
  </div>
+ <p className="st-inquiry-explainer">This is an inquiry, not a checkout. Confirm the scope, format and timing with the studio before you decide.</p>
  <div className="st-reading-layout">
- <div className="st-reading-main st-prose">
- <h2>What this reading looks at</h2>
+ <div className="st-reading-main st-prose st-reading-sections">
+ <section><h2>What this reading looks at</h2>
  <p>{r.description} It centers on {r.focus}: a reflective conversation starter built around your own question, not a prediction of events or of what another person feels.</p>
- <h2>Questions worth bringing</h2>
+ </section><section><h2>Questions worth bringing</h2>
  <p>You do not need a perfect question. Start with what is on your mind about {r.focus}:</p>
  <ul>{r.questions.map(q=><li key={q}>{q}</li>)}</ul>
  <p>Open questions give you more room to reflect. Instead of asking for a guaranteed outcome, ask what you can notice, what matters to you or what you could approach differently.</p>
- <h2>Who this reading may suit</h2>
+ </section><section><h2>Who this reading may suit</h2>
  <p>This may suit you if you want space to think about {r.focus}, put a feeling into words or consider a question from a different angle. It is for reflection, rather than certainty about future events or another person's thoughts.</p>
- <h2>How to prepare</h2>
+ </section><section><h2>How to prepare</h2>
  <ul><li>Choose one main question and note why it matters to you now.</li><li>Separate what you know from what you are assuming. A few lines of context are enough to start an inquiry.</li><li>Share only what you are comfortable sharing. Do not send passwords, payment-card details or private records about other people.</li></ul>
  <p style={{fontSize:14}}>For a decision with medical, legal or financial consequences, use advice from a qualified professional. A personal reading is not a substitute for that support.</p>
- </div>
+ </section></div>
  <aside className="st-reading-side">
  <div className="st-order-card">
  <p className="st-order-price"><strong>${r.price} USD</strong></p>
  <h2>How ordering works</h2>
  <ol><li>Send the inquiry form below (or email the studio) with your question.</li><li>The studio replies personally by email with the next step.</li><li>You receive your written reading by email once everything is confirmed.</li></ol>
  <p className="st-order-note">Ordering is handled personally by email, so you can confirm scope, format and timing before you decide.</p>
- <a className="btn" href={inquiry} onClick={() => trackStudioEvent('inquiry_cta_click', { cta_type: 'mailto', link_url: inquiry, page_path: window.location.pathname, reading_slug: r.slug, reading_title: r.title })}>Talk to the studio · ${r.price} USD</a>
+ <a className="btn" href={inquiry} onClick={() => trackStudioEvent('inquiry_cta_click', { cta_type: 'mailto', link_url: inquiry, page_path: window.location.pathname, reading_slug: r.slug, reading_title: r.title })}>Ask a question by email</a>
  </div>
  </aside>
  </div>
  {r.slug === 'soulmate-and-future-relationship' && <SoulmateReadingGuide />}
  <section className="st-sec alt" id="ask-about-reading"><span className="eyebrow">Questions first</span><h2>Ask about this reading</h2><p className="sub">Share your name, date of birth and your questions. The studio will email you back personally with the next step.</p><AskAboutReading title={r.title} slug={r.slug}/></section><section className="st-sec"><h2>Other reading topics</h2><div className="st-related-row">{related.map(x=><Link key={x.slug} className="st-related-card" to={`/readings/${x.slug}`}><img src={x.img} alt={x.title} loading="lazy"/><span>{x.title}</span></Link>)}</div><p><Link to="/free-tarot">Try the free tarot draw</Link> or read about <Link to="/tarot-card-meanings">all 78 card meanings</Link>.</p></section>
+
  </div></div></Layout>;
 };

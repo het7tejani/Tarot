@@ -954,7 +954,7 @@ export const RESEARCH_SECTIONS: Record<string, [string,string][]> = {
     ],
     [
       "Free love reflection or a personal reading",
-      "Use the free tarot draw for a self-guided reflection, then read the meanings of the cards you draw. For a personal reading, browse the Etsy listings and review the question limits, format, price and delivery terms there before ordering."
+      "Use the free tarot draw for a self-guided reflection, then read the meanings of the cards you draw. For a personal reading, explore the reading topics in our shop, then send the studio your question. Confirm the scope, price and delivery timing by email before you decide."
     ]
   ],
   "/birth-chart": [

@@ -244,11 +244,12 @@ export const SeoPage: React.FC = () => {
   const details = card ? PRIORITY_CARD_DETAILS[card.slug] : undefined;
   const lore = card && !details ? CARD_LORE[card.slug] : undefined;
   const researchSections = RESEARCH_SECTIONS[page.path];
+  const isPlainGuide = ['/love-tarot-reading','/birth-chart','/angel-numbers','/numerology','/zodiac-compatibility'].includes(page.path);
   const companionPosts = card ? journalLinks.filter(p => (p.slug?.startsWith(card.slug + '-') || (card.slug === 'the-lovers' && p.slug === 'aquarius-leo-compatibility'))).slice(0, 3) : [];
   const major = card?.arcana === 'Major Arcana' ? FREE_TAROT_CARDS.find((c) => norm(c.name) === norm(card.name)) : undefined;
 
   return (
-    <div className={`pt-32 pb-24 bg-[#FAF8F5] min-h-screen text-[#1f2322] ${isHoroscope ? "st-astro-page" : "st-editorial"}`}>
+    <div className={`pt-32 pb-24 bg-[#FAF8F5] min-h-screen text-[#1f2322] ${isHoroscope ? "st-astro-page" : "st-editorial"} ${isPlainGuide ? 'st-visual-guide' : ''}`}>
       <SEOHead title={SEARCH_SNIPPETS[page.path]?.title ? SEARCH_SNIPPETS[page.path].title! : page.title.includes("| The Psychic Studio") ? page.title : `${page.title} | The Psychic Studio`} description={SEARCH_SNIPPETS[page.path]?.meta || page.meta} schema={reflection && card ? {'@context':'https://schema.org','@type':'FAQPage',mainEntity:[{'@type':'Question',name:`What does ${card.name} mean in a reading?`,acceptedAnswer:{'@type':'Answer',text:`${reflection.theme}. Read that theme with your question, the card's position and the surrounding cards. There is no single interpretation that fits every situation.`}},{'@type':'Question',name:`Is ${card.name} reversed a bad sign?`,acceptedAnswer:{'@type':'Answer',text:`No. Its reversed reflection is ${reflection.challenge.toLowerCase()}. Use that as a question about your situation, not a judgment or a guaranteed prediction.`}},{'@type':'Question',name:`Can ${card.name} tell me how someone feels?`,acceptedAnswer:{'@type':'Answer',text:"It can help you reflect on relationship themes, but it cannot verify another person's thoughts or intentions. Ask directly and pay attention to their words and actions."}}]} : undefined} canonicalUrl={page.path} />
       <div className={`mx-auto px-4 sm:px-6 lg:px-8 ${isHoroscope ? "st-astro-wrap" : page.kind === 'hub-tarot' ? "max-w-6xl" : "max-w-4xl"}`}>
         <div className={isHoroscope ? "st-astro-hero" : "st-editorial-heading"}>
@@ -274,6 +275,7 @@ export const SeoPage: React.FC = () => {
             <span className="st-quick-cta-note">No sign-up, takes under a minute.</span>
           </div>
         )}
+        {isPlainGuide && <div className="st-guide-overview"><div><span className="eyebrow">A practical starting point</span><h2>Use this guide your way</h2><p>Start with the part that fits your question. Keep what helps you reflect, without treating symbolism as proof or a prediction.</p><Link className="btn ghost" to="/free-tarot">Try a free reflection</Link></div><TarotArtwork src={page.path==='/love-tarot-reading'?'/tarot/the_lovers.jpg':page.path==='/birth-chart'?'/tarot/the_moon.jpg':'/tarot/the_star.jpg'} alt="Original studio tarot illustration" loading="eager" sizes="180px"/></div>}
         {page.path === '/numerology' && <NumerologyCalculator />}
         {page.path === '/zodiac' && <ZodiacSignFinder />}
         {(page.path === '/horoscope' || page.kind === 'horoscope') && <DailyCardSignup sign={page.kind === 'horoscope' && sign ? sign.n.charAt(0).toUpperCase() + sign.n.slice(1) : undefined} />}
@@ -430,7 +432,7 @@ export const SeoPage: React.FC = () => {
 
         {page.kind === 'hub-tarot' && <><TarotCardLibrary /><TarotStudyGuide /></>}
 
-        {researchSections && <section aria-label="Reading guide">{researchSections.map(([heading, text]) => <React.Fragment key={heading}><H2>{heading}</H2><P>{text}</P></React.Fragment>)}</section>}
+        {researchSections && <section className={isPlainGuide ? "st-guide-sections" : undefined} aria-label="Reading guide">{researchSections.map(([heading, text]) => <section key={heading}><H2>{heading}</H2><P>{text}</P></section>)}</section>}
 
         {SEO_PASS_SECTIONS[page.path] && <section aria-label="Practical questions and examples">{SEO_PASS_SECTIONS[page.path].map(([heading, text]) => <React.Fragment key={heading}><H2>{heading}</H2><P>{text}</P></React.Fragment>)}</section>}
         {SEO_CONTEXT_LINKS[page.path] && <section aria-label="Related learning"><H2>Related guides</H2><ul className="space-y-3 mb-6">{SEO_CONTEXT_LINKS[page.path].map(([url, label]) => <li key={url}><Link to={url} className="text-[#507d71] underline underline-offset-4" style={{color:'#3f6b5f',textDecoration:'underline',textUnderlineOffset:'4px',fontWeight:600}}>{label}</Link></li>)}</ul></section>}

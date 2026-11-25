@@ -4,7 +4,7 @@ category: "Tarot Guides"
 date: "2026-10-13"
 excerpt: "Explore Queen of Wands reversed through confidence, relationships and creative work. Use grounded tarot prompts without labeling people or predicting events."
 metaTitle: "Queen of Wands Reversed Guide | The Psychic Studio"
-coverImage: "/tarot/strength.jpg"
+coverImage: "/blog-images/cover-queen-of-wands-reversed-reflection-creative-v2.webp"
 published: "true"
 ---
 
@@ -28,7 +28,7 @@ The card can prompt you to separate confidence from having every answer. You can
 
 Write one thing you already do well and one thing that needs practice. Choose a small way to practice it. A concrete action makes the reflection more useful than deciding that your energy is somehow wrong.
 
-![A tarot reader arranging cards on a table for a reflective session](/uploads/7182582.webp)
+![Practicing pottery illustrates confidence built through one specific skill](/blog-images/queen-of-wands-reversed-reflection-creative-1.webp)
 
 ## Queen of Wands reversed in love
 
@@ -46,7 +46,7 @@ Define a version small enough to finish. A page, a sketch or a short practice se
 
 The [Three of Pentacles](/tarot-card-meanings/three-of-pentacles) offers a related theme of skill and collaboration. These are thematic connections, not rules promising a successful project.
 
-![A tarot spread arranged with candles and reflective objects](/uploads/29721590.webp)
+![Focused feedback on a small sketch illustrates finishing a manageable creative project](/blog-images/queen-of-wands-reversed-reflection-creative-2.webp)
 
 ## A simple reflection after the draw
 

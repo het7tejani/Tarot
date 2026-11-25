@@ -6,7 +6,7 @@ const SiteSearch = lazy(() => import('./SiteSearch').then((m) => ({ default: m.S
 
 const SearchGlyph: React.FC = () => <svg aria-hidden="true" width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round"><circle cx="11" cy="11" r="7" /><line x1="16.5" y1="16.5" x2="21" y2="21" /></svg>;
 
-const NAV: [string, string][] = [['/', 'Home'], ['/shop', 'Shop'], ['/free-tarot', 'Free Tarot'], ['/horoscope', 'Horoscope'], ['/blog', 'Blog'], ['/contact', 'Contact']];
+const NAV: [string, string][] = [['/', 'Home'], ['/shop', 'Shop'], ['/free-tarot', 'Free Tarot'], ['/horoscope', 'Horoscope'], ['/contact', 'Contact']];
 const REVEAL_SEL = 'main section:not(:first-child) h2, main section:not(:first-child) .st-card, main .st-prod, main article:not(.st-journal-copy), main .st-sec > .wrap > p, main .faq > div, main .st-grid > *, main .grid > article';
 const useReveal = (pathname: string) => {
   useEffect(() => {

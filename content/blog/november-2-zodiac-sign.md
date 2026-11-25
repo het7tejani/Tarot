@@ -3,7 +3,7 @@ title: "November 2 Zodiac Sign: Scorpio, the Second Decan and Tarot Card"
 category: "Astrology"
 date: "2026-11-01"
 excerpt: "A November 2 birthday is Scorpio. See why this date opens the second decan, how astrologers read that shift and which tarot cards fit."
-coverImage: "/blog-images/cover-november-2-zodiac-sign.webp"
+coverImage: "/blog-images/cover-november-2-zodiac-sign-creative-v2.webp"
 metaTitle: "November 2 Zodiac Sign: Scorpio Traits and Decan | The Psychic Studio"
 published: "true"
 ---
@@ -12,7 +12,7 @@ If your birthday is November 2, your zodiac sign is Scorpio. The sign runs from 
 
 What makes November 2 worth its own page is the decan. This is the day many astrologers mark as the start of the second Scorpio decan, and that changes the flavor of the reading.
 
-![Orange moon above a dark lakeside](/blog-images/16842444.webp)
+![Revisiting a familiar garden illustrates memory and the Six of Cups association](/blog-images/november-2-zodiac-sign-creative-1.webp)
 
 ## Why November 2 is Scorpio
 
@@ -28,7 +28,7 @@ Two systems are in common use. In the modern system each decan borrows from a si
 
 A person born on November 2 is often read as Scorpio with a softer edge. The Pisces influence adds imagination and a tendency to absorb other people's moods. The Sun influence in the older system adds visibility and pride. Both readings describe the same person from different angles.
 
-![Milky Way over a mountain lake at night](/blog-images/20708329.webp)
+![Welcoming a trusted friend illustrates moving from privacy toward sharing](/blog-images/november-2-zodiac-sign-creative-2.webp)
 
 ## What a November 2 Scorpio tends to look like
 
@@ -47,8 +47,6 @@ To pull a card for your own day, [draw a free tarot card](/free-tarot). It takes
 ## Using the date well
 
 November 2 falls just after Halloween, when many people turn from celebration to quiet. A simple use of the date is to write down one thing you have kept private for too long and decide whether to share it with one trusted person.
-
-![Lit candle in a glass jar on a green cloth](/blog-images/35378157.webp)
 
 Scorpio does best with a single clear choice rather than a long list. The [Scorpio horoscope page](/horoscope/scorpio) reads the day through a tarot card and does not predict events.
 

@@ -1,0 +1,5 @@
+import {test} from 'node:test';import assert from 'node:assert/strict';import {ownerSession,ownerCookie,requireOwner} from '../lib/owner.mjs';
+const env={ORDER_OWNER_SESSION_SECRET:'x'.repeat(40)};const req=token=>new Request('https://example.test/api/orders-owner',{headers:{Cookie:ownerCookie(token).split(';')[0]}});
+test('separate scoped owner session works and expires at one hour',()=>{const token=ownerSession(env,'owner',100);assert.equal(requireOwner(req(token),env,101),'owner');assert.throws(()=>requireOwner(req(token),env,3600100),/unauthorized/);assert.match(ownerCookie(token),/Path=\/api\/orders-owner; SameSite=Strict/);});
+test('missing secret and unrelated CMS cookie cannot authorize owner',()=>{assert.throws(()=>ownerSession({},'owner'),/checkout_unavailable/);assert.throws(()=>requireOwner(new Request('https://example.test',{headers:{Cookie:'studio_admin=anything'}}),env),/unauthorized/);});
+test('tampered owner and excess token components fail',()=>{const token=ownerSession(env,'owner');assert.throws(()=>requireOwner(req(token+'.extra'),env),/unauthorized/);assert.throws(()=>requireOwner(req(token.slice(0,-1)+'!'),env),/unauthorized/);});

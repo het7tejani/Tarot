@@ -3,7 +3,7 @@ title: "June 12 Zodiac Sign: Gemini Dates, Traits and Relationships"
 category: "Astrology"
 date: "2026-11-25"
 excerpt: "June 12 is Gemini. Understand the sign, why this is not a Cancer cusp date, and how to use a birthday reading without treating it as a personality test."
-coverImage: "/blog-images/cover-june-12-zodiac-sign.webp"
+coverImage: "/blog-images/cover-june-12-zodiac-sign-creative-v2.webp"
 metaTitle: "June 12 Zodiac Sign: Gemini Dates, Traits and Relationships | The Psychic Studio"
 published: "true"
 ---
@@ -13,8 +13,6 @@ If your birthday is June 12, your zodiac sign is Gemini in Western tropical astr
 The useful distinction is between identifying a Sun sign and describing a person. A date can answer the first question. It cannot establish your temperament, your ideal partner or what will happen next. This guide separates the calendar answer from the traditional meanings people use for reflection.
 
 For the wider season, start with [Gemini zodiac dates](/blog/gemini-zodiac-dates). For the sign beyond a single birthday, read our [Gemini zodiac sign guide](/blog/gemini-zodiac-sign).
-
-![Stars reflected over a quiet river](/blog-images/9304643.webp)
 
 ## Is June 12 Gemini or Cancer?
 
@@ -38,7 +36,7 @@ Many popular astrology calendars place June 12 in the third Gemini decan. A deca
 
 Treat that extra layer as interpretation, not a more precise personality diagnosis. A date-only decan table does not account for the full chart, and it cannot establish that everyone born on June 12 shares one particular talent or weakness. You can understand your Sun sign without using decans at all.
 
-![A field of stars above a canyon](/blog-images/16763957.webp)
+![Original paper sculpture about comparing different perspectives honestly](/blog-images/june-12-zodiac-sign-creative-1.webp)
 
 ## Relationships: turn curiosity into attention
 
@@ -54,7 +52,7 @@ A Gemini reflection can be useful when a task involves learning, writing or tran
 
 If you have several unfinished projects, make the next action small enough to complete before researching another approach. Curiosity becomes more useful when it produces something you can check. A notebook, a clear deadline and feedback from someone doing the work offer better evidence than a birthday description.
 
-![Stars and nebula above a river bend](/blog-images/35578022.webp)
+![Original work scene about turning curiosity into a finished next action](/blog-images/june-12-zodiac-sign-creative-2.webp)
 
 ## Common questions
 

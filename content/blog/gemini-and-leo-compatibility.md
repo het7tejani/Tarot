@@ -3,7 +3,7 @@ title: "Gemini and Leo Compatibility: Conversation, Attention and Trust"
 category: "Astrology"
 date: "2026-11-25"
 excerpt: "Gemini and Leo compatibility through communication, affection and conflict. What air-and-fire symbolism can suggest, without assigning a relationship score."
-coverImage: "/blog-images/cover-gemini-and-leo-compatibility.webp"
+coverImage: "/blog-images/cover-gemini-and-leo-compatibility-creative-v2.webp"
 metaTitle: "Gemini and Leo Compatibility: Conversation, Attention and Trust | The Psychic Studio"
 published: "true"
 ---
@@ -13,8 +13,6 @@ Gemini and Leo compatibility is often described as a lively air-and-fire combina
 That is an astrological interpretation, not a forecast. A Gemini-Leo couple can be close or distant, respectful or unhappy. Their Sun signs cannot tell us which. The useful question is how the traditional differences translate into conversations two real people can have.
 
 For the signs separately, see [Gemini's zodiac guide](/blog/gemini-zodiac-sign) and [Leo's traits and dates](/blog/leo-zodiac-sign-traits). This guide focuses on the relationship rather than repeating both profiles.
-
-![Hands holding a tarot deck beside candles](/blog-images/7179807.webp)
 
 ## Why astrology pairs air with fire
 
@@ -40,7 +38,7 @@ Instead of assuming you match because astrology calls the pairing sociable, deci
 
 Those answers are more informative than a compatibility percentage. They can also change with work, health and family circumstances. Ask again when the arrangement stops working rather than assuming the old answer remains true.
 
-![Tarot cards being read at a table](/blog-images/6014324.webp)
+![Original collage about listening and shared attention](/blog-images/gemini-and-leo-compatibility-creative-1.webp)
 
 ## Conflict: changed plans and wounded pride
 
@@ -58,7 +56,7 @@ A Gemini-Leo reading can be a prompt to balance novelty with reliability. Keep s
 
 For a different air-and-fire comparison, read [Aquarius and Leo compatibility](/blog/aquarius-leo-compatibility). Looking at another pairing can reveal which themes are broad sign symbolism rather than something unique to your relationship.
 
-![Cards and candlelight during a reading](/blog-images/4790542.webp)
+![Original bridge-repair scene about trust through ordinary follow-through](/blog-images/gemini-and-leo-compatibility-creative-2.webp)
 
 ## Common questions
 

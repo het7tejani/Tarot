@@ -3,7 +3,7 @@ title: "Tarot Card Meanings: A Complete Guide to All 78 Cards"
 category: "Tarot"
 date: "2026-11-23"
 excerpt: "All 78 tarot card meanings in one guide: the Major Arcana journey, the four suits, upright and reversed readings, and how to learn the deck without memorizing."
-coverImage: "/blog-images/cover-tarot-card-meanings-complete-guide.webp"
+coverImage: "/blog-images/cover-tarot-card-meanings-complete-guide-creative-v2.webp"
 metaTitle: "Tarot Card Meanings: All 78 Cards Explained | The Psychic Studio"
 published: "true"
 ---
@@ -11,8 +11,6 @@ published: "true"
 A standard tarot deck holds 78 cards, and every tarot card meaning grows from one of two roots. The 22 Major Arcana tell the big story: turning points, lessons and forces larger than one afternoon. The 56 Minor Arcana handle daily life: work, money, feelings, conflict and rest, sorted into four suits.
 
 Learning the deck is less about memorizing 78 definitions and more about learning the grammar underneath them. Once the structure clicks, an unfamiliar card stops being a blank. This guide maps the structure and links out to the deeper card-by-card readings.
-
-![A wall covered in tarot card prints, the full 78 card landscape](/blog-images/32831016.webp)
 
 ## The Major Arcana: the 22 card journey
 
@@ -34,7 +32,7 @@ Swords are air: thought, truth and conflict. The [Knight of Swords](/blog/knight
 
 Pentacles are earth: money, body, craft and the material world. The suit rewards patience, from the skill-building [Three of Pentacles](/blog/three-of-pentacles-tarot-card-meaning) through the self-sufficient [Nine of Pentacles](/blog/nine-of-pentacles-tarot-card-meaning) and the stewardship of the [Queen of Pentacles](/blog/queen-of-pentacles-tarot-card-meaning).
 
-![Hands laying out a tarot spread on a tiled floor, the practical side of the 78 cards](/blog-images/11760478.webp)
+![Original four-suit landscape: Wands act, Cups feel, Swords think and Pentacles build](/blog-images/tarot-card-meanings-complete-guide-creative-1.webp)
 
 ## Upright and reversed meanings
 
@@ -52,7 +50,7 @@ Second, pull one card a day and write two lines about where you saw it by evenin
 
 Third, read the Majors as a story in order once. The journey structure does the memorizing for you, because each card's meaning is its place in the arc.
 
-![Hands holding a tarot deck over a reading cloth, learning the deck one card at a time](/blog-images/36116183.webp)
+![Original learning scene: reflect on one card in a daily journal](/blog-images/tarot-card-meanings-complete-guide-creative-2.webp)
 
 ## Common questions about tarot card meanings
 

@@ -40,7 +40,7 @@
     var banner = document.createElement('section');
     banner.id = 'studio-cookie-banner';
     banner.setAttribute('aria-label', 'Cookie choice');
-    banner.innerHTML = '<div><strong>Use of cookies</strong><p>With your permission, we use cookies to understand how you use this site and improve your experience.</p><details><summary>Privacy details</summary><p>Optional analytics cookies record site usage. Reject them or change your choice in cookie settings anytime.</p><a href="/cookie-policy">Cookie policy</a></details></div><div class="studio-cookie-actions"><button type="button" data-choice="rejected">Reject</button><button type="button" data-choice="accepted">Accept</button></div>';
+    banner.innerHTML = '<div><strong>Use of cookies</strong><p>With your permission, we use cookies to understand.</p><details><summary>Privacy details</summary><p>Optional analytics cookies record site usage. Reject them or change your choice in cookie settings anytime.</p><a href="/cookie-policy">Cookie policy</a></details></div><div class="studio-cookie-actions"><button type="button" data-choice="rejected">Reject</button><button type="button" data-choice="accepted">Accept</button></div>';
     banner.hidden = choice === 'accepted' || choice === 'rejected';
     document.body.classList.toggle('studio-cookie-open', !banner.hidden);
     banner.querySelectorAll('[data-choice]').forEach(function (b) { b.addEventListener('click', function () { decide(b.dataset.choice); }); });

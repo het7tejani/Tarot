@@ -4,7 +4,7 @@ category: "Tarot Guides"
 date: "2026-10-16"
 excerpt: "Explore The Lovers reversed through values, communication and choices. Use practical reflection prompts without treating tarot as a relationship verdict."
 metaTitle: "The Lovers Reversed: Choices Guide | The Psychic Studio"
-coverImage: "/tarot/the_lovers.jpg"
+coverImage: "/blog-images/cover-the-lovers-reversed-clearer-choices-creative-v2.webp"
 published: "true"
 ---
 
@@ -28,7 +28,7 @@ Imagine two people planning a weekend. One wants time together; the other needs 
 
 Before deciding that your values clash, separate a preference from a boundary. A preference might allow several workable options. A boundary names what you will or will not take part in. Discuss the actual request instead of asking the other person to prove their feelings.
 
-![Hands choosing from a fan of tarot cards on a dark table](/uploads/daily-20261016-6944688.webp)
+![Discussing a weekend plan illustrates making room for connection and rest](/blog-images/the-lovers-reversed-clearer-choices-creative-1.webp)
 
 ## The Lovers reversed in love
 
@@ -46,7 +46,7 @@ Write down what each option asks of you. Include time, money, obligations and th
 
 The [Hierophant reversed reflection guide](/blog/the-hierophant-reversed-your-values) offers another way to consider inherited expectations and personal values. Neither card chooses for you. Practical decisions still need reliable information and, where appropriate, qualified advice.
 
-![A hand resting near tarot cards and candles on a table](/uploads/daily-20261016-4790550.webp)
+![Comparing work and home models illustrates considering the time and people affected by a choice](/blog-images/the-lovers-reversed-clearer-choices-creative-2.webp)
 
 ## When the same disagreement keeps returning
 
@@ -79,6 +79,5 @@ Yes. The Lovers reversed is also interpreted through personal values and decisio
 No. It can be used to notice a mismatch while there is still room to discuss it. The useful part is the question you ask and the real-world information you gather.
 
 Tarot is for entertainment and personal reflection, not medical, legal or financial advice.
-
 
 If you are asking about a partner, our [soulmate reading guide](/blog/soulmate-tarot-reading-how-it-works) walks through a three card spread.

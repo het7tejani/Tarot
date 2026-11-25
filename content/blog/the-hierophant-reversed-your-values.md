@@ -4,7 +4,7 @@ category: "Tarot Guides"
 date: "2026-10-15"
 excerpt: "Explore The Hierophant reversed through tradition, personal values and independent thought. Use grounded questions before changing a rule, routine or shared plan."
 metaTitle: "Hierophant Reversed: Values Guide | The Psychic Studio"
-coverImage: "/tarot/the_hierophant.jpg"
+coverImage: "/blog-images/cover-the-hierophant-reversed-your-values-creative-v2.webp"
 published: "true"
 ---
 
@@ -28,7 +28,7 @@ Name what you want to keep: time together, a gesture of respect or a shared memo
 
 The Hierophant reversed can be useful here because it opens a question about belonging on your own terms. It cannot decide what your family should accept or guarantee that a difficult conversation will go smoothly.
 
-![A woman reading tarot cards at a table](/uploads/6014322.webp)
+![Adapting a family table while keeping treasured objects illustrates preserving connection while changing a custom](/blog-images/the-hierophant-reversed-your-values-creative-1.webp)
 
 ## The Hierophant reversed in love
 
@@ -46,7 +46,7 @@ If you have an alternative, explain the problem it solves and ask the responsibl
 
 For learning, try asking whether a familiar method still helps you. You may learn better through practice, a different teacher or a smaller goal. A card can start that reflection, but it cannot assess a course's quality or credentials.
 
-![A Star tarot card displayed among flowers and other cards](/uploads/14180740.webp)
+![A practical weaving lesson illustrates considering a different way to learn](/blog-images/the-hierophant-reversed-your-values-creative-2.webp)
 
 ## A values check you can use
 

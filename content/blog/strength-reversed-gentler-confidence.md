@@ -4,7 +4,7 @@ category: "Tarot Guides"
 date: "2026-10-16"
 excerpt: "Explore Strength reversed through self-doubt, patience and personal limits. Use grounded reflection prompts without treating a tarot card as a health diagnosis."
 metaTitle: "Strength Tarot Card Reversed: Keywords and Gentle Advice"
-coverImage: "/tarot/strength.jpg"
+coverImage: "/blog-images/cover-strength-reversed-gentler-confidence-creative-v2.webp"
 published: "true"
 ---
 
@@ -32,7 +32,7 @@ That description gives you something to practice. You might rehearse the first m
 
 Strength reversed can be a reminder to look at the task rather than keep testing your worth. What was expected? What did you prepare? Which part needs practice, clearer instructions or help from someone else?
 
-![A reader seated behind a table with tarot cards](/uploads/daily-20261016-7182582.webp)
+![Rehearsing a presentation illustrates practicing one specific part after a setback](/blog-images/strength-reversed-gentler-confidence-creative-1.webp)
 
 ## Strength reversed in relationships
 
@@ -50,7 +50,7 @@ Choose one question you can ask without turning it into an apology for existing:
 
 The [Magician reversed guide](/blog/the-magician-reversed-focus) explores the gap between available skills and a clear use for them. You do not need perfect confidence before taking a small, well-defined step, but neither should a card pressure you into a commitment you cannot support.
 
-![Tarot cards laid on a table beside lit candles](/uploads/daily-20261016-4790559.webp)
+![A colleague demonstrates one technique, showing that asking for instruction is not inability](/blog-images/strength-reversed-gentler-confidence-creative-2.webp)
 
 ## Confidence rebuilt in small units
 

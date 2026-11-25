@@ -1,6 +1,7 @@
 import React, {lazy, Suspense} from 'react';
 import {SEO_ROUTE_PATHS} from './data/seoRoutePaths';
 import {Routes, Route, Navigate} from 'react-router-dom';
+const OrdersTest=lazy(()=>import('./checkout/OrdersTest'));
 const OrdersPreview=lazy(()=>import('./checkout/OrdersPreview'));
 const CheckoutPreview=lazy(()=>import('./checkout/CheckoutPreview'));
 const Admin=lazy(()=>import('./admin/Admin'));
@@ -20,6 +21,7 @@ const Layout=lazy(()=>import('./studio/Layout').then(m=>({default:m.Layout})));
 export default function App(){return <Suspense fallback={null}><Routes>
 <Route path="/" element={<Home/>}/><Route path="/shop" element={<Shop/>}/><Route path="/readings" element={<Navigate to="/shop" replace/>}/>
 <Route path="/readings/:slug" element={<ReadingDetail/>}/><Route path="/about" element={<About/>}/><Route path="/faq" element={<Faq/>}/><Route path="/contact" element={<Contact/>}/>
+<Route path="/orders-test" element={<OrdersTest/>}/>
 <Route path="/orders-preview" element={<OrdersPreview/>}/>
 <Route path="/checkout-preview/:slug?" element={<CheckoutPreview/>}/>
 <Route path="/admin" element={<Admin/>}/><Route path="/blog" element={<Blog/>}/><Route path="/blog/:slug" element={<BlogPost/>}/>

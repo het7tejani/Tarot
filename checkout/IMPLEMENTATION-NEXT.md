@@ -11,3 +11,9 @@ Latest work adds isolated owner session/orders APIs and PDF draft upload, not co
 Next: file-store tests and migration, owner publish/review/private guest download; email sender selection and scoped approval for service activation/messages; full authenticated preview deployment with deny-by-default endpoints and D1 test-only binding; Test webhook provisioning/verification/retry. Existing UI preview must remain static design-only while functional setup is developed.
 
 User18:21 explicitly requested whole setup ready despite international pending. Preserve no real charge, no paid resource/terms, no production checkout launch without separate approval. User18:12 closed OfficePC; verified disconnected, no reconnect authority. Test keys securely saved with sandbox permission. Temporary copies always deleted, no secret values printed.
+
+## Superseding checkpoint18:35 IST
+
+Feature89247bb plus pending PDF hash/UI style changes:39 tests. New /orders-test owner login, queue, private draft upload, exact PDF review download, reviewed publication, logout. Not remotely deployed. Publish preconditions and audit now within atomic D1 batch. Private reads verify SHA256. Need transaction-safe order-status and upload audit handling too. Need add at-most-one-published-file index migration, retention/quota tests and session revocation design before launch. No email activation or sends.
+
+Next: finish visual local UI inspection, provision isolated functional environment only after required current environment/secrets/bindings checks. Do not overwrite current design preview. No R2/paid resources, no live checkout, no OfficePC reconnect. Actual authenticated Cloudflare D1 BLOB roundtrip still required. Owner login credential not created. Transactional email sender decision/approval remains.

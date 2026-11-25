@@ -10,3 +10,11 @@
 - Cookie-copy branch fix/cookie-notice-nov25 at95eb7d3: heading Use of cookies, exact user-shortened body. Preview inspected and sent parent, not live approved yet. Detailed policies and consent logic preserved.
 
 Local harness /tmp/psychic-hosted-test.cjs requires fresh secure vault copies before run and deletes them. No secrets stored in source/harness output. The harness is disposable, not production checkout code. /tmp/psychic-razorpay-test-order.json stores nonsensitive Test order metadata.
+
+## Nov25 18:35 IST checkpoint
+
+39 local tests pass. TypeScript passes. Isolated USD5 Test order created, but international card payment failed for account domestic-only restriction. Separate INR1 mock-netbanking payment captured, callback signature and authenticated payment API verified. No real charge, no storefront currency change. International approval deferred by owner while IEC is in process.
+
+Owner API chain tested with SQLite-backed route handlers: unauthorized access denied, PDF upload stays draft, incorrect recipient confirmation rejected, reviewed publication atomic with audit, duplicate publication rejected, guest access cookie required, exact PDF hash checked, refund disables download. Owner test UI now wired to those routes, not remotely deployed. D1 chunk corruption/truncation fails closed. PDF structure checks do not claim malware scanning.
+
+Remote D1 has migration0001 only. Migration0002 and Cloudflare-native BLOB test remain. No full remote fulfilment/email proof yet. Existing hosted UI preview remains design-only and production checkout unchanged.

@@ -8,6 +8,7 @@ export async function onRequestPost({request,env}){try{
  env.ORDER_DB.prepare("INSERT INTO admin_audit(id,actor_id,order_id,action,created_at) SELECT ?,?,f.order_id,?,? FROM order_files f JOIN orders o ON o.id=f.order_id WHERE f.id=? AND f.state='draft' AND o.payment_status='paid' AND o.fulfilment_status IN('new','in_progress','ready') AND o.customer_email=?").bind(operation,actor,'pdf_publish:'+input.fileId,now,input.fileId,input.confirmEmail),
  env.ORDER_DB.prepare("UPDATE order_files SET state='retired' WHERE state='published' AND order_id=(SELECT order_id FROM admin_audit WHERE id=?)").bind(operation),
  env.ORDER_DB.prepare("UPDATE order_files SET state='published',published_at=? WHERE id=? AND EXISTS(SELECT 1 FROM admin_audit WHERE id=?)").bind(now,input.fileId,operation),
+ env.ORDER_DB.prepare("UPDATE order_files SET state='retired' WHERE state='draft' AND id<>? AND order_id=(SELECT order_id FROM admin_audit WHERE id=?)").bind(input.fileId,operation),
  env.ORDER_DB.prepare("UPDATE orders SET fulfilment_status='ready',updated_at=? WHERE id=(SELECT order_id FROM admin_audit WHERE id=?)").bind(now,operation)
  ]);
  if((result[0].meta?.changes??result[0].changes)!==1)throw new CheckoutError('invalid_state');

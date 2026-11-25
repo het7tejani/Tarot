@@ -18,3 +18,9 @@ Local harness /tmp/psychic-hosted-test.cjs requires fresh secure vault copies be
 Owner API chain tested with SQLite-backed route handlers: unauthorized access denied, PDF upload stays draft, incorrect recipient confirmation rejected, reviewed publication atomic with audit, duplicate publication rejected, guest access cookie required, exact PDF hash checked, refund disables download. Owner test UI now wired to those routes, not remotely deployed. D1 chunk corruption/truncation fails closed. PDF structure checks do not claim malware scanning.
 
 Remote D1 has migration0001 only. Migration0002 and Cloudflare-native BLOB test remain. No full remote fulfilment/email proof yet. Existing hosted UI preview remains design-only and production checkout unchanged.
+
+## Nov25 18:59 IST
+
+Separate functional project deployed, no production changes. https://psychic-checkout-test.pages.dev/checkout-test/one-question-tarot verified hosted. USD5 Test create returns200; D1 guest status200 pending, no-token404; Razorpay Test modal inspected. No payment submitted. Two sample pending fixtures created:24e7a391-9b8e-4d45-a983-b3de9a162b07/order_U4QNULgLZ07bNw and b6035b36-c73e-4fe4-bab6-214be1c45c7f/order_U4QNsPO8JCaV6G. No customer data or money. Deployment9888fa6c returned, alias used because first immutable deployment TLS failure.
+
+Local48tests now include verified refund/dispute state holds and provider-neutral notification leases/backoff. Email adapter/sends remain disabled; future adapter must use provider idempotency to handle uncertain send outcomes. Compiled Workers runtime smoke previously verified login and300014byte private PDF roundtrip/publication/guest download with exact bytes. Remote owner/PDF proof awaits secure credential provisioning permission. Migration0003 remote applied, all3statements success. No real customer delivery claim.

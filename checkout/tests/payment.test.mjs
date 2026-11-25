@@ -1,0 +1,16 @@
+import {test} from 'node:test';
+import assert from 'node:assert/strict';
+import {digest,verifySignature,verifyCheckout,validateCustomer,paymentDecision,enabledTestConfig,opaqueToken} from '../lib/payment.mjs';
+const order={gateway_order_id:'order_demo',amount_minor:1500,currency:'USD',payment_status:'pending'};
+const captured={id:'pay_demo',order_id:'order_demo',amount:1500,currency:'USD',status:'captured',captured:true};
+test('checkout HMAC binds to stored order, not browser order',()=>{const sig=digest('testsecret','order_demo|pay_demo');assert.equal(verifyCheckout('testsecret','order_demo','pay_demo',sig),true);assert.equal(verifyCheckout('testsecret','order_other','pay_demo',sig),false);});
+test('webhook verifies raw bytes; forged or changed body rejected',()=>{const raw='{"event":"payment.captured"}';const sig=digest('webhooksecret',raw);assert.equal(verifySignature('webhooksecret',raw,sig),true);assert.equal(verifySignature('webhooksecret',raw+' ',sig),false);assert.equal(verifySignature('webhooksecret',raw,'bad'),false);});
+test('authorised is never paid',()=>assert.deepEqual(paymentDecision(order,{...captured,status:'authorized',captured:false}),{action:'wait'}));
+test('amount, currency and order mismatches rejected',()=>{for(const override of [{amount:5},{currency:'INR'},{order_id:'order_wrong'}])assert.throws(()=>paymentDecision(order,{...captured,...override}),/payment_mismatch/);});
+test('captured verified payment makes one paid transition',()=>assert.equal(paymentDecision(order,captured).action,'mark_paid'));
+test('duplicate capture cannot cause second fulfilment',()=>assert.equal(paymentDecision({...order,paid_payment_id:'pay_demo'},captured).action,'duplicate'));
+test('extra payment goes to exception queue',()=>assert.equal(paymentDecision({...order,paid_payment_id:'pay_first'},captured).action,'exception'));
+test('late failure cannot demote a paid order',()=>assert.deepEqual(paymentDecision({...order,paid_payment_id:'pay_demo'},{...captured,status:'failed',captured:false}),{action:'wait'}));
+test('required buyer data and consent validated',()=>{assert.throws(()=>validateCustomer({}),/invalid_customer/);assert.equal(validateCustomer({name:' Demo ',email:'DEMO@example.test',question:'My test question',adult:true,acceptTerms:true}).email,'demo@example.test');});
+test('live and incomplete config refused',()=>{assert.throws(()=>enabledTestConfig({CHECKOUT_ENABLED:'live'}));assert.throws(()=>enabledTestConfig({CHECKOUT_ENABLED:'test',RAZORPAY_KEY_ID:'rzp_live_x'}));});
+test('guest access tokens are random and not order IDs',()=>{assert.ok(opaqueToken().length>=43);assert.notEqual(opaqueToken(),opaqueToken());});

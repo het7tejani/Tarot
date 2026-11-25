@@ -1,0 +1,12 @@
+# Test results, 25 November 2026, 18:15 IST
+
+- Test credentials securely provided, Test prefix validated. Read-only orders request HTTP200.
+- Simulated USD5 order created through our test-only gateway adapter. Gateway order order_U4PbUD0sH17xP9, internal receipt150f8aef-2c70-4c62-9994-592382f01e38. No payment yet. Test amount accepted does not establish live international eligibility.
+- Hosted Razorpay standard checkout loads in local isolated harness and explicitly shows Test Mode, USD5, Cards. Contact-details modal currently blocks progressing: dummy phone rejected or field update not preserved. No payment submit/capture yet. Need vendor-documented contact fixture and exact input validation inspection. Do not bypass validation or use real user card/contact.
+- 30 local tests pass, TypeScript previously passed. Tests cover signatures, malformed bodies, mismatched amount/order/currency, duplicate/stale capture, outbox uniqueness, refunded order not resurrected, scoped owner sessions. Not end-to-end certification.
+- Isolated D1 psychic-checkout-test 39d110c3-8561-4e36-b342-01482c6280c8 created on free hard-limited plan, migration applied, all seven app tables read back. No customer records or production binding.
+- No resource billing enabled, R2 not provisioned due paid overage risk, no live deployment or real charge. Temporary credential files removed after every script.
+- OfficePC remote closed at user's explicit18:12 request and verified inactive. Do not reconnect without fresh instruction. User-generated live key exists in Razorpay but not used or stored by this work. Only Test vault entry is used.
+- Cookie-copy branch fix/cookie-notice-nov25 at95eb7d3: heading Use of cookies, exact user-shortened body. Preview inspected and sent parent, not live approved yet. Detailed policies and consent logic preserved.
+
+Local harness /tmp/psychic-hosted-test.cjs requires fresh secure vault copies before run and deletes them. No secrets stored in source/harness output. The harness is disposable, not production checkout code. /tmp/psychic-razorpay-test-order.json stores nonsensitive Test order metadata.

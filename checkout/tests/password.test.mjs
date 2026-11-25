@@ -1,0 +1,2 @@
+import {test} from 'node:test';import assert from 'node:assert/strict';import {hashPassword,checkPassword} from '../lib/password.mjs';
+test('owner password hashes have unique salt and reject wrong password',async()=>{const a=await hashPassword('fixture-test-password-123');const b=await hashPassword('fixture-test-password-123');assert.notEqual(a,b);assert.equal(await checkPassword('fixture-test-password-123',a),true);assert.equal(await checkPassword('wrong-password',a),false);assert.equal(await checkPassword('x','malformed'),false);});

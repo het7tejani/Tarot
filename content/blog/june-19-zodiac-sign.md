@@ -3,7 +3,7 @@ title: "June 19 Zodiac Sign: Gemini Traits, Cusp Questions and Compatibility"
 category: "Astrology"
 date: "2026-11-07"
 excerpt: "If you were born on June 19, your Sun sign is Gemini in most years. Learn the date range, Gemini traits, cusp questions and compatibility notes."
-coverImage: "/blog-images/cover-june-19-zodiac-sign.webp"
+coverImage: "/blog-images/cover-june-19-zodiac-sign-creative-v2.webp"
 metaTitle: "June 19 Zodiac Sign: Gemini Birthday Guide | The Psychic Studio"
 published: "true"
 ---
@@ -12,7 +12,7 @@ If your birthday is June 19, your zodiac sign is Gemini in most years. Gemini se
 
 That small timing question explains why some people born close to June 21 feel unsure. A birthday on June 19 is much clearer. For the full range and edge dates, read our guide to [Gemini zodiac dates](/blog/gemini-zodiac-dates).
 
-![Two women in matching pink outfits creating a twin-like portrait](/blog-images/30725902.webp)
+![Finishing one notebook idea illustrates giving curiosity a clear container](/blog-images/june-19-zodiac-sign-creative-1.webp)
 
 ## June 19 zodiac sign at a glance
 
@@ -30,7 +30,7 @@ The strength is flexibility. Gemini can adapt when plans change and often knows 
 
 A useful practice for this birthday is to finish one thought before starting another. Write the idea down, decide whether it needs action, then choose a next step. Gemini energy works best when curiosity has a container.
 
-![Two women reflected together in a bathroom mirror](/blog-images/19191050.webp)
+![A lively respectful conversation illustrates curiosity in a relationship](/blog-images/june-19-zodiac-sign-creative-2.webp)
 
 ## Is June 19 a Gemini Cancer cusp?
 
@@ -54,8 +54,6 @@ Gemini usually does well with variety: writing, teaching, sales, research, media
 
 Try keeping one visible list of open loops. Choose the task that affects other people first, then give it a short, timed work session. Gemini's speed becomes more useful when the result can be checked.
 
-![An artistic close-up of two women reflected in a mirror](/blog-images/4759631.webp)
-
 ## A short reflection for this birthday
 
 Ask yourself where curiosity has helped you recently, and where it has become distraction. One new interest can refresh your week. Ten can leave no room to finish anything.
@@ -76,6 +74,5 @@ It sits near the Gemini Cancer transition but is usually Gemini. Check a birth c
 Astrology links the birthday with curiosity, communication, adaptability and a fast-moving mind. Individual personality still varies.
 
 Astrology and tarot are for entertainment and personal reflection, not medical, legal or financial advice.
-
 
 For nearby Gemini birthdays, compare [June 12](/blog/june-12-zodiac-sign) and [June 13](/blog/june-13-zodiac-sign).

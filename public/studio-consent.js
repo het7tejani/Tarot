@@ -39,8 +39,8 @@
     if (isPrivate()) return;
     var banner = document.createElement('section');
     banner.id = 'studio-cookie-banner';
-    banner.setAttribute('aria-label', 'Analytics cookie choice');
-    banner.innerHTML = '<div><strong>Analytics cookies</strong><p>Allow Google &amp; Microsoft cookies to understand how you use this site?</p><details><summary>Privacy details</summary><p>Google Analytics and Microsoft Clarity record site usage. Optional: reject or change your choice in cookie settings anytime.</p><a href="/cookie-policy">Cookie policy</a> · <a href="https://privacy.microsoft.com/privacystatement" target="_blank" rel="noopener noreferrer">Microsoft privacy</a> · <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google privacy</a></details></div><div class="studio-cookie-actions"><button type="button" data-choice="rejected">Reject</button><button type="button" data-choice="accepted">Accept</button></div>';
+    banner.setAttribute('aria-label', 'Cookie choice');
+    banner.innerHTML = '<div><strong>Use of cookies</strong><p>With your permission, we use cookies to understand.</p><details><summary>Privacy details</summary><p>Optional analytics cookies record site usage. Reject them or change your choice in cookie settings anytime.</p><a href="/cookie-policy">Cookie policy</a></details></div><div class="studio-cookie-actions"><button type="button" data-choice="rejected">Reject</button><button type="button" data-choice="accepted">Accept</button></div>';
     banner.hidden = choice === 'accepted' || choice === 'rejected';
     document.body.classList.toggle('studio-cookie-open', !banner.hidden);
     banner.querySelectorAll('[data-choice]').forEach(function (b) { b.addEventListener('click', function () { decide(b.dataset.choice); }); });

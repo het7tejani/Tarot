@@ -3,7 +3,7 @@ title: "Six of Pentacles Tarot Card Meaning: Giving, Receiving and the Balance B
 category: "Tarot"
 date: "2026-11-05"
 excerpt: "The Six of Pentacles tarot card meaning is the flow of resources: giving, receiving and the power balance underneath. Upright and reversed, love and money."
-coverImage: "/blog-images/cover-six-of-pentacles-tarot-card-meaning.webp"
+coverImage: "/blog-images/cover-six-of-pentacles-tarot-card-meaning-creative-v2.webp"
 metaTitle: "Six of Pentacles Tarot Card Meaning: Upright, Reversed, Love | The Psychic Studio"
 published: "true"
 ---
@@ -12,7 +12,7 @@ The Six of Pentacles tarot card meaning is the movement of resources between peo
 
 In the Rider-Waite deck a well-dressed merchant holds a small scale in one hand and drops coins into a beggar's open palm with the other. A second beggar kneels nearby, waiting his turn. Six golden pentacles hang in the air above the scene, stamped with stars.
 
-![Hands holding coins in a wooden box, the Six of Pentacles theme of giving](/blog-images/35237380.webp)
+![Offering undivided attention illustrates giving a resource beyond money](/blog-images/six-of-pentacles-tarot-card-meaning-creative-1.webp)
 
 ## What the Six of Pentacles card shows
 
@@ -36,15 +36,13 @@ It can also flag a tilt. If one person always pays, always plans, always apologi
 
 For singles it often marks meeting someone through an act of service: volunteering, a favor, an introduction made because someone thought of you.
 
-![A person holding golden coins, resources ready to move](/blog-images/7157571.webp)
+![Sharing household responsibilities illustrates a balanced exchange of effort](/blog-images/six-of-pentacles-tarot-card-meaning-creative-2.webp)
 
 ## The Six of Pentacles reversed
 
 Reversed, the balance tips. The classic reading is strings attached: a gift that comes with control, a loan used as leverage, generosity performed for an audience. The card can also point to debt that is growing, to giving so much that your own accounts, energy included, run empty, or to refusing help you genuinely need.
 
 The fix the reversed card suggests is practical. Look at one exchange in your life and ask three plain questions: what do I give, what do I get, and would I sign this arrangement again tomorrow? If the third answer is no, the card says renegotiate.
-
-![A hand holding a single coin outdoors, weighing what to give](/blog-images/31188751.webp)
 
 ## A small practice for this card
 

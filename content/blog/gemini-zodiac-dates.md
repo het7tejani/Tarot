@@ -3,7 +3,7 @@ title: "Gemini Zodiac Dates: May 21 to June 20 and What the Edges Mean"
 category: "Astrology"
 date: "2026-10-25"
 excerpt: "Gemini runs from about May 21 to June 20. See the exact date range, what to do if you were born on the edge, and what defines the sign."
-coverImage: "/perf-assets/signs/gemini.svg"
+coverImage: "/blog-images/cover-gemini-zodiac-dates-creative-v2.webp"
 metaTitle: "Gemini Zodiac Dates: May 21 to June 20 | The Psychic Studio"
 published: "true"
 ---
@@ -18,7 +18,7 @@ Gemini is the third sign of the zodiac. The Sun enters it around May 20 or 21 an
 
 A few quick checks. A May 21 birthday is Gemini in most years. A June 18 birthday is always Gemini. A June 21 birthday is Cancer in some years and Gemini in others, so the year matters.
 
-![Spring wildflowers in a meadow, the season of Gemini](/blog-images/31851450.webp)
+![A teaching conversation illustrates Mercury themes of speech and information](/blog-images/gemini-zodiac-dates-creative-1.webp)
 
 ## Why the dates shift by a day
 
@@ -40,7 +40,7 @@ Gemini people tend to ask questions first and decide later. They collect informa
 
 In love, Gemini wants a partner who can talk for hours. Good matches in traditional astrology are Libra and Aquarius, the other air signs, and Aries and Leo for energy. Our [Gemini and Libra compatibility page](/zodiac-compatibility/gemini-and-libra) breaks down one of those pairings in full.
 
-![Star signs symbols on cards](/blog-images/7222018.webp)
+![A clock and birth record illustrate checking a boundary birthday](/blog-images/gemini-zodiac-dates-creative-2.webp)
 
 ## Gemini and the other signs in the neighborhood
 
@@ -72,8 +72,6 @@ Gemini is an air sign ruled by Mercury.
 
 Gemini in most years. In years when the Sun enters Gemini on May 22, it is Taurus. Use a birth chart to confirm.
 
-
 For a single date inside the sign, see the [May 31 zodiac sign guide](/blog/may-31-zodiac-sign).
-
 
 For individual birthday questions, see [June 12](/blog/june-12-zodiac-sign) and [June 13](/blog/june-13-zodiac-sign).

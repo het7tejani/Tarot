@@ -3,7 +3,7 @@ title: "May Star Sign: Taurus or Gemini? Dates and What They Mean"
 category: "Astrology"
 date: "2026-10-22"
 excerpt: "Your May star sign depends on your exact birthday: Taurus until May 20, Gemini from May 21. Here are the dates, the traits and what the cusp days mean."
-coverImage: "/perf-assets/signs/taurus.svg"
+coverImage: "/blog-images/cover-may-star-sign-creative-v2.webp"
 metaTitle: "May Star Sign: Taurus or Gemini? | The Psychic Studio"
 published: "true"
 ---
@@ -28,7 +28,7 @@ The strengths are real: patience, loyalty, and a work ethic that outlasts almost
 
 You can read the full picture on our [Taurus zodiac page](/zodiac/taurus), including strengths, blind spots and how the sign lives well.
 
-![Two friends laughing together outdoors](/blog-images/8219290.webp)
+![A planted seedling and open sketchbook illustrate steady growth and new ideas](/blog-images/may-star-sign-creative-1.webp)
 
 ## Gemini: the May star sign from May 21
 
@@ -42,7 +42,7 @@ If your birthday sits on May 19, 20, 21 or 22, your sign depends on the exact ye
 
 The only honest way to settle a cusp birthday is a birth chart calculated from the date, time and place. Our [zodiac sign dates](/zodiac-sign-dates) page lists the boundaries for every month, and it is the right starting point for any cusp birthday in the calendar.
 
-![Cherry tree blossoming in a sunny spring meadow](/blog-images/31734845.webp)
+![A birth record and clock illustrate checking a boundary birthday](/blog-images/may-star-sign-creative-2.webp)
 
 ## May star sign in love and friendship
 
@@ -67,6 +67,5 @@ They can be. Taurus brings steadiness, Gemini brings spark, and the friction bet
 Taurus covers the first three weeks of May. The full breakdown is in [Taurus dates](/blog/taurus-zodiac-dates).
 
 For the late May dates in more detail, see [Gemini zodiac dates](/blog/gemini-zodiac-dates).
-
 
 For the full Taurus window and its decans, see [Taurus month and dates](/blog/taurus-month-and-dates). For the Gemini side of May, see the [May 31 zodiac sign guide](/blog/may-31-zodiac-sign).

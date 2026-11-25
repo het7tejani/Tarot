@@ -3,7 +3,7 @@ title: "Taurus and Libra: How This Venus-Ruled Pair Gets Along"
 category: "Astrology"
 date: "2026-10-24"
 excerpt: "Taurus and Libra share Venus as a ruler. See where this pair connects on taste and affection, and where stubbornness meets indecision."
-coverImage: "/perf-assets/signs/taurus.svg"
+coverImage: "/blog-images/cover-taurus-and-libra-compatibility-creative-v2.webp"
 metaTitle: "Taurus and Libra Compatibility: Love and Friendship | The Psychic Studio"
 published: "true"
 ---
@@ -12,7 +12,7 @@ Taurus and Libra have one thing in common that no other sign pairing shares in q
 
 This guide covers how Taurus and Libra tend to behave in love and friendship, and where the friction usually starts. It is a general look at Sun signs. Your full chart has the final word on any real relationship.
 
-![A couple holding hands at sunset](/blog-images/32195293.webp)
+![Choosing paint colors illustrates shared taste and affection](/blog-images/taurus-and-libra-compatibility-creative-1.webp)
 
 ## What Taurus and Libra have in common
 
@@ -26,7 +26,7 @@ Taurus is a fixed earth sign: slow, sure and attached to routine. Libra is a car
 
 The clearest clash is decisions. Libra weighs every option and takes a long time to choose. Taurus decides once and does not move. When Libra asks "where should we eat?" for the third time, Taurus hears pressure. When Taurus says "no" to the new restaurant, Libra hears a wall.
 
-![A couple on a beach at sunset](/blog-images/6563405.webp)
+![A budget and social calendar illustrate discussing money and plans](/blog-images/taurus-and-libra-compatibility-creative-2.webp)
 
 ## Taurus and Libra in love
 

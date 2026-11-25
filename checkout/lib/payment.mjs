@@ -20,9 +20,9 @@ export function validateCustomer(input){
 export function paymentDecision(order,payment){
  if(!payment||payment.order_id!==order.gateway_order_id||payment.amount!==order.amount_minor||payment.currency!==order.currency)throw new CheckoutError('payment_mismatch');
  if(payment.status!=='captured'||payment.captured!==true)return {action:'wait'};
+ if(['refunded','partially_refunded','disputed'].includes(order.payment_status))return {action:'exception',reason:'capture_after_'+order.payment_status};
  if(order.paid_payment_id===payment.id)return {action:'duplicate'};
  if(order.paid_payment_id)return {action:'exception',reason:'extra_capture'};
- if(order.payment_status==='refunded')return {action:'exception',reason:'capture_after_refund'};
  return {action:'mark_paid',paymentId:payment.id};
 }
 export function enabledTestConfig(env){

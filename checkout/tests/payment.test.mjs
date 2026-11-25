@@ -14,3 +14,5 @@ test('late failure cannot demote a paid order',()=>assert.deepEqual(paymentDecis
 test('required buyer data and consent validated',()=>{assert.throws(()=>validateCustomer({}),/invalid_customer/);assert.equal(validateCustomer({name:' Demo ',email:'DEMO@example.test',question:'My test question',adult:true,acceptTerms:true}).email,'demo@example.test');});
 test('live and incomplete config refused',()=>{assert.throws(()=>enabledTestConfig({CHECKOUT_ENABLED:'live'}));assert.throws(()=>enabledTestConfig({CHECKOUT_ENABLED:'test',RAZORPAY_KEY_ID:'rzp_live_x'}));});
 test('guest access tokens are random and not order IDs',()=>{assert.ok(opaqueToken().length>=43);assert.notEqual(opaqueToken(),opaqueToken());});
+
+test('old captured callbacks cannot report refund or dispute as paid',()=>{for(const payment_status of ['refunded','partially_refunded','disputed'])assert.equal(paymentDecision({...order,payment_status,paid_payment_id:captured.id},captured).action,'exception');});

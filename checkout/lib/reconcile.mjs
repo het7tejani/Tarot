@@ -15,5 +15,5 @@ export async function reconcileCaptured(db,order,payment,now=Date.now()){
  ]);
  const updated=await db.prepare('SELECT paid_payment_id,payment_status FROM orders WHERE id=?').bind(order.id).first();
  if(!updated)throw new CheckoutError('not_found');
- return updated.paid_payment_id===payment.id?{action:'paid'}:{action:'exception'};
+ return updated.paid_payment_id===payment.id&&updated.payment_status==='paid'?{action:'paid'}:{action:'exception'};
 }

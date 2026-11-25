@@ -3,7 +3,7 @@ title: "July 28 Zodiac Sign: Leo Birthday Guide, Traits and Compatibility"
 category: "Astrology"
 date: "2026-11-24"
 excerpt: "If you were born on July 28, your zodiac sign is Leo. A grounded guide to July 28 birthday traits, Leo season, compatibility and common questions."
-coverImage: "/blog-images/cover-july-28-zodiac-sign.webp"
+coverImage: "/blog-images/cover-july-28-zodiac-sign-creative-v2.webp"
 metaTitle: "July 28 Zodiac Sign: Leo Birthday Guide | The Psychic Studio"
 published: "true"
 ---
@@ -11,8 +11,6 @@ published: "true"
 If your birthday is July 28, your zodiac sign is Leo. Unlike the boundary dates, July 28 sits comfortably inside Leo season, which runs from July 23 to August 22 in most years. There is no cusp question to settle here: the Sun is firmly in Leo.
 
 That makes July 28 one of the more straightforward birthdays to read. For the edge cases, see our guides to [July 23 zodiac sign](/blog/july-23-zodiac-sign) on the Cancer Leo cusp and [July 31 zodiac sign](/blog/july-31-zodiac-sign) later in the season. For the full date range, our [Leo zodiac dates](/blog/leo-zodiac-dates) page has the year-by-year detail.
-
-![A pride of lions together, the warm social side of a July 28 Leo](/blog-images/39034105.webp)
 
 ## July 28 zodiac sign at a glance
 
@@ -33,7 +31,7 @@ Common threads people born on this date recognize:
 
 The blind spots are the Leo standards: stubbornness when challenged, a tendency to sulk when effort goes unnoticed, and occasional difficulty sharing the spotlight they worked hard to earn.
 
-![A summer sunset over open land, mid Leo season warmth](/blog-images/17345550.webp)
+![Thoughtful hosting illustrates remembering people through practical details](/blog-images/july-28-zodiac-sign-creative-1.webp)
 
 ## July 28 in love and friendship
 
@@ -43,7 +41,7 @@ They often match well with Aries and Sagittarius, who keep pace with their energ
 
 As friends, July 28 Leos are the reliable center of a group. They keep the group chat alive and the reunions booked.
 
-![Bright summer sun over green growth, the peak of Leo season](/blog-images/33989935.webp)
+![Finishing a sun mosaic illustrates creative follow-through](/blog-images/july-28-zodiac-sign-creative-2.webp)
 
 ## July 28 in Leo season
 

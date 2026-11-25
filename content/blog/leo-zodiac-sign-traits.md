@@ -3,7 +3,7 @@ title: "Leo Zodiac Sign: Traits, Dates, Strengths and Love Style"
 category: "Astrology"
 date: "2026-11-24"
 excerpt: "The Leo zodiac sign covers birthdays from July 23 to August 22. A grounded guide to Leo traits, strengths, blind spots, compatibility and love style."
-coverImage: "/blog-images/cover-leo-zodiac-sign-traits.webp"
+coverImage: "/blog-images/cover-leo-zodiac-sign-traits-creative-v2.webp"
 metaTitle: "Leo Zodiac Sign: Traits, Dates and Love Style | The Psychic Studio"
 published: "true"
 ---
@@ -11,8 +11,6 @@ published: "true"
 The Leo zodiac sign covers birthdays from July 23 to August 22 in most years. Leo is the fifth sign of the zodiac, a fire sign ruled by the Sun, and its symbol is the Lion. If you want the exact boundary dates and the cusp edge cases, our guide to [Leo zodiac dates](/blog/leo-zodiac-dates) lays them out year by year.
 
 Astrology is a reflection system, not a verdict. Two people born on the same day can live very different lives. What the Leo pattern offers is a vocabulary: a way to notice where warmth, pride and creative drive show up in a person.
-
-![A lion in golden light, the settled presence people associate with the Leo zodiac sign](/blog-images/11838539.webp)
 
 ## Leo zodiac sign traits at a glance
 
@@ -33,7 +31,7 @@ Leo's real strength is heart. Among the twelve signs, Leo is the one most associ
 
 The weak points are worth naming plainly. Leos can spend energy managing how things look instead of how they are. They can sulk when appreciation does not arrive on schedule. And because they give loyalty as a default, betrayal hits them harder than most.
 
-![A lioness at rest, the quieter side of Leo strength](/blog-images/11153559.webp)
+![Practical help illustrates protective courage and generosity](/blog-images/leo-zodiac-sign-traits-creative-1.webp)
 
 ## Leo in love and friendship
 
@@ -43,7 +41,7 @@ Air signs often feed Leo's fire: Gemini brings play, Libra brings ease, Aquarius
 
 Friendship with a Leo is usually simple: celebrate their wins, tell them the truth kindly, and do not mock what they care about.
 
-![Golden hour light through trees, the solar warmth of the Leo zodiac sign](/blog-images/40619276.webp)
+![Passing the spotlight illustrates sharing appreciation and creative credit](/blog-images/leo-zodiac-sign-traits-creative-2.webp)
 
 ## Leo season and famous Leo energy
 
@@ -64,6 +62,5 @@ Leo often clicks with fellow fire signs Aries and Sagittarius, and with air sign
 
 **What is Leo's ruling planet?**
 Leo is ruled by the Sun. In astrology that ties the sign to vitality, identity and the wish to shine in a way that matters to the people around them.
-
 
 For an air-and-fire relationship comparison, read [Gemini and Leo compatibility](/blog/gemini-and-leo-compatibility).

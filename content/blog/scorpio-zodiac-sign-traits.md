@@ -3,7 +3,7 @@ title: "Scorpio Zodiac Sign: Traits, Dates, Strengths and Love Style"
 category: "Astrology"
 date: "2026-11-24"
 excerpt: "The Scorpio zodiac sign covers birthdays from October 23 to November 21. A grounded guide to Scorpio traits, strengths, blind spots, compatibility and love style."
-coverImage: "/blog-images/cover-scorpio-zodiac-sign-traits.webp"
+coverImage: "/blog-images/cover-scorpio-zodiac-sign-traits-creative-v2.webp"
 metaTitle: "Scorpio Zodiac Sign: Traits, Dates and Love Style | The Psychic Studio"
 published: "true"
 ---
@@ -11,8 +11,6 @@ published: "true"
 The Scorpio zodiac sign covers birthdays from October 23 to November 21 in most years. Scorpio is the eighth sign of the zodiac, a water sign with the Scorpion as its symbol. Modern astrology assigns it Pluto as a ruler, while older traditions give it Mars. If your birthday sits near the boundary, our [October 31 zodiac sign](/blog/october-31-zodiac-sign) and [November 1 zodiac sign](/blog/november-1-zodiac-sign) guides walk through the season, and the cusp questions behave like the ones in our [November 2 zodiac sign](/blog/november-2-zodiac-sign) post.
 
 One thing first: astrology describes patterns, not destinies. Scorpio's reputation for intensity is a vocabulary, and like all vocabulary it fits some people better than others.
-
-![Dark ocean waves, the depth people associate with the Scorpio zodiac sign](/blog-images/18415767.webp)
 
 ## Scorpio zodiac sign traits at a glance
 
@@ -33,7 +31,7 @@ Scorpio's real strength is transformation. This is the sign most associated with
 
 The weak points: jealousy, scorekeeping, and a habit of testing people instead of asking them directly. A Scorpio who feels betrayed often withdraws first and explains never, which can end relationships that an honest conversation might have saved.
 
-![Still dark water, the Scorpio habit of watching before acting](/blog-images/14746489.webp)
+![Renewal from a broken vessel illustrates endings becoming beginnings](/blog-images/scorpio-zodiac-sign-traits-creative-1.webp)
 
 ## Scorpio in love and friendship
 
@@ -43,7 +41,7 @@ Water sign pairings tend to feel natural. Our guides to [Scorpio and Cancer comp
 
 As friends, Scorpios are few but fierce. They keep confidences, remember the details, and show up in a crisis with a plan.
 
-![A dark sea under heavy sky, Scorpio fixed water](/blog-images/5444426.webp)
+![Opening windows illustrates honesty while preserving personal boundaries](/blog-images/scorpio-zodiac-sign-traits-creative-2.webp)
 
 ## Scorpio season and the Death card
 

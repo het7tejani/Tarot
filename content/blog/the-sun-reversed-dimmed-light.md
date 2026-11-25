@@ -3,7 +3,7 @@ title: "The Sun Reversed: Joy That Runs Quieter Than Usual"
 category: "Tarot"
 date: "2026-11-23"
 excerpt: "The Sun reversed tarot meaning: happiness delayed or dimmed, self-doubt clouding a basically good situation, and how to read it in love, work and feelings."
-coverImage: "/blog-images/cover-the-sun-reversed-dimmed-light.webp"
+coverImage: "/blog-images/cover-the-sun-reversed-dimmed-light-creative-v2.webp"
 metaTitle: "The Sun Reversed Tarot Card Meaning | The Psychic Studio"
 published: "true"
 ---
@@ -11,8 +11,6 @@ published: "true"
 The Sun reversed is the gentlest reversal in the Major Arcana. Upright, [The Sun](/blog/the-sun-tarot-card-meaning) is clarity, warmth and things working in plain sight. Reversed, none of that disappears. The light is still there; something is simply standing between you and it.
 
 Readers often describe this card as sunshine behind cloud. The situation is frequently better than it feels, and the work is clearing the obstruction rather than fixing the weather. Where [The Star](/blog/the-star-tarot-card-meaning) offers hope after rupture, The Sun reversed says the good thing is already present and under-trusted.
-
-![The Sun tarot card held above a spread, its light dimmed but present](/blog-images/37589032.webp)
 
 ## The core meaning of The Sun reversed
 
@@ -38,7 +36,7 @@ In work, this card favors staying the course through a morale dip. The project i
 
 With money, the reversed Sun cautions against two opposite errors. One is gloom: cutting a sound plan because a slow week felt like a failure. The other is forced brightness: spending to manufacture a feeling of abundance. The card's steady instruction is to enjoy what is already working and fix only what is actually broken.
 
-![A hand holding The Sun card among crystals, clarity waiting behind the cloud](/blog-images/32771815.webp)
+![A small warm gesture illustrates affection expressed during a quiet patch](/blog-images/the-sun-reversed-dimmed-light-creative-1.webp)
 
 ## The Sun reversed as feelings
 
@@ -46,7 +44,7 @@ When this card describes how someone feels, it points at happiness with a reserv
 
 As advice, the card is unusually direct: lower the cloud, not the standard. Name one good thing per day without qualifying it. Let the compliment land without deflecting it. Small acts of admitted enjoyment are the entire remedy this card prescribes.
 
-![Golden light breaking through layered clouds at sunset, joy behind the obstruction](/blog-images/29150580.webp)
+![A clear cube and cloud illustrate separating facts from feelings](/blog-images/the-sun-reversed-dimmed-light-creative-2.webp)
 
 ## What to do when The Sun appears reversed
 

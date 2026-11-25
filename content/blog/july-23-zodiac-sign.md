@@ -3,7 +3,7 @@ title: "July 23 Zodiac Sign: Leo Traits, Cusp Questions and Compatibility"
 category: "Astrology"
 date: "2026-11-23"
 excerpt: "If you were born on July 23, your Sun sign is Leo in most years. Learn the date range, the Cancer Leo cusp question, Leo traits and compatibility."
-coverImage: "/blog-images/cover-july-23-zodiac-sign.webp"
+coverImage: "/blog-images/cover-july-23-zodiac-sign-creative-v2.webp"
 metaTitle: "July 23 Zodiac Sign: Leo Birthday Guide | The Psychic Studio"
 published: "true"
 ---
@@ -11,8 +11,6 @@ published: "true"
 If your birthday is July 23, your zodiac sign is Leo in most years. Leo season usually begins on July 23 and runs to August 22, which makes July 23 the first full day of the sign. The exact moment the Sun enters Leo shifts by a few hours each year, so a small number of July 23 birthdays still fall under Cancer.
 
 That edge case is why July 23 is one of the most searched birthday dates. If you were born early in the day, it is worth checking the year and time. For the full range, read our guide to [Leo zodiac dates](/blog/leo-zodiac-dates), and for the neighboring sign see [Cancer zodiac dates](/blog/cancer-zodiac-dates).
-
-![A lion resting calmly in green undergrowth, the settled confidence of July 23 Leo](/blog-images/32196368.webp)
 
 ## July 23 zodiac sign at a glance
 
@@ -30,7 +28,7 @@ In practice, many July 23 people recognize a mix. They can be the most generous 
 
 The cusp idea is a popular framing, not a separate thirteenth sign. Your chart still says Cancer or Leo. What the cusp language offers is a way to describe the blend that boundary birthdays often report.
 
-![A lion in profile, steady and watchful, the fixed fire of July 23](/blog-images/6052186.webp)
+![A clock and calendar bridge illustrate checking birth timing near a sign boundary](/blog-images/july-23-zodiac-sign-creative-1.webp)
 
 ## Leo traits for a July 23 birthday
 
@@ -50,7 +48,7 @@ Water and earth matches ask more patience. They can work well when both people t
 
 Two habits tend to pay off for this birthday. First, separating dignity from perfection: a mistake admitted early costs a Leo far less than one defended too long. Second, choosing audiences deliberately: the right room multiplies Leo warmth, and the wrong one taxes it.
 
-![Two lions resting side by side on warm rocks, the loyalty of July 23 bonds](/blog-images/11848472.webp)
+![Repairing a sculpture illustrates separating dignity from perfection](/blog-images/july-23-zodiac-sign-creative-2.webp)
 
 ## Common questions about July 23
 

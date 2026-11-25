@@ -3,7 +3,7 @@ title: "1122 Angel Number Meaning: Intuition, Purpose and Building Big"
 category: "Angel Numbers"
 date: "2026-11-22"
 excerpt: "The 1122 angel number meaning is vision made buildable: master intuition paired with master building, pointed at purpose."
-coverImage: "/blog-images/cover-1122-angel-number-meaning.webp"
+coverImage: "/blog-images/cover-1122-angel-number-meaning-creative-v2.webp"
 metaTitle: "1122 Angel Number Meaning: Love, Career, Spiritual | The Psychic Studio"
 published: "true"
 ---
@@ -12,7 +12,7 @@ The 1122 angel number meaning is one of the heaviest in the series: it carries t
 
 In numerology, 11 is the master intuitive: insight, sensitivity, the antenna. 22 is the master builder: the rare number said to turn large visions into large realities. Together in one sequence they describe a complete pipeline, from knowing to making. The sum reduces to 6 (1+1+2+2=6), adding care and responsibility: the building is meant to serve people, not just ambition.
 
-![Snowy peaks rising through cloud, the clear high vision of 1122](/blog-images/691668.webp)
+![Turning a sketch into a model illustrates intuition becoming a first structural step](/blog-images/1122-angel-number-meaning-creative-1.webp)
 
 ## The core meaning of 1122
 
@@ -38,7 +38,7 @@ For someone single, 1122 backs knowing what you are actually building toward and
 
 For twin flame questions, readers commonly take the doubled master numbers as a sign of a significant connection with a shared task. As always in that territory, your half of the building is the only half you can raise.
 
-![A purple and orange sunset over the ocean, the purpose horizon of 1122](/blog-images/2775196.webp)
+![Building a greenhouse together illustrates a relationship with shared purpose](/blog-images/1122-angel-number-meaning-creative-2.webp)
 
 ## 1122 in work and money
 

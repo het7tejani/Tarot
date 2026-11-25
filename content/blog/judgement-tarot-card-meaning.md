@@ -3,7 +3,7 @@ title: "Judgement Tarot Card Meaning: Awakening, Reckoning and the Second Chance
 category: "Tarot"
 date: "2026-11-18"
 excerpt: "The Judgement tarot card meaning is the wake-up call: an honest reckoning with your past that turns into a clear second chance."
-coverImage: "/blog-images/cover-judgement-tarot-card-meaning.webp"
+coverImage: "/blog-images/cover-judgement-tarot-card-meaning-creative-v2.webp"
 metaTitle: "Judgement Tarot Card Meaning: Upright, Reversed, Love | The Psychic Studio"
 published: "true"
 ---
@@ -12,7 +12,7 @@ The Judgement tarot card meaning is the moment you answer for your life and find
 
 In the Rider-Waite deck the archangel Gabriel blows a trumpet from the clouds, a white flag with a red cross hanging from it. Below, grey coffins float on open water, and naked figures rise from them with arms stretched upward. Mountains stand blue in the far distance.
 
-![Mountain ridges catching first light at dawn, the waking light of the Judgement card](/blog-images/2932022.webp)
+![Reviewing past choices illustrates an honest reckoning that supports a new step](/blog-images/judgement-tarot-card-meaning-creative-1.webp)
 
 ## What the Judgement card shows
 
@@ -36,15 +36,13 @@ In love, Judgement asks for the honest conversation that decides something. For 
 
 In work, this is the card of the calling. Pulled upright it frequently describes someone realizing their current role is a coffin that fits too well. The advice is to move toward the work that wakes you, with the grown-up version of the plan: savings, skills, dates. The trumpet does not ask you to be reckless. It asks you to be awake.
 
-![Golden sunlight breaking through forest trees, the call arriving in ordinary life](/blog-images/6759066.webp)
+![A repaired garden gate illustrates recommitment after an honest conversation](/blog-images/judgement-tarot-card-meaning-creative-2.webp)
 
 ## Judgement reversed
 
 Reversed, Judgement is the ignored alarm. The call has sounded and been snoozed: self-doubt talking over the realization, a reckoning postponed, a second chance refused out of habit. Sometimes it marks harsh self-judgment instead, the past used as a prison rather than a teacher.
 
 The reversed card's remedy is small and concrete. Write the realization down in one sentence. Tell one person. Take the first step within a week. Awakenings expire when they are treated as entertainment.
-
-![Sun rays filtering through tall trees at dawn, the light available once the reversed Judgement turns](/blog-images/17026767.webp)
 
 ## Common questions about Judgement
 

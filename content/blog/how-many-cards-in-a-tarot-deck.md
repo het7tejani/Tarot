@@ -3,7 +3,7 @@ title: "How Many Cards Are in a Tarot Deck? The 78-Card Structure"
 category: "Tarot"
 date: "2026-11-12"
 excerpt: "A standard tarot deck has 78 cards: 22 Major Arcana and 56 Minor Arcana. Learn the four suits, court cards and why some decks include extra cards."
-coverImage: "/blog-images/cover-how-many-cards-in-a-tarot-deck.webp"
+coverImage: "/blog-images/cover-how-many-cards-in-a-tarot-deck-creative-v2.webp"
 metaTitle: "How Many Cards Are in a Tarot Deck? 78 Cards Explained"
 published: "true"
 ---
@@ -12,7 +12,7 @@ A standard tarot deck has 78 cards: 22 Major Arcana and 56 Minor Arcana. The Min
 
 That gives you a straightforward count: 22 + 56 = 78. If your new deck contains more cards, check its booklet before assuming something is wrong. Publishers sometimes include an extra illustrated card, a title card or a reference card. Those additions are separate from the standard structure.
 
-![Tarot cards laid out beside a candle](/blog-images/4790556.webp)
+![Four suit objects illustrate Wands, Cups, Swords and Pentacles as distinct groups](/blog-images/how-many-cards-in-a-tarot-deck-creative-1.webp)
 
 ## The 22 Major Arcana cards
 
@@ -32,7 +32,7 @@ Each suit then adds Page, Knight, Queen and King. That makes 10 + 4 = 14 per sui
 
 Modern guidebooks often connect the Minor Arcana with everyday situations. A suit can give a reader a starting theme, while the number, image and spread position help shape the question. A single keyword does not describe every possible reading.
 
-![A person holding cards beside a tarot spread](/blog-images/6944184.webp)
+![Sorting a deck beside its booklet illustrates checking contents and setting bonus cards aside](/blog-images/how-many-cards-in-a-tarot-deck-creative-2.webp)
 
 ## What are the four tarot suits?
 
@@ -57,8 +57,6 @@ Lay out the Major Arcana, then sort each suit from Ace to King. Put any unnumber
 An extra card can be an intentional part of a particular artist's deck. You can use it as the guidebook suggests or set it aside while learning the standard system. Neither choice makes a reading more accurate or more spiritually legitimate.
 
 A deck containing only the Major Arcana has 22 cards and can be used on its own, but it is not the full standard 78-card deck. Oracle decks follow their own systems and have no single fixed card count. Their booklet is the best starting point for that specific deck.
-
-![A round table arranged with tarot cards and candles](/blog-images/7179792.webp)
 
 ## Learn the deck without memorising everything
 

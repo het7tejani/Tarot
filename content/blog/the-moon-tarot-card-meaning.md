@@ -3,7 +3,7 @@ title: "The Moon Tarot Card Meaning: Intuition, Uncertainty and Careful Question
 category: "Tarot"
 date: "2026-11-10"
 excerpt: "The Moon tarot meaning centers on intuition, uncertainty and hidden assumptions. Read upright and reversed meanings for love and decisions."
-coverImage: "/blog-images/cover-the-moon-tarot-card-meaning.webp"
+coverImage: "/blog-images/cover-the-moon-tarot-card-meaning-creative-v2.webp"
 metaTitle: "The Moon Tarot Meaning: Upright, Reversed, Love | The Psychic Studio"
 published: "true"
 ---
@@ -12,7 +12,7 @@ The Moon tarot card meaning begins where the path stops being clear. This card p
 
 The Moon does not confirm that a secret exists or that a fear is true. Tarot offers reflection, not hidden evidence. The useful question is simple: what do I know, what am I imagining and what can I check next?
 
-![A full moon reflected over a calm blue sea](/blog-images/10299209.webp)
+![Sorting observations and assumptions illustrates separating known facts from imagined explanations](/blog-images/the-moon-tarot-card-meaning-creative-1.webp)
 
 ## What The Moon shows
 
@@ -38,7 +38,7 @@ Use the card as a prompt to ask clearer questions. Have both people named the re
 
 The Moon cannot tell you whether someone is lying or secretly committed. If consent, contact or safety are unclear, stop and deal with that directly. For a calmer card about hope after confusion, read [The Star tarot meaning](/blog/the-star-tarot-card-meaning).
 
-![Bright moonlight reflected across dark ocean water](/blog-images/20696420.webp)
+![Checking a specific document illustrates asking for one missing fact before deciding](/blog-images/the-moon-tarot-card-meaning-creative-2.webp)
 
 ## The Moon at work and in decisions
 
@@ -63,8 +63,6 @@ If worry affects sleep, safety or daily functioning, treat that as a real-world 
 Write three headings: known, imagined and checkable. Put one sentence under each. Then choose the smallest check that respects everyone involved: send a clear message, reread the agreement or wait until a stated time before deciding.
 
 For another card that works with quiet inner knowledge, read [The High Priestess tarot card meaning](/blog/the-high-priestess-tarot-card-meaning). You can also compare interpretations in the [card meanings library](/tarot-card-meanings).
-
-![A full moon glowing through clouds over the sea](/blog-images/17572016.webp)
 
 ## FAQ
 

@@ -12,6 +12,9 @@ export async function boundedBody(request,maxBytes=16384){
  const bytes=new Uint8Array(size);let offset=0;for(const chunk of chunks){bytes.set(chunk,offset);offset+=chunk.byteLength;}
  return new TextDecoder('utf-8',{fatal:true}).decode(bytes);
 }
+export async function jsonBody(request,maxBytes=16384){
+ try{return JSON.parse(await boundedBody(request,maxBytes));}catch(error){if(error instanceof CheckoutError)throw error;throw new CheckoutError('invalid_input');}
+}
 export function safeError(error){
  const publicCodes={forbidden:403,unsupported_media:415,invalid_input:400,invalid_customer:400,body_too_large:413,unknown_product:400,payment_mismatch:409,invalid_signature:400,not_found:404};
  const code=error instanceof CheckoutError?error.code:'internal_error';

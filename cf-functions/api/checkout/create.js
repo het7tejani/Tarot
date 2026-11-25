@@ -2,7 +2,7 @@ import {randomUUID,createHash} from 'node:crypto';
 import {ETSY_LISTINGS} from '../../../src/data/etsyListings.ts';
 import {enabledTestConfig,validateCustomer,opaqueToken,CheckoutError} from '../../../checkout/lib/payment.mjs';
 import {createGatewayOrder} from '../../../checkout/lib/gateway.mjs';
-import {json,sameOrigin,boundedBody,safeError} from '../../../checkout/lib/http.mjs';
+import {json,sameOrigin,jsonBody,safeError} from '../../../checkout/lib/http.mjs';
 export async function onRequestPost({request,env}){
  try{
   const {keyId}=enabledTestConfig(env);sameOrigin(request);
@@ -10,7 +10,7 @@ export async function onRequestPost({request,env}){
   if(!env.CHECKOUT_RATE_LIMITER)throw new CheckoutError('checkout_unavailable');
   const {success}=await env.CHECKOUT_RATE_LIMITER.limit({key:request.headers.get('CF-Connecting-IP')||'unknown'});
   if(!success)return json({error:'try_later'},429);
-  const input=JSON.parse(await boundedBody(request));const customer=validateCustomer(input);
+  const input=await jsonBody(request);const customer=validateCustomer(input);
   if(!/^[a-f0-9-]{36}$/.test(input.requestId||''))throw new CheckoutError('invalid_input');
   const product=ETSY_LISTINGS.find(item=>item.slug===input.slug);if(!product)throw new CheckoutError('unknown_product');
   const previous=await env.ORDER_DB.prepare('SELECT id FROM orders WHERE client_request_id=?').bind(input.requestId).first();

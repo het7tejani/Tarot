@@ -3,7 +3,7 @@ title: "Capricorn and Aquarius Compatibility: Love, Trust and Pace"
 category: "Astrology"
 date: "2026-11-14"
 excerpt: "Capricorn and Aquarius sit side by side and share Saturn as a ruler, yet they move at different speeds. How the pair handles love, trust and daily life."
-coverImage: "/blog-images/cover-capricorn-and-aquarius-compatibility.webp"
+coverImage: "/blog-images/cover-capricorn-and-aquarius-compatibility-creative-v2.webp"
 metaTitle: "Capricorn and Aquarius Compatibility: Love and Trust | The Psychic Studio"
 published: "true"
 ---
@@ -12,7 +12,7 @@ Capricorn and Aquarius are neighbours on the zodiac wheel, and neighbours are ra
 
 This guide covers how Capricorn and Aquarius get along in love, where they clash and which tarot cards fit each side. Compatibility in astrology is a reflection tool, not a verdict on any real couple.
 
-![A goat standing sure-footed on high ground](/blog-images/29170509.webp)
+![Planning a home illustrates practical structure giving imaginative ideas a form](/blog-images/capricorn-and-aquarius-compatibility-creative-1.webp)
 
 ## Capricorn and Aquarius at a glance
 
@@ -34,7 +34,7 @@ The second friction is emotional style. Capricorn shows love through practical a
 
 The fix, when couples find one, is translation. Name your own style out loud, and learn to read the other person's style as love even when it arrives in a foreign format.
 
-![Water being poured in a steady stream](/blog-images/35679306.webp)
+![Repairing a chair and planning a shared cause illustrate different expressions of care](/blog-images/capricorn-and-aquarius-compatibility-creative-2.webp)
 
 ## The tarot cards for each sign
 
@@ -49,8 +49,6 @@ Practical habits matter more than grand gestures for this pair. A few that suit 
 - Give Aquarius one unplanned day a week, and give Capricorn one planned one. Both get to breathe.
 - Capricorn should ask for the idea before critiquing the plan. Aquarius should present the plan before mocking the routine.
 - Keep one shared long-term project, a house, a business, a cause, because both signs commit best to something concrete.
-
-![Stars scattered across a clear night sky](/blog-images/14856402.webp)
 
 ## Questions about Capricorn and Aquarius
 

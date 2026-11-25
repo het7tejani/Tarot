@@ -3,7 +3,7 @@ title: "Archangel Names and Meanings: Why the Lists Differ"
 category: "Spiritual Meanings"
 date: "2026-11-13"
 excerpt: "Explore archangel names including Michael, Gabriel, Raphael and Uriel. Learn why lists of seven differ across religious texts and modern spiritual writing."
-coverImage: "/blog-images/cover-archangel-names-and-meanings.webp"
+coverImage: "/blog-images/cover-archangel-names-and-meanings-creative-v2.webp"
 metaTitle: "Archangel Names and Meanings: Michael, Gabriel and More"
 published: "true"
 ---
@@ -12,7 +12,7 @@ Archangel names commonly encountered in religious and spiritual writing include 
 
 An archangel is generally understood as a chief or leading angel. Descriptions of these figures belong to religious traditions and beliefs. Learning their stories does not require treating a repeated number, dream or coincidence as proof that an angel has contacted you.
 
-![The interior of a church with an altar and religious sculpture](/blog-images/1545339.webp)
+![Two travelers illustrate the companionship theme in the Raphael and Tobias story](/blog-images/archangel-names-and-meanings-creative-1.webp)
 
 ## Michael: the warrior figure
 
@@ -30,7 +30,7 @@ Those are related religious histories, not interchangeable accounts. If you are 
 
 For personal reflection, the messenger theme can become a question about communication. What needs to be said plainly? What information do you still need? An interpretation should not make you mistake an assumption for a message from another person.
 
-![Candles and an open book arranged on a church altar](/blog-images/20469144.webp)
+![Comparing separate manuscripts illustrates keeping each tradition connected to its sources](/blog-images/archangel-names-and-meanings-creative-2.webp)
 
 ## Raphael: the Tobit story
 
@@ -47,8 +47,6 @@ Uriel appears in Jewish and Christian apocryphal and related writings. Britannic
 Modern guides often connect Uriel with understanding or insight. Treat that as an interpretive use. An idea still needs checking, even if it arrives during prayer or a moment that feels meaningful.
 
 You could write down the question you are trying to understand and the evidence you have. Then identify what remains unknown. That is different from assuming a feeling of certainty proves the answer.
-
-![A small angel figurine holding an open book](/blog-images/29761302.webp)
 
 ## What are the seven archangel names?
 

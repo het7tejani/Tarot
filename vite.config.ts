@@ -33,7 +33,7 @@ export default defineConfig(({isSsrBuild})=>({
  },{
   name:'responsive-static-artwork',
   async generateBundle(){
-   if(isSsrBuild)return;
+   if(isSsrBuild||process.env.PREVIEW_REUSE_ARTWORK==='1')return;
    this.emitFile({type:'asset',fileName:'sitemap.xml',source:generateSitemap(__dirname)});
    const stock:Record<string,string>=JSON.parse(fs.readFileSync(path.resolve(__dirname,'art-src/reading-stock.json'),'utf8'));
    for(const [id,encoded] of Object.entries(stock))this.emitFile({type:'asset',fileName:`reading-images/${id}.webp`,source:Buffer.from(encoded,'base64')});

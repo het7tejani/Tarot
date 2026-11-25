@@ -29,12 +29,12 @@ export const ReadingDetail: React.FC = () => {
  <p>{r.description} It centers on {r.focus}: a reflective conversation starter built around your own question, not a prediction of events or of what another person feels.</p>
  </section><section><h2>Questions worth bringing</h2>
  <p>You do not need a perfect question. Start with what is on your mind about {r.focus}:</p>
- <ul>{r.questions.map(q=><li key={q}>{q}</li>)}</ul>
+ <ul className="st-question-cards">{r.questions.map(q=><li key={q}>{q}</li>)}</ul>
  <p>Open questions give you more room to reflect. Instead of asking for a guaranteed outcome, ask what you can notice, what matters to you or what you could approach differently.</p>
- </section><section><h2>Who this reading may suit</h2>
+ </section><section className="st-suit-card"><h2>Who this reading may suit</h2>
  <p>This may suit you if you want space to think about {r.focus}, put a feeling into words or consider a question from a different angle. It is for reflection, rather than certainty about future events or another person's thoughts.</p>
  </section><section><h2>How to prepare</h2>
- <ul><li>Choose one main question and note why it matters to you now.</li><li>Separate what you know from what you are assuming. A few lines of context are enough to start an inquiry.</li><li>Share only what you are comfortable sharing. Do not send passwords, payment-card details or private records about other people.</li></ul>
+ <ol className="st-prepare-steps"><li>Choose one main question and note why it matters to you now.</li><li>Separate what you know from what you are assuming. A few lines of context are enough to start an inquiry.</li><li>Share only what you are comfortable sharing. Do not send passwords, payment-card details or private records about other people.</li></ol>
  <p style={{fontSize:14}}>For a decision with medical, legal or financial consequences, use advice from a qualified professional. A personal reading is not a substitute for that support.</p>
  </section></div>
  <aside className="st-reading-side">

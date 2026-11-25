@@ -195,8 +195,8 @@ const ChristmasScene: React.FC = () => {
   <circle cx="470" cy="170" r="170" fill="url(#xsHalo)" className="xm-halo2" />
   <circle cx="470" cy="170" r="58" fill="url(#xsMoon)" />
   <g fill="#cdbb86" opacity=".5"><circle cx="452" cy="154" r="11" /><circle cx="490" cy="188" r="8" /><circle cx="478" cy="146" r="5" /><circle cx="448" cy="190" r="6" /></g>
-  <g clipPath="url(#xsTextClear)"><g className="xm-sleigh"><image href="/xmas/santa-flying.png" x="0" y="0" width="250" height="141" /></g></g>
-  <g clipPath="url(#xsTextBlur)"><g style={{ filter: 'blur(1px)' }}><g className="xm-sleigh"><image href="/xmas/santa-flying.png" x="0" y="0" width="250" height="141" /></g></g></g>
+  <g clipPath="url(#xsTextClear)"><g className="xm-sleigh"><image href="/xmas/santa-flying.webp" x="0" y="0" width="250" height="141" /></g></g>
+  <g clipPath="url(#xsTextBlur)"><g style={{ filter: 'blur(1px)' }}><g className="xm-sleigh"><image href="/xmas/santa-flying.webp" x="0" y="0" width="250" height="141" /></g></g></g>
   <path d="M-1500 400 L-1330 300 L-1180 360 L-980 270 L-760 360 L-560 290 L-380 380 L-190 310 L0 400 V470 H-1500Z" fill="url(#xsMtn)" opacity=".9" />
   <path d="M1200 390 L1330 310 L1470 360 L1650 280 L1850 360 L2050 300 L2250 380 L2400 330 L2700 400 V470 H1200Z" fill="url(#xsMtn)" opacity=".9" />
   <path d="M-1500 400 L-1330 300 L-1180 360 L-980 270 L-760 360 L-560 290 L-380 380 L-190 310 L0 400 V470 H-1500Z" fill="url(#xsMtn)" opacity=".9" />
@@ -270,7 +270,7 @@ const HeroSlider: React.FC = () => {
             <div className="cta"><Link className="btn" to="/shop">Explore readings</Link><Link className="btn ghost" to="/faq">Read the FAQ</Link></div>
           </div>
           <div className="hs-cards" aria-hidden="true">
-            {['the_star', 'the_lovers', 'the_moon'].map((c) => <TarotArtwork key={c} src={`/tarot/${c}.jpg`} alt="" loading="eager" fetchPriority="high" sizes="(max-width: 700px) 220px, 200px" width={200} height={300} />)}
+            {['the_star', 'the_lovers', 'the_moon'].map((c) => <TarotArtwork key={c} src={`/tarot/${c}.jpg`} alt="" loading="lazy" fetchPriority="low" sizes="(max-width: 700px) 100px, 170px" width={200} height={300} />)}
           </div>
         </div>
       </div>
@@ -381,15 +381,14 @@ export const Home: React.FC = () => (
         <Link key={r.id} className="st-card st-reading-feature" to={`/readings/${r.slug}`}><TarotArtwork src={r.img} alt={r.title.split(" | ")[0]} loading="lazy" /><h3>{r.title.split(' | ')[0]}</h3><p>{r.description}</p><p><strong>${r.price} USD</strong></p></Link>))}</div>
       <p style={{ marginTop: 26 }}><Link className="btn" to="/shop">View all readings</Link></p>
     </div></section>
-    <section className="st-sec alt"><div className="wrap">
+    <section className="st-sec alt st-home-practical"><div className="wrap st-home-practical-grid"><div>
       <span className="eyebrow">How it works</span><h2>Three simple steps</h2>
-      <div className="st-grid c3">{HOW_IT_WORKS_STEPS.map((x) => (
+      <div className="st-home-steps">{HOW_IT_WORKS_STEPS.map((x) => (
         <div key={x.stepNumber} className="st-card"><span className="st-num">{x.stepNumber}</span><h3>{x.title}</h3><p>{x.description}</p></div>))}</div>
-    </div></section>
-    <section className="st-sec alt"><div className="wrap">
+    </div><div>
       <span className="eyebrow">Questions</span><h2>Good to know</h2>
       <div className="st-faq">{FAQS.slice(0, 5).map((f) => (<details key={f.question}><summary>{f.question}</summary><p>{f.answer}</p></details>))}</div>
       <p style={{ marginTop: 24 }}><Link className="btn ghost" to="/faq">All questions</Link></p>
-    </div></section>
+    </div></div></section>
   </Layout>
 );

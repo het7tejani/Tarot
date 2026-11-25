@@ -22,7 +22,7 @@ export async function createOrder({request,env},market='usd'){
   const quote=market==='domestic'?domesticPrice(product,env):{amount_minor:Math.round(product.price*100),currency:'USD'};
   const order={id,...quote};
   await env.ORDER_DB.batch([
-   env.ORDER_DB.prepare('INSERT INTO orders(id,client_request_id,product_slug,product_title,amount_minor,currency,customer_name,customer_email,customer_question,terms_version,created_at,updated_at) VALUES(?,?,?,?,?,?,?,?,?,?,?,?)').bind(id,input.requestId,product.slug,product.title,order.amount_minor,order.currency,customer.name,customer.email,customer.question,mode==='live'?env.ORDER_TERMS_VERSION:'checkout-draft-2026-11-25',now,now),
+   env.ORDER_DB.prepare('INSERT INTO orders(id,client_request_id,product_slug,product_title,amount_minor,currency,customer_name,customer_email,customer_question,customer_dob,terms_version,created_at,updated_at) VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?)').bind(id,input.requestId,product.slug,product.title,order.amount_minor,order.currency,customer.name,customer.email,customer.question,customer.dateOfBirth||null,mode==='live'?env.ORDER_TERMS_VERSION:'checkout-draft-2026-11-25',now,now),
    env.ORDER_DB.prepare('INSERT INTO access_tokens(token_hash,order_id,expires_at) VALUES(?,?,?)').bind(createHash('sha256').update(token).digest('hex'),id,now+30*24*60*60*1000)
   ]);
   accessCookie=`guest_order=${token}; Secure; HttpOnly; SameSite=Strict; Path=/api/checkout; Max-Age=2592000`;

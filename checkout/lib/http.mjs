@@ -16,7 +16,7 @@ export async function jsonBody(request,maxBytes=16384){
  try{return JSON.parse(await boundedBody(request,maxBytes));}catch(error){if(error instanceof CheckoutError)throw error;throw new CheckoutError('invalid_input');}
 }
 export function safeError(error){
- const publicCodes={unauthorized:401,invalid_state:409,forbidden:403,unsupported_media:415,invalid_input:400,invalid_customer:400,body_too_large:413,unknown_product:400,payment_mismatch:409,invalid_signature:400,not_found:404};
+ const publicCodes={unauthorized:401,invalid_state:409,recipient_mismatch:409,forbidden:403,unsupported_media:415,invalid_input:400,invalid_customer:400,body_too_large:413,unknown_product:400,payment_mismatch:409,invalid_signature:400,not_found:404};
  const code=error instanceof CheckoutError?error.code:'internal_error';
  return json({error:publicCodes[code]?code:'checkout_unavailable'},publicCodes[code]||503);
 }

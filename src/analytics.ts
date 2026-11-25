@@ -1,5 +1,5 @@
 const INTERNAL_KEY = 'psychic-studio-internal';
-const PRIVATE_PATH = /^\/(admin|cms|boundary-preview-test)(\/|$)/;
+const PRIVATE_PATH = /^\/(admin|cms|boundary-preview-test|orders|checkout|orders-test|checkout-test|orders-preview|checkout-preview)(\/|$)/;
 
 export type StudioAnalyticsParams = Record<string, string | number | boolean | undefined>;
 

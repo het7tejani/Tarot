@@ -15,7 +15,9 @@ export function validateCustomer(input){
  const email=typeof input.email==='string'?input.email.trim().toLowerCase():'';
  const question=typeof input.question==='string'?input.question.trim():'';
  if(name.length<1||name.length>120||email.length>254||!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)||question.length<5||question.length>4000||input.adult!==true||input.acceptTerms!==true)throw new CheckoutError('invalid_customer');
- return {name,email,question};
+ const dateOfBirth=typeof input.dateOfBirth==='string'?input.dateOfBirth.trim():'';
+ if(dateOfBirth&&(!/^\d{4}-\d{2}-\d{2}$/.test(dateOfBirth)||!Number.isFinite(Date.parse(dateOfBirth+'T00:00:00Z'))||new Date(dateOfBirth+'T00:00:00Z').toISOString().slice(0,10)!==dateOfBirth||dateOfBirth>new Date().toISOString().slice(0,10)))throw new CheckoutError('invalid_customer');
+ return {name,email,question,dateOfBirth};
 }
 export function paymentDecision(order,payment){
  if(!payment||payment.order_id!==order.gateway_order_id||payment.amount!==order.amount_minor||payment.currency!==order.currency)throw new CheckoutError('payment_mismatch');

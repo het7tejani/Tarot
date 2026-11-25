@@ -3,7 +3,7 @@ title: "Gemini Zodiac Sign: Dates, Traits, Love and Compatibility"
 category: "Astrology"
 date: "2026-11-08"
 excerpt: "Gemini is the air sign linked with Mercury, language and curiosity. Learn Gemini dates, traits, compatibility and practical strengths."
-coverImage: "/blog-images/cover-gemini-zodiac-sign.webp"
+coverImage: "/blog-images/cover-gemini-zodiac-sign-creative-v2.webp"
 metaTitle: "Gemini Zodiac Sign: Dates, Traits, Love | The Psychic Studio"
 published: "true"
 ---
@@ -12,7 +12,7 @@ Gemini is the zodiac sign usually assigned to birthdays from May 21 to June 20. 
 
 The symbol is the Twins. The image can look simple, but it carries a useful idea: a Gemini mind often holds two perspectives before choosing a direction. That can make the sign flexible and social. It can also make focus harder when every new idea feels worth following.
 
-![A black and white portrait of twin women posing together](/blog-images/7287135.webp)
+![Gathering ideas into one notebook illustrates curiosity supported by a clear focus](/blog-images/gemini-zodiac-sign-creative-1.webp)
 
 ## Gemini zodiac sign at a glance
 
@@ -30,7 +30,7 @@ The same gift can become distraction. Too many open conversations, half-finished
 
 The Twins also symbolize perspective. Gemini can explain both sides of a disagreement, which helps in negotiation and friendship. The harder task is choosing a position after listening. Flexibility becomes more useful when it ends in a clear next step.
 
-![Two women talking and gesturing during an indoor conversation](/blog-images/10029714.webp)
+![Connecting a technical model and community plan illustrates translating different perspectives](/blog-images/gemini-zodiac-sign-creative-2.webp)
 
 ## Gemini in love and friendship
 
@@ -47,8 +47,6 @@ Gemini tends to prefer variety over repetition. Short projects, changing environ
 A practical rhythm helps. Keep one visible list of open loops. Finish the task that affects someone else first, then give the next idea a timed work session. Gemini's speed becomes easier to trust when the result can be checked.
 
 The sign can also be skilled at translating between people. Gemini may understand the technical point and the social point, then help both sides hear each other. That is a real strength when accuracy and tone both matter.
-
-![Two women having a conversation while using a laptop in a kitchen](/blog-images/5386522.webp)
 
 ## A short reflection for Gemini
 
@@ -68,6 +66,5 @@ Gemini is an air sign. Astrology associates air signs with thought, communicatio
 Astrology often matches Gemini with Libra, Aquarius, Aries and Leo. Any sign pairing can work when communication and daily habits support the relationship.
 
 Astrology and tarot are for entertainment and personal reflection, not medical, legal or financial advice.
-
 
 Our [Gemini and Leo compatibility guide](/blog/gemini-and-leo-compatibility) turns sign symbolism into practical relationship questions.

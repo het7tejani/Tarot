@@ -3,7 +3,7 @@ title: "Gemini and Sagittarius Compatibility: Love, Trust and Freedom"
 category: "Astrology"
 date: "2026-11-16"
 excerpt: "Gemini and Sagittarius sit opposite each other on the zodiac wheel, and opposites either balance or exhaust each other. How the pair handles love, trust, conflict and daily life."
-coverImage: "/blog-images/cover-gemini-and-sagittarius-compatibility.webp"
+coverImage: "/blog-images/cover-gemini-and-sagittarius-compatibility-creative-v2.webp"
 metaTitle: "Gemini and Sagittarius Compatibility: Love and Trust | The Psychic Studio"
 published: "true"
 ---
@@ -12,7 +12,7 @@ Gemini and Sagittarius are opposite signs, six apart on the zodiac wheel, and op
 
 This guide covers how Gemini and Sagittarius get along in love, where they clash and which tarot cards fit each side. Compatibility in astrology is a reflection tool, not a verdict on any real couple.
 
-![Friends laughing together on a road trip](/blog-images/3989923.webp)
+![Planning travel illustrates curiosity gathering facts while a shared direction gives them meaning](/blog-images/gemini-and-sagittarius-compatibility-creative-1.webp)
 
 ## Gemini and Sagittarius at a glance
 
@@ -34,7 +34,7 @@ Honesty is the second fault line. Sagittarius is famous for bluntness and calls 
 
 And both signs dodge the same thing: boredom, and the ordinary maintenance of a shared life. Bills, schedules, follow-through. Somebody has to run the household while the two adventurers plan the next adventure.
 
-![A notebook resting on a world map, mid planning](/blog-images/8828672.webp)
+![Household routines illustrate maintaining daily life alongside novelty and freedom](/blog-images/gemini-and-sagittarius-compatibility-creative-2.webp)
 
 ## Love and trust
 
@@ -55,8 +55,6 @@ Together the two cards describe the relationship neatly: The Lovers brings the m
 Two practices carry this pair. First, build novelty into the ordinary instead of only into the exceptional: a standing plan that changes every month beats a grand trip followed by a silent house. Second, translate the honesty. Gemini should say the direct version once before the softened one, and Sagittarius should deliver the blunt version once kindly instead of three times raw.
 
 For the other famous opposition in the zodiac, see our [Aquarius and Leo compatibility](/blog/aquarius-leo-compatibility) guide, and for a pairing of neighbours rather than opposites, [Capricorn and Aquarius](/blog/capricorn-and-aquarius-compatibility).
-
-![Three women laughing in the back of a car](/blog-images/3989931.webp)
 
 ## Questions about Gemini and Sagittarius
 

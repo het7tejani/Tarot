@@ -3,7 +3,7 @@ title: "Justice Tarot Card Meaning: Fairness, Truth and Cause and Effect"
 category: "Tarot"
 date: "2026-11-17"
 excerpt: "The Justice tarot card meaning is accountability: truth weighed carefully, choices meeting their consequences, and fairness you can act on today."
-coverImage: "/blog-images/cover-justice-tarot-card-meaning.webp"
+coverImage: "/blog-images/cover-justice-tarot-card-meaning-creative-v2.webp"
 metaTitle: "Justice Tarot Card Meaning: Upright, Reversed, Love | The Psychic Studio"
 published: "true"
 ---
@@ -12,7 +12,7 @@ The Justice tarot card meaning is cause and effect made visible. Justice is card
 
 In the Rider-Waite deck a crowned figure sits on a stone throne between two grey pillars, a purple veil hanging behind her. In her right hand she holds a sword pointing straight up. In her left she holds a pair of golden scales. A small square clasp fastens her red robe, and one white shoe peeks out from beneath it.
 
-![A brass balance scale on a wooden table, the symbol at the heart of the Justice card](/blog-images/6077961.webp)
+![Sharing household responsibilities illustrates balanced effort between partners](/blog-images/justice-tarot-card-meaning-creative-1.webp)
 
 ## What the Justice card shows
 
@@ -36,15 +36,13 @@ In love, Justice points to balance between two people. Who carries the planning,
 
 In work, Justice favors the person who has done the job properly. Reviews, audits, contracts and negotiations all sit on this card's desk. The advice is consistent: document, be precise, and let the facts carry the argument. Where [the Chariot](/blog/the-chariot-tarot-card-meaning) wins by force of will, Justice wins by being right and being able to show it.
 
-![A judge's desk with gavel and scales, Justice energy in ordinary working life](/blog-images/5669619.webp)
+![Reviewing a contract illustrates accountability through documented facts](/blog-images/justice-tarot-card-meaning-creative-2.webp)
 
 ## Justice reversed
 
 Reversed, Justice points to a tilted scale. Someone is carrying more than their share, a story is being bent, or a standard is being applied unevenly. Sometimes the tilt is external: an unfair process, a one-sided arrangement, blame landing on the wrong person. Sometimes it is internal: the account you avoid opening, the apology you keep postponing, the version of events you have stopped checking against the facts.
 
 The reversed card is a prompt, not a verdict. Rebalance what you can reach. Correct the record where it is yours to correct. And where a process is genuinely stacked, stop treating its outcome as a measure of your worth.
-
-![A small tower of balanced stones, the steady rebalancing the reversed Justice card asks for](/blog-images/5362115.webp)
 
 ## Common questions about Justice
 

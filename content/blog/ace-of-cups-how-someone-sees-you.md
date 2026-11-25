@@ -3,7 +3,7 @@ title: "Ace of Cups: How Someone Sees You When This Card Appears"
 category: "Tarot"
 date: "2026-11-16"
 excerpt: "The Ace of Cups as how someone sees you reads as warmth, openness and the start of a feeling. What it suggests upright and reversed, in love, friendship and work."
-coverImage: "/blog-images/cover-ace-of-cups-how-someone-sees-you.webp"
+coverImage: "/blog-images/cover-ace-of-cups-how-someone-sees-you-creative-v2.webp"
 metaTitle: "Ace of Cups: How Someone Sees You (Upright and Reversed) | The Psychic Studio"
 published: "true"
 ---
@@ -12,7 +12,7 @@ The Ace of Cups is the tarot's card of a feeling just beginning, and in a "how s
 
 A tarot card cannot look inside another person's mind. It gives you an image to think with. This one asks what happens when someone lets themselves feel something for the first time, and what that early warmth is worth.
 
-![Water being poured into a glass](/blog-images/5051043.webp)
+![Offering tea illustrates receiving warmth as a new emotional beginning](/blog-images/ace-of-cups-how-someone-sees-you-creative-1.webp)
 
 ## What the Ace of Cups shows
 
@@ -34,7 +34,7 @@ Reversed, the Ace of Cups describes feeling that cannot quite get out. As how so
 
 Sometimes the reversed card points the other way: they see you as the closed one. They feel your warmth flicker and then retreat, and they cannot tell whether you are interested or just polite. If that reading fits, the card is asking what you are protecting, and whether it still needs protecting.
 
-![Latte art in the shape of a heart in a red cup](/blog-images/28480091.webp)
+![Holding a cup close illustrates respecting guarded feelings without pressure](/blog-images/ace-of-cups-how-someone-sees-you-creative-2.webp)
 
 ## In love, friendship and work
 
@@ -49,8 +49,6 @@ At work, the Ace of Cups reads as goodwill: a colleague, client or manager who g
 Receive it. The Ace of Cups is a card about allowing feeling in, and its most common practical failure is suspicion: someone offers warmth and the other person audits it for a trick. If someone has been warm toward you, this card is a nudge to stop checking the offer for flaws and answer it.
 
 If the card appears reversed, name what is blocking the flow. Old hurt deserves honesty, not permanent custody of your future. And if you are asking about someone from a chapter that has closed, our guide to [thinking about an ex and its spiritual meaning](/blog/thinking-about-ex-spiritual-meaning) looks at what remains.
-
-![A person in a yellow sweater pouring water](/blog-images/6853442.webp)
 
 ## Questions about the Ace of Cups
 

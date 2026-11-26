@@ -11,3 +11,7 @@
 .cms-functional .cms-recipient a{display:block;margin-top:12px}.cms-functional .cms-confirm{margin-top:16px}
 
 
+
+.checkout-live .checkout-brand{max-width:none;width:100%;box-sizing:border-box;margin:0;padding-left:32px;padding-right:32px}.checkout-saved-details{border-top:1px solid #dfd9ce;margin-top:18px;padding-top:18px}.checkout-saved-details h3{font-size:16px;margin:0 0 16px}.checkout-saved-details dl{margin:0;display:grid;gap:7px}.checkout-saved-details dt{font-size:11px;color:#6b7364;margin-top:6px}.checkout-saved-details dd{margin:0;font-size:14px;line-height:1.6;overflow-wrap:anywhere}.checkout-saved-details p{font-size:12px}@media(max-width:760px){.checkout-live .checkout-brand{padding-left:20px;padding-right:20px}}
+
+.checkout-live .checkout-footer{max-width:none;width:100%;box-sizing:border-box;padding-left:32px;padding-right:32px}@media(max-width:760px){.checkout-live .checkout-footer{padding-left:20px;padding-right:20px}}

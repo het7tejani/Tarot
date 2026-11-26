@@ -1,3 +1,4 @@
+import '../studio/compatibility.css';
 import { SEO_PASS_SECTIONS, SEO_CONTEXT_LINKS } from '../data/seoPass17';
 import { SEARCH_SNIPPETS } from '../data/searchSnippetUpdates';
 import { SearchGuidance } from '../components/SearchGuidance';
@@ -27,6 +28,7 @@ const ZodiacArc: React.FC = () => <div className="st-hand-arc" aria-hidden="true
 const GLYPHS = ['♈','♉','♊','♋','♌','♍','♎','♏','♐','♑','♒','♓'];
 const cap = (s: string) => s.charAt(0).toUpperCase() + s.slice(1);
 const norm = (s: string) => s.toLowerCase().replace(/^the\s+/, '').replace(/[^a-z]/g, '');
+const COMPATIBILITY_ART = new Set(["cancer-and-leo", "capricorn-and-capricorn", "aries-and-taurus", "aries-and-leo", "leo-and-virgo", "cancer-and-cancer", "cancer-and-sagittarius", "aries-and-virgo", "cancer-and-virgo", "cancer-and-libra", "cancer-and-aquarius", "cancer-and-pisces", "aquarius-and-libra", "aquarius-and-pisces", "capricorn-and-aquarius", "cancer-and-capricorn", "aries-and-libra", "cancer-and-scorpio", "aquarius-and-aquarius", "aries-and-scorpio", "aries-and-aquarius", "aries-and-aries", "aries-and-gemini", "aries-and-cancer", "aries-and-capricorn", "aries-and-pisces", "aries-and-sagittarius"]);
 const byPath: Record<string, SeoPageDef> = Object.fromEntries(ALL_SEO_PAGES.map((p) => [p.path, p]));
 
 const DailyCard: React.FC<{ signIndex: number; label: string }> = ({ signIndex, label }) => {
@@ -228,6 +230,31 @@ const compatBlurb = (a: string, b: string) => {
   return { A, B };
 };
 
+// Progressive enhancement: readable without JavaScript and with reduced motion.
+const CompatibilityMotion: React.FC<{ path: string }> = ({ path }) => {
+  React.useEffect(() => {
+    const media = window.matchMedia('(prefers-reduced-motion: reduce)');
+    if (media.matches || !('IntersectionObserver' in window)) return;
+    const targets = Array.from(document.querySelectorAll<HTMLElement>('.st-compat-page .st-compat-content h2, .st-compat-page .st-compat-content p'));
+    const observer = new IntersectionObserver(entries => entries.forEach(entry => {
+      if (!entry.isIntersecting) return;
+      entry.target.classList.add('st-copy-visible');
+      observer.unobserve(entry.target);
+    }), { threshold: 0, rootMargin: '0px 0px 24px 0px' });
+    targets.forEach(el => {
+      if (el.getBoundingClientRect().top < window.innerHeight) return;
+      el.classList.add('st-copy-reveal');
+      observer.observe(el);
+    });
+    const showAll = () => targets.forEach(el => el.classList.add('st-copy-visible'));
+    const onFind = (event: KeyboardEvent) => { if ((event.ctrlKey || event.metaKey) && event.key.toLowerCase() === 'f') showAll(); };
+    media.addEventListener('change', showAll);
+    window.addEventListener('keydown', onFind);
+    return () => { observer.disconnect(); media.removeEventListener('change', showAll); window.removeEventListener('keydown', onFind); targets.forEach(el => el.classList.remove('st-copy-reveal', 'st-copy-visible')); };
+  }, [path]);
+  return null;
+};
+
 export const SeoPage: React.FC = () => {
   const { pathname } = useLocation();
   const page = byPath[pathname.replace(/\/$/, '') || '/'];
@@ -237,6 +264,7 @@ export const SeoPage: React.FC = () => {
   const related = (page.kind === 'hub-tarot' ? CARD_PAGES.map((c) => c.path) : page.links) || [];
   const N = sign ? cap(sign.n) : '';
 
+  const isCompatibility = page.kind === 'compat';
   const isHoroscope = page.path === '/horoscope' || page.kind === 'horoscope';
   const ctaIcon = <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" aria-hidden="true"><rect x="5" y="3" width="14" height="18" rx="2.5"/><path d="M12 7.2l1.15 2.3 2.5.36-1.8 1.76.43 2.5L12 13.05l-2.24 1.17.42-2.5-1.8-1.76 2.5-.36z" fill="currentColor" stroke="none"/></svg>;
   const card = page.card;
@@ -249,10 +277,11 @@ export const SeoPage: React.FC = () => {
   const major = card?.arcana === 'Major Arcana' ? FREE_TAROT_CARDS.find((c) => norm(c.name) === norm(card.name)) : undefined;
 
   return (
-    <div className={`pt-32 pb-24 bg-[#FAF8F5] min-h-screen text-[#1f2322] ${isHoroscope ? "st-astro-page" : "st-editorial"} ${isPlainGuide ? 'st-visual-guide' : ''}`}>
+    <div className={`pt-32 pb-24 bg-[#FAF8F5] min-h-screen text-[#1f2322] ${isHoroscope ? "st-astro-page" : "st-editorial"} ${isPlainGuide ? 'st-visual-guide' : ''} ${isCompatibility ? 'st-compat-page' : ''}`}>
+      {page.kind === 'compat' && <CompatibilityMotion path={pathname} />}
       <SEOHead title={SEARCH_SNIPPETS[page.path]?.title ? SEARCH_SNIPPETS[page.path].title! : page.title.includes("| The Psychic Studio") ? page.title : `${page.title} | The Psychic Studio`} description={SEARCH_SNIPPETS[page.path]?.meta || page.meta} schema={reflection && card ? {'@context':'https://schema.org','@type':'FAQPage',mainEntity:[{'@type':'Question',name:`What does ${card.name} mean in a reading?`,acceptedAnswer:{'@type':'Answer',text:`${reflection.theme}. Read that theme with your question, the card's position and the surrounding cards. There is no single interpretation that fits every situation.`}},{'@type':'Question',name:`Is ${card.name} reversed a bad sign?`,acceptedAnswer:{'@type':'Answer',text:`No. Its reversed reflection is ${reflection.challenge.toLowerCase()}. Use that as a question about your situation, not a judgment or a guaranteed prediction.`}},{'@type':'Question',name:`Can ${card.name} tell me how someone feels?`,acceptedAnswer:{'@type':'Answer',text:"It can help you reflect on relationship themes, but it cannot verify another person's thoughts or intentions. Ask directly and pay attention to their words and actions."}}]} : undefined} canonicalUrl={page.path} />
       <div className={`mx-auto px-4 sm:px-6 lg:px-8 ${isHoroscope ? "st-astro-wrap" : page.kind === 'hub-tarot' ? "max-w-6xl" : "max-w-4xl"}`}>
-        <div className={isHoroscope ? "st-astro-hero" : "st-editorial-heading"}>
+        <div className={isHoroscope ? "st-astro-hero" : isCompatibility ? 'st-compat-hero' : "st-editorial-heading"}>
           <div>
             <p className="eyebrow">{isHoroscope ? 'A little perspective from the stars' : 'The Psychic Studio'}</p>
             <h1 className="text-4xl sm:text-5xl font-semibold tracking-tight mb-5">{page.h1}</h1>
@@ -267,6 +296,7 @@ export const SeoPage: React.FC = () => {
               </div>
             )}
           </div>
+          {page.kind === 'compat' && page.a && page.b && (COMPATIBILITY_ART.has(page.path.split('/').pop() || '') ? <figure className="st-compat-poster"><img src={`/compatibility/${page.path.split('/').pop()}.webp`} alt={`${cap(page.a)} and ${cap(page.b)} compatibility illustration`} width={1536} height={1024} fetchPriority="high" /></figure> : <div className="st-compat-type" aria-hidden="true"><span>{cap(page.a)}</span><i>&amp;</i><span>{cap(page.b)}</span></div>)}
           {isHoroscope && (sign ? <div className="st-sign-orbit" aria-hidden="true"><img className="st-sign-drawing" src={`/perf-assets/signs/${sign.n}.svg`} alt="" width={340} height={423} loading="eager" fetchPriority="high" decoding="async" /><span className="st-orbit-label">{N}</span></div> : <div className="st-wheel-slice st-hand-slice"><ZodiacArc /></div>)}
         </div>
         {(page.kind === 'zodiac' || page.kind === 'dates') && (
@@ -370,30 +400,36 @@ export const SeoPage: React.FC = () => {
         {page.kind === 'compat' && page.a && page.b && (() => {
           const { A, B } = compatBlurb(page.a, page.b);
           return (
-            <>
-              <H2>{cap(A.n)}: {A.traits}</H2>
-              <P>{A.love}</P>
-              {A.n !== B.n && <><H2>{cap(B.n)}: {B.traits}</H2>
-              <P>{B.love}</P></>}
-              <H2>Making it work</H2>
+            <div className="st-compat-content">
+              <div className="st-compat-signs"><section><span className="eyebrow">{A.el} · {A.mod}</span><H2>{cap(A.n)}: {A.traits}</H2>
+              <P>{A.love}</P></section>
+              {A.n !== B.n && <section><span className="eyebrow">{B.el} · {B.mod}</span><H2>{cap(B.n)}: {B.traits}</H2>
+              <P>{B.love}</P></section>}</div>
+              <section className="st-compat-panel"><H2>Making it work</H2>
               <P>{A.n === B.n ? `Two ${cap(A.n)} partners share the same pace and the same blind spots, so talk openly about who leads and who gives way.` : `${cap(A.n)} is ${A.mod.toLowerCase()} and ${cap(B.n)} is ${B.mod.toLowerCase()}, so talk openly about pace, decisions and who leads.`} Ask what each of you needs to feel safe and appreciated, and say it plainly.</P>
-              <H2>{A.el === B.el ? `Two ${A.el.toLowerCase()} signs` : `${A.el} and ${B.el.toLowerCase()} together`}</H2>
+</section>
+              <section className="st-compat-panel"><H2>{A.el === B.el ? `Two ${A.el.toLowerCase()} signs` : `${A.el} and ${B.el.toLowerCase()} together`}</H2>
               <P>{elementPair(A.el, B.el)}</P>
               <P>{A.n === B.n ? `Both partners are ${A.mod.toLowerCase()}, so they hold their positions the same way and neither gives ground easily. Agree early on how decisions get made.` : A.mod === B.mod ? `Both signs are ${A.mod.toLowerCase()}, so they move at a similar pace and tend to want the same kind of change at the same time. Disagreements come from competing for the same role rather than from different rhythms.` : `${cap(A.n)} is ${A.mod.toLowerCase()} and ${cap(B.n)} is ${B.mod.toLowerCase()}, which gives them different rhythms. One may start, hold or adjust at a different time than the other, and naming that early saves a lot of misreading.`}</P>
-              <H2>In love, friendship and work</H2>
+</section>
+              <section className="st-compat-panel"><H2>In love, friendship and work</H2>
               <P><strong>Love.</strong> {A.n === B.n ? `Two ${cap(A.n)} partners recognize each other quickly, which is both the pull and the problem. Each one knows what the other wants, so the hard part is saying it out loud before it turns into a test.` : `${LOVE_BY_ELEMENT[[A.el, B.el].sort().join('|')] ?? ''} Because ${cap(A.n)} and ${cap(B.n)} show care in different ways, it helps to say plainly what each gesture means.`}</P>
               <P><strong>Work.</strong> {A.n === B.n ? A.work : `${A.work} ${B.work}`} As coworkers or business partners they do best when each person owns a clear piece of the job.</P>
-              <H2>What each sign brings</H2>
+</section>
+              <section className="st-compat-panel"><H2>What each sign brings</H2>
               <P>{A.strengths}</P>
               {A.n !== B.n && <P>{B.strengths}</P>}
-              <H2>A practice to try together</H2>
+</section>
+              <section className="st-compat-panel"><H2>A practice to try together</H2>
               <P>{A.growth}</P>
               {A.n !== B.n && <P>{B.growth}</P>}
-              <H2>The tarot link</H2>
+</section>
+              <section className="st-compat-panel"><H2>The tarot link</H2>
               <P>{A.n === B.n ? A.tarot : `${A.tarot} ${B.tarot}`} Draw a card for each of you in the <Link to="/free-tarot" className="text-[#73a89a] font-semibold">free tarot reading</Link> and compare what each one asks of the relationship.</P>
               <P>Explore the <Link to={`/tarot-card-meanings/${A.cardSlug}`} className="text-[#73a89a] font-semibold">{A.card}</Link> card{A.n !== B.n && <>, the <Link to={`/tarot-card-meanings/${B.cardSlug}`} className="text-[#73a89a] font-semibold">{B.card}</Link> card</>}, and the daily tarot reflections for <Link to={`/horoscope/${A.n}`} className="text-[#73a89a] font-semibold">{cap(A.n)}</Link>{A.n !== B.n && <> and <Link to={`/horoscope/${B.n}`} className="text-[#73a89a] font-semibold">{cap(B.n)}</Link></>}.</P>
               <P>Sun signs describe only part of a match. Compare full birth charts for a fuller view, and treat any pairing guide as reflection rather than a verdict on a relationship.</P>
-            </>
+</section>
+            </div>
           );
         })()}
 
@@ -521,7 +557,7 @@ export const SeoPage: React.FC = () => {
         {related.length > 0 && page.kind !== 'hub-tarot' && page.path !== '/horoscope' && (
           <>
             <H2>Keep exploring</H2>
-            <LinkGrid paths={Array.from(new Set(page.kind === 'hub-compat' ? related : related.slice(0, 24)))} />
+            {isCompatibility ? <div className="st-compat-explore"><LinkGrid paths={Array.from(new Set(related))}/></div> : <LinkGrid paths={Array.from(new Set(page.kind === 'hub-compat' ? related : related.slice(0,24)))}/> }
           </>
         )}
 

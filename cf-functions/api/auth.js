@@ -4,7 +4,9 @@ import { rateLimited } from './_shim.js';
 
 export async function onRequest(context) {
   const { request, env } = context;
-  if (rateLimited(request)) {
+  let limited;
+  try { limited=await rateLimited(request,env); } catch { return new Response('Temporarily unavailable.',{status:503,headers:{'Cache-Control':'no-store'}}); }
+  if (limited) {
     return new Response('Too many attempts. Wait a minute and try again.', { status: 429, headers: { 'Content-Type': 'text/plain' } });
   }
   const id = env.OAUTH_GITHUB_CLIENT_ID;

@@ -1,3 +1,4 @@
+import {boundedBody,safeError} from '../../checkout/lib/http.mjs';
 // CSP violation report collector. Port of api/csp-report.js for Pages Functions. Logs to Pages function logs; no PII stored.
 export async function onRequestPost(context) {
   const { request } = context;
@@ -6,7 +7,7 @@ export async function onRequestPost(context) {
     return new Response(JSON.stringify({ error: 'Forbidden' }), { status: 403, headers: { 'Content-Type': 'application/json' } });
   }
   try {
-    const raw = (await request.text()).slice(0, 8000);
+    const raw = await boundedBody(request,8000);
     let report;
     try { report = JSON.parse(raw); } catch { report = { unparseable: raw.slice(0, 500) }; }
     const entry = report['csp-report'] || report;
@@ -19,8 +20,7 @@ export async function onRequestPost(context) {
     }));
     return new Response(null, { status: 204 });
   } catch (e) {
-    console.error('[csp-report] error', e.message);
-    return new Response(null, { status: 204 });
+    return safeError(e);
   }
 }
 

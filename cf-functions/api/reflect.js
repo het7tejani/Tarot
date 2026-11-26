@@ -1,23 +1,20 @@
 // Personalised tarot reflection via Gemini free tier. Port of api/reflect.ts for Pages Functions.
 // The API key lives only in the GEMINI_API_KEY secret (set in the Pages project, never in the repo).
-const RATE_WINDOW_MS = 60000;
-const RATE_MAX = 10;
-const hits = new Map();
+import {rateLimited} from './_shim.js';
+import {sameOrigin,jsonBody,safeError} from '../../checkout/lib/http.mjs';
 
 export async function onRequestPost(context) {
   const { request, env } = context;
   const key = env.GEMINI_API_KEY;
   if (!key) return new Response(JSON.stringify({ error: 'not_configured' }), { status: 503, headers: { 'Content-Type': 'application/json' } });
 
-  const ip = request.headers.get('cf-connecting-ip') || request.headers.get('x-forwarded-for')?.split(',')[0]?.trim() || 'anon';
-  const now = Date.now();
-  const recent = (hits.get(ip) || []).filter((t) => now - t < RATE_WINDOW_MS);
-  if (recent.length >= RATE_MAX) return new Response(JSON.stringify({ error: 'rate_limited' }), { status: 429, headers: { 'Content-Type': 'application/json' } });
-  recent.push(now);
-  hits.set(ip, recent);
-
   let body;
-  try { body = await request.json(); } catch { return new Response(JSON.stringify({ error: 'bad_request' }), { status: 400, headers: { 'Content-Type': 'application/json' } }); }
+  try {
+    sameOrigin(request);
+    if(await rateLimited(request,env,'free-reflection'))return new Response(JSON.stringify({error:'rate_limited'}),{status:429,headers:{'Content-Type':'application/json','Cache-Control':'no-store'}});
+    body=await jsonBody(request,4096);
+    if(!body||typeof body!=='object'||Array.isArray(body)||typeof body.question!=='string'||typeof body.card!=='string'||body.question.length>500||body.card.length>80||(body.keywords!==undefined&&(typeof body.keywords!=='string'||body.keywords.length>200)))return new Response(JSON.stringify({error:'bad_request'}),{status:400,headers:{'Content-Type':'application/json'}});
+  } catch(error) { return safeError(error); }
 
   const question = String(body.question || '').slice(0, 500).trim();
   const card = String(body.card || '').slice(0, 80).trim();

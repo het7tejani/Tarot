@@ -2,18 +2,10 @@
 // The Pages project runs with the nodejs_compat compatibility flag, so node:crypto works.
 import crypto from 'node:crypto';
 
-const RATE_WINDOW_MS = 60000;
-const RATE_MAX = 10;
-const hits = new Map();
-
-export function rateLimited(request) {
-  const ip = (request.headers.get('cf-connecting-ip') || request.headers.get('x-forwarded-for') || '').split(',')[0].trim() || 'anon';
-  const now = Date.now();
-  const recent = (hits.get(ip) || []).filter((t) => now - t < RATE_WINDOW_MS);
-  if (recent.length >= RATE_MAX) return true;
-  recent.push(now);
-  hits.set(ip, recent);
-  return false;
+import {allowRequest} from '../../checkout/lib/rate-limit.mjs';
+// Durable edge-IP budget. Not an authenticated per-person identity claim.
+export async function rateLimited(request,env,scope='cms-login') {
+  return !await allowRequest(env,request,scope,10,Date.now(),60000);
 }
 
 export function json(status, value, headers = {}) {

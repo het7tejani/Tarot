@@ -4,6 +4,7 @@
 //  2. The list action uses ONE GitHub GraphQL call instead of 1 REST call per post -
 //     Pages Functions cap at 50 subrequests and the blog has 100+ markdown files.
 import crypto from 'node:crypto';
+import {jsonBody,safeError} from '../../checkout/lib/http.mjs';
 import { rateLimited, json, cookieName, secureEquals, sessionToken, validSession, decodePostRaw } from './_shim.js';
 
 const REPO = 'het7tejani/Tarot';
@@ -16,14 +17,16 @@ export async function onRequestPost(context) {
 
   const expectedOrigin = env.CMS_ORIGIN || 'https://thepsychicstudio.com';
   if (request.headers.get('origin') !== expectedOrigin) return send(403, { error: 'This request did not come from the admin site.' });
-  if (rateLimited(request)) return send(429, { error: 'Too many attempts. Wait a minute and try again.' });
+  let limited;
+  try { limited=await rateLimited(request,env); } catch { return send(503,{error:'Temporarily unavailable.'}); }
+  if (limited) return send(429, { error: 'Too many attempts. Wait a minute and try again.' });
 
   const password = env.CMS_ADMIN_PASSWORD;
   const hash = env.CMS_PASSWORD_HASH, secret = env.CMS_SESSION_SECRET, token = env.CMS_GITHUB_TOKEN;
   if ((!hash && !password) || !secret || !token) return send(503, { error: 'Admin setup is not complete. No changes have been made.' });
 
   let input;
-  try { input = await request.json(); } catch { return send(400, { error: 'Invalid request.' }); }
+  try { input = await jsonBody(request, 5*1024*1024); } catch (error) { return safeError(error); }
   if (!input || typeof input !== 'object') return send(400, { error: 'Invalid request.' });
 
   if (input.action === 'login') {

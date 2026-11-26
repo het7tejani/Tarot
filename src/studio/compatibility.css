@@ -36,3 +36,5 @@
 .st-compat-page:has(.st-compat-poster) .st-compat-hero .eyebrow{margin-bottom:14px}
 .st-compat-page:has(.st-compat-poster) .st-compat-hero p:not(.eyebrow){font-size:14px;line-height:1.65;margin-top:14px}
 }
+
+.st-index-zodiac-groups details{border-top:1px solid #d5d9c4;padding:0}.st-index-zodiac-groups details:last-child{border-bottom:1px solid #d5d9c4}.st-index-zodiac-groups summary{cursor:pointer;list-style:none;display:flex;align-items:center;gap:18px;padding:24px 0;color:#415233;font:26px Georgia,serif}.st-index-zodiac-groups summary::-webkit-details-marker{display:none}.st-index-zodiac-groups summary:before{content:"+";font-size:20px;color:#8f905f}.st-index-zodiac-groups details[open] summary:before{content:"−"}.st-index-zodiac-groups summary span{margin-left:auto;font:12px Arial,sans-serif;color:#858770}.st-index-zodiac-groups details>div{padding-bottom:16px}.st-index-zodiac-groups summary:focus-visible{outline:2px solid #415233;outline-offset:3px}

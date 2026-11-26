@@ -559,7 +559,7 @@ export const SeoPage: React.FC = () => {
         {related.length > 0 && page.kind !== 'hub-tarot' && page.path !== '/horoscope' && (
           <>
             <H2>Keep exploring</H2>
-            {isCompatibility ? <div className="st-compat-explore"><LinkGrid paths={Array.from(new Set(related))}/></div> : <LinkGrid paths={Array.from(new Set(page.kind === 'hub-compat' ? related : related.slice(0,24)))}/> }
+            {page.kind === 'hub-compat' ? <div className="st-index-zodiac-groups">{zodiacNames.map((name,index)=>{const paths=Array.from(new Set(related)).filter(p=>p.split('/').pop()?.split('-and-').includes(name.toLowerCase()));return <details key={name} open={index===0}><summary>{name} pairings<span>{paths.length} guides</span></summary><LinkGrid paths={paths}/></details>})}</div> : isCompatibility ? <div className="st-compat-explore"><LinkGrid paths={Array.from(new Set(related))}/></div> : <LinkGrid paths={Array.from(new Set(related.slice(0,24)))}/> }
           </>
         )}
 

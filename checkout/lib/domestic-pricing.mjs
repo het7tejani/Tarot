@@ -1,6 +1,6 @@
 import {CheckoutError} from './payment.mjs';
 // Separate domestic catalog. Never infer an exchange rate or accept browser amounts.
-// This configuration is intentionally absent until the owner settles final INR prices.
+// Use the owner-approved one-time rate snapshot; never silently refresh prices.
 export function domesticPrice(product,env){
  let tiers;try{tiers=JSON.parse(env.DOMESTIC_INR_TIERS||'null')}catch{throw new CheckoutError('domestic_prices_unavailable')}
  if(!tiers||typeof tiers!=='object'||Array.isArray(tiers))throw new CheckoutError('domestic_prices_unavailable');

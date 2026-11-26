@@ -41,6 +41,12 @@ const write = (route, html) => {
 const shell = (title, description) => template.replace('<!--seo-head-->', headTags({title, description, canonical: 'https://thepsychicstudio.com/', ogType: 'website', image: 'https://thepsychicstudio.com/tarot/the_star.jpg', noindex: true, schema: []}));
 fs.writeFileSync(path.join(dist, '404.html'), shell('Page not found | The Psychic Studio', 'This page could not be found.'));
 write('/admin', shell('Admin | The Psychic Studio', 'Private admin area.'));
+// Explicit private shells prevent public-page hydration and false canonical metadata.
+const privateShell=(title)=>shell(title,'Private reading order area.').replace(/<script[^>]+src="\/studio-(?:tag-manager|consent)\.js"[^>]*><\/script>/g,'').replace(/<link[^>]+href="\/studio-consent\.css"[^>]*>/g,'');
+write('/orders',privateShell('Owner orders | The Psychic Studio'));
+const listingSource=fs.readFileSync(path.join(root,'src/data/etsyListings.ts'),'utf8');
+for(const match of listingSource.matchAll(/"slug":\s*"([^"]+)"/g))write('/checkout/'+match[1],privateShell('Reading checkout | The Psychic Studio'));
+
 
 const sitemap = generateSitemap(root);
 const paths = new Set([...sitemap.matchAll(/<loc>https:\/\/thepsychicstudio\.com([^<]*)<\/loc>/g)].map((m) => m[1] || '/'));

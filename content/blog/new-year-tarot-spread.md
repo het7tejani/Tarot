@@ -3,7 +3,7 @@ title: "New Year Tarot Spread: A Six-Card Reflection for Clarity"
 category: "Tarot Practice"
 date: "2026-10-08"
 excerpt: "Try a six-card new year tarot spread for reflection, priorities and practical steps. Includes card positions, example questions and a review ritual."
-coverImage: "/tarot/wheel_of_fortune.jpg"
+coverImage: "/blog-images/cover-new-year-tarot-spread-creative-v2.webp"
 metaTitle: "New Year Tarot Spread: A Guide | The Psychic Studio"
 published: "true"
 ---
@@ -36,7 +36,7 @@ Consider a habit, expectation or commitment that no longer fits. Release can mea
 
 Ask which part of life needs care, not what will dominate the year. Turn the answer into something you can influence: practice, communication or rest.
 
-![A close view of a tarot spread laid out on a wooden table](/blog-images/7689415.webp)
+![An original six-card spread illustrates reflection positions in two rows of three](/blog-images/new-year-tarot-spread-creative-1.webp)
 
 ### Card 4: What support can I use?
 
@@ -58,7 +58,7 @@ Start with images before definitions. What attracts your attention? What connect
 
 These are examples, not required readings. Position, question and circumstances shape interpretation. Never use a card to override a fact you know.
 
-![Tarot cards arranged beside lavender for a quiet journaling session](/blog-images/14667699.webp)
+![Quiet journaling illustrates recording a reading and planning a later review](/blog-images/new-year-tarot-spread-creative-2.webp)
 
 ## Record and review your reading
 

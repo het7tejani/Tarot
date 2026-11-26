@@ -1,0 +1,30 @@
+[
+  {
+    "slug": "new-year-tarot-spread",
+    "images": [
+      "/blog-images/cover-new-year-tarot-spread-creative-v2.webp",
+      "/blog-images/new-year-tarot-spread-creative-1.webp",
+      "/blog-images/new-year-tarot-spread-creative-2.webp"
+    ],
+    "body_image_captions": [
+      "An original six-card spread illustrates reflection positions in two rows of three",
+      "Quiet journaling illustrates recording a reading and planning a later review"
+    ],
+    "origin": "original generated artwork",
+    "completed": "2026-11-27"
+  },
+  {
+    "slug": "soulmate-tarot-reading-how-it-works",
+    "images": [
+      "/blog-images/cover-soulmate-tarot-reading-how-it-works-creative-v2.webp",
+      "/blog-images/soulmate-tarot-reading-how-it-works-creative-1.webp",
+      "/blog-images/soulmate-tarot-reading-how-it-works-creative-2.webp"
+    ],
+    "body_image_captions": [
+      "A reader compares a tangled pattern with an open path while considering relationship choices",
+      "Three symbolic cards and a journal illustrate reflecting on needs, obstacles and a useful next action"
+    ],
+    "origin": "original generated artwork",
+    "completed": "2026-11-27"
+  }
+]

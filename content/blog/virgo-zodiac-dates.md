@@ -3,7 +3,7 @@ title: "Virgo Zodiac Dates: August 23 to September 22 and the Edge Days"
 category: "Astrology"
 date: "2026-10-26"
 excerpt: "Virgo runs from about August 23 to September 22. Check your exact range, what to do if you were born on the edge, and what defines the sign."
-coverImage: "/perf-assets/signs/virgo.svg"
+coverImage: "/blog-images/cover-virgo-zodiac-dates-creative-v2.webp"
 metaTitle: "Virgo Zodiac Dates: August 23 to September 22 | The Psychic Studio"
 published: "true"
 ---
@@ -18,7 +18,7 @@ Virgo is the sixth sign of the zodiac. The Sun enters it around August 22 or 23 
 
 A few quick checks. An August 23 birthday is Virgo in most years but Leo in some. A September 10 birthday is always Virgo. A September 23 birthday is Libra in most years, and Virgo only when the Sun is late.
 
-![Golden wheat field under a clear sky, the harvest season of Virgo](/blog-images/33305269.webp)
+![A wheat field illustrates the harvest season associated with Virgo](/blog-images/virgo-zodiac-dates-creative-1.webp)
 
 ## Why the dates move by a day
 
@@ -48,7 +48,7 @@ Check a specific pair in the [compatibility guide](/zodiac-compatibility), and s
 
 ## Virgo season in the calendar
 
-![Wheat at harvest time, the season Virgo is named for](/blog-images/33135619.webp)
+![A cleared desk and fresh notebook illustrate an early autumn reset](/blog-images/virgo-zodiac-dates-creative-2.webp)
 
 Virgo season is the end of summer and the start of autumn in the Northern Hemisphere. Many people use it as a reset: new notebooks, new routines, a cleared desk. The timing fits the sign, which treats September as a second January.
 

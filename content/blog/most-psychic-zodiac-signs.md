@@ -3,7 +3,7 @@ title: "Most Psychic Zodiac Signs Ranked: Which Signs Are Called Intuitive"
 category: "Astrology"
 date: "2026-10-25"
 excerpt: "Most psychic zodiac signs ranked by tradition: Pisces, Scorpio and Cancer first, with Leo and the other signs explained in plain terms."
-coverImage: "/perf-assets/signs/pisces.svg"
+coverImage: "/blog-images/cover-most-psychic-zodiac-signs-creative-v2.webp"
 metaTitle: "Most Psychic Zodiac Signs: Intuitive Signs Ranked | The Psychic Studio"
 published: "true"
 ---
@@ -18,7 +18,7 @@ Pisces is the last sign of the zodiac and ruled by Neptune, the planet of dreams
 
 The cost is boundaries. A Pisces who cannot tell their own worry from someone else's gets tired fast. If this sounds like you, our [Pisces zodiac page](/zodiac/pisces) goes through how the sign handles it.
 
-![Calm woman meditating with closed eyes at home](/blog-images/6593243.webp)
+![Offering tea to a tired friend illustrates noticing ordinary cues](/blog-images/most-psychic-zodiac-signs-creative-1.webp)
 
 ## Scorpio: the sign that reads motives
 
@@ -34,7 +34,7 @@ People search for Leo psychic abilities, and the honest answer is that Leo is no
 
 Virgo notices small details others miss. Aquarius gets sudden ideas that feel like they came from outside. Capricorn and Taurus are the least associated with psychic talk, though both can be sharp about people.
 
-![Woman sitting at the table with tarot cards](/blog-images/7179795.webp)
+![Reflective notes illustrate checking impressions against evidence](/blog-images/most-psychic-zodiac-signs-creative-2.webp)
 
 ## Your Sun sign is one input
 

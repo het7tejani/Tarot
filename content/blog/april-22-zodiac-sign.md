@@ -3,7 +3,7 @@ title: "April 22 Zodiac Sign: Taurus Traits, Strengths and Tarot Card"
 category: "Astrology"
 date: "2026-10-27"
 excerpt: "A birthday on April 22 makes you a Taurus. See what the sign says about the date, its decan, and which tarot card fits."
-coverImage: "/perf-assets/signs/taurus.svg"
+coverImage: "/blog-images/cover-april-22-zodiac-sign-creative-v2.webp"
 metaTitle: "April 22 Zodiac Sign: Taurus Traits and Meaning | The Psychic Studio"
 published: "true"
 ---
@@ -18,7 +18,7 @@ The Sun enters Taurus on April 19, 20 or 21, depending on the year. April 22 fal
 
 You will sometimes see April 22 described as an Aries-Taurus cusp birthday. The cusp label is popular, but astrology does not treat it as a separate sign. Your Sun sign is Taurus. For the full range and the edge days, read our [Taurus zodiac dates guide](/blog/taurus-zodiac-dates).
 
-![Spring meadow with wildflowers, the season of the April 22 birthday](/blog-images/31851450.webp)
+![Finishing a garden bench illustrates steady follow-through and everyday comfort](/blog-images/april-22-zodiac-sign-creative-1.webp)
 
 ## What an April 22 birthday looks like in Taurus
 
@@ -38,7 +38,7 @@ The second decan, from about April 30 to May 9, borrows from Virgo and adds deta
 
 [The Empress](/tarot-card-meanings/the-empress) also fits, since Venus rules both. The card is about comfort, growth and taking care of the body and the home. If you want a card for your own day, [draw a free tarot card](/free-tarot). It takes under a minute and needs no account. Tarot works as a reflection tool and does not predict events.
 
-![Cows grazing in a green pasture in spring, a Taurus image](/blog-images/32160917.webp)
+![A library and nurturing garden illustrate the Hierophant and Empress associations](/blog-images/april-22-zodiac-sign-creative-2.webp)
 
 ## Compatibility for an April 22 birthday
 
@@ -50,10 +50,7 @@ Fire and air signs can work with patience on both sides. For a particular pair, 
 
 Late April is the middle of spring in the Northern Hemisphere, and Taurus is the sign most tied to it: planting, rebuilding and slowing down. A simple use of the date is to pick one routine you want to keep and one you have outgrown, then write both down. Taurus energy works best with a small, specific change rather than a full reset.
 
-![Planner and calendar on a pink background, a note for the year ahead](/blog-images/5417666.webp)
-
 Read the [Taurus sign guide](/zodiac/taurus) for more on love, work and habits, and see today's tarot card on the [Taurus horoscope page](/horoscope/taurus). If your month is April, our guide to the [April star sign](/blog/april-star-sign) covers both Aries and Taurus.
-
 
 If your birthday falls two days earlier, read the [April 20 zodiac sign](/blog/april-20-zodiac-sign) guide, since that date sits exactly on the Aries-Taurus edge.
 ## April 22 zodiac questions

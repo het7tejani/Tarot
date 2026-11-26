@@ -3,7 +3,7 @@ title: "Free Love Horoscope and Tarot: How to Use Both for Relationship Question
 category: "Love and Relationships"
 date: "2026-10-28"
 excerpt: "A free love horoscope gives a theme and tarot gives a question. Here is how to combine them for dating, relationships and breakups."
-coverImage: "/tarot/the_lovers.jpg"
+coverImage: "/blog-images/cover-love-horoscope-and-tarot-together-creative-v2.webp"
 metaTitle: "Free Love Horoscope and Tarot: Use Both for Love | The Psychic Studio"
 published: "true"
 ---
@@ -18,7 +18,7 @@ A love horoscope is written for everyone born under one sign. That makes it good
 
 Tarot adds the personal layer. When you draw a card with a question in mind, you read it against your own history, which no horoscope can do. Both tools work best as reflection, and neither one predicts or guarantees an outcome.
 
-![A couple walking hand in hand through a sunflower field](/blog-images/5633825.webp)
+![One card and a notebook illustrate turning a theme into a small action](/blog-images/love-horoscope-and-tarot-together-creative-1.webp)
 
 ## Step by step: horoscope plus one card
 
@@ -40,7 +40,7 @@ Tarot adds the personal layer. When you draw a card with a question in mind, you
 
 [The Star](/tarot-card-meanings/the-star) is the card of recovery after a painful stretch.
 
-![Burning candle next to tarot cards on a table](/blog-images/4790556.webp)
+![A conversation on a walk illustrates acting on reflection rather than repeating a reading](/blog-images/love-horoscope-and-tarot-together-creative-2.webp)
 
 ## Using it by relationship stage
 
@@ -55,8 +55,6 @@ Tarot adds the personal layer. When you draw a card with a question in mind, you
 Signs give a starting point for how two people approach love. Fire signs lead with energy, earth signs with reliability, air signs with talk and water signs with feeling. No pairing is doomed and none is guaranteed. See the [zodiac compatibility guide](/zodiac-compatibility) for how each pair tends to read, or try our post on [Aquarius and Leo compatibility](/blog/aquarius-leo-compatibility).
 
 If you want a longer conversation about your situation, see our [personal readings](/readings).
-
-![A woman holding a card beside burning candles](/blog-images/30160871.webp)
 
 ## Love horoscope questions
 

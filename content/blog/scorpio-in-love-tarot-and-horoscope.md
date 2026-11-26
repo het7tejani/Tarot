@@ -3,7 +3,7 @@ title: "Scorpio in Love: Horoscope Traits, Best Matches and Tarot Cards"
 category: "Astrology"
 date: "2026-10-25"
 excerpt: "How Scorpio acts in love, which signs match best, and which tarot cards readers link to the sign. A plain guide to the Scorpio love horoscope."
-coverImage: "/perf-assets/signs/scorpio.svg"
+coverImage: "/blog-images/cover-scorpio-in-love-tarot-and-horoscope-creative-v2.webp"
 metaTitle: "Scorpio Love Horoscope and Tarot Guide | The Psychic Studio"
 published: "true"
 ---
@@ -20,7 +20,7 @@ A Scorpio will watch you for weeks before it says anything personal. The watchin
 
 The weak spot is control. Scorpio hates being surprised, so it asks questions that sound like interrogation. Jealousy shows up when a partner is vague. The fix is simple and boring: say where you are and who you are with, and a Scorpio relaxes.
 
-![A couple holding hands at sunset](/blog-images/24906842.webp)
+![An attentive conversation illustrates saying what has been held back](/blog-images/scorpio-in-love-tarot-and-horoscope-creative-1.webp)
 
 ## Best matches for Scorpio
 
@@ -36,7 +36,7 @@ Most tarot systems link Scorpio to the Death card. It shows endings that clear s
 
 Some readers also tie Scorpio to the Tower, because Mars is the traditional ruler of the sign, and to the Moon for its hidden side. In a love reading, a Scorpio querent who draws Death usually has a question about letting go of a pattern, not about a person leaving.
 
-![Tarot cards and horoscope on a table](/blog-images/7222056.webp)
+![Renewal imagery illustrates letting go of a repeated pattern](/blog-images/scorpio-in-love-tarot-and-horoscope-creative-2.webp)
 
 ## Scorpio and tarot for love questions
 
@@ -67,7 +67,6 @@ Most systems link Scorpio to the Death card.
 **Is Scorpio loyal in relationships?**
 
 Scorpio is among the most loyal signs once trust is built. It expects the same from a partner.
-
 
 For the wider sign profile and a weekly check in, see our [Scorpio horoscope and tarot guide](/blog/scorpio-horoscope-and-tarot-cards).
 

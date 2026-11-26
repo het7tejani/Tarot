@@ -1,0 +1,67 @@
+[
+  {
+    "slug": "may-star-sign",
+    "images": [
+      "/blog-images/cover-may-star-sign-creative-v2.webp",
+      "/blog-images/may-star-sign-creative-1.webp",
+      "/blog-images/may-star-sign-creative-2.webp"
+    ],
+    "body_image_captions": [
+      "A planted seedling and open sketchbook illustrate steady growth and new ideas",
+      "A birth record and clock illustrate checking a boundary birthday"
+    ],
+    "origin": "original generated artwork"
+  },
+  {
+    "slug": "taurus-month-and-dates",
+    "images": [
+      "/blog-images/cover-taurus-month-and-dates-creative-v2.webp",
+      "/blog-images/taurus-month-and-dates-creative-1.webp",
+      "/blog-images/taurus-month-and-dates-creative-2.webp"
+    ],
+    "body_image_captions": [
+      "Spring blossom illustrates the Taurus seasonal date range",
+      "Watering a garden illustrates giving a slow project steady effort"
+    ],
+    "origin": "original generated artwork"
+  },
+  {
+    "slug": "taurus-personality-traits",
+    "images": [
+      "/blog-images/cover-taurus-personality-traits-creative-v2.webp",
+      "/blog-images/taurus-personality-traits-creative-1.webp",
+      "/blog-images/taurus-personality-traits-creative-2.webp"
+    ],
+    "body_image_captions": [
+      "Careful work illustrates patience and persistence",
+      "Homemade soup and a repaired shelf illustrate practical care"
+    ],
+    "origin": "original generated artwork"
+  },
+  {
+    "slug": "most-psychic-zodiac-signs",
+    "images": [
+      "/blog-images/cover-most-psychic-zodiac-signs-creative-v2.webp",
+      "/blog-images/most-psychic-zodiac-signs-creative-1.webp",
+      "/blog-images/most-psychic-zodiac-signs-creative-2.webp"
+    ],
+    "body_image_captions": [
+      "Offering tea to a tired friend illustrates noticing ordinary cues",
+      "Reflective notes illustrate checking impressions against evidence"
+    ],
+    "origin": "original generated artwork"
+  },
+  {
+    "slug": "leo-psychic-abilities",
+    "images": [
+      "/blog-images/cover-leo-psychic-abilities-creative-v2.webp",
+      "/blog-images/leo-psychic-abilities-creative-1.webp",
+      "/blog-images/leo-psychic-abilities-creative-2.webp"
+    ],
+    "body_image_captions": [
+      "An attentive conversation illustrates noticing another person mood",
+      "Recording expectations and outcomes illustrates checking misses as well as hits"
+    ],
+    "origin": "original generated artwork"
+  }
+]

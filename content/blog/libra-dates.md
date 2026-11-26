@@ -3,7 +3,7 @@ title: "Libra Dates: When Libra Season Starts and What the Sign Means"
 category: "Astrology"
 date: "2026-10-23"
 excerpt: "Libra dates run from September 23 to October 22 in most years. Here is where the boundaries fall, what the seventh sign is like, and how to check a boundary birthday."
-coverImage: "/perf-assets/signs/libra.svg"
+coverImage: "/blog-images/cover-libra-dates-creative-v2.webp"
 metaTitle: "Libra Dates: September and October Zodiac Sign | The Psychic Studio"
 published: "true"
 ---
@@ -12,7 +12,7 @@ Libra season runs from September 23 to October 22 in most years. If your birthda
 
 The boundaries wobble by a day from year to year, because the Sun changes signs at a specific moment rather than at midnight on a fixed date. In some years Libra season begins late on September 22; in others it ends early on October 23. The cusp section below covers those edge cases.
 
-![A statue of Lady Justice holding the scales](/blog-images/30483132.webp)
+![Balance scales in autumn illustrate the air sign represented by an object](/blog-images/libra-dates-creative-1.webp)
 
 ## Libra dates at a glance
 
@@ -30,7 +30,7 @@ Every other zodiac sign is a person, an animal or a hybrid of the two. Libra is 
 
 As an air sign, Libra lives in the world of ideas and conversation. As a Venus-ruled sign, it wants those ideas to be beautiful and the conversation to be pleasant. Put the two together and you get the sign most associated with taste: Libras notice when the lighting is wrong, the font is wrong or the seating plan will cause trouble, usually before anyone else notices anything at all.
 
-![Brass balance scales on a wooden desk](/blog-images/6077961.webp)
+![Adjusting a seating plan illustrates noticing what helps guests feel comfortable](/blog-images/libra-dates-creative-2.webp)
 
 ## Libra strengths and blind spots
 
@@ -41,8 +41,6 @@ The blind spots live in the same place. All that weighing takes time, so Libra i
 ## Born on the Libra cusp
 
 Birthdays from September 22 to 24 sit near the Virgo boundary, and birthdays from October 22 to 23 sit near the Scorpio boundary. On those days, the year and hour of birth decide the sign. A person born on October 23, 1990 can be a Libra while someone born the same date in another year is a Scorpio. A birth chart settles it properly; the [zodiac sign dates](/zodiac-sign-dates) table is the quick check.
-
-![A weathered stone statue of a seated figure](/blog-images/11928388.webp)
 
 ## Libra dates and love: who the scales balance with
 

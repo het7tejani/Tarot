@@ -4,7 +4,7 @@ category: "Tarot Guides"
 date: "2026-10-14"
 excerpt: "Explore The Hermit reversed through solitude, disconnection and returning to conversation. Use gentle reflection prompts without diagnosis or breakup predictions."
 metaTitle: "The Hermit Reversed: Connection | The Psychic Studio"
-coverImage: "/tarot/the_hermit.jpg"
+coverImage: "/blog-images/cover-the-hermit-reversed-connection-creative-v2.webp"
 published: "true"
 ---
 
@@ -28,7 +28,7 @@ The distinction is not a rule a card can measure. It is something to notice over
 
 For The Hermit reversed, a practical reflection might be identifying one form of connection that feels manageable. It could be a short message, a familiar activity or asking someone a specific question. You do not have to become more outgoing to deserve support.
 
-![Tarot cards spread across a wooden reading surface](/uploads/8219802.webp)
+![Restful quiet with an open invitation illustrates solitude balanced with manageable connection](/blog-images/the-hermit-reversed-connection-creative-1.webp)
 
 ## The Hermit reversed in love and relationships
 
@@ -46,7 +46,7 @@ Choose a return that fits the situation. A brief conversation can be enough. You
 
 The Hermit reversed can be an image for that transition: carrying something learned in quiet into a real exchange. It does not require immediate action or a dramatic personal change.
 
-![A tarot deck resting on a stack of books](/uploads/19495045.webp)
+![Joining a familiar small book group illustrates a gradual return to people](/blog-images/the-hermit-reversed-connection-creative-2.webp)
 
 ## A gradual return to people
 

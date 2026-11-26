@@ -3,7 +3,7 @@ title: "October 26 Zodiac Sign: Scorpio Traits, Decan and Tarot Card"
 category: "Astrology"
 date: "2026-10-29"
 excerpt: "A birthday on October 26 makes you a Scorpio. See how the date fits the sign, which decan it falls in and which tarot card matches."
-coverImage: "/perf-assets/signs/scorpio.svg"
+coverImage: "/blog-images/cover-october-26-zodiac-sign-creative-v2.webp"
 metaTitle: "October 26 Zodiac Sign: Scorpio Traits and Meaning | The Psychic Studio"
 published: "true"
 ---
@@ -18,7 +18,7 @@ The Sun enters Scorpio on October 22 or 23, depending on the year. October 26 fa
 
 Scorpio is the eighth sign of the zodiac and the second water sign. It arrives as autumn deepens in the Northern Hemisphere, which is one reason its traits are described as private and intense. For the daily reading side of the sign, see our guide to the [Scorpio horoscope and tarot cards](/blog/scorpio-horoscope-and-tarot-cards).
 
-![Autumn forest floor covered in fallen leaves, the season of an October 26 birthday](/blog-images/34463986.webp)
+![Listening closely during a private conversation illustrates Scorpio trust and loyalty](/blog-images/october-26-zodiac-sign-creative-1.webp)
 
 ## What an October 26 birthday looks like in Scorpio
 
@@ -32,7 +32,7 @@ Each sign splits into three parts of about ten days, called decans. In the moder
 
 October 26 is in the first decan, so it gets the Mars version of Scorpio: the most direct and driven part of the sign. Decan systems differ between astrologers, and none of them changes your Sun sign.
 
-![A dark water surface with a floating autumn leaf, a water sign image](/blog-images/6069779.webp)
+![An old pot and new growth illustrate endings and renewal rather than literal death](/blog-images/october-26-zodiac-sign-creative-2.webp)
 
 ## Tarot card for Scorpio
 

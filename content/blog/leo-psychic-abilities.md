@@ -3,7 +3,7 @@ title: "Leo Psychic Abilities: What Astrology Says About the Sign"
 category: "Astrology"
 date: "2026-10-26"
 excerpt: "Are Leos psychic? Astrology links the sign with strong presence, bold intuition and a flair for reading a room. Here is what that means and what it does not."
-coverImage: "/perf-assets/signs/leo.svg"
+coverImage: "/blog-images/cover-leo-psychic-abilities-creative-v2.webp"
 metaTitle: "Leo Psychic Abilities: What Astrology Says | The Psychic Studio"
 published: "true"
 ---
@@ -18,7 +18,7 @@ Leo is a fire sign ruled by the Sun. Astrology links fire signs with gut-level a
 
 Leo's version of intuition is social. A Leo walks into a party and knows within a minute who is bored, who is flirting and who wants to leave. That is observation at speed, and it feels like a sixth sense to the person doing it.
 
-![A woman holding a crystal ball, a common image of psychic ability](/blog-images/6014336.webp)
+![An attentive conversation illustrates noticing another person mood](/blog-images/leo-psychic-abilities-creative-1.webp)
 
 ## Why the reputation sticks
 
@@ -32,7 +32,7 @@ The card most often tied to Leo is [Strength](/tarot-card-meanings/strength), wh
 
 If you want to see what the cards say about your own instincts, [draw a free tarot reading](/free-tarot) and ask what you are not seeing about a situation.
 
-![Reflection of a woman holding a crystal ball](/blog-images/6014343.webp)
+![Recording expectations and outcomes illustrates checking misses as well as hits](/blog-images/leo-psychic-abilities-creative-2.webp)
 
 ## How to test your own instincts
 

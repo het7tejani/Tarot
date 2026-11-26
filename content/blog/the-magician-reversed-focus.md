@@ -4,7 +4,7 @@ category: "Tarot Guides"
 date: "2026-10-14"
 excerpt: "Explore The Magician reversed through scattered effort, self-doubt and honest communication. Try grounded prompts without assuming a card proves manipulation."
 metaTitle: "The Magician Reversed: Focus Guide | The Psychic Studio"
-coverImage: "/tarot/the_magician.jpg"
+coverImage: "/blog-images/cover-the-magician-reversed-focus-creative-v2.webp"
 published: "true"
 ---
 
@@ -28,7 +28,7 @@ With The Magician reversed, you could ask which resource already available to yo
 
 Do not turn an unfinished project into a judgment about your worth. A missing skill can be learned, a vague task can be clarified and an unrealistic deadline can be discussed.
 
-![A tarot reader holding The Hermit beside a spread of cards](/uploads/36116185.webp)
+![Using one pencil for a first outline illustrates action instead of collecting more tools](/blog-images/the-magician-reversed-focus-creative-1.webp)
 
 ## The Magician reversed in love: examine actions, not labels
 
@@ -46,7 +46,7 @@ Write down one thing you can practice and one sign of progress you can observe. 
 
 The Magician reversed can be a reminder to separate influence from control. You can prepare, communicate and follow through. You cannot make another person respond exactly as you wish.
 
-![A person arranging tarot cards for a reading](/uploads/6944688.webp)
+![Practicing an explanation with a listener illustrates communication without controlling a response](/blog-images/the-magician-reversed-focus-creative-2.webp)
 
 ## Promises, plans and reality checks
 

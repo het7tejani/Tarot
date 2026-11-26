@@ -3,7 +3,7 @@ title: "Four of Wands: How Someone Sees You When This Card Appears"
 category: "Tarot"
 date: "2026-11-02"
 excerpt: "The Four of Wands as how someone sees you reads as warmth, welcome and steadiness. What it means in love, friendship and work, upright and reversed."
-coverImage: "/blog-images/cover-four-of-wands-how-someone-sees-you.webp"
+coverImage: "/blog-images/cover-four-of-wands-how-someone-sees-you-creative-v2.webp"
 metaTitle: "Four of Wands: How Someone Sees You (Upright and Reversed) | The Psychic Studio"
 published: "true"
 ---
@@ -12,7 +12,7 @@ The Four of Wands is the card of welcome. When it lands in a "how someone sees y
 
 As always, tarot reflects. It does not open a window into another person's head. It gives you a picture to think with, and this picture is a warm one.
 
-![A floral archway set for a celebration outdoors](/blog-images/38019973.webp)
+![A garlanded courtyard welcome illustrates the traditional homecoming symbolism](/blog-images/four-of-wands-how-someone-sees-you-creative-1.webp)
 
 ## What the Four of Wands shows
 
@@ -28,7 +28,7 @@ There is often a domestic note. They can picture you in their actual life, at th
 
 A quieter layer: this person may also see you as someone who values loyalty and marks occasions properly. They expect you to remember birthdays and show up when it counts, and they like that about you.
 
-![Friends sharing a dinner table](/blog-images/6955651.webp)
+![Making room at dinner illustrates belonging through a welcoming action](/blog-images/four-of-wands-how-someone-sees-you-creative-2.webp)
 
 ## In love and friendship
 
@@ -47,8 +47,6 @@ It can also flag a mismatch of pace. One of you treats the bond as established w
 In a work reading, this card says colleagues see you as a steady presence who makes teams function. You are associated with finished projects and decent celebrations afterward. That reputation travels further than most people realise.
 
 For the card's full profile, see the [Four of Wands meaning page](/tarot-card-meanings/four-of-wands). If your question is about feelings rather than perception, the [Queen of Wands as feelings](/blog/queen-of-wands-as-feelings) guide pairs well with this one. You can also [draw a free tarot card](/free-tarot) for your own question.
-
-![A wooden gate opening onto a pasture at dawn](/blog-images/18889730.webp)
 
 ## Four of Wands questions
 

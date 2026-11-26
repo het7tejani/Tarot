@@ -4,7 +4,7 @@ category: "Tarot Guides"
 date: "2026-10-13"
 excerpt: "Read The Empress reversed as a prompt about care, creativity and personal space. Explore relationship questions without fertility predictions or health claims."
 metaTitle: "The Empress Reversed: Care Guide | The Psychic Studio"
-coverImage: "/tarot/the_empress.jpg"
+coverImage: "/blog-images/cover-the-empress-reversed-self-care-creative-v2.webp"
 published: "true"
 ---
 
@@ -28,7 +28,7 @@ A card cannot answer those questions for you. It can give you a reason to write 
 
 You might ask someone to share a responsibility, explain when you are available or agree on a smaller commitment. Care can remain generous without being unlimited.
 
-![Tarot cards placed among flowers and leaves for a reflective reading](/uploads/11204760.webp)
+![Sharing household tasks illustrates generous care with room for rest](/blog-images/the-empress-reversed-self-care-creative-1.webp)
 
 ## The Empress reversed in love
 
@@ -46,7 +46,7 @@ Choose a small part you can work on without judging the entire project. Gather m
 
 Rest can be part of the process, but a card does not prescribe a cure for exhaustion. Persistent difficulty or distress deserves appropriate support outside a reading.
 
-![A tarot deck beside a crystal and other reading objects](/uploads/31158454.webp)
+![Experimenting with fabric illustrates creative practice without pressure for a finished result](/blog-images/the-empress-reversed-self-care-creative-2.webp)
 
 ## Does The Empress reversed predict fertility problems?
 

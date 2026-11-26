@@ -3,7 +3,7 @@ title: "May 31 Zodiac Sign: Gemini Traits, Decan and Tarot Card"
 category: "Astrology"
 date: "2026-10-30"
 excerpt: "A birthday on May 31 makes you a Gemini. See how the date fits the sign, where it sits in the decans, and which tarot card matches."
-coverImage: "/perf-assets/signs/gemini.svg"
+coverImage: "/blog-images/cover-may-31-zodiac-sign-creative-v2.webp"
 metaTitle: "May 31 Zodiac Sign: Gemini Traits and Meaning | The Psychic Studio"
 published: "true"
 ---
@@ -18,7 +18,7 @@ The Sun moves from Taurus into Gemini on May 20 or 21. Only those dates can shif
 
 If you are looking up May in general, our [May star sign guide](/blog/may-star-sign) explains why the month splits between Taurus and Gemini.
 
-![Butterfly resting on a yellow wildflower, a light and restless spring image](/blog-images/36669480.webp)
+![Discussing illustrated books together illustrates curiosity and seeing another side](/blog-images/may-31-zodiac-sign-creative-1.webp)
 
 ## What a May 31 birthday looks like in Gemini
 
@@ -40,7 +40,7 @@ The card most often paired with Gemini is [The Lovers](/tarot-card-meanings/the-
 
 A second pairing is [The Magician](/tarot-card-meanings/the-magician), since Mercury rules both the sign and the card's themes of skill and communication. If you want a card for the day, [draw a free tarot card](/free-tarot). It takes under a minute and needs no account. Tarot is a reflection tool and does not predict events.
 
-![Two women talking across a table, the Gemini habit of conversation](/blog-images/10029795.webp)
+![Choosing one creative project to finish illustrates turning curiosity into a result](/blog-images/may-31-zodiac-sign-creative-2.webp)
 
 ## Compatibility for a May 31 birthday
 
@@ -51,8 +51,6 @@ For a specific pair, use the [zodiac compatibility guide](/zodiac-compatibility)
 ## Using the date well
 
 The end of May is a natural point to review the first half of the year. If your birthday is May 31, a useful habit is to list the projects you started and mark which ones you still want. Finish one, drop one on purpose, and keep one going. For a sign that likes options, choosing is the real task.
-
-![Empty road with a junction sign in the hills, a choice of direction](/blog-images/5712829.webp)
 
 Read your sign page for more on love, work and habits: [Gemini sign guide](/zodiac/gemini), and see today's tarot card on the [Gemini horoscope page](/horoscope/gemini).
 

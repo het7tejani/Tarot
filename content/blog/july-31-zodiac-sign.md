@@ -3,7 +3,7 @@ title: "July 31 Zodiac Sign: Leo Traits, Strengths and Tarot Card"
 category: "Astrology"
 date: "2026-10-27"
 excerpt: "A birthday on July 31 makes you a Leo. See what the sign says about the date, its decan, and which tarot card fits."
-coverImage: "/perf-assets/signs/leo.svg"
+coverImage: "/blog-images/cover-july-31-zodiac-sign-creative-v2.webp"
 metaTitle: "July 31 Zodiac Sign: Leo Traits and Meaning | The Psychic Studio"
 published: "true"
 ---
@@ -18,7 +18,7 @@ The Sun enters Leo on July 22 or 23 and leaves it on August 22 or 23. Only the f
 
 Anyone born on July 22 or July 23 should check the exact entry time for their birth year. For July 31, the answer is fixed. The full range is in our [Leo zodiac dates guide](/blog/leo-zodiac-dates).
 
-![Sunflower field under a blue summer sky, the season of the July 31 birthday](/blog-images/4251806.webp)
+![A host listens to an arriving friend, illustrating loyalty through attention](/blog-images/july-31-zodiac-sign-creative-1.webp)
 
 ## What a July 31 birthday looks like in Leo
 
@@ -40,7 +40,7 @@ This decan carries Leo's traits at full strength. The second decan, from about A
 
 [The Sun](/tarot-card-meanings/the-sun) also fits, since the Sun rules the sign. The card is about warmth, clarity and being seen. If you want a card for your own day, [draw a free tarot card](/free-tarot). It takes under a minute and needs no account. Tarot works as a reflection tool and does not predict events.
 
-![Portrait of a lion with a full mane, the symbol of Leo](/blog-images/28844179.webp)
+![Showing one finished project to a trusted friend illustrates a month-end review](/blog-images/july-31-zodiac-sign-creative-2.webp)
 
 ## Compatibility for a July 31 birthday
 
@@ -51,8 +51,6 @@ Water signs can balance Leo's fire when both sides listen. Earth signs ask Leo t
 ## Using the date well
 
 July 31 is the last day of July, so many Leos treat it as a natural checkpoint for the summer. A simple use is to write down one thing you started this year that you are proud of and one thing you let slide. Leo energy runs best with a stated goal and an audience of one trusted person.
-
-![Pen on a calendar page, a note for the next month](/blog-images/19905185.webp)
 
 Read the [Leo sign guide](/zodiac/leo) for more on love, work and habits, and see today's tarot card on the [Leo horoscope page](/horoscope/leo).
 

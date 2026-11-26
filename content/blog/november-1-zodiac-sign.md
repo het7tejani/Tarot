@@ -3,7 +3,7 @@ title: "November 1 Zodiac Sign: Scorpio Traits, Decan and Tarot Card"
 category: "Astrology"
 date: "2026-10-31"
 excerpt: "A birthday on November 1 makes you a Scorpio. See how the date fits the sign, where it sits between two decans and which tarot card matches."
-coverImage: "/blog-images/cover-november-1-zodiac-sign.webp"
+coverImage: "/blog-images/cover-november-1-zodiac-sign-creative-v2.webp"
 metaTitle: "November 1 Zodiac Sign: Scorpio Traits and Meaning | The Psychic Studio"
 published: "true"
 ---
@@ -18,7 +18,7 @@ The Sun enters Scorpio on October 22 or 23, depending on the year, and leaves it
 
 Scorpio is the eighth sign and the second water sign. It falls in the part of the year when daylight shortens in the Northern Hemisphere, and many astrologers tie the sign's private streak to that.
 
-![Misty autumn forest path covered in orange leaves](/blog-images/29295922.webp)
+![Carefully finishing a hand-bound book illustrates focus and staying power](/blog-images/november-1-zodiac-sign-creative-1.webp)
 
 ## What a November 1 birthday looks like in Scorpio
 
@@ -32,7 +32,7 @@ Each sign splits into three decans of about ten days. In the modern system the f
 
 November 1 is the last day of the first decan. A person born on this date is often read as pure Mars Scorpio, with the Pisces softness one day away. Astrologers draw the decan lines differently, and the exact edge depends on the system. None of them changes your Sun sign. Another date in the same decan is covered in the [October 26 zodiac sign](/blog/october-26-zodiac-sign) guide. The next day opens the second decan, covered in the [November 2 zodiac sign](/blog/november-2-zodiac-sign) guide.
 
-![Half moon in a blue sky above autumn trees](/blog-images/35376525.webp)
+![A winter plant and set-aside project illustrate choosing one habit to keep](/blog-images/november-1-zodiac-sign-creative-2.webp)
 
 ## Tarot card for a November 1 birthday
 
@@ -49,8 +49,6 @@ For a specific pairing, use the [zodiac compatibility guide](/zodiac-compatibili
 ## Using the date well
 
 The start of November is a quiet point in the calendar. The holiday rush is over, the days are short and many people turn to planning. A simple use of the date is to pick one habit to keep through winter and one commitment to let go of.
-
-![Lit candle and a notebook on a wooden desk](/blog-images/29459281.webp)
 
 Scorpio does best with one clear choice rather than a long list. See today's tarot card on the [Scorpio horoscope page](/horoscope/scorpio). It reads the day through a card and does not predict events.
 

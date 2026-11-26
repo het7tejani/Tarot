@@ -3,7 +3,7 @@ title: "April 20 Zodiac Sign: Aries or Taurus, and How to Tell Which"
 category: "Astrology"
 date: "2026-11-03"
 excerpt: "An April 20 birthday sits on the exact edge of Aries and Taurus. Some years it is one, some years the other. How to check your year and what both signs say."
-coverImage: "/blog-images/cover-april-20-zodiac-sign.webp"
+coverImage: "/blog-images/cover-april-20-zodiac-sign-creative-v2.webp"
 metaTitle: "April 20 Zodiac Sign: Aries-Taurus Cusp Explained | The Psychic Studio"
 published: "true"
 ---
@@ -12,8 +12,7 @@ The April 20 zodiac sign is the trickiest birthday on the calendar to answer, be
 
 This guide explains why the date sits on the edge, how to check your own year, and what both signs say about the people born on it.
 
-
-![A colorful wildflower meadow in bloom, late April](/blog-images/38031712.webp)
+![Clock, journal and map illustrate checking birth time, date and place at the Aries-Taurus boundary](/blog-images/april-20-zodiac-sign-creative-1.webp)
 
 ## Why April 20 sits on the edge
 
@@ -35,17 +34,13 @@ Aries is a fire sign ruled by Mars, the planet astrology links to drive and dire
 
 The strengths are initiative and nerve. The April 20 Aries starts things, says the plain thing in the meeting and recovers fast from embarrassment. The weak point is impatience with anything slow, including slow people.
 
-
-![A sunlit wildflower meadow in springtime](/blog-images/34002955.webp)
+![Ram and bull studio scenes contrast Aries initiative with Taurus follow-through](/blog-images/april-20-zodiac-sign-creative-2.webp)
 
 ## If your April 20 birthday is Taurus
 
 Taurus is an earth sign ruled by Venus, tied to pleasure, money and taste. An April 20 Taurus is the first Taurus of the year, in the first decan, the pure Venus part of the sign. For the full range of dates, our [Taurus zodiac dates guide](/blog/taurus-zodiac-dates) covers the edges, and the [April star sign](/blog/april-star-sign) post covers both April signs together.
 
 The strengths are steadiness and follow-through. This Taurus keeps the promise and finishes the long project. The weak point is digging in: an April 20 Taurus can defend a habit long past its usefulness. For more, see our guide to [Taurus personality traits](/blog/taurus-personality-traits).
-
-
-![A wildflower meadow in the Austrian spring](/blog-images/37653667.webp)
 
 ## Tarot cards for the two signs
 

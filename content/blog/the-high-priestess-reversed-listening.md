@@ -4,7 +4,7 @@ category: "Tarot Guides"
 date: "2026-10-15"
 excerpt: "Explore The High Priestess reversed through intuition, uncertainty and honest questions. Separate a feeling from a fact with grounded tarot reflection prompts."
 metaTitle: "High Priestess Reversed Guide | The Psychic Studio"
-coverImage: "/tarot/the_high_priestess.jpg"
+coverImage: "/blog-images/cover-the-high-priestess-reversed-listening-creative-v2.webp"
 published: "true"
 ---
 
@@ -26,7 +26,7 @@ Imagine you leave a conversation feeling uneasy. You might have noticed a specif
 
 Write down the words or behavior you actually observed. Then write what you felt and the story you attached to it. Keeping those separate can make a follow-up question clearer: "What did you mean by that?" is more useful than deciding the card has revealed a hidden motive.
 
-![A reader arranging tarot cards beside candles](/uploads/6014339.webp)
+![Separating notes beside an ear, mirror and envelope illustrates observation, feeling and interpretation](/blog-images/the-high-priestess-reversed-listening-creative-1.webp)
 
 ## The High Priestess reversed in love
 
@@ -42,7 +42,7 @@ For work or a practical decision, The High Priestess reversed can become a promp
 
 An inward pause does not replace checking a contract, asking about responsibilities or seeking qualified advice. Nor does uncertainty mean a colleague has a secret agenda. Treat the card as a question generator, not an investigation result. If the quiet comes from withdrawing rather than listening, the [Hermit reversed guide](/blog/the-hermit-reversed-connection) covers the line between solitude and disconnection.
 
-![Hands arranging a tarot spread on a tiled floor](/uploads/11760478.webp)
+![Discussing an agreement and missing model piece illustrates asking for information before deciding](/blog-images/the-high-priestess-reversed-listening-creative-2.webp)
 
 ## A small reflection practice
 

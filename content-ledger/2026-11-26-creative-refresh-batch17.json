@@ -1,0 +1,54 @@
+[
+  {
+    "slug": "queen-of-wands-reversed-reflection",
+    "images": [
+      "/blog-images/cover-queen-of-wands-reversed-reflection-creative-v2.webp",
+      "/blog-images/queen-of-wands-reversed-reflection-creative-1.webp",
+      "/blog-images/queen-of-wands-reversed-reflection-creative-2.webp"
+    ],
+    "body_image_captions": [
+      "Practicing pottery illustrates confidence built through one specific skill",
+      "Focused feedback on a small sketch illustrates finishing a manageable creative project"
+    ],
+    "origin": "original generated artwork"
+  },
+  {
+    "slug": "the-empress-reversed-self-care",
+    "images": [
+      "/blog-images/cover-the-empress-reversed-self-care-creative-v2.webp",
+      "/blog-images/the-empress-reversed-self-care-creative-1.webp",
+      "/blog-images/the-empress-reversed-self-care-creative-2.webp"
+    ],
+    "body_image_captions": [
+      "Sharing household tasks illustrates generous care with room for rest",
+      "Experimenting with fabric illustrates creative practice without pressure for a finished result"
+    ],
+    "origin": "original generated artwork"
+  },
+  {
+    "slug": "the-emperor-reversed-flexible-structure",
+    "images": [
+      "/blog-images/cover-the-emperor-reversed-flexible-structure-creative-v2.webp",
+      "/blog-images/the-emperor-reversed-flexible-structure-creative-1.webp",
+      "/blog-images/the-emperor-reversed-flexible-structure-creative-2.webp"
+    ],
+    "body_image_captions": [
+      "Sharing responsibility for a model illustrates clear roles instead of micromanagement",
+      "Sorting wooden structures illustrates auditing which rules help and which restrict"
+    ],
+    "origin": "original generated artwork"
+  },
+  {
+    "slug": "the-moon-reversed-clarity",
+    "images": [
+      "/blog-images/cover-the-moon-reversed-clarity-creative-v2.webp",
+      "/blog-images/the-moon-reversed-clarity-creative-1.webp",
+      "/blog-images/the-moon-reversed-clarity-creative-2.webp"
+    ],
+    "body_image_captions": [
+      "A real unanswered envelope beside imagined possibilities illustrates separating observation from story",
+      "Colleagues clarify the plan and deadline instead of guessing at hidden criticism"
+    ],
+    "origin": "original generated artwork"
+  }
+]

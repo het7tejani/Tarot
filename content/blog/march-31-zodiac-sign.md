@@ -3,7 +3,7 @@ title: "March 31 Zodiac Sign: Aries Traits, Decan and Tarot Card"
 category: "Astrology"
 date: "2026-10-29"
 excerpt: "A birthday on March 31 makes you an Aries. See how the date fits the sign, which decan it falls in, and which tarot card matches."
-coverImage: "/perf-assets/signs/aries.svg"
+coverImage: "/blog-images/cover-march-31-zodiac-sign-creative-v2.webp"
 metaTitle: "March 31 Zodiac Sign: Aries Traits and Meaning | The Psychic Studio"
 published: "true"
 ---
@@ -18,7 +18,7 @@ The Sun enters Aries on March 19, 20 or 21, depending on the year. March 31 is w
 
 Searches for the "astrological sign for March 31" are common because the date sits in the middle of the first sign of the zodiac. Aries is the start of the astrological year, which is why its traits are often described as direct and beginning-focused. For the full month, see our [April star sign guide](/blog/april-star-sign), which covers the end of Aries as well.
 
-![Plum blossoms on a branch in early spring light, the season of a March 31 birthday](/blog-images/31023332.webp)
+![Building a planter illustrates initiative supported by patient practical work](/blog-images/march-31-zodiac-sign-creative-1.webp)
 
 ## What a March 31 birthday looks like in Aries
 
@@ -32,7 +32,7 @@ Each sign splits into three parts of about ten days, called decans. In the moder
 
 March 31 is usually listed as the first day of the second decan, so it can fall on either side of the line depending on the source. If you want one answer, treat it as an early second decan date: Aries drive with a stronger sense of leadership and pride. Decan systems differ, and none of them changes your Sun sign.
 
-![Close-up of a flame burning against a dark background, a fire sign image](/blog-images/11254617.webp)
+![Three terraces and planetary sculptures illustrate the symbolic Aries decan layers](/blog-images/march-31-zodiac-sign-creative-2.webp)
 
 ## Tarot card for Aries
 

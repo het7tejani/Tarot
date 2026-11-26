@@ -3,7 +3,7 @@ title: "Strength Tarot Card Upright: Keywords, Love and Calm Courage"
 category: "Tarot Guides"
 date: "2026-10-29"
 excerpt: "Strength upright is about patience, courage and calm self-control. See the keywords, the love and career readings, and how to read the card."
-coverImage: "/tarot/strength.jpg"
+coverImage: "/blog-images/cover-strength-tarot-card-upright-meaning-creative-v2.webp"
 metaTitle: "Strength Tarot Card Upright: Keywords, Love and Meaning"
 published: "true"
 ---
@@ -34,7 +34,7 @@ Most readers connect the upright card to these ideas:
 
 The common thread is influence without force. The card tends to appear when a situation needs a slow, kind response more than a loud one.
 
-![A woman standing on a rock at sunrise, a calm and steady pose](/blog-images/4389418.webp)
+![A calm exchange between partners illustrates patience rather than pressure](/blog-images/strength-tarot-card-upright-meaning-creative-1.webp)
 
 ## Strength upright in love
 
@@ -54,7 +54,7 @@ Position changes the emphasis. In a past position, Strength upright can describe
 
 Next to The Tower or The Devil, Strength tends to be read as the calm response to disruption or a pattern you want to loosen. Next to [The Chariot](/tarot-card-meanings/the-chariot), it contrasts willpower driven by control with willpower driven by patience.
 
-![A hand fanning out tarot cards, a reading in progress](/blog-images/7179824.webp)
+![Patient leadership through a model problem illustrates steady confidence at work](/blog-images/strength-tarot-card-upright-meaning-creative-2.webp)
 
 ## Strength upright and reversed
 
@@ -65,7 +65,6 @@ For the full card entry, with love, career and yes-or-no readings, see the [Stre
 ## A simple Strength practice
 
 Pick one situation this week where you usually react quickly. Before you answer, take one slow breath and ask what you actually want from the exchange. Then reply once, calmly. The card is a reminder that a steady response is a skill you can practice.
-
 
 If you pulled a card about waiting rather than acting, the [Hanged Man tarot card meaning](/blog/the-hanged-man-tarot-card-meaning) covers the chosen pause.
 ## Strength tarot questions

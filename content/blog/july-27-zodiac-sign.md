@@ -3,7 +3,7 @@ title: "July 27 Zodiac Sign: Leo Traits, Decan and Tarot Card"
 category: "Astrology"
 date: "2026-10-30"
 excerpt: "A birthday on July 27 makes you a Leo. See how the date fits the sign, which decan it falls in, and which tarot card matches."
-coverImage: "/perf-assets/signs/leo.svg"
+coverImage: "/blog-images/cover-july-27-zodiac-sign-creative-v2.webp"
 metaTitle: "July 27 Zodiac Sign: Leo Traits and Meaning | The Psychic Studio"
 published: "true"
 ---
@@ -16,7 +16,7 @@ This guide covers what the sign says about a July 27 birthday, where the date si
 
 The Sun moves from Cancer into Leo on July 22 or 23. Only those two dates can shift between signs from year to year. July 27 falls well after both, so it stays Leo in every birth year. If you were born on July 22 or 23, a [birth chart](/birth-chart) settles the sign. For July 27, you can stop checking. The full range is laid out in our [Leo zodiac dates guide](/blog/leo-zodiac-dates).
 
-![Close-up of a lion in profile in warm sunlight, the animal tied to Leo](/blog-images/29628441.webp)
+![Giving the cook credit illustrates generosity with attention](/blog-images/july-27-zodiac-sign-creative-1.webp)
 
 ## What a July 27 birthday looks like in Leo
 
@@ -38,7 +38,7 @@ The card most often paired with Leo is [Strength](/tarot-card-meanings/strength)
 
 A second pairing is [The Sun](/tarot-card-meanings/the-sun), since the Sun rules the sign. It matches the Leo habit of making things feel lighter just by being in them. If you want a card for the day, [draw a free tarot card](/free-tarot). It takes under a minute and needs no account. Tarot is a reflection tool and does not predict events.
 
-![Sunflower in bloom against a blue sky, a plant that follows the sun](/blog-images/28396301.webp)
+![A calm lion and summer garden illustrate Leo Strength and Sun associations](/blog-images/july-27-zodiac-sign-creative-2.webp)
 
 ## Compatibility for a July 27 birthday
 
@@ -49,8 +49,6 @@ For a specific pair, use the [zodiac compatibility guide](/zodiac-compatibility)
 ## Using the date well
 
 Late July is the height of summer in the northern hemisphere, and many Leos feel at home in it: long days, plans outdoors, people around. If your birthday is July 27, that timing may feel natural. A simple use of it is to pick one thing you have been quietly good at and let someone see it, instead of waiting to be asked.
-
-![Field of sunflowers at golden hour, a late summer scene](/blog-images/38381273.webp)
 
 Read your sign page for more on love, work and habits: [Leo sign guide](/zodiac/leo), and see today's tarot card on the [Leo horoscope page](/horoscope/leo).
 

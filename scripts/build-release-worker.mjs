@@ -1,0 +1,11 @@
+import {spawnSync} from 'node:child_process';
+import {existsSync,readFileSync,writeFileSync} from 'node:fs';
+const wrangler=process.env.WRANGLER_BIN||'wrangler';
+const r=spawnSync(wrangler,['pages','functions','build','cf-functions','--outdir','dist/_worker.js','--compatibility-date','2026-11-13','--compatibility-flags','nodejs_compat'],{stdio:'inherit'});
+if(r.status!==0)process.exit(r.status||1);
+writeFileSync('dist/_routes.json',JSON.stringify({version:1,include:['/*'],exclude:[]}));
+const worker=readFileSync('dist/_worker.js/index.js','utf8');
+for(const required of ['create-domestic','manual-complete','orders-owner','domestic-catalog'])if(!worker.includes(required))throw Error('Missing checkout route: '+required);
+const sitemap=readFileSync('dist/sitemap.xml','utf8');if((sitemap.match(/<loc>/g)||[]).length<380)throw Error('Incomplete sitemap');
+if(!existsSync('dist/orders.html'))throw Error('Missing owner shell');
+console.log('Release artifact includes checkout worker, full privacy boundary and public sitemap.');

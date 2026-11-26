@@ -8,7 +8,8 @@
     "build": "node scripts/blog-image-sizes.mjs && PRERENDER_STRICT=1 vite build && vite build --ssr src/entry-server.tsx --outDir dist-ssr && PRERENDER_STRICT=1 node scripts/prerender.mjs && node scripts/check-seo.mjs && node scripts/crawl-readiness.mjs && node scripts/check-markdown.mjs",
     "preview": "vite preview",
     "clean": "rm -rf dist dist-ssr server.js",
-    "lint": "tsc --noEmit"
+    "lint": "tsc --noEmit",
+    "build:release": "node scripts/blog-image-sizes.mjs && PRERENDER_STRICT=1 vite build && vite build --ssr src/entry-server.tsx --outDir dist-ssr && PRERENDER_STRICT=1 node scripts/prerender.mjs && node scripts/check-seo.mjs && node scripts/crawl-readiness.mjs && node scripts/check-markdown.mjs && node scripts/build-release-worker.mjs"
   },
   "dependencies": {
     "@google/genai": "^2.4.0",

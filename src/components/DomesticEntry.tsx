@@ -1,6 +1,6 @@
 import React from 'react';
-// Staged only. Parent's production gate remains paused until launch checks close.
-export const DOMESTIC_ENTRY_ENABLED = false;
+// Explicit domestic entry. USD catalog and international inquiry paths remain separate.
+export const DOMESTIC_ENTRY_ENABLED = true;
 const tiers:Record<number,number>={5:46234,9:83221,15:138702};
 export function DomesticEntry({slug,usdTier}:{slug:string;usdTier:number}){
  if(!DOMESTIC_ENTRY_ENABLED)return null;

@@ -1,3 +1,4 @@
+import { DomesticEntry } from '../components/DomesticEntry';
 import { SoulmateReadingGuide } from '../components/SearchGuidance';
 import React from 'react';
 import { Link, useParams } from 'react-router-dom';
@@ -22,6 +23,7 @@ export const ReadingDetail: React.FC = () => {
  <ul className="st-reading-meta"><li>Written reading, made personally for you</li><li>Delivered by email once your inquiry is confirmed</li></ul>
  <a className="btn" href="#ask-about-reading" onClick={() => trackStudioEvent('inquiry_cta_click', { cta_type: 'ask_form', link_url: '#ask-about-reading', page_path: window.location.pathname, reading_slug: r.slug, reading_title: r.title })}>Ask about this reading</a></div>
  </div>
+ <DomesticEntry slug={r.slug} usdTier={r.price}/>
  <p className="st-inquiry-explainer">This is an inquiry, not a checkout. Confirm the scope, format and timing with the studio before you decide.</p>
  <div className="st-reading-layout">
  <div className="st-reading-main st-prose st-reading-sections">

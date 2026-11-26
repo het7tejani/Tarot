@@ -25,7 +25,7 @@ import { FREE_TAROT_CARDS } from '../data/readingsData';
 const zodiacNames = ['Aries','Taurus','Gemini','Cancer','Leo','Virgo','Libra','Scorpio','Sagittarius','Capricorn','Aquarius','Pisces'];
 const ZodiacArc: React.FC = () => <div className="st-hand-arc" aria-hidden="true"><svg className="st-figure-wheel" viewBox="0 0 1000 1000"><g transform="translate(500 500) rotate(180) translate(-500 -500)"><image width="1000" height="1000" href="/perf-assets/zodiac.webp" /></g></svg></div>;
 
-const ORIGINAL_SIGN_ART = new Set(['gemini', 'leo', 'libra']);
+const ORIGINAL_SIGN_ART = new Set(['aries','taurus','gemini','cancer','leo','virgo','libra','scorpio','sagittarius','capricorn','aquarius','pisces']);
 const signArt = (name: string) => `/perf-assets/signs/${name}${ORIGINAL_SIGN_ART.has(name) ? '-original.png' : '.svg'}`;
 const GLYPHS = ['♈','♉','♊','♋','♌','♍','♎','♏','♐','♑','♒','♓'];
 const cap = (s: string) => s.charAt(0).toUpperCase() + s.slice(1);

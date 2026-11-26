@@ -1,5 +1,6 @@
 import {spawnSync} from 'node:child_process';
 import {existsSync,readFileSync,writeFileSync} from 'node:fs';
+for(const file of ['navbar-96.webp','navbar-192.webp','navbar-480.png'])if(!existsSync('dist/'+file))throw Error('Missing responsive logo asset: '+file);
 const wrangler=process.env.WRANGLER_BIN||'wrangler';
 const r=spawnSync(wrangler,['pages','functions','build','cf-functions','--outdir','dist/_worker.js','--compatibility-date','2026-11-13','--compatibility-flags','nodejs_compat'],{stdio:'inherit'});
 if(r.status!==0)process.exit(r.status||1);

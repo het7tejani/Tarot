@@ -4,7 +4,7 @@ category: "Astrology"
 date: "2026-10-24"
 excerpt: "Leo zodiac dates are usually July 23 to August 22. Check July 22, July 23 and August 22 cusp birthdays, plus the difference between dates and a birth chart."
 coverImage: "/blog-images/cover-leo-zodiac-dates-creative-v2.webp"
-metaTitle: "Leo Zodiac Dates: July 23 to August 22 | The Psychic Studio"
+metaTitle: "Leo Dates and Cusp Birthdays: July 23 to August 22"
 published: "true"
 ---
 

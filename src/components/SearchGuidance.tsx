@@ -3,6 +3,19 @@ import { Link } from 'react-router-dom';
 
 // Answer related query intent on existing pages, rather than making near-duplicate pages.
 const GUIDES: Record<string, {heading: string; body: React.ReactNode}> = {
+ '/zodiac/leo': {heading: 'Leo dates or the broader sign guide?', body: <>
+  <p>This page brings together Leo's dates, element, ruling planet and traditional love and work themes. For a birthday close to a sign change, the <Link to="/blog/leo-zodiac-dates">Leo dates and cusp guide</Link> focuses on the July and August boundaries and the birth details needed to check them.</p>
+  <p>For a relationship question, explore the <Link to="/zodiac-compatibility">sign-pairing guides</Link>. A sun sign cannot establish whether two people are compatible; use the descriptions to start a conversation about what you actually notice.</p>
+ </>},
+ '/zodiac/gemini': {heading: 'What are Gemini dates?', body: <>
+  <p>This guide uses May 21 to June 20 for Gemini. Near either boundary, the year, time and place of birth matter because the Sun changes signs at a particular moment. Use the <Link to="/blog/gemini-zodiac-dates">Gemini dates guide</Link> for the date-focused explanation, or the <Link to="/zodiac-sign-dates">all-sign date list</Link> to compare neighbouring signs.</p>
+ </>},
+ '/tarot-card-meanings/the-world': {heading: 'The World upright and reversed keywords', body: <>
+  <p><strong>Upright keywords:</strong> completion, integration, closure and recognition of a finished chapter. These terms describe a reflective theme, not proof that a goal has been achieved.</p>
+  <p><strong>Reversed keywords:</strong> loose ends, an unfinished chapter and difficulty finding closure. Ask what is still incomplete before assuming that the card predicts a delay or failure.</p>
+  <h3>Use the keyword with the question</h3><p>For a work question, list what is finished and what still needs a handover. For a relationship question, distinguish a conversation that has ended from one you are still replaying. Compare <Link to="/tarot-card-meanings/the-fool">The Fool</Link> when considering what a new beginning would require after an ending.</p>
+ </>},
+
  '/horoscope/scorpio': {heading: 'Using your Scorpio horoscope today', body: <>
   <p>The daily card above is a reflection prompt, not a calculation of today's planetary transits. A Scorpio horoscope can offer a theme to consider; it cannot tell you what will happen or what another person intends.</p>
   <h3>A check-in for trust and boundaries</h3><p>Think of one situation where you want more certainty. Make two short lists: what has actually been said or done, and what you are filling in yourself. If a conversation is needed, choose one direct question rather than testing the other person or reading between every line.</p>
@@ -24,7 +37,8 @@ const GUIDES: Record<string, {heading: string; body: React.ReactNode}> = {
   <h3>Money, pace and disagreement</h3><p>Talk about a shared budget and what each person counts as worth spending on. For decisions, set a time to explore options and a time to commit. During disagreement, ask whether you are debating the choice itself or feeling unheard. A sign label should never excuse disrespect or pressure.</p>
   <p>Read the individual <Link to="/zodiac/taurus">Taurus</Link> and <Link to="/zodiac/libra">Libra</Link> guides, or use the <Link to="/love-tarot-reading">love tarot question guide</Link> to frame a question around your own choices.</p>
  </>},
- '/tarot-card-meanings/strength': {heading: 'Strength reversed: keywords in context', body: <>
+ '/tarot-card-meanings/strength': {heading: 'Strength upright and reversed keywords', body: <>
+  <p><strong>Strength upright keywords:</strong> patience, steady courage, self-trust and gentle self-control. Connect the keyword to your question and what you can actually do.</p>
   <p>For Strength reversed, try these reflection keywords: self-doubt, depleted patience, forced control and a need for gentleness. They are possible lenses, not a diagnosis or a prediction that you are weak.</p>
   <h3>When the card describes a challenge</h3><p>Imagine preparing for a difficult conversation while already exhausted. "Try harder" may not be the useful message. Ask whether rest, a clear limit or a calmer time would help you respond without either withdrawing or overpowering the other person.</p>
   <h3>When the card offers advice</h3><p>Separate firmness from force. Write one sentence that states what you need without an accusation, then decide what you will do if that need cannot be met. Read <Link to="/tarot-card-meanings/the-chariot">The Chariot</Link> alongside Strength to compare direction and determination with patient self-control.</p>

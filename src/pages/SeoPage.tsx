@@ -25,6 +25,8 @@ import { FREE_TAROT_CARDS } from '../data/readingsData';
 const zodiacNames = ['Aries','Taurus','Gemini','Cancer','Leo','Virgo','Libra','Scorpio','Sagittarius','Capricorn','Aquarius','Pisces'];
 const ZodiacArc: React.FC = () => <div className="st-hand-arc" aria-hidden="true"><svg className="st-figure-wheel" viewBox="0 0 1000 1000"><g transform="translate(500 500) rotate(180) translate(-500 -500)"><image width="1000" height="1000" href="/perf-assets/zodiac.webp" /></g></svg></div>;
 
+const ORIGINAL_SIGN_ART = new Set(['gemini', 'leo', 'libra']);
+const signArt = (name: string) => `/perf-assets/signs/${name}${ORIGINAL_SIGN_ART.has(name) ? '-original.png' : '.svg'}`;
 const GLYPHS = ['♈','♉','♊','♋','♌','♍','♎','♏','♐','♑','♒','♓'];
 const cap = (s: string) => s.charAt(0).toUpperCase() + s.slice(1);
 const norm = (s: string) => s.toLowerCase().replace(/^the\s+/, '').replace(/[^a-z]/g, '');
@@ -106,7 +108,7 @@ const TodayBoard: React.FC = () => {
           const c = FREE_TAROT_CARDS[(key * 31 + (i + 1) * 97) % FREE_TAROT_CARDS.length];
           return (
             <Link key={s.n} to={`/horoscope/${s.n}`} className="st-today-tile">
-              <img className="st-today-art" src={`/perf-assets/signs/${s.n}.svg`} alt="" width={64} height={64} loading="lazy" decoding="async" />
+              <img className="st-today-art" src={signArt(s.n)} alt="" width={64} height={64} loading="lazy" decoding="async" />
               <span className="st-today-sign"><b aria-hidden="true">{GLYPHS[i]}{'\uFE0E'}</b>{cap(s.n)}</span>
               <span className="st-today-dates">{s.dates}</span>
               <span className="st-today-card">{c.name}</span>
@@ -297,7 +299,7 @@ export const SeoPage: React.FC = () => {
             )}
           </div>
           {page.kind === 'compat' && page.a && page.b && (COMPATIBILITY_ART.has(page.path.split('/').pop() || '') ? <figure className="st-compat-poster"><img src={`/compatibility/${page.path.split('/').pop()}.webp`} alt={`${cap(page.a)} and ${cap(page.b)} compatibility illustration`} width={1536} height={1024} fetchPriority="high" /></figure> : <div className="st-compat-type" aria-hidden="true"><span>{cap(page.a)}</span><i>&amp;</i><span>{cap(page.b)}</span></div>)}
-          {isHoroscope && (sign ? <div className="st-sign-orbit" aria-hidden="true"><img className="st-sign-drawing" src={`/perf-assets/signs/${sign.n}.svg`} alt="" width={340} height={423} loading="eager" fetchPriority="high" decoding="async" /><span className="st-orbit-label">{N}</span></div> : <div className="st-wheel-slice st-hand-slice"><ZodiacArc /></div>)}
+          {isHoroscope && (sign ? <div className="st-sign-orbit" aria-hidden="true"><img className={`st-sign-drawing${ORIGINAL_SIGN_ART.has(sign.n) ? ' st-sign-original' : ''}`} src={signArt(sign.n)} alt="" width={340} height={423} loading="eager" fetchPriority="high" decoding="async" /><span className="st-orbit-label">{N}</span></div> : <div className="st-wheel-slice st-hand-slice"><ZodiacArc /></div>)}
         </div>
         {(page.kind === 'zodiac' || page.kind === 'dates') && (
           <div className="st-quick-cta v-minimal">

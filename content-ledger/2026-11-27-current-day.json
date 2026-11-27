@@ -1,0 +1,54 @@
+[
+  {
+    "slug": "m-on-palm-meaning",
+    "published": "2026-11-27",
+    "batch": "current-day, separate from delayed Nov26 batch",
+    "images": [
+      "/blog-images/cover-m-on-palm-meaning-creative-v2.webp",
+      "/blog-images/m-on-palm-meaning-creative-1.webp",
+      "/blog-images/m-on-palm-meaning-creative-2.webp"
+    ],
+    "sources": [
+      "https://dictionary.apa.org/palmistry",
+      "https://www.sciencefocus.com/the-human-body/why-do-we-have-lines-on-the-palms-of-our-hands",
+      "https://science.howstuffworks.com/science-vs-myth/extrasensory-perceptions/palm-reading-lines.htm",
+      "https://www.purplegarden.co/blog/is-the-letter-m-on-your-palm-heres-the-spiritual-meaning",
+      "https://skeptics.nz/latest/releases/palm-reading"
+    ],
+    "words": 753
+  },
+  {
+    "slug": "ring-of-solomon-palmistry",
+    "published": "2026-11-27",
+    "batch": "current-day, separate from delayed Nov26 batch",
+    "images": [
+      "/blog-images/cover-ring-of-solomon-palmistry-creative-v2.webp",
+      "/blog-images/ring-of-solomon-palmistry-creative-1.webp",
+      "/blog-images/ring-of-solomon-palmistry-creative-2.webp"
+    ],
+    "sources": [
+      "https://dictionary.apa.org/palmistry",
+      "https://www.sciencefocus.com/the-human-body/why-do-we-have-lines-on-the-palms-of-our-hands",
+      "https://science.howstuffworks.com/science-vs-myth/extrasensory-perceptions/palm-reading-lines.htm",
+      "https://www.purplegarden.co/blog/the-significance-of-the-ring-of-solomon-in-palmistry"
+    ],
+    "words": 781
+  },
+  {
+    "slug": "is-palm-reading-real",
+    "published": "2026-11-27",
+    "batch": "current-day, separate from delayed Nov26 batch",
+    "images": [
+      "/blog-images/cover-is-palm-reading-real-creative-v2.webp",
+      "/blog-images/is-palm-reading-real-creative-1.webp",
+      "/blog-images/is-palm-reading-real-creative-2.webp"
+    ],
+    "sources": [
+      "https://dictionary.apa.org/palmistry",
+      "https://www.sciencefocus.com/the-human-body/why-do-we-have-lines-on-the-palms-of-our-hands",
+      "https://science.howstuffworks.com/science-vs-myth/extrasensory-perceptions/palm-reading-lines.htm",
+      "https://www.purplegarden.co/blog/is-palm-reading-real-separating-fact-from-fiction"
+    ],
+    "words": 813
+  }
+]

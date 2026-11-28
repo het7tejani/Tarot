@@ -25,8 +25,8 @@ import { FREE_TAROT_CARDS } from '../data/readingsData';
 const zodiacNames = ['Aries','Taurus','Gemini','Cancer','Leo','Virgo','Libra','Scorpio','Sagittarius','Capricorn','Aquarius','Pisces'];
 const ZodiacArc: React.FC = () => <div className="st-hand-arc" aria-hidden="true"><svg className="st-figure-wheel" viewBox="0 0 1000 1000"><g transform="translate(500 500) rotate(180) translate(-500 -500)"><image width="1000" height="1000" href="/perf-assets/zodiac.webp" /></g></svg></div>;
 
-const ORIGINAL_SIGN_ART = new Set(['aries','taurus','gemini','cancer','leo','virgo','libra','scorpio','sagittarius','capricorn','aquarius','pisces']);
-const signArt = (name: string) => `/perf-assets/signs/${name}${ORIGINAL_SIGN_ART.has(name) ? '-original.png' : '.svg'}`;
+const signHeroArt = (name: string, width: 360 | 480) => `/perf-assets/signs/${name}-hero-${width}.webp`;
+const compatArt = (slug: string, width?: 480 | 800 | 1200) => `/compatibility/${slug}${width ? `-${width}` : ''}.webp`;
 const GLYPHS = ['♈','♉','♊','♋','♌','♍','♎','♏','♐','♑','♒','♓'];
 const cap = (s: string) => s.charAt(0).toUpperCase() + s.slice(1);
 const norm = (s: string) => s.toLowerCase().replace(/^the\s+/, '').replace(/[^a-z]/g, '');
@@ -298,8 +298,8 @@ export const SeoPage: React.FC = () => {
               </div>
             )}
           </div>
-          {page.kind === 'compat' && page.a && page.b && (COMPATIBILITY_ART.has(page.path.split('/').pop() || '') ? <figure className="st-compat-poster"><img src={`/compatibility/${page.path.split('/').pop()}.webp`} alt={`${cap(page.a)} and ${cap(page.b)} compatibility illustration`} width={1536} height={1024} fetchPriority="high" /></figure> : <div className="st-compat-type" aria-hidden="true"><span>{cap(page.a)}</span><i>&amp;</i><span>{cap(page.b)}</span></div>)}
-          {isHoroscope && (sign ? <div className="st-sign-orbit" aria-hidden="true"><img className={`st-sign-drawing${ORIGINAL_SIGN_ART.has(sign.n) ? ' st-sign-original' : ''}`} src={signArt(sign.n)} alt="" width={340} height={423} loading="eager" fetchPriority="high" decoding="async" /><span className="st-orbit-label">{N}</span></div> : <div className="st-wheel-slice st-hand-slice"><ZodiacArc /></div>)}
+          {page.kind === 'compat' && page.a && page.b && (() => { const slug = page.path.split('/').pop() || ''; return COMPATIBILITY_ART.has(slug) ? <figure className="st-compat-poster"><img src={compatArt(slug, 800)} srcSet={`${compatArt(slug, 480)} 480w, ${compatArt(slug, 800)} 800w, ${compatArt(slug, 1200)} 1200w`} sizes="(max-width: 760px) 100vw, (max-width: 1120px) 55vw, 620px" alt={`${cap(page.a)} and ${cap(page.b)} compatibility illustration`} width={1536} height={1024} loading="eager" fetchPriority="high" decoding="async" /></figure> : <div className="st-compat-type" aria-hidden="true"><span>{cap(page.a)}</span><i>&amp;</i><span>{cap(page.b)}</span></div>; })()}
+          {isHoroscope && (sign ? <div className="st-sign-orbit" aria-hidden="true"><img className="st-sign-drawing st-sign-original" src={signHeroArt(sign.n, 480)} srcSet={`${signHeroArt(sign.n, 360)} 360w, ${signHeroArt(sign.n, 480)} 480w`} sizes="(max-width: 400px) 85vw, (max-width: 820px) 340px, 480px" alt="" width={340} height={423} loading="eager" fetchPriority="high" decoding="async" /><span className="st-orbit-label">{N}</span></div> : <div className="st-wheel-slice st-hand-slice"><ZodiacArc /></div>)}
         </div>
         {(page.kind === 'zodiac' || page.kind === 'dates') && (
           <div className="st-quick-cta v-minimal">

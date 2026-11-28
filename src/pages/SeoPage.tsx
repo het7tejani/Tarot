@@ -27,6 +27,7 @@ const ZodiacArc: React.FC = () => <div className="st-hand-arc" aria-hidden="true
 
 const ORIGINAL_SIGN_ART = new Set(['aries','taurus','gemini','cancer','leo','virgo','libra','scorpio','sagittarius','capricorn','aquarius','pisces']);
 const signArt = (name: string) => `/perf-assets/signs/${name}${ORIGINAL_SIGN_ART.has(name) ? '-original.png' : '.svg'}`;
+const signThumb = (name: string, scale = '') => `/perf-assets/signs/${name}-thumb${scale}.webp`;
 const GLYPHS = ['♈','♉','♊','♋','♌','♍','♎','♏','♐','♑','♒','♓'];
 const cap = (s: string) => s.charAt(0).toUpperCase() + s.slice(1);
 const norm = (s: string) => s.toLowerCase().replace(/^the\s+/, '').replace(/[^a-z]/g, '');
@@ -108,7 +109,7 @@ const TodayBoard: React.FC = () => {
           const c = FREE_TAROT_CARDS[(key * 31 + (i + 1) * 97) % FREE_TAROT_CARDS.length];
           return (
             <Link key={s.n} to={`/horoscope/${s.n}`} className="st-today-tile">
-              <img className="st-today-art" src={signArt(s.n)} alt="" width={64} height={64} loading="lazy" decoding="async" />
+              <img className="st-today-art" src={signThumb(s.n)} srcSet={`${signThumb(s.n)} 128w, ${signThumb(s.n, '@2x')} 256w`} sizes="64px" alt="" width={64} height={64} loading="eager" fetchPriority={i < 4 ? 'high' : 'low'} decoding="async" />
               <span className="st-today-sign"><b aria-hidden="true">{GLYPHS[i]}{'\uFE0E'}</b>{cap(s.n)}</span>
               <span className="st-today-dates">{s.dates}</span>
               <span className="st-today-card">{c.name}</span>

@@ -1,0 +1,50 @@
+[
+  {
+    "slug": "lilith-mark-on-palm",
+    "published": "2026-11-28",
+    "batch": "current-day",
+    "images": [
+      "/blog-images/cover-lilith-mark-on-palm-creative-v2.webp",
+      "/blog-images/lilith-mark-on-palm-creative-1.webp",
+      "/blog-images/lilith-mark-on-palm-creative-2.webp"
+    ],
+    "sources": [
+      "https://www.purplegarden.co/blog/deciphering-liliths-mark-in-palmistry-what-does-it-mean-for-you",
+      "https://dictionary.apa.org/palmistry",
+      "https://www.sciencefocus.com/the-human-body/why-do-we-have-lines-on-the-palms-of-our-hands",
+      "https://kids.britannica.com/scholars/article/Lilith/48257",
+      "https://science.howstuffworks.com/science-vs-myth/extrasensory-perceptions/palm-reading-lines.htm"
+    ],
+    "words": 780
+  },
+  {
+    "slug": "born-with-a-veil-meaning",
+    "published": "2026-11-28",
+    "batch": "current-day",
+    "images": [
+      "/blog-images/cover-born-with-a-veil-meaning-creative-v2.webp",
+      "/blog-images/born-with-a-veil-meaning-creative-1.webp",
+      "/blog-images/born-with-a-veil-meaning-creative-2.webp"
+    ],
+    "sources": [
+      "https://www.purplegarden.co/blog/how-to-recognize-signs-that-you-are-born-with-a-veil",
+      "https://www.healthline.com/health/pregnancy/en-caul-birth"
+    ],
+    "words": 764
+  },
+  {
+    "slug": "scorpio-personality-female",
+    "published": "2026-11-28",
+    "batch": "current-day",
+    "images": [
+      "/blog-images/cover-scorpio-personality-female-creative-v2.webp",
+      "/blog-images/scorpio-personality-female-creative-1.webp",
+      "/blog-images/scorpio-personality-female-creative-2.webp"
+    ],
+    "sources": [
+      "https://www.purplegarden.co/blog/the-defining-list-of-scorpio-traits-in-females",
+      "https://www.britannica.com/topic/zodiac"
+    ],
+    "words": 829
+  }
+]

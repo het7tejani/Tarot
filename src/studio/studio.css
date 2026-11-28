@@ -584,7 +584,7 @@ header .nav a.on,header a[aria-current=page]{color:#846019!important}
 .st-today-tabs button{background:none;border:0;border-bottom:2px solid transparent;padding:12px 16px;font:inherit;font-weight:600;color:var(--leaf-d);cursor:pointer;opacity:.7}
 .st-today-tabs button:hover{opacity:1}
 .st-today-tabs button.on{border-bottom-color:var(--saffron);opacity:1}
-.st-today-art{width:64px;height:64px;object-fit:contain;margin-bottom:4px}
+.st-today-art{display:block;width:64px;height:64px;margin-bottom:4px;background-image:url(/perf-assets/signs/zodiac-thumbs-sprite.webp);background-size:384px 128px;background-repeat:no-repeat}
 .st-today-dates{font-size:12px;opacity:.6;margin-top:-4px}
 .st-today-more{margin-top:auto;padding-top:6px;font-size:13px;font-weight:700;color:var(--leaf-d)}
 .st-today-sign em{display:none}
